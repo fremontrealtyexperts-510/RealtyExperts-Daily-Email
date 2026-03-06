@@ -1,47 +1,48 @@
 {
-  "date": "03/05/26",
+  "date": "03/06/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/8ae77a78-3328-4bd0-ae6a-20b52b5fb38b",
-  "qr_code_path": "note-qr-8ae77a78.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/07858a6c-5ae8-4565-866c-17c5eec85b85",
+  "qr_code_path": "note-qr-07858a6c.png",
   "stocks": {
-    "sp500": "6,869.50",
-    "dow": "48,501.27",
-    "nasdaq": "22,516.69",
-    "note": "*Numbers as of market close on March 4th at 4:00 PM ET",
-    "news": "Markets edged higher on Tuesday as investors shook off earlier geopolitical jitters. The S&P 500 rose to 6,869.50, the Dow climbed to 48,501.27, and the NASDAQ held steady at 22,516.69. Traders are now eyeing upcoming jobs data and Fed commentary for direction this week."
+    "sp500": "6,830.71 (-0.56%)",
+    "dow": "47,954.74 (-1.13%)",
+    "nasdaq": "22,748.99 (+1.03%)",
+    "note": "*Numbers as of market close on March 5th at 4:00 PM ET",
+    "news": "Markets pulled back sharply on Wednesday as rising oil prices and renewed geopolitical concerns weighed on sentiment. The Dow led declines, dropping over 540 points (-1.13%), while the S&P 500 fell 0.56% to 6,830.71. The NASDAQ bucked the trend, gaining 1.03% to 22,748.99 as tech names held up. Investors remain cautious ahead of Friday's jobs report, which could set the tone for the Fed's next move."
   },
   "economy": {
-    "us10year": "4.14%",
-    "gold": "$5,134.76",
-    "silver": "$82.82",
+    "us10year": "4.17% (+0.03)",
+    "gold": "$5,420.00 (+5.55%)",
+    "silver": "$30.85",
     "note": "",
-    "commentary": "The 10-year Treasury yield ticked up to 4.14%, signaling continued caution around the Fed's rate path. Gold pulled back sharply to $5,134.76 and silver dropped to $82.82, retreating from recent highs as geopolitical tensions in the Middle East showed signs of easing.\n\nDespite the pullback, precious metals remain elevated on a year-over-year basis, reflecting persistent inflation hedging demand and central bank buying."
+    "commentary": "The 10-year Treasury yield rose to 4.17%, its highest level in about a month, as inflation fears intensified amid escalating tensions in the Middle East. Gold surged to a new intraday record of $5,420.00 per ounce — a remarkable move even as yields climbed — driven by stagflation hedging and safe-haven demand in the wake of the Iran conflict.\n\nSilver traded at $30.85, as precious metals broadly reflected the market's growing appetite for defensive positioning. Analysts note that the unusual simultaneous rise in both gold and Treasury yields signals a potential \"stagflationary\" environment, with investors hedging against both inflation and economic slowdown."
   },
   "crypto": {
-    "btc": "$68,573.24",
-    "eth": "$2,012.00",
-    "xrp": "$1.42",
+    "btc": "$68,853.02 (+0.41%)",
+    "eth": "$1,858.00 (-7.65%)",
+    "xrp": "$1.39 (-2.11%)",
     "note": "",
-    "commentary": "Bitcoin retreated to $68,573 as profit-taking continued following last week's rally, while Ethereum held flat at $2,012. XRP was the standout, climbing to $1.42 amid renewed optimism around the CLARITY Act — a bipartisan bill that could provide a clear regulatory framework for digital assets.\n\nAnalysts note that if the CLARITY Act gains traction in Congress, it could trigger a major repricing of XRP and other altcoins that have suffered from regulatory uncertainty."
+    "commentary": "Bitcoin held relatively steady at $68,853, edging up 0.41% as it continues to consolidate above the $68K level. Ethereum, however, dropped sharply by 7.65% to $1,858 as selling pressure intensified amid broader risk-off sentiment. XRP slipped 2.11% to $1.39, pulling back from recent highs.\n\nThe crypto market is showing divergence, with Bitcoin acting as a relative safe haven within the asset class while altcoins face heavier selling. Analysts are watching the $67K support level for BTC as a key indicator of near-term direction."
   },
   "real_estate": {
-    "rate_30year": "6.08%",
-    "rate_15year": "5.47%",
-    "homebuilder": "Eastwood Homes is expanding its Greenville Division with several new communities across the Upstate region of South Carolina, with sales slated to begin in March — a sign that national builders remain confident in housing demand despite elevated rates.",
-    "commentary": "The Bay Area housing market is currently defined by a \"steady but not overheating\" phase, with housing inventory projected to rise roughly 10%. While detached single-family homes remain highly competitive, the condo and townhome segment has shown signs of flattening or slight decline.\n\n📍 Alameda County:\n• Median Sale Price: $925,000 — a 2.4% increase year-over-year\n• Homes Sold: Dropped by nearly 5%, reflecting cautious buyer activity\n• Market Outlook: Entering the critical March–May planning window with steady but measured demand\n\n📍 Santa Clara County:\n• Median Sale Price: $1,299,000\n• Inventory: Sharp month-over-month decline of approximately 25%\n• Key Trend: Single-family homes priced between $2M–$3M remain highly competitive, while condos and townhouses are expected to stay flat due to increased supply from long-term owners looking to sell before capital gains exclusion windows close\n\nLatest General News in the Bay Area:\n\n📰 Community Support in Milpitas: Local organizations recently rallied to support unhoused and immigrant residents following shifts in regional policy.\n\n📰 Legislative Push: Assemblymember Alex Lee has introduced Assembly Bill 1675, aimed at deterring immigration enforcement and removing tax breaks for private detention centers — part of a broader push by Silicon Valley lawmakers.\n\n📰 Farewell to Koong's: The Milpitas community is mourning the closure of Koong's, a staple Chinese restaurant that served the area for over four decades.\n\n📰 Heroic Rescue: Milpitas first responders were recently recognized for rescuing a family from an apartment fire."
+    "rate_30year": "6.11%",
+    "rate_15year": "5.50%",
+    "homebuilder": "Congress is advancing the 21st Century Road to Housing Act, a major reform package aimed at boosting supply and streamlining construction, despite concerns from homebuilders regarding potential investor bans on single-family home purchases.",
+    "commentary": "The Bay Area spring market is showing clear acceleration as of March 2026, with rising inventory and selective strength across the region. Santa Clara County remains the hottest market in the Bay Area, with single-family homes averaging just 14 days on market and a tight 1.0-month supply despite broader regional cooling trends.\n\n📍 Alameda County (Fremont Focus):\n• Median Sale Price: $925,000 — a 2.4% increase year-over-year\n• Homes Sold: Dipped 4.7% as buyers navigate higher interest rates\n• Competition: Properties like 35100 King Ct in Fremont recently sold for 19% over list price\n• Market Outlook: Entering the spring acceleration phase with selective strength\n\n📍 Santa Clara County:\n• Days on Market: Just 14 days for single-family homes\n• Supply: Ultra-tight 1.0-month supply, keeping upward pressure on prices\n• Key Trend: Tech-centric demand continues to drive resilience even as other regions see more moderate price adjustments\n\nLatest General News in the Bay Area:\n\n📰 Fremont: Local investigators clarified that a small fire on a bridge bike lane was not the cause of death for a dog found at the scene earlier this week.\n\n📰 Milpitas Community Support: Community organizations have rallied to provide increased support for unhoused and immigrant residents following recent regional policy shifts. The Milpitas Rotary Foundation and local donors were highlighted for their \"Milpitas Wishes\" campaign to assist community members in need.\n\n📰 Tri-Valley Jobs Fair: Residents in the Tri-Valley area are preparing for the upcoming Spring Job & Apprenticeship Fair scheduled for March 11."
   },
   "sources": [
     "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.mortgagenewsdaily.com/",
-    "https://www.prnewswire.com/news-releases/eastwood-homes-expands-greenville-division-with-new-communities-across-the-upstate-302704374.html",
-    "https://fred.stlouisfed.org/series/SP500",
-    "https://www.schwab.com/learn/story/stock-market-update-open",
-    "https://tradingeconomics.com/united-states/government-bond-yield",
-    "https://www.fool.com/investing/2026/03/04/xrp-is-soaring-today-is-the-cryptocurrency-a-buy/",
+    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-march-6-2026/",
+    "https://www.realtor.com/news/real-estate-news/21st-century-road-to-housing-act-investor-ban-support/",
+    "https://www.zacks.com/stock/news/2879992/stock-market-news-for-mar-6-2026",
+    "https://www.local10.com/business/2026/03/06/dow-drops-900-after-oil-prices-jump-to-highest-in-nearly-2-years-and-data-show-a-slowing-us-economy/",
+    "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data",
+    "https://www.marketpulse.com/markets/chart-alert-gold-xauusd-is-down-3-for-the-week-but-bulls-may-make-a-comeback/",
+    "https://www.financemagnates.com/trending/how-high-can-xrp-go-xrp-price-prediction-for-2026-targets-315/",
+    "https://www.noradarealestate.com/blog/san-francisco-real-estate-market/",
     "https://www.redfin.com/county/303/CA/Alameda-County/housing-market",
-    "https://www.realtor.com/local/market/california/santa-clara-county",
-    "https://homesbyspencerhsu.com/blog/bay-area-real-estate-market-update-january-2026",
-    "https://milpitasbeat.com/category/news/",
-    "https://sanjosespotlight.com/bay-area-lawmakers-author-bills-to-deter-immigration-enforcement/"
+    "https://www.ktvu.com/tag/crime-publicsafety",
+    "https://patch.com/california/livermore/calendar/event/20260314/e67bfe46-9549-4d7e-9c00-c07fe86ebb44/saturday-live-with-meshach-jackson-at-wood-family-vineyards",
+    "https://milpitasbeat.com/category/news/"
   ]
 }
