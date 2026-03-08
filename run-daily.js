@@ -133,7 +133,7 @@ async function main() {
   console.log('  \u2705 ALL DONE!');
   console.log('='.repeat(60));
   console.log(`\n  \ud83d\udce7 Email:     ${emailFile}`);
-  console.log(`  \ud83c\udf10 Web View:  https://user8888-level3.github.io/RealtyExperts-Daily-Email/${emailFile}`);
+  console.log(`  \ud83c\udf10 Web View:  https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/${emailFile}`);
   console.log(`  \ud83d\udcf1 Agent Hub: ${updatedData.agent_hub_link}`);
   console.log(`  \ud83d\udcf7 QR Code:   ${qrFile}`);
   console.log(`\n  Subject: \u201cAt a Glance\u201d Local Housing STATS and News ${data.date}`);
