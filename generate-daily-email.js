@@ -218,7 +218,7 @@ function generateHTML(data) {
           <!-- Header -->
           <tr>
             <td class="email-header" style="background-color: #2563eb; padding: 30px 40px; text-align: center;">
-              <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/2022_Logo_WhiteBox-Realtor.jpg" alt="REALTY EXPERTS®" width="250" style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
+              <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/2022_Logo_WhiteBox-Realtor.jpg" alt="REALTY EXPERTS®" width="250" data-no-lightbox style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
               <h1 style="margin: 0 0 8px 0; font-size: 28px; font-weight: 700; color: #ffffff;">Daily Market Glance</h1>
               <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">${data.date} - ${data.time}</p>
             </td>
@@ -238,7 +238,7 @@ function generateHTML(data) {
                     </div>
                   </td>
                   <td width="30%" style="vertical-align: middle; text-align: center;">
-                    <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/${data.qr_code_path}" alt="Agent Hub QR Code" width="100" style="display: block; margin: 0 auto; max-width: 100px; height: auto;">
+                    <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/${data.qr_code_path}" alt="Agent Hub QR Code" width="100" data-no-lightbox style="display: block; margin: 0 auto; max-width: 100px; height: auto;">
                   </td>
                 </tr>
               </table>
@@ -544,25 +544,37 @@ function generateHTML(data) {
     </tr>
   </table>
 
-  <!-- Lightbox Overlay -->
-  <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
-    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
-    <img id="lightbox-img" class="lightbox-image" src="" alt="Full screen view">
-  </div>
-
   <script>
+    // Create lightbox overlay dynamically (prevents broken image in non-JS contexts)
+    (function() {
+      var overlay = document.createElement('div');
+      overlay.id = 'lightbox';
+      overlay.className = 'lightbox-overlay';
+      overlay.onclick = function() { closeLightbox(); };
+      var btn = document.createElement('button');
+      btn.className = 'lightbox-close';
+      btn.onclick = function() { closeLightbox(); };
+      btn.textContent = '\u00D7';
+      var img = document.createElement('img');
+      img.id = 'lightbox-img';
+      img.className = 'lightbox-image';
+      img.alt = 'Full screen view';
+      overlay.appendChild(btn);
+      overlay.appendChild(img);
+      document.body.appendChild(overlay);
+    })();
+
     function openLightbox(src) {
       document.getElementById('lightbox').classList.add('active');
       document.getElementById('lightbox-img').src = src;
-      document.body.style.overflow = 'hidden'; // Prevent scrolling
+      document.body.style.overflow = 'hidden';
     }
 
     function closeLightbox() {
       document.getElementById('lightbox').classList.remove('active');
-      document.body.style.overflow = ''; // Re-enable scrolling
+      document.body.style.overflow = '';
     }
 
-    // Close on Escape key
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
         closeLightbox();
