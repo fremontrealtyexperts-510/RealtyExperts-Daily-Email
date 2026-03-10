@@ -1,50 +1,49 @@
 {
-  "date": "03/09/26",
+  "date": "03/10/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/ff339926-07b0-4b87-aca8-977676669f2a",
-  "qr_code_path": "note-qr-ff339926.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4a2c7b25-676b-45fc-9eaf-a44abd70f88b",
+  "qr_code_path": "note-qr-4a2c7b25.png",
   "stocks": {
-    "sp500": "6,664.78 (-2.43%)",
-    "dow": "46,801.15 (-2.41%)",
-    "nasdaq": "22,198.60 (-2.42%)",
-    "note": "*Numbers as of market close on March 7th at 4:00 PM ET",
-    "news": "Markets sold off heavily to close the week as surging oil prices and a weaker-than-expected jobs report rattled investors. The S&P 500 fell 2.43% to 6,664.78, hitting a 6-month low amid technical deterioration. The Dow dropped 2.41% to 46,801.15, shedding over 1,150 points from Wednesday's close. The NASDAQ fell 2.42% to 22,198.60 as even tech names couldn't escape the broad-based selling. Stagflation fears are mounting as rising energy costs collide with softening employment data."
+    "sp500": "6,795.99 (+1.97%)",
+    "dow": "47,740.80 (+2.01%)",
+    "nasdaq": "22,695.95 (+2.24%)",
+    "note": "*Numbers as of market close on March 10th at 4:00 PM ET",
+    "news": "U.S. stocks rallied sharply on Monday as oil prices retreated from near $120 back below $90 per barrel. The S&P 500 surged 1.97% to 6,795.99, recovering from Friday's 6-month low. The Dow jumped 2.01% to 47,740.80, while the NASDAQ led gains at +2.24% to 22,695.95. The rally came after President Trump said the U.S. is considering taking over the Strait of Hormuz, which sent oil tumbling and sparked a broad risk-on reversal across equities."
   },
   "economy": {
     "us10year": "4.17% (+0.00)",
-    "gold": "$5,080.64 (-6.26%)",
-    "silver": "$84.78",
+    "gold": "$5,180.00 (+1.96%)",
+    "silver": "$89.00 (+4.97%)",
     "note": "",
-    "commentary": "U.S. payrolls unexpectedly fell by 92,000 in February, pushing the unemployment rate to 4.4% — a significant miss that has intensified recession concerns. The 10-year Treasury yield held steady at 4.17% as investors weigh conflicting signals of weakening employment against persistent inflation driven by soaring energy costs.\n\nGold pulled back 6.26% to $5,080.64 after last week's record highs, as profit-taking set in despite ongoing geopolitical tensions. Silver traded at $84.78. Europe faces a 'massive' gas price shock from the Iran conflict, with energy, airlines, and industrials identified as the three sectors most at risk.\n\nAirlines entered bear market territory as oil poses an 'existential' threat to the sector: Southwest (LUV -5.33%), United (UAL -3.52%), and Delta (DAL -3.75%) all traded lower on the day."
+    "commentary": "Oil prices declined sharply after nearly touching $120 per barrel, as President Trump signaled the U.S. may consider taking control of the Strait of Hormuz. The reversal brought crude back below $90, easing some of the inflation fears that had gripped markets since the Middle East conflict escalated.\n\nGold surged past $5,180 (+1.96%) as investors continued seeking safe-haven assets amid geopolitical uncertainty. Silver jumped nearly 5% to $89.00, reflecting strong demand for precious metals. The 10-year Treasury yield held steady at 4.17%."
   },
   "crypto": {
-    "btc": "$69,159.90 (+0.45%)",
-    "eth": "$2,018.92 (+8.66%)",
-    "xrp": "$1.37 (-1.44%)",
+    "btc": "$69,802.46 (+0.93%)",
+    "eth": "$2,018.92 (+0.00%)",
+    "xrp": "$1.42 (+3.65%)",
     "note": "",
-    "commentary": "Bitcoin traded at $69,159.90, up modestly 0.45% as it continues to hold above key support levels despite extreme volatility in traditional markets. Earlier in the session, BTC briefly tumbled below $66,000 as oil prices exploded nearly 20% higher, before recovering on dip-buying.\n\nEthereum rebounded sharply to $2,018.92, gaining 8.66% after last week's steep selloff, though it briefly dipped under $2,000 during the session. XRP slipped 1.44% to $1.37. The crypto market remains highly correlated with macro risk sentiment, with oil-driven inflation fears creating headwinds for risk assets across the board."
+    "commentary": "Bitcoin rose 0.93% to $69,802.46, outperforming both stocks and gold as the Middle East conflict continues to rattle global markets. BTC has emerged as a preferred hedge for some investors during the geopolitical turmoil, beating traditional safe-haven assets.\n\nEthereum held steady at $2,018.92 while XRP gained 3.65% to $1.42. The crypto market is showing increasing resilience compared to traditional risk assets, with Bitcoin's correlation to equities declining as it takes on more of a \"digital gold\" narrative during the conflict."
   },
   "real_estate": {
-    "rate_30year": "6.06%",
-    "rate_15year": "5.64%",
-    "homebuilder": "FFL Partners has announced the formation of Pioneer HOA, a new holding company established to invest in and manage Homeowners Association property management firms across the Western U.S.",
-    "commentary": "The Bay Area housing market is entering a more balanced cycle in early 2026, characterized by a meaningful growth in inventory and more predictable interest rates trading between 5.9% and 6.9%. In Santa Clara County, South Bay markets remain robust due to their proximity to major tech hubs and transit corridors, though buyers are seeing more homes to evaluate before making decisions. Alameda County continues to attract buyers seeking more space at relatively accessible median prices compared to the Peninsula, with emerging neighborhoods and commuter-friendly suburbs in Fremont and surrounding areas offering new value-oriented opportunities.\n\nThe market is transitioning into a \"steady but not overheating\" phase, with housing inventory projected to rise by approximately 10%. While median prices remain high, they are stabilizing rather than spiking aggressively, leading to longer listing periods in areas like Alameda and Santa Clara counties.\n\nLatest General News in the Bay Area:\n\n📰 Global oil prices skyrocketed past $100 per barrel due to escalating tensions in the Middle East, fueling fresh inflation fears across Silicon Valley. California gas prices have reached as high as $5.20 per gallon.\n\n📰 A traffic fatality was reported in Redwood City early this morning, while multiple collisions were recorded in Dublin and Hayward, impacting the Monday morning commute for Tri-City residents."
+    "rate_30year": "6.21%",
+    "rate_15year": "5.50%",
+    "homebuilder": "Westwood Insurance Agency has announced a new partnership with CBH Homes, the 44th-ranked builder in the U.S., to provide integrated \"embedded insurance\" solutions earlier in the homebuying journey.",
+    "commentary": "The Santa Clara County housing market is showing unique trends for March 2026, with the average sales price for single-family homes holding strong at $2.42 million. While overall sales volume is down significantly, well-prepared homes are selling nearly 50% faster than in recent months, with average days on market dropping to just 14 days. In Alameda County, the market continues to attract buyers seeking value compared to the Peninsula, with median prices rising 2.4% year-over-year.\n\nMarch is being touted as the \"month of strategic positioning\" for sellers to prepare their homes before the traditional April/May listing rush. The Bay Area market is entering a \"steady but not overheating\" phase for 2026, with housing inventory projected to rise by roughly 10%. While median prices remain high, they are stabilizing rather than spiking aggressively, leading to slightly longer listing periods in some areas.\n\nLatest General News in the Bay Area:\n\n📰 In Fremont, a major local story involves the deportation of a family with a deaf 6-year-old student from the California School for the Deaf; Representative Eric Swalwell is currently working to return them to the East Bay under humanitarian parole.\n\n📰 Fremont-based startup VotersAI officially launched its next-generation political campaign platform this week, drawing support from local leaders including the mayors of Milpitas, Pleasanton, and Dublin.\n\n📰 In Milpitas, the local Rotary Foundation recently highlighted its \"Milpitas Wishes\" campaign to assist residents in need."
   },
   "sources": [
-    "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-monday-march-9-2026",
-    "https://www.bankrate.com/mortgages/15-year-mortgage-rates/",
-    "https://www.cnbc.com/2026/03/06/february-2026-jobs-report.html",
-    "https://www.coindesk.com/markets/2026/03/08/bitcoin-tumbles-below-usd66-000-as-oil-prices-explode-higher",
-    "https://www.cnbc.com/2026/03/06/gas-price-iran-war-middle-east-us-europe-energy-oil-conflict-economy-shock.html",
-    "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
-    "https://www.zacks.com/stock/news/2880742/stock-market-news-for-mar-9-2026",
-    "https://robinhood.com/us/en/prediction-markets/financial/events/nasdaq-100-futures-price-on-march-9-2026-mar-09-2026/",
-    "https://www.morningstar.com/news/marketwatch/2026030956/treasury-yields-climb-as-investors-fear-stagflation",
-    "https://www.usagold.com/the-hidden-risk-inside-todays-gold-rally-why-central-bank-purchases-just-collapsed-81-and-what-it-means-for-investors/",
-    "https://www.apmex.com/silver-price",
-    "https://www.interactivecrypto.com/oil-leaving-middle-east-trades-over-100-a-barrel-heres-how-it-could-affect-bitcoin-1773027589525",
-    "https://www.businesstoday.com.my/2026/03/09/bitcoin-slips-below-us67000-as-ethereum-dips-under-us2000/",
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.nerdwallet.com/mortgages/mortgage-rates",
+    "https://lasvegassun.com/news/2026/mar/10/westwood-insurance-agency-collaborates-with-cbh-ho/",
+    "https://www.prnewswire.com/news-releases/neo-wins-nahb-global-innovation-gold-award-highlighting-alignment-between-homebuilders-and-realtors-302707450.html",
+    "https://www.cnbc.com/2026/03/09/cnbc-daily-open-oil-storms-past-100-for-first-time-since-2022.html",
+    "https://www.rebeccarealtor.com/blog/san-francisco-spring-real-estate-market-2026/",
     "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
-    "https://m.chp.ca.gov/incident.aspx?DispatchId=GGCC"
+    "https://www.aa.com.tr/en/economy/us-stocks-end-with-gains-after-trump-says-iran-war-is-very-complete/3857224",
+    "https://www.timesleaderonline.com/news/business/2026/03/u-s-stocks-erase-a-big-early-loss-and-rise-after-oil-prices-whip-from-nearly-120-back-below-90/",
+    "https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html",
+    "https://m.economictimes.com/news/international/us/gold-price-today-surges-over-1-5-while-silver-jumps-nearly-5-why-gold-and-silver-prices-are-rallying-after-donald-trump-signaled-a-possible-end-to-the-middle-east-war-and-will-gold-price-cross-5200-soon/articleshow/129395650.cms",
+    "https://natlawreview.com/press-releases/silicon-valley-ai-startup-votersai-launches-next-generation-political",
+    "https://tricityvoice.com/family-of-deaf-6-year-old-deported/",
+    "https://www.coindesk.com/markets/2026/03/09/bitcoin-is-beating-stocks-and-gold-as-the-middle-east-conflict-rattles-global-markets"
   ]
 }
