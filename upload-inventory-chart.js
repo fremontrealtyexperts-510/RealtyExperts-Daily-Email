@@ -8,8 +8,8 @@ const adminToken = envContent.split('\n').find(line => line.startsWith('ADMIN_TO
 // Read chart HTML from REALTY-EXPERTS-Agent-Hub directory
 const chartHTML = fs.readFileSync('/Users/harvinderbalu1/Library/CloudStorage/OneDrive-Personal/ClaudeCode/REALTY-EXPERTS-Agent-Hub/latest_inventory_chart.html', 'utf8');
 
-const supabaseUrl = 'rdxzxokcbmmjjgyevqxq.supabase.co';
-const apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkeHp4b2tjYm1tampneWV2cXhxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkwODY4NTEsImV4cCI6MjA4NDY2Mjg1MX0.oiIewgoknkmVCZ4NvU8ElkjrVPoIjT7pBjHCaABVsl4';
+const supabaseUrl = 'hbsodfrxadlfladdgvgy.supabase.co';
+const apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhic29kZnJ4YWRsZmxhZGRndmd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI5MTA2MDcsImV4cCI6MjA4ODQ4NjYwN30.tuF35cSBp4mS31X4wtmBsFnLQil-UZ-oX_FXu6QN-fM';
 
 const payload = JSON.stringify({
   action: 'UPDATE',
