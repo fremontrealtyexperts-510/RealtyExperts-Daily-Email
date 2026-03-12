@@ -1,49 +1,50 @@
 {
-  "date": "03/11/26",
+  "date": "03/12/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/ab82de99-f8c2-4ee2-9abb-e43048dee66a",
-  "qr_code_path": "note-qr-ab82de99.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/609528de-7262-40da-9673-de2de2e34ade",
+  "qr_code_path": "note-qr-609528de.png",
   "stocks": {
-    "sp500": "6,764.17 (-0.47%)",
-    "dow": "47,367.37 (-0.78%)",
-    "nasdaq": "22,699.25 (+0.01%)",
-    "note": "*Numbers as of market close on March 10th at 4:00 PM ET",
-    "news": "Vertex Pharmaceuticals passed a key test in its quest to treat kidney diseases, as its experimental drug for a rare kidney condition succeeded in a Phase 3 trial. This marks a crucial step in the company's path to diversify beyond its core cystic fibrosis franchise. Meanwhile, U.S. stocks pulled back modestly from Monday's sharp rally, with the S&P 500 dipping 0.47% and the Dow declining 0.78%. The NASDAQ held nearly flat as tech investors weighed earnings outlooks ahead of key inflation data."
+    "sp500": "6,691.42 (-1.08%)",
+    "dow": "46,732.96 (-1.34%)",
+    "nasdaq": "22,359.93 (-1.49%)",
+    "note": "*Numbers as of market close on March 11th at 4:00 PM ET",
+    "news": "Oracle (ORCL) stock rocketed higher after the company beat Wall Street's expectations on the top and bottom lines for its Q3 earnings on Tuesday and raised its 2027 revenue guidance to $90 billion. Shares jumped as much as 14% in early trading on Wednesday. Meanwhile, the broader market pulled back, with the S&P 500 falling 1.08%, the Dow dropping 1.34%, and the NASDAQ declining 1.49%."
   },
   "economy": {
-    "us10year": "4.14% (-0.03)",
-    "gold": "$5,187.60 (+0.15%)",
-    "silver": "$86.05 (-3.31%)",
+    "us10year": "4.24% (+0.10)",
+    "gold": "$5,153.00 (-0.67%)",
+    "silver": "$85.65 (-0.47%)",
     "note": "",
-    "commentary": "Rising diesel prices are threatening to push up costs across Texas and the broader U.S. supply chain. Bruce Bullock from the Maguire Energy Institute at SMU warned that higher fuel costs automatically get passed through to shippers and consumers, adding another layer of inflationary pressure to goods nationwide.\n\nStagflation fears are also looming over Europe as the Middle East conflict continues to escalate. Analysts warn that if hostilities persist, Europe could slide into a 1970s-style trap with self-reinforcing inflation, chronically weak growth, and stalling job creation. The 10-year Treasury yield eased slightly to 4.14%, while gold edged up to $5,187.60 (+0.15%). Silver pulled back sharply, falling 3.31% to $86.05 after its nearly 5% surge the previous session."
+    "commentary": "The consumer price index increased a seasonally adjusted 0.3% for the month, putting the 12-month inflation rate at 2.4%. Core CPI posted a 0.2% monthly reading and 2.5% annual rate — all figures in line with Wall Street estimates. Rent rose just 0.1%, the smallest monthly increase since January 2021. Food prices accelerated 0.4% for the month and were up 3.1% from a year ago, though egg prices fell 3.8%.\n\nWTI Crude Oil surged to $89.77 (+2.85%), adding to inflationary pressures across energy markets. Gold pulled back slightly to $5,153.00 (-0.67%) after its recent run-up, while silver eased to $85.65 (-0.47%). The 10-year Treasury yield rose to 4.24% (+0.10) as bond markets digested the latest inflation data."
   },
   "crypto": {
-    "btc": "$70,683.02 (+1.26%)",
-    "eth": "$2,063.88 (+2.23%)",
-    "xrp": "$1.39 (-2.11%)",
+    "btc": "$69,844.94 (-1.19%)",
+    "eth": "$2,059.55 (-0.21%)",
+    "xrp": "$1.38 (-0.72%)",
     "note": "",
-    "commentary": "Bitcoin continued its climb, rising 1.26% to $70,683.02 as institutional demand for the leading cryptocurrency shows no signs of slowing. Ethereum gained 2.23% to $2,063.88, outperforming BTC on the day. XRP slipped 2.11% to $1.39 amid regulatory uncertainty.\n\nAn Ohio judge ruled that Kalshi prediction markets constitute sports betting and must adhere to state law. Ohio's attorney general stated that these prediction markets have exploded and look a lot like gambling. The ruling could have wider implications for the prediction market industry, which has grown rapidly in recent years and increasingly intersects with crypto markets."
+    "commentary": "Bitcoin dipped 1.19% to $69,844.94, stabilizing near the $70K level as oscillators flash neutral signals. Ethereum held relatively steady, slipping just 0.21% to $2,059.55 as the ETH scarcity index turned positive. XRP eased 0.72% to $1.38.\n\nWells Fargo signaled a deeper push into crypto by filing a trademark for WFUSD. The move mirrors JPMorgan's similar trademark filing that foreshadowed the bank's introduction of tokenized deposits on Ethereum layer-2 network Base. Major banks entering the stablecoin space could accelerate institutional adoption of blockchain-based payment rails."
   },
   "real_estate": {
     "rate_30year": "6.10%",
     "rate_15year": "5.50%",
-    "homebuilder": "The Real Estate Agent Referral Network has surpassed 385,000 professionals, adding about 2,000 members monthly to become one of the largest professional referral ecosystems.",
-    "commentary": "Serious buyers in Santa Clara County are moving quickly, with well-prepared listings selling in an average of just 14 days. While average prices in the county have risen 2% to $2.42 million, the number of homes sold has dropped significantly as buyers become more disciplined. In Alameda County, demand remains high for space, though inventory challenges persist despite modest growth expectations for 2026.\n\nThe Bay Area housing market is entering a more balanced phase with housing inventory projected to rise by 10%. While prices remain high, they are stabilizing rather than skyrocketing, allowing buyers to approach offers with less fear of extreme price jumps. This shift is giving both buyers and sellers room to negotiate more reasonably.\n\nLatest General News in the Bay Area:\n\n📰 In Fremont, a major local story involves the deportation of a family with a deaf 6-year-old student from the California School for the Deaf. Representative Eric Swalwell is currently working with legal counsel to return the family to the East Bay under humanitarian parole after they were reportedly forced to leave without the child's essential hearing device.\n\n📰 Residents in Milpitas and the surrounding Tri-City area are preparing for community events such as the upcoming Holi Festival and ongoing local athletic fundraisers."
+    "homebuilder": "Meritage Homes Corporation, the fifth-largest public homebuilder in the U.S., has scheduled its first-quarter 2026 earnings conference call for April 23.",
+    "commentary": "The Bay Area housing market is entering its seasonal spring planning phase, characterized by steady but not overheating dynamics. In Santa Clara County, single-family homes in the $2M–$3M range remain highly competitive, while the condo and townhome segment is expected to remain flat or slightly down. Median home prices in the county were recently tracked at approximately $1.50M.\n\nAlameda County continues to offer more affordability with a median sale price of roughly $960K, drawing buyers who are willing to tolerate longer commutes for increased value. Experts suggest that more inventory may hit the market in 2026 as homeowners look to capture capital gains before tax-free exclusion windows expire.\n\nLatest General News in the Bay Area:\n\n📰 In Milpitas, local ballot measures have drawn attention, including proposed amendments to the Municipal Code to establish stricter term limits for the mayor and councilmembers.\n\n📰 In broader Santa Clara County, multiple school districts are focusing on fiscal stability through parcel tax renewals and bond authorizations, such as the $214 million bond measure for local facility improvements.\n\n📰 Fremont and the surrounding Tri-City area are preparing for seasonal community events, while regional transit discussions continue to focus on long-term infrastructure funding through business-based taxes."
   },
   "sources": [
     "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.cbsnews.com/texas/news/texas-diesel-prices-rise-inflation-impact-iran-war/",
-    "https://www.housingwire.com/articles/agent-impact-network-real-estate-referral-community-385000-members/",
-    "https://www.euractiv.com/opinion/the-escalating-middle-east-conflict-a-looming-stagflation-threat-for-europe/",
+    "https://www.nerdwallet.com/mortgages/mortgage-rates",
+    "https://markets.businessinsider.com/news/stocks/meritage-homes-first-quarter-2026-earnings-conference-call-and-webcast-scheduled-for-april-23-2026-1035923342",
+    "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
     "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
-    "https://www.sfgate.com/realestate/article/experts-predict-next-bay-area-housing-market-2026-21280116.php",
+    "https://www.noradarealestate.com/blog/sf-bay-area-housing-market-forecast-for-next-2-years/",
     "https://markets.ft.com/data/bonds/tearsheet/summary?s=US10YT",
-    "https://www.nbcnews.com/news/us-news/ohio-judge-rules-kalshi-sports-betting-must-adhere-state-law-rcna262721",
-    "https://www.cnbc.com/2026/03/10/vertex-kidney-drug-povetacicept-succeeds-trial-igan.html",
-    "https://www.usagold.com/the-hidden-china-signal/",
-    "https://www.financialexpress.com/market/global-markets/all-eyes-on-us-cpi-data-gold-silver-prices-in-focus-ahead-of-inflation-numbers-releasing-today/4169179/",
-    "https://www.dailyforex.com/forex-technical-analysis/2026/03/btcusd-forex-signal-11-march-2026/242353",
-    "https://www.fool.com/investing/2026/03/11/dont-do-this-1-very-tempting-thing-with-your-bitco/",
-    "https://tricityvoice.com/family-of-deaf-6-year-old-deported/"
+    "https://www.fxleaders.com/news/2026/03/12/gold-price-forecast-bullish-resilience-as-xau-usd-holds-5150-amid-global-oil-shock/",
+    "https://www.livemint.com/market/commodities/gold-silver-rates-today-gold-prices-slip-below-5-200-an-ounce-silver-prices-near-85-time-to-buy-amid-us-iran-war-11773276131975.html",
+    "https://news.bitcoin.com/btc-price-today-bitcoin-stabilizes-near-70k-as-oscillators-flash-neutral-signals/",
+    "https://www.tradingview.com/news/cryptonews:6138ad35c094b:0-ethereum-scarcity-index-turns-positive-as-eth-usd-pushed-back-above-2-000/",
+    "https://homesbyspencerhsu.com/blog/bay-area-real-estate-market-update-january-2026",
+    "https://ballotpedia.org/Santa_Clara_County,_California_ballot_measures",
+    "https://www.coindesk.com/business/2026/03/11/wells-fargo-signals-deeper-push-into-crypto-filing-trademark-for-wfusd",
+    "https://finance.yahoo.com/news/oracle-stock-rockets-higher-on-q3-earnings-beat-2027-revenue-outlook-201151427.html"
   ]
 }
