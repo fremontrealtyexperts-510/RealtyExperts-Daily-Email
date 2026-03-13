@@ -1,50 +1,47 @@
 {
-  "date": "03/12/26",
+  "date": "03/13/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/609528de-7262-40da-9673-de2de2e34ade",
-  "qr_code_path": "note-qr-609528de.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/43b74315-4a75-48d3-84c6-4b5c44d116e8",
+  "qr_code_path": "note-qr-43b74315.png",
   "stocks": {
-    "sp500": "6,691.42 (-1.08%)",
-    "dow": "46,732.96 (-1.34%)",
-    "nasdaq": "22,359.93 (-1.49%)",
-    "note": "*Numbers as of market close on March 11th at 4:00 PM ET",
-    "news": "Oracle (ORCL) stock rocketed higher after the company beat Wall Street's expectations on the top and bottom lines for its Q3 earnings on Tuesday and raised its 2027 revenue guidance to $90 billion. Shares jumped as much as 14% in early trading on Wednesday. Meanwhile, the broader market pulled back, with the S&P 500 falling 1.08%, the Dow dropping 1.34%, and the NASDAQ declining 1.49%."
+    "sp500": "6,672.62 (-0.28%)",
+    "dow": "47,400.00 (+1.43%)",
+    "nasdaq": "22,250.00 (-0.49%)",
+    "note": "*DOW futures down 0.3%, NASDAQ futures trending lower as of pre-market March 13th",
+    "news": "The U.S. announced a raft of new probes into trading partners' practices under Section 301 of the Trade Act of 1974. The investigations target China, Mexico, the EU and more than a dozen other economies, signaling potential new tariffs ahead. Markets are reacting cautiously, with DOW futures down 0.3% and NASDAQ futures trending lower in pre-market trading."
   },
   "economy": {
-    "us10year": "4.24% (+0.10)",
-    "gold": "$5,153.00 (-0.67%)",
-    "silver": "$85.65 (-0.47%)",
+    "us10year": "4.21% (-0.03)",
+    "gold": "$5,100.60 (-1.02%)",
+    "silver": "$83.40 (-2.63%)",
     "note": "",
-    "commentary": "The consumer price index increased a seasonally adjusted 0.3% for the month, putting the 12-month inflation rate at 2.4%. Core CPI posted a 0.2% monthly reading and 2.5% annual rate — all figures in line with Wall Street estimates. Rent rose just 0.1%, the smallest monthly increase since January 2021. Food prices accelerated 0.4% for the month and were up 3.1% from a year ago, though egg prices fell 3.8%.\n\nWTI Crude Oil surged to $89.77 (+2.85%), adding to inflationary pressures across energy markets. Gold pulled back slightly to $5,153.00 (-0.67%) after its recent run-up, while silver eased to $85.65 (-0.47%). The 10-year Treasury yield rose to 4.24% (+0.10) as bond markets digested the latest inflation data."
+    "commentary": "\"The low and steady level of initial jobless claims suggests the big drop in nonfarm payrolls in February was a blip, not the start of a trend,\" said Michael Pearce, chief U.S. economist at Oxford Economics. \"We think the evidence is consistent with labor market conditions stabilizing before fallout of the Iran war hits the economy.\"\n\nGold pulled back to $5,100.60 (-1.02%) while silver saw a sharper decline to $83.40 (-2.63%). The 10-year Treasury yield eased to 4.21% as markets digested weekly jobless claims data and ongoing trade policy uncertainty surrounding the new Section 301 investigations."
   },
   "crypto": {
-    "btc": "$69,844.94 (-1.19%)",
-    "eth": "$2,059.55 (-0.21%)",
-    "xrp": "$1.38 (-0.72%)",
+    "btc": "$73,799.76 (+5.66%)",
+    "eth": "$2,028.87 (-1.49%)",
+    "xrp": "$1.42 (+2.90%)",
     "note": "",
-    "commentary": "Bitcoin dipped 1.19% to $69,844.94, stabilizing near the $70K level as oscillators flash neutral signals. Ethereum held relatively steady, slipping just 0.21% to $2,059.55 as the ETH scarcity index turned positive. XRP eased 0.72% to $1.38.\n\nWells Fargo signaled a deeper push into crypto by filing a trademark for WFUSD. The move mirrors JPMorgan's similar trademark filing that foreshadowed the bank's introduction of tokenized deposits on Ethereum layer-2 network Base. Major banks entering the stablecoin space could accelerate institutional adoption of blockchain-based payment rails."
+    "commentary": "Bitcoin has jumped roughly 13% in two weeks, climbing above $73,000 and outperforming both the S&P 500 and gold. BTC is currently trading at $73,799.76 as crypto market momentum continues to build.\n\nEthereum slipped to $2,028.87 while XRP edged up to $1.42. The broader crypto market is seeing renewed interest as Bitcoin's relative strength against traditional assets draws institutional attention."
   },
   "real_estate": {
-    "rate_30year": "6.10%",
-    "rate_15year": "5.50%",
-    "homebuilder": "Meritage Homes Corporation, the fifth-largest public homebuilder in the U.S., has scheduled its first-quarter 2026 earnings conference call for April 23.",
-    "commentary": "The Bay Area housing market is entering its seasonal spring planning phase, characterized by steady but not overheating dynamics. In Santa Clara County, single-family homes in the $2M–$3M range remain highly competitive, while the condo and townhome segment is expected to remain flat or slightly down. Median home prices in the county were recently tracked at approximately $1.50M.\n\nAlameda County continues to offer more affordability with a median sale price of roughly $960K, drawing buyers who are willing to tolerate longer commutes for increased value. Experts suggest that more inventory may hit the market in 2026 as homeowners look to capture capital gains before tax-free exclusion windows expire.\n\nLatest General News in the Bay Area:\n\n📰 In Milpitas, local ballot measures have drawn attention, including proposed amendments to the Municipal Code to establish stricter term limits for the mayor and councilmembers.\n\n📰 In broader Santa Clara County, multiple school districts are focusing on fiscal stability through parcel tax renewals and bond authorizations, such as the $214 million bond measure for local facility improvements.\n\n📰 Fremont and the surrounding Tri-City area are preparing for seasonal community events, while regional transit discussions continue to focus on long-term infrastructure funding through business-based taxes."
+    "rate_30year": "6.35%",
+    "rate_15year": "5.95%",
+    "homebuilder": "The Senate has passed the 21st Century ROAD to Housing Act, a major legislative attempt to bolster national housing supply despite significant industry concerns.",
+    "commentary": "The Bay Area market is seeing a massive divide between inventory levels and buyer demand this week. In Santa Clara County, the average sales price for single-family homes has held strong at $2.42 million, but the number of homes sold has plummeted by roughly 91% as inventory slowly builds. Despite fewer total sales, homes are moving nearly 50% faster than earlier this year, averaging just 14 days on market.\n\nIn Alameda County, the median sale price rose to $925,000, with extreme competition in specific cities — a home in Berkeley recently sold for 57% over list price, while a Fremont property closed at 28% over asking.\n\nThe Bay Area market is entering a \"steady but not overheating\" phase with inventory projected to rise roughly 10%, though luxury segments in San Francisco and tech-heavy South Bay pockets are seeing record-setting urgency and overbidding.\n\nLatest General News in the Bay Area:\n\n📍 Fremont — \"Happiest City\" Again: Fremont has officially reclaimed its title as the \"Happiest City in America\" by WalletHub for the sixth consecutive year. The ranking cites the city's high rate of life satisfaction and strong household economics as key factors.\n\n📍 East Bay Humanitarian Story: A major story continues to develop following the deportation of a local family with a 6-year-old student from the California School for the Deaf in Fremont. Representative Eric Swalwell announced he is working to return the family from Colombia under humanitarian parole, highlighting that the family was forced to leave without the child's essential hearing device.\n\n📍 Newark Industrial Growth: Newark's commercial real estate sector is seeing significant movement, highlighted by Terreno Realty recently securing a massive 226,000-square-foot lease with a cloud computing hardware manufacturer.\n\n📍 Hayward's 150th Birthday: Hayward is celebrating its sesquicentennial! The city is marking its 150th birthday this week with local celebrations, kicked off right after Mayor Mark Salinas delivered his annual State of the City address.\n\n📍 Commute Alert: The morning commute for Milpitas and Fremont residents is currently impacted by a traffic hazard in Hayward and a collision in San Jose, while construction-related lane closures are active across the San Francisco and Oakland bridges."
   },
   "sources": [
-    "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.nerdwallet.com/mortgages/mortgage-rates",
-    "https://markets.businessinsider.com/news/stocks/meritage-homes-first-quarter-2026-earnings-conference-call-and-webcast-scheduled-for-april-23-2026-1035923342",
-    "https://www.cnbc.com/2026/03/11/cpi-inflation-report-february-2026.html",
-    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
-    "https://www.noradarealestate.com/blog/sf-bay-area-housing-market-forecast-for-next-2-years/",
-    "https://markets.ft.com/data/bonds/tearsheet/summary?s=US10YT",
-    "https://www.fxleaders.com/news/2026/03/12/gold-price-forecast-bullish-resilience-as-xau-usd-holds-5150-amid-global-oil-shock/",
-    "https://www.livemint.com/market/commodities/gold-silver-rates-today-gold-prices-slip-below-5-200-an-ounce-silver-prices-near-85-time-to-buy-amid-us-iran-war-11773276131975.html",
-    "https://news.bitcoin.com/btc-price-today-bitcoin-stabilizes-near-70k-as-oscillators-flash-neutral-signals/",
-    "https://www.tradingview.com/news/cryptonews:6138ad35c094b:0-ethereum-scarcity-index-turns-positive-as-eth-usd-pushed-back-above-2-000/",
-    "https://homesbyspencerhsu.com/blog/bay-area-real-estate-market-update-january-2026",
-    "https://ballotpedia.org/Santa_Clara_County,_California_ballot_measures",
-    "https://www.coindesk.com/business/2026/03/11/wells-fargo-signals-deeper-push-into-crypto-filing-trademark-for-wfusd",
-    "https://finance.yahoo.com/news/oracle-stock-rockets-higher-on-q3-earnings-beat-2027-revenue-outlook-201151427.html"
+    "https://www.mortgagenewsdaily.com/mortgage-rates",
+    "https://www.nahb.org/",
+    "https://wkzo.com/2026/03/12/us-weekly-jobless-claims-edge-down/",
+    "https://fred.stlouisfed.org/series/SP500",
+    "https://www.benzinga.com/crypto/cryptocurrency/26/03/51174904/why-is-bitcoin-suddenly-stronger-than-gold-and-the-sp500",
+    "https://www.cnbc.com/2026/03/12/what-trumps-section-301-investigations-mean-for-trade-tariffs.html",
+    "https://m.economictimes.com/news/international/us/silver-price-crashes-today-why-gold-silver-copper-and-platinum-prices-are-falling-silver-drops-to--40-while-gold-slides-25-to-5100-per-ounce/articleshow/129551377.cms",
+    "https://www.tradingview.com/news/coinpedia:039d3761b094b:0-bitcoin-price-today-btc-nears-72k-as-crypto-market-gains-momentum/",
+    "https://www.redfin.com/county/303/CA/Alameda-County/housing-market",
+    "https://www.youtube.com/watch?v=rCuJ8QFWYuI",
+    "https://m.chp.ca.gov/incident.aspx?DispatchId=GGCC",
+    "https://tricityvoice.com/family-of-deaf-6-year-old-deported/"
   ]
 }
