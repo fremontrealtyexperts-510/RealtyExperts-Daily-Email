@@ -57,7 +57,8 @@ function updateNote(noteId, title, htmlBody, adminToken) {
   return new Promise((resolve, reject) => {
     const payload = JSON.stringify({
       title: title,
-      body: htmlBody
+      body: htmlBody,
+      category: ['At a Glance']
     });
 
     const options = {

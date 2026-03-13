@@ -79,7 +79,12 @@ function formatCommentary(text) {
             html += `<div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">${trimmed}</div>`;
           }
         } else if (trimmed.startsWith('📍')) {
-          html += `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
+          const locColonMatch = trimmed.match(/^(📍[^:]+:)(.*)/);
+          if (locColonMatch) {
+            html += `<div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">${locColonMatch[1]}</strong>${locColonMatch[2]}</div>`;
+          } else {
+            html += `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
+          }
         } else if (trimmed.startsWith('o ')) {
           // Nested list items (open houses, etc) - normal weight
           html += `<div style="margin: 6px 0; padding-left: 20px; line-height: 1.8; color: #334155;">${trimmed}</div>`;
@@ -98,6 +103,10 @@ function formatCommentary(text) {
       // Check if this paragraph is a location marker or header
       const trimmed = para.trim();
       if (trimmed.startsWith('📍')) {
+        const locColonMatch = trimmed.match(/^(📍[^:]+:)(.*)/);
+        if (locColonMatch) {
+          return `<div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">${locColonMatch[1]}</strong>${locColonMatch[2]}</div>`;
+        }
         return `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
       } else if (trimmed.endsWith(':')) {
         return `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
