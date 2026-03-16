@@ -1,47 +1,48 @@
 {
-  "date": "03/13/26",
+  "date": "03/16/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/43b74315-4a75-48d3-84c6-4b5c44d116e8",
-  "qr_code_path": "note-qr-43b74315.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/7c788c06-e80d-4613-9617-b7272b506fc1",
+  "qr_code_path": "note-qr-7c788c06.png",
   "stocks": {
-    "sp500": "6,672.62 (-0.28%)",
-    "dow": "47,400.00 (+1.43%)",
-    "nasdaq": "22,250.00 (-0.49%)",
-    "note": "*DOW futures down 0.3%, NASDAQ futures trending lower as of pre-market March 13th",
-    "news": "The U.S. announced a raft of new probes into trading partners' practices under Section 301 of the Trade Act of 1974. The investigations target China, Mexico, the EU and more than a dozen other economies, signaling potential new tariffs ahead. Markets are reacting cautiously, with DOW futures down 0.3% and NASDAQ futures trending lower in pre-market trading."
+    "sp500": "6,632.19",
+    "dow": "46,558.47",
+    "nasdaq": "22,105.36",
+    "note": "",
+    "news": "Adobe said CEO Shantanu Narayen will step down after the company has put in place a successor. Narayen, who has helmed the design software maker since 2007, will stay on as board chair. Adobe shares are down 23% this year as part of a broader selloff in software sparked by concerns about the impact of artificial intelligence."
   },
   "economy": {
-    "us10year": "4.21% (-0.03)",
-    "gold": "$5,100.60 (-1.02%)",
-    "silver": "$83.40 (-2.63%)",
+    "us10year": "4.26%",
+    "gold": "$4,998.91",
+    "silver": "$78.91",
     "note": "",
-    "commentary": "\"The low and steady level of initial jobless claims suggests the big drop in nonfarm payrolls in February was a blip, not the start of a trend,\" said Michael Pearce, chief U.S. economist at Oxford Economics. \"We think the evidence is consistent with labor market conditions stabilizing before fallout of the Iran war hits the economy.\"\n\nGold pulled back to $5,100.60 (-1.02%) while silver saw a sharper decline to $83.40 (-2.63%). The 10-year Treasury yield eased to 4.21% as markets digested weekly jobless claims data and ongoing trade policy uncertainty surrounding the new Section 301 investigations."
+    "commentary": "Crude Oil WTI fell sharply to $92.74, down $4.10 (-4.23%), as global markets reacted to shifting supply dynamics.\n\nThe University of Michigan's Consumer Sentiment Index fell to 55.5 in March, its lowest reading of 2026. Interviews taken before the U.S.-Israel strikes on Iran showed improving sentiment — those taken after completely erased the gains.\n\nThe index is now sitting in the 2nd percentile of its entire recorded history, below the level seen at the start of every recession since 1978."
   },
   "crypto": {
-    "btc": "$73,799.76 (+5.66%)",
-    "eth": "$2,028.87 (-1.49%)",
-    "xrp": "$1.42 (+2.90%)",
+    "btc": "$73,708.91",
+    "eth": "$2,018.92 (Steady)",
+    "xrp": "$1.40 (Strategy focus)",
     "note": "",
-    "commentary": "Bitcoin has jumped roughly 13% in two weeks, climbing above $73,000 and outperforming both the S&P 500 and gold. BTC is currently trading at $73,799.76 as crypto market momentum continues to build.\n\nEthereum slipped to $2,028.87 while XRP edged up to $1.42. The broader crypto market is seeing renewed interest as Bitcoin's relative strength against traditional assets draws institutional attention."
+    "commentary": "BlackRock's new ether ETF for yield-hungry investors debuts with $15 million in trading volume, signaling growing institutional appetite for Ethereum-based products.\n\nBitcoin is holding steady near $73,700 while Ethereum trades at $2,018.92. XRP continues to draw attention from strategic-focused investors at $1.40."
   },
   "real_estate": {
-    "rate_30year": "6.35%",
-    "rate_15year": "5.95%",
-    "homebuilder": "The Senate has passed the 21st Century ROAD to Housing Act, a major legislative attempt to bolster national housing supply despite significant industry concerns.",
-    "commentary": "The Bay Area market is seeing a massive divide between inventory levels and buyer demand this week. In Santa Clara County, the average sales price for single-family homes has held strong at $2.42 million, but the number of homes sold has plummeted by roughly 91% as inventory slowly builds. Despite fewer total sales, homes are moving nearly 50% faster than earlier this year, averaging just 14 days on market.\n\nIn Alameda County, the median sale price rose to $925,000, with extreme competition in specific cities — a home in Berkeley recently sold for 57% over list price, while a Fremont property closed at 28% over asking.\n\nThe Bay Area market is entering a \"steady but not overheating\" phase with inventory projected to rise roughly 10%, though luxury segments in San Francisco and tech-heavy South Bay pockets are seeing record-setting urgency and overbidding.\n\nLatest General News in the Bay Area:\n\n📍 Fremont — \"Happiest City\" Again: Fremont has officially reclaimed its title as the \"Happiest City in America\" by WalletHub for the sixth consecutive year. The ranking cites the city's high rate of life satisfaction and strong household economics as key factors.\n\n📍 East Bay Humanitarian Story: A major story continues to develop following the deportation of a local family with a 6-year-old student from the California School for the Deaf in Fremont. Representative Eric Swalwell announced he is working to return the family from Colombia under humanitarian parole, highlighting that the family was forced to leave without the child's essential hearing device.\n\n📍 Newark Industrial Growth: Newark's commercial real estate sector is seeing significant movement, highlighted by Terreno Realty recently securing a massive 226,000-square-foot lease with a cloud computing hardware manufacturer.\n\n📍 Hayward's 150th Birthday: Hayward is celebrating its sesquicentennial! The city is marking its 150th birthday this week with local celebrations, kicked off right after Mayor Mark Salinas delivered his annual State of the City address.\n\n📍 Commute Alert: The morning commute for Milpitas and Fremont residents is currently impacted by a traffic hazard in Hayward and a collision in San Jose, while construction-related lane closures are active across the San Francisco and Oakland bridges."
+    "rate_30year": "6.27%",
+    "rate_15year": "5.58%",
+    "homebuilder": "U.S. homebuilder sentiment edged up to 38 in March, beating expectations, though sentiment remains below the 50 break-even point for the 23rd straight month. PulteGroup also announced the nomination of Benjamin Schall, CEO of AvalonBay Communities, to its Board of Directors.",
+    "commentary": "The Bay Area market is entering a \"steady but not overheating\" phase. While median prices remain high at roughly $1.25M region-wide, inventory is projected to rise by 10% this year, helping to ease the intense bidding wars of previous years.\n\nThe lock-in effect is still the biggest drag on housing supply. Millions of homeowners who refinanced at 3% during the pandemic have no incentive to sell — they'd have to take on a new mortgage at roughly double that rate. Most economists think rates would need to fall closer to 5% before that logjam meaningfully breaks.\n\nAt 6%, buying a home is more affordable than it was a year ago. But the window that was quietly opening over the past few months just got a little narrower.\n\nLatest Real Estate News in the Bay Area:\n\n📍 Santa Clara County: The market is a notable outlier with a 3.5% year-over-year price decline, creating rare negotiating room for buyers that doesn't exist in neighboring San Francisco.\n\n📍 Alameda County: Remains the most affordable entry point in the region with a median price of $925K, though competition is heating up in Fremont and Oakland as buyers re-enter the market to beat the peak April/May rush.\n\n📍 Geopolitical Impact: Rising tensions in the Middle East are causing \"economic jitters\" among some California buyers, with rising gas prices starting to impact consumer sentiment and home-purchasing decisions.\n\nLatest General News in the Bay Area:\n\n📍 Fremont — \"Happiest City\" Again: Fremont has officially been named the \"Happiest City in America\" for the sixth consecutive year, leading the nation with the highest percentage of households earning at least $75,000 and the lowest divorce rate.\n\n📍 Fremont Shelter Crisis: In response to the regional housing crisis, the City of Fremont adopted a Shelter Crisis Declaration late last week to streamline local support services.\n\n📍 Milpitas — AI Politics: Local leaders are participating in the launch of a new AI-driven political campaign platform, VotersAI, while community organizations continue to focus on public safety and school facility improvements."
   },
   "sources": [
-    "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "https://www.nahb.org/",
-    "https://wkzo.com/2026/03/12/us-weekly-jobless-claims-edge-down/",
-    "https://fred.stlouisfed.org/series/SP500",
-    "https://www.benzinga.com/crypto/cryptocurrency/26/03/51174904/why-is-bitcoin-suddenly-stronger-than-gold-and-the-sp500",
-    "https://www.cnbc.com/2026/03/12/what-trumps-section-301-investigations-mean-for-trade-tariffs.html",
-    "https://m.economictimes.com/news/international/us/silver-price-crashes-today-why-gold-silver-copper-and-platinum-prices-are-falling-silver-drops-to--40-while-gold-slides-25-to-5100-per-ounce/articleshow/129551377.cms",
-    "https://www.tradingview.com/news/coinpedia:039d3761b094b:0-bitcoin-price-today-btc-nears-72k-as-crypto-market-gains-momentum/",
-    "https://www.redfin.com/county/303/CA/Alameda-County/housing-market",
-    "https://www.youtube.com/watch?v=rCuJ8QFWYuI",
-    "https://m.chp.ca.gov/incident.aspx?DispatchId=GGCC",
-    "https://tricityvoice.com/family-of-deaf-6-year-old-deported/"
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.coindesk.com/markets/2026/03/13/blackrock-s-staked-ether-etf-draws-usd15-million-in-first-day-trading",
+    "https://www.investing.com/news/economy-news/us-home-builder-sentiment-edges-up-in-march-nahb-4563115",
+    "https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html",
+    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
+    "https://www.sfgate.com/realestate/article/california-real-estate-22075399.php",
+    "https://www.zacom/stock/news/2884225/stock-market-news-for-mar-16-2026",
+    "https://www.kitco.com/news/article/2026-03-16/price-pressure-gold-silver-oil-down-stocks",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.theownteam.com/blog/bay-area-housing-market-update-march-2026/",
+    "https://www.fremont.gov/about/news-media/fremont-news",
+    "https://tricityvoice.com/fremont-reclaims-happiest-city-title/",
+    "https://www.investing.com/commodities/crude-oil"
   ]
 }
