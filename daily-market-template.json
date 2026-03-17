@@ -1,48 +1,52 @@
 {
-  "date": "03/16/26",
+  "date": "03/17/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/7c788c06-e80d-4613-9617-b7272b506fc1",
-  "qr_code_path": "note-qr-7c788c06.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/dcd459a2-6050-4df3-ab42-b7db0ec347db",
+  "qr_code_path": "note-qr-dcd459a2.png",
   "stocks": {
-    "sp500": "6,632.19",
-    "dow": "46,558.47",
-    "nasdaq": "22,105.36",
+    "sp500": "6,699.38",
+    "dow": "46,946.41",
+    "nasdaq": "22,374.18",
     "note": "",
-    "news": "Adobe said CEO Shantanu Narayen will step down after the company has put in place a successor. Narayen, who has helmed the design software maker since 2007, will stay on as board chair. Adobe shares are down 23% this year as part of a broader selloff in software sparked by concerns about the impact of artificial intelligence."
+    "news": "Nvidia GTC 2026: CEO Jensen Huang sees $1 trillion in orders for Blackwell and Vera Rubin through '27. The company has been expecting growth in 2026 to exceed what was included in its projection last year for a $500 billion revenue opportunity between Blackwell and Rubin."
   },
   "economy": {
-    "us10year": "4.26%",
-    "gold": "$4,998.91",
-    "silver": "$78.91",
-    "note": "",
-    "commentary": "Crude Oil WTI fell sharply to $92.74, down $4.10 (-4.23%), as global markets reacted to shifting supply dynamics.\n\nThe University of Michigan's Consumer Sentiment Index fell to 55.5 in March, its lowest reading of 2026. Interviews taken before the U.S.-Israel strikes on Iran showed improving sentiment — those taken after completely erased the gains.\n\nThe index is now sitting in the 2nd percentile of its entire recorded history, below the level seen at the start of every recession since 1978."
+    "us10year": "4.22%",
+    "gold": "$5,158.89",
+    "silver": "$84.33",
+    "note": "*WTI Crude Oil: $93.50 (-5.28%) as of 6:00pm ET March 16th",
+    "commentary": "The U.S. Senate on Thursday overwhelmingly passed the 21st Century ROAD to Housing Act. This legislation equips communities with new tools and resources to plan for growth, streamlines federal processes that can slow housing development, and strengthens financing options for manufactured and rural housing.\n\nGold surged to $5,158.89 as geopolitical tensions continue to drive safe-haven demand. Silver followed at $84.33. WTI Crude Oil dropped sharply to $93.50 (-5.28%) amid volatile energy markets influenced by the ongoing Middle East conflict."
   },
   "crypto": {
-    "btc": "$73,708.91",
-    "eth": "$2,018.92 (Steady)",
-    "xrp": "$1.40 (Strategy focus)",
+    "btc": "$73,787.76",
+    "eth": "$2,059.55",
+    "xrp": "$1.50",
     "note": "",
-    "commentary": "BlackRock's new ether ETF for yield-hungry investors debuts with $15 million in trading volume, signaling growing institutional appetite for Ethereum-based products.\n\nBitcoin is holding steady near $73,700 while Ethereum trades at $2,018.92. XRP continues to draw attention from strategic-focused investors at $1.40."
+    "commentary": "Bitcoin is holding steady near $73,800 as crypto markets consolidate after recent gains. Ethereum edged up to $2,059.55 while XRP climbed to $1.50, reflecting renewed optimism across altcoins.\n\nThe broader crypto market continues to benefit from institutional interest, with Bitcoin maintaining its position above the key $73,000 level as traders watch for the next catalyst."
   },
   "real_estate": {
-    "rate_30year": "6.27%",
-    "rate_15year": "5.58%",
-    "homebuilder": "U.S. homebuilder sentiment edged up to 38 in March, beating expectations, though sentiment remains below the 50 break-even point for the 23rd straight month. PulteGroup also announced the nomination of Benjamin Schall, CEO of AvalonBay Communities, to its Board of Directors.",
-    "commentary": "The Bay Area market is entering a \"steady but not overheating\" phase. While median prices remain high at roughly $1.25M region-wide, inventory is projected to rise by 10% this year, helping to ease the intense bidding wars of previous years.\n\nThe lock-in effect is still the biggest drag on housing supply. Millions of homeowners who refinanced at 3% during the pandemic have no incentive to sell — they'd have to take on a new mortgage at roughly double that rate. Most economists think rates would need to fall closer to 5% before that logjam meaningfully breaks.\n\nAt 6%, buying a home is more affordable than it was a year ago. But the window that was quietly opening over the past few months just got a little narrower.\n\nLatest Real Estate News in the Bay Area:\n\n📍 Santa Clara County: The market is a notable outlier with a 3.5% year-over-year price decline, creating rare negotiating room for buyers that doesn't exist in neighboring San Francisco.\n\n📍 Alameda County: Remains the most affordable entry point in the region with a median price of $925K, though competition is heating up in Fremont and Oakland as buyers re-enter the market to beat the peak April/May rush.\n\n📍 Geopolitical Impact: Rising tensions in the Middle East are causing \"economic jitters\" among some California buyers, with rising gas prices starting to impact consumer sentiment and home-purchasing decisions.\n\nLatest General News in the Bay Area:\n\n📍 Fremont — \"Happiest City\" Again: Fremont has officially been named the \"Happiest City in America\" for the sixth consecutive year, leading the nation with the highest percentage of households earning at least $75,000 and the lowest divorce rate.\n\n📍 Fremont Shelter Crisis: In response to the regional housing crisis, the City of Fremont adopted a Shelter Crisis Declaration late last week to streamline local support services.\n\n📍 Milpitas — AI Politics: Local leaders are participating in the launch of a new AI-driven political campaign platform, VotersAI, while community organizations continue to focus on public safety and school facility improvements."
+    "rate_30year": "6.36%",
+    "rate_15year": "5.67%",
+    "homebuilder": "White House Executive Orders Target Housing Supply and Mortgage Credit, directing HUD and FHFA to review regulations related to permitting and construction of new homes. Meanwhile, mortgage rates have jumped from a multiyear low of 6% as the Iran conflict pushes up gas prices and inflation fears, complicating the spring home-buying season.",
+    "commentary": "The Bay Area market is entering a more balanced but intense phase. San Francisco leads with 11.5% sales growth, while Santa Clara County is a notable outlier with a 3.5% year-over-year price decline, offering rare negotiating room.\n\nThe spring market has officially launched with a surge in buyer urgency fueled by \"AI wealth\" and critically low inventory. Across the region, homes are selling at a blistering pace — San Francisco reports 77% of houses receiving overbids, averaging 16.5% above list price.\n\nLatest Real Estate News in the Bay Area:\n\n📍 Santa Clara County: While median prices hold at approximately $1.5M, a unique 3.5% year-over-year price dip has emerged, providing a strategic window for buyers that doesn't exist in other counties.\n\n📍 Alameda County: Remains the most affordable entry point with a median price of $925K, seeing a 2.4% price increase as buyers seek space in commuter-friendly hubs like Fremont.\n\n📍 Sacramento: The historic Land Park Bowl property is for sale for $3.1 million following a fire, sparking debate over its future as a community center or housing.\n\nLatest General News in the Bay Area:\n\n📍 Alameda County Elections: Voters are preparing for the upcoming primary election cycle, with high-profile races for District Attorney featuring candidates such as Gopal Krishan and a return attempt by former DA Pamela Price. Local school districts, including Hayward and Castro Valley, have critical parcel tax measures on the ballot.\n\n📍 Fremont — H Mart Opening: The community is celebrating the upcoming opening of a new H Mart, slated to be the chain's largest location in California.\n\n📍 Milpitas — Infrastructure Focus: Regional focus remains on infrastructure and public safety as the city navigates broader economic jitters caused by rising oil prices and the ongoing Middle East conflict."
   },
   "sources": [
-    "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.coindesk.com/markets/2026/03/13/blackrock-s-staked-ether-etf-draws-usd15-million-in-first-day-trading",
-    "https://www.investing.com/news/economy-news/us-home-builder-sentiment-edges-up-in-march-nahb-4563115",
-    "https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html",
-    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
-    "https://www.sfgate.com/realestate/article/california-real-estate-22075399.php",
-    "https://www.zacom/stock/news/2884225/stock-market-news-for-mar-16-2026",
-    "https://www.kitco.com/news/article/2026-03-16/price-pressure-gold-silver-oil-down-stocks",
-    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-march-17-2026",
+    "https://www.car.org/aboutus/mediacenter/news/housingexecorders",
+    "https://www.car.org/aboutus/mediacenter/news/senatepasseshousingact",
+    "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+    "https://www.morningstar.com/news/marketwatch/2026031736/mortgage-rates-are-moving-higher-at-a-crucial-juncture-for-the-housing-market",
+    "https://www.bankrate.com/mortgages/15-year-mortgage-rates/",
+    "https://www.abridged.org/news/historic-land-park-bowling-alley-sale/",
+    "https://teamhatvany.com/blog/march-2026-market-report-san-francisco-real-estate/",
+    "https://marksrealtygroup.com/blog/bay-area-housing-market-key-trends-and-2026-forecast",
+    "https://www.capitalstreetfx.com/global-index-market-analysis-march-17-2026/",
+    "https://www.zacks.com/stock/news/2884901/stock-market-news-for-mar-17-2026",
+    "https://fred.stlouisfed.org/series/DGS10",
+    "https://timesofindia.indiatimes.com/business/india-business/gold-silver-rate-today-live-updates-us-israel-iran-war-middle-east-conflict-latest-news/liveblog/129599816.cms",
+    "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data",
+    "https://pintu.co.id/en/news/266346-bitcoin-reclaims-74k-xrp-potential-rally-2",
     "https://www.theownteam.com/blog/bay-area-housing-market-update-march-2026/",
-    "https://www.fremont.gov/about/news-media/fremont-news",
-    "https://tricityvoice.com/fremont-reclaims-happiest-city-title/",
-    "https://www.investing.com/commodities/crude-oil"
+    "https://trivalleyrepublicans.org/primary-2026"
   ]
 }
