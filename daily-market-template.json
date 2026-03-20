@@ -1,48 +1,46 @@
 {
-  "date": "03/19/26",
+  "date": "03/20/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/b67c2722-c596-43ef-8c74-239e6fcf8bcd",
-  "qr_code_path": "note-qr-b67c2722.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/ed9befe4-03d7-42ec-a78d-3a101d25f148",
+  "qr_code_path": "note-qr-ed9befe4.png",
   "stocks": {
-    "sp500": "6,624.70",
-    "dow": "46,225.15",
-    "nasdaq": "22,152.42",
+    "sp500": "6,606.49",
+    "dow": "46,021.43",
+    "nasdaq": "22,090.69",
     "note": "",
-    "news": "Nvidia gets Beijing's nod for H200 chip sales, adapts Groq chip for China, sources say. Stock market today: Dow sinks 750 points, S&P 500, Nasdaq slide after Fed decision as Powell touts inflation worries."
+    "news": "Rivian's stock pops as the EV maker becomes the latest to partner with Uber. Uber plans to invest as much as $1.25 billion in the EV maker as they work together on robotaxis."
   },
   "economy": {
-    "us10year": "4.28%",
-    "gold": "$4,700.00",
-    "silver": "$26.85",
-    "note": "",
-    "commentary": "Fed votes to hold rates steady, notes 'uncertain' impacts from Iran war. The Federal Open Market Committee voted 11-1 to keep the benchmark federal funds rate anchored in a range between 3.5%-3.75%.\n\nThe policymakers are navigating their way through higher-than-expected inflation readings, mixed signs on the labor market and a war. In its post-meeting statement, the Fed made few changes to its view on the economy, with a slightly faster pace of growth and higher inflation projections for the full year."
+    "us10year": "4.25%",
+    "gold": "$4,662.30",
+    "silver": "$72.08",
+    "note": "BRENT CRUDE: $107.57 (+0.18%)",
+    "commentary": "The Conference Board Leading Economic Index (LEI) for the US fell slightly in January, signaling continued caution ahead.\n\nGold pulled back to $4,662 after recent highs, while silver surged to $72.08 on strong industrial demand. Brent crude held steady at $107.57. The 10-year Treasury yield dipped to 4.25% as investors digest the Fed's decision to hold rates steady amid lingering inflation concerns and geopolitical uncertainty."
   },
   "crypto": {
-    "btc": "$69,334.53",
+    "btc": "$70,082.00",
     "eth": "$2,129.14",
     "xrp": "$1.44",
     "note": "",
-    "commentary": "Sam Bankman-Fried's bankrupt exchange FTX set to repay creditors $2.2 billion this month. The distributions mark the next major phase in FTX's bankruptcy resolution, as the exchange continues unwinding its collapse.\n\nBitcoin dropped to $69,334 while Ethereum edged up to $2,129 and XRP slipped to $1.44 as markets digest the Fed's decision to hold rates steady amid inflation concerns."
+    "commentary": "Crypto.com cuts 12% of staff as it integrates AI across the business for efficiency. The exchange laid off about 180 employees as it restructures and rolls out enterprise-wide AI to drive efficiencies.\n\nBitcoin rebounded to $70,082 while Ethereum held at $2,129 and XRP remained flat at $1.44 as markets stabilize following the Fed's rate decision."
   },
   "real_estate": {
-    "rate_30year": "6.33%",
-    "rate_15year": "5.97%",
-    "homebuilder": "Senate Passes 21st Century ROAD to Housing Act despite industry concerns over specific federal mandates.",
-    "commentary": "The Bay Area market is showing \"selective spring acceleration.\" While inventory is expanding, certain submarkets like Santa Clara are seeing a rare 3.5% year-over-year price dip, offering a strategic window for buyers compared to the double-digit growth in other counties.\n\nToday's data confirms that Santa Clara County is currently the Bay Area's most significant market outlier, with median home prices experiencing a 3.5% year-over-year decline. This cooling is contrasting sharply with San Francisco, where overbidding remains rampant at an average of 16.5% above list price. In Alameda County, the median sale price is holding steady at $925,000, with Fremont specifically seeing a surge in serious buyers who are re-entering the market early this year to avoid the peak competition typically seen in April and May.\n\n📍 Latest Real Estate News in the Bay Area: Today's data confirms that Santa Clara County is currently the Bay Area's most significant market outlier, with median home prices experiencing a 3.5% year-over-year decline. This cooling is contrasting sharply with San Francisco, where overbidding remains rampant at an average of 16.5% above list price.\n\n📍 Alameda County (Fremont Focus): The median sale price is holding steady at $925,000, with Fremont specifically seeing a surge in serious buyers who are re-entering the market early this year to avoid the peak competition typically seen in April and May.\n\n📍 Latest General News in the Bay Area: In Milpitas, the city is moving forward with the South Milpitas Blvd. Extension project, a key initiative designed to revitalize the transit neighborhood and improve local connectivity.\n\n📍 Fremont — Happiest City: Fremont is celebrating its sixth consecutive year as the \"Happiest City in America,\" a title defended in a new 2026 report citing the city's high life satisfaction, longevity, and economic stability — where over 80% of households earn at least $75,000 annually.\n\n📍 Legislative Watch: Assemblymember Alex Lee has introduced the \"No Tax Breaks for ICE Contractors Act,\" a bill drawing significant local attention in both Milpitas and Fremont."
+    "rate_30year": "6.43%",
+    "rate_15year": "6.02%",
+    "homebuilder": "Japanese homebuilders are on a massive U.S. buying spree, including Sumitomo Forestry's $4.5 billion plan to acquire Tri-Pointe Homes, as they look to capitalize on the 4.03 million home shortage in America.",
+    "commentary": "The typical home that went under contract in February spent 66 days on the market — the slowest February pace in a decade. The typical buyer scored 1.8% off the list price — the biggest February discount since 2023; sellers outnumber buyers, giving buyers negotiating power.\n\nPending home sales and new listings both inched down last month, while home prices inched up. The Bay Area market is \"quietly accelerating\" into the spring season; while overall inventory remains tight, single-family homes in Alameda County have climbed back to a median of $1.3 million, showing resilience despite higher rates.\n\n\uD83D\uDCCD Latest Real Estate News in the Bay Area: The spring market is showing a distinct \"selective rebound.\" In Alameda County (Fremont), the median single-family home price reached $1.3 million in February, essentially flat year-over-year, while the condo market dipped significantly to a median of $550,000. Santa Clara County remains one of the most resilient submarkets, where well-priced single-family homes are moving in an average of just 14 days. However, buyers are becoming increasingly price-sensitive; luxury inventory now requires much sharper positioning to attract serious offers compared to entry-level homes.\n\n\uD83D\uDCCD Latest General News in the Bay Area: A Heat Advisory is in effect across Santa Clara County (Milpitas/Cupertino) through today, March 20, as unseasonably hot weather moves through the region. In local government, Santa Clara County recently received renewed grant funding to provide free child safety seats and education to low-income families. In Fremont, the community continues its \"platinum\" 70th-anniversary celebrations, with the Washington Township Museum of Local History featuring a new exhibit on the five original towns that merged to form the city. Meanwhile, on the state level, Assembly Speaker Robert Rivas has officially honored MariaElena De La Garza as the 2026 Woman of the Year for the region.",
+    "local_news": ""
   },
   "sources": [
-    "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html",
-    "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
-    "https://english.news.cn/northamerica/20260319/00d4187d13004369b678f45f24ef0ea2/c.html",
-    "https://finance.yahoo.com/news/live/stock-market-today-dow-sinks-750-points-sp-500-nasdaq-slide-after-fed-decision-as-powell-touts-inflation-worries-200050703.html",
-    "https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/",
-    "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data",
-    "https://www.financemagnates.com/trending/why-is-gold-crashing-how-low-can-gold-go-and-gold-price-prediction-2026/",
-    "https://www.nahb.org/",
-    "https://www.coindesk.com/business/2026/03/18/sam-bankman-fried-s-bankrupt-exchange-ftx-set-to-repay-creditors-usd2-2-billion-this-month",
-    "https://www.theownteam.com/blog/bay-area-housing-market-update-march-2026/",
-    "https://tricityvoice.com/fremont-reclaims-happiest-city-title/",
-    "https://milpitasbeat.com/category/news/"
+    "https://www.mortgagenewsdaily.com/mortgage-rates",
+    "https://www.realtor.com/news/real-estate-news/japanese-homebuilders-american-firms-deals/",
+    "https://www.zacks.com/stock/news/2887114/stock-market-news-for-mar-20-2026",
+    "https://m.economictimes.com/news/international/us/why-gold-and-silver-prices-are-surging-more-than-1-today-after-a-big-crash/articleshow/129699958.cms",
+    "https://www.conference-board.org/topics/us-leading-indicators/",
+    "https://www.marketwatch.com/story/rivians-stock-is-popping-as-the-ev-maker-becomes-the-latest-to-partner-with-uber-4540c29d",
+    "https://www.financemagnates.com/trending/why-silver-is-crashing-how-low-can-xagusd-go-and-silver-price-prediction-2026/",
+    "https://www.redfin.com/news/homebuyers-taking-their-time-2026/",
+    "https://californialocal.com/localnews/santa-clara/ca/government/announcements/show/",
+    "https://www.coindesk.com/business/2026/03/19/crypto-com-cuts-12-of-staff-as-it-integrates-ai-into-internal-processes"
   ]
 }
