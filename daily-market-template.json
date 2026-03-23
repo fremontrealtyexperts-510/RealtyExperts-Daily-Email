@@ -1,46 +1,47 @@
 {
-  "date": "03/20/26",
+  "date": "03/23/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/ed9befe4-03d7-42ec-a78d-3a101d25f148",
-  "qr_code_path": "note-qr-ed9befe4.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4a7ea7df-bff3-4d13-920d-e463accac35b",
+  "qr_code_path": "note-qr-4a7ea7df.png",
   "stocks": {
-    "sp500": "6,606.49",
-    "dow": "46,021.43",
-    "nasdaq": "22,090.69",
+    "sp500": "6,506.48",
+    "dow": "45,577.47",
+    "nasdaq": "21,647.61",
     "note": "",
-    "news": "Rivian's stock pops as the EV maker becomes the latest to partner with Uber. Uber plans to invest as much as $1.25 billion in the EV maker as they work together on robotaxis."
+    "news": "Supermicro (SMCI -33.32%) got shocked after U.S. prosecutors announced charges against its co-founder for allegedly moving $2.5 billion in banned Nvidia (NVDA -3.15%) servers to China. Supermicro suspended both employees and cut ties with the contractor."
   },
   "economy": {
-    "us10year": "4.25%",
-    "gold": "$4,662.30",
-    "silver": "$72.08",
-    "note": "BRENT CRUDE: $107.57 (+0.18%)",
-    "commentary": "The Conference Board Leading Economic Index (LEI) for the US fell slightly in January, signaling continued caution ahead.\n\nGold pulled back to $4,662 after recent highs, while silver surged to $72.08 on strong industrial demand. Brent crude held steady at $107.57. The 10-year Treasury yield dipped to 4.25% as investors digest the Fed's decision to hold rates steady amid lingering inflation concerns and geopolitical uncertainty."
+    "us10year": "4.36%",
+    "gold": "$4,195.00",
+    "silver": "$61.00",
+    "note": "BRENT CRUDE: $111.29 (-2.35%)",
+    "commentary": "United Airlines (UAL -4.46%) is pulling about 5% of its flights as fuel costs spike from the Iran war.\n\nSince the war with Iran started, millions of barrels of oil have been stranded at sea. Now the Trump administration is letting U.S. companies buy it. The Treasury Department opened a 30-day window for companies to buy about 140 million barrels of Iranian crude already on ships. The idea: letting other countries bid could put more oil on the open market."
   },
   "crypto": {
-    "btc": "$70,082.00",
-    "eth": "$2,129.14",
-    "xrp": "$1.44",
+    "btc": "$68,300.25",
+    "eth": "$2,082.35",
+    "xrp": "$1.42",
     "note": "",
-    "commentary": "Crypto.com cuts 12% of staff as it integrates AI across the business for efficiency. The exchange laid off about 180 employees as it restructures and rolls out enterprise-wide AI to drive efficiencies.\n\nBitcoin rebounded to $70,082 while Ethereum held at $2,129 and XRP remained flat at $1.44 as markets stabilize following the Fed's rate decision."
+    "commentary": "Bitcoin is sitting around $67,000 after dropping five months in a row \u2014 a losing streak it hasn't had since 2018."
   },
   "real_estate": {
-    "rate_30year": "6.43%",
-    "rate_15year": "6.02%",
-    "homebuilder": "Japanese homebuilders are on a massive U.S. buying spree, including Sumitomo Forestry's $4.5 billion plan to acquire Tri-Pointe Homes, as they look to capitalize on the 4.03 million home shortage in America.",
-    "commentary": "The typical home that went under contract in February spent 66 days on the market — the slowest February pace in a decade. The typical buyer scored 1.8% off the list price — the biggest February discount since 2023; sellers outnumber buyers, giving buyers negotiating power.\n\nPending home sales and new listings both inched down last month, while home prices inched up. The Bay Area market is \"quietly accelerating\" into the spring season; while overall inventory remains tight, single-family homes in Alameda County have climbed back to a median of $1.3 million, showing resilience despite higher rates.\n\n\uD83D\uDCCD Latest Real Estate News in the Bay Area: The spring market is showing a distinct \"selective rebound.\" In Alameda County (Fremont), the median single-family home price reached $1.3 million in February, essentially flat year-over-year, while the condo market dipped significantly to a median of $550,000. Santa Clara County remains one of the most resilient submarkets, where well-priced single-family homes are moving in an average of just 14 days. However, buyers are becoming increasingly price-sensitive; luxury inventory now requires much sharper positioning to attract serious offers compared to entry-level homes.\n\n\uD83D\uDCCD Latest General News in the Bay Area: A Heat Advisory is in effect across Santa Clara County (Milpitas/Cupertino) through today, March 20, as unseasonably hot weather moves through the region. In local government, Santa Clara County recently received renewed grant funding to provide free child safety seats and education to low-income families. In Fremont, the community continues its \"platinum\" 70th-anniversary celebrations, with the Washington Township Museum of Local History featuring a new exhibit on the five original towns that merged to form the city. Meanwhile, on the state level, Assembly Speaker Robert Rivas has officially honored MariaElena De La Garza as the 2026 Woman of the Year for the region.",
+    "rate_30year": "6.53%",
+    "rate_15year": "6.07%",
+    "homebuilder": "Mattamy Homes has officially broken ground on Lake Highlands Village in Dallas, a gated 85-site townhome community. In luxury development, One Beverly Hills secured $4.3 billion in financing to complete its 17.5-acre mixed-use destination.",
+    "commentary": "The Bay Area market is in a \"Spring Reset\" characterized by a widening gap between available inventory and actual closings. While active listings in Santa Clara and San Mateo have more than doubled since December, closed sales have dipped nearly 40% year-over-year, providing a quiet window of opportunity for buyers to negotiate with less competition.\n\n\uD83D\uDCCD Latest Real Estate News in the Bay Area:\nToday's reports highlight a \"split personality\" market across the region. Santa Clara County is currently a regional outlier, seeing a modest year-over-year price dip despite tightening inventory heading into peak spring. Active listings in the county have surged to 1,186 homes \u2014 more than double December's levels \u2014 while sales fell 42% year-over-year. In Alameda County, the market remains the most accessible entry point with a median price of $925,000, though Fremont and Oakland are seeing longer median days on market compared to the blistering 8-day pace in San Mateo. Savvy buyers are finding that \"move-in ready\" single-family homes still command multiple offers, while condos face significantly more headwinds and longer listing periods.\n\n\uD83D\uDCCD Latest General News in the Bay Area:\nIn Santa Clara County, Assembly Speaker Robert Rivas officially announced California Farmworkers Day as a new state holiday to honor labor history and survivors. Local residents in Milpitas and Los Gatos are advised of tree removal work starting today, March 23, through Friday on College Ave, which may impact local traffic. In Fremont, the new Police Chief, Floyd Mitchell, officially begins his tenure this week following his recent appointment from Oakland. Additionally, Fremont residents planning spring travel are being encouraged to utilize the \"Home Check\" property surveillance programs offered by local police for added security during the vacation season.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "https://www.realtor.com/news/real-estate-news/japanese-homebuilders-american-firms-deals/",
-    "https://www.zacks.com/stock/news/2887114/stock-market-news-for-mar-20-2026",
-    "https://m.economictimes.com/news/international/us/why-gold-and-silver-prices-are-surging-more-than-1-today-after-a-big-crash/articleshow/129699958.cms",
-    "https://www.conference-board.org/topics/us-leading-indicators/",
-    "https://www.marketwatch.com/story/rivians-stock-is-popping-as-the-ev-maker-becomes-the-latest-to-partner-with-uber-4540c29d",
-    "https://www.financemagnates.com/trending/why-silver-is-crashing-how-low-can-xagusd-go-and-silver-price-prediction-2026/",
-    "https://www.redfin.com/news/homebuyers-taking-their-time-2026/",
-    "https://californialocal.com/localnews/santa-clara/ca/government/announcements/show/",
-    "https://www.coindesk.com/business/2026/03/19/crypto-com-cuts-12-of-staff-as-it-integrates-ai-into-internal-processes"
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.prnewswire.com/news-releases/mattamy-homes-begins-development-on-lake-highlands-village-in-dallas-tx-302721411.html",
+    "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
+    "https://www.zacks.com/stock/news/2888110/stock-market-news-for-mar-23-2026",
+    "https://tradingeconomics.com/united-states/government-bond-yield",
+    "https://www.financialexpress.com/market/gold-pulse/gold-silver-rate-today-in-india-on-23-march-2026-live-updates/4180838/",
+    "https://www.fool.com/investing/2026/03/23/the-sec-just-classified-16-cryptocurrencies-as-dig/",
+    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
+    "https://localnewsmatters.org/santa-clara-county-news-matters/",
+    "https://www.ktvu.com/tag/us/ca/alameda-county/fremont"
   ]
 }
