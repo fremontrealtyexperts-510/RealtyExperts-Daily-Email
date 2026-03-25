@@ -1,47 +1,49 @@
 {
-  "date": "03/23/26",
+  "date": "03/25/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4a7ea7df-bff3-4d13-920d-e463accac35b",
-  "qr_code_path": "note-qr-4a7ea7df.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/b92764c0-c340-41fc-9392-39cb965278bc",
+  "qr_code_path": "note-qr-b92764c0.png",
   "stocks": {
-    "sp500": "6,506.48",
-    "dow": "45,577.47",
-    "nasdaq": "21,647.61",
+    "sp500": "6,556.37",
+    "dow": "46,124.06",
+    "nasdaq": "21,761.89",
     "note": "",
-    "news": "Supermicro (SMCI -33.32%) got shocked after U.S. prosecutors announced charges against its co-founder for allegedly moving $2.5 billion in banned Nvidia (NVDA -3.15%) servers to China. Supermicro suspended both employees and cut ties with the contractor."
+    "news": "Costco (COST +0.84%) now makes its own energy drink customers swear tastes just like Celsius (CELH -6.57%), whose stock tanked on the news."
   },
   "economy": {
-    "us10year": "4.36%",
-    "gold": "$4,195.00",
-    "silver": "$61.00",
-    "note": "BRENT CRUDE: $111.29 (-2.35%)",
-    "commentary": "United Airlines (UAL -4.46%) is pulling about 5% of its flights as fuel costs spike from the Iran war.\n\nSince the war with Iran started, millions of barrels of oil have been stranded at sea. Now the Trump administration is letting U.S. companies buy it. The Treasury Department opened a 30-day window for companies to buy about 140 million barrels of Iranian crude already on ships. The idea: letting other countries bid could put more oil on the open market."
+    "us10year": "4.33%",
+    "gold": "$4,583.86",
+    "silver": "$73.25",
+    "note": "WTI CRUDE OIL: $87.43 (-5.33%)",
+    "commentary": "Young Graduates Face the Grimmest Job Market in Years: The jobless rate for young grads hit 5.6%, above the overall rate of 4.2% for all workers.\n\nHegseth 'disappointed' by idea of ceasefire with Iran, says Trump."
   },
   "crypto": {
-    "btc": "$68,300.25",
+    "btc": "$71,427.00",
     "eth": "$2,082.35",
     "xrp": "$1.42",
     "note": "",
-    "commentary": "Bitcoin is sitting around $67,000 after dropping five months in a row \u2014 a losing streak it hasn't had since 2018."
+    "commentary": "Circle stock plunges 20% as a new draft of the Clarity Act threatens stablecoin rewards."
   },
   "real_estate": {
-    "rate_30year": "6.53%",
-    "rate_15year": "6.07%",
-    "homebuilder": "Mattamy Homes has officially broken ground on Lake Highlands Village in Dallas, a gated 85-site townhome community. In luxury development, One Beverly Hills secured $4.3 billion in financing to complete its 17.5-acre mixed-use destination.",
-    "commentary": "The Bay Area market is in a \"Spring Reset\" characterized by a widening gap between available inventory and actual closings. While active listings in Santa Clara and San Mateo have more than doubled since December, closed sales have dipped nearly 40% year-over-year, providing a quiet window of opportunity for buyers to negotiate with less competition.\n\n\uD83D\uDCCD Latest Real Estate News in the Bay Area: Today's reports highlight a \"split personality\" market across the region. Santa Clara County is currently a regional outlier, seeing a modest year-over-year price dip despite tightening inventory heading into peak spring. Active listings in the county have surged to 1,186 homes \u2014 more than double December's levels \u2014 while sales fell 42% year-over-year. In Alameda County, the market remains the most accessible entry point with a median price of $925,000, though Fremont and Oakland are seeing longer median days on market compared to the blistering 8-day pace in San Mateo. Savvy buyers are finding that \"move-in ready\" single-family homes still command multiple offers, while condos face significantly more headwinds and longer listing periods.\n\n\uD83D\uDCCD Latest General News in the Bay Area: In Santa Clara County, Assembly Speaker Robert Rivas officially announced California Farmworkers Day as a new state holiday to honor labor history and survivors. Local residents in Milpitas and Los Gatos are advised of tree removal work starting today, March 23, through Friday on College Ave, which may impact local traffic. In Fremont, the new Police Chief, Floyd Mitchell, officially begins his tenure this week following his recent appointment from Oakland. Additionally, Fremont residents planning spring travel are being encouraged to utilize the \"Home Check\" property surveillance programs offered by local police for added security during the vacation season.",
+    "rate_30year": "6.55%",
+    "rate_15year": "6.12%",
+    "homebuilder": "The National Association of Home Builders (NAHB) reports that multifamily \"missing middle\" construction is seeing its best year since 2007.",
+    "commentary": "The Bay Area is experiencing a \"Spring Reset\" where inventory is building faster than sales are closing. Santa Clara County is a notable outlier with a 3.5% year-over-year price decline, providing a strategic window for buyers to negotiate as active listings have more than doubled since December.\n\n\ud83d\udccd Latest Real Estate News in the Bay Area: The Bay Area spring market is currently characterized by a widening gap between available inventory and actual closings. In Santa Clara County, active single-family listings have surged to 1,186\u2014more than double December's levels\u2014while actual sales fell 42% year-over-year. This has led to a modest 3.5% price dip in the county, contrasting with San Francisco's 7.7% appreciation. In Alameda County, the market remains the most accessible entry point with a median price of $925,000, and while it is still considered a seller's market, homes are staying on the market longer (median 26 days) as buyers become more selective.\n\n\ud83d\udccd Latest General News in the Bay Area: In Milpitas, local focus remains on surging gas prices, which have prompted the Valley Transportation Authority (VTA) to urge residents to switch to public transit as an eco-friendly alternative. Residents in Santa Clara County are also tracking a new state holiday; Assembly Speaker Robert Rivas officially announced California Farmworkers Day to honor labor history. In Fremont, the community is welcoming new Police Chief Floyd Mitchell, who officially began his tenure this week. Additionally, Fremont police are reminding residents planning spring travel to utilize their free \"Home Check\" property surveillance programs for added security while away.",
     "local_news": ""
   },
   "sources": [
-    "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.prnewswire.com/news-releases/mattamy-homes-begins-development-on-lake-highlands-village-in-dallas-tx-302721411.html",
-    "https://www.businesswire.com/newsroom/industry/construction-property/residential-real-estate",
-    "https://www.zacks.com/stock/news/2888110/stock-market-news-for-mar-23-2026",
+    "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-wednesday-march-25-2026/",
+    "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
+    "https://www.nahb.org/",
+    "https://www.aa.com.tr/en/economy/us-stock-markets-close-day-in-red-amid-uncertainties-related-to-iran-war/3877948",
     "https://tradingeconomics.com/united-states/government-bond-yield",
-    "https://www.financialexpress.com/market/gold-pulse/gold-silver-rate-today-in-india-on-23-march-2026-live-updates/4180838/",
-    "https://www.fool.com/investing/2026/03/23/the-sec-just-classified-16-cryptocurrencies-as-dig/",
-    "https://marksrealtygroup.com/blog/bay-area-real-estate-outlook-2026-what-california-homebuyers-and-sellers-need-to-know-now",
-    "https://localnewsmatters.org/santa-clara-county-news-matters/",
-    "https://www.ktvu.com/tag/us/ca/alameda-county/fremont"
+    "https://pintu.co.id/en/news/267582-xrp-freefalls-in-rter-repeat-2017s-glory",
+    "https://www.theownteam.com/blog/bay-area-market-update-march-2026/",
+    "https://www.ktvu.com/tag/us/ca/alameda-county/fremont",
+    "https://californialocal.com/localnews/santa-clara/ca/government/announcements/show/",
+    "https://www.nytimes.com/2026/03/24/business/economy/college-graduates-job-market-hiring.html",
+    "https://www.investing.com/news/stock-market-news/celsius-stock-tumbles-as-costco-launches-rival-energy-drink-93CH-4578094",
+    "https://thehill.com/policy/defense/5798988-trump-declares-victory-iran-war/",
+    "https://www.coindesk.com/markets/2026/03/24/circle-stock-plunges-18-as-a-new-draft-of-the-clarity-act-threatens-stablecoin-rewards"
   ]
 }
