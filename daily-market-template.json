@@ -1,49 +1,50 @@
 {
-  "date": "03/25/26",
+  "date": "03/26/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/b92764c0-c340-41fc-9392-39cb965278bc",
-  "qr_code_path": "note-qr-b92764c0.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/8f3d92ab-1a2a-47c3-adbb-c1e94834a8e2",
+  "qr_code_path": "note-qr-8f3d92ab.png",
   "stocks": {
-    "sp500": "6,556.37",
-    "dow": "46,124.06",
-    "nasdaq": "21,761.89",
+    "sp500": "5,668.55",
+    "dow": "46,513.85",
+    "nasdaq": "21,799.62",
     "note": "",
-    "news": "Costco (COST +0.84%) now makes its own energy drink customers swear tastes just like Celsius (CELH -6.57%), whose stock tanked on the news."
+    "news": "OpenAI Just Spiked Bob Iger's Final Big Strategic Deal. For Disney, Maybe That's Lucky."
   },
   "economy": {
-    "us10year": "4.33%",
-    "gold": "$4,583.86",
-    "silver": "$73.25",
+    "us10year": "4.39%",
+    "gold": "$4,451.47",
+    "silver": "$69.36",
     "note": "WTI CRUDE OIL: $87.43 (-5.33%)",
-    "commentary": "Young Graduates Face the Grimmest Job Market in Years: The jobless rate for young grads hit 5.6%, above the overall rate of 4.2% for all workers.\n\nHegseth 'disappointed' by idea of ceasefire with Iran, says Trump."
+    "commentary": "Federal Reserve Posted Loss of $18.7 Billion in 2025: The central bank's finances are recovering after an unprecedented run of losses tied to its pandemic-era stimulus and subsequent inflation fight.\n\nTrump says Iran wants deal but is 'afraid to say it': President Donald Trump said Iranian leaders are negotiating with the United States in private to end the war but do not want to say so publicly because they fear for their lives."
   },
   "crypto": {
-    "btc": "$71,427.00",
-    "eth": "$2,082.35",
-    "xrp": "$1.42",
+    "btc": "$69,598.23",
+    "eth": "$2,077.01",
+    "xrp": "$1.37",
     "note": "",
-    "commentary": "Circle stock plunges 20% as a new draft of the Clarity Act threatens stablecoin rewards."
+    "commentary": "Crypto exchange Binance has lost more than half its market share, now controlling 27% of Bitcoin trading."
   },
   "real_estate": {
-    "rate_30year": "6.55%",
-    "rate_15year": "6.12%",
-    "homebuilder": "The National Association of Home Builders (NAHB) reports that multifamily \"missing middle\" construction is seeing its best year since 2007.",
-    "commentary": "The Bay Area is experiencing a \"Spring Reset\" where inventory is building faster than sales are closing. Santa Clara County is a notable outlier with a 3.5% year-over-year price decline, providing a strategic window for buyers to negotiate as active listings have more than doubled since December.\n\n\ud83d\udccd Latest Real Estate News in the Bay Area: The Bay Area spring market is currently characterized by a widening gap between available inventory and actual closings. In Santa Clara County, active single-family listings have surged to 1,186\u2014more than double December's levels\u2014while actual sales fell 42% year-over-year. This has led to a modest 3.5% price dip in the county, contrasting with San Francisco's 7.7% appreciation. In Alameda County, the market remains the most accessible entry point with a median price of $925,000, and while it is still considered a seller's market, homes are staying on the market longer (median 26 days) as buyers become more selective.\n\n\ud83d\udccd Latest General News in the Bay Area: In Milpitas, local focus remains on surging gas prices, which have prompted the Valley Transportation Authority (VTA) to urge residents to switch to public transit as an eco-friendly alternative. Residents in Santa Clara County are also tracking a new state holiday; Assembly Speaker Robert Rivas officially announced California Farmworkers Day to honor labor history. In Fremont, the community is welcoming new Police Chief Floyd Mitchell, who officially began his tenure this week. Additionally, Fremont police are reminding residents planning spring travel to utilize their free \"Home Check\" property surveillance programs for added security while away.",
+    "rate_30year": "6.49%",
+    "rate_15year": "5.82%",
+    "homebuilder": "President Trump recently signed Executive Order 14394, \"Removing Regulatory Barriers to Affordable Home Construction,\" which directs federal agencies to streamline environmental permitting and reduce regulatory burdens for residential developers.",
+    "commentary": "The Bay Area market remains a \"seller's market\" due to severely constrained inventory, though it is becoming more localized; while San Francisco supply is extremely tight at 0.8 months, Santa Clara County has seen a 21% increase in days on market compared to last year, signaling slightly more buyer selectivity.\n\n📍 Latest Real Estate News in the Bay Area: As of late March 2026, the Bay Area housing market is described as \"split,\" with single-family homes remaining highly competitive while the condo market offers more flexibility for buyers. In Santa Clara County, the median home price has stabilized at approximately $2M, and while inventory remains low (1.1 months of supply), homes are staying on the market longer than in previous cycles. In Alameda County, including Fremont, buyer caution is being offset by improved affordability from rates that have dipped from their 2025 peaks, though national average rates have ticked up slightly this week due to inflation concerns tied to Middle East energy costs.\n\n📍 Latest General News in the Bay Area: In Milpitas, the community recently celebrated the grand opening of the new Milpitas Performing Arts Center, a state-of-the-art facility that officially opened with a ribbon-cutting on March 20. Local government in Milpitas has also seen a leadership shift with the hiring of Madison Nguyen as the city's new Interim Economic Development Director. In Fremont, the focus remains on regional transit and safety; BART recently issued advisories for late-night maintenance through the Transbay Tube, and residents are tracking the impact of new federal housing executive orders aimed at reducing local development costs.",
     "local_news": ""
   },
   "sources": [
-    "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-wednesday-march-25-2026/",
-    "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
-    "https://www.nahb.org/",
-    "https://www.aa.com.tr/en/economy/us-stock-markets-close-day-in-red-amid-uncertainties-related-to-iran-war/3877948",
+    "https://www.bankrate.com/mortgages/mortgage-rates/",
+    "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-thursday-march-26-2026/",
+    "https://www.wsj.com/economy/central-banking/federal-reserve-posted-loss-of-18-7-billion-in-2025-c198b370",
+    "https://www.usatoday.com/live-story/news/world/2026/03/25/trump-iran-israel-war-updates/89310133007/",
+    "https://www.jdsupra.com/legalnews/a-green-light-for-housing-what-2122096/",
+    "https://www.zacks.com/stock/news/2889951/stock-market-news-for-mar-26-2026",
+    "https://www.bloomberg.com/news/articles/2026-03-25/binance-s-grip-on-crypto-loosens-as-market-crash-rattles-faith",
     "https://tradingeconomics.com/united-states/government-bond-yield",
-    "https://pintu.co.id/en/news/267582-xrp-freefalls-in-rter-repeat-2017s-glory",
-    "https://www.theownteam.com/blog/bay-area-market-update-march-2026/",
-    "https://www.ktvu.com/tag/us/ca/alameda-county/fremont",
-    "https://californialocal.com/localnews/santa-clara/ca/government/announcements/show/",
-    "https://www.nytimes.com/2026/03/24/business/economy/college-graduates-job-market-hiring.html",
-    "https://www.investing.com/news/stock-market-news/celsius-stock-tumbles-as-costco-launches-rival-energy-drink-93CH-4578094",
-    "https://thehill.com/policy/defense/5798988-trump-declares-victory-iran-war/",
-    "https://www.coindesk.com/markets/2026/03/24/circle-stock-plunges-18-as-a-new-draft-of-the-clarity-act-threatens-stablecoin-rewards"
+    "https://www.techi.com/gold-price-today/",
+    "https://variety.com/2026/digital/news/why-openai-disney-ended-sora-deal-bob-iger-1236698901/",
+    "https://ts2.tech/en/gold-and-silver-price-today-gold-falls-to-4451-silver-slides-as-oil-spike-revives-rate-hike-fears/",
+    "https://cryptonews.com/news/bitcoin-price-prediction-dashlink-btc-71k-institutional-demand/",
+    "https://pintu.co.id/en/news/267927-ethereum-price-update-26march26",
+    "https://remilestone.com/blog/march-26-market-update"
   ]
 }
