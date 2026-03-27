@@ -1,50 +1,49 @@
 {
-  "date": "03/26/26",
+  "date": "03/27/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/8f3d92ab-1a2a-47c3-adbb-c1e94834a8e2",
-  "qr_code_path": "note-qr-8f3d92ab.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/a5132401-263c-49ce-bf15-8017c730bbb1",
+  "qr_code_path": "note-qr-a5132401.png",
   "stocks": {
-    "sp500": "6,568.55",
-    "dow": "46,513.85",
-    "nasdaq": "21,799.62",
-    "note": "",
-    "news": "OpenAI Just Spiked Bob Iger's Final Big Strategic Deal. For Disney, Maybe That's Lucky."
+    "sp500": "6,477.16 (-1.74%)",
+    "dow": "46,208.47 (-1.01%)",
+    "nasdaq": "21,799.62 (-2.38%)",
+    "note": "Numbers as of market close March 26th",
+    "news": "A California jury found that Meta's Instagram and Google's YouTube were designed to be too addictive for younger users, sending shares of Meta (META -7.92%) and Google (GOOG -3.06%) sharply lower. The verdict follows a similar ruling in a New Mexico court and could set the stage for a wave of additional lawsuits against social media companies.\n\nChipmakers also had a rough session, with Intel (INTC -6.53%) and AMD (AMD -7.49%) both falling despite announcing plans to raise chip prices."
   },
   "economy": {
-    "us10year": "4.39%",
-    "gold": "$4,451.47",
-    "silver": "$69.36",
-    "note": "WTI CRUDE OIL: $87.43 (-5.33%)",
-    "commentary": "Federal Reserve Posted Loss of $18.7 Billion in 2025: The central bank's finances are recovering after an unprecedented run of losses tied to its pandemic-era stimulus and subsequent inflation fight.\n\nTrump says Iran wants deal but is 'afraid to say it': President Donald Trump said Iranian leaders are negotiating with the United States in private to end the war but do not want to say so publicly because they fear for their lives."
+    "us10year": "4.41% (+0.08%)",
+    "gold": "$4,376 (-3.88%)",
+    "wti": "$93.79 (+3.84%)",
+    "note": "Numbers as of 5:30pm ET March 26th",
+    "commentary": "Goldman Sachs estimates the oil-price surge triggered by the U.S.-Iran conflict could suppress payroll growth by roughly 10,000 jobs per month through year-end, with restaurants, hotels, and retail bearing the brunt of reduced consumer spending.\n\nOn the labor front, initial unemployment claims came in lower than expected at 210,000 last week, and continuing claims fell to their lowest level in nearly two years, suggesting companies are holding on to workers even as energy costs squeeze margins."
   },
   "crypto": {
-    "btc": "$69,598.23",
-    "eth": "$2,077.01",
-    "xrp": "$1.37",
-    "note": "",
-    "commentary": "Crypto exchange Binance has lost more than half its market share, now controlling 27% of Bitcoin trading."
+    "btc": "$65,830.02 (-3.52%)",
+    "eth": "$2,077.01 (-4.47%)",
+    "xrp": "$1.37 (-3.51%)",
+    "note": "Numbers as of 5:30pm ET March 26th",
+    "commentary": "Fannie Mae is partnering with Better Home & Finance and Coinbase to accept crypto-backed mortgages for the first time. The program lets homebuyers pledge Bitcoin and other cryptocurrencies as collateral for their down payment, eliminating the need to sell holdings to purchase a home.\n\nMeanwhile, Marathon Digital (MARA +3.62%) saw shares climb after unloading over $1 billion in Bitcoin to pay down debt at a discount, while Binance's market dominance continues to erode, now controlling just 27% of Bitcoin trading volume."
   },
   "real_estate": {
-    "rate_30year": "6.49%",
-    "rate_15year": "5.82%",
-    "homebuilder": "President Trump recently signed Executive Order 14394, \"Removing Regulatory Barriers to Affordable Home Construction,\" which directs federal agencies to streamline environmental permitting and reduce regulatory burdens for residential developers.",
-    "commentary": "The Bay Area market remains a \"seller's market\" due to severely constrained inventory, though it is becoming more localized; while San Francisco supply is extremely tight at 0.8 months, Santa Clara County has seen a 21% increase in days on market compared to last year, signaling slightly more buyer selectivity.\n\n📍 Latest Real Estate News in the Bay Area: As of late March 2026, the Bay Area housing market is described as \"split,\" with single-family homes remaining highly competitive while the condo market offers more flexibility for buyers. In Santa Clara County, the median home price has stabilized at approximately $2M, and while inventory remains low (1.1 months of supply), homes are staying on the market longer than in previous cycles. In Alameda County, including Fremont, buyer caution is being offset by improved affordability from rates that have dipped from their 2025 peaks, though national average rates have ticked up slightly this week due to inflation concerns tied to Middle East energy costs.\n\n📍 Latest General News in the Bay Area: In Milpitas, the community recently celebrated the grand opening of the new Milpitas Performing Arts Center, a state-of-the-art facility that officially opened with a ribbon-cutting on March 20. Local government in Milpitas has also seen a leadership shift with the hiring of Madison Nguyen as the city's new Interim Economic Development Director. In Fremont, the focus remains on regional transit and safety; BART recently issued advisories for late-night maintenance through the Transbay Tube, and residents are tracking the impact of new federal housing executive orders aimed at reducing local development costs.",
+    "rate_30year": "6.62%",
+    "rate_15year": "6.14%",
+    "homebuilder": "Construction of Frederick Airport Park, a 509,000-square-foot industrial development featuring two buildings, was completed this quarter in Frederick, Maryland.",
+    "commentary": "The Bay Area market is \"quietly accelerating\" as it enters the spring season, with inventory beginning to expand and buyer activity picking up despite higher price sensitivity in some areas.\n\n\ud83d\udccd Latest Real Estate News in the Bay Area: March data reveals a true \"selective rebound\" in the regional market. Santa Clara County single-family home prices have reached a median of $2,000,000, up 0.63% year-over-year, while the condo market in the same area saw a sharper decline of nearly 11%. Alameda County single-family sales (excluding condos) grew by 10.5%, signaling strong demand for detached homes as inventory expands slightly heading into April. Competition remains fierce in seller-favored zones, with Santa Clara homes selling in a median of just 8 days.\n\n\ud83d\udccd Latest General News in the Bay Area: In Fremont, the Police Department lobby is operating on modified hours through today, March 27, due to staff training sessions. In Santa Clara County, the State Assembly recently voted unanimously to establish Farmworkers Day in California, a bipartisan bill co-authored by local representative Speaker Robert Rivas. Additionally, BART is launching an online tool to generate revenue by renting underutilized parking spots to local businesses across the system, including stations in the South Bay.",
     "local_news": ""
   },
   "sources": [
-    "https://www.bankrate.com/mortgages/mortgage-rates/",
-    "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-thursday-march-26-2026/",
-    "https://www.wsj.com/economy/central-banking/federal-reserve-posted-loss-of-18-7-billion-in-2025-c198b370",
-    "https://www.usatoday.com/live-story/news/world/2026/03/25/trump-iran-israel-war-updates/89310133007/",
-    "https://www.jdsupra.com/legalnews/a-green-light-for-housing-what-2122096/",
-    "https://www.zacks.com/stock/news/2889951/stock-market-news-for-mar-26-2026",
-    "https://www.bloomberg.com/news/articles/2026-03-25/binance-s-grip-on-crypto-loosens-as-market-crash-rattles-faith",
+    "https://www.mortgagenewsdaily.com/",
+    "https://rebusinessonline.com/hanover-northwestern-mutual-deliver-509000-sf-industrial-park-in-frederick-maryland/",
+    "https://fortune.com/2026/03/26/trump-iran-war-oil-shock-jobs-goldman-sachs-gen-z/",
+    "https://ascendre.com/blog/set-update-march-2026",
+    "https://marksrealtygroup.com/blog/bay-area-housing-market-key-trends-and-2026-forecast",
+    "https://fred.stlouisfed.org/series/SP500",
+    "https://www.forex.com/en-us/news-and-analysis/s-p-500-nasdaq-dow-forecast-for-the-week-ahead-3-21-2026/",
     "https://tradingeconomics.com/united-states/government-bond-yield",
-    "https://www.techi.com/gold-price-today/",
-    "https://variety.com/2026/digital/news/why-openai-disney-ended-sora-deal-bob-iger-1236698901/",
-    "https://ts2.tech/en/gold-and-silver-price-today-gold-falls-to-4451-silver-slides-as-oil-spike-revives-rate-hike-fears/",
-    "https://cryptonews.com/news/bitcoin-price-prediction-dashlink-btc-71k-institutional-demand/",
-    "https://pintu.co.id/en/news/267927-ethereum-price-update-26march26",
-    "https://remilestone.com/blog/march-26-market-update"
+    "https://www.fool.com/investing/2026/03/25/better-buy-bitcoin-vs-xrp/",
+    "https://pintu.co.id/en/news/267741-sec-ruling-march-27-2026-will-ripple-xrp-price-explode-or-fall",
+    "https://www.fremontpolice.gov/about-us/about-fremont-police/spotlight-and-news",
+    "https://localnewsmatters.org/santa-clara-county-news-matters/",
+    "https://www.wsj.com/real-estate/fannie-mae-to-accept-crypto-backed-mortgages-for-the-first-time-bfa502c7"
   ]
 }
