@@ -1,44 +1,53 @@
 {
-  "date": "03/30/26",
+  "date": "03/31/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/9f4c5e78-011d-424c-bd11-2c4f8a414039",
-  "qr_code_path": "note-qr-9f4c5e78.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/29d58e51-7ef3-4e44-b1b2-18f363704135",
+  "qr_code_path": "note-qr-29d58e51.png",
   "stocks": {
-    "sp500": "6,369 (-1.67%)",
-    "dow": "45,167 (-1.73%)",
-    "nasdaq": "20,948 (-2.15%)",
-    "note": "Numbers as of market close March 29th",
-    "news": "Game engine maker Unity (U +13.54%) had a blowout session after forecasting stronger-than-expected Q1 sales, powered by its Vector AI ad platform that helps game developers find new users. It's a much-needed win for a stock that's been down nearly 60% this year.\n\nMeanwhile, SpaceX is reportedly gearing up for a June IPO, with Elon Musk planning to offer 30% of shares to everyday investors — and rumor has it, shareholders might even get a front-row seat to rocket launches at Starbase, Texas. Because who needs dividends when you have fire and thrust?"
+    "sp500": "6,343 (-0.39%)",
+    "dow": "45,216 (+0.11%)",
+    "nasdaq": "20,794 (-0.73%)",
+    "note": "Numbers as of market close March 30th",
+    "news": "Markets notched their worst week of 2026 last week, and Monday offered no relief. The S&P and Nasdaq both slipped further into the red while the Dow barely held on. Nvidia is now officially in bear market territory, down 21% from its November high, and other big tech names like Alphabet, Amazon, Meta, and Microsoft are all in the red for the year.\n\nMeanwhile, the Iran conflict is sending shockwaves through commodities. Aluminum surged 5.5% on Monday to its highest level since 2022, as roughly 10% of global aluminum production sits in the Gulf region. Century Aluminum (CENX +7.25%) and Alcoa (AA +8.23%) had a field day."
   },
   "economy": {
-    "us10year": "4.41% (-0.03%)",
+    "us10year": "4.35% (-0.09%)",
     "gold": "$4,445 (-1.09%)",
-    "wti": "$102.54 (+2.91%)",
-    "note": "Numbers as of 8:00pm ET March 29th",
-    "commentary": "Consumer sentiment just hit its lowest point of 2026, and the culprit is a familiar one: high oil prices and a stock market that can't seem to find its footing. The S&P 500 has shed roughly $5 trillion since the Iran conflict kicked off, and \"extreme fear\" is now the dominant mood on Wall Street.\n\nIn a plot twist nobody wanted, markets are now pricing in a greater chance of a Fed rate hike than a cut this year. Rising oil and import costs are stoking inflation fears, which means the Fed may have to tighten — even as the economy and job market slow down. It's the economic equivalent of having to run uphill in a headwind."
+    "wti": "$114.66 (+1.86%)",
+    "note": "Numbers as of 6:00pm ET March 30th",
+    "commentary": "Oil is the story right now. Brent crude has surged 50% in the past month as the Strait of Hormuz — which moves 20% of the world's oil — remains blocked due to the Iran conflict. Experts warn that if it doesn't reopen within two weeks, prices could stay elevated long-term.\n\nThe ripple effect is already hitting Bay Area wallets: gas prices have topped $6 a gallon across the region, with some analysts warning San Francisco could see $10. Two California refinery shutdowns (Phillips 66 Wilmington, Valero Benicia) wiped out 17% of in-state refining capacity, making things even worse.\n\nDespite the chaos, Fed Chair Powell says don't expect a rate hike from this oil shock — his argument is that by the time any hike would kick in, the energy crunch could be over. Markets aren't so sure: they're now pricing in a greater chance of a hike than a cut this year."
   },
   "crypto": {
-    "btc": "$65,844 (-2.32%)",
-    "eth": "$1,981 (-3.34%)",
-    "xrp": "$1.33 (-1.21%)",
-    "note": "Numbers as of 8:00pm ET March 29th",
-    "commentary": "Intercontinental Exchange — the company that literally owns the New York Stock Exchange — just dropped $600 million on Polymarket, the crypto-powered prediction platform where traders bet on everything from weather to elections. Regulators may not love it, but when the NYSE's parent company writes a check that big, it's a pretty strong vote of confidence.\n\nIn other news, U.S. crypto czar David Sacks has officially hung up his digital spurs, stepping down from his role overseeing federal crypto policy. He says he'll stick around to weigh in on AI topics, because apparently one emerging tech revolution wasn't enough."
+    "btc": "$66,871 (+1.39%)",
+    "eth": "$2,044 (+3.09%)",
+    "xrp": "$1.33 (-0.00%)",
+    "note": "Numbers as of 6:00pm ET March 30th",
+    "commentary": "Bitcoin miners are having an identity crisis. It now costs roughly $90,000 to produce one Bitcoin, but the coin trades near $67,000. So major miners like MARA Holdings are selling coins and pivoting their hardware toward AI. Mining computing power has dropped 4% since January — the first Q1 decline since 2020.\n\nOn the policy front, the Labor Department proposed a rule that could allow crypto, private equity, and private credit into 401(k) plans. With $14.2 trillion sitting in workplace retirement accounts, asset managers like BlackRock and Apollo are already building funds that mix in alternative assets. Your 401(k) might get a lot more interesting."
   },
   "real_estate": {
-    "rate_30year": "6.64%",
-    "rate_15year": "6.15%",
-    "homebuilder": "US homebuilder sentiment holds at 38 for March; better-than-expected but still under the 50 \"break-even\" mark as high interest rates and Middle East geopolitical tensions dampen buyer demand.",
-    "commentary": "The Bay Area is seeing a \"split personality\" market this spring. While San Francisco and San Mateo are accelerating with homes moving in under 14 days, Santa Clara and Alameda counties are seeing inventory double since December, providing a rare window for buyers to negotiate without the typical frenzy.\n\n📍 Latest Real Estate News in the Bay Area: As of today, Santa Clara County is a notable outlier in the regional market, showing a 3.5% year-over-year price dip even as demand picks up for the spring season. Active listings in the county have surged to 1,186 units — more than double the inventory seen in December — while closed sales are down 42% compared to last March, signaling that buyers are increasingly price-sensitive. In Alameda County (Fremont), the market remains the most accessible entry point in the region with a median price of $925,000, offering significantly more value than the Peninsula, where single-family homes in San Mateo are selling in as few as 8 days.\n\n📍 Latest General News in the Bay Area: In Milpitas, hundreds gathered yesterday for an anti-Trump \"No Kings\" rally, protesting recent federal policy shifts as tensions over the Iran conflict enter their fifth week. The city also announced it will offer free doorbell cameras to residents starting this week to boost neighborhood safety. In Fremont, a critical Charter Advisory Committee meeting is scheduled for today at 5:00 PM to discuss the city's transition to a Charter City. Additionally, residents in both cities are navigating a holiday-shortened week with the state officially renaming Cesar Chavez Day to Farmworkers Day, a move that has prompted Milpitas to reconsider the future of Cesar Chavez Plaza.",
+    "rate_30year": "6.36%",
+    "rate_15year": "5.75%",
+    "homebuilder": "Spring inventory is here, but it's shrinking fast — every Tri-City market lost listings this week as buyer absorption outpaced new supply.",
+    "commentary": "Across the 16 cities we track, total inventory dropped from 2,600 to 2,567 — a net loss of 33 listings in just days. Buyers are moving faster than sellers can list.\n\n📍 Milpitas: The hottest market in the Tri-City area right now. Townhomes are flying: 33 pending vs. just 27 active, with only 2 new TH listings. If you're a buyer looking at Milpitas townhomes, be ready to compete. The city is also booming with $450M+ in new development investment — a 5-year high — including 1M+ sq ft of manufacturing and R&D facilities, the new 102-unit Sango Court affordable housing near BART, and 206 townhomes approved at California Circle (75 units reserved for teachers).\n\n📍 Fremont: Still the largest inventory pool at 304 listings, but down 5 from last report. Detached homes dominate (90 active, 67 pending). The 53 coming-soon listings suggest a pipeline, but only 26 new listings actually hit the market. Big local news: H Mart is bringing its largest U.S. store to Pacific Commons — a 100,000 sq ft two-story flagship with a food hall, restaurants, and entertainment, replacing the old Kohl's. Construction starts late 2026. Also, a $10M SuperLotto ticket was sold at the 7-Eleven on Central Ave last Saturday.\n\n📍 Union City: The tightest market — only 86 total listings and just 1 new listing this period. Buyers here have almost no options. The city is updating its Parks & Recreation Master Plan for the first time in 25 years.\n\n📍 Hayward & Newark: Hayward leads in new listings (21) but still lost 4 total as absorption outpaced supply. Newark holds steady at 98 with 6 new. Both remain competitive seller's markets.\n\nOn the macro side, Trump's tariffs are adding $9,200-$25,000 to new home costs (lumber, steel, copper hit hardest), and the NAHB estimates 450,000 fewer homes will be built through 2030. Japanese construction firms have quietly scooped up 23 American homebuilders since 2020, leveraging near-zero interest rates at home to outbid domestic competitors. Meanwhile, Cisco is cutting 221 jobs at its Milpitas offices as Bay Area tech companies restructure around AI.",
     "local_news": ""
   },
   "sources": [
-    "https://www.mortgagenewsdaily.com/",
-    "https://seekingalpha.com/news/4570070-stock-index-futures-gain-to-kick-off-holiday-shortened-week",
-    "https://tradingeconomics.com/united-states/government-bond-yield",
-    "https://www.theownteam.com/blog/bay-area-market-update-march-2026/",
-    "https://www.fremont.gov/about/news-media/fremont-news",
-    "https://milpitasbeat.com/category/news/",
-    "https://www.financemagnates.com/trending/how-high-can-xrp-go-xrp-price-prediction-shows-250-target-or-053-risk/",
+    "https://www.fremont.gov/Home/Components/News/News/1633/1067",
+    "https://tricityvoice.com/fremont-announces-plans-for-h-mart/",
+    "https://www.cbsnews.com/sanfrancisco/news/h-mart-largest-u-s-location-opening-bay-area/",
+    "https://nationaltoday.com/us/ca/fremont/news/2026/03/29/fremont-7-eleven-sells-10-million-superlotto-ticket/",
+    "https://milpitasbeat.com/milpitas-to-offer-free-doorbell-cameras-to-residents-to-boost-neighborhood-safety/",
+    "https://sanjosespotlight.com/milpitas-moves-forward-with-workforce-housing-for-teachers/",
+    "https://www.hcd.ca.gov/about-hcd/newsroom/industrial-site-revitalized-new-affordable-housing-milpitas",
+    "https://tricityvoice.com/fremont-moves-forward-with-charter-city-plans/",
+    "https://www.hayward-ca.gov/discover/news/mar26/2026-hayward-state-city-address-now-available-online",
+    "https://calmatters.org/environment/2026/03/california-iran-oil-profit-spike/",
+    "https://www.nbcbayarea.com/news/local/gas-prices-past-4-on-average-highest-since-2022/4060881/",
+    "https://time.com/article/2026/03/31/gas-prices-us-iran-war/",
+    "https://abioproperties.com/blog/2026/03/12/real-estate-market-update-east-bay-area-march-2026/",
+    "https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/",
+    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-march-31-2026/",
+    "https://fortune.com/article/current-mortgage-rates-03-31-2026/",
     "https://market.briefs.co/"
   ]
 }
