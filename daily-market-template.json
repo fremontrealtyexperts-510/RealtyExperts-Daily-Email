@@ -1,53 +1,49 @@
 {
-  "date": "03/31/26",
+  "date": "04/01/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/29d58e51-7ef3-4e44-b1b2-18f363704135",
-  "qr_code_path": "note-qr-29d58e51.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/0f834a8d-7783-48bd-aa8a-8cf7e072d2d1",
+  "qr_code_path": "note-qr-0f834a8d.png",
   "stocks": {
-    "sp500": "6,343 (-0.39%)",
-    "dow": "45,216 (+0.11%)",
-    "nasdaq": "20,794 (-0.73%)",
-    "note": "Numbers as of market close March 30th",
-    "news": "Markets notched their worst week of 2026 last week, and Monday offered no relief. The S&P and Nasdaq both slipped further into the red while the Dow barely held on. Nvidia is now officially in bear market territory, down 21% from its November high, and other big tech names like Alphabet, Amazon, Meta, and Microsoft are all in the red for the year.\n\nMeanwhile, the Iran conflict is sending shockwaves through commodities. Aluminum surged 5.5% on Monday to its highest level since 2022, as roughly 10% of global aluminum production sits in the Gulf region. Century Aluminum (CENX +7.25%) and Alcoa (AA +8.23%) had a field day."
+    "sp500": "6,528 (+2.91%)",
+    "dow": "46,341 (+2.49%)",
+    "nasdaq": "21,590 (+3.83%)",
+    "note": "Numbers as of market close March 31st",
+    "news": "Markets roared back to life after both the U.S. and Iran signaled they may be ready to end the conflict. Major indexes surged across the board — the Nasdaq led with a nearly 4% gain. It was the best single-day rally of 2026.\n\nOracle (ORCL +6.03%) earned over $6 billion last quarter but is cutting 30,000 workers to funnel more cash into data centers. Meanwhile, Warren Buffett told investors he regrets selling Apple (AAPL +2.90%) — and Iran threatened cyberattacks on U.S. tech giants including Nvidia, Google, and Microsoft as retaliation for the war. Because apparently bombing wasn't enough."
   },
   "economy": {
-    "us10year": "4.35% (-0.09%)",
+    "us10year": "4.29% (-0.01%)",
     "gold": "$4,445 (-1.09%)",
-    "wti": "$114.66 (+1.86%)",
-    "note": "Numbers as of 6:00pm ET March 30th",
-    "commentary": "Oil is the story right now. Brent crude has surged 50% in the past month as the Strait of Hormuz — which moves 20% of the world's oil — remains blocked due to the Iran conflict. Experts warn that if it doesn't reopen within two weeks, prices could stay elevated long-term.\n\nThe ripple effect is already hitting Bay Area wallets: gas prices have topped $6 a gallon across the region, with some analysts warning San Francisco could see $10. Two California refinery shutdowns (Phillips 66 Wilmington, Valero Benicia) wiped out 17% of in-state refining capacity, making things even worse.\n\nDespite the chaos, Fed Chair Powell says don't expect a rate hike from this oil shock — his argument is that by the time any hike would kick in, the energy crunch could be over. Markets aren't so sure: they're now pricing in a greater chance of a hike than a cut this year."
+    "wti": "$118.35 (+1.32%)",
+    "note": "Numbers as of 6:00pm ET March 31st",
+    "commentary": "Oil rose 60% in March — the biggest monthly spike since 1988. But there may finally be light at the end of the tunnel: both the U.S. and Iran signaled yesterday that they may be ready to wrap things up. No deal yet, but markets loved the vibes. If a ceasefire materializes by April 6, gas could fall to $3.50-$3.75 by May. Bay Area drivers are still paying $6+ a gallon today.\n\nMeanwhile, the jobs picture just got a reality check. The JOLTS report revised 2025 hiring numbers from 584,000 down to just 181,000 — making it the weakest hiring year since the pandemic. Companies are slowing down on hiring and holding onto the people they have.\n\nConsumer confidence beat forecasts at 91.8, but the future outlook is gloomy — people expect the economy to get worse and inflation to spike again. It's the economic equivalent of smiling through gritted teeth."
   },
   "crypto": {
-    "btc": "$66,871 (+1.39%)",
-    "eth": "$2,044 (+3.09%)",
-    "xrp": "$1.33 (-0.00%)",
-    "note": "Numbers as of 6:00pm ET March 30th",
-    "commentary": "Bitcoin miners are having an identity crisis. It now costs roughly $90,000 to produce one Bitcoin, but the coin trades near $67,000. So major miners like MARA Holdings are selling coins and pivoting their hardware toward AI. Mining computing power has dropped 4% since January — the first Q1 decline since 2020.\n\nOn the policy front, the Labor Department proposed a rule that could allow crypto, private equity, and private credit into 401(k) plans. With $14.2 trillion sitting in workplace retirement accounts, asset managers like BlackRock and Apollo are already building funds that mix in alternative assets. Your 401(k) might get a lot more interesting."
+    "btc": "$67,657 (-0.85%)",
+    "eth": "$2,085 (-0.90%)",
+    "xrp": "$1.33 (-0.52%)",
+    "note": "Numbers as of 6:00pm ET March 31st",
+    "commentary": "Google just dropped a bombshell: quantum computers may be able to crack blockchain security sooner than expected. No machine can do it today, but one researcher puts the odds at 1-in-10 by 2032. If that timeline holds, millions of crypto wallets could be vulnerable.\n\nOn the policy front, Congress introduced the \"Mined in America\" bill, which would give U.S. Bitcoin miners discounts on domestically-made hardware. The U.S. already mines more Bitcoin than any other country, but almost every machine doing the work was built overseas. The bill could also pave the way for an official U.S. Bitcoin reserve."
   },
   "real_estate": {
-    "rate_30year": "6.36%",
+    "rate_30year": "6.29%",
     "rate_15year": "5.75%",
-    "homebuilder": "Spring inventory is here, but it's shrinking fast — every Tri-City market lost listings this week as buyer absorption outpaced new supply.",
-    "commentary": "Across the 16 cities we track, total inventory dropped from 2,600 to 2,567 — a net loss of 33 listings in just days. Buyers are moving faster than sellers can list.\n\n📍 Milpitas: The hottest market in the Tri-City area right now. Townhomes are flying: 33 pending vs. just 27 active, with only 2 new TH listings. If you're a buyer looking at Milpitas townhomes, be ready to compete. The city is also booming with $450M+ in new development investment — a 5-year high — including 1M+ sq ft of manufacturing and R&D facilities, the new 102-unit Sango Court affordable housing near BART, and 206 townhomes approved at California Circle (75 units reserved for teachers).\n\n📍 Fremont: Still the largest inventory pool at 304 listings, but down 5 from last report. Detached homes dominate (90 active, 67 pending). The 53 coming-soon listings suggest a pipeline, but only 26 new listings actually hit the market. Big local news: H Mart is bringing its largest U.S. store to Pacific Commons — a 100,000 sq ft two-story flagship with a food hall, restaurants, and entertainment, replacing the old Kohl's. Construction starts late 2026. Also, a $10M SuperLotto ticket was sold at the 7-Eleven on Central Ave last Saturday.\n\n📍 Union City: The tightest market — only 86 total listings and just 1 new listing this period. Buyers here have almost no options. The city is updating its Parks & Recreation Master Plan for the first time in 25 years.\n\n📍 Hayward & Newark: Hayward leads in new listings (21) but still lost 4 total as absorption outpaced supply. Newark holds steady at 98 with 6 new. Both remain competitive seller's markets.\n\nOn the macro side, Trump's tariffs are adding $9,200-$25,000 to new home costs (lumber, steel, copper hit hardest), and the NAHB estimates 450,000 fewer homes will be built through 2030. Japanese construction firms have quietly scooped up 23 American homebuilders since 2020, leveraging near-zero interest rates at home to outbid domestic competitors. Meanwhile, Cisco is cutting 221 jobs at its Milpitas offices as Bay Area tech companies restructure around AI.",
+    "homebuilder": "Mortgage rates slid to 6.29% — down for the second straight day — but applications fell 10.5% last week as the spring market stays frozen by energy costs and economic uncertainty.",
+    "commentary": "Total inventory across our 16-city tracker dropped another 41 units to 2,526 — the second straight week of decline. Buyers are absorbing homes faster than sellers can list them, and the spring thaw hasn't materialized the way it usually does.\n\n📍 Milpitas: Still the hottest segment in the Tri-City area. Townhome pending (34) now exceeds active (26) by an even wider margin than last week. Only 2 new TH listings hit the market — again. If you're a buyer eyeing Milpitas townhomes, expect multiple offers. The city is also asking residents to weigh in on its 2026 Community Survey at milpitas.gov/communityinput to guide budget and service priorities.\n\n📍 Fremont: Inventory continues to tighten — down 7 to 297 total, despite 58 coming-soon listings in the pipeline. Detached homes remain the core of the market with 87 active and 69 pending. Only 18 new listings actually hit this period. On the development front, H Mart's 100,000 sq ft flagship at Pacific Commons is still on track for late 2026 construction.\n\n📍 Union City: Finally got some breathing room — up 2 to 88 total with 4 new listings (vs. just 1 last week). Still the tightest market in the area, but heading in the right direction. The city's BART Mural Project is bringing community-designed art to 9 BART pillars in the Decoto neighborhood alongside Kennedy Park.\n\n📍 Hayward & Newark: Hayward barely moved (-1 to 213) with 18 new listings keeping pace with demand. South Hayward BART station is temporarily closed after a fire damaged equipment. Hayward Restaurant Month is underway — great time to support local businesses. Newark ticked up 1 to 99, and is hosting a Spring Career Fair today at 39399 Cherry St.\n\nOn the national front, homeowners are sitting on record levels of equity — but 97% of it went untapped in 2025. Why? They're locked into pandemic-era 3% rates and have zero incentive to refinance. That means fewer move-up buyers entering the market, which keeps inventory tight at the entry level.\n\nThe big wildcard: if Iran ceasefire talks succeed, gas prices could drop from $6 to $3.50 by May, easing the economic squeeze that's kept buyers on the sidelines.",
     "local_news": ""
   },
   "sources": [
     "https://www.fremont.gov/Home/Components/News/News/1633/1067",
     "https://tricityvoice.com/fremont-announces-plans-for-h-mart/",
-    "https://www.cbsnews.com/sanfrancisco/news/h-mart-largest-u-s-location-opening-bay-area/",
-    "https://nationaltoday.com/us/ca/fremont/news/2026/03/29/fremont-7-eleven-sells-10-million-superlotto-ticket/",
-    "https://milpitasbeat.com/milpitas-to-offer-free-doorbell-cameras-to-residents-to-boost-neighborhood-safety/",
-    "https://sanjosespotlight.com/milpitas-moves-forward-with-workforce-housing-for-teachers/",
-    "https://www.hcd.ca.gov/about-hcd/newsroom/industrial-site-revitalized-new-affordable-housing-milpitas",
-    "https://tricityvoice.com/fremont-moves-forward-with-charter-city-plans/",
-    "https://www.hayward-ca.gov/discover/news/mar26/2026-hayward-state-city-address-now-available-online",
-    "https://calmatters.org/environment/2026/03/california-iran-oil-profit-spike/",
+    "https://www.nbcnews.com/business/markets/stocks-oil-prices-us-iran-war-rcna265064",
     "https://www.nbcbayarea.com/news/local/gas-prices-past-4-on-average-highest-since-2022/4060881/",
     "https://time.com/article/2026/03/31/gas-prices-us-iran-war/",
+    "https://www.cnbc.com/2026/03/31/gas-oil-diesel-price-iran-war.html",
+    "https://milpitasbeat.com/milpitas-to-offer-free-doorbell-cameras-to-residents-to-boost-neighborhood-safety/",
+    "https://nationaltoday.com/us/ca/milpitas/news/2026/03/31/sandisk-to-report-q3-earnings-on-april-30/",
     "https://abioproperties.com/blog/2026/03/12/real-estate-market-update-east-bay-area-march-2026/",
-    "https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/",
-    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-march-31-2026/",
-    "https://fortune.com/article/current-mortgage-rates-03-31-2026/",
+    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-1-2026/",
+    "https://fortune.com/article/current-mortgage-rates-04-01-2026/",
+    "https://www.noradarealestate.com/blog/todays-mortgage-rates-april-1-2026-update/",
     "https://market.briefs.co/"
   ]
 }
