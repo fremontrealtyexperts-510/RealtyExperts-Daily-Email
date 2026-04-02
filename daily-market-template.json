@@ -1,49 +1,45 @@
 {
-  "date": "04/01/26",
+  "date": "04/02/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/0f834a8d-7783-48bd-aa8a-8cf7e072d2d1",
-  "qr_code_path": "note-qr-0f834a8d.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/9c0e820d-76bd-4303-ad8d-25044b486e80",
+  "qr_code_path": "note-qr-9c0e820d.png",
   "stocks": {
-    "sp500": "6,528 (+2.91%)",
-    "dow": "46,341 (+2.49%)",
-    "nasdaq": "21,590 (+3.83%)",
-    "note": "Numbers as of market close March 31st",
-    "news": "Markets roared back to life after both the U.S. and Iran signaled they may be ready to end the conflict. Major indexes surged across the board — the Nasdaq led with a nearly 4% gain. It was the best single-day rally of 2026.\n\nOracle (ORCL +6.03%) earned over $6 billion last quarter but is cutting 30,000 workers to funnel more cash into data centers. Meanwhile, Warren Buffett told investors he regrets selling Apple (AAPL +2.90%) — and Iran threatened cyberattacks on U.S. tech giants including Nvidia, Google, and Microsoft as retaliation for the war. Because apparently bombing wasn't enough."
+    "sp500": "6,575 (+0.72%)",
+    "dow": "46,565 (+0.48%)",
+    "nasdaq": "21,840 (+1.16%)",
+    "note": "Numbers as of market close April 1st",
+    "news": "SpaceX quietly filed its S-1 with the SEC yesterday — and if the numbers hold, it could be the biggest IPO in history. The company is targeting a $75 billion raise at a jaw-dropping $1.75 trillion valuation, which would make it the 8th most valuable company on Earth (or in orbit, depending on how you look at it). Other space stocks caught some of that rocket fuel — Planet Labs surged 9.87% and Intuitive Machines jumped 9.05%.\n\nMeanwhile, Nike tripped over its own shoelaces. The stock cratered 15.51% after warning that China sales could plunge 20% this year. CEO Elliott Hill has been trying to revive the brand for 18 months — so far, the comeback tour is more \"garage band\" than \"sold-out arena.\"\n\nOn the health front, Eli Lilly earned an FDA nod for its daily weight-loss pill, pushing the stock up 3.74%. Competitor Novo Nordisk (Ozempic) didn't love the news — dropping over 1.5% at one point. Lilly is now seeking approval in 40+ countries."
   },
   "economy": {
-    "us10year": "4.29% (-0.01%)",
-    "gold": "$4,445 (-1.09%)",
-    "wti": "$118.35 (+1.32%)",
-    "note": "Numbers as of 6:00pm ET March 31st",
-    "commentary": "Oil rose 60% in March — the biggest monthly spike since 1988. But there may finally be light at the end of the tunnel: both the U.S. and Iran signaled yesterday that they may be ready to wrap things up. No deal yet, but markets loved the vibes. If a ceasefire materializes by April 6, gas could fall to $3.50-$3.75 by May. Bay Area drivers are still paying $6+ a gallon today.\n\nMeanwhile, the jobs picture just got a reality check. The JOLTS report revised 2025 hiring numbers from 584,000 down to just 181,000 — making it the weakest hiring year since the pandemic. Companies are slowing down on hiring and holding onto the people they have.\n\nConsumer confidence beat forecasts at 91.8, but the future outlook is gloomy — people expect the economy to get worse and inflation to spike again. It's the economic equivalent of smiling through gritted teeth."
+    "us10year": "4.30% (-0.02%)",
+    "gold": "$4,758 (+2.38%)",
+    "wti": "$111.53 (-5.76%)",
+    "note": "Numbers as of 6:00pm ET April 1st",
+    "commentary": "The U.S. added 62,000 private-sector jobs in March — beating the 39,000 Wall Street expected. But zoom in and the picture gets lopsided: education, health, and construction created 88,000 positions by themselves. Every other sector? Net negative. Small businesses (under 50 employees) carried the load with 85,000 new hires, while mid-size and large firms actually cut staff. The job market is running on two engines while the rest are in the shop.\n\nGold had its best day in about two weeks, climbing 2.38% to $4,758 after reports that Iran ceasefire talks are happening behind closed doors. President Trump addressed the nation last night and said the war could end in 2-3 weeks. If peace brings lower oil and cooler inflation, gold stands to benefit.\n\nOil is another story — WTI crude dropped 5.76% to $111.53 as ceasefire optimism deflated the war premium. When war premiums unwind, they unwind fast. The International Energy Agency is watching closely and considering releasing strategic reserves if prices stay volatile. Bay Area drivers are still paying over $6 a gallon, but if ceasefire talks hold, relief could come by late April."
   },
   "crypto": {
-    "btc": "$67,657 (-0.85%)",
-    "eth": "$2,085 (-0.90%)",
-    "xrp": "$1.33 (-0.52%)",
-    "note": "Numbers as of 6:00pm ET March 31st",
-    "commentary": "Google just dropped a bombshell: quantum computers may be able to crack blockchain security sooner than expected. No machine can do it today, but one researcher puts the odds at 1-in-10 by 2032. If that timeline holds, millions of crypto wallets could be vulnerable.\n\nOn the policy front, Congress introduced the \"Mined in America\" bill, which would give U.S. Bitcoin miners discounts on domestically-made hardware. The U.S. already mines more Bitcoin than any other country, but almost every machine doing the work was built overseas. The bill could also pave the way for an official U.S. Bitcoin reserve."
+    "btc": "$68,539 (-3.37%)",
+    "eth": "$2,100 (-2.16%)",
+    "xrp": "$1.35 (-0.71%)",
+    "note": "Numbers as of 6:00pm ET April 1st",
+    "commentary": "Crypto dipped across the board yesterday — BTC dropped 3.37%, ETH fell 2.16%, and XRP slid under a percent. Major cryptos are still down more than 40% over the last six months, so yesterday was less \"breaking news\" and more \"continuing the trend.\"\n\nOn the institutional front, Europe's largest digital asset manager CoinShares went public, joining a wave of crypto IPOs from Circle, Gemini, and Bullish. The company had a pre-IPO value of about $1.2 billion. And Franklin Templeton pulled off something novel — buying crypto firm 250 Digital partly using crypto tokens tied to a money market fund. The combined entity, Franklin Crypto, will manage about $1.8 billion. Wall Street keeps building the crypto infrastructure, even as prices take a breather."
   },
   "real_estate": {
-    "rate_30year": "6.29%",
-    "rate_15year": "5.75%",
-    "homebuilder": "Mortgage rates slid to 6.29% — down for the second straight day — but applications fell 10.5% last week as the spring market stays frozen by energy costs and economic uncertainty.",
-    "commentary": "Total inventory across our 16-city tracker dropped another 41 units to 2,526 — the second straight week of decline. Buyers are absorbing homes faster than sellers can list them, and the spring thaw hasn't materialized the way it usually does.\n\n📍 Milpitas: Still the hottest segment in the Tri-City area. Townhome pending (34) now exceeds active (26) by an even wider margin than last week. Only 2 new TH listings hit the market — again. If you're a buyer eyeing Milpitas townhomes, expect multiple offers. The city is also asking residents to weigh in on its 2026 Community Survey at milpitas.gov/communityinput to guide budget and service priorities.\n\n📍 Fremont: Inventory continues to tighten — down 7 to 297 total, despite 58 coming-soon listings in the pipeline. Detached homes remain the core of the market with 87 active and 69 pending. Only 18 new listings actually hit this period. On the development front, H Mart's 100,000 sq ft flagship at Pacific Commons is still on track for late 2026 construction.\n\n📍 Union City: Finally got some breathing room — up 2 to 88 total with 4 new listings (vs. just 1 last week). Still the tightest market in the area, but heading in the right direction. The city's BART Mural Project is bringing community-designed art to 9 BART pillars in the Decoto neighborhood alongside Kennedy Park.\n\n📍 Hayward & Newark: Hayward barely moved (-1 to 213) with 18 new listings keeping pace with demand. South Hayward BART station is temporarily closed after a fire damaged equipment. Hayward Restaurant Month is underway — great time to support local businesses. Newark ticked up 1 to 99, and is hosting a Spring Career Fair today at 39399 Cherry St.\n\nOn the national front, homeowners are sitting on record levels of equity — but 97% of it went untapped in 2025. Why? They're locked into pandemic-era 3% rates and have zero incentive to refinance. That means fewer move-up buyers entering the market, which keeps inventory tight at the entry level.\n\nThe big wildcard: if Iran ceasefire talks succeed, gas prices could drop from $6 to $3.50 by May, easing the economic squeeze that's kept buyers on the sidelines.",
+    "rate_30year": "6.47%",
+    "rate_15year": "5.58%",
+    "homebuilder": "Mortgage rates ticked up to 6.47% for the 30-year fixed — a reversal from earlier this week — while home flipping profits nationally hit their lowest level since 2008.",
+    "commentary": "If your house was shaking at 1:41 AM this morning, you weren't dreaming. A 4.6-magnitude earthquake struck near Boulder Creek in the Santa Cruz Mountains — about 30 miles from Fremont. Originally reported as a 4.9, the USGS downgraded it within hours. Residents in Fremont, San Ramon, Milpitas, and Los Gatos reported moderate to strong shaking. No major damage or injuries, but the USGS gives a 60% chance of a 3.0+ aftershock this week. Homeowners and buyers: this is your reminder to check your earthquake insurance — standard California policies do NOT include it.\n\nTotal inventory across our 16-city tracker slipped another 21 units to 2,526 — the third straight week of decline. But coming-soon listings jumped to 249 (up 27 from last week), so a spring pipeline is forming. New listings dipped slightly to 203.\n\n📍 Milpitas: Still the hottest segment in the Tri-City area. Townhome pending (34) now exceeds active (26) by 8 — the widest gap we've tracked. Coming-soon surged to 33 (up from 28 last week), so a wave may be heading to market. For now, buyers are absorbing homes faster than they hit MLS. Total inventory dropped 5 to 118.\n\n📍 Fremont: Inventory continues to tighten — down 5 to 297 total, despite 58 coming-soon listings (up from 50 last week). Condo actives rose from 59 to 66, but detached home actives fell from 95 to 87. Only 18 new listings hit this week (down from 27). The pipeline is building but not converting yet.\n\n📍 Union City: Up 4 to 88 total with 8 new listings — double last week. Coming-soon ticked up to 7. Still the tightest market in the area, but showing signs of life.\n\n📍 Newark: Added 7 units to reach 99 — the biggest percentage jump among Tri-Cities this week. Only 5 new listings, so the increase came from coming-soon conversions and slower absorption.\n\n📍 Dublin: The week's biggest mover — up 8 to 151, with 14 new listings and 26 coming-soon. Dublin is attracting more inventory than almost any other city in the tracker right now.\n\nOn the national front, home flipping profits have hit their lowest level since 2008 — averaging just $66,000 per flip. High prices, rising rates, and softer buyer interest are squeezing margins before flippers reach the closing table.\n\nHedge fund manager Bill Ackman is pushing for Freddie Mac and Fannie Mae to part ways with the federal government. Both mortgage giants have been in conservatorship since 2008 and together guarantee millions of U.S. mortgages. If privatization happens, it could reshape how Americans access home loans — for better or worse.",
     "local_news": ""
   },
   "sources": [
-    "https://www.fremont.gov/Home/Components/News/News/1633/1067",
-    "https://tricityvoice.com/fremont-announces-plans-for-h-mart/",
-    "https://www.nbcnews.com/business/markets/stocks-oil-prices-us-iran-war-rcna265064",
-    "https://www.nbcbayarea.com/news/local/gas-prices-past-4-on-average-highest-since-2022/4060881/",
-    "https://time.com/article/2026/03/31/gas-prices-us-iran-war/",
-    "https://www.cnbc.com/2026/03/31/gas-oil-diesel-price-iran-war.html",
-    "https://milpitasbeat.com/milpitas-to-offer-free-doorbell-cameras-to-residents-to-boost-neighborhood-safety/",
-    "https://nationaltoday.com/us/ca/milpitas/news/2026/03/31/sandisk-to-report-q3-earnings-on-april-30/",
-    "https://abioproperties.com/blog/2026/03/12/real-estate-market-update-east-bay-area-march-2026/",
-    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-1-2026/",
-    "https://fortune.com/article/current-mortgage-rates-04-01-2026/",
-    "https://www.noradarealestate.com/blog/todays-mortgage-rates-april-1-2026-update/",
+    "https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/",
+    "https://www.cnbc.com/2026/04/01/private-sector-hiring-totaled-62000-in-march-better-than-expected-adp-says.html",
+    "https://www.cbsnews.com/sanfrancisco/news/earthquake-santa-cruz-county-boulder-creek/",
+    "https://abc7news.com/post/49-magnitude-earthquake-rattles-bay-area/18827032/",
+    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-2-2026/",
+    "https://fortune.com/article/current-mortgage-rates-04-02-2026/",
+    "https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html",
+    "https://abcnews.com/US/49-magnitude-earthquake-rattles-northern-california/story?id=131642124",
     "https://market.briefs.co/"
   ]
 }
