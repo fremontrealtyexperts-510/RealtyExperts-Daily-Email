@@ -1,45 +1,43 @@
 {
-  "date": "04/02/26",
+  "date": "04/03/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/9c0e820d-76bd-4303-ad8d-25044b486e80",
-  "qr_code_path": "note-qr-9c0e820d.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/5f8ab133-e38b-4020-8111-b0cae8db8287",
+  "qr_code_path": "note-qr-5f8ab133.png",
   "stocks": {
-    "sp500": "6,575 (+0.72%)",
-    "dow": "46,565 (+0.48%)",
-    "nasdaq": "21,840 (+1.16%)",
-    "note": "Numbers as of market close April 1st",
-    "news": "SpaceX quietly filed its S-1 with the SEC yesterday — and if the numbers hold, it could be the biggest IPO in history. The company is targeting a $75 billion raise at a jaw-dropping $1.75 trillion valuation, which would make it the 8th most valuable company on Earth (or in orbit, depending on how you look at it). Other space stocks caught some of that rocket fuel — Planet Labs surged 9.87% and Intuitive Machines jumped 9.05%.\n\nMeanwhile, Nike tripped over its own shoelaces. The stock cratered 15.51% after warning that China sales could plunge 20% this year. CEO Elliott Hill has been trying to revive the brand for 18 months — so far, the comeback tour is more \"garage band\" than \"sold-out arena.\"\n\nOn the health front, Eli Lilly earned an FDA nod for its daily weight-loss pill, pushing the stock up 3.74%. Competitor Novo Nordisk (Ozempic) didn't love the news — dropping over 1.5% at one point. Lilly is now seeking approval in 40+ countries."
+    "sp500": "6,582 (+0.11%)",
+    "dow": "46,504 (-0.13%)",
+    "nasdaq": "21,879 (+0.18%)",
+    "note": "Numbers as of market close April 2nd. Markets closed today (Good Friday).",
+    "news": "Markets ended the short week mixed, but the S&P 500 still notched its best week of 2026. Earnings season kicks off next week with Delta, Levi's, and Constellation Brands on deck.\n\nTesla (TSLA -5.42%) spun out after missing on car deliveries, as it has a surplus of around 50,000 cars. Deliveries came in at 358,023 — well below Wall Street expectations. The company has been pivoting toward robots and driverless cars, but hasn't made money from either. It's like pitching investors on a flying car while the garage is full of unsold sedans.\n\nIn other news, investors tried to pull 22% of Blue Owl's $36 billion credit fund — but the firm only let 5% out the door, leaving $3.2 billion in redemptions sitting unfilled. The fear? AI competition could make their software company loans riskier."
   },
   "economy": {
-    "us10year": "4.30% (-0.02%)",
-    "gold": "$4,758 (+2.38%)",
-    "wti": "$111.53 (-5.76%)",
-    "note": "Numbers as of 6:00pm ET April 1st",
-    "commentary": "The U.S. added 62,000 private-sector jobs in March — beating the 39,000 Wall Street expected. But zoom in and the picture gets lopsided: education, health, and construction created 88,000 positions by themselves. Every other sector? Net negative. Small businesses (under 50 employees) carried the load with 85,000 new hires, while mid-size and large firms actually cut staff. The job market is running on two engines while the rest are in the shop.\n\nGold had its best day in about two weeks, climbing 2.38% to $4,758 after reports that Iran ceasefire talks are happening behind closed doors. President Trump addressed the nation last night and said the war could end in 2-3 weeks. If peace brings lower oil and cooler inflation, gold stands to benefit.\n\nOil is another story — WTI crude dropped 5.76% to $111.53 as ceasefire optimism deflated the war premium. When war premiums unwind, they unwind fast. The International Energy Agency is watching closely and considering releasing strategic reserves if prices stay volatile. Bay Area drivers are still paying over $6 a gallon, but if ceasefire talks hold, relief could come by late April."
+    "us10year": "4.30% (-0.01%)",
+    "gold": "$4,676 (-1.72%)",
+    "wti": "$112.00 (+0.42%)",
+    "note": "Numbers as of 5:00pm ET April 2nd",
+    "commentary": "Oil stole the spotlight. U.S. crude surged 12% intraday to above $112 as the Strait of Hormuz situation remains unresolved. Gas prices hit $4.08 a gallon nationally — up $1.10 since the war started — and diesel cracked $5.51. Bay Area drivers are still paying well north of $6.\n\nGold pulled back to $4,676, giving up some of Tuesday's gains, after Trump's speech outlined a timeline investors found less reassuring than hoped.\n\nOn the trade front, yesterday marked the one-year anniversary of Liberation Day tariffs. The U.S. trade gap hit $57 billion in February — up 4.9% from January. AI hardware drove a big chunk of the import spike as companies kept stockpiling servers and chips. The tariffs were supposed to shrink the gap. So far? The opposite."
   },
   "crypto": {
-    "btc": "$68,539 (-3.37%)",
-    "eth": "$2,100 (-2.16%)",
-    "xrp": "$1.35 (-0.71%)",
-    "note": "Numbers as of 6:00pm ET April 1st",
-    "commentary": "Crypto dipped across the board yesterday — BTC dropped 3.37%, ETH fell 2.16%, and XRP slid under a percent. Major cryptos are still down more than 40% over the last six months, so yesterday was less \"breaking news\" and more \"continuing the trend.\"\n\nOn the institutional front, Europe's largest digital asset manager CoinShares went public, joining a wave of crypto IPOs from Circle, Gemini, and Bullish. The company had a pre-IPO value of about $1.2 billion. And Franklin Templeton pulled off something novel — buying crypto firm 250 Digital partly using crypto tokens tied to a money market fund. The combined entity, Franklin Crypto, will manage about $1.8 billion. Wall Street keeps building the crypto infrastructure, even as prices take a breather."
+    "btc": "$67,014 (-1.56%)",
+    "eth": "$2,070 (-3.18%)",
+    "xrp": "$1.32 (-2.06%)",
+    "note": "Numbers as of 6:00pm ET April 2nd",
+    "commentary": "Crypto kept sliding — BTC dropped another 1.56% to $67,014, ETH fell 3.18%, and XRP dipped to $1.32.\n\nHackers tied to North Korea stole $280 million from crypto exchange Drift earlier this week — adding to the $1.5 billion they took from Bybit last year. In a separate incident, suspected North Korean hackers slipped malware into Axios, a tool used by thousands of U.S. companies. Crypto security feels less like a feature and more like a wish list.\n\nOn the corporate side, Bitcoin treasury companies started dumping holdings to pay debt. Empery Digital, Genius Group, and Riot Platforms all unloaded billions in crypto. When prices fall and the bills come due, even the believers start selling."
   },
   "real_estate": {
-    "rate_30year": "6.47%",
-    "rate_15year": "5.58%",
-    "homebuilder": "Mortgage rates ticked up to 6.47% for the 30-year fixed — a reversal from earlier this week — while home flipping profits nationally hit their lowest level since 2008.",
-    "commentary": "If your house was shaking at 1:41 AM this morning, you weren't dreaming. A 4.6-magnitude earthquake struck near Boulder Creek in the Santa Cruz Mountains — about 30 miles from Fremont. Originally reported as a 4.9, the USGS downgraded it within hours. Residents in Fremont, San Ramon, Milpitas, and Los Gatos reported moderate to strong shaking. No major damage or injuries, but the USGS gives a 60% chance of a 3.0+ aftershock this week. Homeowners and buyers: this is your reminder to check your earthquake insurance — standard California policies do NOT include it.\n\nTotal inventory across our 16-city tracker slipped another 21 units to 2,526 — the third straight week of decline. But coming-soon listings jumped to 249 (up 27 from last week), so a spring pipeline is forming. New listings dipped slightly to 203.\n\n📍 Milpitas: Still the hottest segment in the Tri-City area. Townhome pending (34) now exceeds active (26) by 8 — the widest gap we've tracked. Coming-soon surged to 33 (up from 28 last week), so a wave may be heading to market. For now, buyers are absorbing homes faster than they hit MLS. Total inventory dropped 5 to 118.\n\n📍 Fremont: Inventory continues to tighten — down 5 to 297 total, despite 58 coming-soon listings (up from 50 last week). Condo actives rose from 59 to 66, but detached home actives fell from 95 to 87. Only 18 new listings hit this week (down from 27). The pipeline is building but not converting yet.\n\n📍 Union City: Up 4 to 88 total with 8 new listings — double last week. Coming-soon ticked up to 7. Still the tightest market in the area, but showing signs of life.\n\n📍 Newark: Added 7 units to reach 99 — the biggest percentage jump among Tri-Cities this week. Only 5 new listings, so the increase came from coming-soon conversions and slower absorption.\n\n📍 Dublin: The week's biggest mover — up 8 to 151, with 14 new listings and 26 coming-soon. Dublin is attracting more inventory than almost any other city in the tracker right now.\n\nOn the national front, home flipping profits have hit their lowest level since 2008 — averaging just $66,000 per flip. High prices, rising rates, and softer buyer interest are squeezing margins before flippers reach the closing table.\n\nHedge fund manager Bill Ackman is pushing for Freddie Mac and Fannie Mae to part ways with the federal government. Both mortgage giants have been in conservatorship since 2008 and together guarantee millions of U.S. mortgages. If privatization happens, it could reshape how Americans access home loans — for better or worse.",
+    "rate_30year": "6.43%",
+    "rate_15year": "5.59%",
+    "homebuilder": "The 30-year fixed has climbed five straight weeks to its highest level since September — and the gap between sellers and buyers just hit a national record.",
+    "commentary": "The seller-buyer gap just hit a record — 630,000 more people looking to sell than looking to buy. Homes are taking 53 days to sell (up from 48 last year), and the average monthly mortgage payment in the U.S. is now $2,742. Rising rates and global instability are keeping buyers on the sidelines.\n\nTotal inventory across our 16-city tracker slipped another 25 units to 2,522 — the fourth straight week of decline. Coming-soon held steady at 250, but new listings dropped sharply to 156 (from 207 last week).\n\n📍 Milpitas: The hottest market got even hotter. Total inventory dropped 10 to 113 — the steepest decline of any city this week. Townhome pending (33) exceeds active (23) by 10. Coming-soon steady at 33. Buyers are snapping up homes before they even hit MLS.\n\n📍 Fremont: Down 8 to 294 total. Coming-soon ticked up to 59 (from 50 last week). Townhome actives dropped from 50 to 47, and only 19 new listings. The spring pipeline is building but not releasing.\n\n📍 Union City: Up 5 from last week to 89. Still one of the tightest markets, but inventory is slowly building with 6 new listings.\n\n📍 Newark: Crossed the 100 mark — up 9 from last week to 101. Steady growth continues.\n\n📍 Oakland: Biggest raw decline — down 20 to 736. Buyers absorbing faster than sellers can list.\n\n📍 Dublin: Eased back slightly from 151 to 148, after last week's big jump.\n\nOn the national front, the record seller-buyer gap is a signal worth watching. More people want out than want in — and if mortgage rates stay elevated through spring, that gap could widen further.",
     "local_news": ""
   },
   "sources": [
-    "https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/",
-    "https://www.cnbc.com/2026/04/01/private-sector-hiring-totaled-62000-in-march-better-than-expected-adp-says.html",
-    "https://www.cbsnews.com/sanfrancisco/news/earthquake-santa-cruz-county-boulder-creek/",
-    "https://abc7news.com/post/49-magnitude-earthquake-rattles-bay-area/18827032/",
-    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-2-2026/",
-    "https://fortune.com/article/current-mortgage-rates-04-02-2026/",
-    "https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html",
-    "https://abcnews.com/US/49-magnitude-earthquake-rattles-northern-california/story?id=131642124",
+    "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-deliveries.html",
+    "https://fortune.com/article/current-mortgage-rates-04-03-2026/",
+    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-3-2026/",
+    "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-friday-april-3-2026-100000359.html",
+    "https://sfstandard.com/2026/04/02/sf-bay-area-earthquake-boulder-creek/",
+    "https://www.noradarealestate.com/blog/todays-mortgage-rates-april-3-2026-update/",
     "https://market.briefs.co/"
   ]
 }
