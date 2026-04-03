@@ -58,7 +58,8 @@ function updateNote(noteId, title, htmlBody, adminToken) {
     const payload = JSON.stringify({
       title: title,
       body: htmlBody,
-      category: ['At a Glance']
+      category: ['At a Glance'],
+      notify_enabled: true
     });
 
     const options = {
