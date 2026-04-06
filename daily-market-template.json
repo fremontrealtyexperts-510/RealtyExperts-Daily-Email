@@ -1,43 +1,41 @@
 {
-  "date": "04/03/26",
+  "date": "04/06/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/5f8ab133-e38b-4020-8111-b0cae8db8287",
-  "qr_code_path": "note-qr-5f8ab133.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/d9a753a3-ccaf-44d7-9828-f84e37996e3c",
+  "qr_code_path": "note-qr-d9a753a3.png",
   "stocks": {
     "sp500": "6,582 (+0.11%)",
     "dow": "46,504 (-0.13%)",
     "nasdaq": "21,879 (+0.18%)",
-    "note": "Numbers as of market close April 2nd. Markets closed today (Good Friday).",
-    "news": "Markets ended the short week mixed, but the S&P 500 still notched its best week of 2026. Earnings season kicks off next week with Delta, Levi's, and Constellation Brands on deck.\n\nTesla (TSLA -5.42%) spun out after missing on car deliveries, as it has a surplus of around 50,000 cars. Deliveries came in at 358,023 — well below Wall Street expectations. The company has been pivoting toward robots and driverless cars, but hasn't made money from either. It's like pitching investors on a flying car while the garage is full of unsold sedans.\n\nIn other news, investors tried to pull 22% of Blue Owl's $36 billion credit fund — but the firm only let 5% out the door, leaving $3.2 billion in redemptions sitting unfilled. The fear? AI competition could make their software company loans riskier."
+    "note": "Numbers as of market close April 2nd. Markets were closed April 3rd (Good Friday).",
+    "news": "Airlines are feeling the heat from surging fuel costs. United said it burned through $400 million more than expected last month and is raising checked bag fees by $10 to cushion the blow. Delta reports earnings this week — expect turbulence in its outlook too.\n\nOn the trade front, Trump rolled out pharma tariffs: zero for foreign drugmakers who manufacture in the U.S., 100% for everyone else — with a 120-day window to comply. Wall Street expected worse. Novo Nordisk, GSK, and AstraZeneca all popped over 1%.\n\nBright spot: March jobs crushed expectations — 178,000 added vs. the 59,000 estimate, and unemployment ticked down to 4.3%. But wage growth slipped to 3.5%, the lowest since 2021. Employers are hiring — just not paying more for it."
   },
   "economy": {
-    "us10year": "4.30% (-0.01%)",
-    "gold": "$4,676 (-1.72%)",
-    "wti": "$112.00 (+0.42%)",
-    "note": "Numbers as of 5:00pm ET April 2nd",
-    "commentary": "Oil stole the spotlight. U.S. crude surged 12% intraday to above $112 as the Strait of Hormuz situation remains unresolved. Gas prices hit $4.08 a gallon nationally — up $1.10 since the war started — and diesel cracked $5.51. Bay Area drivers are still paying well north of $6.\n\nGold pulled back to $4,676, giving up some of Tuesday's gains, after Trump's speech outlined a timeline investors found less reassuring than hoped.\n\nOn the trade front, yesterday marked the one-year anniversary of Liberation Day tariffs. The U.S. trade gap hit $57 billion in February — up 4.9% from January. AI hardware drove a big chunk of the import spike as companies kept stockpiling servers and chips. The tariffs were supposed to shrink the gap. So far? The opposite."
+    "us10year": "4.31% (-0.06%)",
+    "gold": "$4,672 (-0.09%)",
+    "wti": "$111.81 (+0.24%)",
+    "note": "Numbers as of 5:00pm ET April 5th",
+    "commentary": "Oil remains the story. Brent crude hit $141 a barrel last week — its highest since 2008 — as the Strait of Hormuz blockade continues to choke 20% of global supply. Ship traffic through the strait has fallen from 150 per day to under 20. Gas is now $4.08 nationally, up $1.10 since the war started. Bay Area drivers? Still north of $6.\n\nThe strong jobs report adds a wrinkle: great news for employment, but it gives the Fed less reason to cut rates anytime soon. Gold pulled back slightly to $4,672 as investors weigh war uncertainty against economic resilience.\n\nThe 10-year yield dipped to 4.31% — bond markets pricing in slower wage growth despite the hiring beat."
   },
   "crypto": {
-    "btc": "$67,014 (-1.56%)",
-    "eth": "$2,070 (-3.18%)",
-    "xrp": "$1.32 (-2.06%)",
-    "note": "Numbers as of 6:00pm ET April 2nd",
-    "commentary": "Crypto kept sliding — BTC dropped another 1.56% to $67,014, ETH fell 3.18%, and XRP dipped to $1.32.\n\nHackers tied to North Korea stole $280 million from crypto exchange Drift earlier this week — adding to the $1.5 billion they took from Bybit last year. In a separate incident, suspected North Korean hackers slipped malware into Axios, a tool used by thousands of U.S. companies. Crypto security feels less like a feature and more like a wish list.\n\nOn the corporate side, Bitcoin treasury companies started dumping holdings to pay debt. Empery Digital, Genius Group, and Riot Platforms all unloaded billions in crypto. When prices fall and the bills come due, even the believers start selling."
+    "btc": "$67,505 (+0.32%)",
+    "eth": "$2,065 (+0.02%)",
+    "xrp": "$1.30 (-1.10%)",
+    "note": "Numbers as of 6:00pm ET April 6th",
+    "commentary": "Crypto ticked higher — BTC rose to $67,505 and ETH held near $2,065, while XRP slipped to $1.30.\n\nThe bigger story is institutional adoption. Charles Schwab is launching direct Bitcoin and Ether trading for its 46 million clients in H1 2026. Morgan Stanley is prepping crypto through E*Trade. When firms managing $12 trillion start putting crypto on the same menu as stocks and bonds, it's no longer the fringe — it's the appetizer.\n\nCoinbase also got conditional approval for digital asset custody, joining Ripple and Circle. The exchange said it won't offer banking services like deposits or lending — for now. Baby steps toward legitimacy."
   },
   "real_estate": {
-    "rate_30year": "6.43%",
-    "rate_15year": "5.59%",
-    "homebuilder": "The 30-year fixed has climbed five straight weeks to its highest level since September — and the gap between sellers and buyers just hit a national record.",
-    "commentary": "The seller-buyer gap just hit a record — 630,000 more people looking to sell than looking to buy. Homes are taking 53 days to sell (up from 48 last year), and the average monthly mortgage payment in the U.S. is now $2,742. Rising rates and global instability are keeping buyers on the sidelines.\n\nTotal inventory across our 16-city tracker slipped another 25 units to 2,522 — the fourth straight week of decline. Coming-soon held steady at 250, but new listings dropped sharply to 156 (from 207 last week).\n\n📍 Milpitas: The hottest market got even hotter. Total inventory dropped 10 to 113 — the steepest decline of any city this week. Townhome pending (33) exceeds active (23) by 10. Coming-soon steady at 33. Buyers are snapping up homes before they even hit MLS.\n\n📍 Fremont: Down 8 to 294 total. Coming-soon ticked up to 59 (from 50 last week). Townhome actives dropped from 50 to 47, and only 19 new listings. The spring pipeline is building but not releasing.\n\n📍 Union City: Up 5 from last week to 89. Still one of the tightest markets, but inventory is slowly building with 6 new listings.\n\n📍 Newark: Crossed the 100 mark — up 9 from last week to 101. Steady growth continues.\n\n📍 Oakland: Biggest raw decline — down 20 to 736. Buyers absorbing faster than sellers can list.\n\n📍 Dublin: Eased back slightly from 151 to 148, after last week's big jump.\n\nOn the national front, the record seller-buyer gap is a signal worth watching. More people want out than want in — and if mortgage rates stay elevated through spring, that gap could widen further.",
+    "rate_30year": "6.45%",
+    "rate_15year": "6.02%",
+    "homebuilder": "Strong jobs numbers and surging oil are keeping the Fed on hold — and mortgage rates stuck near 6.5% heading into peak spring buying season.",
+    "commentary": "Total inventory across our 16-city tracker fell another 21 units to 2,501 — the fifth straight week of decline. But new listings rebounded to 176 (from 156 last week), and coming-soon jumped to 261 (from 250). The pipeline is filling, even as total supply keeps tightening.\n\n📍 Union City: Biggest percentage drop — down 7 to just 82 total. One of the tightest markets in the tracker and getting tighter.\n\n📍 Fremont: Ticked up 2 to 296. New listings jumped to 27 (from 19), while coming-soon pulled back to 54 (from 59). Sellers are starting their spring move.\n\n📍 Milpitas: Up 3 to 116, but here's the stat of the week — only 1 new listing across the entire city. Inventory is building from pending conversions, not new sellers.\n\n📍 Oakland: Down 4 to 732 with 42 new listings. Buyers continue to absorb faster than sellers can list.\n\n📍 Dublin: Up 3 to 151 — slow and steady build continues.\n\n📍 Newark: Flat at 101, holding near the century mark for the second week.\n\nOn the national front, private credit loan defaults jumped to 9.2% — more than triple the historical 2-2.5% norm — as AI startups eat into the software companies these funds bet on. Meanwhile, big investment firms are pivoting to warehouses and apartments for stable income and cutting office and retail bets, where deal volumes fell 46% last quarter. If more businesses default, the ripple could hit jobs, pensions, and retirement funds.",
     "local_news": ""
   },
   "sources": [
-    "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-deliveries.html",
-    "https://fortune.com/article/current-mortgage-rates-04-03-2026/",
-    "https://www.cbsnews.com/news/todays-mortgage-interest-rates-april-3-2026/",
-    "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-friday-april-3-2026-100000359.html",
-    "https://sfstandard.com/2026/04/02/sf-bay-area-earthquake-boulder-creek/",
-    "https://www.noradarealestate.com/blog/todays-mortgage-rates-april-3-2026-update/",
+    "https://www.mortgagenewsdaily.com/",
+    "https://fortune.com/article/current-mortgage-rates-04-04-2026/",
+    "https://www.cbsnews.com/news/mortgage-interest-rates-april-6-2026/",
+    "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-monday-april-6-gold-strengthens-after-improved-jobs-report-and-mixed-war-news-110339214.html",
     "https://market.briefs.co/"
   ]
 }
