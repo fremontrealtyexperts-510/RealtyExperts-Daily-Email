@@ -1,41 +1,40 @@
 {
-  "date": "04/06/26",
+  "date": "04/07/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/d9a753a3-ccaf-44d7-9828-f84e37996e3c",
-  "qr_code_path": "note-qr-d9a753a3.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/f47c13e1-7a8f-4c72-b4c9-76c442d65193",
+  "qr_code_path": "note-qr-f47c13e1.png",
   "stocks": {
-    "sp500": "6,582 (+0.11%)",
-    "dow": "46,504 (-0.13%)",
-    "nasdaq": "21,879 (+0.18%)",
-    "note": "Numbers as of market close April 2nd. Markets were closed April 3rd (Good Friday).",
-    "news": "Airlines are feeling the heat from surging fuel costs. United said it burned through $400 million more than expected last month and is raising checked bag fees by $10 to cushion the blow. Delta reports earnings this week — expect turbulence in its outlook too.\n\nOn the trade front, Trump rolled out pharma tariffs: zero for foreign drugmakers who manufacture in the U.S., 100% for everyone else — with a 120-day window to comply. Wall Street expected worse. Novo Nordisk, GSK, and AstraZeneca all popped over 1%.\n\nBright spot: March jobs crushed expectations — 178,000 added vs. the 59,000 estimate, and unemployment ticked down to 4.3%. But wage growth slipped to 3.5%, the lowest since 2021. Employers are hiring — just not paying more for it."
+    "sp500": "6,611 (+0.44%)",
+    "dow": "46,669 (+0.36%)",
+    "nasdaq": "21,996 (+0.54%)",
+    "note": "Numbers as of market close April 6th.",
+    "news": "Wall Street bounced back Monday as Iran ceasefire hopes gave bulls something to buy. Tech led the charge \u2014 the Nasdaq gained over half a percent.\n\nMicron is living every chipmaker\u2019s dream \u2014 sold out for the entire year. Its memory chips power AI servers, and with the Big Five planning $600B+ in AI spending this year, Micron\u2019s order book is a who\u2019s-who of Silicon Valley.\n\nOn the lighter side, Trump\u2019s new investment accounts for kids are getting real \u2014 BNY and Robinhood are building the app. Every eligible child born 2025\u20132028 gets a $1,000 Treasury deposit. Over 4 million kids already signed up. Starting them young.\n\nAirlines are white-knuckling fuel costs \u2014 United burned $400M more than expected last month and hiked bag fees $10 to cushion the blow. Delta reports this week. Don\u2019t expect calm skies."
   },
   "economy": {
-    "us10year": "4.31% (-0.06%)",
-    "gold": "$4,672 (-0.09%)",
-    "wti": "$111.81 (+0.24%)",
-    "note": "Numbers as of 5:00pm ET April 5th",
-    "commentary": "Oil remains the story. Brent crude hit $141 a barrel last week — its highest since 2008 — as the Strait of Hormuz blockade continues to choke 20% of global supply. Ship traffic through the strait has fallen from 150 per day to under 20. Gas is now $4.08 nationally, up $1.10 since the war started. Bay Area drivers? Still north of $6.\n\nThe strong jobs report adds a wrinkle: great news for employment, but it gives the Fed less reason to cut rates anytime soon. Gold pulled back slightly to $4,672 as investors weigh war uncertainty against economic resilience.\n\nThe 10-year yield dipped to 4.31% — bond markets pricing in slower wage growth despite the hiring beat."
+    "us10year": "4.33% (+0.00%)",
+    "gold": "$4,685 (+0.28%)",
+    "wti": "$114.30 (+2.23%)",
+    "note": "Numbers as of 5:00pm ET April 6th",
+    "commentary": "The clock is ticking. Trump gave Iran until Tuesday 8 PM to reopen the Strait of Hormuz \u2014 or face escalation. Pakistan, Egypt, and Turkey pushed for a 45-day ceasefire, but as of this morning, Iran rejected the deal.\n\nJPMorgan CEO Jamie Dimon isn\u2019t sugar-coating it \u2014 he says the Iran war could wreck 2026\u2019s economy. Oil crossed $100 after the strait closed, and he believes it\u2019s erasing gains from AI productivity and the big tax cuts. Goldman Sachs raised recession odds to 30%.\n\nGold is steady near $4,685, barely flinching despite the geopolitical drama. The 10-year yield held flat at 4.33% \u2014 bond markets in wait-and-see mode ahead of tonight\u2019s deadline.\n\nMeanwhile, the Supreme Court ended Trump\u2019s original tariffs in February, but Section 301 could bring them back \u2014 covering 16 trading partners and roughly 60\u201370% of U.S. imports. Another domino to watch."
   },
   "crypto": {
-    "btc": "$67,505 (+0.32%)",
-    "eth": "$2,065 (+0.02%)",
-    "xrp": "$1.30 (-1.10%)",
+    "btc": "$69,957 (+1.41%)",
+    "eth": "$2,065 (+2.03%)",
+    "xrp": "$1.30 (+1.31%)",
     "note": "Numbers as of 6:00pm ET April 6th",
-    "commentary": "Crypto ticked higher — BTC rose to $67,505 and ETH held near $2,065, while XRP slipped to $1.30.\n\nThe bigger story is institutional adoption. Charles Schwab is launching direct Bitcoin and Ether trading for its 46 million clients in H1 2026. Morgan Stanley is prepping crypto through E*Trade. When firms managing $12 trillion start putting crypto on the same menu as stocks and bonds, it's no longer the fringe — it's the appetizer.\n\nCoinbase also got conditional approval for digital asset custody, joining Ripple and Circle. The exchange said it won't offer banking services like deposits or lending — for now. Baby steps toward legitimacy."
+    "commentary": "Crypto caught a tailwind from ceasefire rumors \u2014 BTC rallied to $69,957 and ETH pushed above $2,065. The combined value of all altcoins briefly crossed $1.1 trillion, a milestone that felt distant six months ago when Bitcoin was sliding from its $126K peak.\n\nBitmine is quietly building an ETH empire \u2014 now the largest Ethereum holder on Earth with 4.8 million ETH worth $10.2B. That stash generates an estimated $282M/year from staking alone. Coinbase sits in second with about $8B worth.\n\nThe institutional wave keeps building. Schwab, Morgan Stanley, and Coinbase are all expanding crypto access. When firms managing trillions put crypto on the same menu as stocks and bonds, the floor keeps getting higher."
   },
   "real_estate": {
-    "rate_30year": "6.45%",
-    "rate_15year": "6.02%",
-    "homebuilder": "Strong jobs numbers and surging oil are keeping the Fed on hold — and mortgage rates stuck near 6.5% heading into peak spring buying season.",
-    "commentary": "Total inventory across our 16-city tracker fell another 21 units to 2,501 — the fifth straight week of decline. But new listings rebounded to 176 (from 156 last week), and coming-soon jumped to 261 (from 250). The pipeline is filling, even as total supply keeps tightening.\n\n📍 Union City: Biggest percentage drop — down 7 to just 82 total. One of the tightest markets in the tracker and getting tighter.\n\n📍 Fremont: Ticked up 2 to 296. New listings jumped to 27 (from 19), while coming-soon pulled back to 54 (from 59). Sellers are starting their spring move.\n\n📍 Milpitas: Up 3 to 116, but here's the stat of the week — only 1 new listing across the entire city. Inventory is building from pending conversions, not new sellers.\n\n📍 Oakland: Down 4 to 732 with 42 new listings. Buyers continue to absorb faster than sellers can list.\n\n📍 Dublin: Up 3 to 151 — slow and steady build continues.\n\n📍 Newark: Flat at 101, holding near the century mark for the second week.\n\nOn the national front, private credit loan defaults jumped to 9.2% — more than triple the historical 2-2.5% norm — as AI startups eat into the software companies these funds bet on. Meanwhile, big investment firms are pivoting to warehouses and apartments for stable income and cutting office and retail bets, where deal volumes fell 46% last quarter. If more businesses default, the ripple could hit jobs, pensions, and retirement funds.",
+    "rate_30year": "6.43%",
+    "rate_15year": "6.01%",
+    "homebuilder": "The Iran deadline expires tonight \u2014 and mortgage rates are treading water near 6.43% as oil keeps the Fed sidelined heading into peak spring buying season.",
+    "commentary": "Total inventory across our 16-city tracker slipped 6 units to 2,495. But new listings climbed to 182 (from 176), and coming-soon rose to 272 (from 261). Sellers are gearing up even as total supply edges lower.\n\n\ud83d\udccd Fremont: Holding steady at 297 (up 1). 28 new listings this week and 58 coming soon \u2014 spring sellers are active.\n\n\ud83d\udccd Union City: Down 1 to 81. Still one of the tightest markets in our tracker.\n\n\ud83d\udccd Oakland: Down 4 to 728 with 41 new listings. Buyers continue absorbing inventory faster than it\u2019s listed.\n\n\ud83d\udccd Milpitas: Down 1 to 115 \u2014 just 1 new listing across the entire city. Inventory shift is coming from pending conversions, not new sellers.\n\n\ud83d\udccd Newark: Slipped 2 to 99, dipping below the century mark.\n\n\ud83d\udccd Dublin: Down sharply to 82 with 27 new listings. A significant batch of pendings likely closed or expired this week.\n\nNationally, median home prices hit $398,000 in February \u2014 the highest ever for the month. The Mortgage Bankers Association says rates stay above 6% all of 2026. Fannie Mae says they could drop to 5.7% by December \u2014 but that forecast came before the Iran war pushed oil higher. Over 30 years, even that small gap means tens of thousands in extra interest.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "https://fortune.com/article/current-mortgage-rates-04-04-2026/",
-    "https://www.cbsnews.com/news/mortgage-interest-rates-april-6-2026/",
-    "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-monday-april-6-gold-strengthens-after-improved-jobs-report-and-mixed-war-news-110339214.html",
+    "https://fortune.com/article/current-price-of-gold-04-06-2026/",
+    "https://oilpriceapi.com/live/wti-crude-oil-price",
     "https://market.briefs.co/"
   ]
 }
