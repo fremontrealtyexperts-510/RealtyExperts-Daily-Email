@@ -1,40 +1,40 @@
 {
-  "date": "04/07/26",
+  "date": "04/08/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/f47c13e1-7a8f-4c72-b4c9-76c442d65193",
-  "qr_code_path": "note-qr-f47c13e1.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/a9d3dc8c-c797-45d4-bc36-4d6d581c434c",
+  "qr_code_path": "note-qr-a9d3dc8c.png",
   "stocks": {
-    "sp500": "6,611 (+0.44%)",
-    "dow": "46,669 (+0.36%)",
-    "nasdaq": "21,996 (+0.54%)",
-    "note": "Numbers as of market close April 6th.",
-    "news": "Wall Street bounced back Monday as Iran ceasefire hopes gave bulls something to buy. Tech led the charge \u2014 the Nasdaq gained over half a percent.\n\nMicron is living every chipmaker\u2019s dream \u2014 sold out for the entire year. Its memory chips power AI servers, and with the Big Five planning $600B+ in AI spending this year, Micron\u2019s order book is a who\u2019s-who of Silicon Valley.\n\nOn the lighter side, Trump\u2019s new investment accounts for kids are getting real \u2014 BNY and Robinhood are building the app. Every eligible child born 2025\u20132028 gets a $1,000 Treasury deposit. Over 4 million kids already signed up. Starting them young.\n\nAirlines are white-knuckling fuel costs \u2014 United burned $400M more than expected last month and hiked bag fees $10 to cushion the blow. Delta reports this week. Don\u2019t expect calm skies."
+    "sp500": "6,616 (+0.08%)",
+    "dow": "46,584 (-0.18%)",
+    "nasdaq": "22,017 (+0.10%)",
+    "note": "Numbers as of market close April 7th.",
+    "news": "The ceasefire heard \u2018round the world \u2014 the U.S. and Iran struck a two-week deal to reopen the Strait of Hormuz, and markets barely flinched. The S&P gained 8 hundredths of a percent. The real action was underneath.\n\nBroadcom jumped 6% after landing deals to build next-gen AI chips for both Google and Anthropic. The AI build-out isn\u2019t slowing \u2014 Anthropic alone is expected to hit $30B in revenue this year, triple its 2025 number.\n\nBill Ackman is going after Universal Music Group with a $64.4B bid \u2014 yes, the company that holds Taylor Swift\u2019s catalog. And the weight-loss drug war just got cheaper: Novo Nordisk launched high-dose Wegovy at $399/month, undercutting Eli Lilly\u2019s Zepbound by 40%."
   },
   "economy": {
-    "us10year": "4.33% (+0.00%)",
-    "gold": "$4,685 (+0.28%)",
-    "wti": "$114.30 (+2.23%)",
-    "note": "Numbers as of 5:00pm ET April 6th",
-    "commentary": "The clock is ticking. Trump gave Iran until Tuesday 8 PM to reopen the Strait of Hormuz \u2014 or face escalation. Pakistan, Egypt, and Turkey pushed for a 45-day ceasefire, but as of this morning, Iran rejected the deal.\n\nJPMorgan CEO Jamie Dimon isn\u2019t sugar-coating it \u2014 he says the Iran war could wreck 2026\u2019s economy. Oil crossed $100 after the strait closed, and he believes it\u2019s erasing gains from AI productivity and the big tax cuts. Goldman Sachs raised recession odds to 30%.\n\nGold is steady near $4,685, barely flinching despite the geopolitical drama. The 10-year yield held flat at 4.33% \u2014 bond markets in wait-and-see mode ahead of tonight\u2019s deadline.\n\nMeanwhile, the Supreme Court ended Trump\u2019s original tariffs in February, but Section 301 could bring them back \u2014 covering 16 trading partners and roughly 60\u201370% of U.S. imports. Another domino to watch."
+    "us10year": "4.30% (-0.03%)",
+    "gold": "$4,814 (+3.37%)",
+    "wti": "$94.73 (-16.13%)",
+    "note": "Numbers as of 5:00pm ET April 7th",
+    "commentary": "The ceasefire sent oil into freefall \u2014 WTI crude plunged 16% to $94.73 as the Strait of Hormuz reopened. It\u2019s a two-week deal while negotiations continue, but markets are betting it sticks. Gold surged past $4,800 (+3.37%), with investors hedging against the chance that peace talks collapse.\n\nThe cost squeeze is real. USPS is adding an 8% surcharge on packages starting April 26. Amazon is tacking on 3.5%. Airlines hiked bag fees $10. When shipping costs more, everything downstream gets pricier.\n\nUsed cars hit $25,000 on average \u2014 the most expensive since 2023. New cars at $49K are pushing buyers into pre-owned, but there\u2019s nowhere cheap to hide. Gas at $4.50/gallon is nudging more drivers toward EVs.\n\nThe IMF is waving the stagflation flag \u2014 prices climbing while growth stalls. The 10-year eased to 4.30%, bond markets watching whether the ceasefire holds."
   },
   "crypto": {
-    "btc": "$69,957 (+1.41%)",
-    "eth": "$2,065 (+2.03%)",
-    "xrp": "$1.30 (+1.31%)",
-    "note": "Numbers as of 6:00pm ET April 6th",
-    "commentary": "Crypto caught a tailwind from ceasefire rumors \u2014 BTC rallied to $69,957 and ETH pushed above $2,065. The combined value of all altcoins briefly crossed $1.1 trillion, a milestone that felt distant six months ago when Bitcoin was sliding from its $126K peak.\n\nBitmine is quietly building an ETH empire \u2014 now the largest Ethereum holder on Earth with 4.8 million ETH worth $10.2B. That stash generates an estimated $282M/year from staking alone. Coinbase sits in second with about $8B worth.\n\nThe institutional wave keeps building. Schwab, Morgan Stanley, and Coinbase are all expanding crypto access. When firms managing trillions put crypto on the same menu as stocks and bonds, the floor keeps getting higher."
+    "btc": "$69,238 (+0.55%)",
+    "eth": "$2,113 (+0.28%)",
+    "xrp": "$1.35 (+4.40%)",
+    "note": "Numbers as of 6:00pm ET April 7th",
+    "commentary": "Big money is flowing back into Bitcoin. Spot ETFs pulled in $471 million on April 6 \u2014 the strongest single day in over a month. BlackRock\u2019s IBIT led with $182M, Fidelity\u2019s FBTC added $147M. It was the sixth-biggest inflow day of 2026.\n\nVenture capital is making a notable shift \u2014 AI is eating crypto\u2019s lunch. Startups like OpenAI and Anthropic are seeing record revenue, giving VCs something crypto couldn\u2019t: predictable returns. When the smart money moves, the narrative follows."
   },
   "real_estate": {
-    "rate_30year": "6.43%",
-    "rate_15year": "6.01%",
-    "homebuilder": "The Iran deadline expires tonight \u2014 and mortgage rates are treading water near 6.43% as oil keeps the Fed sidelined heading into peak spring buying season.",
-    "commentary": "Total inventory across our 16-city tracker slipped 6 units to 2,495. But new listings climbed to 182 (from 176), and coming-soon rose to 272 (from 261). Sellers are gearing up even as total supply edges lower.\n\n\ud83d\udccd Fremont: Holding steady at 297 (up 1). 28 new listings this week and 58 coming soon \u2014 spring sellers are active.\n\n\ud83d\udccd Union City: Down 1 to 81. Still one of the tightest markets in our tracker.\n\n\ud83d\udccd Oakland: Down 4 to 728 with 41 new listings. Buyers continue absorbing inventory faster than it\u2019s listed.\n\n\ud83d\udccd Milpitas: Down 1 to 115 \u2014 just 1 new listing across the entire city. Inventory shift is coming from pending conversions, not new sellers.\n\n\ud83d\udccd Newark: Slipped 2 to 99, dipping below the century mark.\n\n\ud83d\udccd Dublin: Down sharply to 82 with 27 new listings. A significant batch of pendings likely closed or expired this week.\n\nNationally, median home prices hit $398,000 in February \u2014 the highest ever for the month. The Mortgage Bankers Association says rates stay above 6% all of 2026. Fannie Mae says they could drop to 5.7% by December \u2014 but that forecast came before the Iran war pushed oil higher. Over 30 years, even that small gap means tens of thousands in extra interest.",
+    "rate_30year": "6.44%",
+    "rate_15year": "6.02%",
+    "homebuilder": "The ceasefire gives rates a breather \u2014 30-year at 6.44%, ticking up just 1 basis point as spring buyers gear up despite oil uncertainty.",
+    "commentary": "Total inventory across our 16-city tracker held steady at 2,495. Coming soon listings at 272 and new listings at 182 \u2014 sellers are staging even as total supply stays flat.\n\n\ud83d\udccd Fremont: Holding at 297 with 28 new listings and 58 coming soon. Spring sellers are active.\n\n\ud83d\udccd Union City: Steady at 81 \u2014 still one of the tightest markets on the board.\n\n\ud83d\udccd Oakland: 728 total with 41 new listings. The Bay\u2019s biggest market keeps churning through inventory.\n\n\ud83d\udccd Milpitas: 115 units but just 1 new listing. Activity here is all pendings converting, not new sellers entering.\n\n\ud83d\udccd Newark: Sitting at 99 \u2014 right on the edge of double digits.\n\n\ud83d\udccd Hayward: 219 total with 17 new. Consistent supply for buyers looking east.\n\nNationally, over 300,000 homes sold in March \u2014 up 3.7% from last year and 25% from February. That\u2019s the strongest March in five years, proving higher rates haven\u2019t scared off serious buyers.\n\nBut here\u2019s the bigger picture: home prices have nearly doubled in a decade, up 87%. Mortgage payments now eat over 30% of median household income, up from 21% in 2019. The silver lining? Some analysts believe income growth may finally outpace home prices this year \u2014 the first time since the 2008 financial crisis.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "https://fortune.com/article/current-price-of-gold-04-06-2026/",
-    "https://oilpriceapi.com/live/wti-crude-oil-price",
+    "https://fortune.com/article/current-price-of-gold-04-07-2026/",
+    "https://www.investing.com/commodities/crude-oil",
     "https://market.briefs.co/"
   ]
 }
