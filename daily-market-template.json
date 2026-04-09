@@ -1,39 +1,38 @@
 {
-  "date": "04/08/26",
+  "date": "04/09/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/a9d3dc8c-c797-45d4-bc36-4d6d581c434c",
-  "qr_code_path": "note-qr-a9d3dc8c.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/d06bfac1-908a-4728-84f0-cb051f3f31c8",
+  "qr_code_path": "note-qr-d06bfac1.png",
   "stocks": {
-    "sp500": "6,616 (+0.08%)",
-    "dow": "46,584 (-0.18%)",
-    "nasdaq": "22,017 (+0.10%)",
-    "note": "Numbers as of market close April 7th.",
-    "news": "The ceasefire heard \u2018round the world \u2014 the U.S. and Iran struck a two-week deal to reopen the Strait of Hormuz, and markets barely flinched. The S&P gained 8 hundredths of a percent. The real action was underneath.\n\nBroadcom jumped 6% after landing deals to build next-gen AI chips for both Google and Anthropic. The AI build-out isn\u2019t slowing \u2014 Anthropic alone is expected to hit $30B in revenue this year, triple its 2025 number.\n\nBill Ackman is going after Universal Music Group with a $64.4B bid \u2014 yes, the company that holds Taylor Swift\u2019s catalog. And the weight-loss drug war just got cheaper: Novo Nordisk launched high-dose Wegovy at $399/month, undercutting Eli Lilly\u2019s Zepbound by 40%."
+    "sp500": "6,782 (+2.51%)",
+    "dow": "47,909 (+2.85%)",
+    "nasdaq": "22,634 (+2.80%)",
+    "note": "Numbers as of market close April 8th.",
+    "news": "Markets ripped higher as the ceasefire entered day two. Meta surged 6.5% after unveiling Muse Spark — its first heavyweight AI model, built to power features across Facebook, Instagram, WhatsApp, and the Ray-Ban smart glasses. The plan? Prove the model works in-house, then sell access to outside companies.\n\nDelta climbed 3.75% after posting better-than-expected revenue and earnings, even with oil hovering near $110 a barrel during the quarter. Premium and business travelers kept booking through war, oil spikes, and winter storms like nothing happened.\n\nAnd the billionaire cage match continues — Elon Musk is now pushing the courts to remove Sam Altman as OpenAI’s CEO, escalating the lawsuit he filed last year accusing Altman of deception around early donations to the company."
   },
   "economy": {
-    "us10year": "4.30% (-0.03%)",
-    "gold": "$4,814 (+3.37%)",
-    "wti": "$94.73 (-16.13%)",
-    "note": "Numbers as of 5:00pm ET April 7th",
-    "commentary": "The ceasefire sent oil into freefall \u2014 WTI crude plunged 16% to $94.73 as the Strait of Hormuz reopened. It\u2019s a two-week deal while negotiations continue, but markets are betting it sticks. Gold surged past $4,800 (+3.37%), with investors hedging against the chance that peace talks collapse.\n\nThe cost squeeze is real. USPS is adding an 8% surcharge on packages starting April 26. Amazon is tacking on 3.5%. Airlines hiked bag fees $10. When shipping costs more, everything downstream gets pricier.\n\nUsed cars hit $25,000 on average \u2014 the most expensive since 2023. New cars at $49K are pushing buyers into pre-owned, but there\u2019s nowhere cheap to hide. Gas at $4.50/gallon is nudging more drivers toward EVs.\n\nThe IMF is waving the stagflation flag \u2014 prices climbing while growth stalls. The 10-year eased to 4.30%, bond markets watching whether the ceasefire holds."
+    "us10year": "4.39% (-0.05%)",
+    "gold": "$4,835 (+3.20%)",
+    "wti": "$94.41 (-0.34%)",
+    "note": "Numbers as of 5:00pm ET April 8th",
+    "commentary": "Gold posted its best single day since November, blasting past $4,800 — and it did it while stocks were rallying. That’s unusual. The read? Investors aren’t fully convinced the ceasefire will hold, so they’re grabbing gold as a hedge.\n\nThe Fed’s March meeting notes confirmed at least one rate cut is still on the table this year. The ceasefire pushed December cut odds to 43% on CME, with a Fed study suggesting inflation could drop quickly if Middle East oil starts flowing again.\n\nBut don’t expect a quick recovery at the pump. Even with the Strait of Hormuz reopening, experts say restarting wells could take 6 to 9 months, and roughly 1,000 ships remain stuck waiting to pass through. The 11 million barrels per day that went offline won’t come back overnight.\n\nPresident Trump added another wrinkle — any country supplying weapons to Iran will now face 50% tariffs on all goods sold to the U.S. No names were named, but Russia and China are squarely in the crosshairs."
   },
   "crypto": {
-    "btc": "$69,238 (+0.55%)",
-    "eth": "$2,113 (+0.28%)",
-    "xrp": "$1.35 (+4.40%)",
-    "note": "Numbers as of 6:00pm ET April 7th",
-    "commentary": "Big money is flowing back into Bitcoin. Spot ETFs pulled in $471 million on April 6 \u2014 the strongest single day in over a month. BlackRock\u2019s IBIT led with $182M, Fidelity\u2019s FBTC added $147M. It was the sixth-biggest inflow day of 2026.\n\nVenture capital is making a notable shift \u2014 AI is eating crypto\u2019s lunch. Startups like OpenAI and Anthropic are seeing record revenue, giving VCs something crypto couldn\u2019t: predictable returns. When the smart money moves, the narrative follows."
+    "btc": "$71,838 (+0.73%)",
+    "eth": "$2,232 (+0.66%)",
+    "xrp": "$1.36 (+0.16%)",
+    "note": "Numbers as of 6:00pm ET April 8th",
+    "commentary": "Morgan Stanley just entered the ring with a spot Bitcoin ETF — the first from a major U.S. investment bank. The kicker? Fees are nearly half what BlackRock charges on its $55 billion Bitcoin fund.\n\nMeanwhile, someone’s been buying the war dip. Around 850,000 Bitcoin — roughly 4% of total supply — have changed hands since January. That’s tightened available supply significantly, and if demand picks up, the math favors anyone who loaded up."
   },
   "real_estate": {
-    "rate_30year": "6.44%",
-    "rate_15year": "6.02%",
-    "homebuilder": "The ceasefire gives rates a breather \u2014 30-year at 6.44%, ticking up just 1 basis point as spring buyers gear up despite oil uncertainty.",
-    "commentary": "Total inventory across our 16-city tracker held steady at 2,495. Coming soon listings at 272 and new listings at 182 \u2014 sellers are staging even as total supply stays flat.\n\n\ud83d\udccd Fremont: Holding at 297 with 28 new listings and 58 coming soon. Spring sellers are active.\n\n\ud83d\udccd Union City: Steady at 81 \u2014 still one of the tightest markets on the board.\n\n\ud83d\udccd Oakland: 728 total with 41 new listings. The Bay\u2019s biggest market keeps churning through inventory.\n\n\ud83d\udccd Milpitas: 115 units but just 1 new listing. Activity here is all pendings converting, not new sellers entering.\n\n\ud83d\udccd Newark: Sitting at 99 \u2014 right on the edge of double digits.\n\n\ud83d\udccd Hayward: 219 total with 17 new. Consistent supply for buyers looking east.\n\nNationally, over 300,000 homes sold in March \u2014 up 3.7% from last year and 25% from February. That\u2019s the strongest March in five years, proving higher rates haven\u2019t scared off serious buyers.\n\nBut here\u2019s the bigger picture: home prices have nearly doubled in a decade, up 87%. Mortgage payments now eat over 30% of median household income, up from 21% in 2019. The silver lining? Some analysts believe income growth may finally outpace home prices this year \u2014 the first time since the 2008 financial crisis.",
+    "rate_30year": "6.40%",
+    "rate_15year": "6.00%",
+    "homebuilder": "Rates dip to 6.40% as the ceasefire cools inflation fears — spring buyers have a narrow window before the next move.",
+    "commentary": "Total inventory across our 16-city tracker climbed to 2,555 — up 60 from yesterday. Coming soon listings at 247 and 193 new listings as spring sellers ramp up.\n\n📍 Fremont: Up to 305 (from 297) with 26 new listings and 56 coming soon. Spring is clearly in motion.\n\n📍 Union City: Slipped to 79 — still one of the tightest markets on the board.\n\n📍 Oakland: 733 total with 41 new listings. The Bay’s biggest inventory pool keeps growing.\n\n📍 Milpitas: Holding at 115 with 33 coming soon but only 5 new. Heavy pipeline, light on fresh supply.\n\n📍 Newark: Climbed to 102 with 7 new listings — just cracked triple digits.\n\n📍 Hayward: 216 total with 13 new. Consistent supply for buyers looking east.\n\nMortgage applications fell for the third straight week, even with rates drifting down from the 6.47% high in late March. Some analysts think if the Iran ceasefire sticks, rates could test 6% by June.\n\nNationally, 13 metro areas now have a median price above $1 million — five of them in California. But even at the top, prices are softening: the top 10% of U.S. home prices fell 2.9% year-over-year.\n\n⚠️ Rabies Warning in Glenmoor: Health officials and the Fremont Police Department have confirmed that a dead bat found in the Glenmoor neighborhood recently tested positive for the rabies virus. Residents are advised to be cautious, avoid handling wild animals, and ensure their pets’ vaccinations are up to date.\n\n👮 New Police Chief: Floyd Mitchell has officially taken the helm as Fremont’s new Police Chief, bringing his leadership experience from the Oakland Police Department.\n\n🏛️ Charter City Transition: Fremont is actively exploring a transition from a general law city to a Charter City. The newly appointed Charter Advisory Committee held its latest public meeting on April 6 to discuss potential changes to local governance.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "https://fortune.com/article/current-price-of-gold-04-07-2026/",
     "https://www.investing.com/commodities/crude-oil",
     "https://market.briefs.co/"
   ]
