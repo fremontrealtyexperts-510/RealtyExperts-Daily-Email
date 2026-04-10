@@ -1,34 +1,34 @@
 {
-  "date": "04/09/26",
+  "date": "04/10/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/d06bfac1-908a-4728-84f0-cb051f3f31c8",
-  "qr_code_path": "note-qr-d06bfac1.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/c04333d7-a6d6-4fc0-88f3-9f75919e23d6",
+  "qr_code_path": "note-qr-c04333d7.png",
   "stocks": {
-    "sp500": "6,782 (+2.51%)",
-    "dow": "47,909 (+2.85%)",
-    "nasdaq": "22,634 (+2.80%)",
-    "note": "Numbers as of market close April 8th.",
-    "news": "Markets ripped higher as the ceasefire entered day two. Meta surged 6.5% after unveiling Muse Spark — its first heavyweight AI model, built to power features across Facebook, Instagram, WhatsApp, and the Ray-Ban smart glasses. The plan? Prove the model works in-house, then sell access to outside companies.\n\nDelta climbed 3.75% after posting better-than-expected revenue and earnings, even with oil hovering near $110 a barrel during the quarter. Premium and business travelers kept booking through war, oil spikes, and winter storms like nothing happened.\n\nAnd the billionaire cage match continues — Elon Musk is now pushing the courts to remove Sam Altman as OpenAI’s CEO, escalating the lawsuit he filed last year accusing Altman of deception around early donations to the company."
+    "sp500": "6,824 (+0.62%)",
+    "dow": "48,185 (+0.58%)",
+    "nasdaq": "22,822 (+0.83%)",
+    "note": "Numbers as of market close April 9th.",
+    "news": "Markets closed green as investors bet the U.S.-Iran ceasefire will hold.\n\nOpenAI is opening up its upcoming IPO to retail investors — CFO Sarah Friar confirmed the company is carving out a portion of shares for individual backers. After pulling in over $3 billion from retail in its latest round, OpenAI could hit public markets later this year at a rumored $1 trillion valuation. That would be one of the biggest IPOs ever, and retail getting direct access at that scale is almost unheard of.\n\nMeanwhile, Disney (DIS +0.62%) is cutting about 1,000 jobs — less than 0.5% of its 231,000-person workforce, mostly in marketing. New CEO Josh D'Amaro inherited the layoffs from his predecessor, and they're meant to clean up the company's struggling entertainment division as he kicks off his first full month at the helm."
   },
   "economy": {
-    "us10year": "4.39% (-0.05%)",
-    "gold": "$4,835 (+3.20%)",
-    "wti": "$94.41 (-0.34%)",
-    "note": "Numbers as of 5:00pm ET April 8th",
-    "commentary": "Gold posted its best single day since November, blasting past $4,800 — and it did it while stocks were rallying. That’s unusual. The read? Investors aren’t fully convinced the ceasefire will hold, so they’re grabbing gold as a hedge.\n\nThe Fed’s March meeting notes confirmed at least one rate cut is still on the table this year. The ceasefire pushed December cut odds to 43% on CME, with a Fed study suggesting inflation could drop quickly if Middle East oil starts flowing again.\n\nBut don’t expect a quick recovery at the pump. Even with the Strait of Hormuz reopening, experts say restarting wells could take 6 to 9 months, and roughly 1,000 ships remain stuck waiting to pass through. The 11 million barrels per day that went offline won’t come back overnight.\n\nPresident Trump added another wrinkle — any country supplying weapons to Iran will now face 50% tariffs on all goods sold to the U.S. No names were named, but Russia and China are squarely in the crosshairs."
+    "us10year": "4.28% (-0.00%)",
+    "gold": "$4,775 (-0.88%)",
+    "wti": "$98.14 (+0.28%)",
+    "note": "Numbers as of 5:00pm ET April 9th",
+    "commentary": "Inflation is stuck in neutral. Core CPI (excluding food and energy) ticked slightly below January's number, still hovering around 3% year-over-year. The catch: that data reflects conditions before the Iran war fully gripped the economy — so next month's read could look very different.\n\nGrowth just got a haircut. Q4 2025 GDP was initially pegged at 1.4% — the revised figure just landed at 0.5%. Last fall's government shutdown dragged activity, and consumer and business spending slowed to 1.9% quarter over quarter, the softest pace in a while.\n\nGold took a breather at $4,775 after its recent climb — the ceasefire softened safe-haven demand, at least for a day. WTI Crude is still hovering near $98, with every headline out of the Middle East moving the needle. If the ceasefire cracks, both could swing fast in opposite directions."
   },
   "crypto": {
-    "btc": "$71,838 (+0.73%)",
-    "eth": "$2,232 (+0.66%)",
-    "xrp": "$1.36 (+0.16%)",
-    "note": "Numbers as of 6:00pm ET April 8th",
-    "commentary": "Morgan Stanley just entered the ring with a spot Bitcoin ETF — the first from a major U.S. investment bank. The kicker? Fees are nearly half what BlackRock charges on its $55 billion Bitcoin fund.\n\nMeanwhile, someone’s been buying the war dip. Around 850,000 Bitcoin — roughly 4% of total supply — have changed hands since January. That’s tightened available supply significantly, and if demand picks up, the math favors anyone who loaded up."
+    "btc": "$72,395 (+1.80%)",
+    "eth": "$2,218 (+1.27%)",
+    "xrp": "$1.35 (+2.11%)",
+    "note": "Numbers as of 6:00pm ET April 9th",
+    "commentary": "Bitcoin is back in rally mode, and the shorts are paying for it. Roughly $600 million in crypto positions got liquidated over just a few days after the ceasefire news hit. Traders who bet Bitcoin would keep falling lost about $398 million — the most aggressive short squeeze in over a month.\n\nIn other crypto news — the mystery of Bitcoin's creator may (finally) have an answer. The New York Times is pointing to Blockstream CEO Adam Back as Satoshi Nakamoto, the anonymous inventor of Bitcoin. Back denies it, and Blockstream called the claim \"speculation, not definitive cryptographic proof.\" If he ever admits it, he'd instantly become one of the wealthiest people alive — Satoshi's wallet holds roughly 1 million BTC, worth over $72 billion at current prices."
   },
   "real_estate": {
-    "rate_30year": "6.40%",
-    "rate_15year": "6.00%",
-    "homebuilder": "Rates dip to 6.40% as the ceasefire cools inflation fears — spring buyers have a narrow window before the next move.",
-    "commentary": "Total inventory across our 16-city tracker climbed to 2,555 — up 60 from yesterday. Coming soon listings at 247 and 193 new listings as spring sellers ramp up.\n\n📍 Fremont: Up to 305 (from 297) with 26 new listings and 56 coming soon. Spring is clearly in motion.\n\n📍 Union City: Slipped to 79 — still one of the tightest markets on the board.\n\n📍 Oakland: 733 total with 41 new listings. The Bay’s biggest inventory pool keeps growing.\n\n📍 Milpitas: Holding at 115 with 33 coming soon but only 5 new. Heavy pipeline, light on fresh supply.\n\n📍 Newark: Climbed to 102 with 7 new listings — just cracked triple digits.\n\n📍 Hayward: 216 total with 13 new. Consistent supply for buyers looking east.\n\nMortgage applications fell for the third straight week, even with rates drifting down from the 6.47% high in late March. Some analysts think if the Iran ceasefire sticks, rates could test 6% by June.\n\nNationally, 13 metro areas now have a median price above $1 million — five of them in California. But even at the top, prices are softening: the top 10% of U.S. home prices fell 2.9% year-over-year.\n\n⚠️ Rabies Warning in Glenmoor: Health officials and the Fremont Police Department have confirmed that a dead bat found in the Glenmoor neighborhood recently tested positive for the rabies virus. Residents are advised to be cautious, avoid handling wild animals, and ensure their pets’ vaccinations are up to date.\n\n👮 New Police Chief: Floyd Mitchell has officially taken the helm as Fremont’s new Police Chief, bringing his leadership experience from the Oakland Police Department.\n\n🏛️ Charter City Transition: Fremont is actively exploring a transition from a general law city to a Charter City. The newly appointed Charter Advisory Committee held its latest public meeting on April 6 to discuss potential changes to local governance.",
+    "rate_30year": "6.39%",
+    "rate_15year": "5.99%",
+    "homebuilder": "Rates ticked up just 0.01% to 6.39% — MBS prices slipped slightly, but we're still well off the 6.47% March high.",
+    "commentary": "Total inventory across our 15-city tracker climbed to 2,617 — up 62 from yesterday. 237 coming soon and 246 new listings as spring sellers hit the gas.\n\n📍 Fremont: Up to 322 (from 305) with 35 new listings and 53 coming soon. Spring is clearly in motion.\n\n📍 Union City: Holding at 80 — still one of the tightest markets on the board.\n\n📍 Oakland: 758 total with 59 new listings. The Bay's biggest inventory pool keeps growing.\n\n📍 Milpitas: 115 total with 31 coming soon but only 4 new. Heavy pipeline, light on fresh supply.\n\n📍 Newark: 101 with 5 new listings — still holding triple digits.\n\n📍 Hayward: 248 with 12 new. Consistent supply for buyers looking east.\n\nFor the first time since the Iran war kicked off in late February, the 30-year fixed dipped slightly. The ceasefire news pushed 10-year Treasury yields below 4.3%, and mortgage rates followed. But the celebration could be short-lived — yields and oil are already ticking back up on doubts about whether the ceasefire holds.\n\nMortgage applications fell for the third straight week, even with rates drifting down from the 6.47% March high. Some analysts think if the ceasefire sticks, rates could test 6% by June. That's a big \"if,\" but it's the first real glimmer of relief buyers have had in months.\n\nNationally, the high-end is cracking. The top 10% of U.S. home prices are down 2.9% year-over-year, even though 13 metro areas still have median prices above $1 million (five of them in California). Affordability is squeezing buyers at every tier.\n\nSome cities are going to extremes to attract new residents. Detroit is offering up to $15,000 to people who buy a home or bring a business to the Motor City. Baltimore's \"Live Near Your Work\" program pays $2,000–$5,000. Nothing like that happening in the Bay anytime soon — but worth keeping on the radar.\n\n💵 Minimum Wage Increase: The City of Fremont has announced that the local minimum wage will officially increase to $18.05 per hour starting July 1, 2026.\n\n🤖 Autonomous Delivery Robots: The city recently kicked off pilot programs like \"Dine Local with Dot,\" featuring DoorDash's autonomous delivery robots navigating local sidewalks to deliver restaurant orders.\n\n🏛️ Central Park Community Center: The city recently held a groundbreaking ceremony for the highly anticipated new Central Park Community Center, a major investment in local recreational infrastructure.",
     "local_news": ""
   },
   "sources": [
