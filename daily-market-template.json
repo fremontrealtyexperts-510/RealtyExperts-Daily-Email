@@ -1,34 +1,45 @@
 {
-  "date": "04/13/26",
+  "date": "04/15/26",
   "time": "08:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/486cfafe-341e-4b56-8d65-c9293bfdd8a7",
-  "qr_code_path": "note-qr-486cfafe.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/0c6cd7f3-6217-4454-a40d-63fd4dfde00d",
+  "qr_code_path": "note-qr-0c6cd7f3.png",
+  "featured_promo": {
+    "eyebrow": "NEW FROM HARV · TEAM EDUCATION",
+    "title": "What I Learned at Fair Housing Day 2026 (and Why You Should Care)",
+    "body": "Harv spent April 14 at UC Berkeley for the 5th Annual C.A.R. Fair Housing Day — seven sessions, three hundred REALTORS in Pauley Ballroom. He rebuilt economist Oscar Wei's 11-slide closing deck as interactive charts you can click through in about ten minutes.",
+    "quote": "Black first-time buyers in California were 4 percent in 2010. In 2025, they are still 4 percent. Fifteen years of attention, zero movement at the entry point.",
+    "quote_attribution": "— Oscar Wei, Deputy Chief Economist, C.A.R.",
+    "primary_link": "https://teamrealtyexperts.com/notes/df17673e-f175-4af3-84b1-b64eea0f4f0e",
+    "primary_label": "Read Harv's Post",
+    "secondary_link": "https://teamrealtyexperts.com/fair-housing-day-2026/index.html",
+    "secondary_label": "Open the Slides"
+  },
   "stocks": {
-    "sp500": "6,816 (-0.11%)",
-    "dow": "47,916 (-0.56%)",
-    "nasdaq": "22,902 (+0.35%)",
-    "note": "Numbers as of market close April 10th.",
-    "news": "CoreWeave just locked down a massive $21 billion multi-year cloud deal with Meta — the GPU powerhouse now runs AI workloads for OpenAI, Google, and Anthropic, and adding Meta’s nearly $230 billion revenue engine to its roster is a major win.\n\nMeanwhile, “Big Short” legend Michael Burry is placing a fresh bet — this time against Palantir. His thesis? AI tools could eventually make Palantir’s high-priced consulting model obsolete. Palantir shares are already down 28% in 2026, and even a Trump endorsement on Truth Social couldn’t stop the bleeding."
+    "sp500": "6,967 (+0.66%)",
+    "dow": "48,535 (+1.18%)",
+    "nasdaq": "23,639 (+1.96%)",
+    "note": "Numbers as of market close April 14th.",
+    "news": "Markets pushed higher across the board, with NASDAQ leading at nearly 2%. Big bank earnings stole the show — JPMorgan posted its best quarter ever with over $50 billion in revenue, Citi beat on banking fees, but Wells Fargo missed as its lending-heavy revenue mix weighed on results.\n\nDell and HP briefly surged on a rumor that Nvidia was eyeing a major PC company acquisition. Nvidia killed the story fast — calling it \"completely false\" — but the chip giant's own stock has now climbed over 18% in the last two weeks."
   },
   "economy": {
-    "us10year": "4.31% (+0.02%)",
-    "gold": "$4,771 (-0.98%)",
-    "wti": "$96.57 (-1.33%)",
-    "note": "Numbers as of 4:00pm ET April 12th",
-    "commentary": "Consumer confidence just cratered to its lowest reading ever — the University of Michigan’s sentiment index set a new all-time low as inflation and high gas prices weigh on everyday Americans. Consumers now expect inflation to hit 4.8% by this time next year.\n\nThe data backs up the pessimism. Consumer prices surged 0.9% in March alone — the largest monthly spike since June 2022 — pushing annual inflation to 3.3%. Housing and energy costs led the way, with the Iran war keeping constant pressure on global markets.\n\nOn the geopolitical front, U.S.-Iran peace talks have stalled. President Trump is now threatening to blockade the Strait of Hormuz — a chokepoint that handles roughly a third of the world’s daily oil supply. WTI crude continues hovering near $100, and gold pulled back slightly as markets try to gauge the fallout."
+    "us10year": "4.25% (+0.00%)",
+    "gold": "$4,852 (+0.06%)",
+    "wti": "$91.78 (+0.55%)",
+    "note": "Numbers as of 4:00pm ET April 14th",
+    "commentary": "Citadel CEO Ken Griffin warned the world could be staring down a recession if the Strait of Hormuz stays closed for 6-12 months. Oil has already jumped from $70 to $100 since the conflict started, and Griffin sees the crisis accelerating the shift to clean energy as buyers hunt for alternatives outside oil.\n\nProducer-side inflation surprised to the upside — in a good way. The Producer Price Index rose just 0.5% in March, less than half the 1.1% Wall Street expected. Energy still surged 8.5%, but costs across the rest of the economy held nearly flat — a quiet sign that inflation pressure may be more contained than the headlines suggest."
   },
   "crypto": {
-    "btc": "$71,064 (-2.73%)",
-    "eth": "$2,198 (-3.81%)",
-    "xrp": "$1.33 (-1.76%)",
-    "note": "Numbers as of 4:00pm ET April 12th",
-    "commentary": "World Liberty Financial — the Trump-family-backed crypto venture — is in a tough spot. The project pledged 5 billion of its own tokens to borrow $75 million from decentralized lender Dolomite, but then its coin crashed 15% to a record low, erasing $427 million in market value. With $60 million in loans still outstanding, it’s an uncomfortable position.\n\nBitcoin itself has been treading water around $71,000 for a month straight. The Iran conflict is clouding any recovery story, and with inflation running hot, traders are losing hope the Fed will cut rates anytime soon. Analysts say BTC needs to reclaim $75,000 to reignite bullish momentum — a level it hasn’t touched in two months."
+    "btc": "$74,293 (+0.14%)",
+    "eth": "$2,321 (-0.08%)",
+    "xrp": "$1.36 (-0.01%)",
+    "note": "Numbers as of 4:00pm ET April 14th",
+    "commentary": "Crypto ETFs had their best week since January, pulling in $1.1 billion in combined inflows. Bitcoin led with $871M, while Ethereum brought in $196.5M — finally snapping three straight weeks of outflows. Analysts credit the Iran ceasefire and softer inflation data for the renewed appetite.\n\nCrypto exchange Kraken filed for an IPO yesterday, following Coinbase and Gemini onto public markets. Some estimates peg Kraken's valuation at $13 billion — and Deutsche Borse's recent $200 million stake (1.5%) suggests institutional money is already lining up."
   },
   "real_estate": {
-    "rate_30year": "6.39%",
-    "rate_15year": "5.99%",
-    "homebuilder": "Rates holding steady at 6.39% — unchanged from last week as the 10-year yield ticks sideways.",
-    "commentary": "Total inventory across our 15-city tracker dipped to 2,585 — down 32 from Thursday. 248 coming soon and 266 new listings as the spring pipeline stays active.\n\n📍 Fremont: 320 total with 36 new listings and 60 coming soon. Spring activity continues at a steady clip.\n\n📍 Union City: Down one to 79 — still one of the tightest markets on the board.\n\n📍 Oakland: 750 total with 67 new listings. The Bay’s biggest inventory pool keeps churning.\n\n📍 Milpitas: 112 total with 31 coming soon but only 4 new. Heavy pipeline, light on fresh supply.\n\n📍 Newark: Up to 104 with 5 new listings — one of the few gainers this cycle.\n\n📍 Hayward: 222 total, down 26 from 248 — a noticeable pullback as pending sales absorbed a chunk of supply.\n\nNationally, the average first-time homebuyer is now 40 years old — up from the early 30s just 25 years ago. First-timers account for only 21% of all purchases, as a $300,000 home at today’s rates eats up 35-40% of household income.\n\nHome builders are adapting as new construction growth is expected to hit just 1% this year. California’s backyard ADUs now make up nearly half of new single-family construction, Manhattan developers are converting offices into apartments, and manufactured homes are outpacing traditional builds. Remodeling is also surging as both buyers and sellers sit on the sidelines waiting for rates to move.",
+    "rate_30year": "6.32%",
+    "rate_15year": "5.97%",
+    "homebuilder": "Rates ticked up just one basis point — both 30 and 15-year fixed barely budged from yesterday as the 10-year yield holds near 4.25%.",
+    "commentary": "Total inventory across our 15-city tracker held at 2,560 — 246 coming soon and 211 new listings as the spring market stays in motion.\n\n📍 Fremont: 316 total with 30 new listings and 57 coming soon. Steady spring activity continues.\n\n📍 Oakland: 735 total with 55 new listings — still the Bay's biggest inventory pool by a wide margin.\n\n📍 Hayward: 215 total with 14 new and 12 coming soon.\n\n📍 Livermore: 196 total with 13 new listings hitting the board.\n\n📍 San Ramon: 170 total with 18 new and 23 coming soon — a heavy pipeline forming.\n\n📍 Dublin: 157 total with 14 new listings.\n\n📍 Pleasanton: 124 total with 11 new and 18 coming soon.\n\n📍 Union City: 76 total — still one of the tightest markets on the board.\n\nTax Day is here — and the IRS is reporting refunds running about 11% higher this year. That extra cash often becomes a down payment, an emergency fund, or a paydown on debt that helps qualify for a mortgage. Worth a conversation with any client who's been on the fence about buying.",
     "local_news": ""
   },
   "sources": [
