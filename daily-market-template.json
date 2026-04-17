@@ -1,45 +1,45 @@
 {
-  "date": "04/16/26",
-  "time": "12:45",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/53134eea-ccfc-4cd5-a4a2-a1a95116a346",
-  "qr_code_path": "note-qr-53134eea.png",
+  "date": "04/17/26",
+  "time": "11:03",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/b5ced1b5-76fd-4ce3-a9f3-1452d447001a",
+  "qr_code_path": "note-qr-b5ced1b5.png",
   "featured_promo": {
     "eyebrow": "NEW FROM HARV · TEAM EDUCATION",
     "title": "What I Learned at Fair Housing Day 2026 (and Why You Should Care)",
     "body": "Harv spent April 14 at UC Berkeley for the 5th Annual C.A.R. Fair Housing Day — seven sessions, three hundred REALTORS in Pauley Ballroom. He rebuilt economist Oscar Wei's 11-slide closing deck as interactive charts you can click through in about ten minutes.",
     "quote": "Black first-time buyers in California were 4 percent in 2010. In 2025, they are still 4 percent. Fifteen years of attention, zero movement at the entry point.",
     "quote_attribution": "— Oscar Wei, Deputy Chief Economist, C.A.R.",
-    "primary_link": "https://teamrealtyexperts.com/notes/df17673e-f175-4af3-84b1-b64eea0f4f0e",
+    "primary_link": "https://teamrealtyexperts.com/notes/74b2ce01-bf44-4377-95f9-9d4d6eba97ba",
     "primary_label": "Read Harv's Post",
     "secondary_link": "https://teamrealtyexperts.com/fair-housing-day-2026/index.html",
     "secondary_label": "Open the Slides"
   },
   "stocks": {
-    "sp500": "7,022 (+0.80%)",
-    "dow": "48,463 (-0.15%)",
-    "nasdaq": "24,016 (+1.60%)",
-    "note": "Numbers as of market close April 15th.",
-    "news": "NASDAQ led again as Tesla jumped 7.6% after unveiling its AI5 chip — Musk says it delivers 8–10x the muscle of the prior AI4 and rivals Nvidia's H100. TSMC and Samsung are slated to manufacture, with production targeted for 2027.\n\nAmazon went shopping in space — agreeing to acquire satellite operator Globalstar for nearly $12 billion to bolster its direct-to-phone Leo service. Apple inked a parallel deal to bring Leo connectivity to iPhones and Apple Watches. SpaceX's Starlink still dominates with 10,000+ satellites; Amazon sits around 240 — but the gap is closing fast."
+    "sp500": "7,041 (+0.26%)",
+    "dow": "48,578 (+0.24%)",
+    "nasdaq": "24,102 (+0.36%)",
+    "note": "Numbers as of market close April 16th.",
+    "news": "S&P 500 and NASDAQ both printed fresh record highs this week as traders priced in an earlier end to the Iran conflict. Records make for nice headlines — but they don't change how a pullback feels, so stay disciplined.\n\nA federal jury ruled Live Nation (LYV) ran an illegal ticket monopoly, siding with 36 states and D.C. The remedy could force a sell-off of venues and promotion arms — good for competition, bad for a stock built on control.\n\nThe SEC scrapped a 30-year-old rule that required retail day traders to hold $25,000 minimum balances. Robinhood (HOOD) popped 10% on the news as the sandbox just got a lot bigger. More access ≠ better returns — worth reminding clients who are feeling bold."
   },
   "economy": {
-    "us10year": "4.28% (+0.02%)",
-    "gold": "$4,813 (-0.75%)",
-    "wti": "$93.39 (+2.30%)",
-    "note": "Numbers as of 4:00pm ET April 15th",
-    "commentary": "Kevin Warsh — Trump's pick to replace Jerome Powell — heads to the Senate Banking Committee soon. Powell's term ends May 15, and Powell himself reiterated the Fed remains \"well positioned to wait\" on rate moves, with Cleveland Fed President Hammack echoing the same.\n\nTariff refund checks start rolling out April 20. After the Supreme Court struck down the Trump tariff plan in February, at least 56,000 of the 330,000 affected businesses — including Costco, Kohl's, FedEx, and Nintendo — are first in line for reimbursement."
+    "us10year": "4.31% (+0.00%)",
+    "gold": "$4,811 (+0.07%)",
+    "wti": "$83.73 (-11.57%)",
+    "note": "US 10-Year and Gold as of 4:00pm ET April 16th; WTI Crude reflects today's intraday move.",
+    "commentary": "WTI Crude took an 11% face-plant today after Iran's foreign minister said the Strait of Hormuz will stay open. Supply fears evaporated, and the premium baked into oil since the war began came right back out. Gasoline prices should follow in the days ahead — a quiet tailwind for household budgets.\n\nJobless claims dipped again last week — the labor market is still stuck in a \"low hire, low fire\" holding pattern. Snapchat is trimming 1,000 jobs (16% of staff), a reminder that \"low fire\" doesn't mean zero fire.\n\nThe U.S. Treasury put two Chinese banks on notice for allegedly helping Iran move money — sanctions could follow. Iran has reportedly been asking oil tankers to pay in crypto just to keep the lights on."
   },
   "crypto": {
-    "btc": "$74,803 (+0.82%)",
-    "eth": "$2,360 (+1.61%)",
-    "xrp": "$1.39 (+1.87%)",
-    "note": "Numbers as of 4:00pm ET April 15th",
-    "commentary": "Goldman Sachs and BlackRock are both building new Bitcoin ETFs, with Goldman expected to launch its first soon. If institutional money flows in, expect lower volatility across BTC and the broader crypto basket.\n\nPakistan ended its 8-year ban on banks working with crypto firms. Licensed crypto companies can now open bank accounts and process payments — a major opening in one of the world's largest retail crypto markets, where millions had been transacting peer-to-peer."
+    "btc": "$74,694 (-0.61%)",
+    "eth": "$2,331 (-0.74%)",
+    "xrp": "$1.43 (-1.69%)",
+    "note": "Numbers as of 4:00pm ET April 16th",
+    "commentary": "Tether quietly added another $70 million in Bitcoin, lifting its reserves to 97,141 BTC (~$7.16 billion). That makes the stablecoin issuer the #2 corporate Bitcoin holder on the planet — second only to MicroStrategy's 780,897-BTC war chest.\n\nSouth Korea is piloting bank-issued blockchain deposits across nine major banks later this year. Real money becomes programmable digital currency — spending rules (and fraud prevention) baked directly into the ledger. Watch the rest of Asia follow."
   },
   "real_estate": {
-    "rate_30year": "6.32%",
-    "rate_15year": "5.97%",
-    "homebuilder": "Mortgage rates held flat for a fourth straight day — both 30 and 15-year unchanged as the 10-year yield hovers near 4.28%.",
-    "commentary": "Total inventory across our 15-city tracker climbed to 2,629 — 233 coming soon and 220 new listings as the spring market continues to widen.\n\n📍 Fremont: 320 total with 23 new listings and 52 coming soon — a small bump in active count.\n\n📍 Oakland: 745 total with 46 new listings — still the Bay's deepest inventory pool by a wide margin.\n\n📍 Hayward: 216 total with 12 new and 15 coming soon.\n\n📍 Livermore: 209 total with 24 new listings — a notable surge of fresh activity.\n\n📍 San Ramon: 177 total with 17 new and 20 coming soon — pipeline still full.\n\n📍 Dublin: 162 total with 16 new listings.\n\n📍 Pleasanton: 125 total with 14 new and 16 coming soon.\n\n📍 Union City: 79 total — still one of the tightest markets on the board.\n\nIndustry note: Home equity (HELOC) rates are sitting near 7% — the lowest level in three years. With first-lien rates still in the low-6s, more owners are tapping equity to renovate rather than refinance or move, which is part of what's holding resale supply down.\n\nDemographic note: NAR data shows Boomers (61–79) made up 42% of buyers and 55% of sellers in 2026. Millennials are still the largest owner cohort — they're just sitting on equity and not selling.",
+    "rate_30year": "6.29%",
+    "rate_15year": "5.91%",
+    "homebuilder": "Mortgage rates ticked slightly lower today — 30-year down 3 bps, 15-year down 5 bps. MBS pricing is firming up, which could mean a bit more room to run.",
+    "commentary": "Total inventory across our 15-city tracker moved up to 2,717 actives — with 227 coming soon and 269 new listings hitting the market. The spring pipeline is still filling.\n\n📍 Fremont: 337 total, 48 coming soon, 34 new — 44 townhomes active with 14 pending, 81 condos active with 14 pending, and 112 detached/duplex/PUD active with 72 pending. The detached side still drives most of the pending action.\n\n📍 Oakland: 757 total, 29 coming soon, 51 new — still the Bay's deepest pool by a mile.\n\n📍 Hayward: 223 total, 17 coming soon, 15 new — steady buyer interest.\n\n📍 Livermore: 214 total, 8 coming soon, 27 new — fresh activity continues.\n\n📍 San Ramon: 184 total, 19 coming soon, 25 new — pipeline staying full.\n\n📍 Danville: 181 total, 8 coming soon, 31 new — a big jump in new listings.\n\n📍 Dublin: 175 total, 19 coming soon, 28 new.\n\n📍 Pleasanton: 134 total, 16 coming soon, 19 new.\n\n📍 Milpitas: 115 total, 26 coming soon, 3 new — CS pipeline is loaded.\n\n📍 Newark: 114 total, 9 coming soon, 6 new.\n\n📍 San Leandro: 94 total, 5 coming soon, 10 new.\n\n📍 Union City: 85 total, 11 coming soon, 4 new — still one of the tightest markets on the board.\n\nNorthern neighbors: Canada's housing market is forecast to grow just 1% in 2026, with the national median new-home price projected near $688,955. Higher oil-driven inflation has triggered rate-hike chatter right at peak buying season — sound familiar?\n\nBuild-to-rent retreat: Single-family build-to-rent starts fell 19% year-over-year — from 84,000 units in 2024 to 68,000 in 2025. Financing costs climbed while rents rose just 1.2%, so the math stopped penciling out for investors.",
     "local_news": ""
   },
   "sources": [
