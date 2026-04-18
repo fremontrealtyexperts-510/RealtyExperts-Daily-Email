@@ -24,3 +24,17 @@ package-lock.json
 
 # Editor backup files
 *.save
+
+# Claude Code local settings (contains session tokens)
+.claude/
+
+# Google Cloud service account keys (NEVER commit)
+*-service-account*.json
+*-gmail-key-*.json
+harvrealtor-*.json
+*google-drive*.json
+
+# Any file matching common credential patterns
+*credential*.json
+*-creds.json
+service-account*.json

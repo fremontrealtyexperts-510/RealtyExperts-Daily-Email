@@ -1,0 +1,450 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333333;
+        }
+
+        /* --- Chart Section Styles --- */
+        #chart {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            padding: 10px;
+            max-width: 100%;
+            margin: 0 auto;
+            min-height: 500px;
+        }
+        .info-banner {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 16px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            text-align: center;
+            font-size: 13px;
+            box-shadow: 0 2px 10px rgba(102,126,234,0.3);
+        }
+        .info-banner strong {
+            font-weight: 700;
+        }
+        .date-badge {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .date-badge span {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a5f, #2563eb);
+            color: white;
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- Newsletter Section Styles --- */
+        .newsletter-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 40px;
+            line-height: 1.6;
+        }
+        .newsletter-container h2 {
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .newsletter-container h3 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .newsletter-container ul {
+            margin-bottom: 15px;
+        }
+        .newsletter-container li {
+            margin-bottom: 8px;
+        }
+        .newsletter-container hr {
+            border: 0;
+            height: 1px;
+            background: #ecf0f1;
+            margin: 30px 0;
+        }
+        .disclaimer {
+            background-color: #f9f9f9;
+            border-left: 4px solid #bdc3c7;
+            padding: 15px;
+            font-style: italic;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        /* --- Section Header Bars --- */
+        .section-bar-re {
+            background-color: #ea580c;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .section-bar-stocks {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .section-bar-economy {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .section-bar-crypto {
+            background-color: #f59e0b;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* --- Rate Cards --- */
+        .rate-row {
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .rate-box {
+            width: 48%;
+            float: left;
+            background-color: #ea580c;
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            color: white;
+        }
+        .rate-box-right {
+            float: right;
+        }
+        .rate-box .rate-label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            opacity: 0.85;
+            margin-bottom: 6px;
+        }
+        .rate-box .rate-value {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        /* --- Data Cards Row --- */
+        .data-row {
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .data-box {
+            width: 31%;
+            float: left;
+            margin-right: 3.5%;
+            border-radius: 8px;
+            padding: 14px;
+            text-align: center;
+            border-left: 4px solid;
+        }
+        .data-box:last-child {
+            margin-right: 0;
+        }
+        .data-box .data-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #64748b;
+            margin-bottom: 6px;
+        }
+        .data-box .data-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        .data-box-stocks { border-color: #2563eb; background-color: #eff6ff; }
+        .data-box-economy { border-color: #16a34a; background-color: #f0fdf4; }
+        .data-box-crypto { border-color: #f59e0b; background-color: #fffbeb; }
+
+        /* --- Highlight Box --- */
+        .highlight-box {
+            border-radius: 8px;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+            border-left: 4px solid;
+        }
+        .hl-re { background-color: #fff7ed; border-color: #ea580c; }
+        .hl-stocks { background-color: #eff6ff; border-color: #2563eb; }
+        .hl-economy { background-color: #f0fdf4; border-color: #16a34a; }
+        .hl-crypto { background-color: #fffbeb; border-color: #f59e0b; }
+
+        /* --- Location Tag --- */
+        .loc-tag {
+            display: inline-block;
+            background-color: #ea580c;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        /* --- Sources --- */
+        .sources-box {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .sources-box h3 {
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 0;
+        }
+        .sources-box li {
+            font-size: 13px;
+            color: #64748b;
+        }
+        .sources-box a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        /* --- Mobile Responsiveness --- */
+        @media (max-width: 600px) {
+            body { padding: 5px; }
+            #chart { padding: 5px; border-radius: 8px; }
+            .info-banner { font-size: 11px; padding: 8px 10px; }
+            .newsletter-container { padding: 20px; margin: 15px auto; }
+            .rate-box { width: 48%; }
+            .rate-box .rate-value { font-size: 26px; }
+            .data-box { width: 100%; float: none; margin-right: 0; margin-bottom: 10px; }
+        }
+</style>
+
+<div class="date-badge"><span>March 19, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<h2 style="text-align: center;"><a href="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/daily-market-glance-031926.html" target="_blank"><span style="color:#0000FF;">View Full Email Version</span></a></h2>
+<script>
+        var data = [{"name": "FREMONT", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [76, 6, 140, 67, 133, 22, 35, 98], "type": "bar", "visible": true, "marker": {"color": "#FF6B6B", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>FREMONT</b><br>%{x}: %{y}<extra></extra>"}, {"name": "UNION CITY", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [13, 1, 41, 9, 30, 6, 5, 23], "type": "bar", "visible": true, "marker": {"color": "#4ECDC4", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>UNION CITY</b><br>%{x}: %{y}<extra></extra>"}, {"name": "CASTRO VALLEY", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [15, 0, 43, 8, 35, 7, 2, 21], "type": "bar", "visible": "legendonly", "marker": {"color": "#2E86AB", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>CASTRO VALLEY</b><br>%{x}: %{y}<extra></extra>"}, {"name": "DANVILLE", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [24, 2, 95, 16, 72, 21, 9, 34], "type": "bar", "visible": "legendonly", "marker": {"color": "#FFA07A", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>DANVILLE</b><br>%{x}: %{y}<extra></extra>"}, {"name": "HAYWARD", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [54, 3, 102, 35, 99, 13, 14, 66], "type": "bar", "visible": true, "marker": {"color": "#A23B72", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>HAYWARD</b><br>%{x}: %{y}<extra></extra>"}, {"name": "LIVERMORE", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [38, 3, 106, 15, 73, 19, 16, 53], "type": "bar", "visible": "legendonly", "marker": {"color": "#F7DC6F", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>LIVERMORE</b><br>%{x}: %{y}<extra></extra>"}, {"name": "NEWARK", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [15, 4, 57, 14, 34, 6, 17, 32], "type": "bar", "visible": true, "marker": {"color": "#BB8FCE", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>NEWARK</b><br>%{x}: %{y}<extra></extra>"}, {"name": "PLEASANTON", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [12, 5, 56, 21, 42, 3, 12, 37], "type": "bar", "visible": "legendonly", "marker": {"color": "#E8611A", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>PLEASANTON</b><br>%{x}: %{y}<extra></extra>"}, {"name": "SAN RAMON", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [43, 0, 76, 19, 72, 13, 15, 38], "type": "bar", "visible": "legendonly", "marker": {"color": "#3DDC84", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>SAN RAMON</b><br>%{x}: %{y}<extra></extra>"}, {"name": "DUBLIN", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [46, 3, 54, 26, 66, 13, 13, 36], "type": "bar", "visible": "legendonly", "marker": {"color": "#5C6BC0", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>DUBLIN</b><br>%{x}: %{y}<extra></extra>"}, {"name": "SAN LEANDRO", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [13, 1, 62, 5, 35, 11, 6, 28], "type": "bar", "visible": "legendonly", "marker": {"color": "#FF8A65", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>SAN LEANDRO</b><br>%{x}: %{y}<extra></extra>"}, {"name": "MILPITAS", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [24, 6, 32, 69, 44, 5, 31, 50], "type": "bar", "visible": true, "marker": {"color": "#00BFA5", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>MILPITAS</b><br>%{x}: %{y}<extra></extra>"}];
+        var layout = {"title": {"text": "Real Estate Inventory Dashboard", "font": {"size": 22, "color": "#2c3e50", "family": "Arial, sans-serif"}, "x": 0.5, "xanchor": "center"}, "xaxis": {"title": "Listing Category", "titlefont": {"size": 14, "color": "#34495e"}, "tickfont": {"size": 12, "color": "#34495e"}, "gridcolor": "rgba(0,0,0,0.05)", "showgrid": true}, "yaxis": {"title": "Count", "titlefont": {"size": 14, "color": "#34495e"}, "tickfont": {"size": 12, "color": "#34495e"}, "gridcolor": "rgba(0,0,0,0.1)", "showgrid": true}, "height": 700, "plot_bgcolor": "rgba(250,250,250,0.8)", "paper_bgcolor": "white", "hovermode": "closest", "showlegend": true, "legend": {"title": {"text": "<b>Cities (click to toggle)</b>", "font": {"size": 13}}, "font": {"size": 11}, "bgcolor": "rgba(255,255,255,0.9)", "bordercolor": "#bdc3c7", "borderwidth": 1, "orientation": "h", "x": 0.5, "y": -0.18, "xanchor": "center", "yanchor": "top"}, "barmode": "group", "bargap": 0.15, "bargroupgap": 0.1, "margin": {"l": 60, "r": 20, "t": 70, "b": 120}, "font": {"family": "Arial, sans-serif"}, "transition": {"duration": 500, "easing": "cubic-in-out"}};
+        var config = {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["pan2d", "lasso2d", "select2d"], "toImageButtonOptions": {"format": "png", "filename": "realty_experts_inventory", "height": 800, "width": 1400, "scale": 2}, "responsive": true};
+
+        // Mobile-responsive: adjust layout based on screen width
+        function getResponsiveLayout() {
+            var w = window.innerWidth;
+            var updatedLayout = JSON.parse(JSON.stringify(layout));
+            if (w < 600) {
+                updatedLayout.height = 500;
+                updatedLayout.margin = {l: 40, r: 10, t: 50, b: 140};
+                updatedLayout.title.font.size = 16;
+                updatedLayout.xaxis.tickfont = {size: 10};
+                updatedLayout.yaxis.tickfont = {size: 10};
+                updatedLayout.legend.font = {size: 9};
+                updatedLayout.legend.y = -0.28;
+                updatedLayout.bargap = 0.1;
+                updatedLayout.bargroupgap = 0.05;
+            } else if (w < 900) {
+                updatedLayout.height = 600;
+                updatedLayout.margin = {l: 50, r: 15, t: 60, b: 130};
+                updatedLayout.title.font.size = 20;
+                updatedLayout.legend.font = {size: 10};
+                updatedLayout.legend.y = -0.22;
+            }
+            return updatedLayout;
+        }
+
+        Plotly.newPlot('chart', data, getResponsiveLayout(), config);
+
+        window.addEventListener('resize', function() {
+            Plotly.relayout('chart', getResponsiveLayout());
+        });
+
+        // Add smooth animations on legend clicks
+        document.getElementById('chart').on('plotly_legendclick', function(data) {
+            return true;
+        });
+    </script>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<div class="rate-row">
+    <div class="rate-box">
+        <div class="rate-label">30-Year Fixed</div>
+        <div class="rate-value">6.33%</div>
+    </div>
+    <div class="rate-box rate-box-right">
+        <div class="rate-label">15-Year Fixed</div>
+        <div class="rate-value">5.97%</div>
+    </div>
+</div>
+
+<h3>Senate Passes 21st Century ROAD to Housing Act</h3>
+<p>Senate Passes 21st Century ROAD to Housing Act despite <strong>industry concerns over specific federal mandates</strong>. The legislation aims to modernize housing policy but has drawn pushback from builders and industry groups.</p>
+
+<h3>Bay Area: Selective Spring Acceleration</h3>
+<p>The Bay Area market is showing <strong>"selective spring acceleration."</strong> While inventory is expanding, certain submarkets like Santa Clara are seeing a rare 3.5% year-over-year price dip, offering a strategic window for buyers compared to the double-digit growth in other counties.</p>
+
+<p>Santa Clara County is currently the Bay Area's most significant market outlier, with median home prices experiencing a <strong>3.5% year-over-year decline</strong>. This cooling contrasts sharply with San Francisco, where overbidding remains rampant at an average of <strong>16.5% above list price</strong>.</p>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Alameda County (Fremont Focus)</span>
+    <p style="margin: 8px 0 0 0;">The median sale price is holding steady at <strong>$925,000</strong>, with Fremont specifically seeing a surge in serious buyers who are re-entering the market early this year to avoid the peak competition typically seen in April and May.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Santa Clara County</span>
+    <p style="margin: 8px 0 0 0;">Remains a "seller-favored zone" with <strong>1.5-month supply</strong>, yet the only major county showing a <strong>3.5% year-over-year price decline</strong> &mdash; a strategic window for buyers.</p>
+</div>
+
+<h3>Local Bay Area News</h3>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Fremont &mdash; Happiest City</span>
+    <p style="margin: 8px 0 0 0;">Fremont is celebrating its <strong>sixth consecutive year</strong> as the "Happiest City in America," a title defended in a new 2026 report citing the city's high life satisfaction, longevity, and economic stability &mdash; where over 80% of households earn at least $75,000 annually.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Milpitas &mdash; South Blvd. Extension</span>
+    <p style="margin: 8px 0 0 0;">The city is moving forward with the <strong>South Milpitas Blvd. Extension project</strong>, a key initiative designed to revitalize the transit neighborhood and improve local connectivity.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Legislative Watch</span>
+    <p style="margin: 8px 0 0 0;">Assemblymember Alex Lee has introduced the <strong>"No Tax Breaks for ICE Contractors Act,"</strong> a bill drawing significant local attention in both Milpitas and Fremont.</p>
+</div>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<div class="data-row">
+    <div class="data-box data-box-stocks">
+        <div class="data-label">S&amp;P 500</div>
+        <div class="data-value">6,624.70</div>
+    </div>
+    <div class="data-box data-box-stocks">
+        <div class="data-label">DOW</div>
+        <div class="data-value">46,225.15</div>
+    </div>
+    <div class="data-box data-box-stocks" style="margin-right: 0;">
+        <div class="data-label">NASDAQ</div>
+        <div class="data-value">22,152.42</div>
+    </div>
+</div>
+
+<div class="highlight-box hl-stocks">
+    <h3 style="margin-top: 0;">Markets Slide After Fed Decision</h3>
+    <p>Nvidia gets Beijing's nod for H200 chip sales, adapts Groq chip for China. Meanwhile, the <strong>Dow sinks 750 points</strong>, S&amp;P 500 and Nasdaq slide after the Fed decision as Powell touts inflation worries.</p>
+</div>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<div class="data-row">
+    <div class="data-box data-box-economy">
+        <div class="data-label">US 10-Year</div>
+        <div class="data-value">4.28%</div>
+    </div>
+    <div class="data-box data-box-economy">
+        <div class="data-label">Gold</div>
+        <div class="data-value">$4,700.00</div>
+    </div>
+    <div class="data-box data-box-economy" style="margin-right: 0;">
+        <div class="data-label">Silver</div>
+        <div class="data-value">$26.85</div>
+    </div>
+</div>
+
+<div class="highlight-box hl-economy">
+    <h3 style="margin-top: 0;">Fed Holds Rates Steady Amid Uncertainty</h3>
+    <p>The Federal Open Market Committee voted <strong>11-1</strong> to keep the benchmark federal funds rate anchored in a range between <strong>3.5%-3.75%</strong>, noting 'uncertain' impacts from the Iran war.</p>
+    <p>Policymakers are navigating higher-than-expected inflation readings, mixed signs on the labor market, and a war. The Fed made few changes to its view on the economy, with a slightly faster pace of growth and higher inflation projections for the full year.</p>
+</div>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<div class="data-row">
+    <div class="data-box data-box-crypto">
+        <div class="data-label">BTC</div>
+        <div class="data-value">$69,334.53</div>
+    </div>
+    <div class="data-box data-box-crypto">
+        <div class="data-label">ETH</div>
+        <div class="data-value">$2,129.14</div>
+    </div>
+    <div class="data-box data-box-crypto" style="margin-right: 0;">
+        <div class="data-label">XRP</div>
+        <div class="data-value">$1.44</div>
+    </div>
+</div>
+
+<div class="highlight-box hl-crypto">
+    <h3 style="margin-top: 0;">FTX to Repay Creditors $2.2 Billion</h3>
+    <p>Sam Bankman-Fried's bankrupt exchange FTX is set to <strong>repay creditors $2.2 billion this month</strong>. The distributions mark the next major phase in FTX's bankruptcy resolution.</p>
+    <p>Bitcoin dropped to $69,334 while Ethereum edged up to $2,129 and XRP slipped to $1.44 as markets digest the Fed's decision to hold rates steady amid inflation concerns.</p>
+</div>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.bankrate.com/mortgages/mortgage-rates/" target="_blank">Bankrate</a> &mdash; Mortgage Rates</li>
+        <li><a href="https://www.cnbc.com/2026/03/18/fed-interest-rate-decision-march-2026.html" target="_blank">CNBC</a> &mdash; Fed Interest Rate Decision</li>
+        <li><a href="https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed" target="_blank">Mortgage News Daily</a> &mdash; 15-Year Fixed</li>
+        <li><a href="https://www.reuters.com/world/china/chinese-authorities-approve-nvidias-h200-ai-chip-sales-source-says-2026-03-18/" target="_blank">Reuters</a> &mdash; Nvidia H200 China Approval</li>
+        <li><a href="https://www.coindesk.com/business/2026/03/18/sam-bankman-fried-s-bankrupt-exchange-ftx-set-to-repay-creditors-usd2-2-billion-this-month" target="_blank">CoinDesk</a> &mdash; FTX Creditor Repayment</li>
+        <li><a href="https://www.theownteam.com/blog/bay-area-housing-market-update-march-2026/" target="_blank">The Own Team</a> &mdash; Bay Area Housing Update</li>
+        <li><a href="https://tricityvoice.com/fremont-reclaims-happiest-city-title/" target="_blank">Tri-City Voice</a> &mdash; Happiest City</li>
+        <li><a href="https://milpitasbeat.com/category/news/" target="_blank">Milpitas Beat</a> &mdash; Local News</li>
+        <li><a href="https://www.nahb.org/" target="_blank">NAHB</a> &mdash; Housing Act</li>
+        <li><a href="https://www.financemagnates.com/trending/why-is-gold-crashing-how-low-can-gold-go-and-gold-price-prediction-2026/" target="_blank">Finance Magnates</a> &mdash; Gold Analysis</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>

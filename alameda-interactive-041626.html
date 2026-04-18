@@ -1,0 +1,462 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333333;
+        }
+
+        /* --- Chart Section Styles --- */
+        #chart {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            padding: 10px;
+            max-width: 100%;
+            margin: 0 auto;
+            min-height: 500px;
+        }
+        .info-banner {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 16px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            text-align: center;
+            font-size: 13px;
+            box-shadow: 0 2px 10px rgba(102,126,234,0.3);
+        }
+        .info-banner strong {
+            font-weight: 700;
+        }
+        .date-badge {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        .date-badge span {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a5f, #2563eb);
+            color: white;
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- Newsletter Section Styles --- */
+        .newsletter-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 40px;
+            line-height: 1.6;
+        }
+        .newsletter-container h2 {
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .newsletter-container h3 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .newsletter-container ul {
+            margin-bottom: 15px;
+        }
+        .newsletter-container li {
+            margin-bottom: 8px;
+        }
+        .newsletter-container hr {
+            border: 0;
+            height: 1px;
+            background: #ecf0f1;
+            margin: 30px 0;
+        }
+        .disclaimer {
+            background-color: #f9f9f9;
+            border-left: 4px solid #bdc3c7;
+            padding: 15px;
+            font-style: italic;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        /* --- Section Header Bars --- */
+        .section-bar-re {
+            background-color: #ea580c;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .section-bar-stocks {
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .section-bar-economy {
+            background-color: #16a34a;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .section-bar-crypto {
+            background-color: #f59e0b;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* --- Rate Cards --- */
+        .rate-row {
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .rate-box {
+            width: 48%;
+            float: left;
+            background-color: #ea580c;
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            color: white;
+        }
+        .rate-box-right {
+            float: right;
+        }
+        .rate-box .rate-label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            opacity: 0.85;
+            margin-bottom: 6px;
+        }
+        .rate-box .rate-value {
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        /* --- Data Cards Row --- */
+        .data-row {
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .data-box {
+            width: 31%;
+            float: left;
+            margin-right: 3.5%;
+            border-radius: 8px;
+            padding: 14px;
+            text-align: center;
+            border-left: 4px solid;
+        }
+        .data-box:last-child {
+            margin-right: 0;
+        }
+        .data-box .data-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #64748b;
+            margin-bottom: 6px;
+        }
+        .data-box .data-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+        .data-box-stocks { border-color: #2563eb; background-color: #eff6ff; }
+        .data-box-economy { border-color: #16a34a; background-color: #f0fdf4; }
+        .data-box-crypto { border-color: #f59e0b; background-color: #fffbeb; }
+
+        /* --- Highlight Box --- */
+        .highlight-box {
+            border-radius: 8px;
+            padding: 18px 20px;
+            margin-bottom: 16px;
+            border-left: 4px solid;
+        }
+        .hl-re { background-color: #fff7ed; border-color: #ea580c; }
+        .hl-stocks { background-color: #eff6ff; border-color: #2563eb; }
+        .hl-economy { background-color: #f0fdf4; border-color: #16a34a; }
+        .hl-crypto { background-color: #fffbeb; border-color: #f59e0b; }
+
+        /* --- Location Tag --- */
+        .loc-tag {
+            display: inline-block;
+            background-color: #ea580c;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        /* --- Sources --- */
+        .sources-box {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .sources-box h3 {
+            color: #64748b;
+            font-size: 14px;
+            margin-top: 0;
+        }
+        .sources-box li {
+            font-size: 13px;
+            color: #64748b;
+        }
+        .sources-box a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        /* --- Mobile Responsiveness --- */
+        @media (max-width: 600px) {
+            body { padding: 5px; }
+            #chart { padding: 5px; border-radius: 8px; }
+            .info-banner { font-size: 11px; padding: 8px 10px; }
+            .newsletter-container { padding: 20px; margin: 15px auto; }
+            .rate-box { width: 48%; }
+            .rate-box .rate-value { font-size: 26px; }
+            .data-box { width: 100%; float: none; margin-right: 0; margin-bottom: 10px; }
+        }
+</style>
+
+<div class="date-badge"><span>April 16, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<h2 style="text-align: center;"><a href="https://teamrealtyexperts.com/share/53134eea-ccfc-4cd5-a4a2-a1a95116a346" target="_blank"><span style="color:#0000FF;">View Full Email Version on Agent Hub</span></a></h2>
+<script>
+        var data = [{"name": "FREMONT", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [76, 0, 107, 40, 223, 36, 60, 97], "type": "bar", "visible": true, "marker": {"color": "#FF6B6B", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>FREMONT</b><br>%{x}: %{y}<extra></extra>"}, {"name": "UNION CITY", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [9, 0, 43, 7, 59, 7, 7, 20], "type": "bar", "visible": true, "marker": {"color": "#4ECDC4", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>UNION CITY</b><br>%{x}: %{y}<extra></extra>"}, {"name": "CASTRO VALLEY", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [6, 0, 28, 9, 43, 5, 9, 30], "type": "bar", "visible": "legendonly", "marker": {"color": "#2E86AB", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>CASTRO VALLEY</b><br>%{x}: %{y}<extra></extra>"}, {"name": "DANVILLE", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [20, 0, 81, 22, 123, 26, 15, 41], "type": "bar", "visible": "legendonly", "marker": {"color": "#FFA07A", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>DANVILLE</b><br>%{x}: %{y}<extra></extra>"}, {"name": "HAYWARD", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [46, 0, 67, 30, 143, 28, 13, 79], "type": "bar", "visible": true, "marker": {"color": "#A23B72", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>HAYWARD</b><br>%{x}: %{y}<extra></extra>"}, {"name": "LIVERMORE", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [28, 0, 80, 13, 121, 16, 9, 72], "type": "bar", "visible": "legendonly", "marker": {"color": "#F7DC6F", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>LIVERMORE</b><br>%{x}: %{y}<extra></extra>"}, {"name": "NEWARK", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [13, 0, 42, 11, 66, 5, 9, 38], "type": "bar", "visible": true, "marker": {"color": "#BB8FCE", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>NEWARK</b><br>%{x}: %{y}<extra></extra>"}, {"name": "PLEASANTON", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [11, 0, 61, 16, 88, 29, 20, 38], "type": "bar", "visible": "legendonly", "marker": {"color": "#E8611A", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>PLEASANTON</b><br>%{x}: %{y}<extra></extra>"}, {"name": "SAN RAMON", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [40, 0, 67, 15, 122, 18, 24, 51], "type": "bar", "visible": "legendonly", "marker": {"color": "#3DDC84", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>SAN RAMON</b><br>%{x}: %{y}<extra></extra>"}, {"name": "DUBLIN", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [10, 0, 84, 17, 111, 18, 24, 43], "type": "bar", "visible": "legendonly", "marker": {"color": "#5C6BC0", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>DUBLIN</b><br>%{x}: %{y}<extra></extra>"}, {"name": "SAN LEANDRO", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [10, 0, 37, 2, 49, 3, 4, 40], "type": "bar", "visible": "legendonly", "marker": {"color": "#FF8A65", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>SAN LEANDRO</b><br>%{x}: %{y}<extra></extra>"}, {"name": "MILPITAS", "x": ["CO", "DU", "DE", "TH", "Active All", "New", "CS", "PEND"], "y": [19, 0, 22, 22, 63, 4, 31, 49], "type": "bar", "visible": true, "marker": {"color": "#00BFA5", "line": {"width": 1.5, "color": "rgba(255,255,255,0.3)"}}, "hovertemplate": "<b>MILPITAS</b><br>%{x}: %{y}<extra></extra>"}];
+        var layout = {"title": {"text": "Real Estate Inventory Dashboard", "font": {"size": 22, "color": "#2c3e50", "family": "Arial, sans-serif"}, "x": 0.5, "xanchor": "center"}, "xaxis": {"title": "Listing Category", "titlefont": {"size": 14, "color": "#34495e"}, "tickfont": {"size": 12, "color": "#34495e"}, "gridcolor": "rgba(0,0,0,0.05)", "showgrid": true}, "yaxis": {"title": "Count", "titlefont": {"size": 14, "color": "#34495e"}, "tickfont": {"size": 12, "color": "#34495e"}, "gridcolor": "rgba(0,0,0,0.1)", "showgrid": true}, "height": 700, "plot_bgcolor": "rgba(250,250,250,0.8)", "paper_bgcolor": "white", "hovermode": "closest", "showlegend": true, "legend": {"title": {"text": "<b>Cities (click to toggle)</b>", "font": {"size": 13}}, "font": {"size": 11}, "bgcolor": "rgba(255,255,255,0.9)", "bordercolor": "#bdc3c7", "borderwidth": 1, "orientation": "h", "x": 0.5, "y": -0.18, "xanchor": "center", "yanchor": "top"}, "barmode": "group", "bargap": 0.15, "bargroupgap": 0.1, "margin": {"l": 60, "r": 20, "t": 70, "b": 120}, "font": {"family": "Arial, sans-serif"}, "transition": {"duration": 500, "easing": "cubic-in-out"}};
+        var config = {"displayModeBar": true, "displaylogo": false, "modeBarButtonsToRemove": ["pan2d", "lasso2d", "select2d"], "toImageButtonOptions": {"format": "png", "filename": "realty_experts_inventory", "height": 800, "width": 1400, "scale": 2}, "responsive": true};
+
+        // Mobile-responsive: adjust layout based on screen width
+        function getResponsiveLayout() {
+            var w = window.innerWidth;
+            var updatedLayout = JSON.parse(JSON.stringify(layout));
+            if (w < 600) {
+                updatedLayout.height = 500;
+                updatedLayout.margin = {l: 40, r: 10, t: 50, b: 140};
+                updatedLayout.title.font.size = 16;
+                updatedLayout.xaxis.tickfont = {size: 10};
+                updatedLayout.yaxis.tickfont = {size: 10};
+                updatedLayout.legend.font = {size: 9};
+                updatedLayout.legend.y = -0.28;
+                updatedLayout.bargap = 0.1;
+                updatedLayout.bargroupgap = 0.05;
+            } else if (w < 900) {
+                updatedLayout.height = 600;
+                updatedLayout.margin = {l: 50, r: 15, t: 60, b: 130};
+                updatedLayout.title.font.size = 20;
+                updatedLayout.legend.font = {size: 10};
+                updatedLayout.legend.y = -0.22;
+            }
+            return updatedLayout;
+        }
+
+        Plotly.newPlot('chart', data, getResponsiveLayout(), config);
+
+        window.addEventListener('resize', function() {
+            Plotly.relayout('chart', getResponsiveLayout());
+        });
+
+        // Add smooth animations on legend clicks
+        document.getElementById('chart').on('plotly_legendclick', function(data) {
+            return true;
+        });
+    </script>
+
+<div class="newsletter-container">
+
+<!-- FEATURED PROMO: FAIR HOUSING DAY -->
+<div style="background-color: #0d9488; border-left: 6px solid #f97316; padding: 24px; margin-bottom: 30px; border-radius: 8px;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #ffffff; opacity: 0.9; margin-bottom: 8px;">NEW FROM HARV &middot; TEAM EDUCATION</div>
+    <h2 style="margin: 0 0 12px 0; font-size: 22px; font-weight: 800; line-height: 1.25; color: #ffffff;">What I Learned at Fair Housing Day 2026 (and Why You Should Care)</h2>
+    <p style="font-size: 15px; line-height: 1.6; color: #ffffff; margin: 0 0 14px 0;">Harv spent April 14 at UC Berkeley for the 5th Annual C.A.R. Fair Housing Day &mdash; seven sessions, three hundred REALTORS in Pauley Ballroom. He rebuilt economist Oscar Wei's 11-slide closing deck as interactive charts you can click through in about ten minutes.</p>
+    <div style="background-color: rgba(255,255,255,0.12); padding: 14px 18px; border-left: 3px solid #f97316; margin-bottom: 16px;">
+        <p style="margin: 0; font-size: 14px; font-style: italic; line-height: 1.55; color: #ffffff;">"Black first-time buyers in California were 4 percent in 2010. In 2025, they are still 4 percent. Fifteen years of attention, zero movement at the entry point."</p>
+        <p style="margin: 6px 0 0 0; font-size: 12px; color: #fed7aa;">&mdash; Oscar Wei, Deputy Chief Economist, C.A.R.</p>
+    </div>
+    <p style="margin: 0;">
+        <a href="https://teamrealtyexperts.com/notes/df17673e-f175-4af3-84b1-b64eea0f4f0e" style="display: inline-block; background-color: #f97316; color: #ffffff; padding: 11px 20px; text-decoration: none; font-weight: 700; font-size: 14px; margin-right: 8px; border-radius: 4px;">Read Harv's Post &rarr;</a>
+        <a href="https://teamrealtyexperts.com/fair-housing-day-2026/index.html" style="display: inline-block; background-color: #ffffff; color: #0d9488; padding: 11px 20px; text-decoration: none; font-weight: 700; font-size: 14px; border-radius: 4px;">Open the Slides &rarr;</a>
+    </p>
+</div>
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<div class="rate-row">
+    <div class="rate-box">
+        <div class="rate-label">30-Year Fixed</div>
+        <div class="rate-value">6.32%</div>
+    </div>
+    <div class="rate-box rate-box-right">
+        <div class="rate-label">15-Year Fixed</div>
+        <div class="rate-value">5.97%</div>
+    </div>
+</div>
+
+<h3>Inventory Climbs to 2,629 &mdash; Spring Market Widens</h3>
+<p>Total inventory across our 15-city tracker climbed to <strong>2,629</strong> &mdash; <strong>233 coming soon</strong> and <strong>220 new listings</strong> as the spring market continues to widen. Mortgage rates held flat for a fourth straight day with both 30 and 15-year fixed unchanged as the 10-year yield hovers near 4.28%.</p>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Fremont &mdash; 320 Total</span>
+    <p style="margin: 8px 0 0 0;">Fremont nudged up to <strong>320 total listings</strong> with <strong>23 new</strong> and <strong>52 coming soon</strong>. A small bump in active count keeps the market steady.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Oakland &mdash; 745 Total</span>
+    <p style="margin: 8px 0 0 0;">Oakland sits at <strong>745 total</strong> with <strong>46 new listings</strong> &mdash; still the Bay's deepest inventory pool by a wide margin.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Livermore &mdash; Fresh Listings Surge</span>
+    <p style="margin: 8px 0 0 0;"><strong>209 total</strong> with <strong>24 new listings</strong> &mdash; a notable surge of fresh activity hitting the Tri-Valley board.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">San Ramon &mdash; Pipeline Stays Full</span>
+    <p style="margin: 8px 0 0 0;"><strong>177 total</strong> with <strong>17 new</strong> and <strong>20 coming soon</strong>. The premium pipeline is still loaded heading into peak season.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Hayward, Dublin &amp; Pleasanton</span>
+    <p style="margin: 8px 0 0 0;">Hayward at <strong>216 total</strong> (12 new, 15 coming soon). Dublin at <strong>162</strong> with <strong>16 new</strong>. Pleasanton at <strong>125</strong> with <strong>14 new</strong> and <strong>16 coming soon</strong> &mdash; healthy activity across the board.</p>
+</div>
+
+<div class="highlight-box hl-re">
+    <span class="loc-tag">Union City &mdash; Tightest at 79</span>
+    <p style="margin: 8px 0 0 0;"><strong>79 total</strong> &mdash; still one of the tightest markets on the board. Buyers here continue to face very limited options.</p>
+</div>
+
+<h3>HELOCs at 3-Year Lows; Boomers Dominate the Market</h3>
+<p>Home equity loan rates are sitting near <strong>7%</strong> &mdash; the lowest level in three years. With first-lien rates still in the low-6s, more owners are tapping equity to renovate rather than refinance or move, which is part of what's holding resale supply down.</p>
+<p>NAR data shows <strong>Boomers (61&ndash;79) made up 42% of buyers and 55% of sellers in 2026</strong>. Millennials are still the largest owner cohort &mdash; they're just sitting on equity and not selling.</p>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<div class="data-row">
+    <div class="data-box data-box-stocks">
+        <div class="data-label">S&amp;P 500</div>
+        <div class="data-value" style="color: #16a34a;">7,022</div>
+    </div>
+    <div class="data-box data-box-stocks">
+        <div class="data-label">DOW</div>
+        <div class="data-value" style="color: #dc2626;">48,463</div>
+    </div>
+    <div class="data-box data-box-stocks" style="margin-right: 0;">
+        <div class="data-label">NASDAQ</div>
+        <div class="data-value" style="color: #16a34a;">24,016</div>
+    </div>
+</div>
+
+<div class="highlight-box hl-stocks">
+    <h3 style="margin-top: 0;">Tesla AI5 Chip Lifts NASDAQ; Amazon Buys Globalstar</h3>
+    <p>NASDAQ led again as <strong>Tesla jumped 7.6%</strong> after unveiling its AI5 chip &mdash; Musk says it delivers <strong>8&ndash;10x the muscle</strong> of the prior AI4 and rivals Nvidia's H100. TSMC and Samsung are slated to manufacture, with production targeted for <strong>2027</strong>.</p>
+    <p><strong>Amazon</strong> went shopping in space &mdash; agreeing to acquire satellite operator <strong>Globalstar</strong> for nearly <strong>$12 billion</strong> to bolster its direct-to-phone Leo service. Apple inked a parallel deal to bring Leo connectivity to iPhones and Apple Watches. SpaceX's Starlink still dominates with 10,000+ satellites; Amazon sits around 240 &mdash; but the gap is closing fast.</p>
+</div>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<div class="data-row">
+    <div class="data-box data-box-economy">
+        <div class="data-label">US 10-Year</div>
+        <div class="data-value" style="color: #1e293b;">4.28%</div>
+    </div>
+    <div class="data-box data-box-economy">
+        <div class="data-label">Gold</div>
+        <div class="data-value" style="color: #dc2626;">$4,813</div>
+    </div>
+    <div class="data-box data-box-economy" style="margin-right: 0;">
+        <div class="data-label">WTI Crude</div>
+        <div class="data-value" style="color: #16a34a;">$93.39</div>
+    </div>
+</div>
+
+<div class="highlight-box hl-economy">
+    <h3 style="margin-top: 0;">Powell's Replacement on Deck; Tariff Refunds Start April 20</h3>
+    <p><strong>Kevin Warsh</strong> &mdash; Trump's pick to replace Jerome Powell &mdash; heads to the Senate Banking Committee soon. Powell's term ends <strong>May 15</strong>, and Powell himself reiterated the Fed remains <strong>"well positioned to wait"</strong> on rate moves, with Cleveland Fed President Hammack echoing the same.</p>
+    <p>Tariff refund checks start rolling out <strong>April 20</strong>. After the Supreme Court struck down the Trump tariff plan in February, at least <strong>56,000 of the 330,000</strong> affected businesses &mdash; including Costco, Kohl's, FedEx, and Nintendo &mdash; are first in line for reimbursement.</p>
+</div>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<div class="data-row">
+    <div class="data-box data-box-crypto">
+        <div class="data-label">BTC</div>
+        <div class="data-value" style="color: #16a34a;">$74,803</div>
+    </div>
+    <div class="data-box data-box-crypto">
+        <div class="data-label">ETH</div>
+        <div class="data-value" style="color: #16a34a;">$2,360</div>
+    </div>
+    <div class="data-box data-box-crypto" style="margin-right: 0;">
+        <div class="data-label">XRP</div>
+        <div class="data-value" style="color: #16a34a;">$1.39</div>
+    </div>
+</div>
+
+<div class="highlight-box hl-crypto">
+    <h3 style="margin-top: 0;">Goldman + BlackRock Build BTC ETFs; Pakistan Lifts Crypto Ban</h3>
+    <p><strong>Goldman Sachs</strong> and <strong>BlackRock</strong> are both building new Bitcoin ETFs, with Goldman expected to launch its first soon. If institutional money flows in, expect <strong>lower volatility</strong> across BTC and the broader crypto basket.</p>
+    <p>Pakistan ended its <strong>8-year ban</strong> on banks working with crypto firms. Licensed crypto companies can now open bank accounts and process payments &mdash; a major opening in one of the world's largest retail crypto markets, where millions had been transacting peer-to-peer.</p>
+</div>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &mdash; Mortgage Rates</li>
+        <li><a href="https://www.investing.com/commodities/crude-oil" target="_blank">Investing.com</a> &mdash; WTI Crude Oil</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &mdash; Market Data</li>
+        <li><a href="https://teamrealtyexperts.com/share/53134eea-ccfc-4cd5-a4a2-a1a95116a346" target="_blank">REALTY EXPERTS Agent Hub</a> &mdash; Full Daily Email</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>

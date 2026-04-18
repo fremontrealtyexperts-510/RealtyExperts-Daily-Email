@@ -32,7 +32,7 @@ async function main() {
   if (!postId) {
     console.error('Error: No post ID returned. Token may be expired.');
     console.error('Response:', JSON.stringify(response, null, 2));
-    console.error('Run "node get-tokens.js" in Terminal and try again.');
+    console.error('Run "node ensure-token.js" in Terminal and try again (auto-mints 90-day token).');
     process.exit(1);
   }
 
