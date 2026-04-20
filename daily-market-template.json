@@ -1,45 +1,34 @@
 {
-  "date": "04/17/26",
-  "time": "11:03",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/b5ced1b5-76fd-4ce3-a9f3-1452d447001a",
-  "qr_code_path": "note-qr-b5ced1b5.png",
-  "featured_promo": {
-    "eyebrow": "NEW FROM HARV · TEAM EDUCATION",
-    "title": "What I Learned at Fair Housing Day 2026 (and Why You Should Care)",
-    "body": "Harv spent April 14 at UC Berkeley for the 5th Annual C.A.R. Fair Housing Day — seven sessions, three hundred REALTORS in Pauley Ballroom. He rebuilt economist Oscar Wei's 11-slide closing deck as interactive charts you can click through in about ten minutes.",
-    "quote": "Black first-time buyers in California were 4 percent in 2010. In 2025, they are still 4 percent. Fifteen years of attention, zero movement at the entry point.",
-    "quote_attribution": "— Oscar Wei, Deputy Chief Economist, C.A.R.",
-    "primary_link": "https://teamrealtyexperts.com/notes/74b2ce01-bf44-4377-95f9-9d4d6eba97ba",
-    "primary_label": "Read Harv's Post",
-    "secondary_link": "https://teamrealtyexperts.com/fair-housing-day-2026/index.html",
-    "secondary_label": "Open the Slides"
-  },
+  "date": "04/20/26",
+  "time": "09:25",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/fe06b10f-7018-45ff-958d-483fc772dca1",
+  "qr_code_path": "note-qr-fe06b10f.png",
   "stocks": {
-    "sp500": "7,041 (+0.26%)",
-    "dow": "48,578 (+0.24%)",
-    "nasdaq": "24,102 (+0.36%)",
-    "note": "Numbers as of market close April 16th.",
-    "news": "S&P 500 and NASDAQ both printed fresh record highs this week as traders priced in an earlier end to the Iran conflict. Records make for nice headlines — but they don't change how a pullback feels, so stay disciplined.\n\nA federal jury ruled Live Nation (LYV) ran an illegal ticket monopoly, siding with 36 states and D.C. The remedy could force a sell-off of venues and promotion arms — good for competition, bad for a stock built on control.\n\nThe SEC scrapped a 30-year-old rule that required retail day traders to hold $25,000 minimum balances. Robinhood (HOOD) popped 10% on the news as the sandbox just got a lot bigger. More access ≠ better returns — worth reminding clients who are feeling bold."
+    "sp500": "7,126 (+1.20%)",
+    "dow": "49,447 (+1.79%)",
+    "nasdaq": "24,468 (+1.52%)",
+    "note": "Numbers as of market close April 17th.",
+    "news": "Netflix (NFLX -9.72%) got canceled on Friday, shedding ~10% in its worst session in six months. Q1 sales beat at $12.25B, but a $2.8B Warner Bros. breakup check did most of the heavy lifting — strip that out and earnings miss. Q2 guidance came in light and co-founder Reed Hastings exits the board in June. A beat that needs a breakup check is still a miss.\n\nQuantum made a leap. IonQ (IONQ +3.26%) and D-Wave (QBTS +0.79%) each ripped about 50% on the week after Nvidia (NVDA +1.68%) dropped free software called Ising that cuts quantum setup time from days to hours. IonQ also linked two remote machines and landed a Pentagon contract — the whole space got a shot of adrenaline."
   },
   "economy": {
-    "us10year": "4.31% (+0.00%)",
-    "gold": "$4,811 (+0.07%)",
-    "wti": "$83.73 (-11.57%)",
-    "note": "US 10-Year and Gold as of 4:00pm ET April 16th; WTI Crude reflects today's intraday move.",
-    "commentary": "WTI Crude took an 11% face-plant today after Iran's foreign minister said the Strait of Hormuz will stay open. Supply fears evaporated, and the premium baked into oil since the war began came right back out. Gasoline prices should follow in the days ahead — a quiet tailwind for household budgets.\n\nJobless claims dipped again last week — the labor market is still stuck in a \"low hire, low fire\" holding pattern. Snapchat is trimming 1,000 jobs (16% of staff), a reminder that \"low fire\" doesn't mean zero fire.\n\nThe U.S. Treasury put two Chinese banks on notice for allegedly helping Iran move money — sanctions could follow. Iran has reportedly been asking oil tankers to pay in crypto just to keep the lights on."
+    "us10year": "4.26% (+0.02%)",
+    "gold": "$4,799 (-1.22%)",
+    "wti": "$87.29 (+5.69%)",
+    "note": "US 10-Year and Gold as of 10:40 PM ET April 19th; WTI Crude reflects today's intraday move.",
+    "commentary": "Lowe's (LOW +3.84%) put $250M behind a bet that AI can't climb a ladder — a decade-long plan to recruit and train 250,000 plumbers, carpenters, and electricians. The backdrop: construction firms need 349,000 trade workers by year-end, 92% can't find help, and 47% of skilled tradespeople already out-earn the average college grad. Real wages for real work.\n\nMarch CPI came in hot at +0.9% monthly — the biggest jump in a while — but gas did almost all the damage at +21.2% on Iran fallout. Strip food and energy and core rose just +0.2%, below forecasts. The sticker shock is narrow (the pump), not broad-based — which is why the Fed probably keeps its cool.\n\nWTI crude snapped back above $87 after Iran vowed to retaliate for a seized tanker. The Strait of Hormuz story had five plot twists in four days: open Thursday, closed Friday, back open Saturday, US seizure Sunday. Volatility at the pump is the one thing you can count on."
   },
   "crypto": {
-    "btc": "$74,694 (-0.61%)",
-    "eth": "$2,331 (-0.74%)",
-    "xrp": "$1.43 (-1.69%)",
-    "note": "Numbers as of 4:00pm ET April 16th",
-    "commentary": "Tether quietly added another $70 million in Bitcoin, lifting its reserves to 97,141 BTC (~$7.16 billion). That makes the stablecoin issuer the #2 corporate Bitcoin holder on the planet — second only to MicroStrategy's 780,897-BTC war chest.\n\nSouth Korea is piloting bank-issued blockchain deposits across nine major banks later this year. Real money becomes programmable digital currency — spending rules (and fraud prevention) baked directly into the ledger. Watch the rest of Asia follow."
+    "btc": "$75,636 (-0.27%)",
+    "eth": "$2,311 (-0.82%)",
+    "xrp": "$1.43 (+0.06%)",
+    "note": "Live prices.",
+    "commentary": "Bitcoin bounced, then cooled. BTC printed a two-month high near $78,384 last week, powered by the US-Iran ceasefire, a reopened Hormuz, fresh US crypto rules, oil down 11%, and $815M in shorts liquidated on the way up. American Bitcoin Corp (ABTC +15.04%) led the run.\n\nSaylor's entire stack is now green. Strategy (MSTR +11.80%) sits on 780,897 BTC at an average cost of $75,577 — its first paper profit since early January. He kept buying through the crash, added $1B more at $71,902, and still wants 1 million coins by year-end. Conviction you can measure in billions."
   },
   "real_estate": {
-    "rate_30year": "6.29%",
+    "rate_30year": "6.30%",
     "rate_15year": "5.91%",
-    "homebuilder": "Mortgage rates ticked slightly lower today — 30-year down 3 bps, 15-year down 5 bps. MBS pricing is firming up, which could mean a bit more room to run.",
-    "commentary": "Total inventory across our 15-city tracker moved up to 2,717 actives — with 227 coming soon and 269 new listings hitting the market. The spring pipeline is still filling.\n\n📍 Fremont: 337 total, 48 coming soon, 34 new — 44 townhomes active with 14 pending, 81 condos active with 14 pending, and 112 detached/duplex/PUD active with 72 pending. The detached side still drives most of the pending action.\n\n📍 Oakland: 757 total, 29 coming soon, 51 new — still the Bay's deepest pool by a mile.\n\n📍 Hayward: 223 total, 17 coming soon, 15 new — steady buyer interest.\n\n📍 Livermore: 214 total, 8 coming soon, 27 new — fresh activity continues.\n\n📍 San Ramon: 184 total, 19 coming soon, 25 new — pipeline staying full.\n\n📍 Danville: 181 total, 8 coming soon, 31 new — a big jump in new listings.\n\n📍 Dublin: 175 total, 19 coming soon, 28 new.\n\n📍 Pleasanton: 134 total, 16 coming soon, 19 new.\n\n📍 Milpitas: 115 total, 26 coming soon, 3 new — CS pipeline is loaded.\n\n📍 Newark: 114 total, 9 coming soon, 6 new.\n\n📍 San Leandro: 94 total, 5 coming soon, 10 new.\n\n📍 Union City: 85 total, 11 coming soon, 4 new — still one of the tightest markets on the board.\n\nNorthern neighbors: Canada's housing market is forecast to grow just 1% in 2026, with the national median new-home price projected near $688,955. Higher oil-driven inflation has triggered rate-hike chatter right at peak buying season — sound familiar?\n\nBuild-to-rent retreat: Single-family build-to-rent starts fell 19% year-over-year — from 84,000 units in 2024 to 68,000 in 2025. Financing costs climbed while rents rose just 1.2%, so the math stopped penciling out for investors.",
+    "homebuilder": "Ceasefire trimmed mortgage rates — the 30-year slid from 6.37% to 6.30% as the US–Iran truce pulled the 10-year Treasury yield lower. Fragile setup: one bad headline out of Tehran and it flips right back.",
+    "commentary": "Across our 15-city tracker, active inventory hit 2,714 listings today — up roughly 5-7% over last week in most cities as spring supply finally shows up. Alameda and Santa Clara counties are also reporting longer days on market, a sign the buyer pool is moving more cautiously even with rates easing. More to show, fewer ready to act — sharper pricing and prep matter more than ever.\n\n📍 Fremont: 339 total · 48 CS · 34 new — 46 TH active (16 pending), 78 CO active (16 pending), 108 DU/DE/PH active (75 pending). Detached still drives the pending column.\n\n📍 Oakland: 756 total · 29 CS · 60 new — the Bay's deepest pool, and it just got deeper.\n\n📍 Hayward: 227 total · 14 CS · 19 new — fresh listings ticking up.\n\n📍 Livermore: 213 total · 10 CS · 27 new — biggest week-over-week jump in the Tri-Valley.\n\n📍 San Ramon: 183 total · 16 CS · 28 new — pipeline stays full.\n\n📍 Danville: 179 total · 10 CS · 30 new — new listings strong, total holding.\n\n📍 Dublin: 168 total · 20 CS · 30 new.\n\n📍 Pleasanton: 132 total · 20 CS · 20 new.\n\n📍 Milpitas: 118 total · 27 CS · 4 new — CS pipeline is loaded, fresh supply still light.\n\n📍 Newark: 114 total · 6 CS · 7 new.\n\n📍 San Leandro: 92 total · 6 CS · 13 new.\n\n📍 Union City: 86 total · 11 CS · 5 new — still one of the tightest markets on the board.\n\n📍 Castro Valley: 77 total · 8 CS · 13 new.\n\n📍 San Lorenzo: 24 total · 2 CS · 5 new.\n\n📍 Sunol: 6 total · 1 CS · 0 new.\n\nOffice fire sale: A Chicago tower that traded for $68M in 2016 just sold for $4.2M — a 94% haircut, not a typo. In Denver, a complex once valued at $176M went for $5.3M at auction. 204 distressed office deals closed last year, up from 133 the year before. One of the Chicago towers is being converted to apartments — often the only math that pencils at those prices.\n\nBuild-to-rent retreat: Single-family build-to-rent starts fell 19% year-over-year — from 84,000 units in 2024 to 68,000 in 2025. Financing costs climbed while rents rose just 1.2%, and the math stopped working for investors. Another small tailwind for resale inventory.",
     "local_news": ""
   },
   "sources": [
