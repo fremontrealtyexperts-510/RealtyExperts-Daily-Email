@@ -1,34 +1,34 @@
 {
-  "date": "04/20/26",
-  "time": "09:25",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/fe06b10f-7018-45ff-958d-483fc772dca1",
-  "qr_code_path": "note-qr-fe06b10f.png",
+  "date": "04/21/26",
+  "time": "12:45",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/b03efc23-2416-4b9e-8d35-78b922670a62",
+  "qr_code_path": "note-qr-b03efc23.png",
   "stocks": {
-    "sp500": "7,126 (+1.20%)",
-    "dow": "49,447 (+1.79%)",
-    "nasdaq": "24,468 (+1.52%)",
-    "note": "Numbers as of market close April 17th.",
-    "news": "Netflix (NFLX -9.72%) got canceled on Friday, shedding ~10% in its worst session in six months. Q1 sales beat at $12.25B, but a $2.8B Warner Bros. Breakup check did most of the heavy lifting. Strip that out and earnings miss. Q2 guidance came in light and co-founder Reed Hastings exits the board in June. A beat that needs a breakup check is still a miss.\n\nQuantum made a leap. IonQ (IONQ +3.26%) and D-Wave (QBTS +0.79%) each ripped about 50% on the week after Nvidia (NVDA +1.68%) dropped free software called Ising that cuts quantum setup time from days to hours. IonQ also linked two remote machines and landed a Pentagon contract. The whole space got a shot of adrenaline."
+    "sp500": "7,109 (-0.24%)",
+    "dow": "49,442 (-0.01%)",
+    "nasdaq": "24,404 (-0.26%)",
+    "note": "Numbers as of market close April 20th.",
+    "news": "All three indexes slipped Monday as a U.S. destroyer fired on an Iranian cargo ship in the Gulf of Oman. Oil took off, equities leaked, and the market mood flipped from cautious to jumpy in a single session.\n\nBezos backed another $650M round for Slate Auto, the stripped-down EV pickup with hand-crank windows and no touchscreen. 160,000 deposits say buyers want cheap, not loaded. Separately, Uber (UBER +0.48%) committed $10B to owning robotaxis after a decade of swearing it never would. Cars without drivers still beat cars with them."
   },
   "economy": {
-    "us10year": "4.26% (+0.02%)",
-    "gold": "$4,799 (-1.22%)",
-    "wti": "$87.29 (+5.69%)",
-    "note": "US 10-Year and Gold as of 10:40 PM ET April 19th; WTI Crude reflects today's intraday move.",
-    "commentary": "Lowe's (LOW +3.84%) put $250M behind a bet that AI can't climb a ladder. A decade-long plan to recruit and train 250,000 plumbers, carpenters, and electricians. The backdrop: construction firms need 349,000 trade workers by year-end, 92% can't find help, and 47% of skilled tradespeople already out-earn the average college grad. Real wages for real work.\n\nMarch CPI came in hot at +0.9% monthly. The biggest jump in a while. But gas did almost all the damage at +21.2% on Iran fallout. Strip food and energy and core rose just +0.2%, below forecasts. The sticker shock is narrow (the pump), not broad-based. Which is why the Fed probably keeps its cool.\n\nWTI crude snapped back above $87 after Iran vowed to retaliate for a seized tanker. The Strait of Hormuz story had five plot twists in four days: open Thursday, closed Friday, back open Saturday, US seizure Sunday. Volatility at the pump is the one thing you can count on."
+    "us10year": "4.26% (+0.01%)",
+    "gold": "$4,813 (+0.88%)",
+    "wti": "$91.43 (+4.59%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET April 20th; WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "Oil popped nearly 8% intraday after the Strait of Hormuz reopened as a flashpoint. About 20% of the world's oil moves through that corridor. When it slows, gas prices rise, inflation sticks, and the Fed has a harder time cutting rates. The chain matters for housing more than the equity reaction.\n\nThe $166B tariff refund portal finally opened two months after the Supreme Court stopped President Trump's sweeping tariffs. Importers can file, but White House adviser Kevin Hassett already hinted the checks may come back smaller than expected. Kind of like waiting on that Venmo from the friend who always \"forgets.\"\n\nChina just restarted a $3.7B coal plant it shelved a decade ago. Gas got pricey when the Strait closed, so Beijing is reaching for the fuel it has tons of. A 21-month streak of flat-to-falling emissions is about to break."
   },
   "crypto": {
-    "btc": "$75,636 (-0.27%)",
-    "eth": "$2,311 (-0.82%)",
-    "xrp": "$1.43 (+0.06%)",
-    "note": "Live prices.",
-    "commentary": "Bitcoin bounced, then cooled. BTC printed a two-month high near $78,384 last week, powered by the US-Iran ceasefire, a reopened Hormuz, fresh US crypto rules, oil down 11%, and $815M in shorts liquidated on the way up. American Bitcoin Corp (ABTC +15.04%) led the run.\n\nSaylor's entire stack is now green. Strategy (MSTR +11.80%) sits on 780,897 BTC at an average cost of $75,577. Its first paper profit since early January. He kept buying through the crash, added $1B more at $71,902, and still wants 1 million coins by year-end. Conviction you can measure in billions."
+    "btc": "$76,357 (+3.44%)",
+    "eth": "$2,332 (+3.02%)",
+    "xrp": "$1.42 (+2.35%)",
+    "note": "Numbers as of 4:00 PM ET on April 20th.",
+    "commentary": "Crypto ran green while equities slid, the classic \"flight from geopolitics\" trade. Central bankers just flagged U.S. stablecoins as a $315B problem. About 98% are pegged to the dollar, which is great for U.S. reach but bad news for places like Egypt and Pakistan where people now use them as savings accounts. Brazil already capped stablecoin transfers at $100K and other countries are watching.\n\nConsensus, the biggest crypto conference of the year, kicks off May 5 in Miami. Both SEC and CFTC chiefs will be on stage. Why it matters: when regulators talk, crypto moves. Token prices historically drop about 12% the week after SEC enforcement news."
   },
   "real_estate": {
-    "rate_30year": "6.30%",
-    "rate_15year": "5.91%",
-    "homebuilder": "Ceasefire trimmed mortgage rates. The 30-year slid from 6.37% to 6.30% as the US–Iran truce pulled the 10-year Treasury yield lower. Fragile setup: one bad headline out of Tehran and it flips right back.",
-    "commentary": "Across our 15-city tracker, active inventory hit 2,714 listings today. Up roughly 5-7% over last week in most cities as spring supply finally shows up. Alameda and Santa Clara counties are also reporting longer days on market, a sign the buyer pool is moving more cautiously even with rates easing. More to show, fewer ready to act. Sharper pricing and prep matter more than ever.\n\n📍 Fremont: 339 total · 34 new. 46 TH active (16 pending), 78 CO active (16 pending), 108 DU/DE/PH active (75 pending). Detached still drives the pending column.\n\n📍 Oakland: 756 total · 60 new. The Bay's deepest pool, and it just got deeper.\n\n📍 Hayward: 227 total · 19 new. Fresh listings ticking up.\n\n📍 Livermore: 213 total · 27 new. Biggest week-over-week jump in the Tri-Valley.\n\n📍 San Ramon: 183 total · 28 new. Pipeline stays full.\n\n📍 Danville: 179 total · 30 new. New listings strong, total holding.\n\n📍 Dublin: 168 total · 30 new.\n\n📍 Pleasanton: 132 total · 20 new.\n\n📍 Milpitas: 118 total · 4 new. CS pipeline is loaded, fresh supply still light.\n\n📍 Newark: 114 total · 7 new.\n\n📍 San Leandro: 92 total · 13 new.\n\n📍 Union City: 86 total · 5 new. Still one of the tightest markets on the board.\n\n📍 Castro Valley: 77 total · 13 new.\n\n📍 San Lorenzo: 24 total · 5 new.\n\n📍 Sunol: 6 total · 0 new.\n\nOffice fire sale: A Chicago tower that traded for $68M in 2016 just sold for $4.2M. A 94% haircut, not a typo. In Denver, a complex once valued at $176M went for $5.3M at auction. 204 distressed office deals closed last year, up from 133 the year before. One of the Chicago towers is being converted to apartments. Often the only math that pencils at those prices.\n\nBuild-to-rent retreat: Single-family build-to-rent starts fell 19% year-over-year. From 84,000 units in 2024 to 68,000 in 2025. Financing costs climbed while rents rose just 1.2%, and the math stopped working for investors. Another small tailwind for resale inventory.",
+    "rate_30year": "6.33%",
+    "rate_15year": "5.92%",
+    "homebuilder": "Rates ticked up again with MBS prices moderately weaker. Nothing dramatic on the tape, but the oil spike is the real story. If the Strait of Hormuz stays tight, inflation stays sticky, and the Fed's path to rate cuts stretches out.",
+    "commentary": "The oil-and-rates headline is the conversation to have with sellers waiting on \"rates to drop.\" Sub-6% is not guaranteed. Price now for today's buyer pool, not a 5.99% fantasy. Homes priced at or just under the last comp are still moving in about 2 weeks. Overpriced ones are sitting 60+.\n\n📍 Alameda & Contra Costa Snapshot (04/21/26)\n\n📍 Fremont: 47 new. Still the anchor of Alameda County inventory.\n\n📍 Union City: 7 new. Steady flow. One of the tightest pools on the board.\n\n📍 Newark: 7 new. Mid-tier activity holding.\n\n📍 Hayward: 19 new. Biggest fresh supply jump among the I-880 cities.\n\n📍 Milpitas: 4 new. Low fresh supply. Pending count of 31 townhomes signals real absorption.\n\n📍 Pleasanton: 18 new. Tri-Valley demand steady.\n\n📍 Dublin: 25 new. Fresh supply picking up.\n\n📍 San Ramon: 23 new. Balanced.\n\n📍 Livermore: 22 new. East Tri-Valley still active.\n\n📍 Castro Valley: 12 new. Quiet but moving.\n\n📍 Danville: 26 new. Strongest Contra Costa entry.\n\n📍 San Leandro: 12 new. Consistent.\n\n📍 San Lorenzo: 4 new. Minimal new stock.\n\n📍 Oakland: 58 new. Volume leader by far.\n\nRate Expectations: Zillow is flagging a 30-year near 6.02% and about to slip under 6% for the first time since February. Classic market psychology. 5.99% feels like a deal. 6.02% doesn't. That tiny shift could thaw a housing market frozen for two years. The catch? It only holds if the Iran story does.\n\nApartment demand went negative in Q4, with renters handing back 40,000 more units than they signed. The hinge group? 20-to-24-year-olds. Slow job growth in that cohort and a record share still living with parents are keeping first-time formation on the sidelines. Another reason starter-home inventory matters.",
     "local_news": ""
   },
   "sources": [
