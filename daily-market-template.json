@@ -1,34 +1,34 @@
 {
-  "date": "04/22/26",
-  "time": "09:30",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/6fc3289b-ec2c-4055-b749-c5c9c7529086",
-  "qr_code_path": "note-qr-6fc3289b.png",
+  "date": "04/23/26",
+  "time": "08:45",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/865a4f31-9742-4115-a4f9-d73c29509b99",
+  "qr_code_path": "note-qr-865a4f31.png",
   "stocks": {
-    "sp500": "7,064 (-0.59%)",
-    "dow": "49,149 (-0.63%)",
-    "nasdaq": "24,259 (-0.59%)",
-    "note": "Numbers as of market close April 21st.",
-    "news": "All three indexes pulled back as investors digested the Iran ceasefire extension. Tim Cook is stepping down as Apple (AAPL -2.52%) CEO this September, handing the job to hardware chief John Ternus. Cook stays on as Executive Chairman focused on global policy. The question: Apple picked a hardware lifer to lead a company whose biggest test is now AI and software.\n\nMarvell (MRVL +2.53%) ripped on reports Google (GOOG -1.47%) may buy nearly 2 million of Marvell's new memory units plus a new inference TPU. Google's long relied on Broadcom chips, but is branching out to win the AI race."
+    "sp500": "7,137 (+1.05%)",
+    "dow": "49,490 (+0.69%)",
+    "nasdaq": "24,657 (+1.64%)",
+    "note": "Numbers as of market close April 22nd.",
+    "news": "Markets ripped higher on tech strength. Elon Musk's SpaceX just got the option to buy AI coding startup Cursor for $60B later this year. If SpaceX walks away, it still owes Cursor $10B for work already done. Microsoft (MSFT +2.07%) reportedly was looking to scoop Cursor before SpaceX beat them to it.\n\nTesla (TSLA +0.28%) and Rivian (RIVN +3.44%) had opposing charges. Rivian started R2 SUV production just 5 days after one of its factories got hit by a tornado. Tesla beat on earnings but missed on deliveries. Both stocks are down roughly 10% YTD.\n\nSpirit Airlines is fighting its second bankruptcy in a year. The Trump administration is now close to a $500M rescue that could give the U.S. government up to 90% ownership post-bankruptcy. A government-owned airline would be an unusual American thing."
   },
   "economy": {
-    "us10year": "4.29% (flat)",
-    "gold": "$4,772 (+1.11%)",
-    "wti": "$93.17 (+3.90%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET April 21st; WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "Fed chair nominee Kevin Warsh had his first Congressional hearing. He refused to promise a rate cut, said he'll divest about $100M of assets within his first 90 days, and Senator Thom Tillis is blocking his vote until the DOJ finishes probing current Chair Jerome Powell. Powell's last day is slated for May 15th.\n\nRetail sales jumped 1.7% in March, the biggest monthly gain in three years. Gas stations drove most of that as oil prices spiked on the Iran war. Americans spent more even as food and gas went up. Note the split from earlier consumer sentiment reads hitting record lows.\n\nTariff refund drama: Trump said he'll \"remember\" companies that claim refunds on the Supreme-Court-killed tariffs. $160B is due to be refunded. Levi (LEVI +1.08%) expects $80M. Apple and Amazon may pass rather than invite scrutiny."
+    "us10year": "4.31% (+0.02%)",
+    "gold": "$4,719 (-0.70%)",
+    "wti": "$93.92 (+1.03%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET April 22nd; WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "Gulf countries are running out of US dollars thanks to Hormuz closures. A closed Strait means fewer oil sales and fewer dollars recycling back. Some Gulf states are asking Treasury for emergency dollar supply; others are hinting they may turn to the Chinese yuan if dollars run dry. Watch this quietly. It's a crack in the petrodollar.\n\nSan Francisco just became the first U.S. city ever to hit $8/gallon diesel. Three culprits: the Iran war (global oil up), California's clean-fuel blend (tight supply), and the highest fuel taxes in the country. Diesel moves trucks and trains, so $8 fuel means higher grocery and restaurant prices are coming.\n\nOil spiked near $100 on Brent after Iran seized two container ships in the Strait of Hormuz Wednesday. This was hours after Trump extended the ceasefire indefinitely. The White House says seizing non-U.S. ships doesn't violate the ceasefire. Technically fine, narratively not great."
   },
   "crypto": {
-    "btc": "$77,106 (+0.99%)",
-    "eth": "$2,346 (+0.84%)",
-    "xrp": "$1.43 (+0.20%)",
-    "note": "Numbers as of 4:00 PM ET on April 21st.",
-    "commentary": "Bitcoin nudged higher as the ceasefire extension calmed geopolitics. Biggest hack of 2026 so far: a hacker stole 116,500 rsETH worth $292M through Kelp DAO's LayerZero bridge platform.\n\nAmericans can now trade crypto futures on prediction market Polymarket, and Kalshi is launching a similar product later this month. Both now compete directly with Coinbase (COIN -7.41%), Robinhood (HOOD -5.31%), and Gemini (GEMI -3.64%) on one of crypto's most profitable products. Kalshi's monthly crypto volume already tops $1B. Polymarket's weekly notional passed $1B in Q1."
+    "btc": "$77,679 (-0.66%)",
+    "eth": "$2,346 (-1.59%)",
+    "xrp": "$1.42 (-1.03%)",
+    "note": "Numbers as of 4:00 PM ET on April 22nd.",
+    "commentary": "DoorDash (DASH -0.09%) is rolling out stablecoin payments to Dashers and merchants in 40+ countries via Stripe's Tempo blockchain. Faster payouts, cheaper cross-border, fewer steps. Mastercard, Visa, UBS, and Klarna already use the same rails. Another stablecoin-into-mainstream moment.\n\nCrypto billionaire Justin Sun filed suit against World Liberty Financial, the Trump family-backed crypto project. Core claim: WLF added a hidden \"blacklisting\" function in August 2025 that froze Sun's 2.9 billion WLFI tokens. Those were once worth over $1B. Today? About $75M."
   },
   "real_estate": {
-    "rate_30year": "6.33%",
-    "rate_15year": "5.92%",
-    "homebuilder": "Rates holding steady at 6.33% with MBS prices slightly higher this morning, which may help rates tick down a touch by close. The Iran ceasefire got extended two weeks. A small win for rate stability. But the Strait of Hormuz keeps opening and closing, which is why oil is back at $93.",
-    "commentary": "Total active inventory across the 15-city board is 2,691, down slightly from 2,705 yesterday. Fresh supply today came in at 219 new listings, meaningfully lower than yesterday's 266. A one-day dip but worth watching.\n\n📍 Alameda & Contra Costa Snapshot (04/22/26)\n\n📍 Fremont: 29 new. Cooler fresh supply than yesterday's 47.\n\n📍 Union City: 7 new. Still one of the tightest markets on the board.\n\n📍 Newark: 4 new. Light stock flow.\n\n📍 Hayward: 21 new. Leading the I-880 corridor again.\n\n📍 Milpitas: 4 new. Pending 29 townhomes. Absorption still strong.\n\n📍 Pleasanton: 17 new. Tri-Valley steady.\n\n📍 Dublin: 17 new. Moderate.\n\n📍 San Ramon: 20 new. Balanced.\n\n📍 Livermore: 11 new. Softer than yesterday's 22.\n\n📍 Castro Valley: 9 new. Quiet.\n\n📍 Danville: 16 new. Contra Costa cooling from yesterday's 26.\n\n📍 San Leandro: 10 new. Steady.\n\n📍 San Lorenzo: 4 new. Minimal.\n\n📍 Oakland: 50 new. Still the volume leader.\n\nSenior housing is quietly the biggest housing story of 2026. REITs Welltower (WELL -1.46%), Ventas (VTR -3.00%), and Healthpeak (DOC -3.68%) have invested billions into senior housing. Occupancy hit a record 89.1% in 2025 and could cross 90% this year. Why it matters: Boomers turning 80 means more downsizing inventory coming to market, and buyers competing for senior-living units will bump against institutional capital. For our Fremont and Tri-Valley agents, this is the listing conversation with parents-in-law and longtime owners who have been sitting on equity.\n\nFor listing agents: Fresh supply cooled today. If you have a listing with strong pending interest, don't be shy about tightening review dates. Buyer urgency is real when inventory dips, even on a one-day sample.\n\nRetail is also returning. American Eagle (AEO -2.87%) just signed a 14,000 sq ft contract for multiple stores in Chicago, and local brokerage Kirsh Agency projects Magnificent Mile deal volume will double in 2026. Not a Bay Area headline but a signal that commercial landlords are finally finding bottom.",
+    "rate_30year": "6.32%",
+    "rate_15year": "5.90%",
+    "homebuilder": "Rates just ticked to a four-week low. MND shows the 30-year at 6.32% and Freddie Mac's weekly average at 6.37% (versus 6.83% a year ago). The tentative US-Iran ceasefire pushed oil lower earlier, which dragged rates with it. Careful though. With Iran seizing ships in Hormuz yesterday and oil back near $100, the ceasefire's fragility could snap rates right back up.",
+    "commentary": "Total active inventory across the 15-city board is 2,726, up from 2,691 yesterday. Fresh supply today came in at 193 new listings, lighter than yesterday's 219. Total is growing but the daily add is thinning. Longer days on market are starting to show up, which is why inspections and prep matter more now.\n\n📍 Alameda & Contra Costa Snapshot (04/23/26)\n\n📍 Fremont: 24 new. Steady flow, anchor of Alameda County inventory.\n\n📍 Union City: 8 new. Slight uptick from yesterday's 7.\n\n📍 Newark: 3 new. Light stock.\n\n📍 Hayward: 22 new. Leading the I-880 corridor for the third day running.\n\n📍 Milpitas: 3 new. Pending 29 townhomes still loaded.\n\n📍 Pleasanton: 14 new. Tri-Valley steady.\n\n📍 Dublin: 9 new. Cooler today.\n\n📍 San Ramon: 19 new. Balanced.\n\n📍 Livermore: 13 new. East Tri-Valley picking back up.\n\n📍 Castro Valley: 7 new. Quiet.\n\n📍 Danville: 19 new. Strongest Contra Costa entry.\n\n📍 San Leandro: 13 new. Consistent.\n\n📍 San Lorenzo: 3 new. Minimal.\n\n📍 Oakland: 36 new. Volume leader, softer than yesterday's 50.\n\nHome inspections are back. During the pandemic, buyers waived inspections to win bids. That trend is fading fast. Buyers are asking for inspections again, deals are taking longer, home warranties are making a comeback, and thermal imaging is becoming standard. For our listing agents, this is the playbook shift: pre-listing inspection isn't optional anymore. If your seller skips it, a buyer's inspector will find something in week 3 and you'll renegotiate from a weaker seat. Get ahead of it.\n\nFor listing agents: Rates hit a four-week low. Buyers who've been watching from the sidelines have a reason to come off the fence. Price at the last comp, pre-inspect the home, and push for offers in the first 10 days. The window for \"rates might drop more\" is still open but it only takes one Hormuz headline to slam it shut.",
     "local_news": ""
   },
   "sources": [
