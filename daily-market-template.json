@@ -1,34 +1,34 @@
 {
-  "date": "04/24/26",
-  "time": "09:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/87f678ce-2683-49ad-9b03-672d8967c14a",
-  "qr_code_path": "note-qr-87f678ce.png",
+  "date": "04/27/26",
+  "time": "09:30",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/454c5ad7-a95f-4924-a241-13caf5f50121",
+  "qr_code_path": "note-qr-454c5ad7.png",
   "stocks": {
-    "sp500": "7,108 (-0.41%)",
-    "dow": "49,310 (-0.36%)",
-    "nasdaq": "24,438 (-0.89%)",
-    "note": "Numbers as of market close April 23rd.",
-    "news": "Layoffs: Meta (META -2.31%) is laying off around 8,000 staff to focus on AI. Nike (NKE -1.99%) is also cutting about 1,400 workers. Add to that: Microsoft (MSFT -3.96%) is offering voluntary retirement to 7% of its U.S. workforce, roughly 8,750 employees. Three big names trimming headcount on the same day.\n\nInching up: Intel (INTC +2.31%) popped after hours after beating earnings expectations. The chipmaker is starting to grow again. Meanwhile Texas Instruments (TXN +19.43%) had its best quarter ever on AI-related sales.\n\nNew deal: Regeneron (REGN +2.60%) struck a \"most favored nation\" deal with the White House. The company will sell its cholesterol drug on TrumpRx, commit close to $10B to U.S. manufacturing, and give away its new hearing-loss therapy for free.\n\nClear to launch: AST SpaceMobile (ASTS -6.98%) just got the FCC green light for its direct-to-device satellite service."
+    "sp500": "7,165 (+0.80%)",
+    "dow": "49,230 (-0.16%)",
+    "nasdaq": "24,836 (+1.63%)",
+    "note": "Numbers as of market close April 24th.",
+    "news": "Tech kept the bid Friday. Intel (INTC +23.64%) ripped after finally posting a clean quarter (Q1 EPS $0.29, revenue $13.58B) with both client and data center beating estimates. Reminder: the U.S. Government still owns a 10% stake from August 2025.\n\nMeanwhile Google (GOOG +1.35%) cut a $40B check to Anthropic, the AI lab behind Claude. Google Cloud already hosts Anthropic's work and supplies its training chips. The takeaway: AI capex is not slowing.\n\nMarkets trade as usual this week with the Fed announcement on Wednesday."
   },
   "economy": {
-    "us10year": "4.33% (+0.01%)",
-    "gold": "$4,685 (-0.81%)",
-    "wti": "$93.22 (-2.74%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET April 23rd; WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "WTI pulled back nearly 3% as traders priced in the extended ceasefire, even though Iran seized two container ships midweek. Gold fell for a second straight day despite the geopolitical noise. When gold falls while the headlines should push it up, the signal is usually dollar strength: higher rates, fewer expected cuts, money parking in Treasuries. The Fed is projecting only one more cut in 2026.\n\nCollege class of 2025 is doing better than 2024: 77% landed a job within three months of graduation, up from 63%. The catch: 16% sent 20+ applications to get that offer. Internships mattered big time. Not a market mover, but a signal about first-time household formation, which ties back to our starter-home inventory story."
+    "us10year": "4.31% (+0.00%)",
+    "gold": "$4,712 (-0.59%)",
+    "wti": "$96.42 (+2.14%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET April 26th; WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "The 10-year sat dead flat into the weekend. Powell-case-closed news removed one tail risk on Fed independence. Wednesday's rate decision is now the only thing the bond market is watching.\n\nGold pulled back slightly off record highs, the first breather in a multi-week run.\n\nWTI climbed back over $96 as airlines worldwide continue rerouting around the Middle East and canceling routes outright. Asia-Pacific and European carriers are taking the biggest hit. Expect summer fare hikes and fewer seats, and watch oil for any rate-cut ripple effects."
   },
   "crypto": {
-    "btc": "$78,008 (-0.32%)",
-    "eth": "$2,317 (-0.60%)",
-    "xrp": "$1.44 (-0.70%)",
-    "note": "Numbers as of 4:00 PM ET on April 23rd.",
-    "commentary": "The U.S. is officially running its own blockchain node through the Indo-Pacific Command. Sold as cybersecurity, not mining. First time a U.S. military command shows up on-chain.\n\nParty's over, literally. The second annual TRUMP coin dinner is coming up. Last year the coin was worth $12B in market cap. Today it's at $1.4B. Prices have fallen 95% from their January 2025 peak. Minimum $8,640 worth of coins to attend. The roster won't look like last year."
+    "btc": "$79,296 (+0.81%)",
+    "eth": "$2,394 (+1.06%)",
+    "xrp": "$1.44 (+0.93%)",
+    "note": "Numbers as of 4:00 PM ET on April 26th.",
+    "commentary": "Saylor passed BlackRock. Strategy (MSTR -0.84%) now holds about 815,061 BTC, more than BlackRock's spot Bitcoin ETF (IBIT). Out of roughly 20 million Bitcoin in existence, one founder controls over 4% of supply, and he's been buying since 2020 through every crash.\n\nOn the regulatory front, Wisconsin sued Kalshi and Polymarket for running unlicensed gambling, the latest move in the state-by-state fight over whether prediction markets are gambling or regulated financial products. Worth watching as this category explodes."
   },
   "real_estate": {
     "rate_30year": "6.32%",
-    "rate_15year": "5.92%",
-    "homebuilder": "Rates held flat at 6.32%. But the post-Iran-strike context is real: the 30-year hit 6.5% at the peak of the conflict, up from 5.99% the day before strikes began. That's about $130 per month extra on a $400K home. 62% of builders say fuel prices are pushing material costs higher, which is why D.R. Horton, Lennar, and KB Home all missed Q1 estimates this spring.",
-    "commentary": "Total active inventory across the 15-city board is 2,779, up from 2,726 yesterday (+53). Fresh supply today came in at 232 new listings, much stronger than yesterday's 193. Pleasanton had a notable surge. Spring inventory is visibly building now.\n\n📍 Alameda & Contra Costa Snapshot (04/24/26)\n\n📍 Fremont: 27 new. Steady with 356 active, anchor of Alameda County.\n\n📍 Union City: 10 new. Best print of the week.\n\n📍 Newark: 7 new. Back up after yesterday's 3.\n\n📍 Hayward: 20 new. Consistent flow along I-880.\n\n📍 Milpitas: 7 new. Stronger fresh supply. 27 townhomes still pending.\n\n📍 Pleasanton: 23 new. Biggest Tri-Valley jump today.\n\n📍 Dublin: 17 new. Strong bounce from yesterday's 9.\n\n📍 San Ramon: 22 new. Balanced and climbing.\n\n📍 Livermore: 12 new. Steady.\n\n📍 Castro Valley: 9 new. Stable.\n\n📍 Danville: 22 new. Contra Costa strong again.\n\n📍 San Leandro: 12 new. Consistent.\n\n📍 San Lorenzo: 4 new. Minimal.\n\n📍 Oakland: 40 new. Back up, volume leader.\n\nLuxury is living it up. Luxury home prices across 100 major cities rose 3.2% in 2025, ahead of 2.9% for standard homes. Dubai is up 25% in a year and 200% over 5 years. Stateside, the entry price for the top 10% of U.S. homes hit $1.25M in March. For our Fremont and Tri-Valley agents, that $1.25M threshold is not a luxury cutoff. It's just a standard 3-bed detached. The top-tier resilience is a real story to tell.\n\nFor listing agents: The split story this week is luxury resilience plus builder weakness. That's an opening. If you're listing in the $1.25M to $2.5M band in Fremont, Pleasanton, or San Ramon, position against the \"new construction premium has priced itself out\" narrative. Your resale is the value play. And keep pre-inspecting. Buyers are no longer skipping that step.",
+    "rate_15year": "5.91%",
+    "homebuilder": "Zillow Cuts 2026 Forecast to +0.5%; Buyers Officially Take the Wheel",
+    "commentary": "The DOJ dropping its case against Powell on Friday clears the runway for Kevin Warsh as next Fed Chair, and Wednesday's rate decision lands with consumer confidence at an all-time low (Univ. Of Michigan). Translation for sellers: pressure on the Fed to cut is building, and Zillow's \"sub-6% mortgage\" trigger for a real housing reset is finally inside the strike zone.\n\nZillow just cut its 2026 housing call to 0.5% existing-home sales growth, citing rate lock-in and flat prices. They flagged what we're already seeing locally:\n\n• Inventory: highest since 2020.\n• Days on market: climbing.\n• Price cuts and seller concessions: both up.\n\n📍 Alameda & Contra Costa Snapshot (04/27/26)\n\n📍 Fremont: 34 new. Anchor of Alameda County, biggest day of the week so far.\n\n📍 Union City: 9 new. Steady I-880 print.\n\n📍 Newark: 11 new. Holding pace.\n\n📍 Hayward: 25 new. Strong I-880 north.\n\n📍 San Leandro: 12 new. Leaning active.\n\n📍 San Lorenzo: 6 new. Pocket market staying live.\n\n📍 Milpitas: 6 new. Pending 27 townhomes still loaded.\n\n📍 Pleasanton: 21 new. Tri-Valley momentum.\n\n📍 Dublin: 18 new. Steady week.\n\n📍 San Ramon: 28 new. Tri-Valley leader today.\n\n📍 Livermore: 17 new. East Tri-Valley pulse.\n\n📍 Castro Valley: 8 new. Tight-supply enclave.\n\n📍 Danville: 21 new. Contra Costa premium pocket.\n\n📍 Oakland: 58 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,802 with 274 fresh listings today.\n\nFor listing agents this week: Price to today's market, not last year's. Wednesday's Fed decision is binary. Either rates dip and you ride a brief showing wave, or they hold and inventory keeps stacking. Either way, the \"list high and wait\" seller is the one taking price cuts in May.",
     "local_news": ""
   },
   "sources": [
