@@ -1,34 +1,34 @@
 {
-  "date": "04/27/26",
-  "time": "09:30",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/454c5ad7-a95f-4924-a241-13caf5f50121",
-  "qr_code_path": "note-qr-454c5ad7.png",
+  "date": "04/28/26",
+  "time": "09:00",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/27815b0d-b4a0-4e76-98d0-9fc5e5f777ce",
+  "qr_code_path": "note-qr-27815b0d.png",
   "stocks": {
-    "sp500": "7,165 (+0.80%)",
-    "dow": "49,230 (-0.16%)",
-    "nasdaq": "24,836 (+1.63%)",
-    "note": "Numbers as of market close April 24th.",
-    "news": "Tech kept the bid Friday. Intel (INTC +23.64%) ripped after finally posting a clean quarter (Q1 EPS $0.29, revenue $13.58B) with both client and data center beating estimates. Reminder: the U.S. Government still owns a 10% stake from August 2025.\n\nMeanwhile Google (GOOG +1.35%) cut a $40B check to Anthropic, the AI lab behind Claude. Google Cloud already hosts Anthropic's work and supplies its training chips. The takeaway: AI capex is not slowing.\n\nMarkets trade as usual this week with the Fed announcement on Wednesday."
+    "sp500": "7,173 (+0.12%)",
+    "dow": "49,167 (-0.13%)",
+    "nasdaq": "24,887 (+0.20%)",
+    "note": "Numbers as of market close April 27th.",
+    "news": "Markets ground sideways into Fed week. Domino's (DPZ -8.93%) got sliced after missing earnings expectations, with new pizza deals and a $1B share buyback as the fix.\n\nPOET Technologies (POET -47.35%) cratered after Marvell (MRVL -3.71%) canceled all of POET's Celestial AI orders, alleging confidentiality breach. Most of POET's revenue was tied to that one deal.\n\nNvidia officially crossed $5 trillion in market cap last week, the first and only company to ever hit it. Fed announcement Wednesday."
   },
   "economy": {
-    "us10year": "4.31% (+0.00%)",
-    "gold": "$4,712 (-0.59%)",
-    "wti": "$96.42 (+2.14%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET April 26th; WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "The 10-year sat dead flat into the weekend. Powell-case-closed news removed one tail risk on Fed independence. Wednesday's rate decision is now the only thing the bond market is watching.\n\nGold pulled back slightly off record highs, the first breather in a multi-week run.\n\nWTI climbed back over $96 as airlines worldwide continue rerouting around the Middle East and canceling routes outright. Asia-Pacific and European carriers are taking the biggest hit. Expect summer fare hikes and fewer seats, and watch oil for any rate-cut ripple effects."
+    "us10year": "4.34% (+0.00%)",
+    "gold": "$4,701 (+0.17%)",
+    "wti": "$99.43 (+3.18%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET April 27th; WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "The 10-year sat dead flat ahead of tomorrow's Fed announcement. Bond market is in wait-and-see mode.\n\nGold ticked up marginally near record highs.\n\nWTI ripped +3.2% to $99.43, with Brent pushing past $108 (about 50% above pre-war levels). Iran sent Trump a proposed deal: end the U.S. Blockade of Hormuz and pause nuclear talks. Experts say Trump is unlikely to accept. U.S. Average gas hit $4.11/gal (up 7 cents in a week), diesel at $5.45. Diesel pricing typically shows up in grocery prices a few weeks later, so watch for the inflation echo into the rate decision.\n\nBofA raised 2026 GDP forecast to 2.8% (from 2.6%) on stronger spending and credit data. The catch: stronger growth makes Fed cuts harder to justify."
   },
   "crypto": {
-    "btc": "$79,296 (+0.81%)",
-    "eth": "$2,394 (+1.06%)",
-    "xrp": "$1.44 (+0.93%)",
-    "note": "Numbers as of 4:00 PM ET on April 26th.",
-    "commentary": "Saylor passed BlackRock. Strategy (MSTR -0.84%) now holds about 815,061 BTC, more than BlackRock's spot Bitcoin ETF (IBIT). Out of roughly 20 million Bitcoin in existence, one founder controls over 4% of supply, and he's been buying since 2020 through every crash.\n\nOn the regulatory front, Wisconsin sued Kalshi and Polymarket for running unlicensed gambling, the latest move in the state-by-state fight over whether prediction markets are gambling or regulated financial products. Worth watching as this category explodes."
+    "btc": "$77,062 (-2.06%)",
+    "eth": "$2,194 (-3.18%)",
+    "xrp": "$1.40 (-2.43%)",
+    "note": "Numbers as of 4:00 PM ET on April 27th.",
+    "commentary": "Crypto pulled back across the board. The bigger story: DeFi platforms got drained for $605M+ in the first 20 days of April alone. Kelp DAO lost $293M on April 19; Solana's Drift Protocol lost $285M on April 1. Aave (largest DeFi lender) froze some markets, and its own coin is down 20% on the contagion.\n\nMeanwhile, spot Bitcoin ETFs pulled in $18.7B in Q1 (BlackRock's IBIT led with $8.4B). Total ETF crypto assets now exceed $128B. The takeaway: institutional money is choosing the regulated wrapper over the underlying tokens. Self-custody is losing the retail vote."
   },
   "real_estate": {
     "rate_30year": "6.32%",
-    "rate_15year": "5.91%",
-    "homebuilder": "Zillow Cuts 2026 Forecast to +0.5%; Buyers Officially Take the Wheel",
-    "commentary": "The DOJ dropping its case against Powell on Friday clears the runway for Kevin Warsh as next Fed Chair, and Wednesday's rate decision lands with consumer confidence at an all-time low (Univ. Of Michigan). Translation for sellers: pressure on the Fed to cut is building, and Zillow's \"sub-6% mortgage\" trigger for a real housing reset is finally inside the strike zone.\n\nZillow just cut its 2026 housing call to 0.5% existing-home sales growth, citing rate lock-in and flat prices. They flagged what we're already seeing locally:\n\n• Inventory: highest since 2020.\n• Days on market: climbing.\n• Price cuts and seller concessions: both up.\n\n📍 Alameda & Contra Costa Snapshot (04/27/26)\n\n📍 Fremont: 34 new. Anchor of Alameda County, biggest day of the week so far.\n\n📍 Union City: 9 new. Steady I-880 print.\n\n📍 Newark: 11 new. Holding pace.\n\n📍 Hayward: 25 new. Strong I-880 north.\n\n📍 San Leandro: 12 new. Leaning active.\n\n📍 San Lorenzo: 6 new. Pocket market staying live.\n\n📍 Milpitas: 6 new. Pending 27 townhomes still loaded.\n\n📍 Pleasanton: 21 new. Tri-Valley momentum.\n\n📍 Dublin: 18 new. Steady week.\n\n📍 San Ramon: 28 new. Tri-Valley leader today.\n\n📍 Livermore: 17 new. East Tri-Valley pulse.\n\n📍 Castro Valley: 8 new. Tight-supply enclave.\n\n📍 Danville: 21 new. Contra Costa premium pocket.\n\n📍 Oakland: 58 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,802 with 274 fresh listings today.\n\nFor listing agents this week: Price to today's market, not last year's. Wednesday's Fed decision is binary. Either rates dip and you ride a brief showing wave, or they hold and inventory keeps stacking. Either way, the \"list high and wait\" seller is the one taking price cuts in May.",
+    "rate_15year": "5.92%",
+    "homebuilder": "Real Brokerage Buys RE/MAX in $880M Deal; Cloud Brokerages Eat the Franchise Model",
+    "commentary": "The brokerage industry just consolidated again. The Real Brokerage (REAX -24.63%) is buying RE/MAX (RMAX +23.68%) in an $880M deal, creating \"Real REMAX Group\" with 180,000+ agents across 120 countries. This is the second major brokerage M&A in seven months after Compass's $1.6B Anywhere Real Estate buyout. The signal: cloud-first brokerages are absorbing the legacy franchise model, and the market punished Real (-24%) for what it sees as overpaying. For agents at any independent or boutique brokerage, the question is no longer \"if\" your platform consolidates but \"when.\"\n\nRenters just got leverage too. Nearly 40% of U.S. Rental listings now come with concessions (free month, waived fees), rent growth slowed to 1.8% YoY (weakest pace since 2020), and building permits have been falling since 2022. That's the bottom of the housing demand stack softening, which eventually pulls starter-home demand with it if rates don't move.\n\nThe Fed lands tomorrow (Wednesday). The cross-currents: BofA just raised 2026 GDP to 2.8% (makes a cut harder), while consumer confidence sits at an all-time low and WTI surged +3.2% on Iran-Hormuz tension (makes a cut more urgent).\n\n📍 Alameda & Contra Costa Snapshot (04/28/26)\n\n📍 Fremont: 36 new. Anchor of Alameda County, biggest day of the week.\n\n📍 Union City: 9 new. Steady I-880 print.\n\n📍 Newark: 11 new. Holding pace.\n\n📍 Hayward: 21 new. I-880 north slowing slightly from yesterday's 25.\n\n📍 San Leandro: 10 new. Lighter print.\n\n📍 San Lorenzo: 5 new. Pocket market staying live.\n\n📍 Milpitas: 4 new. Pending 24 townhomes still loaded.\n\n📍 Pleasanton: 20 new. Tri-Valley momentum.\n\n📍 Dublin: 19 new. Steady week.\n\n📍 San Ramon: 29 new. Tri-Valley leader two days running.\n\n📍 Livermore: 18 new. East Tri-Valley pulse.\n\n📍 Castro Valley: 9 new. Tight-supply enclave.\n\n📍 Danville: 22 new. Contra Costa premium pocket.\n\n📍 Oakland: 56 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,772 with 269 fresh listings today, slightly cooler than yesterday's 274.\n\nFor listing agents this week: Two messages for sellers right now. First, the brokerage M&A means your agent's name and reputation matter more than the brand on the sign. Lead with that. Second, articulate buyer-side value beyond the search: rate negotiation, concession capture, inspection strategy. The buyers reading the rental-leverage headlines are starting to feel like they should be getting concessions too, and they're not wrong.",
     "local_news": ""
   },
   "sources": [
