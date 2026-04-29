@@ -1,34 +1,34 @@
 {
-  "date": "04/28/26",
-  "time": "09:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/27815b0d-b4a0-4e76-98d0-9fc5e5f777ce",
-  "qr_code_path": "note-qr-27815b0d.png",
+  "date": "04/29/26",
+  "time": "09:30",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/bf26ea40-64ae-40fe-96f0-5f267fd2188c",
+  "qr_code_path": "note-qr-bf26ea40.png",
   "stocks": {
-    "sp500": "7,173 (+0.12%)",
-    "dow": "49,167 (-0.13%)",
-    "nasdaq": "24,887 (+0.20%)",
-    "note": "Numbers as of market close April 27th.",
-    "news": "Markets ground sideways into Fed week. Domino's (DPZ -8.93%) got sliced after missing earnings expectations, with new pizza deals and a $1B share buyback as the fix.\n\nPOET Technologies (POET -47.35%) cratered after Marvell (MRVL -3.71%) canceled all of POET's Celestial AI orders, alleging confidentiality breach. Most of POET's revenue was tied to that one deal.\n\nNvidia officially crossed $5 trillion in market cap last week, the first and only company to ever hit it. Fed announcement Wednesday."
+    "sp500": "7,138 (-0.49%)",
+    "dow": "49,141 (-0.05%)",
+    "nasdaq": "24,663 (-0.90%)",
+    "note": "Numbers as of market close April 28th.",
+    "news": "Markets slid into Fed Day. Spotify (SPOT -12.43%) tanked on weak Q2 premium subscriber guidance (299M vs. 300M expected); the company has hiked U.S. Prices twice in two years and may be running out of pricing room.\n\nGM (GM +1.27%) beat estimates partly thanks to a $500M tariff refund, but warned of $1.1B in fresh EV charges. Total EV pullback is now near $8.7B.\n\nJamie Dimon (JPM -0.05%) publicly warned of a possible bond crisis and a recession \"worse than people think.\" Add today's Fed announcement to that backdrop."
   },
   "economy": {
     "us10year": "4.34% (+0.00%)",
-    "gold": "$4,701 (+0.17%)",
-    "wti": "$99.43 (+3.18%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET April 27th; WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "The 10-year sat dead flat ahead of tomorrow's Fed announcement. Bond market is in wait-and-see mode.\n\nGold ticked up marginally near record highs.\n\nWTI ripped +3.2% to $99.43, with Brent pushing past $108 (about 50% above pre-war levels). Iran sent Trump a proposed deal: end the U.S. Blockade of Hormuz and pause nuclear talks. Experts say Trump is unlikely to accept. U.S. Average gas hit $4.11/gal (up 7 cents in a week), diesel at $5.45. Diesel pricing typically shows up in grocery prices a few weeks later, so watch for the inflation echo into the rate decision.\n\nBofA raised 2026 GDP forecast to 2.8% (from 2.6%) on stronger spending and credit data. The catch: stronger growth makes Fed cuts harder to justify."
+    "gold": "$4,606 (-0.04%)",
+    "wti": "$106.62 (+6.69%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET April 28th; WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "WTI ripped +6.7% to $106.62, the biggest single-day move in months. The catalyst: UAE announced exit from OPEC May 1 after 59 years, and Ryanair flagged airline failure risk if jet fuel holds at $150/barrel through summer. Brent topped $111.\n\nThe 10-year sat flat ahead of today's Fed announcement, but the bond market's calm masks the inflation re-emergence in the oil tape. Gold ticked down marginally off record highs.\n\n46% of 2025 retirees stopped working earlier than planned per a new survey, with 76% citing reasons outside their control (health, layoffs, caregiving). Translation: \"work longer\" is the most popular retirement plan, and it fails nearly half the time. That's a slow-burn driver for downsizer listings over the next 24 months."
   },
   "crypto": {
-    "btc": "$77,062 (-2.06%)",
-    "eth": "$2,194 (-3.18%)",
-    "xrp": "$1.40 (-2.43%)",
-    "note": "Numbers as of 4:00 PM ET on April 27th.",
-    "commentary": "Crypto pulled back across the board. The bigger story: DeFi platforms got drained for $605M+ in the first 20 days of April alone. Kelp DAO lost $293M on April 19; Solana's Drift Protocol lost $285M on April 1. Aave (largest DeFi lender) froze some markets, and its own coin is down 20% on the contagion.\n\nMeanwhile, spot Bitcoin ETFs pulled in $18.7B in Q1 (BlackRock's IBIT led with $8.4B). Total ETF crypto assets now exceed $128B. The takeaway: institutional money is choosing the regulated wrapper over the underlying tokens. Self-custody is losing the retail vote."
+    "btc": "$77,219 (-1.49%)",
+    "eth": "$2,286 (-0.76%)",
+    "xrp": "$1.38 (-1.57%)",
+    "note": "Numbers as of 4:00 PM ET on April 28th.",
+    "commentary": "Crypto continued its pullback. Galaxy Digital (GLXY +5.23%) posted a $216M Q1 loss (after $482M last quarter) as crypto values dropped 20% YTD, but its Helios data center went live this month to start earning AI compute revenue. The rotation from mining to AI hosting is now real.\n\nOn the regulatory front, the CFTC is rolling out AI tools to screen crypto firm license applications while cutting 20%+ of its staff. Faster approvals for legitimate crypto firms is the upshot."
   },
   "real_estate": {
-    "rate_30year": "6.32%",
-    "rate_15year": "5.92%",
-    "homebuilder": "Real Brokerage Buys RE/MAX in $880M Deal; Cloud Brokerages Eat the Franchise Model",
-    "commentary": "The brokerage industry just consolidated again. The Real Brokerage (REAX -24.63%) is buying RE/MAX (RMAX +23.68%) in an $880M deal, creating \"Real REMAX Group\" with 180,000+ agents across 120 countries. This is the second major brokerage M&A in seven months after Compass's $1.6B Anywhere Real Estate buyout. The signal: cloud-first brokerages are absorbing the legacy franchise model, and the market punished Real (-24%) for what it sees as overpaying. For agents at any independent or boutique brokerage, the question is no longer \"if\" your platform consolidates but \"when.\"\n\nRenters just got leverage too. Nearly 40% of U.S. Rental listings now come with concessions (free month, waived fees), rent growth slowed to 1.8% YoY (weakest pace since 2020), and building permits have been falling since 2022. That's the bottom of the housing demand stack softening, which eventually pulls starter-home demand with it if rates don't move.\n\nThe Fed lands tomorrow (Wednesday). The cross-currents: BofA just raised 2026 GDP to 2.8% (makes a cut harder), while consumer confidence sits at an all-time low and WTI surged +3.2% on Iran-Hormuz tension (makes a cut more urgent).\n\n📍 Alameda & Contra Costa Snapshot (04/28/26)\n\n📍 Fremont: 36 new. Anchor of Alameda County, biggest day of the week.\n\n📍 Union City: 9 new. Steady I-880 print.\n\n📍 Newark: 11 new. Holding pace.\n\n📍 Hayward: 21 new. I-880 north slowing slightly from yesterday's 25.\n\n📍 San Leandro: 10 new. Lighter print.\n\n📍 San Lorenzo: 5 new. Pocket market staying live.\n\n📍 Milpitas: 4 new. Pending 24 townhomes still loaded.\n\n📍 Pleasanton: 20 new. Tri-Valley momentum.\n\n📍 Dublin: 19 new. Steady week.\n\n📍 San Ramon: 29 new. Tri-Valley leader two days running.\n\n📍 Livermore: 18 new. East Tri-Valley pulse.\n\n📍 Castro Valley: 9 new. Tight-supply enclave.\n\n📍 Danville: 22 new. Contra Costa premium pocket.\n\n📍 Oakland: 56 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,772 with 269 fresh listings today, slightly cooler than yesterday's 274.\n\nFor listing agents this week: Two messages for sellers right now. First, the brokerage M&A means your agent's name and reputation matter more than the brand on the sign. Lead with that. Second, articulate buyer-side value beyond the search: rate negotiation, concession capture, inspection strategy. The buyers reading the rental-leverage headlines are starting to feel like they should be getting concessions too, and they're not wrong.",
+    "rate_30year": "6.45%",
+    "rate_15year": "6.00%",
+    "homebuilder": "Rates Snap Higher on Oil Surge; Fed Decides Today",
+    "commentary": "The mortgage rate ceiling we've been watching just got pushed up. 30-year is 6.45% (up 13bp), 15-year crossed back to 6.00%, both moving with WTI ripping +6.7% to $106.62 and Brent past $111. The driver: UAE announced it's leaving OPEC May 1 after 59 years (wants to pump more, but the breakup is pricing in as supply chaos), and Ryanair's CEO warned European airlines could fail at $150/barrel jet fuel. Rates follow oil, oil is following geopolitics, and the Fed announces today (Wednesday) into all of it.\n\nThe cross-currents going into the meeting: BofA just raised 2026 GDP to 2.8% (cuts harder), consumer confidence at all-time low (cuts urgent), now oil pushing inflation back into the conversation. Jamie Dimon warned yesterday of a potential \"bond crisis\" if government debt keeps climbing and called a recession \"worse than people think.\" That's exactly the dynamic playing out in mortgage rates this morning.\n\nOne bright spot for Bay Area listings: the office-demand index just hit its highest level since the pandemic, with San Francisco leading the rebound alongside NY and LA, driven by AI, tech, finance, and law firms. If SF tech keeps absorbing seats, Tri-Valley commuter housing demand has a real tailwind.\n\n📍 Alameda & Contra Costa Snapshot (04/29/26)\n\n📍 Fremont: 32 new. Anchor of Alameda County, slight cool from yesterday's 36.\n\n📍 Union City: 8 new. Steady I-880 print.\n\n📍 Newark: 10 new. Holding pace.\n\n📍 Hayward: 13 new. Sharp drop from yesterday's 21.\n\n📍 San Leandro: 10 new. Consistent.\n\n📍 San Lorenzo: 5 new. Pocket market staying live.\n\n📍 Milpitas: 7 new. Pending 26 townhomes still loaded.\n\n📍 Pleasanton: 18 new. Tri-Valley momentum.\n\n📍 Dublin: 17 new. Steady week.\n\n📍 San Ramon: 22 new. Cooler than yesterday's 29.\n\n📍 Livermore: 12 new. East Tri-Valley pulse, slowing.\n\n📍 Castro Valley: 11 new. Strongest print of the week.\n\n📍 Danville: 11 new. Half of yesterday's 22.\n\n📍 Oakland: 55 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,784 with 231 fresh listings today, well off yesterday's 269.\n\nFor listing agents this week: With rates up 13bp overnight, every buyer pre-approval is now stale. Get them re-qualified TODAY before the Fed announcement. If the Fed cuts (unlikely but possible given confidence numbers), rates may not move much because of the oil shock. If the Fed holds, lock-in incentives become the closing tool. For sellers, frame the rate spike as \"the buyer who was waiting just lost $200/month of buying power on a $750K loan.\" Urgency is real today.",
     "local_news": ""
   },
   "sources": [
