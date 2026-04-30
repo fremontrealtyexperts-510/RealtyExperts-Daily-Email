@@ -1,39 +1,51 @@
 {
-  "date": "04/29/26",
+  "date": "04/30/26",
   "time": "09:30",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/bf26ea40-64ae-40fe-96f0-5f267fd2188c",
-  "qr_code_path": "note-qr-bf26ea40.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/efa53217-a458-4359-a761-43d06c2ccda0",
+  "qr_code_path": "note-qr-efa53217.png",
+  "featured_promo": {
+    "eyebrow": "WHAT WE BROUGHT BACK · C.A.R. LEGISLATIVE DAY 2026",
+    "title": "12 Bills, 2 Programs. Here's What's at Stake for California Real Estate.",
+    "body": "A few of us spent yesterday in Sacramento at C.A.R. Legislative Day. We came back with the full scorecard on the bills that will shape how you write contracts, list properties, and have the affordability conversation with clients this year. From condo deposit caps (AB 1406) to rent control changes (AB 1157) to a CAR-sponsored HOA reform (SB 1238). The breakdown is now live on the Agent Hub.",
+    "quote": "Only 1 in 6 California households can afford a median-priced home. That's the reason every bill on this page matters.",
+    "quote_attribution": "C.A.R. Legislative Day 2026 · Hot Issues",
+    "primary_link": "https://teamrealtyexperts.com/legislative-day-2026",
+    "primary_label": "Read the Full Scorecard",
+    "secondary_link": "https://teamrealtyexperts.com/",
+    "secondary_label": "Back to Agent Hub"
+  },
   "stocks": {
-    "sp500": "7,138 (-0.49%)",
-    "dow": "49,141 (-0.05%)",
-    "nasdaq": "24,663 (-0.90%)",
-    "note": "Numbers as of market close April 28th.",
-    "news": "Markets slid into Fed Day. Spotify (SPOT -12.43%) tanked on weak Q2 premium subscriber guidance (299M vs. 300M expected); the company has hiked U.S. Prices twice in two years and may be running out of pricing room.\n\nGM (GM +1.27%) beat estimates partly thanks to a $500M tariff refund, but warned of $1.1B in fresh EV charges. Total EV pullback is now near $8.7B.\n\nJamie Dimon (JPM -0.05%) publicly warned of a possible bond crisis and a recession \"worse than people think.\" Add today's Fed announcement to that backdrop."
+    "sp500": "7,135 (-0.04%)",
+    "dow": "48,861 (-0.57%)",
+    "nasdaq": "24,673 (+0.04%)",
+    "note": "Numbers as of market close April 29th.",
+    "news": "Big tech beat earnings across the board. Microsoft (MSFT -1.12%) beat Wall Street; Amazon (AMZN +1.29%) crushed on AWS growth; Meta (META -0.33%) made more money but spent heavily on AI with fewer users than expected.\n\nBill Ackman's Pershing Square IPO'd at $5B (low end of range) and dropped -18.20% on debut. Robinhood (HOOD -13.24%) tanked after crypto revenue fell 47% YoY.\n\nUBS warned the U.S. Economy \"could be ready to run off a cliff,\" with high earners propping up spending while everyone else gets squeezed."
   },
   "economy": {
-    "us10year": "4.34% (+0.00%)",
-    "gold": "$4,606 (-0.04%)",
-    "wti": "$106.62 (+6.69%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET April 28th; WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "WTI ripped +6.7% to $106.62, the biggest single-day move in months. The catalyst: UAE announced exit from OPEC May 1 after 59 years, and Ryanair flagged airline failure risk if jet fuel holds at $150/barrel through summer. Brent topped $111.\n\nThe 10-year sat flat ahead of today's Fed announcement, but the bond market's calm masks the inflation re-emergence in the oil tape. Gold ticked down marginally off record highs.\n\n46% of 2025 retirees stopped working earlier than planned per a new survey, with 76% citing reasons outside their control (health, layoffs, caregiving). Translation: \"work longer\" is the most popular retirement plan, and it fails nearly half the time. That's a slow-burn driver for downsizer listings over the next 24 months."
+    "us10year": "4.42% (+0.08%)",
+    "gold": "$4,575 (+0.31%)",
+    "wti": "$104.35 (-2.37%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET April 29th; WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "The Fed held rates steady for the third time this year, exactly as the market expected. The 10-year jumped 8bp to 4.42% as the bond market repriced the \"no near-term cuts\" reality. That's the source of today's mortgage tick to 6.50%.\n\nWTI pulled back -2.4% to $104.35, but Brent ripped to $119.75 (+6% intraday) after Trump told Axios the U.S. Blockade of Iran stays until Tehran signs a nuclear deal. The WTI/Brent spread is now historically wide, domestic oil cooling while seaborne supply gets squeezed.\n\nGold ticked back up to $4,575 as the rate-hold + Iran combo kept safe-haven flows live."
   },
   "crypto": {
-    "btc": "$77,219 (-1.49%)",
-    "eth": "$2,286 (-0.76%)",
-    "xrp": "$1.38 (-1.57%)",
-    "note": "Numbers as of 4:00 PM ET on April 28th.",
-    "commentary": "Crypto continued its pullback. Galaxy Digital (GLXY +5.23%) posted a $216M Q1 loss (after $482M last quarter) as crypto values dropped 20% YTD, but its Helios data center went live this month to start earning AI compute revenue. The rotation from mining to AI hosting is now real.\n\nOn the regulatory front, the CFTC is rolling out AI tools to screen crypto firm license applications while cutting 20%+ of its staff. Faster approvals for legitimate crypto firms is the upshot."
+    "btc": "$76,133 (+0.42%)",
+    "eth": "$2,263 (+0.45%)",
+    "xrp": "$1.38 (+0.62%)",
+    "note": "Numbers as of 4:00 PM ET on April 29th.",
+    "commentary": "The U.S. Treasury froze $344M in USDT tied to Iran's Revolutionary Guard, the largest crypto seizure of this conflict, cutting off a primary money-movement channel Iran has used for decades. Stablecoin censorship at a new scale.\n\nMeanwhile, Robinhood (HOOD -13.24%) cratered as crypto revenue fell 47% YoY. The retail trader has left the building. Galaxy's pivot to AI hosting yesterday and now this. The crypto-firm earnings model is being rewritten in real time."
   },
   "real_estate": {
-    "rate_30year": "6.45%",
-    "rate_15year": "6.00%",
-    "homebuilder": "Rates Snap Higher on Oil Surge; Fed Decides Today",
-    "commentary": "The mortgage rate ceiling we've been watching just got pushed up. 30-year is 6.45% (up 13bp), 15-year crossed back to 6.00%, both moving with WTI ripping +6.7% to $106.62 and Brent past $111. The driver: UAE announced it's leaving OPEC May 1 after 59 years (wants to pump more, but the breakup is pricing in as supply chaos), and Ryanair's CEO warned European airlines could fail at $150/barrel jet fuel. Rates follow oil, oil is following geopolitics, and the Fed announces today (Wednesday) into all of it.\n\nThe cross-currents going into the meeting: BofA just raised 2026 GDP to 2.8% (cuts harder), consumer confidence at all-time low (cuts urgent), now oil pushing inflation back into the conversation. Jamie Dimon warned yesterday of a potential \"bond crisis\" if government debt keeps climbing and called a recession \"worse than people think.\" That's exactly the dynamic playing out in mortgage rates this morning.\n\nOne bright spot for Bay Area listings: the office-demand index just hit its highest level since the pandemic, with San Francisco leading the rebound alongside NY and LA, driven by AI, tech, finance, and law firms. If SF tech keeps absorbing seats, Tri-Valley commuter housing demand has a real tailwind.\n\n📍 Alameda & Contra Costa Snapshot (04/29/26)\n\n📍 Fremont: 32 new. Anchor of Alameda County, slight cool from yesterday's 36.\n\n📍 Union City: 8 new. Steady I-880 print.\n\n📍 Newark: 10 new. Holding pace.\n\n📍 Hayward: 13 new. Sharp drop from yesterday's 21.\n\n📍 San Leandro: 10 new. Consistent.\n\n📍 San Lorenzo: 5 new. Pocket market staying live.\n\n📍 Milpitas: 7 new. Pending 26 townhomes still loaded.\n\n📍 Pleasanton: 18 new. Tri-Valley momentum.\n\n📍 Dublin: 17 new. Steady week.\n\n📍 San Ramon: 22 new. Cooler than yesterday's 29.\n\n📍 Livermore: 12 new. East Tri-Valley pulse, slowing.\n\n📍 Castro Valley: 11 new. Strongest print of the week.\n\n📍 Danville: 11 new. Half of yesterday's 22.\n\n📍 Oakland: 55 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,784 with 231 fresh listings today, well off yesterday's 269.\n\nFor listing agents this week: With rates up 13bp overnight, every buyer pre-approval is now stale. Get them re-qualified TODAY before the Fed announcement. If the Fed cuts (unlikely but possible given confidence numbers), rates may not move much because of the oil shock. If the Fed holds, lock-in incentives become the closing tool. For sellers, frame the rate spike as \"the buyer who was waiting just lost $200/month of buying power on a $750K loan.\" Urgency is real today.",
+    "rate_30year": "6.50%",
+    "rate_15year": "6.03%",
+    "homebuilder": "Fed Holds, Rates Tick to 6.50%; Spring Rebound Stalls Second Year Running",
+    "commentary": "The Fed delivered exactly what the bond market priced in: no cut, third pause this year. Kevin Warsh cleared the Senate Banking Committee for the chair seat; Powell announced he's staying on as a Fed Governor after his term ends May 15. Stability at the top, but no relief for buyers. Mortgage rates ticked up to 6.50%, and the 10-year jumped to 4.42% as the bond market reprices the \"no cuts soon\" reality.\n\nThe bigger structural read: America's spring housing rebound is stalling for the second year in a row. The mechanics are familiar. Homeowners locked into 3% rates aren't moving, buyers are waiting for prices to drop, and inventory is piling up. And yet, purchase applications are up 21% YoY, driven by high-income buyers who are tuning out the Iran/oil headlines and just transacting. That's the listing-agent opening: the buyer at the door right now is committed and qualified.\n\n<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"margin: 24px 0; border: 3px solid #ea580c; background: #fff7ed;\"><tr><td style=\"padding: 22px 24px;\"><div style=\"font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #c2410c; margin-bottom: 10px; line-height: 1.3;\">🏛️ FROM SACRAMENTO TO YOUR CLOSING TABLE</div><div style=\"font-size: 18px; font-weight: 800; color: #1e293b; margin-bottom: 14px; line-height: 1.35;\">Here's What We Brought Back From C.A.R. Legislative Day.</div><div style=\"font-size: 15px; line-height: 1.65; color: #334155; margin-bottom: 12px;\">Here's what every agent on the team should know. <strong>AB 1406</strong> would double the condo deposit forfeiture cap to 6%; at our local $670K median condo price, that's a buyer forfeiting up to <strong>$40,200</strong>. <strong>AB 1157</strong> would tighten rent caps and remove the SFH exemption that protects natural-person owners. <strong>SB 1238</strong> (CAR-sponsored) brings overdue HOA transparency and condo financing reform.</div><div style=\"font-size: 15px; line-height: 1.65; color: #334155; margin-bottom: 18px;\">Every one of these is the macro version of a closing conversation you're already having.</div><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"background-color: #ea580c; padding: 12px 24px;\"><a href=\"https://teamrealtyexperts.com/legislative-day-2026\" style=\"color: #ffffff; text-decoration: none; font-weight: 700; font-size: 14px;\">📋 SEE THE FULL BILL SCORECARD →</a></td></tr></table></td></tr></table>\n\n📍 Alameda & Contra Costa Snapshot (04/30/26)\n\n📍 Fremont: 27 new. Anchor of Alameda County, slight cool from yesterday's 32.\n\n📍 Union City: 8 new. Steady I-880 print.\n\n📍 Newark: 9 new. Holding pace.\n\n📍 Hayward: 14 new. Mid-tier soft.\n\n📍 San Leandro: 8 new. Lighter print.\n\n📍 San Lorenzo: 4 new. Pocket market staying live.\n\n📍 Milpitas: 5 new. Pending 23 townhomes still loaded.\n\n📍 Pleasanton: 14 new. Tri-Valley cooler.\n\n📍 Dublin: 15 new. Steady week.\n\n📍 San Ramon: 24 new. Tri-Valley leader.\n\n📍 Livermore: 20 new. Strong East Tri-Valley print.\n\n📍 Castro Valley: 8 new. Tight-supply enclave.\n\n📍 Danville: 20 new. Big bounce from yesterday's 11.\n\n📍 Oakland: 59 new. Volume leader, deepest pool.\n\nTotal active inventory across the 15-city board is 2,834 with 235 fresh listings today, up from yesterday's 2,784.\n\nFor listing agents this week: Spring rebound failed nationally, but the +21% YoY purchase applications stat says qualified buyers are still showing up. They've already accepted the rate environment. That makes them the most committed pool in two years. Stop pricing for the \"rate-cut buyer\" who isn't coming, price for the \"rate-accepted buyer\" who is. And on every listing call, remember: the policy fight in Sacramento yesterday is the affordability conversation you're having today. Use it.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://www.investing.com/commodities/crude-oil",
-    "https://market.briefs.co/"
+    "https://market.briefs.co/",
+    "https://teamrealtyexperts.com/legislative-day-2026"
   ]
 }
