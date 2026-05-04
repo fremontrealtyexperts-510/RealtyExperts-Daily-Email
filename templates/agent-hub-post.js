@@ -12,8 +12,10 @@ function buildPost(data) {
   const img1Url = `${GITHUB_RAW_BASE}/RE-Daily-1-${dateShort}.png`;
   const img2Url = `${GITHUB_RAW_BASE}/RE-Daily-2-${dateShort}.png`;
 
-  // Title with smart/curly quotes
-  const title = `\u201cAt a Glance\u201d Local Housing STATS and News ${data.date}`;
+  // Straight ASCII quotes only. Smart quotes (\u201c \u201d) trip an RFC 2047
+  // encoding bug in the Supabase notes-api notification function and produce
+  // a malformed Subject header that some Outlook clients render as raw MIME.
+  const title = `"At a Glance" Local Housing STATS and News ${data.date}`;
   const body = buildPostBody(data, emailUrl, img1Url, img2Url);
 
   return { title, body, emailUrl, img1Url, img2Url };

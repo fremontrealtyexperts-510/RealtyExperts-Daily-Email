@@ -18,7 +18,10 @@ async function main() {
   // 3. Build post content from template
   const { title, body } = buildPost(data);
 
-  // 4. Create post via notes-api
+  // 4. Create post via notes-api.
+  // notify_enabled: false suppresses the create-event notification so the
+  // team only receives the broadcast that update-note-body.js fires later
+  // with the final HTML body (instead of two notifications per day).
   const response = await notesApiPost({
     title,
     body,
@@ -26,6 +29,7 @@ async function main() {
     visibility: 'public',
     body_format: 'html',
     author_name: 'REALTY EXPERTS',
+    notify_enabled: false,
   }, adminToken, nonce);
 
   const postId = response.id;
