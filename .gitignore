@@ -4,6 +4,7 @@ node_modules/
 CLAUDE.md
 README.md
 DAILY-INTAKE.md
+WORKSPACE-HANDOFF.md
 
 # Environment variables and secrets
 .env
