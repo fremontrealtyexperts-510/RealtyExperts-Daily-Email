@@ -27,7 +27,7 @@ DST_DIR="/tmp/daily-email-push"
 if [ -n "$1" ]; then
   DATE_STR="$1"
 else
-  DATE_STR=$(python3 -c "import json; d=json.load(open('$SRC_DIR/daily-market-template.json')); print(d['date'].replace('/',''"))")
+  DATE_STR=$(python3 -c "import json; d=json.load(open('$SRC_DIR/daily-market-template.json')); print(d['date'].replace('/',''))")
 fi
 
 echo "📅 Date: $DATE_STR"
