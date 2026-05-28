@@ -1,40 +1,39 @@
 {
-  "date": "05/27/26",
-  "time": "11:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/20c432ff-3c38-4798-80c1-89393c2fa028",
-  "qr_code_path": "note-qr-20c432ff.png",
+  "date": "05/28/26",
+  "time": "10:15",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/59faf96e-d2e1-4aab-9415-d9f5c05d4c93",
+  "qr_code_path": "note-qr-59faf96e.png",
   "stocks": {
-    "sp500": "7,519 (+0.61%)",
-    "dow": "50,461 (-0.23%)",
-    "nasdaq": "26,656 (+1.19%)",
-    "note": "Numbers as of market close on Tuesday, May 26th.",
-    "news": "The S&P and NASDAQ both pushed higher Tuesday; the DOW slipped a fraction. The split came down to which sectors carried the tape: AI hardware drove the tech move, while industrial names dragged the average down.\n\nMicron (MU +19.29%) crossed $1 trillion in market value for the first time, becoming the 13th most valuable public company in the world. The AI memory shortage is the story; Micron shares have more than tripled this year. The whole AI-infrastructure trade keeps eating market cap that used to belong to old-economy industrials.\n\nFerrari (RACE -5.26%) launched the Luce, its first all-electric car, and shareholders gave it a polite thumbs-down by knocking the stock down 8% intraday. The base model ships in Q4 at $640,000. Analysts worry that going electric will dilute the supercar mystique. Hard to know whether the Italians have built the wrong product or just announced it on the wrong day."
+    "sp500": "7,520 (+0.02%)",
+    "dow": "50,644 (+0.36%)",
+    "nasdaq": "26,674 (+0.07%)",
+    "note": "Numbers as of market close May 27th.",
+    "news": "Goldman Sachs just called for the S&P 500 to grow over 16% this year, a notably bullish revision against the Iran-war and oil-spike backdrop. The Big Tech rotation continues.\n\nRobinhood (HOOD +2.89%) became the first major U.S. retail brokerage to let AI agents open their own accounts and trade stocks with pre-funded wallets. Real-time test of whether retail flow looks the same when the trader is a model. Amazon (AMZN +2.47%) announced it will sell its AI shopping tech to other retailers, who can build their own AI-driven storefronts on top of it. JPMorgan CEO Jamie Dimon (JPM -2.43%) floated a possible $20B acquisition if the right target appears. Abercrombie (ANF +8.88%) crushed earnings expectations even with the Iran war drag on sales."
   },
   "economy": {
-    "us10year": "4.47% (-0.04%)",
-    "gold": "$4,501 (-0.01%)",
-    "wti": "$89.94 (-4.05%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET Tuesday, May 26th. WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "The 10-year is at 4.47%, off another 4 bps from yesterday and now 17 bps below where it sat a week ago. The bond rally has legs.\n\nWTI cracked. Crude sits at $89.94, down nearly $4 from yesterday's $93.74 close. The low of the day was $87.80, the deepest sub-$90 print since early May. The catalyst is global supply rerouting, not a demand collapse, and the chart below tells the cleanest version of that story.\n\nJapan's oil imports from the Middle East fell 67% YoY in April, the lowest level since 1979. Total Japan oil imports dropped from roughly 2.8 million barrels per day in January to about 1.7 million now. The substitution flow is going to the U.S.: shipments to Japan are running four times last year's pace. Translation: when one of the world's largest oil buyers reroutes its supply chain away from the Strait of Hormuz, the price impact shows up in WTI, not Brent.\n\nGold held steady at $4,501 despite the dollar staging a small rebound. The NFCC's quarterly consumer stress reading hit 6.7 out of 10, up sharply from the post-pandemic low of 3.5 in 2021. Consumer spending is two-thirds of the economy, so when stress is this elevated, the bond market eventually agrees with what gold is already saying."
+    "us10year": "4.51% (+0.03%)",
+    "gold": "$4,393 (-1.23%)",
+    "wti": "$88.86 (+2.60%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET May 27th; WTI Crude reflects today's intraday move via investing.com (tracking Brent +2.6%).",
+    "commentary": "🛢️ The oil jump is the headline. Brent ripped +2.6% in a single session to $96.74 as Iran's state TV claimed a deal is on the table while U.S. officials publicly contradicted: no deal exists yet. The diplomatic ping-pong matters because the conflict has disrupted roughly 20 million barrels per day, about a fifth of global supply. WTI is sitting at $88.86 today, holding the gains intraday.\n\nThe knock-on: France's consumer confidence fell to 82, the lowest reading since March 2023, with the index explicitly blaming U.S.–Iran energy costs. Eurozone risk just got bigger.\n\nStateside, food prices logged their fastest monthly jump in nearly 4 years in April. Beef hit a record high, tomatoes climbed 33% over the last two months, and the U.S. cattle herd is at a 75-year low. The USDA warns the squeeze could persist as farm production lags demand.\n\nGold pulled back 1.23% to $4,393 as the dollar firmed on the 10-year tick to 4.51%. The bond market is repricing the inflation-from-energy story in real time."
   },
   "crypto": {
     "btc": "$75,622 (-0.30%)",
     "eth": "$2,067 (-0.16%)",
     "xrp": "$1.33 (-0.08%)",
-    "note": "Numbers as of 4:00 PM ET on Tuesday, May 26th.",
-    "commentary": "Crypto slipped slightly across the board: BTC down 0.30%, ETH down 0.16%, XRP down 0.08%. A quiet day, but two governance stories worth flagging.\n\nThe U.K. just sanctioned HTX, the crypto exchange suspected of channeling more than $1.5 billion back to the Kremlin. U.K.-registered crypto firms are now legally required to enforce these sanctions on their platforms, which adds compliance cost across every major exchange operating in Europe. Sanction enforcement is the new audit, and the audit is not optional.\n\nSeparately, Polymarket disputes are being decided by nine anonymous whale wallets. Sixty percent of those \"third-party\" voters are linked back to Polymarket trading accounts. Decentralized governance has always had this problem; this is just the first time the structure has been documented this cleanly."
+    "note": "Numbers as of 4:00 PM ET on May 27th.",
+    "commentary": "A single whale sold $1.29B of IBIT (BlackRock's spot Bitcoin ETF) in one dark-pool trade Tuesday morning. Dark pools let big players move size without alerting the market. The bigger pattern: spot Bitcoin ETFs have now logged seven straight days of outflows, the second-longest losing streak since they launched in 2024. The institutional bid is unwinding, not just the retail bid.\n\nStructural story: SoFi (SOFI +1.19%) launched SoFiUSD, becoming the first nationally-chartered U.S. bank to put a stablecoin on a public blockchain for everyday customers. Unlike Tether or Circle (CRCL -1.47%), SoFi comes with FDIC insurance, federal oversight, and possibly tokenized deposits that earn interest down the road. Stablecoins are quietly entering the regulated banking stack while the spot crowd cools."
   },
   "real_estate": {
-    "rate_30year": "6.61%",
-    "rate_15year": "6.12%",
-    "homebuilder": "30-Year Holds At 6.61% For A Second Day; Tri-County New Listings Pull Back To 171; April Pending Signings Were The Third Monthly Gain In A Row",
-    "commentary": "The 30-year fixed is at 6.61% today, flat with yesterday. The 15-year ticked down another 2 bps to 6.12%. The 30-year has now held under 6.65% for three consecutive sessions, the cleanest stretch of stability we have seen this month. The 10-year Treasury sits at 4.47%, off another 4 bps.\n\nLocal Tri-County board: 2,901 active (down 11 from yesterday). 171 new listings this morning (down 17 from 188). 252 closed sales in the rolling 7-day window (down 10). New listings are pulling back faster than active inventory, a normal Wednesday-after-Memorial-Day pattern.\n\nNational. Wells Fargo (WFC +1.47%) is now offering a 50 bps lender credit on mortgages for 3D-printed homes built by Icon. Banks used to avoid these properties over resale and insurance concerns; the price tag is dragging them back to the table. Separately, New Zealand home prices are now 20% below their 2021 pandemic peak with another 2% drop expected this year, a useful reminder that housing booms eventually run out of road.\n\n📍 Alameda & Contra Costa Snapshot (05/27/26)\n\n📍 Fremont: 13 new (down 3 from 16).\n\n📍 Union City: 5 new (down 3 from 8).\n\n📍 Newark: 3 new (down 2 from 5).\n\n📍 Hayward: 14 new (down 1 from 15).\n\n📍 Danville: 10 new (down 7 from 17, biggest single-city pullback).\n\n📍 Milpitas: 2 new (flat).\n\n📍 Oakland: 52 new (up 2 from 50, board leader continues).\n\n📍 Livermore: 13 new (down 4 from 17).\n\n📍 Castro Valley: 8 new (flat).\n\n📍 Pleasanton: 8 new (up 3 from 5, biggest single-city add).\n\n📍 San Ramon: 16 new (down 1 from 17).\n\n📍 Dublin: 14 new (down 4 from 18).\n\n📍 Sunol: 2 new (up 1 from 1).\n\n📍 San Lorenzo: 4 new (up 2 from 2).\n\n📍 San Leandro: 7 new (flat).\n\n10 of 15 cities pulled back. Only Oakland, Pleasanton, Sunol, and San Lorenzo added. The board is consolidating, not racing.\n\nFor agents. Three flat-to-easing rate days in a row, closed sales running at 252 weekly, and contract signings up nationally three months running. Sellers waiting for further rate relief are sitting on a rate floor that is already two weeks old. Buyers running pre-approval math have their cleanest window of the month right now.",
+    "rate_30year": "6.59%",
+    "rate_15year": "6.11%",
+    "homebuilder": "Mortgage Rates Hit 9-Month High; Refis Collapse; Insurance Joins the Squeeze",
+    "commentary": "Mortgage rates just touched a 9-month high. The 30-year briefly tagged 6.65% earlier this week, the highest since August 2025, and refi applications fell 18% in a single week as the window slams shut for anyone still hoping to refinance. Insurance is the second squeeze: the typical U.S. home insurance bill jumped +24% to $3,303/year between 2021 and 2024, and 95% of U.S. ZIP codes saw increases. Climate-disaster repricing is now structural, not transitory.\n\nWhat it means locally: the buyer at your door right now is rate-accepted AND insurance-aware. They're priced in. Today's snapshot: 2,903 active across the East Bay, 185 new today, with Oakland leading at 49 new (777 total), followed by Danville (24), Dublin (18), Livermore (17), and Fremont (16).\n\n📍 Alameda & Contra Costa Snapshot (05/28/26)\n\n📍 Fremont: 16 new. I-880/I-680 anchor steady.\n\n📍 Union City: 6 new. Steady I-880 print.\n\n📍 Newark: 9 new. Holding pace.\n\n📍 Hayward: 9 new. Mid-tier light.\n\n📍 Danville: 24 new. Contra Costa leader.\n\n📍 Milpitas: 2 new. Quiet day.\n\n📍 Oakland: 49 new. Volume leader, deepest pool at 777 active.\n\n📍 Livermore: 17 new. East Tri-Valley strength.\n\n📍 Castro Valley: 8 new. Tight-supply enclave.\n\n📍 Pleasanton: 8 new. Tri-Valley measured.\n\n📍 San Ramon: 12 new. Holding.\n\n📍 Dublin: 18 new. Strong week.\n\n📍 Sunol: 0 new. Quiet.\n\n📍 San Lorenzo: 1 new. Pocket market.\n\n📍 San Leandro: 6 new. Lighter print.\n\nTotal active inventory across the 15-city board is 2,903 with 185 fresh listings today.\n\nFor listing agents: the rate-cut buyer isn't coming. The buyer at the door is rate-aware AND insurance-aware. Price for that reality, not for a softer environment that doesn't exist yet.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://www.investing.com/commodities/crude-oil",
-    "https://market.briefs.co/",
-    "https://www.nar.realtor/research-and-statistics/housing-statistics/pending-home-sales"
+    "https://market.briefs.co/"
   ]
 }
