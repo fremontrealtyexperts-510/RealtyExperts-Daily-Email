@@ -1,34 +1,34 @@
 {
-  "date": "05/28/26",
-  "time": "10:15",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/59faf96e-d2e1-4aab-9415-d9f5c05d4c93",
-  "qr_code_path": "note-qr-59faf96e.png",
+  "date": "05/29/26",
+  "time": "11:00",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4312ed00-267a-4097-90df-1c2f5c662e40",
+  "qr_code_path": "note-qr-4312ed00.png",
   "stocks": {
-    "sp500": "7,520 (+0.02%)",
-    "dow": "50,644 (+0.36%)",
-    "nasdaq": "26,674 (+0.07%)",
-    "note": "Numbers as of market close May 27th.",
-    "news": "Goldman Sachs just called for the S&P 500 to grow over 16% this year, a notably bullish revision against the Iran-war and oil-spike backdrop. The Big Tech rotation continues.\n\nRobinhood (HOOD +2.89%) became the first major U.S. retail brokerage to let AI agents open their own accounts and trade stocks with pre-funded wallets. Real-time test of whether retail flow looks the same when the trader is a model. Amazon (AMZN +2.47%) announced it will sell its AI shopping tech to other retailers, who can build their own AI-driven storefronts on top of it. JPMorgan CEO Jamie Dimon (JPM -2.43%) floated a possible $20B acquisition if the right target appears. Abercrombie (ANF +8.88%) crushed earnings expectations even with the Iran war drag on sales."
+    "sp500": "7,563 (+0.58%)",
+    "dow": "50,668 (+0.05%)",
+    "nasdaq": "26,917 (+0.91%)",
+    "note": "Numbers as of market close on Thursday, May 28th.",
+    "news": "Software came roaring back Thursday. Snowflake (SNOW +36.48%) had the best day in its history, surging on a $6B compute deal with Amazon plus an earnings beat; ServiceNow (NOW +6.47%) and Palantir (PLTR +8.17%) rode the same wave. Turns out the AI trade still has a few moves left.\n\nThe Pentagon is reportedly taking equity stakes in U.S. drone makers, and the stocks went vertical: Unusual Machines (UMAC +57.20%), Kratos (KTOS +13.77%), and AeroVironment (AVAV +18.26%). One catch: Donald Trump Jr. is a shareholder in Unusual Machines, which all but guarantees a congressional look at any deal."
   },
   "economy": {
-    "us10year": "4.51% (+0.03%)",
-    "gold": "$4,393 (-1.23%)",
-    "wti": "$88.86 (+2.60%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET May 27th; WTI Crude reflects today's intraday move via investing.com (tracking Brent +2.6%).",
-    "commentary": "🛢️ The oil jump is the headline. Brent ripped +2.6% in a single session to $96.74 as Iran's state TV claimed a deal is on the table while U.S. officials publicly contradicted: no deal exists yet. The diplomatic ping-pong matters because the conflict has disrupted roughly 20 million barrels per day, about a fifth of global supply. WTI is sitting at $88.86 today, holding the gains intraday.\n\nThe knock-on: France's consumer confidence fell to 82, the lowest reading since March 2023, with the index explicitly blaming U.S.–Iran energy costs. Eurozone risk just got bigger.\n\nStateside, food prices logged their fastest monthly jump in nearly 4 years in April. Beef hit a record high, tomatoes climbed 33% over the last two months, and the U.S. cattle herd is at a 75-year low. The USDA warns the squeeze could persist as farm production lags demand.\n\nGold pulled back 1.23% to $4,393 as the dollar firmed on the 10-year tick to 4.51%. The bond market is repricing the inflation-from-energy story in real time."
+    "us10year": "4.43% (-0.02%)",
+    "gold": "$4,530 (-0.05%)",
+    "wti": "$88.70 (-0.2%)",
+    "note": "US 10-Year and Gold as of 4:00 PM ET Thursday, May 28th. WTI Crude reflects today's intraday move via investing.com.",
+    "commentary": "The inflation print is the story. Core PCE, the Fed's preferred gauge, rose to 3.3% annually in April, well above the 2% target. Wall Street's read: the Fed's next move is now more likely a hike than a cut. Consumer spending rose 0.5% while incomes stayed flat, dropping the savings rate to 2.6%, its lowest since 2022. Households are spending down their cushion.\n\nOil eased on reports of a possible Strait of Hormuz reopening. Brent slipped to $92.76 and WTI to $88.70, though Iran launched fresh attacks even as a deal was floated, so nobody is keeping the story straight yet. Gold held near $4,530."
   },
   "crypto": {
-    "btc": "$75,622 (-0.30%)",
-    "eth": "$2,067 (-0.16%)",
-    "xrp": "$1.33 (-0.08%)",
-    "note": "Numbers as of 4:00 PM ET on May 27th.",
-    "commentary": "A single whale sold $1.29B of IBIT (BlackRock's spot Bitcoin ETF) in one dark-pool trade Tuesday morning. Dark pools let big players move size without alerting the market. The bigger pattern: spot Bitcoin ETFs have now logged seven straight days of outflows, the second-longest losing streak since they launched in 2024. The institutional bid is unwinding, not just the retail bid.\n\nStructural story: SoFi (SOFI +1.19%) launched SoFiUSD, becoming the first nationally-chartered U.S. bank to put a stablecoin on a public blockchain for everyday customers. Unlike Tether or Circle (CRCL -1.47%), SoFi comes with FDIC insurance, federal oversight, and possibly tokenized deposits that earn interest down the road. Stablecoins are quietly entering the regulated banking stack while the spot crowd cools."
+    "btc": "$73,300 (-0.23%)",
+    "eth": "$2,003 (-0.17%)",
+    "xrp": "$1.31 (-0.31%)",
+    "note": "Numbers as of 4:00 PM ET on Thursday, May 28th.",
+    "commentary": "Crypto drifted lower across the board, with BTC slipping under $73.5K. The notable story is regulatory: the CFTC asked a federal judge to throw out its own 2025 case against Gemini, the Winklevoss twins' exchange. When the regulator moves to dismiss its own enforcement action, that is the clearest sign yet of the policy thaw the industry has been waiting for."
   },
   "real_estate": {
     "rate_30year": "6.59%",
     "rate_15year": "6.11%",
-    "homebuilder": "Mortgage Rates Hit 9-Month High; Refis Collapse; East Bay Board Builds To 2,943 Active (193 New)",
-    "commentary": "Mortgage rates just touched a 9-month high. The 30-year briefly tagged 6.65% earlier this week, the highest since August 2025, and refi applications fell 18% in a single week as the window slams shut for anyone still hoping to refinance. Insurance is the second squeeze: the typical U.S. home insurance bill jumped 24% to $3,303 a year between 2021 and 2024, with increases in 95% of U.S. ZIP codes. Climate-disaster repricing is now structural, not transitory.\n\nThe buyer at your door is rate-aware AND insurance-aware, and today they have more to choose from. The local board expanded: 2,943 active across the East Bay (up 42 from yesterday), 193 new listings (up 22), and 218 closed sales (down 34). New supply outran closings, the first real inventory build of the week.\n\n📍 Alameda & Contra Costa Snapshot (05/28/26)\n\n📍 Fremont: 20 new (up 7 from yesterday's 13).\n\n📍 Union City: 5 new (flat).\n\n📍 Newark: 6 new (up 3).\n\n📍 Hayward: 14 new (flat).\n\n📍 Danville: 15 new (up 5).\n\n📍 Milpitas: 0 new (down 2, quietest on the board).\n\n📍 Oakland: 50 new (down 2 from 52, still volume leader at 786 active).\n\n📍 Livermore: 23 new (up 10, biggest single-city jump).\n\n📍 Castro Valley: 8 new (flat).\n\n📍 Pleasanton: 6 new (down 2).\n\n📍 San Ramon: 21 new (up 5).\n\n📍 Dublin: 12 new (down 2).\n\n📍 Sunol: 1 new (down 1).\n\n📍 San Lorenzo: 5 new (up 1).\n\n📍 San Leandro: 7 new (flat).\n\nThe build was broad: Livermore (+10), Fremont (+7), Danville and San Ramon (+5 each) led the supply add. Closed sales cooled to 218 even as new listings climbed, so the board is loosening at the margin.\n\nFor agents: the rate-cut buyer isn't coming. The buyer at the door is rate-aware and insurance-aware, and now they have more to choose from. Price for that reality, not for a softer-rate environment that doesn't exist yet.",
+    "homebuilder": "Rates Hold At 6.59% Into The Weekend; East Bay Board Builds A Third Day To 2,964 Active (216 New); SF Rents Tie NYC As Priciest In The Nation",
+    "commentary": "The 30-year fixed is flat at 6.59%, the 15-year at 6.11%, a quiet end to the week on rates. The bigger rate story is brewing in the data: Core PCE ticked up to 3.3% (more in Economy), and the market is now leaning toward the Fed's next move being a hike, not a cut. The buyer waiting for lower rates is waiting on something that may not arrive.\n\nLocal board: 2,964 active (up 21 from yesterday), 216 new listings (up 23), 216 closed sales. New supply and closings ran dead even at 216 each, so the board keeps building but it is clearing what it adds.\n\nNational: San Francisco just tied New York as the most expensive rental market in the country, both at $5,500 a month for a 2-bedroom (see chart below). The driver is AI hiring at OpenAI, Anthropic, and the rest, which pushed SF rents up 20-25% in a year with vacancy down near 3.3%. The robots aren't taking the jobs so much as taking the apartments. Separately, Florida's governor wants to scrap property taxes for 60% of homeowners by raising the homestead exemption to $250,000.\n\n📍 Alameda & Contra Costa Snapshot (05/29/26)\n\n📍 Fremont: 21 new (up 1 from yesterday).\n\n📍 Union City: 6 new (up 1).\n\n📍 Newark: 6 new (flat).\n\n📍 Hayward: 15 new (up 1).\n\n📍 Danville: 17 new (up 2).\n\n📍 Milpitas: 3 new (up 3).\n\n📍 Oakland: 49 new (down 1, still board leader at 793 active).\n\n📍 Livermore: 26 new (up 3).\n\n📍 Castro Valley: 10 new (up 2).\n\n📍 Pleasanton: 11 new (up 5, biggest single-city add).\n\n📍 San Ramon: 22 new (up 1).\n\n📍 Dublin: 16 new (up 4).\n\n📍 Sunol: 1 new (flat).\n\n📍 San Lorenzo: 5 new (flat).\n\n📍 San Leandro: 8 new (up 1).\n\n13 of 15 cities added or held, led by Pleasanton (+5) and Dublin (+4). Broad-based supply growth.\n\nFor agents: three straight days of board growth with closings keeping pace. Inventory is loosening, but a hot inflation print means the rate relief buyers are waiting for is moving further away, not closer. Price to today.",
     "local_news": ""
   },
   "sources": [
