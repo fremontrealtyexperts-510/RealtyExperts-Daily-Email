@@ -1,39 +1,39 @@
 {
-  "date": "05/29/26",
+  "date": "06/01/26",
   "time": "11:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4312ed00-267a-4097-90df-1c2f5c662e40",
-  "qr_code_path": "note-qr-4312ed00.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4fc3ae9d-4a87-49e7-b86a-95ced4bef85d",
+  "qr_code_path": "note-qr-4fc3ae9d.png",
   "stocks": {
-    "sp500": "7,563 (+0.58%)",
-    "dow": "50,668 (+0.05%)",
-    "nasdaq": "26,917 (+0.91%)",
-    "note": "Numbers as of market close on Thursday, May 28th.",
-    "news": "Software came roaring back Thursday. Snowflake (SNOW +36.48%) had the best day in its history, surging on a $6B compute deal with Amazon plus an earnings beat; ServiceNow (NOW +6.47%) and Palantir (PLTR +8.17%) rode the same wave. Turns out the AI trade still has a few moves left.\n\nThe Pentagon is reportedly taking equity stakes in U.S. drone makers, and the stocks went vertical: Unusual Machines (UMAC +57.20%), Kratos (KTOS +13.77%), and AeroVironment (AVAV +18.26%). One catch: Donald Trump Jr. is a shareholder in Unusual Machines, which all but guarantees a congressional look at any deal."
+    "sp500": "7,580 (+0.22%)",
+    "dow": "51,032 (+0.72%)",
+    "nasdaq": "26,973 (+0.20%)",
+    "note": "Numbers as of market close on Friday, May 29th.",
+    "news": "Citadel Securities just posted its best quarter ever, pulling in $4.3 billion, up 26% from a year ago as choppy markets kept trading volume high. As a market maker it earns its cut whether stocks rise, fall, or chop sideways, which is a good business to be in right now. Next up it is eyeing crypto, with plans to provide liquidity on exchanges like Coinbase (COIN +3.72%).\n\nDell (DELL +32.76%) had its best day ever Friday after AI server sales soared 757% to $16.1 billion. Profit landed at $4.86 a share against the $2.94 Wall Street expected, prompting Morgan Stanley to admit it was \"eating our humble pie.\" The AI trade keeps finding new ways to surprise the doubters."
   },
   "economy": {
-    "us10year": "4.43% (-0.02%)",
+    "us10year": "4.44% (-0.02%)",
     "gold": "$4,530 (-0.05%)",
-    "wti": "$88.70 (-0.2%)",
-    "note": "US 10-Year and Gold as of 4:00 PM ET Thursday, May 28th. WTI Crude reflects today's intraday move via investing.com.",
-    "commentary": "The inflation print is the story. Core PCE, the Fed's preferred gauge, rose to 3.3% annually in April, well above the 2% target. Wall Street's read: the Fed's next move is now more likely a hike than a cut. Consumer spending rose 0.5% while incomes stayed flat, dropping the savings rate to 2.6%, its lowest since 2022. Households are spending down their cushion.\n\nOil eased on reports of a possible Strait of Hormuz reopening. Brent slipped to $92.76 and WTI to $88.70, though Iran launched fresh attacks even as a deal was floated, so nobody is keeping the story straight yet. Gold held near $4,530."
+    "wti": "$91.12 (-1.58%)",
+    "oil_label": "Brent Crude",
+    "note": "US 10-Year and Gold as of 2:20 PM ET, Sunday, May 31st. Brent Crude via Market Briefs.",
+    "commentary": "The 10-year Treasury sits at 4.44%, but the forecasts are climbing. Deutsche Bank raised its year-end target to 4.70% from 4.45% and now expects the Fed, under new Chair Kevin Warsh, to stop cutting altogether. \"Higher for longer\" is moving from a warning to a base case.\n\nMeanwhile the people running companies are getting nervous. CEO confidence fell 12 points last quarter per the Conference Board, and nearly half say the economy is already worse than it was six months ago. The tell, though, is that 37% still plan to spend more on growth, so the wallets are not closing yet. Gold held flat at $4,530."
   },
   "crypto": {
-    "btc": "$73,300 (-0.23%)",
-    "eth": "$2,003 (-0.17%)",
-    "xrp": "$1.31 (-0.31%)",
-    "note": "Numbers as of 4:00 PM ET on Thursday, May 28th.",
-    "commentary": "Crypto drifted lower across the board, with BTC slipping under $73.5K. The notable story is regulatory: the CFTC asked a federal judge to throw out its own 2025 case against Gemini, the Winklevoss twins' exchange. When the regulator moves to dismiss its own enforcement action, that is the clearest sign yet of the policy thaw the industry has been waiting for."
+    "btc": "$73,728 (+0.06%)",
+    "eth": "$2,007 (-0.60%)",
+    "xrp": "$1.34 (-0.22%)",
+    "note": "Numbers as of 6:20 PM ET, Sunday, May 31st.",
+    "commentary": "Bitcoin spot ETFs bled $2.8 billion over nine days, the longest outflow streak since the funds launched in January 2024. The odd part is that stocks hit fresh highs the same week, and crypto usually moves with them, so this divergence is worth watching. Outflows can feed on themselves, with selling pressure dragging prices and lower prices triggering more selling.\n\nOn the brighter side, regulators cleared Kalshi to launch Bitcoin perpetual futures, the first U.S.-regulated version of a product that traded over $90 trillion offshore last year. The bets are getting bigger, and now they are legal."
   },
   "real_estate": {
     "rate_30year": "6.59%",
-    "rate_15year": "6.11%",
-    "homebuilder": "Rates Hold At 6.59% Into The Weekend; East Bay Board Builds A Third Day To 2,964 Active (216 New); SF Rents Tie NYC As Priciest In The Nation",
-    "commentary": "The 30-year fixed is flat at 6.59%, the 15-year at 6.11%, a quiet end to the week on rates. The bigger rate story is brewing in the data: Core PCE ticked up to 3.3% (more in Economy), and the market is now leaning toward the Fed's next move being a hike, not a cut. The buyer waiting for lower rates is waiting on something that may not arrive.\n\nLocal board: 2,964 active (up 21 from yesterday), 216 new listings (up 23), 216 closed sales. New supply and closings ran dead even at 216 each, so the board keeps building but it is clearing what it adds.\n\nNational: San Francisco just tied New York as the most expensive rental market in the country, both at $5,500 a month for a 2-bedroom (see chart below). The driver is AI hiring at OpenAI, Anthropic, and the rest, which pushed SF rents up 20-25% in a year with vacancy down near 3.3%. The robots aren't taking the jobs so much as taking the apartments. Separately, Florida's governor wants to scrap property taxes for 60% of homeowners by raising the homestead exemption to $250,000.\n\n📍 Alameda & Contra Costa Snapshot (05/29/26)\n\n📍 Fremont: 21 new (up 1 from yesterday).\n\n📍 Union City: 6 new (up 1).\n\n📍 Newark: 6 new (flat).\n\n📍 Hayward: 15 new (up 1).\n\n📍 Danville: 17 new (up 2).\n\n📍 Milpitas: 3 new (up 3).\n\n📍 Oakland: 49 new (down 1, still board leader at 793 active).\n\n📍 Livermore: 26 new (up 3).\n\n📍 Castro Valley: 10 new (up 2).\n\n📍 Pleasanton: 11 new (up 5, biggest single-city add).\n\n📍 San Ramon: 22 new (up 1).\n\n📍 Dublin: 16 new (up 4).\n\n📍 Sunol: 1 new (flat).\n\n📍 San Lorenzo: 5 new (flat).\n\n📍 San Leandro: 8 new (up 1).\n\n13 of 15 cities added or held, led by Pleasanton (+5) and Dublin (+4). Broad-based supply growth.\n\nFor agents: three straight days of board growth with closings keeping pace. Inventory is loosening, but a hot inflation print means the rate relief buyers are waiting for is moving further away, not closer. Price to today.",
+    "rate_15year": "6.09%",
+    "homebuilder": "Rates Hold At 6.59% For A Third Day As Wall Street Bets \"Higher For Longer\"; East Bay Board Eases To 2,915 Active On A 280-New Monday",
+    "commentary": "The 30-year fixed is holding at 6.59% for a third straight day, with the 15-year at 6.09%. The bigger story is the one Wall Street is now saying out loud: Deutsche Bank just raised its year-end forecast for the 10-year Treasury to 4.70% and says the Fed, under new Chair Kevin Warsh, is done cutting (more in Economy). The buyer sitting on the sidelines waiting for a big rate drop may be playing a long game that does not pay off.\n\nLocal board: 2,915 active, down 49 from Friday, on 280 new listings and 212 closed sales. That is the Monday refresh with the weekend's new supply now posted, and it is the biggest one-day new count we have seen in weeks.\n\nTwo national notes worth passing along. First, \"buy before you sell\" is getting easier: firms like Flyhomes and HomeLight will now buy your current home so you can qualify for the next loan without carrying two payments, which matters when roughly 60% of sellers are buyers too. Second, the grind is real, with four years of high rates thinning the agent ranks. NAR membership is down to 1.4 million from 1.6 million in 2022 and the sales pace is the slowest since 1982. The agents still standing are the ones who adapted.\n\n📍 Alameda & Contra Costa Snapshot (06/01/26, new listings vs Friday)\n\n📍 Fremont: 29 new (up 8).\n\n📍 Union City: 13 new (up 7).\n\n📍 Newark: 6 new (flat).\n\n📍 Hayward: 26 new (up 11).\n\n📍 Danville: 20 new (up 3).\n\n📍 Milpitas: 3 new (flat).\n\n📍 Oakland: 61 new (up 12, still board leader at 778 active).\n\n📍 Livermore: 28 new (up 2).\n\n📍 Castro Valley: 9 new (down 1).\n\n📍 Pleasanton: 12 new (up 1).\n\n📍 San Ramon: 31 new (up 9).\n\n📍 Dublin: 22 new (up 6).\n\n📍 Sunol: 1 new (flat).\n\n📍 San Lorenzo: 5 new (flat).\n\n📍 San Leandro: 14 new (up 6).\n\n10 of 15 cities added new listings over the weekend, 4 held flat, and only Castro Valley dipped. The surge was led by Oakland (+12) and Hayward (+11).\n\nFor agents: inventory is building at the top of the week while rates look stuck near 6.6% and the smart money bets they stay there. Do not sell buyers on a rate cut that may not come, sell them on the home and price it to today's market.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "https://www.investing.com/commodities/crude-oil",
     "https://market.briefs.co/"
   ]
 }
