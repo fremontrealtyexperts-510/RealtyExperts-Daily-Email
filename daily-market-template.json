@@ -1,35 +1,35 @@
 {
-  "date": "06/01/26",
-  "time": "11:00",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4fc3ae9d-4a87-49e7-b86a-95ced4bef85d",
-  "qr_code_path": "note-qr-4fc3ae9d.png",
+  "date": "06/02/26",
+  "time": "12:30 PM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/b27e91c8-1cac-4bb4-b777-533709b87b67",
+  "qr_code_path": "note-qr-b27e91c8.png",
   "stocks": {
-    "sp500": "7,580 (+0.22%)",
-    "dow": "51,032 (+0.72%)",
-    "nasdaq": "26,973 (+0.20%)",
-    "note": "Numbers as of market close on Friday, May 29th.",
-    "news": "Citadel Securities just posted its best quarter ever, pulling in $4.3 billion, up 26% from a year ago as choppy markets kept trading volume high. As a market maker it earns its cut whether stocks rise, fall, or chop sideways, which is a good business to be in right now. Next up it is eyeing crypto, with plans to provide liquidity on exchanges like Coinbase (COIN +3.72%).\n\nDell (DELL +32.76%) had its best day ever Friday after AI server sales soared 757% to $16.1 billion. Profit landed at $4.86 a share against the $2.94 Wall Street expected, prompting Morgan Stanley to admit it was \"eating our humble pie.\" The AI trade keeps finding new ways to surprise the doubters."
+    "sp500": "7,600 (+0.26%)",
+    "dow": "51,079 (+0.09%)",
+    "nasdaq": "27,067 (+0.42%)",
+    "note": "Numbers as of market close on Monday, June 1st.",
+    "news": "The 1990s called and they want their stock gains back. Seven dot-com-era names, including Dell (DELL +10.45%), Micron (MU +6.56%), and Intel (INTC -4.67%), have piled on a combined $1.7 trillion in value this year, up an average of 158%, for the simple reason that AI runs on the servers, memory, and networking gear these are among the only companies still making.\n\nThe software side caught the updraft too: ServiceNow (NOW +9.21%) and Adobe (ADBE +5.72%) rallied on Nvidia's (NVDA +6.26%) new chip launch, the logic being that cheaper, faster hardware lets more companies afford their AI tools. The catch is that next quarter's earnings actually have to show the AI revenue to justify it."
   },
   "economy": {
-    "us10year": "4.44% (-0.02%)",
-    "gold": "$4,530 (-0.05%)",
-    "wti": "$91.12 (-1.58%)",
+    "us10year": "4.46% (+0.00%)",
+    "gold": "$4,513 (+1.73%)",
+    "wti": "$95.32 (+4.11%)",
     "oil_label": "Brent Crude",
-    "note": "US 10-Year and Gold as of 2:20 PM ET, Sunday, May 31st. Brent Crude via Market Briefs.",
-    "commentary": "The 10-year Treasury sits at 4.44%, but the forecasts are climbing. Deutsche Bank raised its year-end target to 4.70% from 4.45% and now expects the Fed, under new Chair Kevin Warsh, to stop cutting altogether. \"Higher for longer\" is moving from a warning to a base case.\n\nMeanwhile the people running companies are getting nervous. CEO confidence fell 12 points last quarter per the Conference Board, and nearly half say the economy is already worse than it was six months ago. The tell, though, is that 37% still plan to spend more on growth, so the wallets are not closing yet. Gold held flat at $4,530."
+    "note": "US 10-Year and Gold as of 4:15 PM ET, Monday, June 1st. Brent Crude via Market Briefs.",
+    "commentary": "America's factories are running hot. The ISM manufacturing index hit 54 in May, its best reading since 2022 and a fifth straight month in growth territory, as AI spending drives demand for electrical equipment and new tax rules make it cheaper to build. The one wrinkle: pricier oil and firmer inflation suggest some of that activity is buyers stocking up before costs climb further.\n\nAnd costs may climb. Iran walked out of talks over Israeli strikes in Lebanon, sending Brent crude up 4.2%, its biggest one-day jump in a month, to $95.32. Tehran is now threatening the Bab el-Mandeb strait on top of Hormuz; close both and tankers add 15 days routing around Africa. The 10-year Treasury held at 4.46% and gold firmed to $4,513."
   },
   "crypto": {
-    "btc": "$73,728 (+0.06%)",
-    "eth": "$2,007 (-0.60%)",
-    "xrp": "$1.34 (-0.22%)",
-    "note": "Numbers as of 6:20 PM ET, Sunday, May 31st.",
-    "commentary": "Bitcoin spot ETFs bled $2.8 billion over nine days, the longest outflow streak since the funds launched in January 2024. The odd part is that stocks hit fresh highs the same week, and crypto usually moves with them, so this divergence is worth watching. Outflows can feed on themselves, with selling pressure dragging prices and lower prices triggering more selling.\n\nOn the brighter side, regulators cleared Kalshi to launch Bitcoin perpetual futures, the first U.S.-regulated version of a product that traded over $90 trillion offshore last year. The bets are getting bigger, and now they are legal."
+    "btc": "$71,476 (-2.86%)",
+    "eth": "$2,002 (-0.12%)",
+    "xrp": "$1.30 (-2.64%)",
+    "note": "Numbers as of 4:00 PM ET, Monday, June 1st.",
+    "commentary": "Bitcoin slipped below $72,000 (-2.86%) after Strategy (MSTR -5.85%) sold 32 coins on Monday, its first sale in nearly four years, and the market reacted to the $2.5 million trade like a five-alarm fire. The sale simply funds dividend payments on its 11.5%-yield preferred stock, but old habits die hard.\n\nThe bigger story was structural: Paxos became the first blockchain firm cleared by the SEC to settle U.S. stock trades, potentially shrinking settlement from hours to minutes and paving the way for stocks and bonds to trade like digital tokens."
   },
   "real_estate": {
-    "rate_30year": "6.59%",
-    "rate_15year": "6.09%",
-    "homebuilder": "Rates Hold At 6.59% For A Third Day As Wall Street Bets \"Higher For Longer\"; East Bay Board Eases To 2,915 Active On A 280-New Monday",
-    "commentary": "The 30-year fixed is holding at 6.59% for a third straight day, with the 15-year at 6.09%. The bigger story is the one Wall Street is now saying out loud: Deutsche Bank just raised its year-end forecast for the 10-year Treasury to 4.70% and says the Fed, under new Chair Kevin Warsh, is done cutting (more in Economy). The buyer sitting on the sidelines waiting for a big rate drop may be playing a long game that does not pay off.\n\nLocal board: 2,915 active, down 49 from Friday, on 280 new listings and 212 closed sales. That is the Monday refresh with the weekend's new supply now posted, and it is the biggest one-day new count we have seen in weeks.\n\nTwo national notes worth passing along. First, \"buy before you sell\" is getting easier: firms like Flyhomes and HomeLight will now buy your current home so you can qualify for the next loan without carrying two payments, which matters when roughly 60% of sellers are buyers too. Second, the grind is real, with four years of high rates thinning the agent ranks. NAR membership is down to 1.4 million from 1.6 million in 2022 and the sales pace is the slowest since 1982. The agents still standing are the ones who adapted.\n\n📍 Alameda & Contra Costa Snapshot (06/01/26, new listings vs Friday)\n\n📍 Fremont: 29 new (up 8).\n\n📍 Union City: 13 new (up 7).\n\n📍 Newark: 6 new (flat).\n\n📍 Hayward: 26 new (up 11).\n\n📍 Danville: 20 new (up 3).\n\n📍 Milpitas: 3 new (flat).\n\n📍 Oakland: 61 new (up 12, still board leader at 778 active).\n\n📍 Livermore: 28 new (up 2).\n\n📍 Castro Valley: 9 new (down 1).\n\n📍 Pleasanton: 12 new (up 1).\n\n📍 San Ramon: 31 new (up 9).\n\n📍 Dublin: 22 new (up 6).\n\n📍 Sunol: 1 new (flat).\n\n📍 San Lorenzo: 5 new (flat).\n\n📍 San Leandro: 14 new (up 6).\n\n10 of 15 cities added new listings over the weekend, 4 held flat, and only Castro Valley dipped. The surge was led by Oakland (+12) and Hayward (+11).\n\nFor agents: inventory is building at the top of the week while rates look stuck near 6.6% and the smart money bets they stay there. Do not sell buyers on a rate cut that may not come, sell them on the home and price it to today's market.",
+    "rate_30year": "6.57%",
+    "rate_15year": "6.10%",
+    "homebuilder": "Mortgage Rates Ease To 6.57% Even As Factory Data Heats Up; East Bay Inventory Slips To 2,909 Active On A Quieter 255-New Tuesday",
+    "commentary": "The 30-year fixed eased two basis points to 6.57%, with the 15-year at 6.10%. It is small relief, and the macro backdrop is pulling the other way: strong factory data and a fresh oil spike (see Economy) keep upward pressure on the inflation story that drives rates. The buyer waiting on the sidelines for a dramatic drop may be waiting a while.\n\nLocally, the East Bay board sits at 2,909 active, down a hair from Monday's 2,915, on 255 new listings and 217 closed sales. That is the Tuesday cool-down after the weekend backlog cleared on Monday: new supply pulled back across most cities while buyers kept right on closing.\n\nTwo national notes worth passing along. Berkshire Hathaway's new CEO Greg Abel made his first big move, a $6.8 billion deal for homebuilder Taylor Morrison (350+ communities across 12 states), signaling that Buffett's successor is willing to spend the $397 billion cash pile and that he likes housing. Separately, warehouse landlords are regaining the upper hand as supply tightens; the share of landlord-friendly markets in the Americas could jump from 17% to 46% by 2029.\n\n📍 Alameda & Contra Costa Snapshot (06/02/26, new listings vs Monday)\n\n📍 Fremont: 30 new (up 1).\n\n📍 Union City: 10 new (down 3).\n\n📍 Newark: 6 new (flat).\n\n📍 Hayward: 29 new (up 3).\n\n📍 Danville: 18 new (down 2).\n\n📍 Milpitas: 3 new (flat).\n\n📍 Oakland: 54 new (down 7, still board leader at 771 active).\n\n📍 Livermore: 25 new (down 3).\n\n📍 Castro Valley: 6 new (down 3).\n\n📍 Pleasanton: 9 new (down 3).\n\n📍 San Ramon: 28 new (down 3).\n\n📍 Dublin: 22 new (flat).\n\n📍 Sunol: 0 new (down 1).\n\n📍 San Lorenzo: 2 new (down 3).\n\n📍 San Leandro: 13 new (down 1).\n\nNew-listing flow cooled after Monday: 2 cities added supply (Fremont, Hayward), 3 held flat, and 10 eased back, a normal mid-week breather rather than a trend.\n\nFor agents: supply ticked down and so did rates, but do not oversell the rate move. 6.57% is two basis points, not a turning point, and the economy is leaning the other way. Price to today's market and lean on the closings: 217 homes still changed hands.",
     "local_news": ""
   },
   "sources": [
