@@ -1,35 +1,35 @@
 {
-  "date": "06/02/26",
-  "time": "12:30 PM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/b27e91c8-1cac-4bb4-b777-533709b87b67",
-  "qr_code_path": "note-qr-b27e91c8.png",
+  "date": "06/03/26",
+  "time": "9:30 AM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/f1ede169-d9ed-47f4-bd7e-4ff9e020b3e8",
+  "qr_code_path": "note-qr-f1ede169.png",
   "stocks": {
-    "sp500": "7,600 (+0.26%)",
-    "dow": "51,079 (+0.09%)",
-    "nasdaq": "27,067 (+0.42%)",
-    "note": "Numbers as of market close on Monday, June 1st.",
-    "news": "The 1990s called and they want their stock gains back. Seven dot-com-era names, including Dell (DELL +10.45%), Micron (MU +6.56%), and Intel (INTC -4.67%), have piled on a combined $1.7 trillion in value this year, up an average of 158%, for the simple reason that AI runs on the servers, memory, and networking gear these are among the only companies still making.\n\nThe software side caught the updraft too: ServiceNow (NOW +9.21%) and Adobe (ADBE +5.72%) rallied on Nvidia's (NVDA +6.26%) new chip launch, the logic being that cheaper, faster hardware lets more companies afford their AI tools. The catch is that next quarter's earnings actually have to show the AI revenue to justify it."
+    "sp500": "7,610 (+0.13%)",
+    "dow": "51,308 (+0.45%)",
+    "nasdaq": "27,094 (+0.03%)",
+    "note": "Numbers as of market close on Tuesday, June 2nd.",
+    "news": "Two very different companies popped on earnings. Hewlett Packard Enterprise (HPE +19.47%) lifted its sales outlook as AI-server demand surged, with its networking arm up 148% after swallowing Juniper. And Victoria's Secret (+47.44%) soared on a profit beat — after years of losing shoppers to Skims and Aerie, one good quarter has investors looking again.\n\nThe AI trade kept its swagger too. Nvidia (NVDA -0.69%) CEO Jensen Huang publicly predicted that Marvell Technology (MRVL +32.52%) will become the next trillion-dollar company — roughly a 5x move from here — and the stock promptly popped. One detail worth keeping in mind: Nvidia owns a ~$2 billion stake in Marvell, so it is talking up a position it already holds."
   },
   "economy": {
-    "us10year": "4.46% (+0.00%)",
-    "gold": "$4,513 (+1.73%)",
-    "wti": "$95.32 (+4.11%)",
+    "us10year": "4.45% (-0.03%)",
+    "gold": "$4,518 (+0.26%)",
+    "wti": "$95.84 (+0.88%)",
     "oil_label": "Brent Crude",
-    "note": "US 10-Year and Gold as of 4:15 PM ET, Monday, June 1st. Brent Crude via Market Briefs.",
-    "commentary": "America's factories are running hot. The ISM manufacturing index hit 54 in May, its best reading since 2022 and a fifth straight month in growth territory, as AI spending drives demand for electrical equipment and new tax rules make it cheaper to build. The one wrinkle: pricier oil and firmer inflation suggest some of that activity is buyers stocking up before costs climb further.\n\nAnd costs may climb. Iran walked out of talks over Israeli strikes in Lebanon, sending Brent crude up 4.2%, its biggest one-day jump in a month, to $95.32. Tehran is now threatening the Bab el-Mandeb strait on top of Hormuz; close both and tankers add 15 days routing around Africa. The 10-year Treasury held at 4.46% and gold firmed to $4,513."
+    "note": "US 10-Year and Gold as of 5:00 PM ET, Tuesday, June 2nd. Brent Crude via Market Briefs.",
+    "commentary": "The labor market is sending mixed signals. Job openings jumped to 7.6 million in April, the highest since May 2024 — but hiring in the same month fell by 419,000 to 5.12 million. Those two usually move together, so the gap suggests employers are posting roles they are not actually filling.\n\nThe mood in the C-suite is cooling to match. The Conference Board's quarterly survey of 141 CEOs flipped from optimistic to pessimistic in a single quarter: only 15% now say the economy is in better shape than six months ago, down from 39% last quarter. And it is showing up in plans — 31% intend to cut headcount over the next year, against just 28% looking to add. The 10-year Treasury eased to 4.45% and gold firmed to $4,518."
   },
   "crypto": {
-    "btc": "$71,476 (-2.86%)",
-    "eth": "$2,002 (-0.12%)",
-    "xrp": "$1.30 (-2.64%)",
-    "note": "Numbers as of 4:00 PM ET, Monday, June 1st.",
-    "commentary": "Bitcoin slipped below $72,000 (-2.86%) after Strategy (MSTR -5.85%) sold 32 coins on Monday, its first sale in nearly four years, and the market reacted to the $2.5 million trade like a five-alarm fire. The sale simply funds dividend payments on its 11.5%-yield preferred stock, but old habits die hard.\n\nThe bigger story was structural: Paxos became the first blockchain firm cleared by the SEC to settle U.S. stock trades, potentially shrinking settlement from hours to minutes and paving the way for stocks and bonds to trade like digital tokens."
+    "btc": "$67,550 (-5.28%)",
+    "eth": "$1,904 (-4.90%)",
+    "xrp": "$1.22 (-5.61%)",
+    "note": "Numbers as of 5:05 PM ET, Tuesday, June 2nd.",
+    "commentary": "Crypto had a rough session, with Bitcoin sliding 5.3% to $67,550 and the majors down right alongside it. The noise wasn't only price: JPMorgan (JPM +1.45%) CEO Jamie Dimon, a longtime advocate for tighter crypto rules, took aim at Coinbase's CEO over the industry-backed CLARITY Act. Dimon's line is simple — if a crypto firm takes deposits like a bank, it should be regulated like one.\n\nMeanwhile, crypto is quietly encroaching on Wall Street's turf. A tool called perpetuals (‘perps’) — bets that never expire — is pulling volume from traditional exchanges and spreading into oil, stocks, even private names like SpaceX, per a TD Securities report. In one telling example, with oil markets closed over a weekend, crypto venue Hyperliquid called roughly 80% of the next move before the CME (CME -2.80%) even reopened."
   },
   "real_estate": {
     "rate_30year": "6.57%",
     "rate_15year": "6.10%",
-    "homebuilder": "Mortgage Rates Ease To 6.57% Even As Factory Data Heats Up; East Bay Inventory Slips To 2,909 Active On A Quieter 255-New Tuesday",
-    "commentary": "The 30-year fixed eased two basis points to 6.57%, with the 15-year at 6.10%. It is small relief, and the macro backdrop is pulling the other way: strong factory data and a fresh oil spike (see Economy) keep upward pressure on the inflation story that drives rates. The buyer waiting on the sidelines for a dramatic drop may be waiting a while.\n\nLocally, the East Bay board sits at 2,909 active, down a hair from Monday's 2,915, on 255 new listings and 217 closed sales. That is the Tuesday cool-down after the weekend backlog cleared on Monday: new supply pulled back across most cities while buyers kept right on closing.\n\nTwo national notes worth passing along. Berkshire Hathaway's new CEO Greg Abel made his first big move, a $6.8 billion deal for homebuilder Taylor Morrison (350+ communities across 12 states), signaling that Buffett's successor is willing to spend the $397 billion cash pile and that he likes housing. Separately, warehouse landlords are regaining the upper hand as supply tightens; the share of landlord-friendly markets in the Americas could jump from 17% to 46% by 2029.\n\n📍 Alameda & Contra Costa Snapshot (06/02/26, new listings vs Monday)\n\n📍 Fremont: 30 new (up 1).\n\n📍 Union City: 10 new (down 3).\n\n📍 Newark: 6 new (flat).\n\n📍 Hayward: 29 new (up 3).\n\n📍 Danville: 18 new (down 2).\n\n📍 Milpitas: 3 new (flat).\n\n📍 Oakland: 54 new (down 7, still board leader at 771 active).\n\n📍 Livermore: 25 new (down 3).\n\n📍 Castro Valley: 6 new (down 3).\n\n📍 Pleasanton: 9 new (down 3).\n\n📍 San Ramon: 28 new (down 3).\n\n📍 Dublin: 22 new (flat).\n\n📍 Sunol: 0 new (down 1).\n\n📍 San Lorenzo: 2 new (down 3).\n\n📍 San Leandro: 13 new (down 1).\n\nNew-listing flow cooled after Monday: 2 cities added supply (Fremont, Hayward), 3 held flat, and 10 eased back, a normal mid-week breather rather than a trend.\n\nFor agents: supply ticked down and so did rates, but do not oversell the rate move. 6.57% is two basis points, not a turning point, and the economy is leaning the other way. Price to today's market and lean on the closings: 217 homes still changed hands.",
+    "homebuilder": "Mortgage Rates Hold At 6.57% As Job Openings Climb And Hiring Cools; East Bay Inventory Eases To 2,849 Active On A Lighter 210-New Wednesday",
+    "commentary": "The 30-year fixed held at 6.57%, with the 15-year at 6.10% — a second straight day with no move. The data underneath is a tug-of-war: April job openings jumped to a one-year high even as hiring slipped and CEOs turned more cautious (see Economy), while the 10-year eased to 4.45%. None of it is decisive enough to pull rates meaningfully either way, so the buyer waiting for a dramatic drop is still waiting.\n\nLocally, the East Bay board eased to 2,849 active, down 60 from Tuesday's 2,909, on a lighter 210 new listings and 216 closed sales. New supply pulled back broadly midweek while buyers kept right on closing at almost exactly yesterday's pace.\n\nTwo national notes worth passing along. Bill Pulte — who runs the Federal Housing Finance Agency and chairs Fannie Mae and Freddie Mac, the pair backing more than $10 trillion in U.S. mortgages — was named acting Director of National Intelligence while keeping his housing job. He is the same official who has pushed to lower mortgage rates and floated the idea of a 50-year mortgage. Separately, investors are piling into healthcare real estate: the deals are big, the cash flow is steady, and aging-population demand isn't going anywhere.\n\n📍 Alameda & Contra Costa Snapshot (06/03/26, new listings vs Tuesday)\n\n📍 Fremont: 28 new (down 2).\n\n📍 Union City: 8 new (down 2).\n\n📍 Newark: 2 new (down 4).\n\n📍 Hayward: 23 new (down 6).\n\n📍 Danville: 13 new (down 5).\n\n📍 Milpitas: 3 new (flat).\n\n📍 Oakland: 47 new (down 7, still board leader at 758 active).\n\n📍 Livermore: 13 new (down 12).\n\n📍 Castro Valley: 6 new (flat).\n\n📍 Pleasanton: 11 new (up 2).\n\n📍 San Ramon: 20 new (down 8).\n\n📍 Dublin: 22 new (flat).\n\n📍 Sunol: 0 new (flat).\n\n📍 San Lorenzo: 1 new (down 1).\n\n📍 San Leandro: 13 new (flat).\n\nNew-listing flow cooled across the board: just 1 city added supply (Pleasanton), 5 held flat, and 9 eased back — a quiet midweek breather that pulled the daily total to 210 from Tuesday's 255.\n\nFor agents: inventory is sliding and new supply thinned out, but rates didn't budge and the economic signals are crosswise. Don't sell the flat rate as momentum. Price to today's market and lean on the closings — 216 homes still changed hands.",
     "local_news": ""
   },
   "sources": [
