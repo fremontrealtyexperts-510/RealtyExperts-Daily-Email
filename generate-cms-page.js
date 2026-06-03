@@ -18,7 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 const { getAccessToken, getSheetValues, SCOPES } = require('./lib/google-sa');
-const { TEMPLATE_PATH } = require('./lib/config');
+const { TEMPLATE_PATH, GITHUB_PAGES_BASE } = require('./lib/config');
 
 const SHEET_ID = '1YxbK29giJO6XDQAV3RHXml2vjMejmtBpZfD3ICW_gTw';
 const REV2_RANGE = 'RE-v2!A1:Z40';
@@ -87,7 +87,7 @@ async function readRev2() {
   return parseRev2(rows);
 }
 
-function chartScript(inventory) {
+function chartInnerJs(inventory) {
   const traces = inventory.map(({ city, values }) => ({
     name: city, x: CATS, y: values, type: 'bar',
     visible: DEFAULT_VISIBLE.includes(city) ? true : 'legendonly',
@@ -103,15 +103,16 @@ function chartScript(inventory) {
     barmode: 'group', bargap: 0.15, bargroupgap: 0.1, margin: { l: 60, r: 20, t: 70, b: 120 }, font: { family: 'Arial, sans-serif' }, transition: { duration: 500, easing: 'cubic-in-out' },
   };
   const config = { displayModeBar: true, displaylogo: false, modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d'], toImageButtonOptions: { format: 'png', filename: 'realty_experts_inventory', height: 800, width: 1400, scale: 2 }, responsive: true };
-  return `<script>
-        var data = ${JSON.stringify(traces)};
-        var layout = ${JSON.stringify(layout)};
-        var config = ${JSON.stringify(config)};
-        function getResponsiveLayout(){var w=window.innerWidth;var u=JSON.parse(JSON.stringify(layout));if(w<600){u.height=500;u.margin={l:40,r:10,t:50,b:140};u.title.font.size=16;u.xaxis.tickfont={size:10};u.yaxis.tickfont={size:10};u.legend.font={size:9};u.legend.y=-0.28;u.bargap=0.1;u.bargroupgap=0.05;}else if(w<900){u.height=600;u.margin={l:50,r:15,t:60,b:130};u.title.font.size=20;u.legend.font={size:10};u.legend.y=-0.22;}return u;}
-        Plotly.newPlot('chart', data, getResponsiveLayout(), config);
-        window.addEventListener('resize', function(){ Plotly.relayout('chart', getResponsiveLayout()); });
-        document.getElementById('chart').on('plotly_legendclick', function(d){ return true; });
-    </script>`;
+  // Emitted to an EXTERNAL .js file (alameda-chart-MMDDYY.js) and referenced via
+  // <script src>. Drupal strips INLINE <script> from the node body but keeps
+  // external src tags — so the chart only renders when its data lives in a
+  // hosted file. No HTML-escaping needed here (the file is never HTML-filtered).
+  return `var data = ${JSON.stringify(traces)};
+var layout = ${JSON.stringify(layout)};
+var config = ${JSON.stringify(config)};
+function getResponsiveLayout(){var w=window.innerWidth;var u=JSON.parse(JSON.stringify(layout));if(w<600){u.height=500;u.margin={l:40,r:10,t:50,b:140};u.title.font.size=16;u.xaxis.tickfont={size:10};u.yaxis.tickfont={size:10};u.legend.font={size:9};u.legend.y=-0.28;u.bargap=0.1;u.bargroupgap=0.05;}else if(w<900){u.height=600;u.margin={l:50,r:15,t:60,b:130};u.title.font.size=20;u.legend.font={size:10};u.legend.y=-0.22;}return u;}
+function drawChart(){Plotly.newPlot('chart', data, getResponsiveLayout(), config).then(function(){var el=document.getElementById('chart');if(el&&el.on){el.on('plotly_legendclick',function(d){return true;});}});window.addEventListener('resize',function(){Plotly.relayout('chart', getResponsiveLayout());});}
+if(window.Plotly){drawChart();}else{document.addEventListener('DOMContentLoaded',drawChart);}`;
 }
 
 const STYLE_BLOCK = `<style type="text/css">* { box-sizing: border-box; }
@@ -140,7 +141,7 @@ const STYLE_BLOCK = `<style type="text/css">* { box-sizing: border-box; }
 </style>`;
 
 /** Assemble the full standalone CMS page. `newsletterInner` is the inner HTML of .newsletter-container. */
-function buildCmsHtml({ dateLabel, inventory, newsletterInner }) {
+function buildCmsHtml({ dateLabel, chartSrc, newsletterInner }) {
   const banner = DEFAULT_VISIBLE.join(', ');
   return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title></title>
@@ -152,10 +153,11 @@ ${STYLE_BLOCK}
 <div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: ${banner}</div>
 
 <div id="chart">&nbsp;</div>
-${chartScript(inventory)}
 
 <div class="newsletter-container">
 ${newsletterInner}</div>
+
+<script src="${chartSrc}"></script>
 `;
 }
 
@@ -204,14 +206,18 @@ async function generateCmsPage({ date, content, outHtml, outMeta, inventory }) {
   if (!content || !content.newsletter_html) throw new Error('cms content missing newsletter_html');
   if (!meta.description || !meta.keywords) throw new Error('cms content missing meta.description / meta.keywords');
 
-  const html = buildCmsHtml({ dateLabel: label, inventory: inv, newsletterInner: content.newsletter_html });
+  const chartJsName = `alameda-chart-${short}.js`;
+  const chartSrc = `${GITHUB_PAGES_BASE}/${chartJsName}`;
+  const html = buildCmsHtml({ dateLabel: label, chartSrc, newsletterInner: content.newsletter_html });
   const metaTxt = buildMeta({ date, year, copyright: meta.copyright, description: meta.description, keywords: meta.keywords, robots: meta.robots });
 
   const htmlPath = outHtml || path.join(__dirname, `alameda-interactive-${short}.html`);
   const metaPath = outMeta || path.join(__dirname, `cms-meta-${short}.txt`);
+  const chartJsPath = path.join(path.dirname(htmlPath), chartJsName);
   fs.writeFileSync(htmlPath, html);
   fs.writeFileSync(metaPath, metaTxt);
-  return { cities: inv.length, htmlBytes: html.length, htmlPath, metaPath };
+  fs.writeFileSync(chartJsPath, chartInnerJs(inv));
+  return { cities: inv.length, htmlBytes: html.length, htmlPath, metaPath, chartJsPath };
 }
 
 // ── CLI ──────────────────────────────────────────────────────────────────────
@@ -233,7 +239,7 @@ if (require.main === module) {
   catch (e) { console.error(`Could not read cms content at ${contentPath}: ${e.message}`); process.exit(1); }
 
   generateCmsPage({ date, content, outHtml, outMeta })
-    .then(r => console.log(`wrote ${path.basename(r.htmlPath)} (${r.cities} cities, ${r.htmlBytes} bytes) + ${path.basename(r.metaPath)}`))
+    .then(r => console.log(`wrote ${path.basename(r.htmlPath)} (${r.cities} cities, ${r.htmlBytes} bytes) + ${path.basename(r.metaPath)} + ${path.basename(r.chartJsPath)}`))
     .catch(err => { console.error('Error:', err.message); process.exit(1); });
 }
 

@@ -1,0 +1,125 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 3, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.57%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.10%</strong></p>
+
+<p>The 30-year held at <strong>6.57%</strong>, the 15-year at <strong>6.10%</strong> &mdash; a second straight day with no move. The data underneath is a tug-of-war: April job openings jumped to a one-year high even as hiring slipped and CEOs turned more cautious, while the 10-year eased to 4.45%. None of it is decisive enough to move rates much, so the buyer waiting on the sidelines for a dramatic drop may be waiting a while.</p>
+
+<p>Local board: <strong>2,849 active</strong> (down 60 from Tuesday), <strong>210 new listings</strong>, <strong>216 closed sales</strong>. New supply pulled back broadly midweek while buyers kept right on closing at almost exactly yesterday&rsquo;s pace.</p>
+
+<p><strong>National:</strong> <strong>Bill Pulte</strong> &mdash; who runs the Federal Housing Finance Agency and chairs Fannie Mae and Freddie Mac, the pair backing more than <strong>$10 trillion</strong> in U.S. mortgages &mdash; was named acting Director of National Intelligence while keeping his housing job. He is the same official who has pushed to lower mortgage rates and floated the idea of a 50-year mortgage.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 28 new / 359 active (down 2)</li>
+    <li><strong>Milpitas:</strong> 3 new (flat)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 23 new (down 6)</li>
+    <li><strong>Newark:</strong> 2 new (down 4)</li>
+    <li><strong>Union City:</strong> 8 new (down 2)</li>
+    <li><strong>San Leandro:</strong> 13 new (flat)</li>
+    <li><strong>San Lorenzo:</strong> 1 new (down 1)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 13 new (down 12)</li>
+    <li><strong>San Ramon:</strong> 20 new (down 8)</li>
+    <li><strong>Dublin:</strong> 22 new (flat)</li>
+    <li><strong>Pleasanton:</strong> 11 new (up 2)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 47 new / 758 active (volume leader)</li>
+    <li><strong>Danville:</strong> 13 new (down 5)</li>
+    <li><strong>Castro Valley:</strong> 6 new (flat)</li>
+    <li><strong>Sunol:</strong> 0 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,610</strong> &nbsp;|&nbsp; DOW: <strong>51,308</strong> &nbsp;|&nbsp; NASDAQ: <strong>27,094</strong></p>
+
+<p>Two very different companies popped on earnings. <strong>Hewlett Packard Enterprise (HPE +19.47%)</strong> lifted its sales outlook as AI-server demand surged, its networking arm up 148% after swallowing Juniper. And <strong>Victoria&rsquo;s Secret (+47.44%)</strong> soared on a profit beat &mdash; after years of losing shoppers to Skims and Aerie, one good quarter has investors looking again.</p>
+
+<p>The AI trade kept its swagger, too. <strong>Nvidia (NVDA -0.69%)</strong> CEO Jensen Huang publicly predicted that <strong>Marvell Technology (MRVL +32.52%)</strong> will become the next trillion-dollar company &mdash; roughly a 5x move &mdash; and the stock promptly popped. One detail worth keeping in mind: Nvidia owns a ~$2 billion stake in Marvell.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.45%</strong> &nbsp;|&nbsp; Gold: <strong>$4,518</strong> &nbsp;|&nbsp; Brent Crude: <strong>$95.84</strong></p>
+
+<p>The labor market is sending mixed signals. <strong>Job openings jumped to 7.6 million in April</strong>, the highest since May 2024 &mdash; but hiring in the same month fell by 419,000 to 5.12 million. Those two usually move together, so the gap suggests employers are posting roles they are not actually filling.</p>
+
+<p>The mood in the C-suite is cooling to match. The Conference Board&rsquo;s survey of 141 CEOs flipped from optimistic to pessimistic in a single quarter: only <strong>15% now say the economy is in better shape</strong> than six months ago, down from 39%. And 31% intend to cut headcount over the next year, against just 28% looking to add. Gold firmed to $4,518.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$67,550</strong> &nbsp;|&nbsp; ETH: <strong>$1,904</strong> &nbsp;|&nbsp; XRP: <strong>$1.22</strong></p>
+
+<p>Crypto had a rough session, with <strong>Bitcoin sliding 5.3% to $67,550</strong> and the majors down alongside it. JPMorgan (JPM +1.45%) CEO Jamie Dimon, a longtime advocate for tighter crypto rules, took aim at Coinbase&rsquo;s CEO over the industry-backed CLARITY Act &mdash; his line being that if a crypto firm takes deposits like a bank, it should be regulated like one. Structurally, &ldquo;perpetuals&rdquo; (perps) &mdash; bets that never expire &mdash; are pulling volume from traditional exchanges into oil, stocks, even private names like SpaceX.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-060326.js"></script>

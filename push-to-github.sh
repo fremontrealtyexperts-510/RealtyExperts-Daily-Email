@@ -70,6 +70,12 @@ copy_if_exists "daily-market-glance-${DATE_STR}.html"
 copy_if_exists "daily-market-glance-${DATE_STR}-stripped.html"
 copy_if_exists "RE-Daily-1-${DATE_STR}.png"
 copy_if_exists "RE-Daily-2-${DATE_STR}.png"
+# harvrealtor.com CMS artifacts — alameda-chart-*.js MUST be hosted on Pages so the
+# InCom landing/blog body can load the interactive chart via <script src> (Drupal
+# strips inline <script>, so the chart data has to live in an external file).
+copy_if_exists "alameda-chart-${DATE_STR}.js"
+copy_if_exists "alameda-interactive-${DATE_STR}.html"
+copy_if_exists "cms-meta-${DATE_STR}.txt"
 
 # Copy QR code (glob for note-qr-*.png that's newer than 1 hour)
 for qr in "$SRC_DIR"/note-qr-*.png; do
