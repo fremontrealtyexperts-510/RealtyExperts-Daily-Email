@@ -36,7 +36,19 @@ async function main() {
   await glanceApiUpdate('image_2', img2Url, adminToken, img2Url);
   console.log('  \u2705 image_2 updated');
 
-  // 6. Update chart HTML
+  // 6. Regenerate the interactive chart from the live "Interactive" tab, then push it.
+  //    A regeneration failure (sheet/network hiccup) falls back to whatever
+  //    latest_inventory_chart.html is already on disk \u2014 it never blocks the push.
+  try {
+    const { buildInteractiveChart } = require('./scripts/build-interactive-chart');
+    const res = await buildInteractiveChart({ date: data.date, outFile: CHART_HTML_PATH });
+    console.log(`  \u2705 chart regenerated from sheet (${res.cities} cities)`);
+  } catch (err) {
+    console.warn(`  \u26a0\ufe0f  chart regeneration failed: ${err.message}`);
+    console.warn('  Falling back to existing chart file on disk (if any).');
+  }
+
+  // 7. Update chart HTML
   if (fs.existsSync(CHART_HTML_PATH)) {
     console.log('  Updating html_display (chart)...');
     const chartHTML = fs.readFileSync(CHART_HTML_PATH, 'utf8');
