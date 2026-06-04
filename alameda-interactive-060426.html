@@ -1,0 +1,125 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 4, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.61%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.13%</strong></p>
+
+<p>The 30-year nudged up to <strong>6.61%</strong> and the 15-year to <strong>6.13%</strong> &mdash; a modest move higher after holding flat earlier in the week. The backdrop explains the drift: fresh tariff threats on 60 trading partners and a PCE inflation reading at a three-year high keep upward pressure on rates, even as the 10-year Treasury sat roughly steady at 4.49%. The buyer waiting for a clean break lower is still waiting.</p>
+
+<p>Local board: <strong>2,901 active</strong> (up 52 from Wednesday), <strong>214 new listings</strong>, <strong>204 closed sales</strong>. Inventory is building again &mdash; new supply held about steady while closings cooled, so more homes are coming on than are clearing.</p>
+
+<p><strong>National:</strong> In San Francisco, a home listed at <strong>$7.95 million</strong> just sold for <strong>$15 million</strong> &mdash; and prices there are up nearly <strong>15% year-over-year</strong>, the fastest of any major U.S. metro, with the AI-IPO wave not even fully underway yet. Closer to the investment side, firms Kayne Anderson and BKM just bought a <strong>$1.8 billion</strong> light-industrial portfolio, a sign the warehouse trade is back in favor.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 25 new / 361 active (down 3)</li>
+    <li><strong>Milpitas:</strong> 2 new (down 1)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 21 new (down 2)</li>
+    <li><strong>Newark:</strong> 7 new (up 5)</li>
+    <li><strong>Union City:</strong> 7 new (down 1)</li>
+    <li><strong>San Leandro:</strong> 7 new (down 6)</li>
+    <li><strong>San Lorenzo:</strong> 2 new (up 1)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 19 new (up 6)</li>
+    <li><strong>San Ramon:</strong> 20 new (flat)</li>
+    <li><strong>Dublin:</strong> 19 new (down 3)</li>
+    <li><strong>Pleasanton:</strong> 13 new (up 2)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 48 new / 762 active (volume leader)</li>
+    <li><strong>Danville:</strong> 19 new (up 6)</li>
+    <li><strong>Castro Valley:</strong> 5 new (down 1)</li>
+    <li><strong>Sunol:</strong> 0 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,554</strong> &nbsp;|&nbsp; DOW: <strong>50,687</strong> &nbsp;|&nbsp; NASDAQ: <strong>26,854</strong></p>
+
+<p>It was a red session for the major indexes, all three closing lower. <strong>Broadcom (AVGO -0.49%)</strong> posted record quarterly sales of <strong>$22.2 billion</strong> &mdash; up 48% from a year ago &mdash; but the stock still slid as much as 8% after hours, having already run up 15% and added ~$280 billion in market value over the prior four sessions; holding its $100 billion AI-chip target steady was enough for traders to take profits.</p>
+
+<p><strong>GameStop (GME +6.02%)</strong> went the other way after authorizing a <strong>$2 billion share buyback</strong>, funded from the $8.4 billion in cash it has held since the 2021 meme rally. Fewer shares outstanding means each remaining share is a slightly bigger slice of the company.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.49%</strong> &nbsp;|&nbsp; Gold: <strong>$4,483</strong> &nbsp;|&nbsp; Brent Crude: <strong>$97.24</strong></p>
+
+<p>Trade tension is back in the headlines. The White House is proposing tariffs of at least <strong>10% on imports from 60 trading partners</strong> &mdash; including the E.U., China, Canada, and Mexico &mdash; this time framed around a 1974 trade law arguing those partners rely on forced labor. Two earlier tariff attempts were struck down in court, so the legal footing matters as much as the economics.</p>
+
+<p>The household picture is softening underneath. The personal savings rate fell to <strong>2.6% in April</strong>, the lowest since June 2022, even as the Fed&rsquo;s preferred inflation gauge (PCE) rose <strong>3.8%</strong>, its fastest pace in three years. Abroad, the OECD warned a prolonged Iran conflict could drag global growth to 1.8% &mdash; outside of COVID and 2008, the weakest in 40 years.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$64,253</strong> &nbsp;|&nbsp; ETH: <strong>$1,814</strong> &nbsp;|&nbsp; XRP: <strong>$1.22</strong></p>
+
+<p>Crypto firmed slightly but stayed under pressure. <strong>Bitcoin ticked up 0.3% to $64,253</strong> yet remains pinned near the floor of its &ldquo;Power Law corridor,&rdquo; a model mapping where Bitcoin has historically traded; the only two prior touches of that level were the COVID crash in March 2020 and the FTX collapse in late 2022. Ether ($1,814) and XRP ($1.22) posted similarly modest gains.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-060426.js"></script>
