@@ -11,18 +11,28 @@
  *   Step 6: Email HTML regenerated with correct QR code path
  *   Step 6.5: THIS SCRIPT → updates note body with final HTML
  *
+ * The PUT carries notify_enabled:true, which fires the Agent Hub team broadcast.
+ * After the PUT, this script VERIFIES the broadcast actually went out by polling
+ * HarvRealtor@outlook.com for the "[Agent Hub] Confirmation" email (see
+ * verify-broadcast.js). On 2026-06-03 the note updated but the backend never
+ * sent and nothing noticed — this safety net makes that silent failure loud.
+ *
  * Usage:
  *   node update-note-body.js [json-template] [html-file]
+ *   node update-note-body.js --no-verify          # just PUT, skip the safety net
+ *   node update-note-body.js --retry              # auto re-broadcast once if unconfirmed
+ *   node update-note-body.js --timeout 300 --poll 20
  *
- * If no arguments provided, auto-detects from daily-market-template.json
- *
- * Reads note ID from agent_hub_link in JSON template.
- * Reads ADMIN_TOKEN from .env file.
+ * If no positional args provided, auto-detects from daily-market-template.json.
+ * Reads note ID from agent_hub_link in JSON template; ADMIN_TOKEN from .env.
+ * Exit codes: 0 = updated (+ broadcast confirmed, unless --no-verify),
+ *             2 = broadcast NOT confirmed, 3 = could not verify, 1 = error.
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const { verifyBroadcast, printVerdict } = require('./verify-broadcast');
 
 // Supabase config
 const SUPABASE_HOST = 'hbsodfrxadlfladdgvgy.supabase.co';
@@ -95,59 +105,113 @@ function updateNote(noteId, title, htmlBody, adminToken) {
   });
 }
 
-async function main() {
-  const args = process.argv.slice(2);
-  const jsonFile = args[0] || 'daily-market-template.json';
-
-  // Load JSON template
+/**
+ * Update the Agent Hub note body with the final email HTML. The PUT carries
+ * notify_enabled:true, which fires the team broadcast.
+ * @param {object} [o]
+ * @param {string} [o.jsonFile] - template path (default daily-market-template.json)
+ * @param {string} [o.htmlFile] - HTML path (default daily-market-glance-MMDDYY.html)
+ * @returns {Promise<{noteId, date, agentHubLink, title, htmlSize}>}
+ */
+async function updateNoteBody({ jsonFile = 'daily-market-template.json', htmlFile } = {}) {
   if (!fs.existsSync(jsonFile)) {
-    console.error(`❌ JSON template not found: ${jsonFile}`);
-    process.exit(1);
+    throw new Error(`JSON template not found: ${jsonFile}`);
   }
   const data = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
 
-  // Extract note ID
   if (!data.agent_hub_link) {
-    console.error('❌ No agent_hub_link found in JSON template');
-    process.exit(1);
+    throw new Error('No agent_hub_link found in JSON template');
   }
   const noteId = extractNoteId(data.agent_hub_link);
 
-  // Determine HTML file
   const dateForFile = data.date.replace(/\//g, '');
-  const htmlFile = args[1] || `daily-market-glance-${dateForFile}.html`;
-
-  if (!fs.existsSync(htmlFile)) {
-    console.error(`❌ HTML file not found: ${htmlFile}`);
-    console.error('   Run generate-daily-email.js first to create the HTML file.');
-    process.exit(1);
+  const resolvedHtml = htmlFile || `daily-market-glance-${dateForFile}.html`;
+  if (!fs.existsSync(resolvedHtml)) {
+    throw new Error(`HTML file not found: ${resolvedHtml}. Run generate-daily-email.js first.`);
   }
+  const htmlBody = fs.readFileSync(resolvedHtml, 'utf8');
 
-  // Load HTML body
-  const htmlBody = fs.readFileSync(htmlFile, 'utf8');
-
-  // Load admin token
   const env = loadEnv();
   if (!env.ADMIN_TOKEN) {
-    console.error('❌ ADMIN_TOKEN not found in .env');
-    process.exit(1);
+    throw new Error('ADMIN_TOKEN not found in .env');
   }
 
-  // Build title
   const title = `"At a Glance" Local Housing STATS and News ${data.date}`;
 
   console.log(`📝 Updating Agent Hub note: ${noteId}`);
   console.log(`   Title: ${title}`);
   console.log(`   HTML size: ${htmlBody.length} chars`);
 
+  await updateNote(noteId, title, htmlBody, env.ADMIN_TOKEN);
+  console.log(`✅ Agent Hub note updated — broadcast triggered.`);
+  console.log(`🔗 View at: ${data.agent_hub_link}`);
+
+  return { noteId, date: data.date, agentHubLink: data.agent_hub_link, title, htmlSize: htmlBody.length };
+}
+
+function parseCliArgs(argv) {
+  const opts = { verify: true, retry: false, positionals: [] };
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--no-verify') opts.verify = false;
+    else if (a === '--verify') opts.verify = true;
+    else if (a === '--retry') opts.retry = true;
+    else if (a === '--timeout') opts.timeoutMs = parseInt(argv[++i], 10) * 1000;
+    else if (a === '--poll') opts.pollMs = parseInt(argv[++i], 10) * 1000;
+    else if (!a.startsWith('--')) opts.positionals.push(a);
+  }
+  return opts;
+}
+
+async function main() {
+  const opts = parseCliArgs(process.argv.slice(2));
+  const jsonFile = opts.positionals[0] || 'daily-market-template.json';
+  const htmlFile = opts.positionals[1];
+
+  // Capture the trigger window BEFORE the PUT (90s back-buffer for clock skew),
+  // so verification only counts a confirmation produced by THIS broadcast — and
+  // a same-day re-run won't false-match an earlier confirmation.
+  const sinceIso = new Date(Date.now() - 90 * 1000).toISOString();
+
+  let info;
   try {
-    const response = await updateNote(noteId, title, htmlBody, env.ADMIN_TOKEN);
-    console.log(`✅ Agent Hub note updated successfully!`);
-    console.log(`🔗 View at: ${data.agent_hub_link}`);
+    info = await updateNoteBody({ jsonFile, htmlFile });
   } catch (err) {
     console.error(`❌ Failed to update note: ${err.message}`);
     process.exit(1);
   }
+
+  if (!opts.verify) {
+    console.log('\n⏭️  Skipping broadcast verification (--no-verify). The broadcast WAS triggered;');
+    console.log(`   confirm by hand or run:  node verify-broadcast.js --date ${info.date}`);
+    process.exit(0);
+  }
+
+  // --- Broadcast safety net: prove the confirmation email actually arrived. ---
+  let result = await verifyBroadcast({ date: info.date, sinceIso, timeoutMs: opts.timeoutMs, pollMs: opts.pollMs });
+
+  // Optional single auto-retry — only when we positively saw the confirmation is
+  // ABSENT (fetchedOk). If we couldn't read the mailbox at all, blindly
+  // re-broadcasting risks double-spamming agents, so we don't.
+  if (!result.confirmed && result.fetchedOk && opts.retry) {
+    console.log('\n🔁 --retry: broadcast not confirmed — re-triggering once…');
+    const retrySince = new Date(Date.now() - 90 * 1000).toISOString();
+    try {
+      await updateNoteBody({ jsonFile, htmlFile });
+    } catch (err) {
+      console.error(`❌ Retry PUT failed: ${err.message}`);
+    }
+    result = await verifyBroadcast({ date: info.date, sinceIso: retrySince, timeoutMs: opts.timeoutMs, pollMs: opts.pollMs });
+  }
+
+  process.exit(printVerdict(result, info.date));
 }
 
-main();
+if (require.main === module) {
+  main().catch((err) => {
+    console.error('\nFatal error:', err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = { updateNoteBody, updateNote, parseCliArgs, main };
