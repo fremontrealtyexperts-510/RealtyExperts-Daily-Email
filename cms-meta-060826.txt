@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 06/08/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 06/08/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for June 8, 2026: 30-year mortgage jumped to 6.66% after a hot 172K jobs report, Tri-County board at 2,912 active on a busy Monday (258 new, 217 closed), plus a brutal AI-led stock selloff and a renewed push to take Fannie Mae and Freddie Mac public.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Castro Valley, Danville, Milpitas, Union City, Newark, San Leandro, mortgage rates, housing market, daily market update, At a Glance, REALTY EXPERTS, jobs report, Kevin Warsh, Fannie Mae, Freddie Mac, Bill Pulte, Meta, AI selloff, CPI, June 2026
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)

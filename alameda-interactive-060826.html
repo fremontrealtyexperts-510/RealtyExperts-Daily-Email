@@ -1,0 +1,125 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 8, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.66%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.13%</strong></p>
+
+<p>The 30-year fixed jumped to <strong>6.66%</strong> and the 15-year to <strong>6.13%</strong> &mdash; the sharpest move up in a while, and the reason is Friday&rsquo;s hot jobs report. A net <strong>172,000 new jobs</strong> in May, with firm wage growth, pushed the 10-year Treasury to 4.53% and knocked down the odds of near-term Fed rate cuts. Mortgage rates take their cue from that 10-year, so they followed it higher. Wednesday&rsquo;s CPI print is the next swing factor; for now, the buyer waiting for rates to break lower got the opposite.</p>
+
+<p>Local board: <strong>2,912 active</strong> (down 23 from Friday), <strong>258 new listings</strong>, <strong>217 closed sales</strong>. The activity underneath was anything but quiet &mdash; the new-listing surge is partly a Monday effect, a weekend&rsquo;s worth of fresh inventory posting at once, while the jump in closings shows buyers kept transacting. More homes came on than cleared, yet the board still edged down, a sign plenty of listings also moved into contract.</p>
+
+<p><strong>National:</strong> The Trump administration is again pushing to take <strong>Fannie Mae and Freddie Mac</strong> public &mdash; the two government-backed giants stand behind roughly <strong>70% of all U.S. mortgages</strong>. The effort may stall, though: FHFA Director Bill Pulte, who would oversee it, has been tapped as acting Director of National Intelligence and won&rsquo;t have the bandwidth. Any privatization would be the biggest structural change to mortgage finance in years.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 22 new / 357 active (down 3)</li>
+    <li><strong>Milpitas:</strong> 6 new (up 3)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 19 new (down 4)</li>
+    <li><strong>Newark:</strong> 10 new (up 3)</li>
+    <li><strong>Union City:</strong> 11 new (up 3)</li>
+    <li><strong>San Leandro:</strong> 7 new (flat)</li>
+    <li><strong>San Lorenzo:</strong> 5 new (flat)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 19 new (up 2)</li>
+    <li><strong>San Ramon:</strong> 18 new (down 2)</li>
+    <li><strong>Dublin:</strong> 27 new (up 2)</li>
+    <li><strong>Pleasanton:</strong> 25 new (up 9)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 66 new / 775 active (volume leader)</li>
+    <li><strong>Danville:</strong> 18 new (flat)</li>
+    <li><strong>Castro Valley:</strong> 5 new (down 1)</li>
+    <li><strong>Sunol:</strong> 0 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,384</strong> &nbsp;|&nbsp; DOW: <strong>50,867</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,709</strong></p>
+
+<p>Friday was brutal for stocks. The S&amp;P 500 fell 2.64% and the NASDAQ tumbled 4.18% &mdash; their worst single day since 2025 &mdash; while the DOW held up comparatively well at -1.35%. The damage was concentrated in the AI trade: chip stocks led the selling as the names that had been setting record highs went into sharp reverse.</p>
+
+<p>The poster child was <strong>Meta (META -5.51%)</strong>, which dropped more than 5% after saying it would sell more stock to fund its AI build-out &mdash; issuing new shares dilutes existing holders, and with AI spending already under scrutiny, investors took it as a reason to sell. Several states also signaled they may sue to block Paramount&rsquo;s (PSKY -4.31%) takeover of Warner Bros. (WBD -2.81%), a reminder that even a federally approved merger can stall at the state level.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.53%</strong> &nbsp;|&nbsp; Gold: <strong>$4,354</strong> &nbsp;|&nbsp; Brent Crude: <strong>$93.09</strong></p>
+
+<p>The jobs market ran hot, and that complicates the rate picture. The first employment report under new Fed Chair Kevin Warsh showed a net <strong>172,000 jobs added in May</strong>, well above expectations, with wage growth firm enough to keep inflation pressure alive. Strong hiring is good for households, but it makes near-term rate cuts less likely &mdash; markets had been counting on cooling to force the Fed&rsquo;s hand.</p>
+
+<p>The inflation test comes Wednesday, when the May CPI lands. Headline inflation is expected to push above 4%, even as core inflation (which strips out food and energy) is forecast to cool month-over-month &mdash; a split that may not last, since today&rsquo;s higher energy and input costs tend to seep into goods and services a few months later. The 10-year climbed to 4.53% on the jobs strength, while gold fell hard to $4,354.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$62,240</strong> &nbsp;|&nbsp; ETH: <strong>$1,634</strong> &nbsp;|&nbsp; XRP: <strong>$1.14</strong></p>
+
+<p>Crypto bucked the stock-market gloom, with <strong>Bitcoin up 2.3% to $62,240</strong> and Ether ($1,634, +4.3%) and XRP ($1.14, +4.6%) posting bigger gains &mdash; a rare session where digital assets rose while equities sank. Big banks are leaning in: JPMorgan, Citigroup, and Bank of America are jointly building a &ldquo;tokenized deposit&rdquo; network to settle ordinary deposits in seconds. The caution flag is in the ETF data, though &mdash; spot Bitcoin ETFs are bleeding cash, with BlackRock&rsquo;s IBIT shedding more than $3.1 billion recently.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-060826.js"></script>
