@@ -1,0 +1,125 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 9, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.68%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.20%</strong></p>
+
+<p>The 30-year edged up to <strong>6.68%</strong> and the 15-year to <strong>6.20%</strong> &mdash; both just a hair above yesterday. The reason it was not more is the 10-year Treasury, which held flat at <strong>4.55%</strong>; mortgage rates take their cue from that 10-year, so when it sits still, they sit still. The real swing factor lands tomorrow with the May <strong>CPI</strong> report. Working in buyers&rsquo; favor, oil slid hard as the Middle East de-escalated and OPEC moved to pump more &mdash; if that holds, it eases the inflation pressure that has kept rates elevated.</p>
+
+<p>Local board: <strong>2,886 active</strong> (down 26 from Monday), <strong>252 new listings</strong>, <strong>224 closed sales</strong>. New supply eased slightly out of Monday while closings actually rose &mdash; buyers kept clearing inventory even as fewer fresh homes hit the market, which is why the board edged lower.</p>
+
+<p><strong>National:</strong> Co-buying is on the rise. The share of buyers purchasing a home with someone other than a spouse climbed from <strong>25% in 2021 to 30% in 2025</strong>, and nearly <strong>60% of renters</strong> say they&rsquo;d buy with a friend, per a Rocket Mortgage survey. The math is simple &mdash; one income rarely clears today&rsquo;s Bay Area prices, but two or three can. New platforms are even matching strangers who want in &mdash; a trend worth raising with first-time buyers who feel priced out solo.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 20 new / 350 active (down 2)</li>
+    <li><strong>Milpitas:</strong> 6 new (flat)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 19 new (flat)</li>
+    <li><strong>Newark:</strong> 10 new (flat)</li>
+    <li><strong>Union City:</strong> 11 new (flat)</li>
+    <li><strong>San Leandro:</strong> 7 new (flat)</li>
+    <li><strong>San Lorenzo:</strong> 4 new (down 1)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 17 new (down 2)</li>
+    <li><strong>San Ramon:</strong> 20 new (up 2)</li>
+    <li><strong>Dublin:</strong> 24 new (down 3)</li>
+    <li><strong>Pleasanton:</strong> 24 new (down 1)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 67 new / 764 active (volume leader)</li>
+    <li><strong>Danville:</strong> 18 new (flat)</li>
+    <li><strong>Castro Valley:</strong> 5 new (flat)</li>
+    <li><strong>Sunol:</strong> 0 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,405</strong> &nbsp;|&nbsp; DOW: <strong>50,786</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,929</strong></p>
+
+<p>Stocks steadied on Monday after Friday&rsquo;s sharp sell-off, but the bounce was uneven. The <strong>NASDAQ led with a 0.86% gain</strong> as beaten-down chip and tech names found buyers, the S&amp;P 500 edged up 0.30%, and the DOW slipped 0.16% &mdash; a split that reads as the AI trade stabilizing rather than roaring back.</p>
+
+<p>The headline event was <strong>Apple&rsquo;s (AAPL -1.89%)</strong> developer conference, where it unveiled a smarter Siri that reads on-screen context and a new in-house AI model, with Google helping build the features and the assistant running on <strong>Nvidia (NVDA +1.73%)</strong> hardware. It was also Tim Cook&rsquo;s last conference as CEO &mdash; John Ternus takes over in September. Elsewhere, <strong>Yum Brands (YUM -2.32%)</strong> is reportedly in talks to sell Pizza Hut for as much as $4 billion, and <strong>OpenAI filed to go public</strong>, joining Anthropic and SpaceX in a class of names that could each be worth over $1 trillion.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.55%</strong> &nbsp;|&nbsp; Gold: <strong>$4,345</strong> &nbsp;|&nbsp; Brent Crude: <strong>$93.42</strong></p>
+
+<p>The 10-year Treasury held steady at <strong>4.55%</strong>, leaving the rate backdrop quiet for a change &mdash; but oil stole the spotlight. Both <strong>Israel and Iran said they are halting strikes for now</strong>, and OPEC announced it will raise output by <strong>188,000 barrels a day in July</strong>. Brent crude eased to $93.42 on the news. Lower oil tends to filter through to gas prices, grocery bills, and headline inflation, so a sustained pullback would be welcome relief.</p>
+
+<p>The next big test lands tomorrow: the May <strong>CPI</strong> report. Closer to home, a New York Fed survey shows household money worries just hit their <strong>highest level since 2022</strong> &mdash; the share who feel &ldquo;much worse&rdquo; off than a year ago jumped to 13.3%, even as the one-year inflation outlook slipped to 3.5%. Gold eased slightly to $4,345.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$63,136</strong> &nbsp;|&nbsp; ETH: <strong>$1,682</strong> &nbsp;|&nbsp; XRP: <strong>$1.17</strong></p>
+
+<p>Crypto was quiet, drifting modestly lower across the board. The notable move came from <strong>Strategy (MSTR +5.61%)</strong> &mdash; the company formerly known as MicroStrategy &mdash; which scooped up another <strong>1,550 Bitcoin for $10 million</strong>, roughly 50 times what it had just sold a week earlier in its first sale since 2022. It also built its cash pile to $1 billion to cover dividends; it is still down about $10 billion on its Bitcoin position and still buying. Meanwhile, money is pouring into a new fund tracking the <strong>HYPE token</strong> &mdash; close to $150 million since May &mdash; even as BlackRock&rsquo;s iShares Bitcoin Trust fell about 16% in a week.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-060926.js"></script>
