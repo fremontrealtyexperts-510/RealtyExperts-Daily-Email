@@ -1,41 +1,42 @@
 {
-  "date": "06/10/26",
+  "date": "06/11/26",
   "time": "9:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/bde34e8c-e746-4cfc-a246-53a67d5dfdbe",
-  "qr_code_path": "note-qr-bde34e8c.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/bd3eabab-b3dd-4615-85de-7cad1ab967ad",
+  "qr_code_path": "note-qr-bd3eabab.png",
   "stocks": {
-    "sp500": "7,386 (-0.26%)",
-    "dow": "50,872 (+0.17%)",
-    "nasdaq": "25,678 (-0.97%)",
-    "note": "Numbers as of market close on Tuesday, June 9th.",
-    "news": "Tuesday belonged to the chipmakers — and not in a good way. AI chip stocks sold off hard, dragging the NASDAQ down 0.97% to its weakest session in weeks, while the S&P 500 slipped 0.26% and the DOW eked out a 0.17% gain. The selling traced back to a soft Broadcom (AVGO -1.12%) report from last week that spread to Micron (MU -1.41%) and AMD (AMD -3.02%), and didn't help that Taiwan signaled it may restrict some chip exports to China.\n\nThere was drama off Earth, too. SpaceX is set to launch its IPO this Friday, but the rest of the space sector fell back to the ground — Planet Labs (PL -4.80%), Rocket Lab (RKLB -4.77%), and Intuitive Machines (LUNR -7.62%) all dropped. And Rivian (RIVN -6.59%) unveiled its R2 SUV, a ~$45,000 model it says will finally turn a profit on each sale — a tall order given it lost roughly $6,000 per vehicle last quarter. The R2 will be built at a new multi-billion-dollar Georgia plant opening in 2028."
+    "sp500": "7,266 (-1.62%)",
+    "dow": "49,918 (-1.87%)",
+    "nasdaq": "25,169 (-1.98%)",
+    "note": "Numbers as of market close on Wednesday, June 10th.",
+    "news": "Stocks fell broadly after a hotter-than-expected inflation read (see Economy) rattled the market: the S&P 500 dropped 1.62%, the DOW 1.87%, and the NASDAQ 1.98%. A reaccelerating CPI revived worries that the Fed will keep rates higher for longer, and the selling was wide rather than concentrated.\n\nThere were company stories cutting both ways. Oracle (ORCL -2.21%) actually beat on both the top and bottom lines and inked a $16 billion data-center deal in Michigan, but its plan to raise $20 billion in fresh capital spooked investors and the stock slipped after hours. And Amazon (AMZN -2.53%) opened its less-than-truckload freight service to any business — not just its own sellers — which sent traditional freight names tumbling: Old Dominion (ODFL -5.14%), Saia (SAIA -3.25%), and XPO (XPO -4.47%). All eyes now turn to SpaceX, which goes public Friday."
   },
   "economy": {
-    "us10year": "4.53% (+0.00%)",
-    "gold": "$4,204 (-1.90%)",
-    "wti": "$92.26 (+0.90%)",
+    "us10year": "4.59% (+0.01%)",
+    "gold": "4.2%",
+    "gold_label": "CPI (YoY)",
+    "wti": "$94.72 (+0.90%)",
     "oil_label": "Brent Crude",
-    "note": "US 10-Year, Gold, and Brent Crude as of 4:00 PM ET, Tuesday, June 9th (via Market Briefs).",
-    "commentary": "The 10-year Treasury held flat at 4.53%, but two stories underneath are worth a client's attention. First, the retirement math got worse: Social Security's trust fund is now projected to run dry in late 2032 — three months sooner than last year's estimate. If Congress does nothing, the program could pay just 78% of promised benefits, roughly $500 a month less for the average retiree. That matters here because Social Security is the main income source for 43% of seniors — and a big driver of when and where people downsize.\n\nSecond, the labor market is quietly shifting under AI. Tech just logged its worst month for job cuts since 2024, with AI behind 40% of May's layoffs — the third straight month it topped the list. Companies cut 97,000+ jobs in May (up 16% from April), even as the broader economy still added 172,000. Gold fell 1.9% to $4,204, while Brent crude firmed to $92.26 after President Trump said an Iran deal could be days away — only for Iran to down a helicopter over the Strait of Hormuz hours later, sending markets down and oil up.",
+    "note": "US 10-Year, CPI, and Brent Crude as of June 10th (via Market Briefs).",
+    "commentary": "Prices heated back up. The May Consumer Price Index (CPI) rose 4.2% over the past year — the fastest pace since 2023 — and climbed 0.5% from April alone. Energy did most of the damage, jumping 23.5% year over year; new-vehicle prices dipped while airfares soared. Hotter inflation matters directly for housing: it pushed the 10-year Treasury up to 4.59% and trimmed the odds of a near-term rate cut, with the Fed set to meet next week (and widely expected to hold).\n\nThe pain is showing up at the grocery store, too. Ground beef averaged a record ~$7.00 a pound in May, up roughly 13% from a year ago, after a flesh-eating screwworm parasite turned up in Texas cattle for the first time in decades — an outbreak that could cost the state $1.8 billion and push prices higher still. Brent crude firmed to $94.72.",
     "feature_image": {
-      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/dried-up-061026.png",
-      "alt": "Social Security trust funds projected to run out of money",
-      "caption": "Social Security's trust funds are projected to run out of money in the early 2030s — a slow-building squeeze on retiree budgets that shapes downsizing decisions.",
-      "source": "Source: Social Security Administration (via Market Briefs)"
+      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/prices-heat-up-061126.png",
+      "alt": "CPI inflation over time, 12-month percent change",
+      "caption": "CPI inflation reaccelerated to 4.2% in May — the fastest since 2023. Rising inflation tends to keep mortgage rates elevated, since the 10-year Treasury that rates track moves with it.",
+      "source": "Source: U.S. Bureau of Labor Statistics (via Market Briefs)"
     }
   },
   "crypto": {
-    "btc": "$61,270 (-0.68%)",
-    "eth": "$1,624 (-0.81%)",
-    "xrp": "$1.12 (-1.67%)",
-    "note": "Numbers as of 4:00 PM ET, Tuesday, June 9th.",
-    "commentary": "Crypto drifted lower alongside risk assets: Bitcoin eased to $61,270 (-0.68%), Ether to $1,624 (-0.81%), and XRP to $1.12 (-1.67%). The bigger story is adoption — a new study found about 20% of Americans have now used crypto at least once, and the politics are flipping: Republicans (22%) now use it more than Democrats (17%), with men under 50 the single biggest cohort.\n\nOn the product side, Circle (CRCL +1.73%) launched cirBTC, a coin backed one-to-one by Bitcoin but running on Ethereum — in plain terms, it lets Bitcoin that would otherwise just sit in a wallet be put to work inside crypto apps. Coinbase (COIN -4.08%) is chasing the same market. For Bay Area buyers and sellers the link is indirect, but crypto's risk appetite still colors a slice of the move-up market."
+    "btc": "$62,350 (+1.47%)",
+    "eth": "$1,627 (+1.68%)",
+    "xrp": "$1.12 (-1.33%)",
+    "note": "Numbers as of 4:00 PM ET, Wednesday, June 10th.",
+    "commentary": "Bitcoin firmed to $62,350 (+1.47%), with Ether ($1,627, +1.68%) along for the ride and XRP slipping to $1.12 (-1.33%). But the bigger crypto story is money rotating out: Bitcoin now sits about 50% below its October 2025 record as cash rushes toward Friday's blockbuster SpaceX IPO, which reportedly drew $250 billion in interest at a $1.75 trillion valuation. With a wave of large IPOs lining up, some analysts expect more money to keep leaking out of crypto and into new public listings.\n\nIn a sign of how mainstream the space is going, the Solana Foundation just became the title sponsor of the 2026 World Series of Poker — players can buy in with SOL or stablecoins at zero fees via MoonPay. For Bay Area buyers and sellers the connection is indirect, but big swings in crypto and IPO money still shape the risk appetite of a slice of the move-up market."
   },
   "real_estate": {
-    "rate_30year": "6.68%",
+    "rate_30year": "6.67%",
     "rate_15year": "6.20%",
-    "homebuilder": "Mortgage Rates Hold At 6.68% As Chips Drag Stocks And Mideast Tension Lifts Oil; East Bay Board Eases To 2,855 Active On A Quieter Wednesday Of 201 New And 229 Closed",
-    "commentary": "The 30-year fixed held at 6.68% and the 15-year at 6.20% — flat for a second straight day, tracking a 10-year Treasury that sat still at 4.53%. The day's cross-currents mostly canceled out: AI chip stocks sold off (see Stocks) while Middle East tension nudged oil higher (see Economy), but neither moved the bond market enough to budge mortgage rates. For the rate-watching buyer, 'flat' has been the story two days running.\n\nThe national housing data, though, gave buyers something to cheer: existing-home sales jumped 3.2% in May, the best month since December and well past forecasts. Most of those deals were signed back in April, when mortgage rates briefly dipped — proof that even a short window of cheaper money pulls buyers off the fence. Homes over $1 million sold 11% more than a year ago, and the median existing-home price hit $429,000.\n\nLocally, the East Bay board eased to 2,855 active, down 31 from Tuesday. The midweek slowdown landed squarely on new supply: just 201 new listings came on — down sharply from Tuesday's 252 — while 229 sales closed (up 5). For the first time this week, closings outran new listings, and that's what pulled the board lower. Fremont alone logged 47 of those closings.\n\n📍 Alameda & Contra Costa Snapshot (06/10/26, new listings vs Tuesday)\n\n📍 Fremont: 17 new (down 3).\n\n📍 Union City: 7 new (down 4).\n\n📍 Newark: 5 new (down 5).\n\n📍 Hayward: 15 new (down 4).\n\n📍 Danville: 10 new (down 8).\n\n📍 Milpitas: 6 new (flat).\n\n📍 Oakland: 61 new / 757 active (still board leader).\n\n📍 Livermore: 8 new (down 9).\n\n📍 Castro Valley: 5 new (flat).\n\n📍 Pleasanton: 17 new (down 7).\n\n📍 San Ramon: 18 new (down 2).\n\n📍 Dublin: 20 new (down 4).\n\n📍 Sunol: 1 new (up 1).\n\n📍 San Lorenzo: 4 new (flat).\n\n📍 San Leandro: 7 new (flat).\n\nNew-listing flow pulled back hard midweek: just 1 city added supply, 3 held flat, and 11 eased back, cutting the daily total to 201 from Tuesday's 252. Livermore (-9) and Danville (-8) led the declines; only Sunol (+1) gained.\n\nFor agents: a Wednesday with 201 new and 229 closed is a market digesting the week's early surge — buyers are still closing (229 of them, 47 in Fremont alone) even as sellers paused on new listings. Rates are flat and national sales just popped 3.2%, so momentum sits on the buy side. Tell sellers this is a window to list into thinner competition; tell buyers the spring rate-dip that fueled May's sales jump has already passed — don't wait on a repeat.",
+    "homebuilder": "Mortgage Rates Hold Near 6.67% As A Hot 4.2% CPI Rattles Markets; East Bay Board Firms To 2,884 Active On 198 New And 216 Closed",
+    "commentary": "The 30-year fixed held at 6.67% and the 15-year at 6.20% — but the bigger force this week is inflation. May CPI came in hot at 4.2% (see Economy), pushing the 10-year Treasury to 4.59% and trimming the odds of a Fed cut at next week's meeting. Mortgage rates take their cue from that 10-year, so a reaccelerating CPI is exactly the wrong direction for the buyer waiting on cheaper money.\n\nAnd yet buyers are leaning in anyway. Mortgage demand jumped almost 11% last week even as rates ticked up: refinancing rose 15% week-over-week (and 20% from a year ago), while purchase applications climbed 7%. The read-through is that some borrowers are making one last spring push before the summer market — and before inflation pushes rates any higher.\n\nLocally, the East Bay board firmed to 2,884 active, up 29 from Wednesday. New listings held near flat at 198 (vs 201) while 216 sales closed — more came on than cleared, which nudged the board back up after midweek's dip. Fremont alone logged 45 of those closings.\n\n📍 Alameda & Contra Costa Snapshot (06/11/26, new listings vs Wednesday)\n\n📍 Fremont: 11 new / 353 active (down 6).\n\n📍 Union City: 8 new (up 1).\n\n📍 Newark: 5 new (flat).\n\n📍 Hayward: 15 new (flat).\n\n📍 Danville: 18 new (up 8).\n\n📍 Milpitas: 4 new (down 2).\n\n📍 Oakland: 59 new / 758 active (still board leader).\n\n📍 Livermore: 18 new (up 10).\n\n📍 Castro Valley: 3 new (down 2).\n\n📍 Pleasanton: 16 new (down 1).\n\n📍 San Ramon: 22 new (up 4).\n\n📍 Dublin: 12 new (down 8).\n\n📍 Sunol: 1 new (flat).\n\n📍 San Lorenzo: 2 new (down 2).\n\n📍 San Leandro: 4 new (down 3).\n\nNew-listing flow was mixed: 4 cities added supply, 3 held flat, and 8 eased back, leaving the daily total at 198, just shy of Wednesday's 201. Livermore (+10) and Danville (+8) led the gainers; Dublin (-8) and Fremont (-6) led the pullbacks.\n\nFor agents: rates held, but inflation just reaccelerated to 4.2% and the 10-year jumped to 4.59% — yet mortgage demand still spiked 11% last week, a sign buyers aren't waiting. The board firmed to 2,884 as new listings outpaced closings. Tell buyers the \"wait for lower rates\" bet is getting riskier with inflation heating back up; tell sellers demand is real (refis +20% year-over-year, purchases +7%) and well-priced homes are still moving.",
     "local_news": ""
   },
   "sources": [
