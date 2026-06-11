@@ -1,0 +1,125 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 11, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.67%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.20%</strong></p>
+
+<p>The 30-year held at <strong>6.67%</strong> and the 15-year at <strong>6.20%</strong> &mdash; but the bigger force this week is inflation. May CPI came in hot at <strong>4.2%</strong>, the fastest since 2023, pushing the 10-year Treasury to <strong>4.59%</strong> and trimming the odds of a Fed cut at next week&rsquo;s meeting. Mortgage rates take their cue from that 10-year, so a reaccelerating CPI is the wrong direction for the buyer waiting on cheaper money.</p>
+
+<p>And yet buyers are leaning in. <strong>Mortgage demand jumped almost 11% last week</strong> even as rates ticked up: refinancing rose 15% week-over-week (and 20% from a year ago), while purchase applications climbed 7%. Some borrowers appear to be making one last spring push before the summer market &mdash; and before inflation pushes rates any higher.</p>
+
+<p>Locally, the East Bay board firmed to <strong>2,884 active</strong> (up 29 from Wednesday), <strong>198 new listings</strong>, <strong>216 closed sales</strong>. New listings held near flat while closings eased, so more came on than cleared &mdash; nudging the board back up after midweek&rsquo;s dip. Fremont alone logged 45 of those closings.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 11 new / 353 active (down 6)</li>
+    <li><strong>Milpitas:</strong> 4 new (down 2)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 15 new (flat)</li>
+    <li><strong>Newark:</strong> 5 new (flat)</li>
+    <li><strong>Union City:</strong> 8 new (up 1)</li>
+    <li><strong>San Leandro:</strong> 4 new (down 3)</li>
+    <li><strong>San Lorenzo:</strong> 2 new (down 2)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 18 new (up 10)</li>
+    <li><strong>San Ramon:</strong> 22 new (up 4)</li>
+    <li><strong>Dublin:</strong> 12 new (down 8)</li>
+    <li><strong>Pleasanton:</strong> 16 new (down 1)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 59 new / 758 active (volume leader)</li>
+    <li><strong>Danville:</strong> 18 new (up 8)</li>
+    <li><strong>Castro Valley:</strong> 3 new (down 2)</li>
+    <li><strong>Sunol:</strong> 1 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,266</strong> &nbsp;|&nbsp; DOW: <strong>49,918</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,169</strong></p>
+
+<p>Stocks fell broadly after the hot inflation read rattled markets &mdash; the S&amp;P 500 dropped 1.62%, the DOW 1.87%, and the NASDAQ 1.98%. A reaccelerating CPI revived worries that the Fed will hold rates higher for longer, and the selling was wide rather than concentrated.</p>
+
+<p><strong>Oracle (ORCL -2.21%)</strong> actually beat on both the top and bottom lines and inked a $16 billion data-center deal in Michigan, but its plan to raise $20 billion in fresh capital spooked investors. And <strong>Amazon (AMZN -2.53%)</strong> opened its less-than-truckload freight service to any business, sending traditional freight names tumbling: Old Dominion (ODFL -5.14%), Saia (SAIA -3.25%), and XPO (XPO -4.47%). All eyes now turn to SpaceX, which goes public Friday.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.59%</strong> &nbsp;|&nbsp; CPI (YoY): <strong>4.2%</strong> &nbsp;|&nbsp; Brent Crude: <strong>$94.72</strong></p>
+
+<p>Prices heated back up. The May Consumer Price Index rose <strong>4.2%</strong> over the past year &mdash; the fastest pace since 2023 &mdash; and climbed 0.5% from April alone. Energy did most of the damage, jumping 23.5% year over year; new-vehicle prices dipped while airfares soared. Hotter inflation matters directly for housing: it pushed the 10-year Treasury to 4.59% and trimmed the odds of a near-term rate cut, with the Fed set to meet next week and widely expected to hold.</p>
+
+<p>The pain is showing up at the grocery store, too: ground beef hit a record ~$7.00 a pound in May, up roughly 13% from a year ago, after a flesh-eating screwworm parasite turned up in Texas cattle for the first time in decades. Brent crude firmed to $94.72.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$62,350</strong> &nbsp;|&nbsp; ETH: <strong>$1,627</strong> &nbsp;|&nbsp; XRP: <strong>$1.12</strong></p>
+
+<p>Bitcoin firmed to $62,350 (+1.47%), with Ether ($1,627, +1.68%) along for the ride. But the bigger story is money rotating out: Bitcoin now sits about 50% below its October 2025 record as cash rushes toward Friday&rsquo;s blockbuster <strong>SpaceX IPO</strong>, which reportedly drew $250 billion in interest at a $1.75 trillion valuation. With a wave of large IPOs lining up, some analysts expect more money to keep leaking out of crypto and into new listings.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-061126.js"></script>
