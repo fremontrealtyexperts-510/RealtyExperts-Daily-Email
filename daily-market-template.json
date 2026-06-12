@@ -1,46 +1,48 @@
 {
-  "date": "06/11/26",
-  "time": "9:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/bd3eabab-b3dd-4615-85de-7cad1ab967ad",
-  "qr_code_path": "note-qr-bd3eabab.png",
+  "date": "06/12/26",
+  "time": "9:45 AM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/b7fe961f-ef6c-44b5-af3d-a359fe870471",
+  "qr_code_path": "note-qr-b7fe961f.png",
   "stocks": {
-    "sp500": "7,266 (-1.62%)",
-    "dow": "49,918 (-1.87%)",
-    "nasdaq": "25,169 (-1.98%)",
-    "note": "Numbers as of market close on Wednesday, June 10th.",
-    "news": "Stocks fell broadly after a hotter-than-expected inflation read (see Economy) rattled the market: the S&P 500 dropped 1.62%, the DOW 1.87%, and the NASDAQ 1.98%. A reaccelerating CPI revived worries that the Fed will keep rates higher for longer, and the selling was wide rather than concentrated.\n\nThere were company stories cutting both ways. Oracle (ORCL -2.21%) actually beat on both the top and bottom lines and inked a $16 billion data-center deal in Michigan, but its plan to raise $20 billion in fresh capital spooked investors and the stock slipped after hours. And Amazon (AMZN -2.53%) opened its less-than-truckload freight service to any business — not just its own sellers — which sent traditional freight names tumbling: Old Dominion (ODFL -5.14%), Saia (SAIA -3.25%), and XPO (XPO -4.47%). All eyes now turn to SpaceX, which goes public Friday."
+    "sp500": "7,394 (+1.75%)",
+    "dow": "50,848 (+1.86%)",
+    "nasdaq": "25,809 (+2.54%)",
+    "note": "Numbers as of market close on Thursday, June 11th.",
+    "news": "Stocks roared back. The S&P 500 jumped 1.75%, the DOW 1.86%, and the NASDAQ 2.54%, clawing back most of Wednesday's inflation-driven selloff as easing Middle East tensions and IPO fever revived risk appetite. The headline event is today: SpaceX's long-awaited IPO is expected to raise roughly $75 billion at a $135 target price (555 million shares) — a deal big enough that it could make Elon Musk the world's first trillionaire.\n\nNot every name joined the party. Oracle (ORCL -8.53%) had its worst day in over a year — even after beating on both sales and profit — as investors balked at the cash math behind its AI push: the company burned $23.7 billion last year and needs roughly $40 billion more. The worry is that those big AI bets only pay off if they convert into profit. Tesla (TSLA +4.60%) rode the SpaceX halo higher."
   },
   "economy": {
-    "us10year": "4.59% (+0.01%)",
-    "gold": "4.2%",
-    "gold_label": "CPI (YoY)",
-    "wti": "$94.72 (+0.90%)",
+    "us10year": "4.46% (+0.00%)",
+    "gold": "$4,186 (-0.63%)",
+    "silver": "$68.06 (+6.9%)",
+    "wti": "$89.30 (-1.18%)",
     "oil_label": "Brent Crude",
-    "note": "US 10-Year, CPI, and Brent Crude as of June 10th (via Market Briefs).",
-    "commentary": "Prices heated back up. The May Consumer Price Index (CPI) rose 4.2% over the past year — the fastest pace since 2023 — and climbed 0.5% from April alone. Energy did most of the damage, jumping 23.5% year over year; new-vehicle prices dipped while airfares soared. Hotter inflation matters directly for housing: it pushed the 10-year Treasury up to 4.59% and trimmed the odds of a near-term rate cut, with the Fed set to meet next week (and widely expected to hold).\n\nThe pain is showing up at the grocery store, too. Ground beef averaged a record ~$7.00 a pound in May, up roughly 13% from a year ago, after a flesh-eating screwworm parasite turned up in Texas cattle for the first time in decades — an outbreak that could cost the state $1.8 billion and push prices higher still. Brent crude firmed to $94.72.",
+    "note": "10-Year & Brent Crude as of June 11th close (Market Briefs); gold & silver are live spot prices, midday June 12th.",
+    "commentary": "📊 Looking Dull. Gold has tumbled to roughly a six-month low — down about 6.3% on the week, to near $4,186 an ounce — even though inflation is running at a three-year high. That is backwards from gold's usual playbook (it tends to rise when inflation is hot), and it comes down to interest rates: after May CPI reaccelerated to 4.2%, traders now bet the Fed could actually HIKE by December, and gold hates higher rates. The chart below traces the slide from January's ~$5,400 peak.\n\nSilver went the other way, spiking toward $68 an ounce (+6.9%) as Middle East supply jitters and bargain-hunting lit a fire under the more industrial metal — a sharp split from gold on the same day.\n\nBrent crude eased to $89.30 (-1.18%) after President Trump said the U.S. is pausing strikes on Iran and expects a deal within days. And in a sign the wealth effect is cooling, U.S. household net worth rose just $100 billion last quarter to a record $183 trillion — the smallest gain in a year, though rising home values and savings bridged some of the gap.",
     "feature_image": {
-      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/prices-heat-up-061126.png",
-      "alt": "CPI inflation over time, 12-month percent change",
-      "caption": "CPI inflation reaccelerated to 4.2% in May — the fastest since 2023. Rising inflation tends to keep mortgage rates elevated, since the 10-year Treasury that rates track moves with it.",
-      "source": "Source: U.S. Bureau of Labor Statistics (via Market Briefs)"
+      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/gold-looking-dull-061226.png",
+      "alt": "Gold spot price, 2026 year-to-date — the slide from January's ~$5,400 peak to a roughly six-month low near $4,186",
+      "caption": "Gold's 2026 round trip: after spiking to about $5,400 in late January, it has ground lower all year and tumbled ~6.3% this week to a roughly six-month low near $4,186 — even with inflation at a three-year high — as traders price in a possible Fed rate hike.",
+      "source": "Illustrative trajectory; gold spot levels via Trading Economics, USAGOLD & Fortune."
     }
   },
   "crypto": {
-    "btc": "$62,350 (+1.47%)",
-    "eth": "$1,627 (+1.68%)",
-    "xrp": "$1.12 (-1.33%)",
-    "note": "Numbers as of 4:00 PM ET, Wednesday, June 10th.",
-    "commentary": "Bitcoin firmed to $62,350 (+1.47%), with Ether ($1,627, +1.68%) along for the ride and XRP slipping to $1.12 (-1.33%). But the bigger crypto story is money rotating out: Bitcoin now sits about 50% below its October 2025 record as cash rushes toward Friday's blockbuster SpaceX IPO, which reportedly drew $250 billion in interest at a $1.75 trillion valuation. With a wave of large IPOs lining up, some analysts expect more money to keep leaking out of crypto and into new public listings.\n\nIn a sign of how mainstream the space is going, the Solana Foundation just became the title sponsor of the 2026 World Series of Poker — players can buy in with SOL or stablecoins at zero fees via MoonPay. For Bay Area buyers and sellers the connection is indirect, but big swings in crypto and IPO money still shape the risk appetite of a slice of the move-up market."
+    "btc": "$63,401 (+0.26%)",
+    "eth": "$1,669 (-0.18%)",
+    "xrp": "$1.14 (+0.00%)",
+    "note": "Numbers as of 4:00 PM ET, Thursday, June 11th.",
+    "commentary": "Bitcoin held at $63,401 (+0.26%), with Ether easing to $1,669 (-0.18%) and XRP flat at $1.14. The bigger story is crypto going mainstream: Japan passed a bill to regulate crypto under its stock-market law — lower taxes for holders and a path to crypto ETFs, but paired with insider-trading bans and up to 10 years in prison for unlicensed firms. Japan has about 14 million crypto accounts, mostly everyday earners.\n\nInstitutional money kept flowing in. Digital Asset, maker of the Canton Network, raised $355 million led by a16z crypto, with Citadel, HSBC, Apollo, and Abu Dhabi's wealth fund also backing it. Canton lets big banks trade bonds and funds on-chain while keeping the deals private. For Bay Area buyers and sellers the tie-in is indirect, but big swings in crypto and IPO money still shape the risk appetite of a slice of the move-up market."
   },
   "real_estate": {
-    "rate_30year": "6.67%",
-    "rate_15year": "6.20%",
-    "homebuilder": "Mortgage Rates Hold Near 6.67% As A Hot 4.2% CPI Rattles Markets; East Bay Board Firms To 2,884 Active On 198 New And 216 Closed",
-    "commentary": "The 30-year fixed held at 6.67% and the 15-year at 6.20% — but the bigger force this week is inflation. May CPI came in hot at 4.2% (see Economy), pushing the 10-year Treasury to 4.59% and trimming the odds of a Fed cut at next week's meeting. Mortgage rates take their cue from that 10-year, so a reaccelerating CPI is exactly the wrong direction for the buyer waiting on cheaper money.\n\nAnd yet buyers are leaning in anyway. Mortgage demand jumped almost 11% last week even as rates ticked up: refinancing rose 15% week-over-week (and 20% from a year ago), while purchase applications climbed 7%. The read-through is that some borrowers are making one last spring push before the summer market — and before inflation pushes rates any higher.\n\nLocally, the East Bay board firmed to 2,884 active, up 29 from Wednesday. New listings held near flat at 198 (vs 201) while 216 sales closed — more came on than cleared, which nudged the board back up after midweek's dip. Fremont alone logged 45 of those closings.\n\n📍 Alameda & Contra Costa Snapshot (06/11/26, new listings vs Wednesday)\n\n📍 Fremont: 11 new / 353 active (down 6).\n\n📍 Union City: 8 new (up 1).\n\n📍 Newark: 5 new (flat).\n\n📍 Hayward: 15 new (flat).\n\n📍 Danville: 18 new (up 8).\n\n📍 Milpitas: 4 new (down 2).\n\n📍 Oakland: 59 new / 758 active (still board leader).\n\n📍 Livermore: 18 new (up 10).\n\n📍 Castro Valley: 3 new (down 2).\n\n📍 Pleasanton: 16 new (down 1).\n\n📍 San Ramon: 22 new (up 4).\n\n📍 Dublin: 12 new (down 8).\n\n📍 Sunol: 1 new (flat).\n\n📍 San Lorenzo: 2 new (down 2).\n\n📍 San Leandro: 4 new (down 3).\n\nNew-listing flow was mixed: 4 cities added supply, 3 held flat, and 8 eased back, leaving the daily total at 198, just shy of Wednesday's 201. Livermore (+10) and Danville (+8) led the gainers; Dublin (-8) and Fremont (-6) led the pullbacks.\n\nFor agents: rates held, but inflation just reaccelerated to 4.2% and the 10-year jumped to 4.59% — yet mortgage demand still spiked 11% last week, a sign buyers aren't waiting. The board firmed to 2,884 as new listings outpaced closings. Tell buyers the \"wait for lower rates\" bet is getting riskier with inflation heating back up; tell sellers demand is real (refis +20% year-over-year, purchases +7%) and well-priced homes are still moving.",
+    "rate_30year": "6.60%",
+    "rate_15year": "6.15%",
+    "homebuilder": "Mortgage Rates Ease To 6.60% Even As Inflation Runs Hot; Existing-Home Sales Hit A Five-Month High As The East Bay Board Climbs To 2,915 Active On 218 New And 212 Closed",
+    "commentary": "The 30-year fixed eased to 6.60% and the 15-year to 6.15% — a modest step down from yesterday, and a real improvement from 6.84% a year ago. The bigger surprise: even with inflation reaccelerating (May CPI hit 4.2%, a three-year high), existing-home sales just climbed to a five-month high. The read-through is that a stronger job market is giving buyers the nerve to stop waiting on rates.\n\nThat theme is showing up locally, too. The East Bay board climbed to 2,915 active, up 31 from Thursday, as 218 new listings outpaced 212 closings — more came on than cleared, which nudged inventory higher. Oakland again led the board (769 active, 65 new), while Fremont logged 15 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/12/26, new listings vs Thursday)\n\n📍 Oakland: 65 new / 769 active (still board leader).\n\n📍 Livermore: 24 new (up 6).\n\n📍 San Ramon: 22 new (flat).\n\n📍 Dublin: 19 new (up 7).\n\n📍 Hayward: 16 new (up 1).\n\n📍 Danville: 16 new (down 2).\n\n📍 Fremont: 15 new / 360 active (up 4).\n\n📍 Pleasanton: 15 new (down 1).\n\n📍 Union City: 6 new (down 2).\n\n📍 Newark: 5 new (flat).\n\n📍 Castro Valley: 5 new (up 2).\n\n📍 Milpitas: 4 new (flat).\n\n📍 San Leandro: 3 new (down 1).\n\n📍 San Lorenzo: 2 new (flat).\n\n📍 Sunol: 1 new (flat).\n\nNew-listing flow ran hot: the daily total of 218 was up 20 from Thursday's 198, led by Dublin (+7), Livermore (+6), and Oakland (+6). Closings eased to 212.\n\nFor agents: rates actually ticked DOWN to 6.60% this week even as inflation ran hot — and existing-home sales hit a five-month high, a sign buyers are done waiting on cheaper money. The board firmed to 2,915 as new listings (218) outpaced closings (212). Tell buyers a stronger job market, not lower rates, is driving this leg, so well-priced homes are still moving; tell sellers the demand is showing up in the sales data, and listings coming on now are landing in an active market.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "https://market.briefs.co/"
+    "https://market.briefs.co/",
+    "https://tradingeconomics.com/commodity/gold",
+    "https://tradingeconomics.com/commodity/silver"
   ]
 }
