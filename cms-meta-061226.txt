@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 06/12/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 06/12/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for June 12, 2026: the 30-year mortgage eased to 6.60%, the East Bay board climbed to 2,915 active listings, and existing-home sales hit a five-month high, alongside gold's tumble to a six-month low, a silver spike, and today's SpaceX IPO.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Castro Valley, Danville, Milpitas, Union City, Newark, San Leandro, mortgage rates, housing market, daily market update, At a Glance, REALTY EXPERTS, SpaceX IPO, Oracle, gold price, silver price, existing-home sales, June 2026
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
