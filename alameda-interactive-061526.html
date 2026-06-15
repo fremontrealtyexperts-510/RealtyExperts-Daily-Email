@@ -1,0 +1,137 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 15, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.58%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.14%</strong></p>
+
+<p>The 30-year fixed eased to <strong>6.58%</strong> and the 15-year to <strong>6.14%</strong>. The weekend's big mover &mdash; a deal to end the Iran war &mdash; pushed oil sharply lower, and softer energy prices are exactly the kind of input that can help cool inflation and, over time, take pressure off mortgage rates.</p>
+
+<p>The national tone is shifting toward buyers. <strong>Lennar (LEN -4.90%)</strong>, the country's largest homebuilder, warned of fewer sales next quarter and cut its average price 5% to $371,000. And for the first time since the pandemic, the average U.S. home is now selling <strong>below</strong> its asking price &mdash; buyers have the most leverage in years. The catch is timing: homes that sell in about four weeks still beat the market, while those lingering 18 weeks fall behind.</p>
+
+<p>Local board: <strong>2,919 active</strong> (up just 4 from Friday), but the listing engine roared back after the weekend &mdash; <strong>261 new listings</strong> (up 43) against <strong>212 closed sales</strong>. Oakland led the surge with 78 new on 769 active.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 24 new / 360 active (up 9)</li>
+    <li><strong>Milpitas:</strong> 2 new (down 2)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 15 new (down 1)</li>
+    <li><strong>Union City:</strong> 9 new (up 3)</li>
+    <li><strong>San Leandro:</strong> 8 new (up 5)</li>
+    <li><strong>Newark:</strong> 4 new (down 1)</li>
+    <li><strong>San Lorenzo:</strong> 2 new (flat)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 29 new (up 5)</li>
+    <li><strong>San Ramon:</strong> 26 new (up 4)</li>
+    <li><strong>Dublin:</strong> 26 new (up 7)</li>
+    <li><strong>Pleasanton:</strong> 14 new (down 1)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 78 new / 769 active (volume leader)</li>
+    <li><strong>Danville:</strong> 19 new (up 3)</li>
+    <li><strong>Castro Valley:</strong> 4 new (down 1)</li>
+    <li><strong>Sunol:</strong> 1 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,431</strong> &nbsp;|&nbsp; DOW: <strong>51,202</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,888</strong></p>
+
+<p>Stocks edged higher into the weekend. The star was the debut: Elon Musk's <strong>SpaceX (SPCX +19.22%)</strong> blasted off in the biggest IPO ever, raising over $75 billion and closing valued above <strong>$2.1 trillion</strong> &mdash; instantly the 7th most valuable public company in the world, ahead of Tesla's $1.5 trillion. Musk is now a trillionaire, and there are already rumors that SpaceX and Tesla could merge.</p>
+
+<p>There's a new king of ETFs, too. <strong>Vanguard</strong> just passed <strong>BlackRock (BLK +1.52%)</strong> to become the largest ETF provider in the U.S., running about $4.39 trillion to BlackRock's $4.36 trillion &mdash; ending a reign BlackRock had held since 2003. Vanguard's VOO also became the first ETF ever to hold $1 trillion on its own.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.44%</strong> &nbsp;|&nbsp; Gold: <strong>$4,359</strong> &nbsp;|&nbsp; Silver: <strong>$70.81</strong> &nbsp;|&nbsp; Brent Crude: <strong>$82.95</strong></p>
+
+<p>Done deal. President Trump and Iran confirmed a deal to end the war over the weekend &mdash; the Strait of Hormuz is reopening and the U.S. naval blockade is clearing. Oil fell hard: Brent slid 5% to $82.95 and U.S. crude touched $80 for the first time since March. Precious metals went the other way &mdash; gold rebounded 2.85% to $4,359 and silver climbed to about $70.81, now up over 100% year-to-date.</p>
+
+<p>The week's headlines also underline how big U.S. tech has become. After Friday's record IPO, SpaceX is the 7th most valuable public company on earth, while NVIDIA alone (~$5 trillion) rivals Germany's entire economy and the three biggest U.S. companies combined approach two-thirds of China's GDP. The two charts below put it in perspective.</p>
+
+<div style="margin:18px 0;text-align:center;">
+<img src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/most-valuable-companies-061526.png" alt="The 10 most valuable companies by market cap, June 2026" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:8px;" />
+<p style="font-size:13px;color:#475569;font-style:italic;margin:8px 0 0;line-height:1.5;">After its record IPO, SpaceX (#7, $2.1T) now outranks Tesla &mdash; in a top 10 dominated by AI and Big Tech, led by NVIDIA near $5 trillion. <span style="color:#94a3b8;">Source: companiesmarketcap.com (via Market Briefs).</span></p>
+</div>
+
+<div style="margin:18px 0;text-align:center;">
+<img src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/top5-economies-gdp-061526.png" alt="Top 5 economies by nominal GDP, 2025 (IMF)" style="max-width:100%;height:auto;border:1px solid #e2e8f0;border-radius:8px;" />
+<p style="font-size:13px;color:#475569;font-style:italic;margin:8px 0 0;line-height:1.5;">For scale: NVIDIA alone (~$5T) rivals Germany's entire economy ($5.45T). <span style="color:#94a3b8;">Source: International Monetary Fund, nominal GDP 2025 (via Market Briefs).</span></p>
+</div>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$66,200</strong> &nbsp;|&nbsp; ETH: <strong>$1,741</strong> &nbsp;|&nbsp; XRP: <strong>$1.21</strong></p>
+
+<p>Bitcoin firmed to $66,200, with Ether at $1,741 and XRP up nearly 2% to $1.21. A surprise from the SpaceX IPO filings: the company holds <strong>18,712 Bitcoin</strong> (about $1.2 billion), making it the 8th-largest public holder of the coin &mdash; and with Tesla's stash, Musk's companies together would rank 4th. Bitcoin ETFs are about to cross $2 trillion in cumulative volume, though investors have pulled roughly $7.6 billion out since Bitcoin's October peak near $126,000.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+        <li><a href="https://tradingeconomics.com/commodity/gold" target="_blank">Trading Economics</a> &ndash; Gold</li>
+        <li><a href="https://tradingeconomics.com/commodity/silver" target="_blank">Trading Economics</a> &ndash; Silver</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-061526.js"></script>
