@@ -1,42 +1,50 @@
 {
-  "date": "06/12/26",
-  "time": "9:45 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/b7fe961f-ef6c-44b5-af3d-a359fe870471",
-  "qr_code_path": "note-qr-b7fe961f.png",
+  "date": "06/15/26",
+  "time": "10:00 AM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/ae21fb01-920b-417a-b8cd-70cd7c1d87cb",
+  "qr_code_path": "note-qr-ae21fb01.png",
   "stocks": {
-    "sp500": "7,394 (+1.75%)",
-    "dow": "50,848 (+1.86%)",
-    "nasdaq": "25,809 (+2.54%)",
-    "note": "Numbers as of market close on Thursday, June 11th.",
-    "news": "Stocks roared back. The S&P 500 jumped 1.75%, the DOW 1.86%, and the NASDAQ 2.54%, clawing back most of Wednesday's inflation-driven selloff as easing Middle East tensions and IPO fever revived risk appetite. The headline event is today: SpaceX's long-awaited IPO is expected to raise roughly $75 billion at a $135 target price (555 million shares) — a deal big enough that it could make Elon Musk the world's first trillionaire.\n\nNot every name joined the party. Oracle (ORCL -8.53%) had its worst day in over a year — even after beating on both sales and profit — as investors balked at the cash math behind its AI push: the company burned $23.7 billion last year and needs roughly $40 billion more. The worry is that those big AI bets only pay off if they convert into profit. Tesla (TSLA +4.60%) rode the SpaceX halo higher."
+    "sp500": "7,431 (+0.50%)",
+    "dow": "51,202 (+0.70%)",
+    "nasdaq": "25,888 (+0.31%)",
+    "note": "Numbers as of market close on Friday, June 12th.",
+    "news": "Stocks edged higher into the weekend — the S&P 500 up 0.50%, the DOW 0.70%, and the NASDAQ 0.31%. The star was the debut: Elon Musk's SpaceX (SPCX +19.22%) blasted off in the biggest IPO ever, raising over $75 billion and closing valued above $2.1 trillion — instantly the 7th most valuable public company in the world, ahead of Tesla's $1.5 trillion. Musk is now a trillionaire, and there are already rumors that SpaceX and Tesla could merge. (The first chart below shows where SpaceX now sits among the giants.)\n\nThere's a new king of ETFs, too. Vanguard just passed BlackRock (BLK +1.52%) to become the largest ETF provider in the U.S., running about $4.39 trillion to BlackRock's $4.36 trillion — ending a reign BlackRock had held since 2003. Vanguard's VOO also became the first ETF ever to hold $1 trillion on its own."
   },
   "economy": {
-    "us10year": "4.46% (+0.00%)",
-    "gold": "$4,186 (-0.63%)",
-    "silver": "$68.06 (+6.9%)",
-    "wti": "$89.30 (-1.18%)",
+    "us10year": "4.44% (-0.03%)",
+    "gold": "$4,359 (+2.85%)",
+    "silver": "$70.81 (+4.2%)",
+    "wti": "$82.95 (-5.05%)",
     "oil_label": "Brent Crude",
-    "note": "10-Year & Brent Crude as of June 11th close (Market Briefs); gold & silver are live spot prices, midday June 12th.",
-    "commentary": "📊 Looking Dull. Gold has tumbled to roughly a six-month low — down about 6.3% on the week, to near $4,186 an ounce — even though inflation is running at a three-year high. That is backwards from gold's usual playbook (it tends to rise when inflation is hot), and it comes down to interest rates: after May CPI reaccelerated to 4.2%, traders now bet the Fed could actually HIKE by December, and gold hates higher rates. The chart below traces the slide from January's ~$5,400 peak.\n\nSilver went the other way, spiking toward $68 an ounce (+6.9%) as Middle East supply jitters and bargain-hunting lit a fire under the more industrial metal — a sharp split from gold on the same day.\n\nBrent crude eased to $89.30 (-1.18%) after President Trump said the U.S. is pausing strikes on Iran and expects a deal within days. And in a sign the wealth effect is cooling, U.S. household net worth rose just $100 billion last quarter to a record $183 trillion — the smallest gain in a year, though rising home values and savings bridged some of the gap.",
-    "feature_image": {
-      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/gold-looking-dull-061226.png",
-      "alt": "Gold spot price, 2026 year-to-date — the slide from January's ~$5,400 peak to a roughly six-month low near $4,186",
-      "caption": "Gold's 2026 round trip: after spiking to about $5,400 in late January, it has ground lower all year and tumbled ~6.3% this week to a roughly six-month low near $4,186 — even with inflation at a three-year high — as traders price in a possible Fed rate hike.",
-      "source": "Illustrative trajectory; gold spot levels via Trading Economics, USAGOLD & Fortune."
-    }
+    "note": "10-Year, Brent & gold as of June 15th (Market Briefs); silver is live spot, midday June 15th.",
+    "commentary": "Done deal. President Trump and Iran confirmed a deal to end the war over the weekend — the Strait of Hormuz is reopening and the U.S. naval blockade is clearing. Oil fell hard on the news: Brent slid 5% to $82.95 and U.S. crude touched $80 for the first time since March. Lower energy is good news for the inflation fight — and, eventually, for mortgage rates.\n\nPrecious metals went the other way. Gold rebounded 2.85% to $4,359, recovering much of last week's tumble, while silver kept climbing to about $70.81 (+4.2%) — now up over 100% year-to-date as one of 2026's best-performing assets. The 10-year Treasury eased to 4.44%.\n\nA note on scale: the two charts below put the week's headlines in perspective. After Friday's record IPO, SpaceX vaulted to the 7th most valuable public company on earth — and the bigger picture is striking. NVIDIA alone, near $5 trillion, is worth almost as much as Germany's entire economy ($5.45T), and the three biggest U.S. companies combined rival roughly two-thirds of China's GDP. A handful of American tech giants now stand shoulder-to-shoulder with whole nations.\n\nOne cloud: a U.S. appeals court ruled that President Trump's 10% import tariff can stay in place during appeals, so importers keep paying — and those costs can still reach shoppers — while the case likely heads back to the Supreme Court.",
+    "feature_images": [
+      {
+        "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/most-valuable-companies-061526.png",
+        "alt": "The 10 most valuable public companies by market capitalization, June 2026",
+        "caption": "After its record IPO, SpaceX (#7, $2.1T) now outranks Tesla among the world's most valuable public companies — in a top 10 dominated by AI and Big Tech, led by NVIDIA near $5 trillion.",
+        "source": "Source: companiesmarketcap.com (via Market Briefs), June 2026."
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/top5-economies-gdp-061526.png",
+        "alt": "Top 5 economies by nominal GDP, 2025 projection (IMF)",
+        "caption": "For scale: NVIDIA alone (~$5T) rivals Germany's entire economy ($5.45T), and the three largest U.S. companies combined approach two-thirds of China's GDP.",
+        "source": "Source: International Monetary Fund — nominal GDP, 2025 (via Market Briefs)."
+      }
+    ]
   },
   "crypto": {
-    "btc": "$63,401 (+0.26%)",
-    "eth": "$1,669 (-0.18%)",
-    "xrp": "$1.14 (+0.00%)",
-    "note": "Numbers as of 4:00 PM ET, Thursday, June 11th.",
-    "commentary": "Bitcoin held at $63,401 (+0.26%), with Ether easing to $1,669 (-0.18%) and XRP flat at $1.14. The bigger story is crypto going mainstream: Japan passed a bill to regulate crypto under its stock-market law — lower taxes for holders and a path to crypto ETFs, but paired with insider-trading bans and up to 10 years in prison for unlicensed firms. Japan has about 14 million crypto accounts, mostly everyday earners.\n\nInstitutional money kept flowing in. Digital Asset, maker of the Canton Network, raised $355 million led by a16z crypto, with Citadel, HSBC, Apollo, and Abu Dhabi's wealth fund also backing it. Canton lets big banks trade bonds and funds on-chain while keeping the deals private. For Bay Area buyers and sellers the tie-in is indirect, but big swings in crypto and IPO money still shape the risk appetite of a slice of the move-up market."
+    "btc": "$66,200 (+0.74%)",
+    "eth": "$1,741 (+0.98%)",
+    "xrp": "$1.21 (+1.99%)",
+    "note": "Numbers as of 4:00 PM ET, Friday, June 12th.",
+    "commentary": "Bitcoin firmed to $66,200 (+0.74%), with Ether at $1,741 (+0.98%) and XRP up nearly 2% to $1.21. A surprise from the SpaceX IPO filings: the company is sitting on 18,712 Bitcoin — worth about $1.2 billion — making it the 8th-largest public holder of the coin. Add Tesla's stash, and Elon Musk's companies together would rank 4th among public Bitcoin holders.\n\nThe ETF era keeps maturing: Bitcoin ETFs are about to cross $2 trillion in cumulative trading volume just over two years after launch, with BlackRock's IBIT accounting for nearly three-quarters of it. That said, investors have pulled about $7.6 billion out since Bitcoin's October peak near $126,000 — plenty of activity, but money has also been heading for the exits."
   },
   "real_estate": {
-    "rate_30year": "6.60%",
-    "rate_15year": "6.15%",
-    "homebuilder": "Mortgage Rates Ease To 6.60% Even As Inflation Runs Hot; Existing-Home Sales Hit A Five-Month High As The East Bay Board Climbs To 2,915 Active On 218 New And 212 Closed",
-    "commentary": "The 30-year fixed eased to 6.60% and the 15-year to 6.15% — a modest step down from yesterday, and a real improvement from 6.84% a year ago. The bigger surprise: even with inflation reaccelerating (May CPI hit 4.2%, a three-year high), existing-home sales just climbed to a five-month high. The read-through is that a stronger job market is giving buyers the nerve to stop waiting on rates.\n\nThat theme is showing up locally, too. The East Bay board climbed to 2,915 active, up 31 from Thursday, as 218 new listings outpaced 212 closings — more came on than cleared, which nudged inventory higher. Oakland again led the board (769 active, 65 new), while Fremont logged 15 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/12/26, new listings vs Thursday)\n\n📍 Oakland: 65 new / 769 active (still board leader).\n\n📍 Livermore: 24 new (up 6).\n\n📍 San Ramon: 22 new (flat).\n\n📍 Dublin: 19 new (up 7).\n\n📍 Hayward: 16 new (up 1).\n\n📍 Danville: 16 new (down 2).\n\n📍 Fremont: 15 new / 360 active (up 4).\n\n📍 Pleasanton: 15 new (down 1).\n\n📍 Union City: 6 new (down 2).\n\n📍 Newark: 5 new (flat).\n\n📍 Castro Valley: 5 new (up 2).\n\n📍 Milpitas: 4 new (flat).\n\n📍 San Leandro: 3 new (down 1).\n\n📍 San Lorenzo: 2 new (flat).\n\n📍 Sunol: 1 new (flat).\n\nNew-listing flow ran hot: the daily total of 218 was up 20 from Thursday's 198, led by Dublin (+7), Livermore (+6), and Oakland (+6). Closings eased to 212.\n\nFor agents: rates actually ticked DOWN to 6.60% this week even as inflation ran hot — and existing-home sales hit a five-month high, a sign buyers are done waiting on cheaper money. The board firmed to 2,915 as new listings (218) outpaced closings (212). Tell buyers a stronger job market, not lower rates, is driving this leg, so well-priced homes are still moving; tell sellers the demand is showing up in the sales data, and listings coming on now are landing in an active market.",
+    "rate_30year": "6.58%",
+    "rate_15year": "6.14%",
+    "homebuilder": "Mortgage Rates Ease To 6.58% As The Iran Peace Deal Drops Oil; Sellers Lose Their Edge Nationally While The East Bay Board Holds At 2,919 Active On A Heavy 261 New And 212 Closed",
+    "commentary": "The 30-year fixed eased to 6.58% and the 15-year to 6.14%. The weekend's big mover — the Iran peace deal — pushed oil sharply lower, and softer energy prices are exactly the kind of input that can help cool inflation and, over time, take pressure off mortgage rates.\n\nThe national tone is shifting toward buyers. Lennar (LEN -4.90%), the country's largest homebuilder, warned of fewer sales next quarter as high rates and shaky confidence keep buyers on the sidelines; it cut its average home price 5% to $371,000 and leaned on incentives. And for the first time since the pandemic, the average U.S. home is selling below its asking price — buyers now have the most leverage in years. The catch is timing: homes that sell in about four weeks still beat the market, while those lingering 18 weeks fall behind.\n\nLocally, the East Bay board held near flat at 2,919 active (up just 4 from Friday), but the listing engine roared back after the weekend: 261 new listings hit the board — up 43 from Friday's 218 — against 212 closings. Oakland led the surge with 78 new on 769 active; Fremont added 24 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/15/26, new listings vs Friday)\n\n📍 Oakland: 78 new / 769 active (board leader).\n\n📍 Livermore: 29 new (up 5).\n\n📍 San Ramon: 26 new (up 4).\n\n📍 Dublin: 26 new (up 7).\n\n📍 Fremont: 24 new / 360 active (up 9).\n\n📍 Danville: 19 new (up 3).\n\n📍 Hayward: 15 new (down 1).\n\n📍 Pleasanton: 14 new (down 1).\n\n📍 Union City: 9 new (up 3).\n\n📍 San Leandro: 8 new (up 5).\n\n📍 Newark: 4 new (down 1).\n\n📍 Castro Valley: 4 new (down 1).\n\n📍 Milpitas: 2 new (down 2).\n\n📍 San Lorenzo: 2 new (flat).\n\n📍 Sunol: 1 new (flat).\n\nNew-listing flow jumped to 261 — a heavy Monday after the weekend — led by Oakland (+13), Fremont (+9), and Dublin (+7). Closings held at 212.\n\nFor agents: the headline is leverage shifting to buyers — nationally, homes are now selling below ask for the first time since the pandemic, and the biggest builder is discounting. But locally the board barely moved (2,919) even as 261 new listings poured in, so well-priced, well-presented homes that sell inside ~4 weeks still win. Tell sellers to price right and move fast; tell buyers they finally have room to negotiate — and that the Iran peace deal nudging oil (and maybe rates) lower only helps.",
     "local_news": ""
   },
   "sources": [

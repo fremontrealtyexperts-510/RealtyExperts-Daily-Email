@@ -172,6 +172,28 @@ function economyStatCards(e) {
                     </table>`;
 }
 
+// Render 0, 1, or N feature images in the ECONOMY section (each click-to-enlarge,
+// Outlook-safe). Use `economy.feature_images` (array) for multiple — e.g. the
+// Market Briefs "10 Most Valuable Companies" + "Top 5 Economies by GDP" infographics —
+// or `economy.feature_image` (single object) for one (back-compat, e.g. the gold chart).
+function economyFeatureImagesHtml(e) {
+  const imgs = Array.isArray(e.feature_images) ? e.feature_images
+             : (e.feature_image ? [e.feature_image] : []);
+  if (!imgs.length) return '';
+  return imgs.filter(fi => fi && fi.url).map(fi => `<!-- ECONOMY feature image -->
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
+                      <tr>
+                        <td align="center">
+                          <a href="${fi.url}" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
+                            <img src="${fi.url}" alt="${fi.alt || ''}" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid #e2e8f0; cursor: zoom-in;">
+                          </a>
+                        </td>
+                      </tr>
+                      ${fi.caption ? `<tr><td style="padding: 10px 4px 0 4px; font-size: 13px; color: #475569; line-height: 1.55; font-style: italic;">${fi.caption}</td></tr>` : ''}
+                      ${fi.source ? `<tr><td style="padding: 4px 4px 0 4px; font-size: 11px; color: #94a3b8;">${fi.source}</td></tr>` : ''}
+                    </table>`).join('\n');
+}
+
 // Generate HTML with inline styles for Outlook compatibility
 function generateHTML(data) {
   // Format date for filenames (MMDDYY)
@@ -481,18 +503,7 @@ function generateHTML(data) {
                         <td style="font-size: 15px; color: #334155;">${formatCommentary(data.economy.commentary)}</td>
                       </tr>
                     </table>
-                    ${data.economy.feature_image ? `<!-- ECONOMY feature image (Market Briefs chart) -->
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
-                      <tr>
-                        <td align="center">
-                          <a href="${data.economy.feature_image.url}" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                            <img src="${data.economy.feature_image.url}" alt="${data.economy.feature_image.alt || ''}" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid #e2e8f0; cursor: zoom-in;">
-                          </a>
-                        </td>
-                      </tr>
-                      ${data.economy.feature_image.caption ? `<tr><td style="padding: 10px 4px 0 4px; font-size: 13px; color: #475569; line-height: 1.55; font-style: italic;">${data.economy.feature_image.caption}</td></tr>` : ''}
-                      ${data.economy.feature_image.source ? `<tr><td style="padding: 4px 4px 0 4px; font-size: 11px; color: #94a3b8;">${data.economy.feature_image.source}</td></tr>` : ''}
-                    </table>` : ''}
+                    ${economyFeatureImagesHtml(data.economy)}
                   </td>
                 </tr>
               </table>
