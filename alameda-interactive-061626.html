@@ -1,0 +1,131 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 16, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.56%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.12%</strong></p>
+
+<p>The 30-year slipped to <strong>6.56%</strong> and the 15-year to <strong>6.12%</strong>. Builders, though, are still glum: homebuilder confidence (the NAHB Housing Market Index) fell to <strong>35 in June</strong> &mdash; its longest slump since 2012. Anything under 50 means more builders feel bad than good, and the gauge has now sat below 40 for <strong>14 straight months</strong>. With high rates and building costs keeping buyers cautious, about <strong>35% of builders are cutting prices</strong> to move inventory.</p>
+
+<p><strong>Affordability is the throughline.</strong> A &ldquo;starter home&rdquo; now costs <strong>$1 million in 242 U.S. cities</strong> &mdash; triple the count in 2020 &mdash; and 26 states have at least one such city, up from 9. California alone has <strong>105</strong> of them. The cause is the familiar one: not enough homes are getting built, which keeps that crucial first rung out of reach.</p>
+
+<p>Local board: <strong>2,882 active</strong> (down 37 from yesterday), <strong>248 new listings</strong>, <strong>216 closed sales</strong>. New supply eased after Monday&rsquo;s surge while buyers kept closing at a steady clip.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 23 new / 356 active (down 1)</li>
+    <li><strong>Milpitas:</strong> 2 new (flat)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 16 new / 265 active (up 1)</li>
+    <li><strong>Newark:</strong> 5 new (up 1)</li>
+    <li><strong>Union City:</strong> 9 new (flat)</li>
+    <li><strong>San Leandro:</strong> 8 new (flat)</li>
+    <li><strong>San Lorenzo:</strong> 1 new (down 1)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 25 new (down 4)</li>
+    <li><strong>San Ramon:</strong> 24 new (down 2)</li>
+    <li><strong>Dublin:</strong> 24 new (down 2)</li>
+    <li><strong>Pleasanton:</strong> 11 new (down 3)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 76 new / 757 active (volume leader, down 2)</li>
+    <li><strong>Danville:</strong> 19 new (flat)</li>
+    <li><strong>Castro Valley:</strong> 5 new (up 1)</li>
+    <li><strong>Sunol:</strong> 0 new (down 1)</li>
+</ul>
+
+<figure style="margin: 24px 0; text-align: center;">
+    <img src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/nahb-housing-index-061626.png" alt="US NAHB Housing Market Index — homebuilder sentiment, last 9 months (Oct 2025 through Jun 2026): 37, 38, 39, 37, 37, 38, 34, 37, 35" style="max-width: 100%; height: auto; border: 1px solid #e2e8f0; border-radius: 8px;">
+    <figcaption style="font-size: 13px; color: #475569; font-style: italic; margin-top: 10px; line-height: 1.5;">Homebuilder confidence (NAHB Housing Market Index) slipped to 35 in June &mdash; its longest stretch below the break-even 50 line since 2012, and under 40 for 14 straight months. <span style="color:#94a3b8;font-style:normal;">Source: National Association of Home Builders (NAHB). Chart rebuilt by REALTY EXPERTS&reg;.</span></figcaption>
+</figure>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,554</strong> &nbsp;|&nbsp; DOW: <strong>51,671</strong> &nbsp;|&nbsp; NASDAQ: <strong>26,638</strong></p>
+
+<p><strong>SpaceX (SPCX +19.60%)</strong> jumped again after the biggest IPO in history, pushing its value past <strong>$2 trillion</strong>. CEO Elon Musk says the company could reach $1 trillion in revenue by 2030, up from just over $18 billion last year &mdash; though it lost nearly $5 billion last year and analysts can&rsquo;t agree what it&rsquo;s worth.</p>
+
+<p>Dealmaking is back, too. <strong>Fox (FOX -15.07%)</strong> is buying streamer <strong>Roku (ROKU -0.88%)</strong> for about <strong>$22 billion</strong> &mdash; the biggest entertainment deal since the Paramount&ndash;Warner Bros. tie-up earlier this year. Investors think Fox overpaid: its shares fell as much as 17% Monday morning. Separately, Salesforce is buying customer-service platform Fin for $3.6 billion.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.44%</strong> &nbsp;|&nbsp; Gold: <strong>$4,363</strong> &nbsp;|&nbsp; Silver: <strong>$70.39</strong> &nbsp;|&nbsp; Brent Crude: <strong>$81.05</strong></p>
+
+<p>A quiet day for rates and metals: the 10-year Treasury held at <strong>4.44%</strong>, Brent crude eased 2.55% to <strong>$81.05</strong>, gold ticked up to <strong>$4,363</strong>, and silver gave back a little to about <strong>$70.39</strong> &mdash; though silver remains one of 2026&rsquo;s best performers, up roughly 100% year-to-date.</p>
+
+<p>On trade, President Trump said French wine could face a <strong>100% tariff</strong> soon &mdash; a move that would roughly double prices on U.S. shelves &mdash; as leverage to get France to drop its 3% tax on big U.S. tech firms. Americans buy about $2 billion of French wine a year, near a fifth of France&rsquo;s global wine sales.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$66,522</strong> &nbsp;|&nbsp; ETH: <strong>$1,795</strong> &nbsp;|&nbsp; XRP: <strong>$1.24</strong></p>
+
+<p>Crypto was flat-to-firm. The bigger news is access: <strong>Kraken</strong> just made &ldquo;perpetual futures&rdquo; (a crypto bet that never expires) available to U.S. traders for the first time, after its parent bought CFTC-licensed Bitnomial &mdash; those contracts drew over $60 trillion in trades last year, almost all of it offshore. Corporate buyers keep stacking coins now that the U.S.&ndash;Iran conflict is over: <strong>Strategy (MSTR +5.78%)</strong> added 1,587 Bitcoin (about $100 million) and <strong>Strive (ASST +10.03%)</strong> picked up another 73.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+        <li><a href="https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index" target="_blank">NAHB</a> &ndash; Housing Market Index</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-061626.js"></script>
