@@ -1,56 +1,49 @@
 {
-  "date": "06/15/26",
+  "date": "06/16/26",
   "time": "10:00 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/ae21fb01-920b-417a-b8cd-70cd7c1d87cb",
-  "qr_code_path": "note-qr-ae21fb01.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/21c89b87-f661-4c80-89a8-0bd5703b4fa0",
+  "qr_code_path": "note-qr-21c89b87.png",
   "stocks": {
-    "sp500": "7,431 (+0.50%)",
-    "dow": "51,202 (+0.70%)",
-    "nasdaq": "25,888 (+0.31%)",
-    "note": "Numbers as of market close on Friday, June 12th.",
-    "news": "Stocks edged higher into the weekend — the S&P 500 up 0.50%, the DOW 0.70%, and the NASDAQ 0.31%. The star was the debut: Elon Musk's SpaceX (SPCX +19.22%) blasted off in the biggest IPO ever, raising over $75 billion and closing valued above $2.1 trillion — instantly the 7th most valuable public company in the world, ahead of Tesla's $1.5 trillion. Musk is now a trillionaire, and there are already rumors that SpaceX and Tesla could merge. (The first chart below shows where SpaceX now sits among the giants.)\n\nThere's a new king of ETFs, too. Vanguard just passed BlackRock (BLK +1.52%) to become the largest ETF provider in the U.S., running about $4.39 trillion to BlackRock's $4.36 trillion — ending a reign BlackRock had held since 2003. Vanguard's VOO also became the first ETF ever to hold $1 trillion on its own."
+    "sp500": "7,554 (+1.65%)",
+    "dow": "51,671 (+0.92%)",
+    "nasdaq": "26,638 (+3.07%)",
+    "note": "Numbers as of market close on Friday, June 13th.",
+    "news": "Stocks pushed higher — the S&P 500 up 1.65%, the DOW 0.92%, and a standout 3.07% for the NASDAQ. SpaceX (SPCX +19.60%) jumped again Monday after the biggest IPO in history, pushing its value past $2 trillion. CEO Elon Musk says the company could reach $1 trillion in revenue by 2030, up from just over $18 billion last year — though it lost nearly $5 billion last year and analysts can't agree what it's worth.\n\nDealmaking is back. Fox (FOX -15.07%) is buying streamer Roku (ROKU -0.88%) for about $22 billion — the biggest entertainment deal since the Paramount–Warner Bros. tie-up earlier this year. Investors think Fox overpaid: its shares fell as much as 17% Monday morning. Separately, Salesforce is buying customer-service platform Fin for $3.6 billion."
   },
   "economy": {
-    "us10year": "4.44% (-0.03%)",
-    "gold": "$4,359 (+2.85%)",
-    "silver": "$70.81 (+4.2%)",
-    "wti": "$82.95 (-5.05%)",
+    "us10year": "4.44% (-0.02%)",
+    "gold": "$4,363 (+0.26%)",
+    "silver": "$70.39 (-0.83%)",
+    "wti": "$81.05 (-2.55%)",
     "oil_label": "Brent Crude",
-    "note": "10-Year, Brent & gold as of June 15th (Market Briefs); silver is live spot, midday June 15th.",
-    "commentary": "Done deal. President Trump and Iran confirmed a deal to end the war over the weekend — the Strait of Hormuz is reopening and the U.S. naval blockade is clearing. Oil fell hard on the news: Brent slid 5% to $82.95 and U.S. crude touched $80 for the first time since March. Lower energy is good news for the inflation fight — and, eventually, for mortgage rates.\n\nPrecious metals went the other way. Gold rebounded 2.85% to $4,359, recovering much of last week's tumble, while silver kept climbing to about $70.81 (+4.2%) — now up over 100% year-to-date as one of 2026's best-performing assets. The 10-year Treasury eased to 4.44%.\n\nA note on scale: the two charts below put the week's headlines in perspective. After Friday's record IPO, SpaceX vaulted to the 7th most valuable public company on earth — and the bigger picture is striking. NVIDIA alone, near $5 trillion, is worth almost as much as Germany's entire economy ($5.45T), and the three biggest U.S. companies combined rival roughly two-thirds of China's GDP. A handful of American tech giants now stand shoulder-to-shoulder with whole nations.\n\nOne cloud: a U.S. appeals court ruled that President Trump's 10% import tariff can stay in place during appeals, so importers keep paying — and those costs can still reach shoppers — while the case likely heads back to the Supreme Court.",
-    "feature_images": [
-      {
-        "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/most-valuable-companies-061526.png",
-        "alt": "The 10 most valuable public companies by market capitalization, June 2026",
-        "caption": "After its record IPO, SpaceX (#7, $2.1T) now outranks Tesla among the world's most valuable public companies — in a top 10 dominated by AI and Big Tech, led by NVIDIA near $5 trillion.",
-        "source": "Source: companiesmarketcap.com (via Market Briefs), June 2026."
-      },
-      {
-        "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/top5-economies-gdp-061526.png",
-        "alt": "Top 5 economies by nominal GDP, 2025 projection (IMF)",
-        "caption": "For scale: NVIDIA alone (~$5T) rivals Germany's entire economy ($5.45T), and the three largest U.S. companies combined approach two-thirds of China's GDP.",
-        "source": "Source: International Monetary Fund — nominal GDP, 2025 (via Market Briefs)."
-      }
-    ]
+    "note": "10-Year, Brent & gold as of June 15th (Market Briefs); silver is live spot, June 16th (Fortune).",
+    "commentary": "A quiet day for rates and metals. The 10-year Treasury held at 4.44%, Brent crude eased 2.55% to $81.05, and gold ticked up to $4,363 (+0.26%). Silver gave back a little to about $70.39 (-0.83%) but remains one of 2026's best performers, still up roughly 100% year-to-date.\n\nThe headline for housing is sentiment, not prices. Homebuilder confidence — the NAHB Housing Market Index — slipped to 35 in June, its longest slump since 2012. Anything below 50 means more builders feel bad than good, and the gauge has now been stuck under 40 for 14 straight months. High mortgage rates and building costs are scaring off buyers, so about 35% of builders are cutting prices. (The chart below tracks the last nine months.)\n\nOn the trade front, President Trump said French wine could face a 100% tariff soon — a move that would roughly double prices on U.S. shelves — as leverage to get France to drop its 3% tax on big U.S. tech firms. Americans buy about $2 billion of French wine a year, near a fifth of France's global wine sales.",
+    "feature_image": {
+      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/nahb-housing-index-061626.png",
+      "alt": "US NAHB Housing Market Index — homebuilder sentiment, last 9 months (Oct 2025 through Jun 2026): 37, 38, 39, 37, 37, 38, 34, 37, 35",
+      "caption": "Homebuilder confidence (NAHB Housing Market Index) slipped to 35 in June — its longest stretch below the break-even 50 line since 2012, and under 40 for 14 straight months. With high mortgage rates and building costs keeping buyers on the sidelines, roughly 35% of builders are now cutting prices.",
+      "source": "Source: National Association of Home Builders (NAHB). Chart rebuilt by REALTY EXPERTS®."
+    }
   },
   "crypto": {
-    "btc": "$66,200 (+0.74%)",
-    "eth": "$1,741 (+0.98%)",
-    "xrp": "$1.21 (+1.99%)",
-    "note": "Numbers as of 4:00 PM ET, Friday, June 12th.",
-    "commentary": "Bitcoin firmed to $66,200 (+0.74%), with Ether at $1,741 (+0.98%) and XRP up nearly 2% to $1.21. A surprise from the SpaceX IPO filings: the company is sitting on 18,712 Bitcoin — worth about $1.2 billion — making it the 8th-largest public holder of the coin. Add Tesla's stash, and Elon Musk's companies together would rank 4th among public Bitcoin holders.\n\nThe ETF era keeps maturing: Bitcoin ETFs are about to cross $2 trillion in cumulative trading volume just over two years after launch, with BlackRock's IBIT accounting for nearly three-quarters of it. That said, investors have pulled about $7.6 billion out since Bitcoin's October peak near $126,000 — plenty of activity, but money has also been heading for the exits."
+    "btc": "$66,522 (+0.35%)",
+    "eth": "$1,795 (+0.01%)",
+    "xrp": "$1.24 (+0.06%)",
+    "note": "Numbers as of 4:00 PM ET, June 15th.",
+    "commentary": "Crypto was flat-to-firm: Bitcoin at $66,522 (+0.35%), Ether barely moved at $1,795, and XRP at $1.24. The bigger news is access — Kraken just made \"perpetual futures\" (a crypto bet that never expires) available to U.S. traders for the first time, after its parent bought CFTC-licensed Bitnomial. Those contracts drew over $60 trillion in trades last year, almost all of it offshore.\n\nCorporate buyers keep stacking coins now that the U.S.–Iran conflict is over: Strategy (MSTR +5.78%) added 1,587 Bitcoin (about $100 million) and Strive (ASST +10.03%) picked up another 73 (about $4.7 million)."
   },
   "real_estate": {
-    "rate_30year": "6.58%",
-    "rate_15year": "6.14%",
-    "homebuilder": "Mortgage Rates Ease To 6.58% As The Iran Peace Deal Drops Oil; Sellers Lose Their Edge Nationally While The East Bay Board Holds At 2,919 Active On A Heavy 261 New And 212 Closed",
-    "commentary": "The 30-year fixed eased to 6.58% and the 15-year to 6.14%. The weekend's big mover — the Iran peace deal — pushed oil sharply lower, and softer energy prices are exactly the kind of input that can help cool inflation and, over time, take pressure off mortgage rates.\n\nThe national tone is shifting toward buyers. Lennar (LEN -4.90%), the country's largest homebuilder, warned of fewer sales next quarter as high rates and shaky confidence keep buyers on the sidelines; it cut its average home price 5% to $371,000 and leaned on incentives. And for the first time since the pandemic, the average U.S. home is selling below its asking price — buyers now have the most leverage in years. The catch is timing: homes that sell in about four weeks still beat the market, while those lingering 18 weeks fall behind.\n\nLocally, the East Bay board held near flat at 2,919 active (up just 4 from Friday), but the listing engine roared back after the weekend: 261 new listings hit the board — up 43 from Friday's 218 — against 212 closings. Oakland led the surge with 78 new on 769 active; Fremont added 24 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/15/26, new listings vs Friday)\n\n📍 Oakland: 78 new / 769 active (board leader).\n\n📍 Livermore: 29 new (up 5).\n\n📍 San Ramon: 26 new (up 4).\n\n📍 Dublin: 26 new (up 7).\n\n📍 Fremont: 24 new / 360 active (up 9).\n\n📍 Danville: 19 new (up 3).\n\n📍 Hayward: 15 new (down 1).\n\n📍 Pleasanton: 14 new (down 1).\n\n📍 Union City: 9 new (up 3).\n\n📍 San Leandro: 8 new (up 5).\n\n📍 Newark: 4 new (down 1).\n\n📍 Castro Valley: 4 new (down 1).\n\n📍 Milpitas: 2 new (down 2).\n\n📍 San Lorenzo: 2 new (flat).\n\n📍 Sunol: 1 new (flat).\n\nNew-listing flow jumped to 261 — a heavy Monday after the weekend — led by Oakland (+13), Fremont (+9), and Dublin (+7). Closings held at 212.\n\nFor agents: the headline is leverage shifting to buyers — nationally, homes are now selling below ask for the first time since the pandemic, and the biggest builder is discounting. But locally the board barely moved (2,919) even as 261 new listings poured in, so well-priced, well-presented homes that sell inside ~4 weeks still win. Tell sellers to price right and move fast; tell buyers they finally have room to negotiate — and that the Iran peace deal nudging oil (and maybe rates) lower only helps.",
+    "rate_30year": "6.56%",
+    "rate_15year": "6.12%",
+    "homebuilder": "Mortgage Rates Slip To 6.56% While Builder Confidence Sinks To 35 — Its Longest Funk Since 2012; The East Bay Board Eases To 2,882 Active On 248 New And 216 Closed",
+    "commentary": "The 30-year fixed slipped to 6.56% and the 15-year to 6.12%. Builders, though, are still glum: homebuilder confidence fell to 35 in June (see the chart in the Economy section) — anything under 50 means more builders feel bad than good, and the index has now sat below 40 for 14 straight months. With high rates and building costs keeping buyers cautious, about 35% of builders are cutting prices to move inventory.\n\nAffordability is the throughline. A \"starter home\" now costs $1 million in 242 U.S. cities — triple the count in 2020 — and 26 states have at least one such city, up from 9. California alone has 105 of them. The cause is the same story we keep telling: not enough homes are getting built, which keeps that crucial first rung out of reach for many buyers.\n\nLocally, the East Bay board eased to 2,882 active (down 37 from yesterday), with 248 new listings against 216 closings. Oakland again led the board with 76 new on 757 active; Fremont added 23 new on 356 active.\n\n📍 Alameda & Contra Costa Snapshot (06/16/26, new listings vs yesterday)\n\n📍 Oakland: 76 new / 757 active (board leader, down 2).\n\n📍 Livermore: 25 new (down 4).\n\n📍 San Ramon: 24 new (down 2).\n\n📍 Dublin: 24 new (down 2).\n\n📍 Fremont: 23 new / 356 active (down 1).\n\n📍 Danville: 19 new (flat).\n\n📍 Hayward: 16 new / 265 active (up 1).\n\n📍 Pleasanton: 11 new (down 3).\n\n📍 Union City: 9 new (flat).\n\n📍 San Leandro: 8 new (flat).\n\n📍 Newark: 5 new (up 1).\n\n📍 Castro Valley: 5 new (up 1).\n\n📍 Milpitas: 2 new (flat).\n\n📍 San Lorenzo: 1 new (down 1).\n\n📍 Sunol: 0 new (down 1).\n\nNew-listing flow eased to 248 (down 13 from yesterday's 261), led as usual by Oakland (76), Livermore (25), San Ramon (24), and Dublin (24). Closings ticked up to 216.\n\nFor agents: the national mood is cautious — builders are gloomy and discounting, and the $1 million starter-home milestone shows just how stretched affordability has become. But locally the board is steady (2,882 active) with a healthy 248 new listings still coming in, so well-priced, well-presented homes that sell inside about four weeks continue to win. Coach sellers to price right and show well; remind buyers that softer rates and price-cutting builders mean they finally have room to negotiate.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
+    "https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index",
     "https://tradingeconomics.com/commodity/gold",
-    "https://tradingeconomics.com/commodity/silver"
+    "https://fortune.com/article/current-price-of-silver-6-16-2026/"
   ]
 }
