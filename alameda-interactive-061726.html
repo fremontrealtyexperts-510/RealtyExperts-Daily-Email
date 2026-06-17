@@ -1,0 +1,131 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 17, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.54%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.11%</strong></p>
+
+<p>The 30-year eased to <strong>6.54%</strong> and the 15-year to <strong>6.11%</strong> &mdash; a touch lower than last week. All eyes are on the <strong>Federal Reserve&rsquo;s rate decision this afternoon</strong>; the 10-year Treasury is holding near 4.47% into the announcement, so a buyer waiting for a dramatic drop may be waiting on the Fed&rsquo;s tone rather than a big move today.</p>
+
+<p>Local board: <strong>2,858 active</strong> (down 24 from yesterday), <strong>237 new listings</strong>, <strong>210 closed sales</strong>. New supply eased modestly midweek while buyers kept closing at a steady pace.</p>
+
+<p><strong>National:</strong> the supply pipeline is the worry. Builders broke ground on <strong>40% fewer apartment buildings in May</strong> than the month before, and permits for new single-family homes slipped month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects &mdash; which only deepens the long-run shortage that keeps that crucial first rung out of reach for many.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 24 new / 356 active (up 1)</li>
+    <li><strong>Milpitas:</strong> 2 new (flat)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 9 new / 262 active (down 7)</li>
+    <li><strong>Newark:</strong> 9 new (up 4)</li>
+    <li><strong>Union City:</strong> 9 new (flat)</li>
+    <li><strong>San Leandro:</strong> 7 new (down 1)</li>
+    <li><strong>San Lorenzo:</strong> 1 new (flat)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Dublin:</strong> 27 new (up 3)</li>
+    <li><strong>Livermore:</strong> 26 new (up 1)</li>
+    <li><strong>San Ramon:</strong> 22 new (down 2)</li>
+    <li><strong>Pleasanton:</strong> 10 new (down 1)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 65 new / 754 active (volume leader)</li>
+    <li><strong>Danville:</strong> 17 new (down 2)</li>
+    <li><strong>Castro Valley:</strong> 9 new (up 4)</li>
+    <li><strong>Sunol:</strong> 0 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,511</strong> &nbsp;|&nbsp; DOW: <strong>51,999</strong> &nbsp;|&nbsp; NASDAQ: <strong>26,376</strong></p>
+
+<p>The big theme is <strong>AI spending</strong>. <strong>Microsoft (MSFT -1.48%)</strong> is reportedly in talks to rent about <strong>$3 billion</strong> of computing power from rival <strong>Oracle (ORCL -2.24%)</strong> &mdash; a cloud giant renting cloud &mdash; because AI is eating up capacity faster than it can build, and Microsoft says it will stay short on capacity into mid-2026. The hyperscalers are pouring record sums into data centers and chips, as the chart below shows.</p>
+
+<p>Chips are the bottleneck: <strong>Nvidia (NVDA -2.37%)</strong> CEO Jensen Huang asked Korea&rsquo;s SK Hynix to make more memory at Taiwan&rsquo;s biggest tech show, while <strong>Micron (MU -6.18%)</strong> &mdash; up more than 250% this year &mdash; gave back some of its run. Dealmaking stayed hot: <strong>SpaceX (SPCX +4.83%)</strong>, fresh off the biggest IPO in history, said it will buy AI coding startup <strong>Cursor for $60 billion</strong>, and <strong>GM (GM -1.86%)</strong> struck a munitions-manufacturing deal with <strong>Lockheed Martin (LMT +1.05%)</strong>.</p>
+
+<figure style="margin:18px 0;text-align:center;">
+  <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/ai-spending-2026-061726.png" alt="AI Spending In 2026 &mdash; projected annual capital expenditure: Amazon $200B, Microsoft $190B, Google $190B, Meta $145B" style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto;border:1px solid #e2e8f0;border-radius:8px;" />
+  <figcaption style="font-size:13px;color:#475569;font-style:italic;margin-top:8px;">Big Tech&rsquo;s 2026 AI bet: Amazon, Microsoft, Google, and Meta are each projected to spend roughly $145&ndash;200 billion on AI and data centers this year. Source: Company reports via Statista (Market Briefs).</figcaption>
+</figure>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.47%</strong> &nbsp;|&nbsp; Gold: <strong>$4,352</strong> &nbsp;|&nbsp; Silver: <strong>$70.42</strong> &nbsp;|&nbsp; Brent Crude: <strong>$79.45</strong></p>
+
+<p>Rates and metals were steady-to-firm ahead of the Fed. The 10-year held near <strong>4.47%</strong>, gold edged up to <strong>$4,352 (+0.47%)</strong> and silver firmed to <strong>$70.42 (+0.57%)</strong> &mdash; silver is still one of 2026&rsquo;s standout performers, up roughly 100% year-to-date. Brent crude sits around <strong>$79&ndash;80</strong>, down nearly 29% over the past month: the U.S. and Iran reached a framework to end their war that could put Iranian oil back on the market and reopen the Strait of Hormuz, with a deal possibly signed as early as Friday.</p>
+
+<p>Beyond rates, the <strong>AI build-out is reshaping where capital flows</strong>. The hyperscalers&rsquo; $145&ndash;200 billion each in AI and data-center spending is now a macro force of its own &mdash; driving demand for power, chips, and the industrial real estate to house it &mdash; even as the Fed weighs whether the broader economy needs cheaper money.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$64,625</strong> &nbsp;|&nbsp; ETH: <strong>$1,764</strong> &nbsp;|&nbsp; XRP: <strong>$1.19</strong></p>
+
+<p>Crypto pulled back across the board, with <strong>Bitcoin down 1.51% to $64,625</strong> and the majors lower alongside it. The structural story is convergence: <strong>Coinbase (COIN -0.21%)</strong> is launching <strong>tokenized U.S. stocks</strong> &mdash; backed one-for-one by real shares, paying dividends automatically, with 24/7 trading &mdash; though it starts outside the U.S. while regulators catch up. Overseas, <strong>Binance</strong> is preparing to exit the European Union after Greece signaled it may cancel the platform&rsquo;s license.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+        <li><a href="https://tradingeconomics.com/commodity/gold" target="_blank">Trading Economics</a> &ndash; Gold &amp; Silver Spot</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-061726.js"></script>
