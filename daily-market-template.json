@@ -1,49 +1,50 @@
 {
-  "date": "06/16/26",
-  "time": "10:00 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/21c89b87-f661-4c80-89a8-0bd5703b4fa0",
-  "qr_code_path": "note-qr-21c89b87.png",
+  "date": "06/17/26",
+  "time": "10:30 AM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/5b6ffaa1-3e37-4b18-ac85-223c8f2ac019",
+  "qr_code_path": "note-qr-5b6ffaa1.png",
   "stocks": {
-    "sp500": "7,554 (+1.65%)",
-    "dow": "51,671 (+0.92%)",
-    "nasdaq": "26,638 (+3.07%)",
-    "note": "Numbers as of market close on Friday, June 13th.",
-    "news": "Stocks pushed higher — the S&P 500 up 1.65%, the DOW 0.92%, and a standout 3.07% for the NASDAQ. SpaceX (SPCX +19.60%) jumped again Monday after the biggest IPO in history, pushing its value past $2 trillion. CEO Elon Musk says the company could reach $1 trillion in revenue by 2030, up from just over $18 billion last year — though it lost nearly $5 billion last year and analysts can't agree what it's worth.\n\nDealmaking is back. Fox (FOX -15.07%) is buying streamer Roku (ROKU -0.88%) for about $22 billion — the biggest entertainment deal since the Paramount–Warner Bros. tie-up earlier this year. Investors think Fox overpaid: its shares fell as much as 17% Monday morning. Separately, Salesforce is buying customer-service platform Fin for $3.6 billion."
-  },
-  "economy": {
-    "us10year": "4.44% (-0.02%)",
-    "gold": "$4,363 (+0.26%)",
-    "silver": "$70.39 (-0.83%)",
-    "wti": "$81.05 (-2.55%)",
-    "oil_label": "Brent Crude",
-    "note": "10-Year, Brent & gold as of June 15th (Market Briefs); silver is live spot, June 16th (Fortune).",
-    "commentary": "A quiet day for rates and metals. The 10-year Treasury held at 4.44%, Brent crude eased 2.55% to $81.05, and gold ticked up to $4,363 (+0.26%). Silver gave back a little to about $70.39 (-0.83%) but remains one of 2026's best performers, still up roughly 100% year-to-date.\n\nThe headline for housing is sentiment, not prices. Homebuilder confidence — the NAHB Housing Market Index — slipped to 35 in June, its longest slump since 2012. Anything below 50 means more builders feel bad than good, and the gauge has now been stuck under 40 for 14 straight months. High mortgage rates and building costs are scaring off buyers, so about 35% of builders are cutting prices. (The chart below tracks the last nine months.)\n\nOn the trade front, President Trump said French wine could face a 100% tariff soon — a move that would roughly double prices on U.S. shelves — as leverage to get France to drop its 3% tax on big U.S. tech firms. Americans buy about $2 billion of French wine a year, near a fifth of France's global wine sales.",
+    "sp500": "7,511 (-0.57%)",
+    "dow": "51,999 (+0.64%)",
+    "nasdaq": "26,376 (-1.15%)",
+    "note": "Numbers as of market close on June 16th.",
+    "news": "Stocks were mixed — the S&P 500 slipped 0.57% and the NASDAQ fell 1.15% as chip names pulled back, while the DOW added 0.64%. The Fed meets today, with a rate decision due this afternoon.\n\nThe big theme is AI spending. Microsoft (MSFT -1.48%) is reportedly in talks to rent about $3 billion of computing power from rival Oracle (ORCL -2.24%) — a cloud giant renting cloud — because AI is eating up capacity faster than it can build, and Microsoft says it will stay short on capacity into mid-2026. The hyperscalers are pouring record sums into data centers and chips: Amazon, Microsoft, Google, and Meta are each projected to spend roughly $145–200 billion on AI this year (see the chart below).\n\nChips are the bottleneck. Nvidia (NVDA -2.37%) CEO Jensen Huang asked Korea's SK Hynix to make more memory chips at Taiwan's biggest tech show this month, while U.S. memory maker Micron (MU -6.18%) — up more than 250% this year — gave back some of its run.\n\nDealmaking stayed hot: SpaceX (SPCX +4.83%), fresh off the biggest IPO in history, said it will buy four-year-old AI coding startup Cursor for $60 billion to feed its Grok AI; and GM (GM -1.86%) struck a deal with defense giant Lockheed Martin (LMT +1.05%) to scale U.S. munitions manufacturing — Lockheed spending $9 billion through 2030 and GM putting $7 billion into U.S. R&D.",
     "feature_image": {
-      "url": "https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/nahb-housing-index-061626.png",
-      "alt": "US NAHB Housing Market Index — homebuilder sentiment, last 9 months (Oct 2025 through Jun 2026): 37, 38, 39, 37, 37, 38, 34, 37, 35",
-      "caption": "Homebuilder confidence (NAHB Housing Market Index) slipped to 35 in June — its longest stretch below the break-even 50 line since 2012, and under 40 for 14 straight months. With high mortgage rates and building costs keeping buyers on the sidelines, roughly 35% of builders are now cutting prices.",
-      "source": "Source: National Association of Home Builders (NAHB). Chart rebuilt by REALTY EXPERTS®."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/ai-spending-2026-061726.png",
+      "alt": "AI Spending In 2026 — projected annual capital expenditure by Big Tech: Amazon $200B, Microsoft $190B, Google $190B, Meta $145B (Source: Company reports via Statista)",
+      "caption": "Big Tech's 2026 AI bet: Amazon, Microsoft, Google, and Meta are each projected to spend roughly $145–200 billion on AI and data centers this year — demand so intense that Microsoft is reportedly renting about $3 billion of computing power from rival Oracle.",
+      "source": "Source: Company reports via Statista (Market Briefs)."
     }
   },
+  "economy": {
+    "us10year": "4.47% (+0.03%)",
+    "gold": "$4,352 (+0.47%)",
+    "silver": "$70.42 (+0.57%)",
+    "wti": "$79.45 (+0.63%)",
+    "oil_label": "Brent Crude",
+    "note": "10-Year as of June 16th (Fed decision due today); gold, silver & Brent are live spot, June 17th (Trading Economics).",
+    "commentary": "Rates and metals were steady-to-firm ahead of today's Fed decision. The 10-year Treasury held near 4.47%, gold edged up to about $4,352 (+0.47%), and silver firmed to $70.42 (+0.57%) — still one of 2026's standout performers, up roughly 100% year-to-date. Brent crude sits around $79–80, a touch higher on the day but down about 4% on the week and nearly 29% over the past month: the U.S. and Iran reached a framework to end their war that could put Iranian oil back on the market and reopen the Strait of Hormuz, with a deal possibly signed as early as Friday.\n\nFor housing, the supply picture is flashing caution. Builders broke ground on 40% fewer apartment buildings in May than the month before, and permits for new single-family homes also fell month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects — the opposite of what an under-supplied market needs."
+  },
   "crypto": {
-    "btc": "$66,522 (+0.35%)",
-    "eth": "$1,795 (+0.01%)",
-    "xrp": "$1.24 (+0.06%)",
-    "note": "Numbers as of 4:00 PM ET, June 15th.",
-    "commentary": "Crypto was flat-to-firm: Bitcoin at $66,522 (+0.35%), Ether barely moved at $1,795, and XRP at $1.24. The bigger news is access — Kraken just made \"perpetual futures\" (a crypto bet that never expires) available to U.S. traders for the first time, after its parent bought CFTC-licensed Bitnomial. Those contracts drew over $60 trillion in trades last year, almost all of it offshore.\n\nCorporate buyers keep stacking coins now that the U.S.–Iran conflict is over: Strategy (MSTR +5.78%) added 1,587 Bitcoin (about $100 million) and Strive (ASST +10.03%) picked up another 73 (about $4.7 million)."
+    "btc": "$64,625 (-1.51%)",
+    "eth": "$1,764 (-1.42%)",
+    "xrp": "$1.19 (-2.15%)",
+    "note": "Numbers as of 4:00 PM ET, June 16th.",
+    "commentary": "Crypto pulled back across the board: Bitcoin at $64,625 (-1.51%), Ether at $1,764 (-1.42%), and XRP at $1.19 (-2.15%). The bigger story is where crypto and traditional markets are merging — Coinbase (COIN -0.21%) is launching tokenized U.S. stocks, backed one-for-one by real shares and paying dividends automatically, pitched as real ownership with \"no derivatives, no IOUs\" and 24/7 trading. The catch: it starts outside the U.S., so American users wait on regulators while Kraken and Robinhood (HOOD -1.44%) already offer their own versions.\n\nOverseas, Binance is preparing to exit the European Union after Greece signaled it may cancel the platform's license — and because one EU license normally covers all 27 countries, a single rejection can shut the whole bloc. Rivals Coinbase and Kraken could scoop up the users Binance loses."
   },
   "real_estate": {
-    "rate_30year": "6.56%",
-    "rate_15year": "6.12%",
-    "homebuilder": "Mortgage Rates Slip To 6.56% While Builder Confidence Sinks To 35 — Its Longest Funk Since 2012; The East Bay Board Eases To 2,882 Active On 248 New And 216 Closed",
-    "commentary": "The 30-year fixed slipped to 6.56% and the 15-year to 6.12%. Builders, though, are still glum: homebuilder confidence fell to 35 in June (see the chart in the Economy section) — anything under 50 means more builders feel bad than good, and the index has now sat below 40 for 14 straight months. With high rates and building costs keeping buyers cautious, about 35% of builders are cutting prices to move inventory.\n\nAffordability is the throughline. A \"starter home\" now costs $1 million in 242 U.S. cities — triple the count in 2020 — and 26 states have at least one such city, up from 9. California alone has 105 of them. The cause is the same story we keep telling: not enough homes are getting built, which keeps that crucial first rung out of reach for many buyers.\n\nLocally, the East Bay board eased to 2,882 active (down 37 from yesterday), with 248 new listings against 216 closings. Oakland again led the board with 76 new on 757 active; Fremont added 23 new on 356 active.\n\n📍 Alameda & Contra Costa Snapshot (06/16/26, new listings vs yesterday)\n\n📍 Oakland: 76 new / 757 active (board leader, down 2).\n\n📍 Livermore: 25 new (down 4).\n\n📍 San Ramon: 24 new (down 2).\n\n📍 Dublin: 24 new (down 2).\n\n📍 Fremont: 23 new / 356 active (down 1).\n\n📍 Danville: 19 new (flat).\n\n📍 Hayward: 16 new / 265 active (up 1).\n\n📍 Pleasanton: 11 new (down 3).\n\n📍 Union City: 9 new (flat).\n\n📍 San Leandro: 8 new (flat).\n\n📍 Newark: 5 new (up 1).\n\n📍 Castro Valley: 5 new (up 1).\n\n📍 Milpitas: 2 new (flat).\n\n📍 San Lorenzo: 1 new (down 1).\n\n📍 Sunol: 0 new (down 1).\n\nNew-listing flow eased to 248 (down 13 from yesterday's 261), led as usual by Oakland (76), Livermore (25), San Ramon (24), and Dublin (24). Closings ticked up to 216.\n\nFor agents: the national mood is cautious — builders are gloomy and discounting, and the $1 million starter-home milestone shows just how stretched affordability has become. But locally the board is steady (2,882 active) with a healthy 248 new listings still coming in, so well-priced, well-presented homes that sell inside about four weeks continue to win. Coach sellers to price right and show well; remind buyers that softer rates and price-cutting builders mean they finally have room to negotiate.",
+    "rate_30year": "6.54%",
+    "rate_15year": "6.11%",
+    "homebuilder": "Mortgage Rates Ease To 6.54% As Builders Pull Back — Apartment Starts Drop 40% In May; The East Bay Board Slips To 2,858 Active On 237 New And 210 Closed",
+    "commentary": "The 30-year fixed eased to 6.54% and the 15-year to 6.11% — a touch lower than last week — though all eyes are on the Fed's rate decision later today.\n\nNationally, the supply picture is the worry. Builders broke ground on 40% fewer apartment buildings in May than the month before, and permits for new single-family homes also fell month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects — which only deepens the long-run shortage that keeps that crucial first rung out of reach for many.\n\nLocally, the East Bay board slipped to 2,858 active (down 24 from yesterday), with 237 new listings against 210 closings. Oakland again led the board with 65 new on 754 active; Fremont added 24 new on 356 active.\n\n📍 Alameda & Contra Costa Snapshot (06/17/26, new listings vs yesterday)\n\n📍 Oakland: 65 new / 754 active (board leader, down 11).\n\n📍 Dublin: 27 new (up 3).\n\n📍 Livermore: 26 new (up 1).\n\n📍 Fremont: 24 new / 356 active (up 1).\n\n📍 San Ramon: 22 new (down 2).\n\n📍 Danville: 17 new (down 2).\n\n📍 Pleasanton: 10 new (down 1).\n\n📍 Hayward: 9 new / 262 active (down 7).\n\n📍 Union City: 9 new (flat).\n\n📍 Newark: 9 new (up 4).\n\n📍 Castro Valley: 9 new (up 4).\n\n📍 San Leandro: 7 new (down 1).\n\n📍 Milpitas: 2 new (flat).\n\n📍 San Lorenzo: 1 new (flat).\n\n📍 Sunol: 0 new (flat).\n\nNew-listing flow eased to 237 (down 11 from yesterday's 248), led by Oakland (65), Dublin (27), Livermore (26), Fremont (24), and San Ramon (22). Closings came in at 210.\n\nFor agents: the national mood is cautious — builders are breaking less ground and pulling permits as affordability bites — but locally the board is steady at 2,858 active with a healthy 237 new listings still coming in. Well-priced, well-presented homes that sell inside about four weeks continue to win. Coach sellers to price right and show well; remind buyers that slightly softer rates give them a little more room to negotiate.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://www.nahb.org/news-and-economics/housing-economics/indices/housing-market-index",
     "https://tradingeconomics.com/commodity/gold",
-    "https://fortune.com/article/current-price-of-silver-6-16-2026/"
+    "https://tradingeconomics.com/commodity/silver",
+    "https://fortune.com/article/current-price-of-silver-6-17-2026/",
+    "https://tradingeconomics.com/commodity/brent-crude-oil"
   ]
 }
