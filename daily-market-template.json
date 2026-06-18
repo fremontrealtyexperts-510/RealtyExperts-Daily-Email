@@ -1,56 +1,56 @@
 {
-  "date": "06/17/26",
+  "date": "06/18/26",
   "time": "10:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/5b6ffaa1-3e37-4b18-ac85-223c8f2ac019",
-  "qr_code_path": "note-qr-5b6ffaa1.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/0c3c5b3d-31d4-44c1-b0d8-f10ce81b2332",
+  "qr_code_path": "note-qr-0c3c5b3d.png",
   "stocks": {
-    "sp500": "7,511 (-0.57%)",
-    "dow": "51,999 (+0.64%)",
-    "nasdaq": "26,376 (-1.15%)",
-    "note": "Numbers as of market close on June 16th.",
-    "news": "Stocks were mixed — the S&P 500 slipped 0.57% and the NASDAQ fell 1.15% as chip names pulled back, while the DOW added 0.64%. The Fed meets today, with a rate decision due this afternoon.\n\nThe big theme is AI spending. Microsoft (MSFT -1.48%) is reportedly in talks to rent about $3 billion of computing power from rival Oracle (ORCL -2.24%) — a cloud giant renting cloud — because AI is eating up capacity faster than it can build, and Microsoft says it will stay short on capacity into mid-2026. The hyperscalers are pouring record sums into data centers and chips: Amazon, Microsoft, Google, and Meta are each projected to spend roughly $145–200 billion on AI this year (see the chart below).\n\nChips are the bottleneck. Nvidia (NVDA -2.37%) CEO Jensen Huang asked Korea's SK Hynix to make more memory chips at Taiwan's biggest tech show this month, while U.S. memory maker Micron (MU -6.18%) — up more than 250% this year — gave back some of its run.\n\nDealmaking stayed hot: SpaceX (SPCX +4.83%), fresh off the biggest IPO in history, said it will buy four-year-old AI coding startup Cursor for $60 billion to feed its Grok AI; and GM (GM -1.86%) struck a deal with defense giant Lockheed Martin (LMT +1.05%) to scale U.S. munitions manufacturing — Lockheed spending $9 billion through 2030 and GM putting $7 billion into U.S. R&D.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/ai-spending-2026-061726.png",
-      "alt": "AI Spending In 2026 — projected annual capital expenditure by Big Tech: Amazon $200B, Microsoft $190B, Google $190B, Meta $145B (Source: Company reports via Statista)",
-      "caption": "Big Tech's 2026 AI bet: Amazon, Microsoft, Google, and Meta are each projected to spend roughly $145–200 billion on AI and data centers this year — demand so intense that Microsoft is reportedly renting about $3 billion of computing power from rival Oracle.",
-      "source": "Source: Company reports via Statista (Market Briefs)."
-    }
+    "sp500": "7,420 (-1.21%)",
+    "dow": "51,492 (-0.98%)",
+    "nasdaq": "26,021 (-1.34%)",
+    "note": "Numbers as of market close on June 17th.",
+    "news": "Stocks fell across the board — the S&P 500 down 1.21%, the DOW 0.98%, and the NASDAQ 1.34% — after the Fed held rates and signaled a possible hike later this year.\n\nSpaceX (SPCX -4.95%) finally \"landed\" on Wall Street: options on the stock launched Tuesday and broke the single-day trading record (previously held by Meta), but the shares slipped for the first time since listing last week. It remains one of the most valuable public companies in the world.\n\nThe memory-chip squeeze is reaching your pocket. Apple (AAPL -1.10%) CEO Tim Cook said the company will raise prices on many devices soon, citing a memory shortage driven by AI demand — some analysts see the next iPhone up as much as $270. Samsung, Microsoft, Sony, and Dell have already hiked prices for the same reason.\n\nOn trade: President Trump said he wants the USMCA pact terminated (its review is July 1st), and the G7 agreed no country should import more than 60% of its rare earths from a single source — a shot at China, which refines roughly 70% of the world's critical minerals."
   },
   "economy": {
-    "us10year": "4.47% (+0.03%)",
-    "gold": "$4,352 (+0.47%)",
-    "silver": "$70.42 (+0.57%)",
-    "wti": "$79.45 (+0.63%)",
+    "us10year": "4.45%",
+    "gold": "$4,265 (-2.64%)",
+    "silver": "$68.91 (+1.50%)",
+    "wti": "$78.55 (-1.28%)",
     "oil_label": "Brent Crude",
-    "note": "10-Year as of June 16th (Fed decision due today); gold, silver & Brent are live spot, June 17th (Trading Economics).",
-    "commentary": "Rates and metals were steady-to-firm ahead of today's Fed decision. The 10-year Treasury held near 4.47%, gold edged up to about $4,352 (+0.47%), and silver firmed to $70.42 (+0.57%) — still one of 2026's standout performers, up roughly 100% year-to-date. Brent crude sits around $79–80, a touch higher on the day but down about 4% on the week and nearly 29% over the past month: the U.S. and Iran reached a framework to end their war that could put Iranian oil back on the market and reopen the Strait of Hormuz, with a deal possibly signed as early as Friday.\n\nFor housing, the supply picture is flashing caution. Builders broke ground on 40% fewer apartment buildings in May than the month before, and permits for new single-family homes also fell month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects — the opposite of what an under-supplied market needs.",
+    "note": "10-Year, gold & Brent as of June 17th close (Market Briefs); silver is live spot, June 18th (Trading Economics).",
+    "commentary": "New Fed Chair Kevin Warsh led his first meeting yesterday, and the Fed left interest rates unchanged. The bigger picture: roughly half the committee now thinks rates may need to rise by year-end — a hawkish shift, with the Bank of Japan and European Central Bank having recently hiked. Higher-for-longer rates mean less spending, which could slow both AI build-outs and home buying. The chart below traces the Fed's benchmark rate from near-zero through the pandemic up to its 5.33% peak and back down to 3.63% today.\n\nMetals were mixed. The 10-year Treasury held at 4.45% and gold tumbled 2.64% to $4,265 as the rate outlook firmed, while Brent crude eased to $78.55. Silver bucked the trend, firming about 1.5% to $68.91. Separately, a new ADP survey found just 22% of workers worldwide feel their job is safe — a quiet drag on productivity even with unemployment near record lows.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/fed-funds-rate-061726.png",
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/fed-funds-rate-061826.png",
       "alt": "The Fed's Interest Rate — Federal Funds Effective Rate 2016-2026: a 2019 peak near 2.4%, near zero through 2020-21, a 2023-24 peak of 5.33%, and 3.63% now",
-      "caption": "With the Fed meeting today, here's the path of its benchmark rate: near zero through the pandemic, a sharp climb to a 5.33% peak in 2023–24, and a steady glide down to 3.63% now. Where it heads next is what markets — and mortgage rates — are watching.",
+      "caption": "Warsh's first meeting ended with no change. Here's the Fed's benchmark rate over the past decade — near zero through the pandemic, a sharp climb to a 5.33% peak in 2023–24, and a glide down to 3.63% today. With half the committee now eyeing a hike, the next move is the one to watch.",
       "source": "Source: Federal Reserve (FRED, FEDFUNDS). Chart rebuilt by REALTY EXPERTS®."
     }
   },
   "crypto": {
-    "btc": "$64,625 (-1.51%)",
-    "eth": "$1,764 (-1.42%)",
-    "xrp": "$1.19 (-2.15%)",
-    "note": "Numbers as of 4:00 PM ET, June 16th.",
-    "commentary": "Crypto pulled back across the board: Bitcoin at $64,625 (-1.51%), Ether at $1,764 (-1.42%), and XRP at $1.19 (-2.15%). The bigger story is where crypto and traditional markets are merging — Coinbase (COIN -0.21%) is launching tokenized U.S. stocks, backed one-for-one by real shares and paying dividends automatically, pitched as real ownership with \"no derivatives, no IOUs\" and 24/7 trading. The catch: it starts outside the U.S., so American users wait on regulators while Kraken and Robinhood (HOOD -1.44%) already offer their own versions.\n\nOverseas, Binance is preparing to exit the European Union after Greece signaled it may cancel the platform's license — and because one EU license normally covers all 27 countries, a single rejection can shut the whole bloc. Rivals Coinbase and Kraken could scoop up the users Binance loses."
+    "btc": "$63,869 (-0.90%)",
+    "eth": "$1,741 (-0.35%)",
+    "xrp": "$1.16 (-1.70%)",
+    "note": "Numbers as of 4:00 PM ET, June 17th.",
+    "commentary": "Crypto drifted lower: Bitcoin at $63,869 (-0.90%), Ether at $1,741 (-0.35%), and XRP at $1.16 (-1.70%). With Bitcoin stuck in a slump, many investors are warming to altcoins instead — a rotation worth watching, though it tends to come with bigger swings."
   },
   "real_estate": {
-    "rate_30year": "6.54%",
-    "rate_15year": "6.11%",
-    "homebuilder": "Mortgage Rates Ease To 6.54% As Builders Pull Back — Apartment Starts Drop 40% In May; The East Bay Board Slips To 2,858 Active On 237 New And 210 Closed",
-    "commentary": "The 30-year fixed eased to 6.54% and the 15-year to 6.11% — a touch lower than last week — though all eyes are on the Fed's rate decision later today.\n\nNationally, the supply picture is the worry. Builders broke ground on 40% fewer apartment buildings in May than the month before, and permits for new single-family homes also fell month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects — which only deepens the long-run shortage that keeps that crucial first rung out of reach for many.\n\nLocally, the East Bay board slipped to 2,858 active (down 24 from yesterday), with 237 new listings against 210 closings. Oakland again led the board with 65 new on 754 active; Fremont added 24 new on 356 active.\n\n📍 Alameda & Contra Costa Snapshot (06/17/26, new listings vs yesterday)\n\n📍 Oakland: 65 new / 754 active (board leader, down 11).\n\n📍 Dublin: 27 new (up 3).\n\n📍 Livermore: 26 new (up 1).\n\n📍 Fremont: 24 new / 356 active (up 1).\n\n📍 San Ramon: 22 new (down 2).\n\n📍 Danville: 17 new (down 2).\n\n📍 Pleasanton: 10 new (down 1).\n\n📍 Hayward: 9 new / 262 active (down 7).\n\n📍 Union City: 9 new (flat).\n\n📍 Newark: 9 new (up 4).\n\n📍 Castro Valley: 9 new (up 4).\n\n📍 San Leandro: 7 new (down 1).\n\n📍 Milpitas: 2 new (flat).\n\n📍 San Lorenzo: 1 new (flat).\n\n📍 Sunol: 0 new (flat).\n\nNew-listing flow eased to 237 (down 11 from yesterday's 248), led by Oakland (65), Dublin (27), Livermore (26), Fremont (24), and San Ramon (22). Closings came in at 210.\n\nFor agents: the national mood is cautious — builders are breaking less ground and pulling permits as affordability bites — but locally the board is steady at 2,858 active with a healthy 237 new listings still coming in. Well-priced, well-presented homes that sell inside about four weeks continue to win. Coach sellers to price right and show well; remind buyers that slightly softer rates give them a little more room to negotiate.",
-    "local_news": ""
+    "rate_30year": "6.62%",
+    "rate_15year": "6.16%",
+    "homebuilder": "Mortgage Rates Tick Up To 6.62% As The Fed Holds — And Hints At Hikes; The East Bay Board Firms To 2,897 Active On 204 New And 206 Closed",
+    "commentary": "The 30-year fixed ticked up to 6.62% and the 15-year to 6.16% after the Fed held rates and signaled it may even hike later this year — a reminder that the path to cheaper mortgages isn't a straight line.\n\nNationally, the affordability story keeps stretching. The median U.S. home — around $403,000 today, up from about $90,000 in 1990 — is projected to reach roughly $1 million by 2050 (see the chart below). And the space economy is spilling into real estate: Florida's Space Coast is becoming a hot hotel market, with a new $420M Westin going up for the crowds flying in for SpaceX and Blue Origin launches.\n\nLocally, the East Bay board firmed to 2,897 active (up 39 from yesterday), with 204 new listings against 206 closings. Oakland again led the board with 54 new on 760 active; Fremont added 18 new on 356 active.\n\n📍 Alameda & Contra Costa Snapshot (06/18/26, new listings vs yesterday)\n\n📍 Oakland: 54 new / 760 active (board leader, down 11).\n\n📍 Livermore: 28 new (up 2).\n\n📍 Dublin: 20 new (down 7).\n\n📍 Fremont: 18 new / 356 active (down 6).\n\n📍 Danville: 17 new (flat).\n\n📍 San Ramon: 17 new (down 5).\n\n📍 San Leandro: 9 new (up 2).\n\n📍 Newark: 8 new (down 1).\n\n📍 Castro Valley: 8 new (down 1).\n\n📍 Union City: 7 new (down 2).\n\n📍 Pleasanton: 7 new (down 3).\n\n📍 Hayward: 6 new / 261 active (down 3).\n\n📍 Milpitas: 4 new (up 2).\n\n📍 San Lorenzo: 1 new (flat).\n\n📍 Sunol: 0 new (flat).\n\nNew-listing flow eased to 204 (down 33 from yesterday's 237), led by Oakland (54), Livermore (28), Dublin (20), Fremont (18), and a Danville/San Ramon tie at 17. Closings held near steady at 206.\n\nFor agents: rates nudged up and the Fed even hinted at hikes, so the buyer waiting for a big drop may keep waiting — but inventory is healthy (2,897 active, 204 new) and well-priced, well-presented homes still move inside about four weeks. Coach sellers to price right and show well; remind buyers that today's softer prices, more than rates, are where the opening is.",
+    "local_news": "",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/median-home-price-061826.png",
+      "alt": "Median Sales Price of a U.S. Home, quarterly 2016-2026: about $300K in 2016, peaking near $445K in 2022-23, around $403,200 now",
+      "caption": "The median U.S. home now runs about $403,000 — roughly 4.5x its 1990 level (~$90,000) — and is projected to reach about $1 million by 2050. Supply that never caught up keeps that first rung stubbornly high.",
+      "source": "Source: U.S. Census Bureau & HUD via FRED (Market Briefs)."
+    }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
     "https://tradingeconomics.com/commodity/gold",
     "https://tradingeconomics.com/commodity/silver",
-    "https://fortune.com/article/current-price-of-silver-6-17-2026/",
-    "https://tradingeconomics.com/commodity/brent-crude-oil"
+    "https://fortune.com/article/current-price-of-silver-6-18-2026/",
+    "https://fred.stlouisfed.org/series/FEDFUNDS"
   ]
 }

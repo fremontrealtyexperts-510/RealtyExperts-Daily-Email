@@ -411,6 +411,7 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
+                    ${featureImagesHtml(data.real_estate)}
                   </td>
                 </tr>
               </table>
