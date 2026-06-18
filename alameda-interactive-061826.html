@@ -1,0 +1,137 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 18, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.62%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.16%</strong></p>
+
+<p>The 30-year fixed ticked up to <strong>6.62%</strong> and the 15-year to <strong>6.16%</strong> after the Fed held rates and signaled it may even hike later this year &mdash; a reminder that the path to cheaper mortgages isn&rsquo;t a straight line. The buyer waiting for a dramatic drop may keep waiting.</p>
+
+<p>Local board: <strong>2,897 active</strong> (up 39 from yesterday), <strong>204 new listings</strong>, <strong>206 closed sales</strong>. Inventory firmed while buyers kept closing at a steady pace.</p>
+
+<p><strong>National:</strong> the affordability story keeps stretching. The median U.S. home &mdash; about <strong>$403,000</strong> today, up from roughly $90,000 in 1990 &mdash; is projected to reach about <strong>$1 million by 2050</strong>. And the space economy is spilling into real estate: Florida&rsquo;s Space Coast is becoming a hot hotel market, with a new $420M Westin going up for the crowds flying in for SpaceX and Blue Origin launches.</p>
+
+<figure style="margin:18px 0;text-align:center;">
+  <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/median-home-price-061826.png" alt="Median Sales Price of a U.S. Home, quarterly 2016-2026, about $403,200 now" style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto;border:1px solid #e2e8f0;border-radius:8px;" />
+  <figcaption style="font-size:13px;color:#475569;font-style:italic;margin-top:8px;">The median U.S. home now runs about $403,000 &mdash; roughly 4.5x its 1990 level &mdash; and is projected to reach about $1 million by 2050. Source: U.S. Census Bureau &amp; HUD via FRED (Market Briefs).</figcaption>
+</figure>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 18 new / 356 active (down 6)</li>
+    <li><strong>Milpitas:</strong> 4 new (up 2)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 6 new / 261 active (down 3)</li>
+    <li><strong>Newark:</strong> 8 new (down 1)</li>
+    <li><strong>Union City:</strong> 7 new (down 2)</li>
+    <li><strong>San Leandro:</strong> 9 new (up 2)</li>
+    <li><strong>San Lorenzo:</strong> 1 new (flat)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 28 new (up 2)</li>
+    <li><strong>Dublin:</strong> 20 new (down 7)</li>
+    <li><strong>San Ramon:</strong> 17 new (down 5)</li>
+    <li><strong>Pleasanton:</strong> 7 new (down 3)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 54 new / 760 active (volume leader)</li>
+    <li><strong>Danville:</strong> 17 new (flat)</li>
+    <li><strong>Castro Valley:</strong> 8 new (down 1)</li>
+    <li><strong>Sunol:</strong> 0 new (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,420</strong> &nbsp;|&nbsp; DOW: <strong>51,492</strong> &nbsp;|&nbsp; NASDAQ: <strong>26,021</strong></p>
+
+<p>Stocks fell across the board after the Fed held rates and hinted at a possible hike later this year. <strong>SpaceX (SPCX -4.95%)</strong> finally &ldquo;landed&rdquo; on Wall Street: options on the stock launched Tuesday and broke the single-day trading record (previously Meta&rsquo;s), but the shares slipped for the first time since listing last week.</p>
+
+<p>The memory-chip squeeze is reaching consumers. <strong>Apple (AAPL -1.10%)</strong> CEO Tim Cook said the company will raise prices on many devices soon, citing a memory shortage driven by AI demand &mdash; some analysts see the next iPhone up as much as $270. On trade, President Trump said he wants the USMCA pact terminated, and the G7 agreed no country should import more than 60% of its rare earths from a single source &mdash; a shot at China.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.45%</strong> &nbsp;|&nbsp; Gold: <strong>$4,265</strong> &nbsp;|&nbsp; Silver: <strong>$68.91</strong> &nbsp;|&nbsp; Brent Crude: <strong>$78.55</strong></p>
+
+<p>New Fed Chair <strong>Kevin Warsh</strong> led his first meeting yesterday, and the Fed left interest rates unchanged. The bigger picture: roughly <strong>half the committee now thinks rates may need to rise</strong> by year-end &mdash; a hawkish shift. Higher-for-longer rates mean less spending, which could slow both AI build-outs and home buying.</p>
+
+<figure style="margin:18px 0;text-align:center;">
+  <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/fed-funds-rate-061826.png" alt="The Fed's Interest Rate, Federal Funds Effective Rate 2016-2026, 5.33% peak and 3.63% now" style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto;border:1px solid #e2e8f0;border-radius:8px;" />
+  <figcaption style="font-size:13px;color:#475569;font-style:italic;margin-top:8px;">Warsh&rsquo;s first meeting ended with no change. The Fed&rsquo;s benchmark rate over the past decade &mdash; near zero through the pandemic, a 5.33% peak in 2023&ndash;24, and a glide down to 3.63% today. Source: Federal Reserve (FRED, FEDFUNDS).</figcaption>
+</figure>
+
+<p>Metals were mixed: the 10-year held at 4.45%, gold tumbled 2.64% to $4,265 as the rate outlook firmed, and Brent eased to $78.55, while silver firmed about 1.5% to $68.91. Separately, a new ADP survey found just <strong>22% of workers worldwide feel their job is safe</strong> &mdash; a quiet drag on productivity even with unemployment near record lows.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$63,869</strong> &nbsp;|&nbsp; ETH: <strong>$1,741</strong> &nbsp;|&nbsp; XRP: <strong>$1.16</strong></p>
+
+<p>Crypto drifted lower, with <strong>Bitcoin down 0.90% to $63,869</strong> and the majors softer alongside it. With Bitcoin stuck in a slump, many investors are warming to altcoins instead &mdash; a rotation worth watching, though it tends to come with bigger swings.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> &ndash; Mortgage Rates</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> &ndash; Market Data</li>
+        <li><a href="https://fred.stlouisfed.org/series/FEDFUNDS" target="_blank">Federal Reserve (FRED)</a> &ndash; Fed Funds Rate</li>
+        <li><a href="https://tradingeconomics.com/commodity/silver" target="_blank">Trading Economics</a> &ndash; Gold &amp; Silver Spot</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-061826.js"></script>
