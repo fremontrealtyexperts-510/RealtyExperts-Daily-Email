@@ -23,7 +23,13 @@
     "wti": "$79.45 (+0.63%)",
     "oil_label": "Brent Crude",
     "note": "10-Year as of June 16th (Fed decision due today); gold, silver & Brent are live spot, June 17th (Trading Economics).",
-    "commentary": "Rates and metals were steady-to-firm ahead of today's Fed decision. The 10-year Treasury held near 4.47%, gold edged up to about $4,352 (+0.47%), and silver firmed to $70.42 (+0.57%) — still one of 2026's standout performers, up roughly 100% year-to-date. Brent crude sits around $79–80, a touch higher on the day but down about 4% on the week and nearly 29% over the past month: the U.S. and Iran reached a framework to end their war that could put Iranian oil back on the market and reopen the Strait of Hormuz, with a deal possibly signed as early as Friday.\n\nFor housing, the supply picture is flashing caution. Builders broke ground on 40% fewer apartment buildings in May than the month before, and permits for new single-family homes also fell month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects — the opposite of what an under-supplied market needs."
+    "commentary": "Rates and metals were steady-to-firm ahead of today's Fed decision. The 10-year Treasury held near 4.47%, gold edged up to about $4,352 (+0.47%), and silver firmed to $70.42 (+0.57%) — still one of 2026's standout performers, up roughly 100% year-to-date. Brent crude sits around $79–80, a touch higher on the day but down about 4% on the week and nearly 29% over the past month: the U.S. and Iran reached a framework to end their war that could put Iranian oil back on the market and reopen the Strait of Hormuz, with a deal possibly signed as early as Friday.\n\nFor housing, the supply picture is flashing caution. Builders broke ground on 40% fewer apartment buildings in May than the month before, and permits for new single-family homes also fell month over month. With higher prices pressuring both buyers and renters, fewer sales and lease signings are pushing builders to pause projects — the opposite of what an under-supplied market needs.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/fed-funds-rate-061726.png",
+      "alt": "The Fed's Interest Rate — Federal Funds Effective Rate 2016-2026: a 2019 peak near 2.4%, near zero through 2020-21, a 2023-24 peak of 5.33%, and 3.63% now",
+      "caption": "With the Fed meeting today, here's the path of its benchmark rate: near zero through the pandemic, a sharp climb to a 5.33% peak in 2023–24, and a steady glide down to 3.63% now. Where it heads next is what markets — and mortgage rates — are watching.",
+      "source": "Source: Federal Reserve (FRED, FEDFUNDS). Chart rebuilt by REALTY EXPERTS®."
+    }
   },
   "crypto": {
     "btc": "$64,625 (-1.51%)",
