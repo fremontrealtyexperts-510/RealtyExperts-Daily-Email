@@ -1,56 +1,48 @@
 {
-  "date": "06/18/26",
-  "time": "10:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/0c3c5b3d-31d4-44c1-b0d8-f10ce81b2332",
-  "qr_code_path": "note-qr-0c3c5b3d.png",
+  "date": "06/22/26",
+  "time": "11:00 AM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/5f900ebc-91a7-4bae-bd43-b9d02209c0fd",
+  "qr_code_path": "note-qr-5f900ebc.png",
   "stocks": {
-    "sp500": "7,420 (-1.21%)",
-    "dow": "51,492 (-0.98%)",
-    "nasdaq": "26,021 (-1.34%)",
-    "note": "Numbers as of market close on June 17th.",
-    "news": "Stocks fell across the board — the S&P 500 down 1.21%, the DOW 0.98%, and the NASDAQ 1.34% — after the Fed held rates and signaled a possible hike later this year.\n\nSpaceX (SPCX -4.95%) finally \"landed\" on Wall Street: options on the stock launched Tuesday and broke the single-day trading record (previously held by Meta), but the shares slipped for the first time since listing last week. It remains one of the most valuable public companies in the world.\n\nThe memory-chip squeeze is reaching your pocket. Apple (AAPL -1.10%) CEO Tim Cook said the company will raise prices on many devices soon, citing a memory shortage driven by AI demand — some analysts see the next iPhone up as much as $270. Samsung, Microsoft, Sony, and Dell have already hiked prices for the same reason.\n\nOn trade: President Trump said he wants the USMCA pact terminated (its review is July 1st), and the G7 agreed no country should import more than 60% of its rare earths from a single source — a shot at China, which refines roughly 70% of the world's critical minerals."
+    "sp500": "7,500 (+1.08%)",
+    "dow": "51,564 (+0.14%)",
+    "nasdaq": "26,517 (+1.91%)",
+    "note": "Numbers as of market close on June 18th (the last session before the long holiday weekend).",
+    "news": "Markets reopened after the long holiday weekend on a firm note — the S&P 500 up 1.08%, the NASDAQ 1.91%, and the DOW barely positive at +0.14% (figures as of the June 18th close).\n\nSpaceX (SPCX -3.65%) wrapped a wild first week as a public company: it briefly leapfrogged Amazon (AMZN +2.90%) to become the world's 5th most valuable company before settling into 6th, minting a few early-backer billionaires along the way — and it now says it wants to help build AI data centers in space.\n\nAMD (AMD +4.86%) pushed deeper into enterprise AI with a deal to fill Rackspace's (RXT) data centers with its AI chips through 2028. Rackspace — which manages the cloud for names like Amazon, Microsoft (MSFT +0.13%), and Google (GOOG +1.48%) — has nearly quadrupled this year on the news.\n\nThe week ahead: Micron (MU) reports earnings Wednesday and the University of Michigan consumer survey lands Friday."
   },
   "economy": {
-    "us10year": "4.45%",
-    "gold": "$4,265 (-2.64%)",
-    "silver": "$68.91 (+1.50%)",
-    "wti": "$78.55 (-1.28%)",
+    "us10year": "4.48%",
+    "gold": "$4,227 (-0.44%)",
+    "silver": "$66.43 (+2.36%)",
+    "wti": "$78.96 (-1.95%)",
     "oil_label": "Brent Crude",
-    "note": "10-Year, gold & Brent as of June 17th close (Market Briefs); silver is live spot, June 18th (Trading Economics).",
-    "commentary": "New Fed Chair Kevin Warsh led his first meeting yesterday, and the Fed left interest rates unchanged. The bigger picture: roughly half the committee now thinks rates may need to rise by year-end — a hawkish shift, with the Bank of Japan and European Central Bank having recently hiked. Higher-for-longer rates mean less spending, which could slow both AI build-outs and home buying. The chart below traces the Fed's benchmark rate from near-zero through the pandemic up to its 5.33% peak and back down to 3.63% today.\n\nMetals were mixed. The 10-year Treasury held at 4.45% and gold tumbled 2.64% to $4,265 as the rate outlook firmed, while Brent crude eased to $78.55. Silver bucked the trend, firming about 1.5% to $68.91. Separately, a new ADP survey found just 22% of workers worldwide feel their job is safe — a quiet drag on productivity even with unemployment near record lows.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/fed-funds-rate-061826.png",
-      "alt": "The Fed's Interest Rate — Federal Funds Effective Rate 2016-2026: a 2019 peak near 2.4%, near zero through 2020-21, a 2023-24 peak of 5.33%, and 3.63% now",
-      "caption": "Warsh's first meeting ended with no change. Here's the Fed's benchmark rate over the past decade — near zero through the pandemic, a sharp climb to a 5.33% peak in 2023–24, and a glide down to 3.63% today. With half the committee now eyeing a hike, the next move is the one to watch.",
-      "source": "Source: Federal Reserve (FRED, FEDFUNDS). Chart rebuilt by REALTY EXPERTS®."
-    }
+    "note": "10-Year, gold & Brent as of June 21st (Market Briefs); silver is live spot, June 22nd (Trading Economics).",
+    "commentary": "Oil is back in focus: Iran again moved to close the Strait of Hormuz — a chokepoint for a large share of the world's oil — just as its first talks with the U.S. opened in Switzerland. Traffic slowed to a single small tanker, yet crude actually fell on the week on hopes for a deal, with Brent easing to $78.96. (The U.S. maintains the Strait never truly closed.)\n\nThe bond market held steady, with the 10-year Treasury at 4.48%. Gold eased to $4,227 (-0.44%) while silver firmed to about $66.43 (+2.36%).\n\nTwo data points underscore a stretched consumer. Household debt hit a record $19.9 trillion last quarter even as the savings rate slipped to 2.6% — near a 65-year low — leaving families with a thin cushion if jobs soften. At the same time, May retail sales jumped 0.9% (nearly double expectations) to $763.7B, with a third of the gain coming from gas stations, up 26.5% from a year ago. Solid spending only strengthens the Fed's case to keep rates higher for longer."
   },
   "crypto": {
-    "btc": "$63,869 (-0.90%)",
-    "eth": "$1,741 (-0.35%)",
-    "xrp": "$1.16 (-1.70%)",
-    "note": "Numbers as of 4:00 PM ET, June 17th.",
-    "commentary": "Crypto drifted lower: Bitcoin at $63,869 (-0.90%), Ether at $1,741 (-0.35%), and XRP at $1.16 (-1.70%). With Bitcoin stuck in a slump, many investors are warming to altcoins instead — a rotation worth watching, though it tends to come with bigger swings."
+    "btc": "$64,208 (+1.54%)",
+    "eth": "$1,688 (+2.64%)",
+    "xrp": "$1.14 (+1.44%)",
+    "note": "Numbers as of 4:00 PM ET, June 22nd.",
+    "commentary": "Crypto firmed across the board: Bitcoin at $64,208 (+1.54%), Ether at $1,688 (+2.64%), and XRP at $1.14 (+1.44%).\n\nFranklin Templeton — which manages $1.7 trillion — filed two funds that hold mostly U.S. stocks but funnel the dividends into Bitcoin every few months; when a manager that size leans in, the market tends to notice. Elsewhere, AI tools can now audit a smart contract in an hour or two for a small fraction of the old six-figure cost, putting professional audits within reach of small projects (Coinbase is already running its own AI audit workflow)."
   },
   "real_estate": {
-    "rate_30year": "6.62%",
-    "rate_15year": "6.16%",
-    "homebuilder": "Mortgage Rates Tick Up To 6.62% As The Fed Holds — And Hints At Hikes; The East Bay Board Firms To 2,897 Active On 204 New And 206 Closed",
-    "commentary": "The 30-year fixed ticked up to 6.62% and the 15-year to 6.16% after the Fed held rates and signaled it may even hike later this year — a reminder that the path to cheaper mortgages isn't a straight line.\n\nNationally, the affordability story keeps stretching. The median U.S. home — around $403,000 today, up from about $90,000 in 1990 — is projected to reach roughly $1 million by 2050 (see the chart below). And the space economy is spilling into real estate: Florida's Space Coast is becoming a hot hotel market, with a new $420M Westin going up for the crowds flying in for SpaceX and Blue Origin launches.\n\nLocally, the East Bay board firmed to 2,897 active (up 39 from yesterday), with 204 new listings against 206 closings. Oakland again led the board with 54 new on 760 active; Fremont added 18 new on 356 active.\n\n📍 Alameda & Contra Costa Snapshot (06/18/26, new listings vs yesterday)\n\n📍 Oakland: 54 new / 760 active (board leader, down 11).\n\n📍 Livermore: 28 new (up 2).\n\n📍 Dublin: 20 new (down 7).\n\n📍 Fremont: 18 new / 356 active (down 6).\n\n📍 Danville: 17 new (flat).\n\n📍 San Ramon: 17 new (down 5).\n\n📍 San Leandro: 9 new (up 2).\n\n📍 Newark: 8 new (down 1).\n\n📍 Castro Valley: 8 new (down 1).\n\n📍 Union City: 7 new (down 2).\n\n📍 Pleasanton: 7 new (down 3).\n\n📍 Hayward: 6 new / 261 active (down 3).\n\n📍 Milpitas: 4 new (up 2).\n\n📍 San Lorenzo: 1 new (flat).\n\n📍 Sunol: 0 new (flat).\n\nNew-listing flow eased to 204 (down 33 from yesterday's 237), led by Oakland (54), Livermore (28), Dublin (20), Fremont (18), and a Danville/San Ramon tie at 17. Closings held near steady at 206.\n\nFor agents: rates nudged up and the Fed even hinted at hikes, so the buyer waiting for a big drop may keep waiting — but inventory is healthy (2,897 active, 204 new) and well-priced, well-presented homes still move inside about four weeks. Coach sellers to price right and show well; remind buyers that today's softer prices, more than rates, are where the opening is.",
+    "rate_30year": "6.58%",
+    "rate_15year": "6.15%",
+    "homebuilder": "Mortgage Rates Ease To 6.58% — But The “Lock-In Effect” Keeps Supply Tight; The East Bay Board Climbs To 2,956 Active On 229 New And 210 Closed",
+    "commentary": "The 30-year fixed eased to 6.58% and the 15-year to 6.15% — a touch of relief, though still roughly double the rate most homeowners are sitting on.\n\nAnd that gap is the whole story. Homeowners pulled $47 billion in equity in Q1 — the biggest first-quarter haul since 2021 — rather than refinance into today's far higher rates. Around 20% still hold a mortgage near 3% (see the chart below), and those locked-in low rates are a big reason so few homes come to market. The squeeze is generational: the U.S. is short about 4 million homes, roughly 25 million adults under 35 have paused the search to live with parents, and the typical first-time buyer is now 40 years old.\n\nLocally, the East Bay board climbed to 2,956 active (up 59 from the June 18th report), with 229 new listings against 210 closings. Oakland again led the board with 56 new on 781 active; Fremont added 16 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/22/26 — new listings / active)\n\n📍 Oakland: 56 new / 781 active (board leader).\n\n📍 Livermore: 28 new / 229 active.\n\n📍 Danville: 20 new / 193 active.\n\n📍 San Ramon: 18 new / 211 active.\n\n📍 Pleasanton: 17 new / 155 active.\n\n📍 Fremont: 16 new / 360 active.\n\n📍 Dublin: 16 new / 212 active.\n\n📍 Hayward: 12 new / 267 active.\n\n📍 Castro Valley: 12 new / 85 active.\n\n📍 Newark: 11 new / 123 active.\n\n📍 San Leandro: 9 new / 101 active.\n\n📍 Milpitas: 7 new / 118 active.\n\n📍 Union City: 6 new / 89 active.\n\n📍 San Lorenzo: 1 new / 25 active.\n\n📍 Sunol: 0 new / 7 active.\n\nNew-listing flow rose to 229 (up 25 from the June 18th report's 204), led by Oakland (56), Livermore (28), and Danville (20). Closings held near steady at 210.\n\nFor agents: rates ticked down but barely, and the lock-in effect isn't breaking soon — so the move is to work the inventory that IS coming (2,956 active, 229 new). Well-priced, well-presented homes still sell inside about four weeks. Coach sellers that they're competing against thin supply, not just rates; remind buyers that today's softer prices — more than the rate — are where the opening is.",
     "local_news": "",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/median-home-price-061826.png",
-      "alt": "Median Sales Price of a U.S. Home, quarterly 2016-2026: about $300K in 2016, peaking near $445K in 2022-23, around $403,200 now",
-      "caption": "The median U.S. home now runs about $403,000 — roughly 4.5x its 1990 level (~$90,000) — and is projected to reach about $1 million by 2050. Supply that never caught up keeps that first rung stubbornly high.",
-      "source": "Source: U.S. Census Bureau & HUD via FRED (Market Briefs)."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/mortgage-rate-lockin-062226.png",
+      "alt": "U.S. Mortgage Rates by share of outstanding borrowers: Below 3% 20%, 3% to 4% 31.5%, 4% to 5% 18%, 5% to 6% 10%, 6%+ 21% — about 70% hold a rate under 5%.",
+      "caption": "About 70% of U.S. homeowners hold a mortgage rate under 5% — and roughly 1 in 5 are still locked in below 3%. With today's 30-year near 6.6%, few have any reason to sell and reset, which keeps for-sale inventory unusually tight. The “lock-in effect” in one picture.",
+      "source": "Source: National Mortgage Professional. Chart by REALTY EXPERTS®."
     }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
     "https://tradingeconomics.com/commodity/gold",
-    "https://tradingeconomics.com/commodity/silver",
-    "https://fortune.com/article/current-price-of-silver-6-18-2026/",
-    "https://fred.stlouisfed.org/series/FEDFUNDS"
+    "https://tradingeconomics.com/commodity/silver"
   ]
 }
