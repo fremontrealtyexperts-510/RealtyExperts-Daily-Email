@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 06/22/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 06/22/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for June 22, 2026: the 30-year mortgage eased to 6.58% and the East Bay board climbed to 2,956 active listings, while the mortgage 'lock-in effect' (about 70% of owners under 5%) keeps for-sale supply tight. Plus SpaceX's first public week, the Strait of Hormuz oil scare, and a record $19.9T in household debt.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Castro Valley, Danville, Milpitas, Union City, Newark, San Leandro, mortgage rates, lock-in effect, housing inventory, mortgage rate distribution, daily market update, At a Glance, REALTY EXPERTS, SpaceX, AMD, Strait of Hormuz, Brent crude, gold, silver, Bitcoin, June 2026
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
