@@ -1,48 +1,54 @@
 {
-  "date": "06/22/26",
-  "time": "11:00 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/5f900ebc-91a7-4bae-bd43-b9d02209c0fd",
-  "qr_code_path": "note-qr-5f900ebc.png",
+  "date": "06/23/26",
+  "time": "9:30 AM",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/cb6179bd-0b1b-410e-8760-f1ab54ee32cb",
+  "qr_code_path": "note-qr-cb6179bd.png",
   "stocks": {
-    "sp500": "7,500 (+1.08%)",
-    "dow": "51,564 (+0.14%)",
-    "nasdaq": "26,517 (+1.91%)",
-    "note": "Numbers as of market close on June 18th (the last session before the long holiday weekend).",
-    "news": "Markets reopened after the long holiday weekend on a firm note — the S&P 500 up 1.08%, the NASDAQ 1.91%, and the DOW barely positive at +0.14% (figures as of the June 18th close).\n\nSpaceX (SPCX -3.65%) wrapped a wild first week as a public company: it briefly leapfrogged Amazon (AMZN +2.90%) to become the world's 5th most valuable company before settling into 6th, minting a few early-backer billionaires along the way — and it now says it wants to help build AI data centers in space.\n\nAMD (AMD +4.86%) pushed deeper into enterprise AI with a deal to fill Rackspace's (RXT) data centers with its AI chips through 2028. Rackspace — which manages the cloud for names like Amazon, Microsoft (MSFT +0.13%), and Google (GOOG +1.48%) — has nearly quadrupled this year on the news.\n\nThe week ahead: Micron (MU) reports earnings Wednesday and the University of Michigan consumer survey lands Friday."
+    "sp500": "7,472 (-0.37%)",
+    "dow": "51,712 (+0.29%)",
+    "nasdaq": "26,166 (-1.32%)",
+    "note": "Numbers as of market close on June 22nd.",
+    "news": "Stocks closed mixed: the S&P 500 slipped 0.37% to 7,472 and the NASDAQ fell 1.32% to 26,166, while the DOW edged up 0.29% to 51,712 (figures as of the June 22nd close).\n\nThe headline name was SpaceX (SPCX -16.43%), which fell for a third straight session and shed roughly $600 billion in market value. Wild stat: CEO Elon Musk could lose $1 trillion and still rank as the 20th richest person on Earth.\n\nThe bigger story is where the money is flowing, which is artificial intelligence. Microsoft (MSFT -3.18%) is building a Texas data center that will run on natural gas instead of the grid, with Chevron (CVX +0.82%) fueling it for 20 years, enough power for more than 530,000 homes. AI data centers need constant power the traditional grid cannot keep up with, which is pushing builders toward gas and other fuels. U.S. data center construction spending now sits at a record high near $42 billion a year, roughly four times where it was before ChatGPT launched (see the chart below).\n\nDealmakers stayed busy too. AbbVie (ABBV +6.25%) agreed to buy biotech Apogee (APGE +46.66%) for $10.9 billion, and CRH picked up infrastructure firm Arcosa (ACA +6.67%) for $8.5 billion, as companies join forces ahead of possible rate cuts and to scale for the AI era.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/datacenter-record-highs-062326.png",
+      "alt": "U.S. data center construction spending from 2013 to 2026, rising slowly to about $10 billion by the 2022 ChatGPT launch, then surging to a record near $42 billion.",
+      "caption": "Where the AI money is going. U.S. data center construction spending crept along near $10 billion a year for a decade, then exploded after ChatGPT launched in late 2022 to a record near $42 billion. That is the buildout behind deals like Microsoft's new gas-powered Texas data center.",
+      "source": "Source: U.S. Census Bureau. Chart by REALTY EXPERTS®."
+    }
   },
   "economy": {
     "us10year": "4.48%",
-    "gold": "$4,227 (-0.44%)",
-    "silver": "$66.43 (+2.36%)",
-    "wti": "$78.96 (-1.95%)",
+    "gold": "$4,129 (-1.49%)",
+    "silver": "$62.03 (-6.55%)",
+    "wti": "$77.77 (-0.18%)",
     "oil_label": "Brent Crude",
-    "note": "10-Year, gold & Brent as of June 21st (Market Briefs); silver is live spot, June 22nd (Trading Economics).",
-    "commentary": "Oil is back in focus: Iran again moved to close the Strait of Hormuz — a chokepoint for a large share of the world's oil — just as its first talks with the U.S. opened in Switzerland. Traffic slowed to a single small tanker, yet crude actually fell on the week on hopes for a deal, with Brent easing to $78.96. (The U.S. maintains the Strait never truly closed.)\n\nThe bond market held steady, with the 10-year Treasury at 4.48%. Gold eased to $4,227 (-0.44%) while silver firmed to about $66.43 (+2.36%).\n\nTwo data points underscore a stretched consumer. Household debt hit a record $19.9 trillion last quarter even as the savings rate slipped to 2.6% — near a 65-year low — leaving families with a thin cushion if jobs soften. At the same time, May retail sales jumped 0.9% (nearly double expectations) to $763.7B, with a third of the gain coming from gas stations, up 26.5% from a year ago. Solid spending only strengthens the Fed's case to keep rates higher for longer."
+    "note": "10-Year and Brent as of June 22nd (Market Briefs); gold and silver are live spot, June 23rd (Trading Economics and Fortune).",
+    "commentary": "Oil came back to earth. Brent crude eased to $77.77 (-0.18%) and has tumbled off its spring highs near $114 a barrel (see the chart below). The reason: with the U.S. blockade on Iran lifted, Iran is now dumping crude at roughly $2.50 to $5 a barrel below Brent and supply is flooding back. Some buyers are holding off, so about 121 million barrels are still sitting on tankers. More supply plus slow buyers points to softer prices ahead, and jet fuel has already fallen more than 40% from its April high (even if airfares have not followed yet).\n\nThe metals went the other way, and hard. Gold dropped 1.49% to about $4,129 an ounce and silver fell roughly 6.5% to $62.03, as firm expectations for Federal Reserve rate hikes pulled money out of both. Longer term, central banks are still on their biggest gold-buying spree in modern history, with gold now a larger share of their reserves than U.S. Treasuries for the first time since 1996.\n\nThe 10-year Treasury yield held near 4.48%. The takeaway for housing: cheaper oil cools inflation at the pump, but a Fed that is leaning toward higher for longer is what keeps mortgage rates sticky.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/brent-crude-back-to-earth-062326.png",
+      "alt": "Brent crude oil, 2026 year to date: a climb to about $114 a barrel in spring, then a slide to $77.77 as Iran supply returns after the U.S. blockade lifts.",
+      "caption": "Brent crude has come back to earth. After spiking near $114 a barrel this spring, oil has slid to $77.77 as the lifted U.S. blockade lets Iranian supply flood back at $2.50 to $5 below Brent. Cheaper oil means cheaper gas and jet fuel, and a little less pressure on inflation.",
+      "source": "Source: ICE Brent Crude. Chart by REALTY EXPERTS®."
+    }
   },
   "crypto": {
-    "btc": "$64,208 (+1.54%)",
-    "eth": "$1,688 (+2.64%)",
-    "xrp": "$1.14 (+1.44%)",
+    "btc": "$62,226 (-2.72%)",
+    "eth": "$1,650 (-4.42%)",
+    "xrp": "$1.10 (-2.41%)",
     "note": "Numbers as of 4:00 PM ET, June 22nd.",
-    "commentary": "Crypto firmed across the board: Bitcoin at $64,208 (+1.54%), Ether at $1,688 (+2.64%), and XRP at $1.14 (+1.44%).\n\nFranklin Templeton — which manages $1.7 trillion — filed two funds that hold mostly U.S. stocks but funnel the dividends into Bitcoin every few months; when a manager that size leans in, the market tends to notice. Elsewhere, AI tools can now audit a smart contract in an hour or two for a small fraction of the old six-figure cost, putting professional audits within reach of small projects (Coinbase is already running its own AI audit workflow)."
+    "commentary": "Crypto sold off across the board: Bitcoin fell 2.72% to $62,226, Ether dropped 4.42% to $1,650, and XRP slipped 2.41% to $1.10 (figures as of the June 22nd close).\n\nThe big players bought the dip anyway. Strategy (MSTR -2.73%) picked up another $355 million in Bitcoin and Bitmine (BMNR -1.73%) added $92 million in Ether, which now leaves it holding close to 5% of the entire Ether market.\n\nIn Washington, the Senate slipped a four-year ban on a U.S. digital dollar into a housing bill. New Fed Chair Kevin Warsh had already called the idea a bad policy choice. Worth watching: Europe and China are busy building their own digital currencies while the U.S. heads the other way."
   },
   "real_estate": {
-    "rate_30year": "6.58%",
-    "rate_15year": "6.15%",
-    "homebuilder": "Mortgage Rates Ease To 6.58% — But The “Lock-In Effect” Keeps Supply Tight; The East Bay Board Climbs To 2,956 Active On 229 New And 210 Closed",
-    "commentary": "The 30-year fixed eased to 6.58% and the 15-year to 6.15% — a touch of relief, though still roughly double the rate most homeowners are sitting on.\n\nAnd that gap is the whole story. Homeowners pulled $47 billion in equity in Q1 — the biggest first-quarter haul since 2021 — rather than refinance into today's far higher rates. Around 20% still hold a mortgage near 3% (see the chart below), and those locked-in low rates are a big reason so few homes come to market. The squeeze is generational: the U.S. is short about 4 million homes, roughly 25 million adults under 35 have paused the search to live with parents, and the typical first-time buyer is now 40 years old.\n\nLocally, the East Bay board climbed to 2,956 active (up 59 from the June 18th report), with 229 new listings against 210 closings. Oakland again led the board with 56 new on 781 active; Fremont added 16 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/22/26 — new listings / active)\n\n📍 Oakland: 56 new / 781 active (board leader).\n\n📍 Livermore: 28 new / 229 active.\n\n📍 Danville: 20 new / 193 active.\n\n📍 San Ramon: 18 new / 211 active.\n\n📍 Pleasanton: 17 new / 155 active.\n\n📍 Fremont: 16 new / 360 active.\n\n📍 Dublin: 16 new / 212 active.\n\n📍 Hayward: 12 new / 267 active.\n\n📍 Castro Valley: 12 new / 85 active.\n\n📍 Newark: 11 new / 123 active.\n\n📍 San Leandro: 9 new / 101 active.\n\n📍 Milpitas: 7 new / 118 active.\n\n📍 Union City: 6 new / 89 active.\n\n📍 San Lorenzo: 1 new / 25 active.\n\n📍 Sunol: 0 new / 7 active.\n\nNew-listing flow rose to 229 (up 25 from the June 18th report's 204), led by Oakland (56), Livermore (28), and Danville (20). Closings held near steady at 210.\n\nFor agents: rates ticked down but barely, and the lock-in effect isn't breaking soon — so the move is to work the inventory that IS coming (2,956 active, 229 new). Well-priced, well-presented homes still sell inside about four weeks. Coach sellers that they're competing against thin supply, not just rates; remind buyers that today's softer prices — more than the rate — are where the opening is.",
-    "local_news": "",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/mortgage-rate-lockin-062226.png",
-      "alt": "U.S. Mortgage Rates by share of outstanding borrowers: Below 3% 20%, 3% to 4% 31.5%, 4% to 5% 18%, 5% to 6% 10%, 6%+ 21% — about 70% hold a rate under 5%.",
-      "caption": "About 70% of U.S. homeowners hold a mortgage rate under 5% — and roughly 1 in 5 are still locked in below 3%. With today's 30-year near 6.6%, few have any reason to sell and reset, which keeps for-sale inventory unusually tight. The “lock-in effect” in one picture.",
-      "source": "Source: National Mortgage Professional. Chart by REALTY EXPERTS®."
-    }
+    "rate_30year": "6.66%",
+    "rate_15year": "6.20%",
+    "homebuilder": "Mortgage Rates Tick Back Up To 6.66% As Fed-Hike Bets Firm; The Senate Moves To Curb Wall Street Landlords; The East Bay Board Eases To 2,929 Active On 220 New And 212 Closed",
+    "commentary": "The 30-year fixed ticked back up to 6.66% and the 15-year to 6.20%, as firming bets on Federal Reserve rate hikes nudged borrowing costs higher. That is still roughly double the rate most homeowners are sitting on, which keeps the lock-in effect firmly in place.\n\nTwo moves out of Washington matter for housing. The Senate advanced a bill to slow big Wall Street firms from buying up homes, capping institutional investors at 350 single-family homes and easing some building rules. It lands as the country sits more than 4.7 million homes short. Separately, a new Tax Justice Network report named the U.S. the world's top destination for laundering money through real estate, because buyers can hold property through shell companies without revealing who owns them (Canada ranked second, the U.K. eighth).\n\nLocally, the East Bay board eased to 2,929 active (down 27 from yesterday), with 220 new listings against 212 closings. Oakland again led the board with 53 new on 771 active; Fremont added 19 new on 360 active.\n\n📍 Alameda & Contra Costa Snapshot (06/23/26, new listings / active)\n\n📍 Oakland: 53 new / 771 active (board leader).\n\n📍 Livermore: 26 new / 228 active.\n\n📍 Danville: 20 new / 194 active.\n\n📍 Fremont: 19 new / 360 active.\n\n📍 Pleasanton: 18 new / 155 active.\n\n📍 San Ramon: 17 new / 210 active.\n\n📍 Hayward: 14 new / 265 active.\n\n📍 Dublin: 13 new / 209 active.\n\n📍 Castro Valley: 10 new / 86 active.\n\n📍 San Leandro: 10 new / 99 active.\n\n📍 Newark: 9 new / 120 active.\n\n📍 Milpitas: 5 new / 114 active.\n\n📍 Union City: 5 new / 86 active.\n\n📍 San Lorenzo: 1 new / 25 active.\n\n📍 Sunol: 0 new / 7 active.\n\nNew-listing flow eased to 220 (down 9 from yesterday's 229), led by Oakland (53), Livermore (26), and Danville (20). Closings ticked up to 212.\n\nFor agents: rates nudged higher and the lock-in effect is not breaking soon, so the play is to work the inventory that IS coming to market (2,929 active, 220 new). Well-priced, well-presented homes still sell inside about four weeks. Coach sellers that they are competing against thin supply as much as rates, and remind buyers that softer prices, more than the rate, are where the opening is.",
+    "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
     "https://tradingeconomics.com/commodity/gold",
-    "https://tradingeconomics.com/commodity/silver"
+    "https://fortune.com/article/current-price-of-silver-6-23-2026/"
   ]
 }
