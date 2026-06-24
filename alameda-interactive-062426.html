@@ -1,0 +1,132 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 24, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.65%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.19%</strong></p>
+
+<p>The 30-year fixed held at <strong>6.65%</strong> and the 15-year at <strong>6.19%</strong>, with rates sticky as bets on a Federal Reserve rate hike by September firm up. That is still close to double the rate most homeowners already carry, which keeps the lock-in effect firmly in place and supply tight.</p>
+
+<p>Local board: <strong>2,895 active</strong> (down 34 from yesterday), <strong>175 new listings</strong>, <strong>223 closed sales</strong>. New supply eased while closings picked up, a healthy sign that well-priced homes are still moving inside about four weeks.</p>
+
+<p><strong>National:</strong> the big news is out of Washington. Congress passed the <strong>21st Century ROAD to Housing Act</strong>, which President Trump is expected to sign today. It opens up $200 million for areas that add housing supply, unlocks funding for manufactured and factory-built homes, caps big investors at 350 single-family homes, and speeds up building permits. A related shift: small-time investors now make up <strong>63% of all investor home purchases</strong>, the highest share in 15 years, while the mega investors who buy 350 or more homes have pulled back nearly 70% from their 2021 peak.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 15 new / 350 active (down 10)</li>
+    <li><strong>Milpitas:</strong> 5 new / 116 active (up 2)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 19 new / 267 active (up 2)</li>
+    <li><strong>Newark:</strong> 6 new / 120 active (flat)</li>
+    <li><strong>Union City:</strong> 5 new / 85 active (down 1)</li>
+    <li><strong>San Leandro:</strong> 7 new / 94 active (down 5)</li>
+    <li><strong>San Lorenzo:</strong> 1 new / 22 active (down 3)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Livermore:</strong> 14 new / 223 active (down 5)</li>
+    <li><strong>San Ramon:</strong> 9 new / 204 active (down 6)</li>
+    <li><strong>Dublin:</strong> 10 new / 203 active (down 6)</li>
+    <li><strong>Pleasanton:</strong> 16 new / 158 active (up 3)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 47 new / 770 active (volume leader)</li>
+    <li><strong>Danville:</strong> 11 new / 193 active (down 1)</li>
+    <li><strong>Castro Valley:</strong> 10 new / 83 active (down 3)</li>
+    <li><strong>Sunol:</strong> 0 new / 7 active (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,365</strong> &nbsp;|&nbsp; DOW: <strong>51,666</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,587</strong></p>
+
+<p>Stocks closed in the red, led lower by AI memory chip names. <strong>Micron (MU -13.18%)</strong> and <strong>SanDisk (SNDK -13.63%)</strong> each tumbled double digits. Micron, now the 13th most valuable company in the world, reports earnings today, so its print will set the tone for the group.</p>
+
+<p>There was some green under the red. <strong>Cerebras (CBRS +1.02%)</strong> posted its first earnings since going public, with revenue topping $194 million (double a year ago), though the stock fell about 10% after hours on softer margin guidance. It also signed a deal worth more than $20 billion to supply OpenAI. Meanwhile <strong>SpaceX (SPCX +0.98%)</strong> sold $25 billion in bonds, days after its long-awaited IPO, to pay off a March loan, even while sitting on more than $100 billion in cash.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.48%</strong> &nbsp;|&nbsp; Gold: <strong>$3,988</strong> &nbsp;|&nbsp; Silver: <strong>$58.78</strong> &nbsp;|&nbsp; Brent Crude: <strong>$75.36</strong></p>
+
+<p>The story of the day was the dollar. While stocks fell, the <strong>U.S. Dollar Index pushed to a 13-month high</strong> near 101.6, up about 3.4% on the year (see the chart below), as Wall Street put the odds of a Fed rate hike by September at roughly 85%. That same bet hammered the metals: <strong>gold fell about 3% to $3,988</strong> an ounce and <strong>silver dropped more than 5% to $58.78</strong>, both sliding to multi-month lows as a stronger dollar pulled money out.</p>
+
+<p>Oil kept easing. <strong>Brent crude</strong> slipped 2.26% to <strong>$75.36</strong> as supply flows back, with crude moving through the Strait of Hormuz again and the UAE restoring exports to 85% of pre-war levels. The 10-year Treasury yield held near <strong>4.48%</strong>. For housing, a strong dollar and cheaper oil help cool inflation, but a Fed leaning toward higher for longer is exactly what keeps mortgage rates sticky.</p>
+
+<figure style="margin:18px 0;text-align:center;">
+  <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/dollar-index-feeling-green-062426.png" alt="U.S. Dollar Index (DXY), 2026 year to date: a February low near 96.8, a spring double top near 100.9, and a run up to a 13-month high at 101.64." style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto;border:1px solid #e2e8f0;border-radius:8px;" />
+  <figcaption style="font-size:13px;color:#475569;font-style:italic;margin-top:8px;">The dollar is feeling green. The U.S. Dollar Index has climbed to a 13-month high at 101.64, up 3.42% on the year, as Wall Street bets the Fed hikes rates by September. A stronger dollar is also what pulled gold and silver lower the same day. Source: ICE U.S. Dollar Index (DX-Y.NYB). Chart by REALTY EXPERTS.</figcaption>
+</figure>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$62,393</strong> &nbsp;|&nbsp; ETH: <strong>$1,659</strong> &nbsp;|&nbsp; XRP: <strong>$1.08</strong></p>
+
+<p>Crypto held up better than stocks but still leaned lower, with <strong>Bitcoin down 0.40% to $62,393</strong> and the majors easing alongside it. The plumbing keeps getting built: Chainlink is joining 47 banks across Europe and South Korea in Project Pangea, an effort to settle currency trades in seconds using stablecoins across the $150 billion Europe to South Korea trade corridor. On the policy side, Washington told federal agencies to be mostly quantum-resistant by 2030, guarding against the day quantum computers could crack today&rsquo;s encryption.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> (mortgage rates)</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> (market data)</li>
+        <li><a href="https://fortune.com/article/current-price-of-gold-06-24-2026/" target="_blank">Fortune</a> (gold and silver spot, June 24)</li>
+        <li><a href="https://www.marketwatch.com/investing/index/dxy" target="_blank">MarketWatch</a> (U.S. Dollar Index)</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-062426.js"></script>
