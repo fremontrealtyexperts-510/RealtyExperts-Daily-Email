@@ -1,49 +1,49 @@
 {
-  "date": "06/24/26",
+  "date": "06/25/26",
   "time": "9:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/7b42e594-cc41-4f71-87b4-12df68b262e3",
-  "qr_code_path": "note-qr-7b42e594.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/2158b341-c6f2-4357-af4f-18cd83fc9e53",
+  "qr_code_path": "note-qr-2158b341.png",
   "stocks": {
-    "sp500": "7,365 (-1.44%)",
-    "dow": "51,666 (-0.09%)",
-    "nasdaq": "25,587 (-2.21%)",
-    "note": "Numbers as of market close on June 23rd.",
-    "news": "Stocks closed in the red. The S&P 500 fell 1.44% to 7,365 and the NASDAQ dropped 2.21% to 25,587, while the DOW slipped just 0.09% to 51,666 (figures as of the June 23rd close).\n\nAI memory chip names led the slide. Micron (MU -13.18%) and SanDisk (SNDK -13.63%) both tumbled double digits. Micron reports earnings today and is now the 13th most valuable company in the world, so its print will set the tone for the group.\n\nThere was some green under the red. Cerebras (CBRS +1.02%) posted its first earnings since going public, with revenue topping $194 million, double a year ago. The stock still fell about 10% after hours, as the company guided margins down to 36 to 38 percent from 46.5 percent. It also signed a deal worth more than $20 billion to supply OpenAI and will put its chips inside AWS.\n\nSpaceX (SPCX +0.98%) sold $25 billion in bonds, days after its long-awaited IPO, to help pay off a loan it took in March. The company is sitting on more than $100 billion in cash but has still never turned a profit."
+    "sp500": "7,358 (-0.10%)",
+    "dow": "51,848 (+0.35%)",
+    "nasdaq": "25,476 (-0.43%)",
+    "note": "Numbers as of market close on June 24th.",
+    "news": "Stocks were mixed and little changed. The S&P 500 eased 0.10% to 7,358 and the NASDAQ slipped 0.43% to 25,476, while the DOW edged up 0.35% to 51,848 (figures as of the June 24th close).\n\nThe day belonged to memory chips. Micron (MU -0.31%) blew past sales expectations and guided higher, saying AI companies are buying memory faster than it can make it. The stock is up more than 200% in 2026. Right behind it, South Korea's SK Hynix filed to go public in the U.S. and plans to raise about $29 billion, which would rank among the largest IPOs ever.\n\nTwo more moves stood out. Germany scrapped its biggest warship order since World War II, worth about $14.5 billion, sending European defense maker Rheinmetall lower and steering the work to rival TKMS. On this side of the Atlantic, U.S. defense names like Lockheed Martin (LMT -2.39%) and Northrop Grumman (NOC -1.99%) have been sliding since the U.S. and Iran ended their war."
   },
   "economy": {
-    "us10year": "4.48%",
-    "gold": "$3,988 (-3.04%)",
-    "silver": "$58.78 (-5.23%)",
-    "wti": "$75.36 (-2.26%)",
-    "oil_label": "Brent Crude",
-    "note": "10-Year and Brent as of June 23rd (Market Briefs); gold and silver are live spot, June 24th (Fortune); the U.S. Dollar Index is the ICE DXY, June 24th.",
-    "commentary": "The dollar is feeling green. While stocks closed in the red, the U.S. Dollar Index pushed to a 13-month high near 101.6, up about 3.4% on the year (see the chart below). The driver is the Federal Reserve. Wall Street now puts the odds of a rate hike by September at roughly 85%, and higher rates make dollars scarcer and more valuable, so money flows in.\n\nThat same Fed bet hammered the metals. Gold fell about 3% to roughly $3,988 an ounce and silver dropped more than 5% to about $58.78, both sliding to multi-month lows as a stronger dollar and a higher for longer Fed pulled money out. Longer term, central banks are still on a record gold-buying run, but day to day the Fed is in the driver's seat.\n\nOil kept easing. Brent crude slipped 2.26% to $75.36 as supply flows back. Crude is moving through the Strait of Hormuz again, and the UAE has already restored exports to 85% of pre-war levels. The 10-year Treasury yield held near 4.48%.\n\nThe takeaway for housing: a strong dollar and cheaper oil help cool inflation, but a Fed leaning toward higher for longer is exactly what keeps mortgage rates sticky.",
+    "us10year": "4.41%",
+    "gold": "$4,005 (+0.43%)",
+    "silver": "$57.76 (-1.74%)",
+    "wti": "$6.02 (+1.21%)",
+    "oil_label": "Copper",
+    "note": "10-Year and Copper as of June 24th (Market Briefs); gold and silver are live spot, June 25th (Fortune); Brent crude is the June 24th print.",
+    "commentary": "Copper is running out of steam. After a strong run toward $6.65 a pound through late spring, the metal has slid back to about $6.02, up just 0.55% on the year (see the chart below). Three forces are capping it: a strong dollar makes copper pricier for overseas buyers, the Fed's higher for longer stance makes raw materials less appealing, and global supply is at its highest level since 2003.\n\nThe precious metals were mixed. Gold rebounded above $4,000 to about $4,005 (+0.43%) as the dollar eased and the latest inflation reading came in roughly as expected, while silver slipped to $57.76 (-1.74%) and is now well off its January highs. Both remain pressured by the same higher for longer Fed bet that lifted the dollar this week.\n\nOil kept drifting lower. Brent crude eased 1.34% to $72.75 now that the Strait of Hormuz has reopened, but pump prices have not followed. Regular gas is averaging about $3.91 a gallon, down from roughly $4.50 a month ago, and the White House has asked the Justice Department to investigate whether oil companies are keeping prices high even as crude costs fall. The 10-year Treasury yield held near 4.41%.\n\nThe takeaway for housing: cooling commodities and a steady 10-year are mildly encouraging, but with the Fed still leaning toward higher for longer, mortgage rates are not getting major relief yet.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/dollar-index-feeling-green-062426.png",
-      "alt": "U.S. Dollar Index (DXY), 2026 year to date: a dip to a February low near 96.8, a spring double top near 100.9, then a run up to a 13-month high at 101.64.",
-      "caption": "The dollar is feeling green. The U.S. Dollar Index has climbed to a 13-month high at 101.64, up 3.42% on the year, as Wall Street bets the Fed hikes rates by September. A stronger dollar is also what pulled gold and silver lower the same day.",
-      "source": "Source: ICE U.S. Dollar Index (DX-Y.NYB). Chart by REALTY EXPERTS®."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/copper-runs-out-of-steam-062526.png",
+      "alt": "Copper price in 2026, year to date in USD per pound: a choppy winter near $6, an April low near $5.45, a run up toward $6.65 in late spring, then a slide back to $5.9815.",
+      "caption": "Copper is running out of steam. After climbing toward $6.65 a pound this spring, copper has slid back to about $6, up just 0.55% on the year. A strong dollar, the Fed's higher for longer stance, and the most global supply since 2003 are all capping the price.",
+      "source": "Source: COMEX copper (HG), USD per pound. Chart by REALTY EXPERTS®."
     }
   },
   "crypto": {
-    "btc": "$62,393 (-0.40%)",
-    "eth": "$1,659 (-0.40%)",
-    "xrp": "$1.08 (-2.24%)",
-    "note": "Numbers as of 4:00 PM ET, June 23rd.",
-    "commentary": "Crypto held up better than stocks but still leaned lower. Bitcoin slipped 0.40% to $62,393, Ether eased 0.40% to $1,659, and XRP fell 2.24% to $1.08 (figures as of the June 23rd close).\n\nThe plumbing keeps getting built. Chainlink is joining 47 banks across Europe and South Korea in Project Pangea, an effort to settle currency trades in seconds using stablecoins, aimed at the $150 billion Europe to South Korea trade corridor.\n\nOn the policy side, Washington told federal agencies to be mostly quantum-resistant by 2030. The worry is that bad actors collect encrypted data now and crack it open once quantum computers arrive, a risk that reaches the blockchain too."
+    "btc": "$61,183 (+0.30%)",
+    "eth": "$1,630 (+0.66%)",
+    "xrp": "$1.07 (-0.30%)",
+    "note": "Numbers as of 4:00 PM ET, June 24th.",
+    "commentary": "Crypto steadied after a rough stretch. Bitcoin firmed 0.30% to $61,183, Ether added 0.66% to $1,630, and XRP slipped 0.30% to $1.07 (figures as of the June 24th close).\n\nThe bigger picture is still soft. Bitcoin spent Wednesday dancing around $60,000, its lowest level since October 2024 and the third time it has dipped under that mark this year, capping an eight-month slump. One steadying factor: big holders now own more of the coin than ever, which can make further dips slower.\n\nRegulators are racing to keep up. Hong Kong's crypto ETFs have nearly doubled to about $550 million since launching last year and platform trading is up 125%, so officials are writing four new rulebooks covering how firms trade, hold, advise on, and manage crypto."
   },
   "real_estate": {
-    "rate_30year": "6.65%",
-    "rate_15year": "6.19%",
-    "homebuilder": "Mortgage Rates Hold Near 6.65% As Fed-Hike Bets Firm; Congress Passes The 21st Century ROAD To Housing Act; The East Bay Board Eases To 2,895 Active On 175 New And 223 Closed",
-    "commentary": "The 30-year fixed held at 6.65% and the 15-year at 6.19%, with rates sticky as bets on a Federal Reserve rate hike firm up. That is still close to double the rate most homeowners already have, which keeps the lock-in effect firmly in place.\n\nThe big housing news is out of Washington. Congress passed the 21st Century ROAD to Housing Act, and President Trump is expected to sign it today. The bill opens up $200 million for areas that successfully add housing supply, unlocks funding for manufactured and factory-built homes, caps big investors at 350 single-family homes, and speeds up building permits.\n\nA related shift: small-time investors now make up 63% of all investor home purchases, the highest share in 15 years. Investors bought 11.3% of all U.S. homes in 2025, but the mega investors who buy 350 or more homes have pulled back hard, down nearly 70% from their 2021 peak. The small operator, not the giant fund, is the investor buyer in most markets now.\n\nLocally, the East Bay board eased to 2,895 active (down 34 from yesterday), with 175 new listings against 223 closings. Oakland again led the board with 47 new on 770 active; Fremont added 15 new on 350 active.\n\n📍 Alameda & Contra Costa Snapshot (06/24/26, new listings / active)\n\n📍 Oakland: 47 new / 770 active (board leader).\n\n📍 Hayward: 19 new / 267 active.\n\n📍 Pleasanton: 16 new / 158 active.\n\n📍 Fremont: 15 new / 350 active.\n\n📍 Livermore: 14 new / 223 active.\n\n📍 Danville: 11 new / 193 active.\n\n📍 Castro Valley: 10 new / 83 active.\n\n📍 Dublin: 10 new / 203 active.\n\n📍 San Ramon: 9 new / 204 active.\n\n📍 San Leandro: 7 new / 94 active.\n\n📍 Newark: 6 new / 120 active.\n\n📍 Milpitas: 5 new / 116 active.\n\n📍 Union City: 5 new / 85 active.\n\n📍 San Lorenzo: 1 new / 22 active.\n\n📍 Sunol: 0 new / 7 active.\n\nNew-listing flow eased to 175 (down from yesterday's 220), led by Oakland (47), Hayward (19), and Pleasanton (16). Closings rose to 223.\n\nFor agents: rates are holding and the lock-in effect is not breaking soon, so the play is to work the inventory that IS coming to market (2,895 active, 175 new). Well-priced, well-presented homes still sell inside about four weeks. Remind sellers they are competing against thin supply as much as rates, and point buyers to softer prices, which is where the real opening is right now.",
+    "rate_30year": "6.55%",
+    "rate_15year": "6.15%",
+    "homebuilder": "Mortgage Rates Ease To 6.55%; The ROAD To Housing Act Stalls At The President's Desk; The East Bay Board Climbs To 2,941 Active On 177 New And 206 Closed",
+    "commentary": "The 30-year fixed eased to 6.55% and the 15-year to 6.15%, a touch lower than last week as Treasury yields settled. That is still well above the rate most homeowners carry, so the lock-in effect that is keeping resale supply tight is not going anywhere.\n\nThe housing headline is a reversal. We told you yesterday that Congress passed the 21st Century ROAD to Housing Act, one of the biggest housing reform bills in years. It reached the President's desk, but he canceled the signing an hour beforehand and says he will not sign until lawmakers pass a separate voter ID bill. For now the bill, which would fund new supply, back manufactured homes, cap big investors, and speed up permits, is in limbo.\n\nA warning sign on the commercial side: a prominent Chicago office tower, One South Wacker, just defaulted on its $343 million loan. The building is 73% occupied and was renovated in 2020, yet it could not refinance, and with citywide office vacancy at 27%, weaker towers may be next. It is a reminder that the pressure in commercial real estate has not let up.\n\nLocally, the East Bay board climbed to 2,941 active (up 46 from yesterday), with 177 new listings against 206 closings. Oakland again led the board with 44 new on 782 active; Fremont added 15 new on 350 active.\n\n📍 Alameda & Contra Costa Snapshot (06/25/26, new listings / active)\n\n📍 Oakland: 44 new / 782 active (board leader).\n\n📍 Hayward: 20 new / 275 active.\n\n📍 Danville: 19 new / 197 active.\n\n📍 Livermore: 17 new / 231 active.\n\n📍 Fremont: 15 new / 350 active.\n\n📍 Dublin: 11 new / 199 active.\n\n📍 Castro Valley: 9 new / 83 active.\n\n📍 San Ramon: 9 new / 213 active.\n\n📍 Newark: 7 new / 123 active.\n\n📍 San Leandro: 7 new / 95 active.\n\n📍 Pleasanton: 7 new / 157 active.\n\n📍 Milpitas: 5 new / 120 active.\n\n📍 Union City: 5 new / 87 active.\n\n📍 San Lorenzo: 1 new / 21 active.\n\n📍 Sunol: 1 new / 8 active.\n\nNew-listing flow ticked up to 177 (from yesterday's 175), led by Oakland (44), Hayward (20), and Danville (19). Closings eased to 206.\n\nFor agents: rates dipped slightly but the lock-in effect is still firmly in place, so the opportunity is in the fresh inventory hitting the market (2,941 active, 177 new). Well-priced, well-presented homes still sell inside about four weeks. Coach sellers that they are competing on price and presentation against thin supply, and remind buyers that a softer commodity backdrop and steady yields make this a reasonable window to lock a rate and negotiate.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://fortune.com/article/current-price-of-gold-06-24-2026/",
-    "https://fortune.com/article/current-price-of-silver-6-24-2026/",
-    "https://www.marketwatch.com/investing/index/dxy"
+    "https://fortune.com/article/current-price-of-gold-06-25-2026/",
+    "https://fortune.com/article/current-price-of-silver-6-25-2026/",
+    "https://tradingeconomics.com/commodity/copper"
   ]
 }
