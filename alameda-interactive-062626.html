@@ -1,0 +1,132 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 26, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.53%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.12%</strong></p>
+
+<p>The 30-year fixed eased to <strong>6.53%</strong> and the 15-year to <strong>6.12%</strong>, drifting lower with Treasury yields. That is still well above the rate most owners carry, so the lock-in effect that is thinning resale supply is not going anywhere.</p>
+
+<p>Local board: <strong>2,964 active</strong> (up 23 from yesterday), <strong>211 new listings</strong>, <strong>200 closed sales</strong>. New supply jumped midweek and keeps outpacing closings, slowly handing buyers a bit more choice.</p>
+
+<p><strong>National:</strong> Zillow turned more cautious, cutting its 2026 outlook to a 0.4% decline in sales and just 0.1% growth in values as mortgage rates pushed back toward 7% in the second quarter. At the very top, money keeps moving: ultra-wealthy buyers spent <strong>$38.6 billion on homes over $10 million</strong> in the past year (Compass), even as a median U.S. home near $403,000 keeps many regular buyers on the sidelines.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 23 new / 354 active (up 4)</li>
+    <li><strong>Milpitas:</strong> 7 new / 124 active (up 4)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 22 new / 276 active (up 1)</li>
+    <li><strong>Newark:</strong> 10 new / 123 active (flat)</li>
+    <li><strong>San Leandro:</strong> 7 new / 93 active (down 2)</li>
+    <li><strong>Union City:</strong> 6 new / 88 active (up 1)</li>
+    <li><strong>San Lorenzo:</strong> 3 new / 23 active (up 2)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Dublin:</strong> 19 new / 205 active (up 6)</li>
+    <li><strong>Livermore:</strong> 18 new / 226 active (down 5)</li>
+    <li><strong>Pleasanton:</strong> 13 new / 165 active (up 8)</li>
+    <li><strong>San Ramon:</strong> 11 new / 213 active (flat)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 38 new / 778 active (volume leader)</li>
+    <li><strong>Danville:</strong> 17 new / 199 active (up 2)</li>
+    <li><strong>Castro Valley:</strong> 16 new / 89 active (up 6)</li>
+    <li><strong>Sunol:</strong> 1 new / 8 active (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,357</strong> &nbsp;|&nbsp; DOW: <strong>51,920</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,358</strong></p>
+
+<p>Stocks were flat to slightly lower, with the S&amp;P 500 essentially unchanged, the NASDAQ down 0.46%, and the DOW up 0.14%. Prices are the theme: <strong>Microsoft (MSFT -3.46%)</strong> is raising Xbox prices $100 to $150 on rising component costs, and <strong>Apple (AAPL -6.15%)</strong> lifted MacBook and iPad prices the same day.</p>
+
+<p>The AI race got pointed. Anthropic accused <strong>Alibaba (BABA -4.74%)</strong> of copying 28.8 million model exchanges in what it called the largest known distillation attack, and Alibaba is down about 30% this year. <strong>Amazon (AMZN -3.14%)</strong> pledged another $13 billion for AI and cloud in India, bringing its 2026 to 2030 plan there to $48 billion.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.37%</strong> &nbsp;|&nbsp; Gold: <strong>$4,052</strong> &nbsp;|&nbsp; Silver: <strong>$59.04</strong> &nbsp;|&nbsp; Brent Crude: <strong>$73.73</strong></p>
+
+<p>The economy is the headline. Final first-quarter GDP came in at <strong>2.1%</strong>, beating the 1.6% forecast and revised up on AI investment (see the chart below). Consumer spending and fixed investment rose while retail, wholesale, and finance pulled back. Steady growth with sticky inflation keeps the Federal Reserve cautious about cutting rates.</p>
+
+<p>Metals tried to steady, with <strong>gold bouncing to about $4,052 (+1.17%)</strong> and <strong>silver to $59.04 (+1.32%)</strong>, though both are still down sharply for the week. Brent crude eased 2.03% to $73.73 with the Strait of Hormuz reopened, and the 10-year Treasury yield drifted to 4.37%. For housing, solid growth plus a patient Fed means lower mortgage rates will come gradually, not suddenly.</p>
+
+<figure style="margin:18px 0;text-align:center;">
+  <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/us-gdp-quarterly-062626.png" alt="U.S. real GDP, percent change from the prior quarter: Q4 2024 +1.9, Q1 2025 -0.6, Q2 2025 +3.8, Q3 2025 +4.4, Q4 2025 +0.5, and Q1 2026 +2.1." style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto;border:1px solid #e2e8f0;border-radius:8px;" />
+  <figcaption style="font-size:13px;color:#475569;font-style:italic;margin-top:8px;">The economy beat expectations. Final first-quarter GDP grew 2.1%, ahead of the 1.6% forecast and revised up on AI investment. Steady growth with sticky inflation keeps the Federal Reserve in no hurry to cut rates, which keeps mortgage rates elevated. Source: U.S. Bureau of Economic Analysis.</figcaption>
+</figure>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$59,872</strong> &nbsp;|&nbsp; ETH: <strong>$1,548</strong> &nbsp;|&nbsp; XRP: <strong>$1.03</strong></p>
+
+<p>Crypto stayed soft. Bitcoin firmed 0.28% to $59,872 but is back below $60,000, deep in a multi-month slump, with Ether down 1.01% and XRP off 1.44%. A record <strong>10.83 million coins are now held at a loss</strong>, topping prior bear-market bottoms, yet long-term holders own a record 14.8 million and are not selling. Separately, investigators found Iranian entities moved more than $3.84 billion through the exchange CoinEx during the recent conflict.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> (mortgage rates)</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> (market data)</li>
+        <li><a href="https://fortune.com/article/current-price-of-gold-06-26-2026/" target="_blank">Fortune</a> (gold and silver spot, June 26)</li>
+        <li><a href="https://www.bea.gov/data/gdp/gross-domestic-product" target="_blank">U.S. Bureau of Economic Analysis</a> (Q1 GDP)</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-062626.js"></script>
