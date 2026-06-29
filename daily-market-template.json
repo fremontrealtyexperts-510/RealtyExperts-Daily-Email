@@ -1,49 +1,47 @@
 {
-  "date": "06/26/26",
+  "date": "06/29/26",
   "time": "9:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/d11d9b9a-1981-4b69-80f7-5956151ee761",
-  "qr_code_path": "note-qr-d11d9b9a.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/43abc800-0dee-435f-aa9b-e4347f95b849",
+  "qr_code_path": "note-qr-43abc800.png",
   "stocks": {
-    "sp500": "7,357 (-0.01%)",
-    "dow": "51,920 (+0.14%)",
-    "nasdaq": "25,358 (-0.46%)",
-    "note": "Numbers as of market close on June 25th.",
-    "news": "Stocks were flat to slightly lower. The S&P 500 was essentially unchanged at 7,357, the NASDAQ slipped 0.46% to 25,358, and the DOW edged up 0.14% to 51,920 (figures as of the June 25th close).\n\nPrices are the theme. Microsoft (MSFT -3.46%) is raising Xbox console prices by $100 to $150 starting August 1, blaming component costs that are up more than 2.5 times, and Apple (AAPL -6.15%) lifted prices on MacBooks and iPads the same day. Microsoft also expects memory costs to double again by late 2027.\n\nThe AI race got more pointed. Anthropic accused Alibaba (BABA -4.74%) of copying 28.8 million model exchanges in what it called the largest known distillation attack, and Alibaba shares are now down about 30% this year. Amazon (AMZN -3.14%) pledged another $13 billion for AI and cloud in India, bringing its planned 2026 to 2030 spend there to $48 billion."
+    "sp500": "7,354 (-0.05%)",
+    "dow": "51,876 (-0.09%)",
+    "nasdaq": "25,297 (-0.24%)",
+    "note": "Numbers as of market close on June 26th.",
+    "news": "Stocks barely moved. The S&P 500 slipped 0.05% to 7,354, the NASDAQ eased 0.24% to 25,297, and the DOW dipped 0.09% to 51,876 (figures as of the June 26th close).\n\nThe drama was in the chips. ON Semiconductor (ON -23.66%) had one of its worst days ever after announcing it is buying Synaptics (SYNA -3.68%), a deal it says opens up a $30 billion market in physical AI. Investors apparently wanted to see the receipts first. Meanwhile SpaceX (SPCX +0.15%) is joining the Nasdaq, so millions of index-fund investors are about to own a sliver of a rocket company whether they planned to or not."
   },
   "economy": {
-    "us10year": "4.37%",
-    "gold": "$4,052 (+1.17%)",
-    "silver": "$59.04 (+1.32%)",
-    "wti": "$73.73 (-2.03%)",
+    "us10year": "4.38% (+0.01%)",
+    "gold": "$4,080 (-0.40%)",
+    "silver": "$58.80",
+    "wti": "$73.37 (+0.53%)",
     "oil_label": "Brent Crude",
-    "note": "10-Year, Brent, and the stock indexes as of June 25th (Market Briefs); gold and silver are live spot, June 26th (Fortune); Q1 GDP is the final BEA estimate.",
-    "commentary": "The economy is the headline. The final reading on first-quarter GDP came in at 2.1%, beating the 1.6% forecast and revised up from the earlier 1.6% estimate, largely on AI investment (see the chart below). Consumer spending and fixed investment rose, while retail, wholesale, and finance pulled back. A growing economy with sticky inflation is exactly what keeps the Federal Reserve cautious about cutting rates.\n\nMetals tried to steady. Gold bounced to about $4,052 (+1.17%) and silver to $59.04 (+1.32%) on the day, though both are still down sharply for the week and gold sits roughly 24% below its all-time high as the end of the U.S. and Iran conflict and a tech rebound pull money out of safe havens.\n\nOil eased again. Brent crude fell 2.03% to $73.73 with the Strait of Hormuz reopened, and the 10-year Treasury yield drifted to 4.37%.\n\nThe takeaway for housing: solid growth plus a patient Fed means the path to lower mortgage rates is gradual, not sudden, so the rate-driven standoff in the resale market is likely to persist.",
+    "note": "Stock indexes as of the June 26th close; 10-Year, gold, and Brent as of June 28th (Market Briefs); silver is live spot, June 29th (JM Bullion).",
+    "commentary": "Inflation is still running warm. The Federal Reserve's preferred gauge rose 4.1%, the fastest pace since April 2023, and Richmond Fed President Tom Barkin warned it will be tough to cool prices without keeping rates high. Not the update a mortgage shopper was hoping for.\n\nAluminum went the other way (see the chart below). Prices just logged a fourth straight weekly drop, off 6.4% on the week, as a possible Middle East ceasefire looks set to restart regional supply. Cheaper aluminum could eventually mean cheaper cans, cars, and construction, though builders will believe it when they see it.\n\nMetals were mixed elsewhere: gold eased 0.40% to $4,080 and silver to about $58.80, while Brent crude firmed 0.53% to $73.37 and the 10-year Treasury yield held at 4.38%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/us-gdp-quarterly-062626.png",
-      "alt": "U.S. real GDP, percent change from the prior quarter: Q4 2024 +1.9, Q1 2025 -0.6, Q2 2025 +3.8, Q3 2025 +4.4, Q4 2025 +0.5, and Q1 2026 +2.1.",
-      "caption": "The economy beat expectations. Final first-quarter GDP grew 2.1%, ahead of the 1.6% forecast and revised up on AI investment. Steady growth with sticky inflation keeps the Federal Reserve in no hurry to cut rates, which keeps mortgage rates elevated.",
-      "source": "Source: U.S. Bureau of Economic Analysis."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/aluminum-slides-again-062926.png",
+      "alt": "LME aluminum price for 2026 year to date in USD per metric ton: a choppy winter between roughly $3,000 and $3,270, a late-February low near $3,030, a spring climb to a mid-June high around $3,750, then a four-week slide to $3,175.62, up 9.6% year to date.",
+      "caption": "Aluminum just notched its fourth straight weekly drop, off 6.4% on the week, as a possible Middle East ceasefire looks set to restart regional supply. Cheaper aluminum could eventually feed through to cheaper cans, cars, and construction costs, a small tailwind for builders if the peace holds.",
+      "source": "Source: LME aluminum, USD/metric ton."
     }
   },
   "crypto": {
-    "btc": "$59,872 (+0.28%)",
-    "eth": "$1,548 (-1.01%)",
-    "xrp": "$1.03 (-1.44%)",
-    "note": "Numbers as of 4:00 PM ET, June 25th.",
-    "commentary": "Crypto stayed soft. Bitcoin firmed 0.28% to $59,872 but is back below $60,000, deep into a multi-month slump, with Ether off 1.01% to $1,548 and XRP down 1.44% to $1.03 (figures as of the June 25th close).\n\nA telling stat: about 10.83 million Bitcoin are now held at a loss, a record that tops prior bear-market bottoms. Long-term holders own a record 14.8 million coins and, so far, are not selling.\n\nOn the darker side, investigators found that Iranian entities moved more than $3.84 billion through the crypto exchange CoinEx during the recent conflict, the same venue North Korean hackers used to launder funds, a reminder that crypto rails still slip past sanctions."
+    "btc": "$59,119 (-0.75%)",
+    "eth": "$1,557 (-0.82%)",
+    "xrp": "$1.04 (-1.09%)",
+    "note": "Numbers as of 4:00 PM ET, June 28th.",
+    "commentary": "Crypto drifted lower. Bitcoin slipped 0.75% to $59,119, still stuck below $60,000, with Ether off 0.82% to $1,557 and XRP down 1.09% to $1.04 (figures as of the June 28th close).\n\nThe big money headed for the exits. Investors pulled $1.30 billion from BlackRock's (BLK -0.74%) IBIT last week, 73% of all spot Bitcoin ETF outflows. On the brighter side, Polygon quietly became the busiest network for stablecoin payments, moving $79.25 billion in May as Visa and Meta leaned in, a reminder that the plumbing keeps improving even when prices do not."
   },
   "real_estate": {
     "rate_30year": "6.53%",
     "rate_15year": "6.12%",
-    "homebuilder": "Mortgage Rates Ease To 6.53% As Q1 GDP Beats At 2.1%; Zillow Trims Its 2026 Outlook; The East Bay Board Climbs To 2,964 Active On 211 New And 200 Closed",
-    "commentary": "The 30-year fixed eased to 6.53% and the 15-year to 6.12%, drifting lower with Treasury yields. Even so, that is still well above the rate most owners carry, and the lock-in effect that is thinning resale supply is not going anywhere.\n\nZillow turned more cautious. It cut its 2026 outlook to a 0.4% decline in home sales and expects values to rise just 0.1% this year, as mortgage rates pushed back toward 7% in the second quarter and slowed the recovery. It now sees about 3.76 million existing-home sales, down from 3.8 million.\n\nAt the top of the market, money is still moving. Ultra-wealthy buyers spent $38.6 billion on homes over $10 million in the past year (Compass), including Jeff Bezos at about $237 million near Miami, even as high rates and prices keep many regular buyers, with a median U.S. home around $403,000, on the sidelines.\n\nLocally, the East Bay board climbed to 2,964 active (up 23 from yesterday), with 211 new listings against 200 closings. Oakland again led the board with 38 new on 778 active; Fremont added 23 new on 354 active.\n\n📍 Alameda & Contra Costa Snapshot (06/26/26, new listings / active)\n\n📍 Oakland: 38 new / 778 active (board leader).\n\n📍 Fremont: 23 new / 354 active.\n\n📍 Hayward: 22 new / 276 active.\n\n📍 Dublin: 19 new / 205 active.\n\n📍 Livermore: 18 new / 226 active.\n\n📍 Danville: 17 new / 199 active.\n\n📍 Castro Valley: 16 new / 89 active.\n\n📍 Pleasanton: 13 new / 165 active.\n\n📍 San Ramon: 11 new / 213 active.\n\n📍 Newark: 10 new / 123 active.\n\n📍 San Leandro: 7 new / 93 active.\n\n📍 Milpitas: 7 new / 124 active.\n\n📍 Union City: 6 new / 88 active.\n\n📍 San Lorenzo: 3 new / 23 active.\n\n📍 Sunol: 1 new / 8 active.\n\nNew-listing flow jumped to 211 (up from yesterday's 177), led by Oakland (38), Fremont (23), and Hayward (22). Closings eased to 200.\n\nFor agents: rates dipped, but the bigger story is steady growth and a patient Fed, so do not promise buyers a quick rate drop. Lean into the fresh supply (2,964 active, 211 new) and price discipline. Well-priced, well-presented homes still sell inside about four weeks, while overpriced listings are sitting, so the coaching is the same: price to today's market and the sale follows.",
+    "homebuilder": "Mortgage Rates Hold At 6.53% As The Fed's Inflation Gauge Runs Hot At 4.1%; Morgan Stanley Says Trading Up Could Double Your Payment; The East Bay Board Eases To 2,945 Active On 230 New And 190 Closed",
+    "commentary": "The 30-year fixed held at 6.53% and the 15-year at 6.12%. With the Fed's inflation gauge still hot, the gentle drift lower we have seen is likely to stay gentle, and the lock-in effect thinning resale supply is not loosening its grip.\n\nMorgan Stanley put a number on the standoff. A homeowner who sold today and bought a similar home could see their monthly payment jump about 200%, roughly $1,300 to $1,400 more a month. That math is exactly why so many owners are staying put.\n\nAt the luxury end, sellers are getting creative. With fewer cash buyers around, some are accepting private tech-company stock instead of cash, including a $2.6 million Miami listing taking startup shares. Hard to value and harder to resell, but in a slow market a willing buyer is a willing buyer.\n\nLocally, the East Bay board eased to 2,945 active (down 19 from Friday), with 230 new listings against 190 closings. Oakland again led the board with 42 new on 778 active; Fremont added 28 new on 355 active.\n\n📍 Alameda & Contra Costa Snapshot (06/29/26, new listings / active)\n\n📍 Oakland: 42 new / 778 active (board leader).\n\n📍 Fremont: 28 new / 355 active.\n\n📍 Dublin: 23 new / 200 active.\n\n📍 Hayward: 22 new / 274 active.\n\n📍 Livermore: 19 new / 223 active.\n\n📍 Danville: 19 new / 196 active.\n\n📍 San Ramon: 15 new / 216 active.\n\n📍 Pleasanton: 13 new / 162 active.\n\n📍 Castro Valley: 13 new / 90 active.\n\n📍 Newark: 11 new / 125 active.\n\n📍 San Leandro: 7 new / 95 active.\n\n📍 Union City: 7 new / 82 active.\n\n📍 Milpitas: 6 new / 117 active.\n\n📍 San Lorenzo: 4 new / 24 active.\n\n📍 Sunol: 1 new / 8 active.\n\nNew-listing flow came in at 230, led by Oakland (42), Fremont (28), and Dublin (23). Closings totaled 190.\n\nFor agents: the Fed's hot inflation read is a reminder not to promise buyers a quick rate cut. Lean into the fresh supply (2,945 active, 230 new) and price discipline. Well-priced, well-presented homes still sell inside about four weeks, while overpriced listings just sit, so the coaching stays the same: price to today's market and the sale follows.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://fortune.com/article/current-price-of-gold-06-26-2026/",
-    "https://fortune.com/article/current-price-of-silver-6-26-2026/",
-    "https://www.bea.gov/data/gdp/gross-domestic-product"
+    "https://www.jmbullion.com/charts/silver-prices/"
   ]
 }
