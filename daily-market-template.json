@@ -1,47 +1,41 @@
 {
-  "date": "06/29/26",
+  "date": "06/30/26",
   "time": "9:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/43abc800-0dee-435f-aa9b-e4347f95b849",
-  "qr_code_path": "note-qr-43abc800.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/962f1370-c79d-490c-9ad1-0f3e72ddf782",
+  "qr_code_path": "note-qr-962f1370.png",
   "stocks": {
-    "sp500": "7,354 (-0.05%)",
-    "dow": "51,876 (-0.09%)",
-    "nasdaq": "25,297 (-0.24%)",
-    "note": "Numbers as of market close on June 26th.",
-    "news": "Stocks barely moved. The S&P 500 slipped 0.05% to 7,354, the NASDAQ eased 0.24% to 25,297, and the DOW dipped 0.09% to 51,876 (figures as of the June 26th close).\n\nThe drama was in the chips. ON Semiconductor (ON -23.66%) had one of its worst days ever after announcing it is buying Synaptics (SYNA -3.68%), a deal it says opens up a $30 billion market in physical AI. Investors apparently wanted to see the receipts first. Meanwhile SpaceX (SPCX +0.15%) is joining the Nasdaq, so millions of index-fund investors are about to own a sliver of a rocket company whether they planned to or not."
+    "sp500": "7,440 (+1.18%)",
+    "dow": "52,182 (+0.59%)",
+    "nasdaq": "25,820 (+2.07%)",
+    "note": "Numbers as of market close on June 29th.",
+    "news": "Stocks bounced back nicely. The S&P 500 climbed 1.18% to 7,440, the NASDAQ jumped 2.07% to 25,820, and the DOW added 0.59% to 52,182 (figures as of the June 29th close).\n\nThe day belonged to the space race. Rocket Lab (RKLB +15.86%) is buying satellite operator Iridium (IRDM +25.44%) for $8 billion, picking up 2.5 million subscribers and a real shot at rivaling Elon Musk's Starlink. Less cheerful: Microsoft (MSFT -1.18%) is headed for its worst month since 2000, having shed about $570 billion in value in June as investors fret that AI could make its own cash cows obsolete."
   },
   "economy": {
-    "us10year": "4.38% (+0.01%)",
-    "gold": "$4,080 (-0.40%)",
-    "silver": "$58.80",
-    "wti": "$73.37 (+0.53%)",
+    "us10year": "4.37% (-0.00%)",
+    "gold": "$3,976 (-1.54%)",
+    "silver": "$58.50",
+    "wti": "$72.64 (-0.70%)",
     "oil_label": "Brent Crude",
-    "note": "Stock indexes as of the June 26th close; 10-Year, gold, and Brent as of June 28th (Market Briefs); silver is live spot, June 29th (JM Bullion).",
-    "commentary": "Inflation is still running warm. The Federal Reserve's preferred gauge rose 4.1%, the fastest pace since April 2023, and Richmond Fed President Tom Barkin warned it will be tough to cool prices without keeping rates high. Not the update a mortgage shopper was hoping for.\n\nAluminum went the other way (see the chart below). Prices just logged a fourth straight weekly drop, off 6.4% on the week, as a possible Middle East ceasefire looks set to restart regional supply. Cheaper aluminum could eventually mean cheaper cans, cars, and construction, though builders will believe it when they see it.\n\nMetals were mixed elsewhere: gold eased 0.40% to $4,080 and silver to about $58.80, while Brent crude firmed 0.53% to $73.37 and the 10-year Treasury yield held at 4.38%.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/06/aluminum-slides-again-062926.png",
-      "alt": "LME aluminum price for 2026 year to date in USD per metric ton: a choppy winter between roughly $3,000 and $3,270, a late-February low near $3,030, a spring climb to a mid-June high around $3,750, then a four-week slide to $3,175.62, up 9.6% year to date.",
-      "caption": "Aluminum just notched its fourth straight weekly drop, off 6.4% on the week, as a possible Middle East ceasefire looks set to restart regional supply. Cheaper aluminum could eventually feed through to cheaper cans, cars, and construction costs, a small tailwind for builders if the peace holds.",
-      "source": "Source: LME aluminum, USD/metric ton."
-    }
+    "note": "Stock indexes as of the June 29th close; 10-Year, gold, and Brent as of June 29th (Market Briefs); silver is live spot, June 30th (Fortune).",
+    "commentary": "The jobs report is the week's big tell. Traders on the Kalshi betting market put only a 42% chance on June adding more than 125,000 jobs, well short of May's surprising 172,000. A soft number would nudge the Fed toward cutting sooner, which would be welcome news for mortgage rates, even if it signals a cooling economy.\n\nMetals slipped. Gold fell 1.54% to $3,976 and silver eased to about $58.50, while copper held just above $6 a pound. Brent crude dipped 0.70% to $72.64 and the 10-year Treasury yield sat flat at 4.37%. For housing, a cooler read on the economy is a double-edged sword: lower rates would help, but only because growth is slowing."
   },
   "crypto": {
-    "btc": "$59,119 (-0.75%)",
-    "eth": "$1,557 (-0.82%)",
-    "xrp": "$1.04 (-1.09%)",
-    "note": "Numbers as of 4:00 PM ET, June 28th.",
-    "commentary": "Crypto drifted lower. Bitcoin slipped 0.75% to $59,119, still stuck below $60,000, with Ether off 0.82% to $1,557 and XRP down 1.09% to $1.04 (figures as of the June 28th close).\n\nThe big money headed for the exits. Investors pulled $1.30 billion from BlackRock's (BLK -0.74%) IBIT last week, 73% of all spot Bitcoin ETF outflows. On the brighter side, Polygon quietly became the busiest network for stablecoin payments, moving $79.25 billion in May as Visa and Meta leaned in, a reminder that the plumbing keeps improving even when prices do not."
+    "btc": "$59,847 (-0.52%)",
+    "eth": "$1,589 (-1.30%)",
+    "xrp": "$1.05 (-0.75%)",
+    "note": "Numbers as of 4:00 PM ET, June 29th.",
+    "commentary": "Crypto drifted lower again, with Bitcoin off 0.52% to $59,847, Ether down 1.30% to $1,589, and XRP off 0.75% to $1.05 (figures as of the June 29th close).\n\nStrategy (MSTR +12.60%), the largest corporate holder of Bitcoin, may sell up to $1.25 billion of its stash to raise cash, since its sliding share price makes issuing new stock unappealing. Meanwhile big investors are rotating out of Bitcoin and Ether funds and into XRP and HYPE, chasing newer stories while the two majors keep sliding."
   },
   "real_estate": {
-    "rate_30year": "6.53%",
+    "rate_30year": "6.52%",
     "rate_15year": "6.12%",
-    "homebuilder": "Mortgage Rates Hold At 6.53% As The Fed's Inflation Gauge Runs Hot At 4.1%; Morgan Stanley Says Trading Up Could Double Your Payment; The East Bay Board Eases To 2,945 Active On 230 New And 190 Closed",
-    "commentary": "The 30-year fixed held at 6.53% and the 15-year at 6.12%. With the Fed's inflation gauge still hot, the gentle drift lower we have seen is likely to stay gentle, and the lock-in effect thinning resale supply is not loosening its grip.\n\nMorgan Stanley put a number on the standoff. A homeowner who sold today and bought a similar home could see their monthly payment jump about 200%, roughly $1,300 to $1,400 more a month. That math is exactly why so many owners are staying put.\n\nAt the luxury end, sellers are getting creative. With fewer cash buyers around, some are accepting private tech-company stock instead of cash, including a $2.6 million Miami listing taking startup shares. Hard to value and harder to resell, but in a slow market a willing buyer is a willing buyer.\n\nLocally, the East Bay board eased to 2,945 active (down 19 from Friday), with 230 new listings against 190 closings. Oakland again led the board with 42 new on 778 active; Fremont added 28 new on 355 active.\n\n📍 Alameda & Contra Costa Snapshot (06/29/26, new listings / active)\n\n📍 Oakland: 42 new / 778 active (board leader).\n\n📍 Fremont: 28 new / 355 active.\n\n📍 Dublin: 23 new / 200 active.\n\n📍 Hayward: 22 new / 274 active.\n\n📍 Livermore: 19 new / 223 active.\n\n📍 Danville: 19 new / 196 active.\n\n📍 San Ramon: 15 new / 216 active.\n\n📍 Pleasanton: 13 new / 162 active.\n\n📍 Castro Valley: 13 new / 90 active.\n\n📍 Newark: 11 new / 125 active.\n\n📍 San Leandro: 7 new / 95 active.\n\n📍 Union City: 7 new / 82 active.\n\n📍 Milpitas: 6 new / 117 active.\n\n📍 San Lorenzo: 4 new / 24 active.\n\n📍 Sunol: 1 new / 8 active.\n\nNew-listing flow came in at 230, led by Oakland (42), Fremont (28), and Dublin (23). Closings totaled 190.\n\nFor agents: the Fed's hot inflation read is a reminder not to promise buyers a quick rate cut. Lean into the fresh supply (2,945 active, 230 new) and price discipline. Well-priced, well-presented homes still sell inside about four weeks, while overpriced listings just sit, so the coaching stays the same: price to today's market and the sale follows.",
+    "homebuilder": "Mortgage Rates Ease To 6.52% As A Soft Jobs Report Looms; Wall Street Keeps Rolling Up Real Estate Managers; The East Bay Board Slips To 2,901 Active On 217 New And 198 Closed",
+    "commentary": "The 30-year fixed ticked down to 6.52% and the 15-year held at 6.12%. With this week's jobs report in focus, a soft number could pull rates a little lower, but the lock-in effect keeping resale supply tight is not going anywhere until the gap to owners' existing rates narrows.\n\nWall Street keeps buying the plumbing of real estate. Private equity firm Bridgepoint agreed to buy Kayne Anderson's real estate arm for $1.4 billion, the latest in a string of deals, with Berkshire having scooped up homebuilder Taylor Morrison for $8 billion a few weeks back, as big firms race to offer clients more ways to invest in property.\n\nOn the other side of the ledger, Google co-founder Sergey Brin sold his stake in a fund tied to rent-controlled New York apartments for just six cents on the dollar, a reminder that when the rules cap the rent, they cap the value too.\n\nLocally, the East Bay board slipped to 2,901 active (down 44 from yesterday), with 217 new listings against 198 closings. Oakland again led the board with 44 new on 772 active; Fremont added 28 new on 348 active.\n\n📍 Alameda & Contra Costa Snapshot (06/30/26, new listings / active)\n\n📍 Oakland: 44 new / 772 active (board leader).\n\n📍 Fremont: 28 new / 348 active.\n\n📍 Dublin: 23 new / 195 active.\n\n📍 Hayward: 18 new / 273 active.\n\n📍 Livermore: 18 new / 219 active.\n\n📍 Danville: 17 new / 191 active.\n\n📍 San Ramon: 15 new / 211 active.\n\n📍 Castro Valley: 11 new / 90 active.\n\n📍 Newark: 10 new / 121 active.\n\n📍 Pleasanton: 9 new / 158 active.\n\n📍 San Leandro: 7 new / 95 active.\n\n📍 Union City: 7 new / 82 active.\n\n📍 Milpitas: 5 new / 114 active.\n\n📍 San Lorenzo: 4 new / 24 active.\n\n📍 Sunol: 1 new / 8 active.\n\nNew-listing flow came in at 217, led by Oakland (44), Fremont (28), and Dublin (23). Closings totaled 198.\n\nFor agents: with the jobs report due, do not over-promise on rates, but a softer print could finally give buyers a reason to move. Lean into the steady supply (2,901 active, 217 new) and price discipline. Well-priced, well-presented homes still sell inside about four weeks, while overpriced listings just sit, so the coaching holds: price to today's market and the sale follows.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://www.jmbullion.com/charts/silver-prices/"
+    "https://fortune.com/article/current-price-of-silver-6-30-2026/"
   ]
 }
