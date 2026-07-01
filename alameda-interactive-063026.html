@@ -1,0 +1,123 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>June 30, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.52%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.12%</strong></p>
+
+<p>The 30-year fixed ticked down to <strong>6.52%</strong> and the 15-year held at <strong>6.12%</strong>. All eyes are on this week's jobs report: a soft number could nudge rates lower, but the lock-in effect keeping resale supply tight is not going anywhere yet.</p>
+
+<p>Local board: <strong>2,901 active</strong> (down 44 from yesterday), <strong>217 new listings</strong>, <strong>198 closed sales</strong>. Oakland again led with 44 new on 772 active; Fremont added 28 new on 348 active.</p>
+
+<p><strong>National:</strong> Wall Street keeps buying the plumbing of real estate. Private equity firm Bridgepoint agreed to buy Kayne Anderson's real estate arm for <strong>$1.4 billion</strong>, weeks after Berkshire scooped up homebuilder Taylor Morrison for $8 billion. On the flip side, Google co-founder Sergey Brin sold his stake in a rent-controlled New York apartment fund for just <strong>six cents on the dollar</strong>, a reminder that when the rules cap the rent, they cap the value too.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 28 new / 348 active (down 7)</li>
+    <li><strong>Milpitas:</strong> 5 new / 114 active (down 3)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 18 new / 273 active (down 1)</li>
+    <li><strong>Newark:</strong> 10 new / 121 active (down 4)</li>
+    <li><strong>San Leandro:</strong> 7 new / 95 active (flat)</li>
+    <li><strong>Union City:</strong> 7 new / 82 active (flat)</li>
+    <li><strong>San Lorenzo:</strong> 4 new / 24 active (flat)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>Dublin:</strong> 23 new / 195 active (down 5)</li>
+    <li><strong>Livermore:</strong> 18 new / 219 active (down 4)</li>
+    <li><strong>San Ramon:</strong> 15 new / 211 active (down 5)</li>
+    <li><strong>Pleasanton:</strong> 9 new / 158 active (down 4)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 44 new / 772 active (volume leader)</li>
+    <li><strong>Danville:</strong> 17 new / 191 active (down 5)</li>
+    <li><strong>Castro Valley:</strong> 11 new / 90 active (flat)</li>
+    <li><strong>Sunol:</strong> 1 new / 8 active (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,440</strong> &nbsp;|&nbsp; DOW: <strong>52,182</strong> &nbsp;|&nbsp; NASDAQ: <strong>25,820</strong></p>
+
+<p>Stocks bounced back, with the S&amp;P 500 up 1.18% to 7,440, the NASDAQ up 2.07% to 25,820, and the DOW up 0.59% to 52,182. The day belonged to the space race: <strong>Rocket Lab (RKLB +15.86%)</strong> is buying satellite operator <strong>Iridium (IRDM +25.44%)</strong> for $8 billion, a real challenge to Elon Musk's Starlink. Less rosy, <strong>Microsoft (MSFT -1.18%)</strong> is headed for its worst month since 2000, down about $570 billion in value in June on AI worries.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.37%</strong> &nbsp;|&nbsp; Gold: <strong>$3,976</strong> &nbsp;|&nbsp; Silver: <strong>$58.50</strong> &nbsp;|&nbsp; Brent: <strong>$72.64</strong></p>
+
+<p>The jobs report is the week's big tell. Kalshi traders put only a <strong>42% chance</strong> on June adding more than 125,000 jobs, well short of May's 172,000. A soft print would push the Fed toward cutting sooner, welcome for mortgage rates even if it signals a cooling economy.</p>
+
+<p>Metals slipped: <strong>gold</strong> fell 1.54% to <strong>$3,976</strong> and <strong>silver</strong> eased to about <strong>$58.50</strong>, while copper held just above $6 a pound. <strong>Brent crude</strong> dipped 0.70% to <strong>$72.64</strong> and the 10-year Treasury yield sat flat at <strong>4.37%</strong>.</p>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$59,847</strong> &nbsp;|&nbsp; ETH: <strong>$1,589</strong> &nbsp;|&nbsp; XRP: <strong>$1.05</strong></p>
+
+<p>Crypto drifted lower, with Bitcoin off 0.52% to $59,847, Ether down 1.30% to $1,589, and XRP off 0.75% to $1.05. <strong>Strategy (MSTR +12.60%)</strong>, the largest corporate Bitcoin holder, may sell up to $1.25 billion of its coins to raise cash. Meanwhile big investors are rotating out of Bitcoin and Ether funds into XRP and HYPE, chasing newer stories while the majors slide.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> (mortgage rates)</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> (market data)</li>
+        <li><a href="https://fortune.com/article/current-price-of-silver-6-30-2026/" target="_blank">Fortune</a> (silver spot, June 30)</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-063026.js"></script>
