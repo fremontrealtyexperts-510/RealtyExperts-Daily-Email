@@ -1,214 +1,10 @@
-#!/usr/bin/env node
-
-const fs = require('fs');
-const path = require('path');
-
-// Read JSON data
-function loadData(jsonFile) {
-  const data = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
-  return data;
-}
-
-// Generate source links from JSON template sources array
-function generateSourceLinks(sources) {
-  if (!sources || sources.length === 0) return '';
-
-  // Extract a short label from a URL
-  function labelFromUrl(url) {
-    try {
-      const u = new URL(url);
-      const host = u.hostname.replace('www.', '');
-      // Get the publisher name
-      const publishers = {
-        'bloomberg.com': 'Bloomberg',
-        'cnbc.com': 'CNBC',
-        'reuters.com': 'Reuters',
-        'wsj.com': 'WSJ',
-        'whitehouse.gov': 'White House',
-        'coindesk.com': 'CoinDesk',
-        'tradingview.com': 'TradingView',
-        'nytimes.com': 'NYT',
-        'foxbusiness.com': 'Fox Business',
-        'yahoo.com': 'Yahoo Finance',
-      };
-      const publisher = publishers[host] || host.split('.')[0].charAt(0).toUpperCase() + host.split('.')[0].slice(1);
-
-      // Extract a topic from the URL path
-      const pathParts = u.pathname.split('/').filter(Boolean);
-      const slug = pathParts[pathParts.length - 1] || '';
-      // Clean up the slug: remove dates, file extensions, convert hyphens
-      const topic = slug
-        .replace(/\.html?$/, '')
-        .replace(/\d{4}-\d{2}-\d{2}/, '')
-        .replace(/-+/g, ' ')
-        .replace(/\b\w/g, c => c.toUpperCase())
-        .trim()
-        .slice(0, 30);
-
-      return topic ? `${publisher} - ${topic}` : publisher;
-    } catch {
-      return url.slice(0, 40);
-    }
-  }
-
-  return sources
-    .map(url => `<a href="${url}" style="color: #94a3b8; text-decoration: none;">${labelFromUrl(url)}</a>`)
-    .join(' · \n                      ');
-}
-
-// Format commentary text with proper paragraphs and bullets
-function formatCommentary(text) {
-  // Split by double newlines for paragraphs
-  const paragraphs = text.split('\n\n');
-
-  return paragraphs.map(para => {
-    // Check if paragraph contains bullet points
-    if (para.includes('•')) {
-      const lines = para.split('\n');
-      let html = '';
-      let isFirstLine = true;
-
-      lines.forEach(line => {
-        const trimmed = line.trim();
-        if (trimmed.startsWith('•')) {
-          // Check if this bullet point has a bold label (ends with :)
-          const colonMatch = trimmed.match(/^• ([^:]+):(.*)/);
-          if (colonMatch) {
-            html += `<div style="margin: 10px 0 6px 0; line-height: 1.8;"><strong style="color: #1e293b;">• ${colonMatch[1]}:</strong>${colonMatch[2]}</div>`;
-          } else {
-            html += `<div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">${trimmed}</div>`;
-          }
-        } else if (trimmed.startsWith('📍')) {
-          const locColonMatch = trimmed.match(/^(📍[^:]+:)(.*)/);
-          if (locColonMatch) {
-            html += `<div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">${locColonMatch[1]}</strong>${locColonMatch[2]}</div>`;
-          } else {
-            html += `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
-          }
-        } else if (trimmed.startsWith('o ')) {
-          // Nested list items (open houses, etc) - normal weight
-          html += `<div style="margin: 6px 0; padding-left: 20px; line-height: 1.8; color: #334155;">${trimmed}</div>`;
-        } else if (trimmed) {
-          // Headers ending with colon should be bold
-          if (trimmed.endsWith(':')) {
-            html += `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
-          } else {
-            html += `<div style="margin: 10px 0; line-height: 1.8; font-weight: 600;">${trimmed}</div>`;
-          }
-        }
-        if (trimmed) isFirstLine = false;
-      });
-      return html;
-    } else {
-      // Check if this paragraph is a location marker or header
-      const trimmed = para.trim();
-      if (trimmed.startsWith('📍')) {
-        const locColonMatch = trimmed.match(/^(📍[^:]+:)(.*)/);
-        if (locColonMatch) {
-          return `<div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">${locColonMatch[1]}</strong>${locColonMatch[2]}</div>`;
-        }
-        return `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
-      } else if (trimmed.endsWith(':')) {
-        return `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
-      }
-      return `<div style="margin: 0 0 16px 0; line-height: 1.8;">${trimmed}</div>`;
-    }
-  }).join('');
-}
-
-// Add up/down arrow indicators to values with percentages
-function addArrow(value) {
-  if (value.includes('+')) {
-    return '▲ ' + value;
-  } else if (value.includes('-')) {
-    return '▼ ' + value;
-  }
-  return value;
-}
-
-// Get value color based on +/- indicator
-function valueColor(value) {
-  if (!value) return '#1e293b';
-  if (value.includes('+')) return '#16a34a';
-  if (value.includes('-')) return '#dc2626';
-  return '#1e293b';
-}
-
-// Build the ECONOMY stat-card row.
-// Gold AND Silver are MANDATORY in every report (live-search them when the
-// newsletter omits them — see CLAUDE.md "Gold + Silver" rule). A 4th card
-// (Brent Crude via wti/oil_label, or CPI via cpi/cpi_label) is an optional
-// rotating extra and must never replace gold or silver. Renders 3 or 4 cards.
-function economyStatCards(e) {
-  const cards = [
-    { label: 'US 10-Year', value: e.us10year },
-    { label: e.gold_label || 'Gold', value: e.gold },
-    { label: e.silver_label || 'Silver', value: e.silver },
-  ];
-  if (e.wti) cards.push({ label: e.oil_label || 'WTI Crude', value: e.wti });
-  else if (e.cpi) cards.push({ label: e.cpi_label || 'CPI (YoY)', value: e.cpi });
-
-  const four = cards.length >= 4;
-  const cellW = four ? '23%' : '32%';
-  const spacerW = four ? '2.6%' : '2%';
-
-  const cell = (c) => `<td width="${cellW}" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">${c.label}</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(c.value || '')};">${addArrow(c.value || 'n/a')}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>`;
-
-  const cells = cards.map(cell).join(`\n                        <td width="${spacerW}"></td>\n                        `);
-
-  return `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
-                      <tr>
-                        ${cells}
-                      </tr>
-                    </table>`;
-}
-
-// Render 0, 1, or N feature images in a section (each click-to-enlarge,
-// Outlook-safe). Use `<section>.feature_images` (array) for multiple — e.g. the
-// Market Briefs "10 Most Valuable Companies" + "Top 5 Economies by GDP" infographics —
-// or `<section>.feature_image` (single object) for one (back-compat, e.g. the gold
-// chart in Economy, or the "AI Spending" chart in Stocks).
-function featureImagesHtml(section) {
-  const imgs = Array.isArray(section.feature_images) ? section.feature_images
-             : (section.feature_image ? [section.feature_image] : []);
-  if (!imgs.length) return '';
-  return imgs.filter(fi => fi && fi.url).map(fi => `<!-- feature image -->
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
-                      <tr>
-                        <td align="center">
-                          <a href="${fi.url}" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                            <img src="${fi.url}" alt="${fi.alt || ''}" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid #e2e8f0; cursor: zoom-in;">
-                          </a>
-                        </td>
-                      </tr>
-                      ${fi.caption ? `<tr><td style="padding: 10px 4px 0 4px; font-size: 13px; color: #475569; line-height: 1.55; font-style: italic;">${fi.caption}</td></tr>` : ''}
-                      ${fi.source ? `<tr><td style="padding: 4px 4px 0 4px; font-size: 11px; color: #94a3b8;">${fi.source}</td></tr>` : ''}
-                    </table>`).join('\n');
-}
-
-// Generate HTML with inline styles for Outlook compatibility
-function generateHTML(data) {
-  // Format date for filenames (MMDDYY)
-  const dateForFile = data.date.replace(/\//g, '');
-  const htmlFileName = `daily-market-glance-${dateForFile}.html`;
-  const githubBaseUrl = 'https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email';
-
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/Realty%20Experts%20-%20RE.png">
-  <title>Daily Market Glance - ${data.date}</title>
+  <title>Daily Market Glance - 07/01/26</title>
   <style>
     /* Lightbox styles */
     .lightbox-overlay {
@@ -281,7 +77,7 @@ function generateHTML(data) {
           <tr>
             <td style="background-color: #f1f5f9; padding: 12px 20px; text-align: center; border-bottom: 1px solid #e2e8f0;">
               <p style="margin: 0; font-size: 13px; color: #64748b;">
-                Having trouble viewing this email? <a href="${githubBaseUrl}/${htmlFileName}" style="color: #2563eb; text-decoration: none; font-weight: 600;">View in Browser</a>
+                Having trouble viewing this email? <a href="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/daily-market-glance-070126.html" style="color: #2563eb; text-decoration: none; font-weight: 600;">View in Browser</a>
               </p>
             </td>
           </tr>
@@ -291,7 +87,7 @@ function generateHTML(data) {
             <td class="email-header" style="background-color: #2563eb; padding: 30px 40px; text-align: center;">
               <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/2022_Logo_WhiteBox-Realtor.jpg" alt="REALTY EXPERTS®" width="250" data-no-lightbox style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
               <h1 style="margin: 0 0 8px 0; font-size: 28px; font-weight: 700; color: #ffffff;">Daily Market Glance</h1>
-              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">${data.date} - ${data.time}</p>
+              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">07/01/26 - 9:30 AM</p>
             </td>
           </tr>
 
@@ -302,14 +98,14 @@ function generateHTML(data) {
                 <tr>
                   <td width="70%" style="vertical-align: middle; padding-right: 20px;">
                     <div style="font-size: 15px; color: #1e293b; line-height: 1.6;">
-                      <strong style="font-size: 16px;">📱 <a href="${data.agent_hub_link}" style="color: #2563eb; text-decoration: none;">View Full Post on Agent Hub</a></strong>
+                      <strong style="font-size: 16px;">📱 <a href="https://teamrealtyexperts.com/share/04ea259d-76ed-409d-b1fa-6b801e3c9bae" style="color: #2563eb; text-decoration: none;">View Full Post on Agent Hub</a></strong>
                       <div style="margin-top: 8px; color: #475569;">
                         Scan the QR code or visit our Agent Hub for the complete market update. Contact the front desk for your access code.
                       </div>
                     </div>
                   </td>
                   <td width="30%" style="vertical-align: middle; text-align: center;">
-                    <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/${data.qr_code_path}" alt="Agent Hub QR Code" width="100" data-no-lightbox style="display: block; margin: 0 auto; max-width: 100px; height: auto;">
+                    <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/note-qr-04ea259d.png" alt="Agent Hub QR Code" width="100" data-no-lightbox style="display: block; margin: 0 auto; max-width: 100px; height: auto;">
                   </td>
                 </tr>
               </table>
@@ -324,8 +120,8 @@ function generateHTML(data) {
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 24px 0;">
                 <tr>
                   <td align="center">
-                    <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" alt="Local Housing Statistics (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
+                    <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-070126.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
+                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-070126.png" alt="Local Housing Statistics (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
                     </a>
                   </td>
                 </tr>
@@ -335,35 +131,14 @@ function generateHTML(data) {
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 35px 0;">
                 <tr>
                   <td align="center">
-                    <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" alt="Market Analysis Chart (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
+                    <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-070126.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
+                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-070126.png" alt="Market Analysis Chart (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
                     </a>
                   </td>
                 </tr>
               </table>
 
-              ${data.featured_promo ? `<!-- FEATURED PROMO -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 32px 0;">
-                <tr>
-                  <td style="background-color: #0d9488; padding: 22px 24px; border-left: 6px solid #f97316;">
-                    <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #ffffff; opacity: 0.9; margin-bottom: 8px;">${data.featured_promo.eyebrow}</div>
-                    <h2 style="margin: 0 0 12px 0; font-size: 22px; font-weight: 800; line-height: 1.25; color: #ffffff;">${data.featured_promo.title}</h2>
-                    <div style="font-size: 15px; line-height: 1.6; color: #ffffff; margin-bottom: 14px;">${data.featured_promo.body}</div>
-                    ${data.featured_promo.quote ? `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 16px 0;"><tr><td style="background-color: rgba(255,255,255,0.12); padding: 14px 18px; border-left: 3px solid #f97316;"><div style="font-size: 14px; font-style: italic; line-height: 1.55; color: #ffffff;">"${data.featured_promo.quote}"</div><div style="font-size: 12px; color: #fed7aa; margin-top: 6px;">${data.featured_promo.quote_attribution}</div></td></tr></table>` : ''}
-                    <table cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="background-color: #f97316; padding: 11px 20px;">
-                          <a href="${data.featured_promo.primary_link}" style="color: #ffffff; text-decoration: none; font-weight: 700; font-size: 14px;">${data.featured_promo.primary_label} →</a>
-                        </td>
-                        <td width="10"></td>
-                        <td style="background-color: #ffffff; padding: 11px 20px;">
-                          <a href="${data.featured_promo.secondary_link}" style="color: #0d9488; text-decoration: none; font-weight: 700; font-size: 14px;">${data.featured_promo.secondary_label} →</a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>` : ''}
+              
 
               <!-- REAL ESTATE Section -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
@@ -385,7 +160,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">30-Year Fixed</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #ffffff;">${data.real_estate.rate_30year}</div>
+                                <div style="font-size: 32px; font-weight: 700; color: #ffffff;">6.54%</div>
                               </td>
                             </tr>
                           </table>
@@ -396,7 +171,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">15-Year Fixed</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #ffffff;">${data.real_estate.rate_15year}</div>
+                                <div style="font-size: 32px; font-weight: 700; color: #ffffff;">6.12%</div>
                               </td>
                             </tr>
                           </table>
@@ -406,12 +181,12 @@ function generateHTML(data) {
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fff7ed; border-top: 4px solid #ea580c;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">
-                          ${formatCommentary(data.real_estate.homebuilder)}
-                          ${formatCommentary(data.real_estate.commentary)}
+                          <div style="margin: 0 0 16px 0; line-height: 1.8;">Mortgage Rates Hold At 6.54% As Home Prices Set Another Record On Near-Flat Growth; Digital Realty Buys Out Blackstone's Data Center Stake For $3.5B; The East Bay Board Eases To 2,805 Active On 177 New And 206 Closed</div>
+                          <div style="margin: 0 0 16px 0; line-height: 1.8;">The 30-year fixed held at 6.54% and the 15-year stayed at 6.12%. Rates have gone quiet, and so has the resale market, with the lock-in effect still keeping owners in place until the gap to their existing rates narrows.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">U.S. home prices set another record high in May, but annual growth was just 0.7%, the ninth straight month under 1%. High rates and thin supply have the market in a standoff: prices are not falling, but they are barely rising either, which leaves buyers and sellers staring at each other with no clear direction.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">On the commercial side, Digital Realty (DLR -5.79%) agreed to buy Blackstone's stake in three Virginia data centers for $3.5 billion. The market flinched because the deal leans on $2.3 billion in new stock, diluting existing shareholders, a reminder that even the hottest corner of real estate has a price.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">Locally, the East Bay board eased to 2,805 active (down 96 from yesterday), with 177 new listings against 206 closings. Oakland again led the board with 36 new on 744 active; Fremont added 24 new on 339 active.</div><div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">📍 Alameda & Contra Costa Snapshot (07/01/26, new listings / active)</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Oakland:</strong> 36 new / 744 active (board leader).</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Fremont:</strong> 24 new / 339 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Dublin:</strong> 19 new / 190 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Hayward:</strong> 16 new / 267 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Livermore:</strong> 13 new / 212 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 San Ramon:</strong> 13 new / 204 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Castro Valley:</strong> 11 new / 89 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Pleasanton:</strong> 10 new / 151 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Newark:</strong> 9 new / 119 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Danville:</strong> 8 new / 183 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Union City:</strong> 5 new / 78 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 San Leandro:</strong> 5 new / 89 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Milpitas:</strong> 4 new / 111 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 San Lorenzo:</strong> 4 new / 22 active.</div><div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">📍 Sunol:</strong> 0 new / 7 active.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">New-listing flow came in at 177, led by Oakland (36), Fremont (24), and Dublin (19). Closings totaled 206.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">For agents: with rates steady and prices flat, the story to tell is stability, not urgency. Lean on the steady supply (2,805 active, 177 new) and price discipline. Well-priced, well-presented homes still sell inside about four weeks, while overpriced listings just sit, so the coaching holds: price to today's market and the sale follows.</div>
                         </td>
                       </tr>
                     </table>
-                    ${featureImagesHtml(data.real_estate)}
+                    
                   </td>
                 </tr>
               </table>
@@ -441,7 +216,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">S&amp;P 500</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.stocks.sp500)};">${addArrow(data.stocks.sp500)}</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ 7,499 (+0.79%)</div>
                               </td>
                             </tr>
                           </table>
@@ -452,7 +227,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">DOW</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.stocks.dow)};">${addArrow(data.stocks.dow)}</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ 52,319 (+0.26%)</div>
                               </td>
                             </tr>
                           </table>
@@ -463,20 +238,31 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">NASDAQ</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.stocks.nasdaq)};">${addArrow(data.stocks.nasdaq)}</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ 26,213 (+1.52%)</div>
                               </td>
                             </tr>
                           </table>
                         </td>
                       </tr>
                     </table>
-                    <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.stocks.note}</div>
+                    <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">Numbers as of market close on June 30th.</div>
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #eff6ff; border-top: 4px solid #2563eb;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.stocks.news)}</td>
+                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0 0 16px 0; line-height: 1.8;">Wall Street just closed the books on its best quarter in six years. The S&P 500 climbed 0.79% to 7,499, the NASDAQ jumped 1.52% to 26,213, and the DOW added 0.26% to 52,319 (figures as of the June 30th close). Over the past three months the S&P added roughly $8 trillion in value.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">Chips did the heavy lifting. Semiconductor stocks gained about $2 trillion in combined value in the second quarter, their best three months ever, led by names like AMD (+7.68%) and Intel (+6.01%), though the group cooled 7.9% in the final week as investors questioned whether AI spending can keep pace with the buildout. Nike (-1.04%) topped earnings estimates, but a one-time $986 million tariff refund did most of the work after the Supreme Court struck down the original tariff plan.</div></td>
                       </tr>
                     </table>
-                    ${featureImagesHtml(data.stocks)}
+                    <!-- feature image -->
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
+                      <tr>
+                        <td align="center">
+                          <a href="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/wallstreet-2026-comeback-070126.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
+                            <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/wallstreet-2026-comeback-070126.png" alt="Wall Street's 2026 Comeback, year-to-date change for the S&P 500, Dow and Nasdaq" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid #e2e8f0; cursor: zoom-in;">
+                          </a>
+                        </td>
+                      </tr>
+                      <tr><td style="padding: 10px 4px 0 4px; font-size: 13px; color: #475569; line-height: 1.55; font-style: italic;">Wall Street's 2026 comeback: after a rough first quarter, all three major indexes finished the first half solidly positive, with the Nasdaq leading at +12.79% year to date.</td></tr>
+                      <tr><td style="padding: 4px 4px 0 4px; font-size: 11px; color: #94a3b8;">Source: index YTD price returns, through June 2026.</td></tr>
+                    </table>
                   </td>
                 </tr>
               </table>
@@ -499,19 +285,65 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
-                    ${economyStatCards(data.economy)}
-                    ${data.economy.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.economy.note}</div>` : ''}
-                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f0fdf4; border-top: 4px solid #16a34a;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.economy.commentary)}</td>
+                        <td width="23%" style="vertical-align: top;">
+                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
+                            <tr>
+                              <td>
+                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">US 10-Year</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ 4.46% (+0.04%)</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td width="2.6%"></td>
+                        <td width="23%" style="vertical-align: top;">
+                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
+                            <tr>
+                              <td>
+                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">Gold</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #dc2626;">▼ $3,989 (-1.23%)</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td width="2.6%"></td>
+                        <td width="23%" style="vertical-align: top;">
+                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
+                            <tr>
+                              <td>
+                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">Silver</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ $58.74 (+0.49%)</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td width="2.6%"></td>
+                        <td width="23%" style="vertical-align: top;">
+                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
+                            <tr>
+                              <td>
+                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">Brent Crude</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ $73.29 (+0.47%)</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
                       </tr>
                     </table>
-                    ${featureImagesHtml(data.economy)}
+                    <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">Stock indexes as of the June 30th close; 10-Year, gold, and Brent as of June 30th (Market Briefs); silver is spot as of July 1st (Fortune).</div>
+                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f0fdf4; border-top: 4px solid #16a34a;">
+                      <tr>
+                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0 0 16px 0; line-height: 1.8;">Metals eased. Gold slipped 1.23% to $3,989 and silver held near $58.74, up about half a percent, while the 10-year Treasury yield ticked up to 4.46%. Brent crude added 0.47% to $73.29.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">The Fourth of July cookout is the priciest on record. Feeding ten now runs about $73.82, a new high, as the U.S. cattle herd sits at a 70-year low and war-related price pressure lingers. Meanwhile President Trump is leaning on gas stations to cut prices to $2.50 a gallon against a national average near $3.86, arguing that crude has fallen but the savings have not reached the pump. For housing, steady energy and a firm 10-year yield keep a floor under mortgage rates for now.</div></td>
+                      </tr>
+                    </table>
+                    
                   </td>
                 </tr>
               </table>
 
-              ${data.crypto ? `<!-- Section Divider -->
+              <!-- Section Divider -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
                 <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
               </table>
@@ -536,7 +368,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">BTC</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.crypto.btc)};">${addArrow(data.crypto.btc)}</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ $59,046 (+0.89%)</div>
                               </td>
                             </tr>
                           </table>
@@ -547,7 +379,7 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">ETH</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.crypto.eth)};">${addArrow(data.crypto.eth)}</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ $1,589 (+1.31%)</div>
                               </td>
                             </tr>
                           </table>
@@ -558,23 +390,34 @@ function generateHTML(data) {
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">XRP</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.crypto.xrp)};">${addArrow(data.crypto.xrp)}</div>
+                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: #16a34a;">▲ $1.05 (+1.03%)</div>
                               </td>
                             </tr>
                           </table>
                         </td>
                       </tr>
                     </table>
-                    ${data.crypto.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.crypto.note}</div>` : ''}
+                    <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">Numbers as of 4:00 PM ET, June 30th.</div>
                     <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fffbeb; border-top: 4px solid #f59e0b;">
                       <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.crypto.commentary)}</td>
+                        <td style="font-size: 15px; color: #334155;"><div style="margin: 0 0 16px 0; line-height: 1.8;">Crypto edged higher on the day, but the trend is still lower. Bitcoin rose 0.89% to $59,046, Ether added 1.31% to $1,589, and XRP gained 1.03% to $1.05 (figures as of the June 30th close). Even with the daily bounce, Bitcoin is down about 32% year to date.</div><div style="margin: 0 0 16px 0; line-height: 1.8;">Strategy (MSTR -6.20%), the largest corporate holder of Bitcoin, sold more than $1 billion of its stash this week, and the market followed it lower, with the coin dipping toward $58,000 at one point. On the policy front, crypto firms have already poured $189 million into the 2026 midterms, more than they spent in all of 2024, largely to push the stalled Clarity Act.</div></td>
                       </tr>
                     </table>
-                    ${featureImagesHtml(data.crypto)}
+                    <!-- feature image -->
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
+                      <tr>
+                        <td align="center">
+                          <a href="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/bitcoin-price-2026-070126.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
+                            <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/bitcoin-price-2026-070126.png" alt="Bitcoin's price in 2026, down 32.45% year to date to $59,046" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid #e2e8f0; cursor: zoom-in;">
+                          </a>
+                        </td>
+                      </tr>
+                      <tr><td style="padding: 10px 4px 0 4px; font-size: 13px; color: #475569; line-height: 1.55; font-style: italic;">Bitcoin's 2026: a January peak near $95,000 has given way to a long grind lower, with the coin at $59,046, down 32.45% year to date.</td></tr>
+                      <tr><td style="padding: 4px 4px 0 4px; font-size: 11px; color: #94a3b8;">Source: Google Finance, as of July 1, 2026.</td></tr>
+                    </table>
                   </td>
                 </tr>
-              </table>` : ''}
+              </table>
 
             </td>
           </tr>
@@ -592,12 +435,14 @@ function generateHTML(data) {
                   <td style="text-align: center;">
                     <p style="margin: 0 0 8px 0; font-weight: 600; color: #2563eb; font-size: 14px;">REALTY EXPERTS®</p>
                     <p style="margin: 0 0 8px 0; color: #64748b; font-size: 13px;">"Our Experience is the Difference"</p>
-                    <p style="margin: 0 0 12px 0; color: #64748b; font-size: 13px;">Daily Market Glance · ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+                    <p style="margin: 0 0 12px 0; color: #64748b; font-size: 13px;">Daily Market Glance · July 1, 2026</p>
                     <p style="margin: 0 0 16px 0; color: #2563eb; font-size: 13px;"><a href="https://TeamRealtyExperts.com" style="color: #2563eb; text-decoration: none; font-weight: 600;">TeamRealtyExperts.com</a></p>
                     <p style="margin: 0; color: #94a3b8; font-size: 11px; line-height: 1.6; border-top: 1px solid #e2e8f0; padding-top: 14px;">Disclaimer: The market data, rates, and information provided in this email are for informational purposes only and should not be considered financial advice. Figures are sourced from third-party providers and may be delayed or subject to change. Always verify rates and data with your lender or financial advisor before making any decisions.</p>
                     <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 10px; line-height: 1.5;">
                       <em>Sources:</em><br>
-                      ${generateSourceLinks(data.sources || [])}
+                      <a href="https://www.mortgagenewsdaily.com/" style="color: #94a3b8; text-decoration: none;">Mortgagenewsdaily</a> · 
+                      <a href="https://market.briefs.co/" style="color: #94a3b8; text-decoration: none;">Market</a> · 
+                      <a href="https://fortune.com/article/current-price-of-silver-7-1-2026/" style="color: #94a3b8; text-decoration: none;">Fortune - Current Price Of Silver 7 1 20</a>
                     </p>
                     <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 11px; line-height: 1.6;">If you would like to stop receiving this email, simply reply with <strong style="color: #64748b;">UNSUBSCRIBE</strong>.</p>
                   </td>
@@ -621,7 +466,7 @@ function generateHTML(data) {
       var btn = document.createElement('button');
       btn.className = 'lightbox-close';
       btn.onclick = function() { closeLightbox(); };
-      btn.textContent = '\u00D7';
+      btn.textContent = '×';
       var img = document.createElement('img');
       img.id = 'lightbox-img';
       img.className = 'lightbox-image';
@@ -649,24 +494,4 @@ function generateHTML(data) {
     });
   </script>
 </body>
-</html>`;
-}
-
-// Main execution
-const args = process.argv.slice(2);
-const jsonFile = args[0] || 'daily-market-template.json';
-
-if (!fs.existsSync(jsonFile)) {
-  console.error(`Error: File "${jsonFile}" not found`);
-  process.exit(1);
-}
-
-const data = loadData(jsonFile);
-const html = generateHTML(data);
-const dateForFile = data.date.replace(/\//g, '');
-const outputFile = `daily-market-glance-${dateForFile}.html`;
-
-fs.writeFileSync(outputFile, html);
-console.log(`✅ Generated: ${outputFile}`);
-console.log(`📧 Subject: "At a Glance" Local Housing STATS and News ${data.date}`);
-console.log(`🌐 Web View: https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/${outputFile}`);
+</html>
