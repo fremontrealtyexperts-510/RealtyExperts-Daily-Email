@@ -1,0 +1,129 @@
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style type="text/css">* { box-sizing: border-box; }
+        body { margin: 0; padding: 10px; font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333333; }
+        #chart { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 10px; max-width: 100%; margin: 0 auto; min-height: 500px; }
+        .info-banner { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 16px; border-radius: 8px; margin-bottom: 12px; text-align: center; font-size: 13px; }
+        .date-badge { text-align: center; margin-bottom: 16px; }
+        .date-badge span { display: inline-block; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 8px 24px; border-radius: 50px; font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+        .newsletter-container { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); max-width: 1000px; margin: 30px auto; padding: 30px; line-height: 1.6; }
+        .newsletter-container h3 { color: #34495e; margin-top: 24px; margin-bottom: 8px; }
+        .newsletter-container ul { margin: 8px 0 16px 0; padding-left: 22px; }
+        .newsletter-container li { margin-bottom: 4px; }
+        .newsletter-container hr { border: 0; height: 1px; background: #ecf0f1; margin: 28px 0; }
+        .stat-line { font-size: 15px; font-weight: 600; color: #1e293b; margin: 10px 0 16px 0; }
+        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { color: white; padding: 10px 18px; font-size: 17px; font-weight: 700; border-radius: 6px; margin-top: 10px; margin-bottom: 12px; }
+        .section-bar-re { background-color: #ea580c; }
+        .section-bar-stocks { background-color: #2563eb; }
+        .section-bar-economy { background-color: #16a34a; }
+        .section-bar-crypto { background-color: #f59e0b; }
+        .sources-box { background-color: #f8fafc; border-radius: 8px; padding: 18px; margin-top: 20px; }
+        .sources-box h3 { color: #64748b; font-size: 14px; margin-top: 0; }
+        .sources-box li { font-size: 13px; color: #64748b; }
+        .sources-box a { color: #2563eb; text-decoration: none; }
+        .disclaimer { background-color: #f9f9f9; border-left: 4px solid #bdc3c7; padding: 15px; font-style: italic; font-size: 0.9em; color: #7f8c8d; margin-top: 20px; }
+        @media (max-width: 600px) { body { padding: 5px; } #chart { padding: 5px; } .newsletter-container { padding: 18px; margin: 15px auto; } }
+</style>
+
+<div class="date-badge"><span>July 2, 2026 - Alameda County Market Dashboard</span></div>
+
+<div class="info-banner"><strong>Tip:</strong> Click on city names in the legend to show/hide data &bull; Default view: Fremont, Union City, Milpitas, Hayward, Newark</div>
+
+<div id="chart">&nbsp;</div>
+
+<div class="newsletter-container">
+
+<!-- REAL ESTATE -->
+<div class="section-bar-re">REAL ESTATE</div>
+
+<p class="stat-line">30-Year Fixed: <strong>6.65%</strong> &nbsp;|&nbsp; 15-Year Fixed: <strong>6.19%</strong></p>
+
+<p>The 30-year fixed ticked up to <strong>6.65%</strong> and the 15-year to <strong>6.19%</strong>. Rates drifting higher keeps the lock-in effect firmly in place, so owners stay put and resale supply stays tight.</p>
+
+<p><strong>National:</strong> Luxury agents are dressing for success and then some, with one reportedly spending over <strong>$100,000</strong> on clothes last year to court the wave of newly minted millionaires from this year's IPO boom. Capital is moving too: billionaire Peter Thiel signed the most expensive office lease in Miami history, part of a broader migration of tech founders fleeing California's proposed wealth tax that could push Florida prices and rents higher.</p>
+
+<p>Local board: <strong>2,794 active</strong> (down 11 from yesterday), <strong>143 new listings</strong>, <strong>212 closed sales</strong>. Oakland again led with 30 new on 741 active; Fremont added 18 new on 335 active.</p>
+
+<h3>Fremont &amp; Milpitas</h3>
+<ul>
+    <li><strong>Fremont:</strong> 18 new / 335 active (down 4)</li>
+    <li><strong>Milpitas:</strong> 0 new / 108 active (down 3)</li>
+</ul>
+
+<h3>I-880 Corridor</h3>
+<ul>
+    <li><strong>Hayward:</strong> 17 new / 264 active (down 3)</li>
+    <li><strong>Newark:</strong> 6 new / 119 active (flat)</li>
+    <li><strong>San Leandro:</strong> 5 new / 90 active (up 1)</li>
+    <li><strong>Union City:</strong> 4 new / 78 active (flat)</li>
+    <li><strong>San Lorenzo:</strong> 4 new / 22 active (flat)</li>
+</ul>
+
+<h3>Tri-Valley</h3>
+<ul>
+    <li><strong>San Ramon:</strong> 13 new / 204 active (flat)</li>
+    <li><strong>Livermore:</strong> 11 new / 213 active (up 1)</li>
+    <li><strong>Dublin:</strong> 9 new / 189 active (down 1)</li>
+    <li><strong>Pleasanton:</strong> 6 new / 152 active (up 1)</li>
+</ul>
+
+<h3>Oakland &amp; Contra Costa</h3>
+<ul>
+    <li><strong>Oakland:</strong> 30 new / 741 active (volume leader)</li>
+    <li><strong>Danville:</strong> 11 new / 185 active (up 2)</li>
+    <li><strong>Castro Valley:</strong> 9 new / 87 active (down 2)</li>
+    <li><strong>Sunol:</strong> 0 new / 7 active (flat)</li>
+</ul>
+
+<hr>
+
+<!-- STOCKS -->
+<div class="section-bar-stocks">STOCKS</div>
+
+<p class="stat-line">S&amp;P 500: <strong>7,483</strong> &nbsp;|&nbsp; DOW: <strong>52,305</strong> &nbsp;|&nbsp; NASDAQ: <strong>26,040</strong></p>
+
+<p>Stocks slipped to open the third quarter, with the S&amp;P 500 off 0.22% to 7,483, the NASDAQ down 0.66% to 26,040, and the DOW roughly flat at 52,305. The chip rally hit a wall: <strong>Micron (MU -10.57%)</strong> and <strong>Sandisk (SNDK -10.62%)</strong> tumbled after a report that <strong>Meta (META +8.81%)</strong> may rent out unused AI capacity, raising worries that processing supply is catching up to demand. Meta is launching a cloud business to sell that spare compute. A blast from the past also went public: <strong>Bending Spoons (BSP +39.66%)</strong>, owner of AOL, Vimeo, and Eventbrite, IPO'd and raised $1.68 billion.</p>
+
+<hr>
+
+<!-- ECONOMY -->
+<div class="section-bar-economy">ECONOMY</div>
+
+<p class="stat-line">US 10-Year: <strong>4.48%</strong> &nbsp;|&nbsp; Gold: <strong>$4,112</strong> &nbsp;|&nbsp; Silver: <strong>$61.38</strong> &nbsp;|&nbsp; Brent: <strong>$70.92</strong></p>
+
+<p>Metals jumped. <strong>Gold</strong> rose about 2.01% to <strong>$4,112</strong> and <strong>silver</strong> surged 3.88% to <strong>$61.38</strong> as a weak jobs report cooled bets that the Fed will hike, while the 10-year Treasury yield held at <strong>4.48%</strong> and <strong>Brent crude</strong> eased 0.91% to <strong>$70.92</strong>.</p>
+
+<p>Hiring slowed. Companies added just <strong>98,000</strong> private jobs in June according to ADP, short of the 110,000 estimate, as businesses stay cautious with the Fed holding rates high. Fed Chair Kevin Warsh said inflation is still too high but would not signal where rates go next, and CME data shows nearly half of Wall Street now expects at least one rate hike by the fall.</p>
+
+<figure style="margin:18px 0;text-align:center;">
+  <img src="https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/us-private-employment-070226.png" alt="U.S. private employment 2010 to 2026 in millions of jobs: a climb from about 105 million to a pre-COVID peak near 126 million, a sharp crash to about 118 million in spring 2020, then a recovery to about 133 million, with June 2026 adding just 98,000 jobs." style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto;border:1px solid #e2e8f0;border-radius:8px;" />
+  <figcaption style="font-size:13px;color:#475569;font-style:italic;margin-top:8px;">U.S. private employment sits near a record, but the pace is cooling: ADP says employers added just 98,000 jobs in June, below the 110,000 estimate and the slowest in months. Source: ADP.</figcaption>
+</figure>
+
+<hr>
+
+<!-- CRYPTO -->
+<div class="section-bar-crypto">CRYPTOCURRENCY</div>
+
+<p class="stat-line">BTC: <strong>$60,133</strong> &nbsp;|&nbsp; ETH: <strong>$1,616</strong> &nbsp;|&nbsp; XRP: <strong>$1.06</strong></p>
+
+<p>Crypto firmed up, with Bitcoin up 0.28% to $60,133 and back above $60,000, Ether up 0.53% to $1,616, and XRP up 0.46% to $1.06. <strong>Coinbase (COIN +8.93%)</strong> teamed up with <strong>Visa</strong> and <strong>Mastercard</strong> to launch a new U.S.-backed stablecoin, Open USD, already backed by 140 companies including Google and BlackRock. Federal filings also show President Trump earned over <strong>$1 billion</strong> from crypto in 2025, most of it tied to World Liberty Financial.</p>
+
+<hr>
+
+<!-- SOURCES -->
+<div class="sources-box">
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.mortgagenewsdaily.com/" target="_blank">Mortgage News Daily</a> (mortgage rates)</li>
+        <li><a href="https://market.briefs.co/" target="_blank">Market Briefs</a> (market data)</li>
+        <li><a href="https://tradingeconomics.com/commodity/gold" target="_blank">Trading Economics</a> (gold spot, July 2)</li>
+        <li><a href="https://tradingeconomics.com/commodity/silver" target="_blank">Trading Economics</a> (silver spot, July 2)</li>
+    </ul>
+</div>
+
+<blockquote class="disclaimer"><strong>Disclaimer:</strong> The market data, rates, and information provided are for informational purposes only and should not be considered financial advice. Always verify rates and data with your lender or financial advisor before making any decisions.</blockquote>
+</div>
+
+<script src="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/alameda-chart-070226.js"></script>
