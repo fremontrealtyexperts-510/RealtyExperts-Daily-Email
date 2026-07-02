@@ -1,53 +1,48 @@
 {
-  "date": "07/01/26",
+  "date": "07/02/26",
   "time": "9:30 AM",
-  "agent_hub_link": "https://teamrealtyexperts.com/share/04ea259d-76ed-409d-b1fa-6b801e3c9bae",
-  "qr_code_path": "note-qr-04ea259d.png",
+  "agent_hub_link": "https://teamrealtyexperts.com/share/aa5e02f7-6bff-4b67-9ba6-ca99fe832794",
+  "qr_code_path": "note-qr-aa5e02f7.png",
   "stocks": {
-    "sp500": "7,499 (+0.79%)",
-    "dow": "52,319 (+0.26%)",
-    "nasdaq": "26,213 (+1.52%)",
-    "note": "Numbers as of market close on June 30th.",
-    "news": "Wall Street just closed the books on its best quarter in six years. The S&P 500 climbed 0.79% to 7,499, the NASDAQ jumped 1.52% to 26,213, and the DOW added 0.26% to 52,319 (figures as of the June 30th close). Over the past three months the S&P added roughly $8 trillion in value.\n\nChips did the heavy lifting. Semiconductor stocks gained about $2 trillion in combined value in the second quarter, their best three months ever, led by names like AMD (+7.68%) and Intel (+6.01%), though the group cooled 7.9% in the final week as investors questioned whether AI spending can keep pace with the buildout. Nike (-1.04%) topped earnings estimates, but a one-time $986 million tariff refund did most of the work after the Supreme Court struck down the original tariff plan.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/wallstreet-2026-comeback-070126.png",
-      "alt": "Wall Street's 2026 Comeback, year-to-date change for the S&P 500, Dow and Nasdaq",
-      "caption": "Wall Street's 2026 comeback: after a rough first quarter, all three major indexes finished the first half solidly positive, with the Nasdaq leading at +12.79% year to date.",
-      "source": "Source: index YTD price returns, through June 2026."
-    }
+    "sp500": "7,483 (-0.22%)",
+    "dow": "52,305 (-0.03%)",
+    "nasdaq": "26,040 (-0.66%)",
+    "note": "Numbers as of market close on July 1st.",
+    "news": "Stocks slipped to open the third quarter. The S&P 500 eased 0.22% to 7,483, the NASDAQ fell 0.66% to 26,040, and the DOW held roughly flat at 52,305 (figures as of the July 1st close).\n\nThe chip rally hit a wall. Micron (-10.57%), Sandisk (-10.62%), and other memory makers tumbled after a report that Meta (+8.81%) may rent out unused AI capacity, raising worries that the supply of processing power is finally catching up to demand. Meta is launching a cloud business to sell that spare compute, one way to earn back some of the billions it has poured into AI.\n\nA blast from the past also went public: Bending Spoons (+39.66%), the owner of AOL, Vimeo, and Eventbrite, IPO'd and raised $1.68 billion, betting it can convert some of its 500 million free users into paying members."
   },
   "economy": {
-    "us10year": "4.46% (+0.04%)",
-    "gold": "$3,989 (-1.23%)",
-    "silver": "$58.74 (+0.49%)",
-    "wti": "$73.29 (+0.47%)",
+    "us10year": "4.48% (+0.00%)",
+    "gold": "$4,112 (+2.01%)",
+    "silver": "$61.38 (+3.88%)",
+    "wti": "$70.92 (-0.91%)",
     "oil_label": "Brent Crude",
-    "note": "Stock indexes as of the June 30th close; 10-Year, gold, and Brent as of June 30th (Market Briefs); silver is spot as of July 1st (Fortune).",
-    "commentary": "Metals eased. Gold slipped 1.23% to $3,989 and silver held near $58.74, up about half a percent, while the 10-year Treasury yield ticked up to 4.46%. Brent crude added 0.47% to $73.29.\n\nThe Fourth of July cookout is the priciest on record. Feeding ten now runs about $73.82, a new high, as the U.S. cattle herd sits at a 70-year low and war-related price pressure lingers. Meanwhile President Trump is leaning on gas stations to cut prices to $2.50 a gallon against a national average near $3.86, arguing that crude has fallen but the savings have not reached the pump. For housing, steady energy and a firm 10-year yield keep a floor under mortgage rates for now."
-  },
-  "crypto": {
-    "btc": "$59,046 (+0.89%)",
-    "eth": "$1,589 (+1.31%)",
-    "xrp": "$1.05 (+1.03%)",
-    "note": "Numbers as of 4:00 PM ET, June 30th.",
-    "commentary": "Crypto edged higher on the day, but the trend is still lower. Bitcoin rose 0.89% to $59,046, Ether added 1.31% to $1,589, and XRP gained 1.03% to $1.05 (figures as of the June 30th close). Even with the daily bounce, Bitcoin is down about 32% year to date.\n\nStrategy (MSTR -6.20%), the largest corporate holder of Bitcoin, sold more than $1 billion of its stash this week, and the market followed it lower, with the coin dipping toward $58,000 at one point. On the policy front, crypto firms have already poured $189 million into the 2026 midterms, more than they spent in all of 2024, largely to push the stalled Clarity Act.",
+    "note": "Stocks, 10-Year, Brent, and crypto as of the July 1st close (Market Briefs); gold and silver are spot as of July 2nd (Trading Economics).",
+    "commentary": "Metals jumped. Gold rose about 2.01% to $4,112 and silver surged 3.88% to $61.38 as a weak jobs report cooled bets that the Fed will hike, while the 10-year Treasury yield held at 4.48% and Brent crude eased 0.91% to $70.92.\n\nHiring slowed. Companies added just 98,000 private jobs in June according to ADP, short of the 110,000 estimate, as businesses stay cautious with the Fed holding rates high. The level of employment is still near a record, but the pace of hiring is clearly cooling (see today's chart).\n\nFed Chair Kevin Warsh said inflation is still too high but would not signal where rates go next, instead standing up five task forces to study how the Fed operates. Even so, CME data shows nearly half of Wall Street now expects at least one rate hike by the fall.\n\nFor housing, a softer labor market is the kind of thing that eventually pulls mortgage rates down, but not yet. The 30-year actually ticked up this week, so relief stays on the horizon rather than at the closing table.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/bitcoin-price-2026-070126.png",
-      "alt": "Bitcoin's price in 2026, down 32.45% year to date to $59,046",
-      "caption": "Bitcoin's 2026: a January peak near $95,000 has given way to a long grind lower, with the coin at $59,046, down 32.45% year to date.",
-      "source": "Source: Google Finance, as of July 1, 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/us-private-employment-070226.png",
+      "alt": "U.S. private employment, 2010 to 2026, in millions of jobs: a steady climb from about 105 million to a pre-COVID peak near 126 million, a sharp crash to about 118 million in spring 2020, then a recovery to about 133 million, with June 2026 adding just 98,000 jobs.",
+      "caption": "U.S. private employment sits near a record, but the pace is cooling: ADP says employers added just 98,000 jobs in June, below the 110,000 estimate and the slowest in months.",
+      "source": "Source: ADP."
     }
   },
+  "crypto": {
+    "btc": "$60,133 (+0.28%)",
+    "eth": "$1,616 (+0.53%)",
+    "xrp": "$1.06 (+0.46%)",
+    "note": "Numbers as of 4:00 PM ET, July 1st.",
+    "commentary": "Crypto firmed up. Bitcoin added 0.28% to $60,133, back above $60,000, while Ether rose 0.53% to $1,616 and XRP gained 0.46% to $1.06 (figures as of the July 1st close).\n\nCoinbase (+8.93%) teamed up with Visa (+2.33%) and Mastercard (+1.72%) to launch a new U.S.-backed stablecoin. The Open USD coin is already backed by 140 companies, including Google and BlackRock, and pegs its value to the dollar, which may look more appealing to investors after Bitcoin's recent slump.\n\nOn the policy side, federal filings show President Trump earned over $1 billion from crypto in 2025, most of it tied to World Liberty Financial, as the administration keeps pushing the stalled Clarity Act."
+  },
   "real_estate": {
-    "rate_30year": "6.54%",
-    "rate_15year": "6.12%",
-    "homebuilder": "Mortgage Rates Hold At 6.54% As Home Prices Set Another Record On Near-Flat Growth; Digital Realty Buys Out Blackstone's Data Center Stake For $3.5B; The East Bay Board Eases To 2,805 Active On 177 New And 206 Closed",
-    "commentary": "The 30-year fixed held at 6.54% and the 15-year stayed at 6.12%. Rates have gone quiet, and so has the resale market, with the lock-in effect still keeping owners in place until the gap to their existing rates narrows.\n\nU.S. home prices set another record high in May, but annual growth was just 0.7%, the ninth straight month under 1%. High rates and thin supply have the market in a standoff: prices are not falling, but they are barely rising either, which leaves buyers and sellers staring at each other with no clear direction.\n\nOn the commercial side, Digital Realty (DLR -5.79%) agreed to buy Blackstone's stake in three Virginia data centers for $3.5 billion. The market flinched because the deal leans on $2.3 billion in new stock, diluting existing shareholders, a reminder that even the hottest corner of real estate has a price.\n\nLocally, the East Bay board eased to 2,805 active (down 96 from yesterday), with 177 new listings against 206 closings. Oakland again led the board with 36 new on 744 active; Fremont added 24 new on 339 active.\n\n📍 Alameda & Contra Costa Snapshot (07/01/26, new listings / active)\n\n📍 Oakland: 36 new / 744 active (board leader).\n\n📍 Fremont: 24 new / 339 active.\n\n📍 Dublin: 19 new / 190 active.\n\n📍 Hayward: 16 new / 267 active.\n\n📍 Livermore: 13 new / 212 active.\n\n📍 San Ramon: 13 new / 204 active.\n\n📍 Castro Valley: 11 new / 89 active.\n\n📍 Pleasanton: 10 new / 151 active.\n\n📍 Newark: 9 new / 119 active.\n\n📍 Danville: 8 new / 183 active.\n\n📍 Union City: 5 new / 78 active.\n\n📍 San Leandro: 5 new / 89 active.\n\n📍 Milpitas: 4 new / 111 active.\n\n📍 San Lorenzo: 4 new / 22 active.\n\n📍 Sunol: 0 new / 7 active.\n\nNew-listing flow came in at 177, led by Oakland (36), Fremont (24), and Dublin (19). Closings totaled 206.\n\nFor agents: with rates steady and prices flat, the story to tell is stability, not urgency. Lean on the steady supply (2,805 active, 177 new) and price discipline. Well-priced, well-presented homes still sell inside about four weeks, while overpriced listings just sit, so the coaching holds: price to today's market and the sale follows.",
+    "rate_30year": "6.65%",
+    "rate_15year": "6.19%",
+    "homebuilder": "Mortgage Rates Tick Up To 6.65% As Hiring Slows And Metals Jump On Fed Rate-Hike Doubts; Luxury Agents Splurge To Win Newly Minted Millionaires; The East Bay Board Eases To 2,794 Active On 143 New And 212 Closed",
+    "commentary": "The 30-year fixed ticked up to 6.65% and the 15-year to 6.19%. Rates drifting higher keeps the lock-in effect firmly in place, with owners staying put rather than trading a low existing rate for a higher new one, which keeps resale supply tight.\n\nAt the high end, luxury agents are dressing for success and then some. One reportedly spent over $100,000 on clothes last year, chasing the wave of newly minted millionaires from this year's IPO boom who expect to be wowed from the house to the agent.\n\nCapital is also moving south. Billionaire Peter Thiel just signed the most expensive office lease in Miami history, part of a broader migration of tech founders fleeing California's proposed wealth tax. If more follow, it could push Florida home prices and rents even higher for locals.\n\nLocally, the East Bay board eased to 2,794 active (down 11 from yesterday), with 143 new listings against 212 closings. Oakland again led the board with 30 new on 741 active; Fremont added 18 new on 335 active.\n\n📍 Alameda & Contra Costa Snapshot (07/02/26, new listings / active)\n\n📍 Oakland: 30 new / 741 active (board leader).\n\n📍 Fremont: 18 new / 335 active.\n\n📍 Hayward: 17 new / 264 active.\n\n📍 San Ramon: 13 new / 204 active.\n\n📍 Danville: 11 new / 185 active.\n\n📍 Livermore: 11 new / 213 active.\n\n📍 Dublin: 9 new / 189 active.\n\n📍 Castro Valley: 9 new / 87 active.\n\n📍 Newark: 6 new / 119 active.\n\n📍 Pleasanton: 6 new / 152 active.\n\n📍 San Leandro: 5 new / 90 active.\n\n📍 Union City: 4 new / 78 active.\n\n📍 San Lorenzo: 4 new / 22 active.\n\n📍 Milpitas: 0 new / 108 active.\n\n📍 Sunol: 0 new / 7 active.\n\nNew-listing flow came in at 143, led by Oakland (30), Fremont (18), and Hayward (17). Closings totaled 212.\n\nFor agents: with rates edging up and hiring cooling, the pitch is stability, not urgency. Well-priced, well-presented homes still move inside about four weeks while overpriced listings sit, so the coaching holds: price to today's market and the sale follows.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://fortune.com/article/current-price-of-silver-7-1-2026/"
+    "https://tradingeconomics.com/commodity/gold",
+    "https://tradingeconomics.com/commodity/silver"
   ]
 }
