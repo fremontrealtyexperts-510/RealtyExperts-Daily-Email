@@ -17,8 +17,25 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 const { IncomClient, readIncomCreds, extractFormFields } = require('./lib/incom-client');
-const { ENV_PATH, TEMPLATE_PATH } = require('./lib/config');
+const { ENV_PATH, TEMPLATE_PATH, GITHUB_PAGES_BASE, JSDELIVR_GH_BASE } = require('./lib/config');
+
+// Repoint the chart <script src> from the GitHub Pages URL (which can 404 for many
+// minutes on publish day while Pages rebuilds) to a commit-pinned jsDelivr CDN URL,
+// which serves the .js executably and immediately. The committed HTML keeps the
+// canonical Pages URL; only the live Drupal body gets the pinned CDN URL. The SHA is
+// HEAD, which always already contains the chart JS (committed before this step runs).
+function pinChartToJsdelivr(html, short) {
+  const pagesUrl = `${GITHUB_PAGES_BASE}/alameda-chart-${short}.js`;
+  if (!html.includes(pagesUrl)) return html;
+  let sha;
+  try { sha = execSync('git rev-parse HEAD', { cwd: __dirname }).toString().trim(); }
+  catch (_) { console.log('   ⚠️  could not resolve HEAD SHA — leaving Pages chart URL as-is'); return html; }
+  const cdnUrl = `${JSDELIVR_GH_BASE}@${sha}/alameda-chart-${short}.js`;
+  console.log(`   chart src pinned to jsDelivr @${sha.slice(0, 8)}`);
+  return html.split(pagesUrl).join(cdnUrl);
+}
 
 const BLOG_URL = 'https://www.harvrealtor.com/node/add/blog';
 const LANDING_URL = 'https://www.harvrealtor.com/node/1319025/edit';
@@ -76,7 +93,7 @@ async function main() {
   const metaPath = opt('--meta') || path.join(__dirname, `cms-meta-${short}.txt`);
   if (!fs.existsSync(htmlPath)) { console.error(`CMS HTML not found: ${htmlPath} (run generate-cms-page.js first)`); process.exit(1); }
   if (!fs.existsSync(metaPath)) { console.error(`CMS meta not found: ${metaPath}`); process.exit(1); }
-  const bodyHtml = fs.readFileSync(htmlPath, 'utf8');
+  const bodyHtml = pinChartToJsdelivr(fs.readFileSync(htmlPath, 'utf8'), short);
   const meta = parseMetaTxt(fs.readFileSync(metaPath, 'utf8'));
 
   console.log('='.repeat(60));
