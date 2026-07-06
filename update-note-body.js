@@ -17,8 +17,12 @@
  * verify-broadcast.js). On 2026-06-03 the note updated but the backend never
  * sent and nothing noticed — this safety net makes that silent failure loud.
  *
+ * The note body is the Meridian responsive body (built from the JSON template)
+ * by default; pass --email-body to fall back to the fixed-width Outlook email HTML.
+ *
  * Usage:
  *   node update-note-body.js [json-template] [html-file]
+ *   node update-note-body.js --email-body         # PUT the old fixed-width email HTML instead
  *   node update-note-body.js --no-verify          # just PUT, skip the safety net
  *   node update-note-body.js --retry              # auto re-broadcast once if unconfirmed
  *   node update-note-body.js --timeout 300 --poll 20
@@ -33,6 +37,8 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const { verifyBroadcast, printVerdict } = require('./verify-broadcast');
+const { buildResponsiveBody } = require('./lib/html-builders');
+const { GITHUB_RAW_BASE, GITHUB_PAGES_BASE } = require('./lib/config');
 
 // Supabase config
 const SUPABASE_HOST = 'hbsodfrxadlfladdgvgy.supabase.co';
@@ -113,7 +119,7 @@ function updateNote(noteId, title, htmlBody, adminToken) {
  * @param {string} [o.htmlFile] - HTML path (default daily-market-glance-MMDDYY.html)
  * @returns {Promise<{noteId, date, agentHubLink, title, htmlSize}>}
  */
-async function updateNoteBody({ jsonFile = 'daily-market-template.json', htmlFile } = {}) {
+async function updateNoteBody({ jsonFile = 'daily-market-template.json', htmlFile, useEmailBody = false } = {}) {
   if (!fs.existsSync(jsonFile)) {
     throw new Error(`JSON template not found: ${jsonFile}`);
   }
@@ -125,11 +131,27 @@ async function updateNoteBody({ jsonFile = 'daily-market-template.json', htmlFil
   const noteId = extractNoteId(data.agent_hub_link);
 
   const dateForFile = data.date.replace(/\//g, '');
-  const resolvedHtml = htmlFile || `daily-market-glance-${dateForFile}.html`;
-  if (!fs.existsSync(resolvedHtml)) {
-    throw new Error(`HTML file not found: ${resolvedHtml}. Run generate-daily-email.js first.`);
+
+  // The Agent Hub note body (what the ~105 agents see + what broadcasts) is, by
+  // default, the Meridian responsive body built from the JSON — phone-first,
+  // DOMPurify-safe, ~30KB. `--email-body` falls back to the fixed-width Outlook
+  // email HTML file (the pre-2026-07 behavior) as an instant escape hatch. Either
+  // way, the Outlook email Harv pastes into a mail client is unaffected.
+  let htmlBody, bodyKind;
+  if (useEmailBody) {
+    const resolvedHtml = htmlFile || `daily-market-glance-${dateForFile}.html`;
+    if (!fs.existsSync(resolvedHtml)) {
+      throw new Error(`HTML file not found: ${resolvedHtml}. Run generate-daily-email.js first.`);
+    }
+    htmlBody = fs.readFileSync(resolvedHtml, 'utf8');
+    bodyKind = `email HTML (${path.basename(resolvedHtml)})`;
+  } else {
+    const emailUrl = `${GITHUB_PAGES_BASE}/daily-market-glance-${dateForFile}.html`;
+    const img1Url = `${GITHUB_RAW_BASE}/RE-Daily-1-${dateForFile}.png`;
+    const img2Url = `${GITHUB_RAW_BASE}/RE-Daily-2-${dateForFile}.png`;
+    htmlBody = buildResponsiveBody(data, emailUrl, img1Url, img2Url);
+    bodyKind = 'Meridian responsive body';
   }
-  const htmlBody = fs.readFileSync(resolvedHtml, 'utf8');
 
   const env = loadEnv();
   if (!env.ADMIN_TOKEN) {
@@ -140,6 +162,7 @@ async function updateNoteBody({ jsonFile = 'daily-market-template.json', htmlFil
 
   console.log(`📝 Updating Agent Hub note: ${noteId}`);
   console.log(`   Title: ${title}`);
+  console.log(`   Body: ${bodyKind}`);
   console.log(`   HTML size: ${htmlBody.length} chars`);
 
   await updateNote(noteId, title, htmlBody, env.ADMIN_TOKEN);
@@ -150,12 +173,13 @@ async function updateNoteBody({ jsonFile = 'daily-market-template.json', htmlFil
 }
 
 function parseCliArgs(argv) {
-  const opts = { verify: true, retry: false, positionals: [] };
+  const opts = { verify: true, retry: false, emailBody: false, positionals: [] };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--no-verify') opts.verify = false;
     else if (a === '--verify') opts.verify = true;
     else if (a === '--retry') opts.retry = true;
+    else if (a === '--email-body') opts.emailBody = true;
     else if (a === '--timeout') opts.timeoutMs = parseInt(argv[++i], 10) * 1000;
     else if (a === '--poll') opts.pollMs = parseInt(argv[++i], 10) * 1000;
     else if (!a.startsWith('--')) opts.positionals.push(a);
@@ -175,7 +199,7 @@ async function main() {
 
   let info;
   try {
-    info = await updateNoteBody({ jsonFile, htmlFile });
+    info = await updateNoteBody({ jsonFile, htmlFile, useEmailBody: opts.emailBody });
   } catch (err) {
     console.error(`❌ Failed to update note: ${err.message}`);
     process.exit(1);
@@ -197,7 +221,7 @@ async function main() {
     console.log('\n🔁 --retry: broadcast not confirmed — re-triggering once…');
     const retrySince = new Date(Date.now() - 90 * 1000).toISOString();
     try {
-      await updateNoteBody({ jsonFile, htmlFile });
+      await updateNoteBody({ jsonFile, htmlFile, useEmailBody: opts.emailBody });
     } catch (err) {
       console.error(`❌ Retry PUT failed: ${err.message}`);
     }
