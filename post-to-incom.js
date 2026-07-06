@@ -30,7 +30,14 @@ function pinChartToJsdelivr(html, short) {
   const pagesUrl = `${GITHUB_PAGES_BASE}/alameda-chart-${short}.js`;
   if (!html.includes(pagesUrl)) return html;
   let sha;
-  try { sha = execSync('git rev-parse HEAD', { cwd: __dirname }).toString().trim(); }
+  // Prefer the REAL remote HEAD (ls-remote) so a frozen/stale local .git (the Mac
+  // OneDrive/Drive copy) cannot pin to a commit that lacks today's chart JS. CHART_SHA
+  // overrides; local rev-parse is the last resort.
+  try {
+    sha = process.env.CHART_SHA
+      || execSync('git ls-remote https://github.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email.git HEAD', { cwd: __dirname }).toString().split(/\s+/)[0].trim()
+      || execSync('git rev-parse HEAD', { cwd: __dirname }).toString().trim();
+  }
   catch (_) { console.log('   ⚠️  could not resolve HEAD SHA — leaving Pages chart URL as-is'); return html; }
   const cdnUrl = `${JSDELIVR_GH_BASE}@${sha}/alameda-chart-${short}.js`;
   console.log(`   chart src pinned to jsDelivr @${sha.slice(0, 8)}`);
