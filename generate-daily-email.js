@@ -153,7 +153,7 @@ function economyStatCards(e) {
   const spacerW = four ? '2.6%' : '2%';
 
   const cell = (c) => `<td width="${cellW}" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">${c.label}</div>
@@ -165,7 +165,7 @@ function economyStatCards(e) {
 
   const cells = cards.map(cell).join(`\n                        <td width="${spacerW}"></td>\n                        `);
 
-  return `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
                       <tr>
                         ${cells}
                       </tr>
@@ -182,7 +182,7 @@ function featureImagesHtml(section) {
              : (section.feature_image ? [section.feature_image] : []);
   if (!imgs.length) return '';
   return imgs.filter(fi => fi && fi.url).map(fi => `<!-- feature image -->
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 18px 0 4px 0;">
                       <tr>
                         <td align="center">
                           <a href="${fi.url}" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
@@ -202,6 +202,24 @@ function generateHTML(data) {
   const htmlFileName = `daily-market-glance-${dateForFile}.html`;
   const githubBaseUrl = 'https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email';
 
+  // Head metadata below is for the GitHub Pages "View in Browser" page ONLY.
+  // The <head> never survives a copy-paste of the rendered body into Outlook,
+  // so none of it can affect the email path. color-scheme declares the design
+  // light-only so dark-mode clients that respect the hint do not force-invert
+  // the palette (partial inversion mangles the section colors).
+  const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  const pageUrl = `${githubBaseUrl}/${htmlFileName}`;
+  const ogImage = `https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png`;
+  const pageTitle = `"At a Glance" Local Housing STATS and News ${data.date}`;
+  const metricBits = [
+    data.real_estate && data.real_estate.rate_30year ? `30-year ${data.real_estate.rate_30year}` : '',
+    data.real_estate && data.real_estate.rate_15year ? `15-year ${data.real_estate.rate_15year}` : '',
+    data.stocks && data.stocks.sp500 ? `S&P 500 ${data.stocks.sp500}` : '',
+    data.economy && data.economy.gold ? `gold ${data.economy.gold}` : '',
+    data.economy && data.economy.silver ? `silver ${data.economy.silver}` : '',
+  ].filter(Boolean).join(', ');
+  const description = `Daily market glance for ${data.date}: ${metricBits}. Local East Bay housing stats and news from REALTY EXPERTS®.`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -209,6 +227,20 @@ function generateHTML(data) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/Realty%20Experts%20-%20RE.png">
   <title>Daily Market Glance - ${data.date}</title>
+  <meta name="description" content="${esc(description)}">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <link rel="canonical" href="${pageUrl}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="${esc(pageTitle)}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:image" content="${ogImage}">
+  <meta property="og:site_name" content="REALTY EXPERTS®">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(pageTitle)}">
+  <meta name="twitter:description" content="${esc(description)}">
+  <meta name="twitter:image" content="${ogImage}">
   <style>
     /* Lightbox styles */
     .lightbox-overlay {
@@ -272,10 +304,10 @@ function generateHTML(data) {
   </style>
 </head>
 <body style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f0f4f8;">
-  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f0f4f8;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f0f4f8;">
     <tr>
       <td align="center" style="padding: 20px 0;">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container" style="background-color: #ffffff; max-width: 650px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container" style="background-color: #ffffff; max-width: 650px;">
 
           <!-- View in Browser Link -->
           <tr>
@@ -298,7 +330,7 @@ function generateHTML(data) {
           <!-- Agent Hub Banner -->
           <tr>
             <td class="email-hub" style="background-color: #f8fafc; padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td width="70%" style="vertical-align: middle; padding-right: 20px;">
                     <div style="font-size: 15px; color: #1e293b; line-height: 1.6;">
@@ -321,7 +353,7 @@ function generateHTML(data) {
             <td class="email-body" style="padding: 40px;">
 
               <!-- Image 1 -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 24px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 24px 0;">
                 <tr>
                   <td align="center">
                     <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
@@ -332,7 +364,7 @@ function generateHTML(data) {
               </table>
 
               <!-- Image 2 -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 35px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 35px 0;">
                 <tr>
                   <td align="center">
                     <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
@@ -343,14 +375,14 @@ function generateHTML(data) {
               </table>
 
               ${data.featured_promo ? `<!-- FEATURED PROMO -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 32px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 32px 0;">
                 <tr>
                   <td style="background-color: #0d9488; padding: 22px 24px; border-left: 6px solid #f97316;">
                     <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #ffffff; opacity: 0.9; margin-bottom: 8px;">${data.featured_promo.eyebrow}</div>
                     <h2 style="margin: 0 0 12px 0; font-size: 22px; font-weight: 800; line-height: 1.25; color: #ffffff;">${data.featured_promo.title}</h2>
                     <div style="font-size: 15px; line-height: 1.6; color: #ffffff; margin-bottom: 14px;">${data.featured_promo.body}</div>
-                    ${data.featured_promo.quote ? `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 16px 0;"><tr><td style="background-color: rgba(255,255,255,0.12); padding: 14px 18px; border-left: 3px solid #f97316;"><div style="font-size: 14px; font-style: italic; line-height: 1.55; color: #ffffff;">"${data.featured_promo.quote}"</div><div style="font-size: 12px; color: #fed7aa; margin-top: 6px;">${data.featured_promo.quote_attribution}</div></td></tr></table>` : ''}
-                    <table cellpadding="0" cellspacing="0" border="0">
+                    ${data.featured_promo.quote ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 16px 0;"><tr><td style="background-color: rgba(255,255,255,0.12); padding: 14px 18px; border-left: 3px solid #f97316;"><div style="font-size: 14px; font-style: italic; line-height: 1.55; color: #ffffff;">"${data.featured_promo.quote}"</div><div style="font-size: 12px; color: #fed7aa; margin-top: 6px;">${data.featured_promo.quote_attribution}</div></td></tr></table>` : ''}
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="background-color: #f97316; padding: 11px 20px;">
                           <a href="${data.featured_promo.primary_link}" style="color: #ffffff; text-decoration: none; font-weight: 700; font-size: 14px;">${data.featured_promo.primary_label} →</a>
@@ -366,10 +398,10 @@ function generateHTML(data) {
               </table>` : ''}
 
               <!-- REAL ESTATE Section -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
                 <tr>
                   <td>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="background-color: #ea580c; padding: 14px 20px;">
                           <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
@@ -378,10 +410,10 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
                       <tr>
                         <td width="48%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #ea580c; text-align: center;">
+                          <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #ea580c; text-align: center;">
                             <tr>
                               <td>
                                 <div style="font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">30-Year Fixed</div>
@@ -392,7 +424,7 @@ function generateHTML(data) {
                         </td>
                         <td width="4%"></td>
                         <td width="48%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #ea580c; text-align: center;">
+                          <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #ea580c; text-align: center;">
                             <tr>
                               <td>
                                 <div style="font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">15-Year Fixed</div>
@@ -403,7 +435,7 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
-                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fff7ed; border-top: 4px solid #ea580c;">
+                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fff7ed; border-top: 4px solid #ea580c;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">
                           ${formatCommentary(data.real_estate.homebuilder)}
@@ -417,15 +449,15 @@ function generateHTML(data) {
               </table>
 
               <!-- Section Divider -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
                 <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
               </table>
 
               <!-- STOCKS Section -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
                 <tr>
                   <td>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="background-color: #2563eb; padding: 14px 20px;">
                           <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
@@ -434,10 +466,10 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
                       <tr>
                         <td width="32%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">S&amp;P 500</div>
@@ -448,7 +480,7 @@ function generateHTML(data) {
                         </td>
                         <td width="2%"></td>
                         <td width="32%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">DOW</div>
@@ -459,7 +491,7 @@ function generateHTML(data) {
                         </td>
                         <td width="2%"></td>
                         <td width="32%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">NASDAQ</div>
@@ -471,7 +503,7 @@ function generateHTML(data) {
                       </tr>
                     </table>
                     <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.stocks.note}</div>
-                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #eff6ff; border-top: 4px solid #2563eb;">
+                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #eff6ff; border-top: 4px solid #2563eb;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">${formatCommentary(data.stocks.news)}</td>
                       </tr>
@@ -482,15 +514,15 @@ function generateHTML(data) {
               </table>
 
               <!-- Section Divider -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
                 <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
               </table>
 
               <!-- ECONOMY Section -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
                 <tr>
                   <td>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="background-color: #16a34a; padding: 14px 20px;">
                           <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
@@ -501,7 +533,7 @@ function generateHTML(data) {
                     </table>
                     ${economyStatCards(data.economy)}
                     ${data.economy.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.economy.note}</div>` : ''}
-                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f0fdf4; border-top: 4px solid #16a34a;">
+                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f0fdf4; border-top: 4px solid #16a34a;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">${formatCommentary(data.economy.commentary)}</td>
                       </tr>
@@ -512,15 +544,15 @@ function generateHTML(data) {
               </table>
 
               ${data.crypto ? `<!-- Section Divider -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
                 <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
               </table>
 
               <!-- CRYPTO Section -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
                 <tr>
                   <td>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td style="background-color: #f59e0b; padding: 14px 20px;">
                           <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
@@ -529,10 +561,10 @@ function generateHTML(data) {
                         </td>
                       </tr>
                     </table>
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
                       <tr>
                         <td width="32%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">BTC</div>
@@ -543,7 +575,7 @@ function generateHTML(data) {
                         </td>
                         <td width="2%"></td>
                         <td width="32%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">ETH</div>
@@ -554,7 +586,7 @@ function generateHTML(data) {
                         </td>
                         <td width="2%"></td>
                         <td width="32%" style="vertical-align: top;">
-                          <table width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
+                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
                             <tr>
                               <td>
                                 <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">XRP</div>
@@ -566,7 +598,7 @@ function generateHTML(data) {
                       </tr>
                     </table>
                     ${data.crypto.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.crypto.note}</div>` : ''}
-                    <table width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fffbeb; border-top: 4px solid #f59e0b;">
+                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fffbeb; border-top: 4px solid #f59e0b;">
                       <tr>
                         <td style="font-size: 15px; color: #334155;">${formatCommentary(data.crypto.commentary)}</td>
                       </tr>
@@ -582,12 +614,12 @@ function generateHTML(data) {
           <!-- Footer -->
           <tr>
             <td style="padding: 0;">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td style="background-color: #2563eb; height: 4px; font-size: 1px;">&nbsp;</td>
                 </tr>
               </table>
-              <table width="100%" cellpadding="24" cellspacing="0" border="0" style="background-color: #f8fafc;">
+              <table role="presentation" width="100%" cellpadding="24" cellspacing="0" border="0" style="background-color: #f8fafc;">
                 <tr>
                   <td style="text-align: center;">
                     <p style="margin: 0 0 8px 0; font-weight: 600; color: #2563eb; font-size: 14px;">REALTY EXPERTS®</p>
@@ -617,9 +649,13 @@ function generateHTML(data) {
       var overlay = document.createElement('div');
       overlay.id = 'lightbox';
       overlay.className = 'lightbox-overlay';
+      overlay.setAttribute('role', 'dialog');
+      overlay.setAttribute('aria-modal', 'true');
+      overlay.setAttribute('aria-label', 'Enlarged image view');
       overlay.onclick = function() { closeLightbox(); };
       var btn = document.createElement('button');
       btn.className = 'lightbox-close';
+      btn.setAttribute('aria-label', 'Close enlarged image');
       btn.onclick = function() { closeLightbox(); };
       btn.textContent = '\u00D7';
       var img = document.createElement('img');
