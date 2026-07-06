@@ -99,8 +99,6 @@ function chartInnerJs(inventory) {
   }));
   const SERIF = "'Playfair Display', Georgia, 'Times New Roman', serif";
   const SANS = "'Inter', -apple-system, 'Segoe UI', Arial, sans-serif";
-  // Colors (paper/ink/grid) resolve at draw time from prefers-color-scheme via
-  // themeC() below — these are just light-mode seeds so a no-JS view still reads.
   const layout = {
     title: { text: 'Real Estate Inventory by City', font: { size: 21, color: '#2E2E2E', family: SERIF }, x: 0.5, xanchor: 'center', y: 0.97 },
     xaxis: { title: { text: 'Listing Category', font: { size: 13, color: '#4A4640', family: SANS } }, tickfont: { size: 12, color: '#4A4640', family: SANS }, showgrid: false, zeroline: false },
@@ -114,59 +112,74 @@ function chartInnerJs(inventory) {
   // <script src>. Drupal strips INLINE <script> from the node body but keeps
   // external src tags — so the chart only renders when its data lives in a
   // hosted file. No HTML-escaping needed here (the file is never HTML-filtered).
-  // Theme colors follow prefers-color-scheme so the chart tracks light/dark.
+  // The chart is ALWAYS light (white paper): the report embeds in the light InCom
+  // page, so a prefers-color-scheme dark chart reads as broken there (2026-07-06).
+  // The click-to-enlarge lightbox also lives here for the same strip-inline reason.
   return `var data = ${JSON.stringify(traces)};
 var baseLayout = ${JSON.stringify(layout)};
 var config = ${JSON.stringify(config)};
-function themeC(){var d=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;return d?{paper:'#211F1B',ink:'#F3EFE6',soft:'#C9C2B4',grid:'rgba(243,239,230,0.10)'}:{paper:'#FFFFFF',ink:'#2E2E2E',soft:'#4A4640',grid:'rgba(46,46,46,0.07)'};}
-function layoutFor(){var w=window.innerWidth,t=themeC(),u=JSON.parse(JSON.stringify(baseLayout));u.paper_bgcolor=t.paper;u.plot_bgcolor=t.paper;u.title.font.color=t.ink;u.xaxis.title.font.color=t.soft;u.xaxis.tickfont.color=t.soft;u.yaxis.title.font.color=t.soft;u.yaxis.tickfont.color=t.soft;u.yaxis.gridcolor=t.grid;u.legend.font.color=t.soft;u.legend.title.font.color=t.soft;u.font.color=t.soft;if(w<600){u.height=560;u.margin={l:42,r:10,t:46,b:176};u.title.font.size=17;u.xaxis.tickfont.size=10;u.yaxis.tickfont.size=10;u.legend.font.size=9;u.legend.x=0;u.legend.xanchor='left';u.legend.title.text='';u.legend.y=-0.26;u.bargap=0.22;}else if(w<900){u.height=580;u.margin={l:48,r:14,t:50,b:134};u.title.font.size=19;u.legend.font.size=10;u.legend.x=0;u.legend.xanchor='left';u.legend.y=-0.24;}return u;}
-function drawChart(){Plotly.newPlot('chart', data, layoutFor(), config);window.addEventListener('resize',function(){Plotly.relayout('chart', layoutFor());});if(window.matchMedia){try{window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',function(){Plotly.relayout('chart', layoutFor());});}catch(e){}}}
-if(window.Plotly){drawChart();}else{document.addEventListener('DOMContentLoaded',drawChart);}`;
+function layoutFor(){var w=window.innerWidth,u=JSON.parse(JSON.stringify(baseLayout));u.autosize=true;if(w<600){u.height=560;u.margin={l:42,r:10,t:46,b:176};u.title.font.size=17;u.xaxis.tickfont.size=10;u.yaxis.tickfont.size=10;u.legend.font.size=9;u.legend.x=0;u.legend.xanchor='left';u.legend.title.text='';u.legend.y=-0.26;u.bargap=0.22;}else if(w<900){u.height=580;u.margin={l:48,r:14,t:50,b:134};u.title.font.size=19;u.legend.font.size=10;u.legend.x=0;u.legend.xanchor='left';u.legend.y=-0.24;}return u;}
+function drawChart(){Plotly.newPlot('chart', data, layoutFor(), config);window.addEventListener('resize',function(){Plotly.relayout('chart', layoutFor());});}
+if(window.Plotly){drawChart();}else{document.addEventListener('DOMContentLoaded',drawChart);}
+(function(){
+var open=null;
+function close(){if(open){if(open.parentNode){open.parentNode.removeChild(open);}open=null;document.body.style.overflow='';}}
+function show(src,alt){close();var o=document.createElement('div');o.className='re-lightbox';o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');o.setAttribute('aria-label',alt||'Enlarged image');var im=document.createElement('img');im.src=src;im.alt=alt||'';var x=document.createElement('span');x.className='re-lightbox-close';x.setAttribute('aria-hidden','true');x.textContent='\\u00D7';o.appendChild(im);o.appendChild(x);document.body.appendChild(o);document.body.style.overflow='hidden';open=o;}
+document.addEventListener('click',function(e){if(open){close();return;}var t=e.target;if(t&&t.tagName==='IMG'&&t.closest&&t.closest('.newsletter-container')){e.preventDefault();show(t.currentSrc||t.src,t.alt);}});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'||e.keyCode===27){close();}});
+})();`;
 }
 
 // Meridian-lite: the CSS-only interpretation of Harv's Meridian Dial system for
 // the Drupal-embedded web report. Paper/ink/gold palette, Playfair serif numerals
-// (via @import, Georgia fallback), hairline rules, one gold accent, a tablet
-// breakpoint, and prefers-color-scheme dark mode. All theming runs through CSS
-// custom properties so the dark block only re-declares :root.
+// (via @import, Georgia fallback), hairline rules, one gold accent, and a tablet
+// breakpoint. EVERY rule is scoped under the .re-report wrapper (plus the
+// .re-lightbox overlay) so nothing leaks into the surrounding InCom page — an
+// unscoped body/:root block once washed out the site's own sidebar (2026-07-06).
+// No dark mode on purpose: the report always renders as a light paper sheet, and
+// the up/down market signal uses classic green/red per Harv.
 const STYLE_BLOCK = `<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
-        :root { --paper:#FAF7F0; --ink:#2E2E2E; --ink-soft:#4A4640; --muted:#6B6459; --gold:#D4AF37; --gold-dark:#B08C1E; --hairline:#E8E4DA; --track:#F2EFE7; --card:#FFFFFF; --re:#B08C1E; --stocks:#3E5C76; --economy:#5B7551; --crypto:#8A5A2B; --serif:'Playfair Display',Georgia,'Times New Roman',serif; --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
-        * { box-sizing: border-box; }
-        body { margin: 0; padding: 22px 16px 40px; font-family: var(--sans); background: var(--paper); color: var(--ink); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
-        #chart { background: var(--card); border: 1px solid var(--hairline); border-radius: 14px; box-shadow: 0 1px 3px rgba(46,46,46,0.04), 0 14px 34px -22px rgba(46,46,46,0.20); padding: 14px; max-width: 1000px; margin: 0 auto; min-height: 500px; }
-        .date-badge { text-align: center; margin: 4px 0 16px; }
-        .date-badge span { display: inline-block; border: 1px solid var(--gold); color: var(--gold-dark); background: transparent; padding: 7px 22px; border-radius: 40px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
-        .info-banner { max-width: 1000px; margin: 0 auto 14px; background: var(--track); border: 1px solid var(--hairline); color: var(--ink-soft); padding: 10px 16px; border-radius: 10px; text-align: center; font-size: 12.5px; }
-        .info-banner strong { color: var(--gold-dark); font-weight: 700; }
-        .newsletter-container { background: var(--card); border: 1px solid var(--hairline); border-radius: 16px; box-shadow: 0 1px 3px rgba(46,46,46,0.04), 0 22px 50px -32px rgba(46,46,46,0.24); max-width: 760px; margin: 26px auto 0; padding: 36px 36px 30px; line-height: 1.72; font-variant-numeric: tabular-nums; }
-        .newsletter-container p { margin: 0 0 15px; color: var(--ink-soft); }
-        .newsletter-container strong { color: var(--ink); font-weight: 600; }
-        .newsletter-container h3 { font-family: var(--serif); font-weight: 700; color: var(--ink); font-size: 18px; letter-spacing: -0.01em; margin: 26px 0 10px; padding-bottom: 7px; border-bottom: 1px solid var(--hairline); }
-        .newsletter-container ul { margin: 8px 0 18px; padding-left: 0; list-style: none; }
-        .newsletter-container li { margin-bottom: 7px; padding-left: 17px; position: relative; color: var(--ink-soft); font-size: 14.5px; }
-        .newsletter-container li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
-        .newsletter-container li strong { color: var(--ink); }
-        .newsletter-container hr { border: 0; height: 1px; background: var(--hairline); margin: 30px 0; }
-        .stat-line { font-family: var(--serif); font-size: 15px; color: var(--ink-soft); margin: 12px 0 20px; padding: 15px 18px; background: var(--paper); border: 1px solid var(--hairline); border-radius: 12px; line-height: 1.95; }
-        .stat-line strong { font-family: var(--serif); color: var(--ink); font-weight: 600; font-size: 19px; font-variant-numeric: tabular-nums; }
-        .section-bar-re, .section-bar-stocks, .section-bar-economy, .section-bar-crypto { font-family: var(--sans); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; padding: 0 0 8px 15px; margin: 32px 0 6px; position: relative; border-bottom: 1px solid var(--hairline); }
-        .section-bar-re::before, .section-bar-stocks::before, .section-bar-economy::before, .section-bar-crypto::before { content: ""; position: absolute; left: 0; top: 1px; width: 5px; height: 13px; border-radius: 2px; }
-        .section-bar-re { color: var(--re); } .section-bar-re::before { background: var(--re); }
-        .section-bar-stocks { color: var(--stocks); } .section-bar-stocks::before { background: var(--stocks); }
-        .section-bar-economy { color: var(--economy); } .section-bar-economy::before { background: var(--economy); }
-        .section-bar-crypto { color: var(--crypto); } .section-bar-crypto::before { background: var(--crypto); }
-        .sources-box { background: var(--paper); border: 1px solid var(--hairline); border-radius: 12px; padding: 18px 20px; margin-top: 26px; }
-        .sources-box h3 { font-family: var(--sans); color: var(--gold-dark); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; margin: 0 0 10px; padding: 0; border: 0; }
-        .sources-box ul { margin: 0; padding: 0; list-style: none; }
-        .sources-box li { font-size: 13px; color: var(--ink-soft); padding-left: 0; margin-bottom: 5px; }
-        .sources-box li::before { display: none; }
-        .sources-box a { color: var(--gold-dark); text-decoration: none; border-bottom: 1px solid var(--hairline); }
-        .sources-box a:hover { border-bottom-color: var(--gold); }
-        .disclaimer { background: transparent; border: 0; border-top: 1px solid var(--hairline); padding: 16px 0 0; font-style: normal; font-size: 12.5px; color: var(--muted); margin-top: 24px; line-height: 1.6; }
-        .disclaimer strong { color: var(--ink-soft); }
-        @media (max-width: 900px) { .newsletter-container { max-width: 100%; padding: 28px 22px; } }
-        @media (max-width: 600px) { body { padding: 12px 10px 30px; font-size: 15.5px; } #chart { padding: 8px; border-radius: 12px; } .newsletter-container { padding: 22px 16px; border-radius: 12px; } .stat-line { padding: 13px 14px; font-size: 14px; } .stat-line strong { font-size: 17px; } }
-        @media (prefers-color-scheme: dark) { :root { --paper:#1B1A17; --ink:#F3EFE6; --ink-soft:#C9C2B4; --muted:#9A9384; --gold:#E8C65A; --gold-dark:#D4AF37; --hairline:#34322C; --track:#232219; --card:#211F1B; --re:#D4AF37; --stocks:#7FA5C4; --economy:#9FC08F; --crypto:#D0A24E; } #chart, .newsletter-container { box-shadow: none; } }
+        .re-report { --paper:#FAF7F0; --ink:#2E2E2E; --ink-soft:#4A4640; --muted:#6B6459; --gold:#D4AF37; --gold-dark:#B08C1E; --hairline:#E8E4DA; --track:#F2EFE7; --card:#FFFFFF; --up:#16a34a; --down:#dc2626; --re:#B08C1E; --stocks:#3E5C76; --economy:#5B7551; --crypto:#8A5A2B; --serif:'Playfair Display',Georgia,'Times New Roman',serif; --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; margin: 0; padding: 18px 12px 24px; background: var(--paper); border-radius: 14px; font-family: var(--sans); color: var(--ink); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+        .re-report *, .re-report *::before, .re-report *::after { box-sizing: border-box; }
+        .re-report #chart { background: var(--card); border: 1px solid var(--hairline); border-radius: 14px; box-shadow: 0 1px 3px rgba(46,46,46,0.04), 0 14px 34px -22px rgba(46,46,46,0.20); padding: 14px; max-width: 1000px; margin: 0 auto; min-height: 500px; }
+        .re-report .date-badge { text-align: center; margin: 4px 0 16px; }
+        .re-report .date-badge span { display: inline-block; border: 1px solid var(--gold); color: var(--gold-dark); background: transparent; padding: 7px 22px; border-radius: 40px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+        .re-report .info-banner { max-width: 1000px; margin: 0 auto 14px; background: var(--track); border: 1px solid var(--hairline); color: var(--ink-soft); padding: 10px 16px; border-radius: 10px; text-align: center; font-size: 12.5px; }
+        .re-report .info-banner strong { color: var(--gold-dark); font-weight: 700; }
+        .re-report .newsletter-container { background: var(--card); border: 1px solid var(--hairline); border-radius: 16px; box-shadow: 0 1px 3px rgba(46,46,46,0.04), 0 22px 50px -32px rgba(46,46,46,0.24); max-width: 760px; margin: 26px auto 0; padding: 36px 36px 30px; line-height: 1.72; font-variant-numeric: tabular-nums; }
+        .re-report .newsletter-container p { margin: 0 0 15px; color: var(--ink-soft); }
+        .re-report .newsletter-container strong { color: var(--ink); font-weight: 600; }
+        .re-report .newsletter-container h3 { font-family: var(--serif); font-weight: 700; color: var(--ink); font-size: 18px; letter-spacing: -0.01em; margin: 26px 0 10px; padding-bottom: 7px; border-bottom: 1px solid var(--hairline); }
+        .re-report .newsletter-container ul { margin: 8px 0 18px; padding-left: 0; list-style: none; }
+        .re-report .newsletter-container li { margin-bottom: 7px; padding-left: 17px; position: relative; color: var(--ink-soft); font-size: 14.5px; }
+        .re-report .newsletter-container li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+        .re-report .newsletter-container li strong { color: var(--ink); }
+        .re-report .newsletter-container hr { border: 0; height: 1px; background: var(--hairline); margin: 30px 0; }
+        .re-report .newsletter-container img { cursor: zoom-in; }
+        .re-report .stat-line { font-family: var(--serif); font-size: 15px; color: var(--ink-soft); margin: 12px 0 20px; padding: 15px 18px; background: var(--paper); border: 1px solid var(--hairline); border-radius: 12px; line-height: 1.95; }
+        .re-report .stat-line strong { font-family: var(--serif); color: var(--ink); font-weight: 600; font-size: 19px; font-variant-numeric: tabular-nums; }
+        .re-report .up { color: var(--up); } .re-report .down { color: var(--down); } .re-report .flat { color: var(--muted); }
+        .re-report .stat-line .up, .re-report .stat-line .down, .re-report .stat-line .flat { font-family: var(--sans); font-size: 12.5px; font-weight: 700; white-space: nowrap; }
+        .re-report .section-bar-re, .re-report .section-bar-stocks, .re-report .section-bar-economy, .re-report .section-bar-crypto { font-family: var(--sans); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.18em; padding: 0 0 8px 15px; margin: 32px 0 6px; position: relative; border-bottom: 1px solid var(--hairline); }
+        .re-report .section-bar-re::before, .re-report .section-bar-stocks::before, .re-report .section-bar-economy::before, .re-report .section-bar-crypto::before { content: ""; position: absolute; left: 0; top: 1px; width: 5px; height: 13px; border-radius: 2px; }
+        .re-report .section-bar-re { color: var(--re); } .re-report .section-bar-re::before { background: var(--re); }
+        .re-report .section-bar-stocks { color: var(--stocks); } .re-report .section-bar-stocks::before { background: var(--stocks); }
+        .re-report .section-bar-economy { color: var(--economy); } .re-report .section-bar-economy::before { background: var(--economy); }
+        .re-report .section-bar-crypto { color: var(--crypto); } .re-report .section-bar-crypto::before { background: var(--crypto); }
+        .re-report .sources-box { background: var(--paper); border: 1px solid var(--hairline); border-radius: 12px; padding: 18px 20px; margin-top: 26px; }
+        .re-report .sources-box h3 { font-family: var(--sans); color: var(--gold-dark); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; margin: 0 0 10px; padding: 0; border: 0; }
+        .re-report .sources-box ul { margin: 0; padding: 0; list-style: none; }
+        .re-report .sources-box li { font-size: 13px; color: var(--ink-soft); padding-left: 0; margin-bottom: 5px; }
+        .re-report .sources-box li::before { display: none; }
+        .re-report .sources-box a { color: var(--gold-dark); text-decoration: none; border-bottom: 1px solid var(--hairline); }
+        .re-report .sources-box a:hover { border-bottom-color: var(--gold); }
+        .re-report .disclaimer { background: transparent; border: 0; border-top: 1px solid var(--hairline); padding: 16px 0 0; font-style: normal; font-size: 12.5px; color: var(--muted); margin-top: 24px; line-height: 1.6; }
+        .re-report .disclaimer strong { color: var(--ink-soft); }
+        .re-lightbox { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(28,26,21,0.9); z-index: 999999; display: flex; align-items: center; justify-content: center; padding: 28px; cursor: zoom-out; }
+        .re-lightbox img { max-width: 94vw; max-height: 90vh; width: auto; height: auto; background: #fff; border-radius: 10px; box-shadow: 0 24px 80px rgba(0,0,0,0.55); }
+        .re-lightbox-close { position: fixed; top: 12px; right: 20px; color: #fff; font: 700 36px/1 Arial, sans-serif; cursor: pointer; }
+        @media (max-width: 900px) { .re-report .newsletter-container { max-width: 100%; padding: 28px 22px; } }
+        @media (max-width: 600px) { .re-report { font-size: 15.5px; } .re-report #chart { padding: 8px; border-radius: 12px; } .re-report .newsletter-container { padding: 22px 16px; border-radius: 12px; } .re-report .stat-line { padding: 13px 14px; font-size: 14px; } .re-report .stat-line strong { font-size: 17px; } .re-lightbox { padding: 12px; } }
 </style>`;
 
 /** Assemble the full standalone CMS page. `newsletterInner` is the inner HTML of .newsletter-container. */
@@ -176,30 +189,19 @@ function buildCmsHtml({ dateLabel, chartSrc, newsletterInner, pageTitle = '', de
   // JSON-LD) may go in this document — Drupal strips inline scripts and truncates
   // everything after the first one, which would eat the newsletter. og/twitter
   // are <meta> tags (safe); Drupal owns the canonical SEO via the cms-meta sidecar.
+  // The whole head prelude is emitted as ONE line: Drupal's line-break filter
+  // turns every newline into a <br />, and a stack of ~10 breaks from invisible
+  // meta tags rendered as a big empty gap under the page title (2026-07-06).
   const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const t = esc(pageTitle), d = esc(description);
-  return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${t}</title>
-<meta name="description" content="${d}">
-<meta property="og:type" content="article">
-<meta property="og:title" content="${t}">
-<meta property="og:description" content="${d}">
-<meta property="og:site_name" content="REALTY EXPERTS&reg;">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="${t}">
-<meta name="twitter:description" content="${d}">
-<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
-${STYLE_BLOCK}
-
+  return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${t}</title><meta name="description" content="${d}"><meta property="og:type" content="article"><meta property="og:title" content="${t}"><meta property="og:description" content="${d}"><meta property="og:site_name" content="REALTY EXPERTS&reg;"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="${t}"><meta name="twitter:description" content="${d}"><script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>${STYLE_BLOCK}
+<div class="re-report">
 <div class="date-badge"><span>${dateLabel} &middot; Alameda County Market Dashboard</span></div>
-
-<div class="info-banner"><strong>Tip:</strong> Tap a city in the legend to show or hide it &bull; Default view: ${banner}</div>
-
+<div class="info-banner"><strong>Tip:</strong> Tap a city in the legend to show or hide it &bull; Default view: ${banner} &bull; Tap any chart image below to enlarge</div>
 <div id="chart">&nbsp;</div>
-
 <div class="newsletter-container">
 ${newsletterInner}</div>
-
+</div>
 <script src="${chartSrc}"></script>
 `;
 }
