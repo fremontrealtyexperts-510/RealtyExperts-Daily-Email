@@ -16,21 +16,42 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const SECRETS_FILE = '/Users/harvinderbalu1/Library/CloudStorage/OneDrive-Personal/ClaudeCode/REALTY-EXPERTS-Agent-Hub/.env.secrets';
 const ENV_FILE = path.join(__dirname, '.env');
+const HOME = process.env.HOME || require('os').homedir();
+// Where ADMIN_ACCESS_CODE may live, first hit wins. The repo's own .env is the
+// portable source that exists on BOTH the Mac and the VPS (the external Agent Hub
+// secrets file moved from OneDrive → Google Drive on the Mac and is absent on the
+// VPS). Override with the ADMIN_ACCESS_CODE env var or the AGENT_HUB_SECRETS path.
+const SECRETS_CANDIDATES = [
+  process.env.AGENT_HUB_SECRETS,
+  ENV_FILE,
+  path.join(HOME, 'Library/CloudStorage/GoogleDrive-harvinder.balu@gmail.com/My Drive/REALTY-EXPERTS-Agent-Hub/.env.secrets'),
+  path.join(HOME, 'Library/CloudStorage/OneDrive-Personal/ClaudeCode/REALTY-EXPERTS-Agent-Hub/.env.secrets'),
+  path.join(HOME, 'workspaces/REALTY-EXPERTS-Agent-Hub/.env.secrets'),
+].filter(Boolean);
 const SUPABASE_HOST = 'hbsodfrxadlfladdgvgy.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhic29kZnJ4YWRsZmxhZGRndmd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI5MTA2MDcsImV4cCI6MjA4ODQ4NjYwN30.tuF35cSBp4mS31X4wtmBsFnLQil-UZ-oX_FXu6QN-fM';
 
 function readAdminCode() {
-  if (!fs.existsSync(SECRETS_FILE)) {
-    throw new Error(`Secrets file not found: ${SECRETS_FILE}`);
+  // 1. Direct env override (CI / one-off runs).
+  if (process.env.ADMIN_ACCESS_CODE && process.env.ADMIN_ACCESS_CODE.trim()) {
+    return process.env.ADMIN_ACCESS_CODE.trim();
   }
-  const content = fs.readFileSync(SECRETS_FILE, 'utf8');
-  const match = content.match(/^ADMIN_ACCESS_CODE=(.+)$/m);
-  if (!match) {
-    throw new Error('ADMIN_ACCESS_CODE not found in .env.secrets');
+  // 2. First candidate file that defines ADMIN_ACCESS_CODE wins.
+  const tried = [];
+  for (const file of SECRETS_CANDIDATES) {
+    tried.push(file);
+    try {
+      if (!fs.existsSync(file)) continue;
+      const match = fs.readFileSync(file, 'utf8').match(/^ADMIN_ACCESS_CODE=(.+)$/m);
+      if (match && match[1].trim()) return match[1].trim();
+    } catch { /* unreadable — try the next */ }
   }
-  return match[1].trim();
+  throw new Error(
+    'ADMIN_ACCESS_CODE not found. Set the ADMIN_ACCESS_CODE env var, add it to ' +
+    `${ENV_FILE}, or point AGENT_HUB_SECRETS at a REALTY-EXPERTS-Agent-Hub/.env.secrets. ` +
+    `Looked in: ${tried.join(', ')}`
+  );
 }
 
 function callValidateAccessCode(code) {
