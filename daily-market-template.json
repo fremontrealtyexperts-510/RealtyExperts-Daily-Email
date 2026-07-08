@@ -1,40 +1,40 @@
 {
-  "date": "07/07/26",
+  "date": "07/08/26",
   "time": "9:30 AM",
   "stocks": {
-    "sp500": "7,537 (+0.72%)",
-    "dow": "53,055 (+0.29%)",
-    "nasdaq": "26,121 (+1.12%)",
-    "note": "Numbers as of market close on July 6th.",
-    "news": "Stocks opened the week higher, and they had an unusual guest at the podium. President Trump became the first sitting president to ring the opening bell, doing it from the Oval Office. The S&P 500 rose 0.72% to 7,537, the NASDAQ climbed 1.12% to 26,121, and the DOW added 0.29% to 53,055. He also plugged Dell (DELL +4.40%) and declared himself \"a big crypto guy\" (more on that below).\n\nThe unicorn stampede has slowed to a trot. The AI boom has minted 90 new unicorns (startups worth over $1 billion) so far this year, a far cry from the 622 created back in 2021 (see today's chart). Money is pickier now, and a billion-dollar valuation is harder to come by.\n\nDeals and cuts filled the tape too. Lockheed Martin (LMT -1.45%) is buying submarine-detection firm Ultra Maritime for about $3.4 billion as navies race to guard the deep. Nvidia (NVDA +0.37%) pushed its Kyber supercomputer rack system out to 2028 on manufacturing snags. And Microsoft (MSFT -0.96%) is cutting roughly 4,800 jobs and spinning off four game studios, with its shares down more than 18% on the year.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/unicorn-count-070726.png",
-      "alt": "Global new unicorn count by year, from Crunchbase: 622 in 2021, 328 in 2022, 102 in 2023, 117 in 2024, 187 in 2025, and 90 so far in 2026.",
-      "caption": "New unicorns have cooled sharply since the 2021 boom. The AI wave has produced 90 so far in 2026, a fraction of the 622 minted in 2021.",
-      "source": "Source: Crunchbase."
-    }
+    "sp500": "7,503 (-0.45%)",
+    "dow": "52,925 (-0.25%)",
+    "nasdaq": "25,818 (-1.16%)",
+    "note": "Numbers as of market close on July 7th.",
+    "news": "Stocks slipped across the board to start the day. The S&P 500 eased 0.45% to 7,503, the DOW dipped 0.25% to 52,925, and the NASDAQ led the way down, off 1.16% to 25,818, as renewed tension between the U.S. and Iran put investors on edge.\n\nThe AI build-out is now a borrowing story. Amazon (AMZN +0.75%) is tapping the bond market for $25 billion to fund its AI infrastructure, calling the technology a once-in-a-lifetime opportunity worth the debt. It joins a parade of big bond sales from SpaceX, Nvidia (NVDA +0.71%), and others.\n\nTwo eye-catching moves rounded out the tape. Rivian jumped into a large stock sale, offering 75 million new shares to raise cash, and the dilution knocked its shares down about 18% at one point. And Samsung posted an eye-popping 1,800% jump in operating profit, yet its stock fell 8% because stellar AI numbers are now simply expected."
   },
   "economy": {
-    "us10year": "4.49% (+0.01%)",
-    "gold": "$4,157 (-0.25%)",
-    "silver": "$61.36 (-1.03%)",
-    "wti": "$72.64 (+0.90%)",
+    "us10year": "4.45% (+0.02%)",
+    "gold": "$4,133 (-0.57%)",
+    "silver": "$58.53 (-2.43%)",
+    "wti": "$76.58 (+3.30%)",
     "oil_label": "Brent Crude",
-    "note": "Stocks and the 10-Year as of the July 6th close; gold, silver, and Brent are spot as of July 6th to 7th (Market Briefs, Trading Economics, Fortune).",
-    "commentary": "Metals eased off recent highs. Gold slipped 0.25% to $4,157 and silver gave back 1.03% to $61.36, while the 10-year Treasury yield held at 4.49% and Brent crude firmed 0.90% to $72.64.\n\nThe big personal-finance story is student loans. Servicers are telling more than 6.9 million borrowers that the SAVE plan is ending, and they have 90 days to choose a new one. Do nothing and you get moved to the Standard Plan, usually the priciest option. Americans hold about $1.7 trillion in federal student debt across 43 million borrowers, so this reshuffle touches a lot of household budgets and, by extension, how much buyers can carry toward a home."
+    "note": "Stocks and the 10-Year as of the July 7th close; gold, silver, and Brent are spot as of July 7th to 8th (Market Briefs, Trading Economics, Forbes).",
+    "commentary": "The 10-year Treasury yield ticked up to 4.45%, climbing back from a June dip near 4.38% but still shy of its spring peak of 4.65% (see today's chart). Inflation and labor data remain the key drivers from here, and the flare-up with Iran only adds to the uncertainty.\n\nGold has lost its shine. After months of gains, it has slid more than 20% from its January peak and is now officially in a bear market, with investors pulling about $18 billion from gold ETFs. Gold eased another 0.57% to $4,133 and silver dropped 2.43% to $58.53, while Brent crude jumped 3.30% to $76.58 after the U.S. revoked Iran's oil export license.\n\nOn the savings front, the new Trump accounts have launched, enrolling more than 6 million children with a $1,000 government seed that converts to an IRA at 18. It lands at a timely moment: Gallup says about half of U.S. households have nothing saved for retirement.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/treasury-10yr-070826.png",
+      "alt": "U.S. 10-year Treasury yield, trailing 12 months: 4.24% in August, easing to a 3.97% low in November, climbing to a 4.65% spring peak in April, dipping to 4.38% in June, and back to 4.45% in July.",
+      "caption": "The 10-year Treasury yield has climbed back to 4.45% after a June dip near 4.38%, still shy of its 4.65% spring peak. Inflation and labor data remain the key drivers.",
+      "source": "Source: U.S. Treasury."
+    }
   },
   "crypto": {
-    "btc": "$63,301 (-1.09%)",
-    "eth": "$1,781 (-0.90%)",
-    "xrp": "$1.12 (-1.73%)",
-    "note": "Numbers as of 4:00 PM ET, July 6th.",
-    "commentary": "Crypto caught a headline bid. President Trump called himself \"a big crypto guy,\" and the market read that as a friendlier regulatory wind, giving Bitcoin a lift after a rough week. Bitcoin sat at $63,301, Ether at $1,781, and XRP at $1.12 in the latest reading.\n\nNot everyone is celebrating. Strategy (MSTR), the largest corporate Bitcoin holder, is now about $11.4 billion underwater on its stash, which is worth less than the $63.7 billion it paid. The loss is only on paper unless it sells, but it is a reminder that even the biggest believers feel the swings."
+    "btc": "$62,734 (-0.94%)",
+    "eth": "$1,751 (-0.94%)",
+    "xrp": "$1.09 (-1.74%)",
+    "note": "Numbers as of 4:00 PM ET, July 7th.",
+    "commentary": "Crypto drifted lower, with Bitcoin off 0.94% to $62,734, Ether down 0.94% to $1,751, and XRP off 1.74% to $1.09. Even so, adoption keeps spreading: Tether put $20 million into Mercado Bitcoin, a top Brazilian exchange, betting that stablecoins can reach the millions of Brazilians who bank around high inflation without a traditional account.\n\nA longer-term worry resurfaced too. Galaxy Digital (GLXY -2.64%) estimates that future quantum computers could put about $470 billion of Bitcoin, roughly a third of all coins in circulation, at risk by cracking the math that secures it. That threat is years away, but it is on the industry's radar."
   },
   "real_estate": {
-    "rate_30year": "6.69%",
-    "rate_15year": "6.16%",
-    "homebuilder": "Mortgage Rates Tick Up To 6.69% As Trump Rings The Opening Bell; Wall Street Landlords Start Selling Faster Than They Buy; The East Bay Board Eases To 2,725 Active On 114 New And 223 Closed",
-    "commentary": "The 30-year fixed ticked up to 6.69% and the 15-year to 6.16%. Rates in this range keep the lock-in effect firmly in place, so owners stay put rather than trade a low rate for a higher one, and resale supply stays tight.\n\nA shift worth watching for buyers: Wall Street's biggest home landlords are now selling faster than they are buying, for the first time in years. Eight large operators sold a net 3,011 more homes in the second quarter, a 408% jump from a year ago, as a proposed federal ban on institutional buying rattles the model. If it holds, that means more homes and less competition from deep-pocketed investors down the road.\n\nThe equity picture is a tale of two markets. Most U.S. owners are sitting on plenty of equity, but a few Sunbelt cities are slipping underwater. In Cape Coral to Fort Myers, 11.1% of mortgages are now worth more than the home after prices fell 18.9%. The Bay Area, where supply stays tight and values hold, sits on the other side of that ledger.\n\nLocally, the East Bay board eased to 2,725 active (down 23 from yesterday), with 114 new listings and 223 closings. Oakland again led the board with 26 new on 715 active; Fremont added 12 new on 329 active.\n\n📍 Alameda & Contra Costa Snapshot (07/07/26, new listings / active)\n\n📍 Oakland: 26 new / 715 active (board leader).\n\n📍 Livermore: 13 new / 202 active.\n\n📍 Fremont: 12 new / 329 active.\n\n📍 Hayward: 12 new / 262 active.\n\n📍 Danville: 10 new / 178 active.\n\n📍 Castro Valley: 6 new / 88 active.\n\n📍 Newark: 6 new / 116 active.\n\n📍 San Ramon: 6 new / 200 active.\n\n📍 Dublin: 6 new / 190 active.\n\n📍 Union City: 5 new / 79 active.\n\n📍 Pleasanton: 5 new / 146 active.\n\n📍 San Leandro: 4 new / 86 active.\n\n📍 Milpitas: 1 new / 106 active.\n\n📍 Sunol: 1 new / 8 active.\n\n📍 San Lorenzo: 1 new / 20 active.\n\nNew-listing flow totaled 114, led by Oakland (26), Livermore (13), Fremont (12), and Hayward (12). Closings came in at 223.\n\nFor agents: rates nudged up and inventory stays tight, so well-priced, well-presented homes still move inside about four weeks. Institutional sellers stepping back could hand real buyers a little more room later this year, but for now the coaching holds: price to today's market and the sale follows.",
+    "rate_30year": "6.63%",
+    "rate_15year": "6.17%",
+    "homebuilder": "Mortgage Rates Ease To 6.63% As The Housing Market Cools; Asking Prices Post Their Biggest Yearly Drop Since 2017; The East Bay Board Holds At 2,724 Active On 133 New And 211 Closed",
+    "commentary": "The 30-year fixed eased to 6.63% and the 15-year held at 6.17%. A small step down, but rates in this range keep the lock-in effect in place, so most owners stay put and resale supply stays tight.\n\nThe bigger story is a market that is finally cooling. About 44% of agents now describe conditions as balanced, and national asking prices have fallen 2.5% from a year ago, the biggest annual drop since 2017. For buyers, that translates into more negotiating room and fewer bidding wars than we have seen in years.\n\nThere is a quieter shift on the commercial side too. AI data-center demand is spilling into warehouses, with data-center tenants now taking more than 40% of new industrial leasing in some markets. More competition for space can mean firmer rents for warehouse owners.\n\nLocally, the East Bay board held at 2,724 active (essentially flat from yesterday), with 133 new listings and 211 closings. Oakland again led the board with 31 new on 713 active; Fremont added 14 new on 328 active.\n\n📍 Alameda & Contra Costa Snapshot (07/08/26, new listings / active)\n\n📍 Oakland: 31 new / 713 active (board leader).\n\n📍 Fremont: 14 new / 328 active.\n\n📍 Livermore: 14 new / 209 active.\n\n📍 Hayward: 12 new / 266 active.\n\n📍 Dublin: 12 new / 189 active.\n\n📍 Danville: 11 new / 181 active.\n\n📍 Castro Valley: 10 new / 92 active.\n\n📍 Pleasanton: 8 new / 148 active.\n\n📍 Newark: 7 new / 112 active.\n\n📍 Union City: 4 new / 75 active.\n\n📍 San Ramon: 4 new / 195 active.\n\n📍 San Leandro: 4 new / 84 active.\n\n📍 Milpitas: 1 new / 106 active.\n\n📍 Sunol: 1 new / 8 active.\n\n📍 San Lorenzo: 0 new / 18 active.\n\nNew-listing flow totaled 133, led by Oakland (31), Fremont (14), and Livermore (14). Closings came in at 211.\n\nFor agents: the cooling is real but gradual, and well-priced, well-presented homes still move inside about four weeks. With buyers gaining a little leverage, the coaching sharpens: price to today's market, because the days of naming your number are fading.",
     "local_news": ""
   },
   "sources": [
@@ -42,8 +42,8 @@
     "https://market.briefs.co/",
     "https://tradingeconomics.com/commodity/gold",
     "https://tradingeconomics.com/commodity/silver",
-    "https://www.crunchbase.com/"
+    "https://home.treasury.gov/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/bf7fc00b-a18c-43d2-bb99-670553ac9616",
-  "qr_code_path": "note-qr-bf7fc00b.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/00b2129a-898f-4b6c-89f4-10da0144a9ca",
+  "qr_code_path": "note-qr-00b2129a.png"
 }
