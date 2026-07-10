@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/10/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/10/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 10, 2026: the 30-year mortgage eases to 6.65% and the East Bay board jumps to 2,811 active listings, as the national median existing-home price sets a record $440,600 in June, sales slip 2.4% on tight supply, and the Fed weighs a rethink under new Chair Kevin Warsh.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Castro Valley, Danville, Milpitas, Union City, Newark, San Leandro, mortgage rates, housing market, daily market update, At a Glance, REALTY EXPERTS, median home price record, existing home sales, Fed, gold, silver, Bitcoin, July 2026
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
