@@ -62,18 +62,26 @@ def pivot(rows):
     tot = [sum(col) for col in zip(*out)]
     return out, tot
 
-# ── colors (match the Google-Sheets look) ───────────────────────────────────
-BLUE = "#2f6df6"; DARKTXT = "#1f3864"; GRAY = "#808080"; BLACK = "#000000"
-HDR_BLUE_TXT = "#5b9bd5"
+# ── colors (Meridian cream table — high contrast for senior readability) ─────
+# Replaced the old blue/white rows (hard for older agents to read) with a soft
+# cream zebra + near-black text (Harv 2026-07-10). Header + grand-total row stay
+# dark as anchors. SERIES (chart) colors are unchanged.
+CREAM_BAND = "#FAF3E0"   # soft cream row
+CREAM_ALT  = "#FFFDF7"   # near-white alternate row
+INK        = "#111111"   # near-black text
+BLACK      = "#000000"   # header + grand-total row ground
 SERIES = [("TH Active", "#4472C4"), ("TH Pending", "#ED7D31"), ("CO Active", "#C00000"),
           ("CO Pending", "#FFC000"), ("DU/DE/PH Active", "#5B9BD5"), ("DU/DE/PH Pending", "#70AD47")]
 
 def render_table(rows_data, tot, out):
+    # Per-city "Total" column (rows_data idx 6) removed per Harv 2026-07-10; the
+    # board grand total is retained in the bottom row's label so the headline
+    # active count still shows.
     headers = ["Cities", "TH\nActive/BOMK\n/PCH/New", "TH\nPending", "CO\nActive/BOMK\n/PCH/New",
-               "CO\nPending", "DU/DE/PH\nActive/BOMK\n/PCH/New", "DU/DE/PH\nPending", "Total", "All CS", "All New"]
-    blue_hdr_cols = {1, 3, 5}
-    body = [[CITIES[i][0]] + [f"{v:,}" for v in rows_data[i]] for i in range(len(CITIES))]
-    body.append(["Total"] + [f"{v:,}" for v in tot])
+               "CO\nPending", "DU/DE/PH\nActive/BOMK\n/PCH/New", "DU/DE/PH\nPending", "All CS", "All New"]
+    body = [[CITIES[i][0]] + [f"{v:,}" for v in (rows_data[i][:6] + rows_data[i][7:])]
+            for i in range(len(CITIES))]
+    body.append([f"TOTAL ({tot[6]:,})"] + [f"{v:,}" for v in (tot[:6] + tot[7:])])
     fig, ax = plt.subplots(figsize=(13.5, 6.2)); ax.axis("off")
     tbl = ax.table(cellText=[headers] + body, cellLoc="center", loc="center")
     tbl.auto_set_font_size(False); tbl.set_fontsize(10.5); tbl.scale(1, 2.0)
@@ -81,22 +89,17 @@ def render_table(rows_data, tot, out):
     for (r, c), cell in tbl.get_celld().items():
         cell.set_edgecolor("#d9d9d9"); cell.set_linewidth(0.6)
         if r == 0:  # header
-            cell.set_facecolor(GRAY if c == 7 else BLACK)
-            cell.get_text().set_color(HDR_BLUE_TXT if c in blue_hdr_cols else "white")
-            cell.get_text().set_fontweight("bold"); cell.set_height(0.13)
-        elif r == nrows - 1:  # Total row
+            cell.set_facecolor(BLACK)
+            cell.get_text().set_color("white"); cell.get_text().set_fontweight("bold")
+            cell.set_height(0.13)
+        elif r == nrows - 1:  # grand-total row
             cell.set_facecolor(BLACK); cell.get_text().set_color("white"); cell.get_text().set_fontweight("bold")
-        else:
-            band_blue = (r % 2 == 1)  # Fremont(r=1) blue, alternate
-            if c == 7:  # Total column always gray
-                cell.set_facecolor(GRAY); cell.get_text().set_color("white"); cell.get_text().set_fontweight("bold")
-            elif band_blue:
-                cell.set_facecolor(BLUE); cell.get_text().set_color("white")
-            else:
-                cell.set_facecolor("white"); cell.get_text().set_color(DARKTXT)
+        else:  # city rows — cream zebra, near-black text
+            cell.set_facecolor(CREAM_BAND if (r % 2 == 1) else CREAM_ALT)
+            cell.get_text().set_color(INK)
             if c == 0:
                 cell.get_text().set_fontweight("bold")
-    tbl.auto_set_column_width([0,1,2,3,4,5,6,7,8,9])
+    tbl.auto_set_column_width(list(range(ncols)))
     fig.savefig(out, dpi=150, bbox_inches="tight", pad_inches=0.15); plt.close(fig)
 
 CAP = 130  # y-axis ceiling; taller bars clip (so Oakland doesn't dominate) and get a value label
