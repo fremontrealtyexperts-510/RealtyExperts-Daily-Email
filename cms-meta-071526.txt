@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/15/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/15/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 15, 2026: the 30-year mortgage eases to 6.70% and the East Bay board slips to 2,738 active listings as closings outpace new listings, while IBM has its worst day since 1987 on an earnings miss and Fed Chair Warsh vows to hold the line on 3.5% inflation.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Castro Valley, Danville, Milpitas, Union City, Newark, San Leandro, mortgage rates, housing market, daily market update, At a Glance, REALTY EXPERTS, CPI inflation, IBM stock, Fed rate decision, data center ban, gold, silver, Bitcoin, July 2026
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
