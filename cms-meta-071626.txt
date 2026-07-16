@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/16/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/16/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 16, 2026: the 30-year sits at 6.64% as the weekly average prints a near one year high and purchase applications slide 7%, the East Bay board climbs to 2,776 active listings, luxury prices split from the rest of the market, and gold slips toward $4,000.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Castro Valley, Danville, Milpitas, Union City, Newark, San Leandro, mortgage rates, housing market, daily market update, At a Glance
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
