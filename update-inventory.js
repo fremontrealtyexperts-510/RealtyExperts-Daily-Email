@@ -48,6 +48,18 @@ async function main() {
     console.warn('  Falling back to existing chart file on disk (if any).');
   }
 
+  // 6b. Regenerate live-inventory.json (harvrealtor.net /live-inventory feed)
+  //     from the newest dated Paragon export. Non-fatal like the chart above:
+  //     a failure leaves yesterday's file in place and never blocks the push.
+  try {
+    const { buildLiveInventory } = require('./generate-live-inventory');
+    const inv = await buildLiveInventory({ date: data.date });
+    console.log(`  ✅ live-inventory.json regenerated (${inv.count} listings, ${inv.cities} cities)`);
+  } catch (err) {
+    console.warn(`  ⚠️  live-inventory regeneration failed: ${err.message}`);
+    console.warn('  Falling back to the existing live-inventory.json on disk (if any).');
+  }
+
   // 7. Update chart HTML
   if (fs.existsSync(CHART_HTML_PATH)) {
     console.log('  Updating html_display (chart)...');

@@ -122,6 +122,7 @@ async function main() {
     `RE-Daily-2-${dateShort}.png`,
     qrFile,
     'daily-market-template.json',
+    'live-inventory.json', // harvrealtor.net /live-inventory feed (GitHub Pages)
   ].filter(f => fs.existsSync(f));
 
   execSync(`git add ${filesToAdd.join(' ')}`, { stdio: 'inherit' });
