@@ -3,6 +3,18 @@
 const fs = require('fs');
 const path = require('path');
 
+// ── Meridian palette (matches lib/html-builders.js + the harvrealtor.com report) ──
+// paper/ink/gold with the muted directional signal (sage up, clay down) approved 2026-07-06.
+const PAL = {
+  paper: '#FAF7F0', ink: '#2E2E2E', soft: '#4A4640', faint: '#7C766B',
+  gold: '#D4AF37', goldDark: '#B08C1E', hair: '#E8E4DA',
+  up: '#5B7551', down: '#A65A44',
+  re: '#B08C1E', stocks: '#3E5C76', economy: '#5B7551', crypto: '#8A5A2B',
+  cardLabel: '#BEB9AE',
+};
+const SERIF = "Georgia, 'Times New Roman', serif";
+const SANS = "'Segoe UI', Arial, Helvetica, sans-serif";
+
 // Read JSON data
 function loadData(jsonFile) {
   const data = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
@@ -30,6 +42,11 @@ function generateSourceLinks(sources) {
         'nytimes.com': 'NYT',
         'foxbusiness.com': 'Fox Business',
         'yahoo.com': 'Yahoo Finance',
+        'bls.gov': 'U.S. Bureau of Labor Statistics',
+        'fred.stlouisfed.org': 'FRED',
+        'market.briefs.co': 'Market Briefs',
+        'tradingeconomics.com': 'Trading Economics',
+        'mortgagenewsdaily.com': 'Mortgage News Daily',
       };
       const publisher = publishers[host] || host.split('.')[0].charAt(0).toUpperCase() + host.split('.')[0].slice(1);
 
@@ -43,30 +60,44 @@ function generateSourceLinks(sources) {
         .replace(/-+/g, ' ')
         .replace(/\b\w/g, c => c.toUpperCase())
         .trim()
-        .slice(0, 30);
+        .slice(0, 30)
+        .replace(/\b(Cpi|Gdp|Wti|Btc|Eth|Xrp|Ytd|Yoy|Nahb|Us)\b/g, m => m.toUpperCase());
 
-      return topic ? `${publisher} - ${topic}` : publisher;
+      return topic ? `${publisher}, ${topic}` : publisher;
     } catch {
       return url.slice(0, 40);
     }
   }
 
   return sources
-    .map(url => `<a href="${url}" style="color: #94a3b8; text-decoration: none;">${labelFromUrl(url)}</a>`)
+    .map(url => `<a href="${url}" style="color: ${PAL.faint}; text-decoration: none;">${labelFromUrl(url)}</a>`)
     .join(' · \n                      ');
 }
 
 // Format commentary text with proper paragraphs and bullets
 function formatCommentary(text) {
+  if (!text) return '';
   // Split by double newlines for paragraphs
   const paragraphs = text.split('\n\n');
+
+  const paraStyle = `margin: 0 0 14px 0; font-family: ${SANS}; font-size: 15px; color: ${PAL.soft}; line-height: 1.75;`;
+
+  // A 📍 line: the snapshot header becomes a small-caps gold kicker; a
+  // "📍 City: numbers" line becomes a hairline ledger row (pin stripped).
+  function pinLine(trimmed) {
+    const body = trimmed.replace(/^📍\s*/, '');
+    const colonMatch = body.match(/^([^:]+):(.*)/s);
+    if (colonMatch) {
+      return `<div style="border-top: 1px solid ${PAL.hair}; padding: 7px 0; font-family: ${SANS}; font-size: 14px; color: ${PAL.soft}; line-height: 1.6;"><strong style="color: ${PAL.ink};">${colonMatch[1].trim()}:</strong>${colonMatch[2]}</div>`;
+    }
+    return `<div style="margin: 22px 0 8px 0; font-family: ${SANS}; font-size: 11px; font-weight: 700; letter-spacing: 1.6px; color: ${PAL.goldDark};">${body.toUpperCase()}</div>`;
+  }
 
   return paragraphs.map(para => {
     // Check if paragraph contains bullet points
     if (para.includes('•')) {
       const lines = para.split('\n');
       let html = '';
-      let isFirstLine = true;
 
       lines.forEach(line => {
         const trimmed = line.trim();
@@ -74,49 +105,55 @@ function formatCommentary(text) {
           // Check if this bullet point has a bold label (ends with :)
           const colonMatch = trimmed.match(/^• ([^:]+):(.*)/);
           if (colonMatch) {
-            html += `<div style="margin: 10px 0 6px 0; line-height: 1.8;"><strong style="color: #1e293b;">• ${colonMatch[1]}:</strong>${colonMatch[2]}</div>`;
+            html += `<div style="margin: 10px 0 6px 0; font-family: ${SANS}; font-size: 15px; color: ${PAL.soft}; line-height: 1.7;"><strong style="color: ${PAL.ink};">• ${colonMatch[1]}:</strong>${colonMatch[2]}</div>`;
           } else {
-            html += `<div style="margin: 6px 0; padding-left: 0; line-height: 1.8;">${trimmed}</div>`;
+            html += `<div style="margin: 6px 0; padding-left: 0; font-family: ${SANS}; font-size: 15px; color: ${PAL.soft}; line-height: 1.7;">${trimmed}</div>`;
           }
         } else if (trimmed.startsWith('📍')) {
-          const locColonMatch = trimmed.match(/^(📍[^:]+:)(.*)/);
-          if (locColonMatch) {
-            html += `<div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">${locColonMatch[1]}</strong>${locColonMatch[2]}</div>`;
-          } else {
-            html += `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
-          }
+          html += pinLine(trimmed);
         } else if (trimmed.startsWith('o ')) {
           // Nested list items (open houses, etc) - normal weight
-          html += `<div style="margin: 6px 0; padding-left: 20px; line-height: 1.8; color: #334155;">${trimmed}</div>`;
+          html += `<div style="margin: 6px 0; padding-left: 20px; font-family: ${SANS}; font-size: 15px; color: ${PAL.soft}; line-height: 1.7;">${trimmed}</div>`;
         } else if (trimmed) {
           // Headers ending with colon should be bold
           if (trimmed.endsWith(':')) {
-            html += `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
+            html += `<div style="margin: 0 0 10px 0; font-family: ${SANS}; font-size: 15px; line-height: 1.7; font-weight: 700; color: ${PAL.ink};">${trimmed}</div>`;
           } else {
-            html += `<div style="margin: 10px 0; line-height: 1.8; font-weight: 600;">${trimmed}</div>`;
+            html += `<div style="margin: 10px 0; font-family: ${SANS}; font-size: 15px; color: ${PAL.soft}; line-height: 1.7; font-weight: 600;">${trimmed}</div>`;
           }
         }
-        if (trimmed) isFirstLine = false;
       });
       return html;
     } else {
       // Check if this paragraph is a location marker or header
       const trimmed = para.trim();
       if (trimmed.startsWith('📍')) {
-        const locColonMatch = trimmed.match(/^(📍[^:]+:)(.*)/);
-        if (locColonMatch) {
-          return `<div style="margin: 20px 0 6px 0; line-height: 1.8; color: #1e293b;"><strong style="font-size: 16px;">${locColonMatch[1]}</strong>${locColonMatch[2]}</div>`;
-        }
-        return `<div style="margin: 20px 0 12px 0; font-weight: 700; font-size: 16px; line-height: 1.6; color: #1e293b;">${trimmed}</div>`;
+        return pinLine(trimmed);
       } else if (trimmed.endsWith(':')) {
-        return `<div style="margin: 0 0 10px 0; line-height: 1.8; font-weight: 700; color: #1e293b;">${trimmed}</div>`;
+        return `<div style="margin: 0 0 10px 0; font-family: ${SANS}; font-size: 15px; line-height: 1.7; font-weight: 700; color: ${PAL.ink};">${trimmed}</div>`;
       }
-      return `<div style="margin: 0 0 16px 0; line-height: 1.8;">${trimmed}</div>`;
+      return `<div style="${paraStyle}">${trimmed}</div>`;
     }
   }).join('');
 }
 
-// Add up/down arrow indicators to values with percentages
+// "$4,061 (+0.1%)" -> { main: "$4,061", change: "+0.1%" }
+function splitValue(v) {
+  const s = String(v == null ? '' : v);
+  const m = s.match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+  return m ? { main: m[1].trim(), change: m[2].trim() } : { main: s.trim(), change: '' };
+}
+
+// Muted directional signal: up = sage, down = clay, flat = ink-soft, no arrow.
+function dirOf(change) {
+  const c = String(change).trim();
+  if (/^[+-]0(\.0+)?%?$/.test(c)) return { arrow: '', color: PAL.soft };
+  if (/^\+/.test(c)) return { arrow: '▲', color: PAL.up };
+  if (/^-/.test(c)) return { arrow: '▼', color: PAL.down };
+  return { arrow: '', color: PAL.soft };
+}
+
+// Add up/down arrow indicators to values with percentages (kept for compatibility)
 function addArrow(value) {
   if (value.includes('+')) {
     return '▲ ' + value;
@@ -126,50 +163,103 @@ function addArrow(value) {
   return value;
 }
 
-// Get value color based on +/- indicator
+// Get value color based on +/- indicator (muted Meridian signal)
 function valueColor(value) {
-  if (!value) return '#1e293b';
-  if (value.includes('+')) return '#16a34a';
-  if (value.includes('-')) return '#dc2626';
-  return '#1e293b';
+  if (!value) return PAL.ink;
+  if (value.includes('+')) return PAL.up;
+  if (value.includes('-')) return PAL.down;
+  return PAL.ink;
 }
 
-// Build the ECONOMY stat-card row.
+// One stat cell: uppercase label, serif numeral, stacked muted delta. Stacking the
+// delta under the value (instead of one long nowrap line) keeps the minimum content
+// width small, so phones no longer zoom the whole email out.
+function statCellInner(label, value) {
+  const { main, change } = splitValue(value || 'n/a');
+  const d = change ? dirOf(change) : null;
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${PAL.paper}" style="background-color: ${PAL.paper}; border: 1px solid ${PAL.hair};">
+                            <tr>
+                              <td style="padding: 12px 14px;">
+                                <div style="font-family: ${SANS}; font-size: 10px; font-weight: 600; color: ${PAL.soft}; letter-spacing: 1.4px;">${label}</div>
+                                <div style="font-family: ${SERIF}; font-size: 21px; font-weight: 700; color: ${PAL.ink}; padding: 5px 0 2px 0; white-space: nowrap;">${main}</div>
+                                ${d ? `<div style="font-family: ${SANS}; font-size: 12px; font-weight: 700; color: ${d.color}; white-space: nowrap;">${d.arrow ? d.arrow + ' ' : ''}${change}</div>` : ''}
+                              </td>
+                            </tr>
+                          </table>`;
+}
+
+// A row of three stat cells (Stocks, Crypto).
+function statRow3(cells) {
+  const tds = cells.map(([label, value]) => `<td width="32%" style="vertical-align: top;">
+                          ${statCellInner(label, value)}
+                        </td>`);
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 14px 0 10px 0;">
+                      <tr>
+                        ${tds.join(`\n                        <td width="2%"></td>\n                        `)}
+                      </tr>
+                    </table>`;
+}
+
+// Build the ECONOMY stat-card grid (2×2).
 // Gold AND Silver are MANDATORY in every report (live-search them when the
 // newsletter omits them — see CLAUDE.md "Gold + Silver" rule). A 4th card
 // (Brent Crude via wti/oil_label, or CPI via cpi/cpi_label) is an optional
-// rotating extra and must never replace gold or silver. Renders 3 or 4 cards.
+// rotating extra and must never replace gold or silver. Renders a 2×2 grid
+// when there are 4 metrics (phone-safe), or a single row of 3.
 function economyStatCards(e) {
   const cards = [
-    { label: 'US 10-Year', value: e.us10year },
-    { label: e.gold_label || 'Gold', value: e.gold },
-    { label: e.silver_label || 'Silver', value: e.silver },
+    ['US 10-YEAR', e.us10year],
+    [(e.gold_label || 'Gold').toUpperCase(), e.gold],
+    [(e.silver_label || 'Silver').toUpperCase(), e.silver],
   ];
-  if (e.wti) cards.push({ label: e.oil_label || 'WTI Crude', value: e.wti });
-  else if (e.cpi) cards.push({ label: e.cpi_label || 'CPI (YoY)', value: e.cpi });
+  if (e.wti) cards.push([(e.oil_label || 'WTI Crude').toUpperCase(), e.wti]);
+  else if (e.cpi) cards.push([(e.cpi_label || 'CPI (YoY)').toUpperCase(), e.cpi]);
 
-  const four = cards.length >= 4;
-  const cellW = four ? '23%' : '32%';
-  const spacerW = four ? '2.6%' : '2%';
+  if (cards.length < 4) return statRow3(cards);
 
-  const cell = (c) => `<td width="${cellW}" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #f0fdf4; border-left: 4px solid #16a34a;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">${c.label}</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(c.value || '')};">${addArrow(c.value || 'n/a')}</div>
-                              </td>
-                            </tr>
-                          </table>
+  const cell = ([label, value]) => `<td width="48%" style="vertical-align: top;">
+                          ${statCellInner(label, value)}
                         </td>`;
-
-  const cells = cards.map(cell).join(`\n                        <td width="${spacerW}"></td>\n                        `);
-
-  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 14px 0 10px 0;">
                       <tr>
-                        ${cells}
+                        ${cell(cards[0])}
+                        <td width="4%"></td>
+                        ${cell(cards[1])}
+                      </tr>
+                      <tr><td colspan="3" style="font-size: 10px; line-height: 10px;">&nbsp;</td></tr>
+                      <tr>
+                        ${cell(cards[2])}
+                        <td width="4%"></td>
+                        ${cell(cards[3])}
                       </tr>
                     </table>`;
+}
+
+// Editorial numbered section header: serif number in the section accent, spaced
+// small-caps title, hairline rule running to the right edge.
+function sectionHeader(num, title, accent) {
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 16px 0;">
+                      <tr>
+                        <td style="white-space: nowrap; padding-right: 14px;">
+                          <span style="font-family: ${SERIF}; font-size: 21px; font-weight: 600; color: ${accent};">${num}</span>
+                          <h2 style="display: inline; margin: 0; font-family: ${SANS}; font-size: 13px; font-weight: 700; color: ${PAL.ink}; letter-spacing: 2.4px;">&nbsp; ${title}</h2>
+                        </td>
+                        <td width="100%" style="border-bottom: 1px solid ${PAL.hair}; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                      </tr>
+                    </table>`;
+}
+
+// Vertical breathing room between sections.
+function sectionGap() {
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="font-size: 26px; line-height: 26px;">&nbsp;</td></tr>
+              </table>`;
+}
+
+// Italic as-of note under a stat grid.
+function asOfNote(text) {
+  if (!text) return '';
+  return `<div style="font-family: ${SANS}; font-size: 12px; color: ${PAL.faint}; font-style: italic; margin: 0 0 14px 0; line-height: 1.55;">${text}</div>`;
 }
 
 // Render 0, 1, or N feature images in a section (each click-to-enlarge,
@@ -186,12 +276,12 @@ function featureImagesHtml(section) {
                       <tr>
                         <td align="center">
                           <a href="${fi.url}" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                            <img src="${fi.url}" alt="${fi.alt || ''}" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid #e2e8f0; cursor: zoom-in;">
+                            <img src="${fi.url}" alt="${fi.alt || ''}" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid ${PAL.hair}; cursor: zoom-in;">
                           </a>
                         </td>
                       </tr>
-                      ${fi.caption ? `<tr><td style="padding: 10px 4px 0 4px; font-size: 13px; color: #475569; line-height: 1.55; font-style: italic;">${fi.caption}</td></tr>` : ''}
-                      ${fi.source ? `<tr><td style="padding: 4px 4px 0 4px; font-size: 11px; color: #94a3b8;">${fi.source}</td></tr>` : ''}
+                      ${fi.caption ? `<tr><td style="padding: 10px 4px 0 4px; font-family: ${SANS}; font-size: 13px; color: ${PAL.soft}; line-height: 1.55; font-style: italic;">${fi.caption}</td></tr>` : ''}
+                      ${fi.source ? `<tr><td style="padding: 4px 4px 0 4px; font-family: ${SANS}; font-size: 11px; color: ${PAL.faint};">${fi.source}</td></tr>` : ''}
                     </table>`).join('\n');
 }
 
@@ -201,6 +291,11 @@ function generateHTML(data) {
   const dateForFile = data.date.replace(/\//g, '');
   const htmlFileName = `daily-market-glance-${dateForFile}.html`;
   const githubBaseUrl = 'https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email';
+
+  // Long-form date for the masthead (e.g. "Wednesday, July 15, 2026")
+  const dParts = data.date.split('/');
+  const dateObj = new Date(2000 + parseInt(dParts[2], 10), parseInt(dParts[0], 10) - 1, parseInt(dParts[1], 10));
+  const longDate = dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
 
   // Head metadata below is for the GitHub Pages "View in Browser" page ONLY.
   // The <head> never survives a copy-paste of the rendered body into Outlook,
@@ -219,6 +314,14 @@ function generateHTML(data) {
     data.economy && data.economy.silver ? `silver ${data.economy.silver}` : '',
   ].filter(Boolean).join(', ');
   const description = `Daily market glance for ${data.date}: ${metricBits}. Local East Bay housing stats and news from REALTY EXPERTS®.`;
+
+  // Hidden preheader: what inbox list views show under the subject line.
+  const preheader = [
+    data.real_estate && data.real_estate.rate_30year ? `30-year ${data.real_estate.rate_30year}` : '',
+    data.stocks && data.stocks.sp500 ? `S&P 500 ${splitValue(data.stocks.sp500).main}` : '',
+    data.economy && data.economy.gold ? `Gold ${splitValue(data.economy.gold).main}` : '',
+    data.crypto && data.crypto.btc ? `BTC ${splitValue(data.crypto.btc).main}` : '',
+  ].filter(Boolean).join(' · ');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -292,10 +395,10 @@ function generateHTML(data) {
         max-width: 100% !important;
       }
       .email-body {
-        padding: 16px !important;
-      }
-      .email-header {
         padding: 24px 16px !important;
+      }
+      .email-masthead {
+        padding: 26px 16px 20px 16px !important;
       }
       .email-hub {
         padding: 16px !important;
@@ -303,45 +406,64 @@ function generateHTML(data) {
     }
   </style>
 </head>
-<body style="margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f0f4f8;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f0f4f8;">
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Arial, Helvetica, sans-serif; background-color: ${PAL.paper};">
+  <!-- Preheader (inbox preview text; hidden in the rendered email) -->
+  <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all;">${preheader}</div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${PAL.paper}" style="background-color: ${PAL.paper};">
     <tr>
-      <td align="center" style="padding: 20px 0;">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container" style="background-color: #ffffff; max-width: 650px;">
-
-          <!-- View in Browser Link -->
+      <td align="center" style="padding: 16px 10px 0 10px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container" style="max-width: 650px;">
           <tr>
-            <td style="background-color: #f1f5f9; padding: 12px 20px; text-align: center; border-bottom: 1px solid #e2e8f0;">
-              <p style="margin: 0; font-size: 13px; color: #64748b;">
-                Having trouble viewing this email? <a href="${githubBaseUrl}/${htmlFileName}" style="color: #2563eb; text-decoration: none; font-weight: 600;">View in Browser</a>
+            <td align="center" style="padding: 0 0 12px 0;">
+              <p style="margin: 0; font-family: ${SANS}; font-size: 12px; color: ${PAL.faint};">
+                Having trouble viewing this email? <a href="${githubBaseUrl}/${htmlFileName}" style="color: ${PAL.goldDark}; text-decoration: none; font-weight: 700;">View in Browser</a>
               </p>
             </td>
           </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 0 10px 32px 10px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="email-container" bgcolor="#FFFFFF" style="background-color: #ffffff; max-width: 650px; border: 1px solid ${PAL.hair};">
 
-          <!-- Header -->
+          <!-- Masthead -->
           <tr>
-            <td class="email-header" style="background-color: #2563eb; padding: 30px 40px; text-align: center;">
-              <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/2022_Logo_WhiteBox-Realtor.jpg" alt="REALTY EXPERTS®" width="250" data-no-lightbox style="display: block; margin: 0 auto 15px; max-width: 100%; height: auto;">
-              <h1 style="margin: 0 0 8px 0; font-size: 28px; font-weight: 700; color: #ffffff;">Daily Market Glance</h1>
-              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">${data.date} - ${data.time}</p>
+            <td class="email-masthead" align="center" style="padding: 36px 40px 24px 40px; border-bottom: 1px solid ${PAL.hair};">
+              <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/2022_Logo_WhiteBox-Realtor.jpg" alt="REALTY EXPERTS®" width="230" data-no-lightbox style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+              <h1 style="margin: 18px 0 12px 0; font-family: ${SERIF}; font-size: 31px; font-weight: 600; color: ${PAL.ink}; letter-spacing: 0.3px;">Daily Market Glance</h1>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td width="50%" style="border-bottom: 1px solid ${PAL.gold}; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                  <td style="white-space: nowrap; padding: 0 14px; font-family: ${SANS}; font-size: 12px; font-weight: 600; color: ${PAL.soft}; letter-spacing: 1.6px;">${longDate.toUpperCase()} · ${data.time}</td>
+                  <td width="50%" style="border-bottom: 1px solid ${PAL.gold}; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                </tr>
+              </table>
             </td>
           </tr>
 
-          <!-- Agent Hub Banner -->
+          <!-- Agent Hub strip -->
           <tr>
-            <td class="email-hub" style="background-color: #f8fafc; padding: 20px 40px; border-bottom: 2px solid #e2e8f0;">
+            <td class="email-hub" bgcolor="${PAL.paper}" style="background-color: ${PAL.paper}; padding: 18px 30px; border-bottom: 1px solid ${PAL.hair};">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td width="70%" style="vertical-align: middle; padding-right: 20px;">
-                    <div style="font-size: 15px; color: #1e293b; line-height: 1.6;">
-                      <strong style="font-size: 16px;">📱 <a href="${data.agent_hub_link}" style="color: #2563eb; text-decoration: none;">View Full Post on Agent Hub</a></strong>
-                      <div style="margin-top: 8px; color: #475569;">
-                        Scan the QR code or visit our Agent Hub for the complete market update. Contact the front desk for your access code.
-                      </div>
+                  <td style="vertical-align: middle; padding-right: 18px;">
+                    <div style="font-family: ${SANS}; font-size: 10px; font-weight: 700; color: ${PAL.goldDark}; letter-spacing: 2.2px; margin-bottom: 6px;">AGENT HUB</div>
+                    <div style="font-family: ${SANS}; font-size: 15px; color: ${PAL.ink}; line-height: 1.5;">
+                      <strong><a href="${data.agent_hub_link}" style="color: ${PAL.ink}; text-decoration: none;">View the full post on our Agent Hub &rarr;</a></strong>
+                    </div>
+                    <div style="margin-top: 6px; font-family: ${SANS}; font-size: 13px; color: ${PAL.soft}; line-height: 1.55;">
+                      Scan the QR code or visit the Agent Hub for the complete market update. Contact the front desk for your access code.
                     </div>
                   </td>
-                  <td width="30%" style="vertical-align: middle; text-align: center;">
-                    <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/${data.qr_code_path}" alt="Agent Hub QR Code" width="100" data-no-lightbox style="display: block; margin: 0 auto; max-width: 100px; height: auto;">
+                  <td width="104" style="vertical-align: middle;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="background-color: #ffffff; border: 1px solid ${PAL.hair};">
+                      <tr>
+                        <td style="padding: 5px;">
+                          <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/${data.qr_code_path}" alt="Agent Hub QR Code" width="92" data-no-lightbox style="display: block; max-width: 92px; height: auto;">
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
               </table>
@@ -350,263 +472,112 @@ function generateHTML(data) {
 
           <!-- Content -->
           <tr>
-            <td class="email-body" style="padding: 40px;">
+            <td class="email-body" style="padding: 32px 40px 36px 40px;">
 
-              <!-- Image 1 -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 24px 0;">
+              <!-- Local MLS snapshot images -->
+              <div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; color: ${PAL.goldDark}; letter-spacing: 2.2px; margin: 0 0 12px 0;">LOCAL MLS SNAPSHOT</div>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 14px 0;">
                 <tr>
                   <td align="center">
                     <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" alt="Local Housing Statistics (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
+                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-1-${dateForFile}.png" alt="Local Housing Statistics (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid ${PAL.hair}; cursor: zoom-in;">
                     </a>
                   </td>
                 </tr>
               </table>
-
-              <!-- Image 2 -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 35px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 8px 0;">
                 <tr>
                   <td align="center">
                     <a href="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" target="_blank" rel="noopener noreferrer" onclick="openLightbox(this.href); return false;" style="display: block; text-decoration: none; cursor: zoom-in;">
-                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" alt="Market Analysis Chart (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; cursor: zoom-in;">
+                      <img src="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main/RE-Daily-2-${dateForFile}.png" alt="Market Analysis Chart (click to enlarge)" width="100%" class="clickable-image" style="display: block; max-width: 100%; height: auto; border: 1px solid ${PAL.hair}; cursor: zoom-in;">
                     </a>
                   </td>
                 </tr>
               </table>
+              <div style="text-align: center; font-family: ${SANS}; font-size: 12px; color: ${PAL.faint}; margin: 0 0 6px 0;">Click an image to enlarge it</div>
 
-              ${data.featured_promo ? `<!-- FEATURED PROMO -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 32px 0;">
+              ${data.featured_promo ? `${sectionGap()}<!-- FEATURED PROMO -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 6px 0;">
                 <tr>
-                  <td style="background-color: #0d9488; padding: 22px 24px; border-left: 6px solid #f97316;">
-                    <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #ffffff; opacity: 0.9; margin-bottom: 8px;">${data.featured_promo.eyebrow}</div>
-                    <h2 style="margin: 0 0 12px 0; font-size: 22px; font-weight: 800; line-height: 1.25; color: #ffffff;">${data.featured_promo.title}</h2>
-                    <div style="font-size: 15px; line-height: 1.6; color: #ffffff; margin-bottom: 14px;">${data.featured_promo.body}</div>
-                    ${data.featured_promo.quote ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 16px 0;"><tr><td style="background-color: rgba(255,255,255,0.12); padding: 14px 18px; border-left: 3px solid #f97316;"><div style="font-size: 14px; font-style: italic; line-height: 1.55; color: #ffffff;">"${data.featured_promo.quote}"</div><div style="font-size: 12px; color: #fed7aa; margin-top: 6px;">${data.featured_promo.quote_attribution}</div></td></tr></table>` : ''}
+                  <td bgcolor="${PAL.ink}" style="background-color: ${PAL.ink}; padding: 24px 26px; border-top: 3px solid ${PAL.gold};">
+                    <div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: ${PAL.gold}; margin-bottom: 10px;">${String(data.featured_promo.eyebrow || '').toUpperCase()}</div>
+                    <h2 style="margin: 0 0 12px 0; font-family: ${SERIF}; font-size: 23px; font-weight: 600; line-height: 1.3; color: #ffffff;">${data.featured_promo.title}</h2>
+                    <div style="font-family: ${SANS}; font-size: 15px; line-height: 1.6; color: #EDEAE2; margin-bottom: 14px;">${data.featured_promo.body}</div>
+                    ${data.featured_promo.quote ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 16px 0;"><tr><td style="border-left: 2px solid ${PAL.gold}; padding: 4px 0 4px 16px;"><div style="font-family: ${SERIF}; font-size: 15px; font-style: italic; line-height: 1.55; color: #ffffff;">"${data.featured_promo.quote}"</div><div style="font-family: ${SANS}; font-size: 12px; color: ${PAL.cardLabel}; margin-top: 6px;">${data.featured_promo.quote_attribution}</div></td></tr></table>` : ''}
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="background-color: #f97316; padding: 11px 20px;">
-                          <a href="${data.featured_promo.primary_link}" style="color: #ffffff; text-decoration: none; font-weight: 700; font-size: 14px;">${data.featured_promo.primary_label} →</a>
+                        <td bgcolor="${PAL.gold}" style="background-color: ${PAL.gold}; padding: 11px 20px;">
+                          <a href="${data.featured_promo.primary_link}" style="color: ${PAL.ink}; text-decoration: none; font-family: ${SANS}; font-weight: 700; font-size: 14px;">${data.featured_promo.primary_label} &rarr;</a>
                         </td>
                         <td width="10"></td>
-                        <td style="background-color: #ffffff; padding: 11px 20px;">
-                          <a href="${data.featured_promo.secondary_link}" style="color: #0d9488; text-decoration: none; font-weight: 700; font-size: 14px;">${data.featured_promo.secondary_label} →</a>
+                        <td style="border: 1px solid ${PAL.gold}; padding: 10px 19px;">
+                          <a href="${data.featured_promo.secondary_link}" style="color: ${PAL.gold}; text-decoration: none; font-family: ${SANS}; font-weight: 700; font-size: 14px;">${data.featured_promo.secondary_label} &rarr;</a>
                         </td>
                       </tr>
                     </table>
                   </td>
                 </tr>
               </table>` : ''}
+
+              ${sectionGap()}
 
               <!-- REAL ESTATE Section -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
+              ${sectionHeader('01', 'REAL ESTATE', PAL.re)}
+              ${data.real_estate.homebuilder ? `<div style="font-family: ${SERIF}; font-size: 18px; font-weight: 600; color: ${PAL.ink}; line-height: 1.45; margin: 0 0 16px 0;">${data.real_estate.homebuilder}</div>` : ''}
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 18px 0;">
                 <tr>
-                  <td>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <td width="48%" style="vertical-align: top;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${PAL.ink}" style="background-color: ${PAL.ink};">
                       <tr>
-                        <td style="background-color: #ea580c; padding: 14px 20px;">
-                          <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
-                            🏠 REAL ESTATE
-                          </h2>
+                        <td align="center" style="padding: 18px 12px;">
+                          <div style="font-family: ${SANS}; font-size: 11px; font-weight: 600; color: ${PAL.cardLabel}; letter-spacing: 1.8px;">30-YEAR FIXED</div>
+                          <div style="font-family: ${SERIF}; font-size: 34px; font-weight: 700; color: ${PAL.gold}; padding-top: 6px; white-space: nowrap;">${data.real_estate.rate_30year}</div>
                         </td>
                       </tr>
                     </table>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
+                  </td>
+                  <td width="4%"></td>
+                  <td width="48%" style="vertical-align: top;">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${PAL.ink}" style="background-color: ${PAL.ink};">
                       <tr>
-                        <td width="48%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #ea580c; text-align: center;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">30-Year Fixed</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #ffffff;">${data.real_estate.rate_30year}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td width="4%"></td>
-                        <td width="48%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #ea580c; text-align: center;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.85); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">15-Year Fixed</div>
-                                <div style="font-size: 32px; font-weight: 700; color: #ffffff;">${data.real_estate.rate_15year}</div>
-                              </td>
-                            </tr>
-                          </table>
+                        <td align="center" style="padding: 18px 12px;">
+                          <div style="font-family: ${SANS}; font-size: 11px; font-weight: 600; color: ${PAL.cardLabel}; letter-spacing: 1.8px;">15-YEAR FIXED</div>
+                          <div style="font-family: ${SERIF}; font-size: 34px; font-weight: 700; color: ${PAL.gold}; padding-top: 6px; white-space: nowrap;">${data.real_estate.rate_15year}</div>
                         </td>
                       </tr>
                     </table>
-                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fff7ed; border-top: 4px solid #ea580c;">
-                      <tr>
-                        <td style="font-size: 15px; color: #334155;">
-                          ${formatCommentary(data.real_estate.homebuilder)}
-                          ${formatCommentary(data.real_estate.commentary)}
-                        </td>
-                      </tr>
-                    </table>
-                    ${featureImagesHtml(data.real_estate)}
                   </td>
                 </tr>
               </table>
+              ${formatCommentary(data.real_estate.commentary)}
+              ${featureImagesHtml(data.real_estate)}
 
-              <!-- Section Divider -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
-                <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
-              </table>
+              ${sectionGap()}
 
               <!-- STOCKS Section -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
-                <tr>
-                  <td>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="background-color: #2563eb; padding: 14px 20px;">
-                          <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
-                            📈 STOCKS
-                          </h2>
-                        </td>
-                      </tr>
-                    </table>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
-                      <tr>
-                        <td width="32%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">S&amp;P 500</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.stocks.sp500)};">${addArrow(data.stocks.sp500)}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td width="2%"></td>
-                        <td width="32%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">DOW</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.stocks.dow)};">${addArrow(data.stocks.dow)}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td width="2%"></td>
-                        <td width="32%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #eff6ff; border-left: 4px solid #2563eb;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">NASDAQ</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.stocks.nasdaq)};">${addArrow(data.stocks.nasdaq)}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                    <div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.stocks.note}</div>
-                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #eff6ff; border-top: 4px solid #2563eb;">
-                      <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.stocks.news)}</td>
-                      </tr>
-                    </table>
-                    ${featureImagesHtml(data.stocks)}
-                  </td>
-                </tr>
-              </table>
+              ${sectionHeader('02', 'STOCKS', PAL.stocks)}
+              ${statRow3([['S&amp;P 500', data.stocks.sp500], ['DOW', data.stocks.dow], ['NASDAQ', data.stocks.nasdaq]])}
+              ${asOfNote(data.stocks.note)}
+              ${formatCommentary(data.stocks.news)}
+              ${featureImagesHtml(data.stocks)}
 
-              <!-- Section Divider -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
-                <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
-              </table>
+              ${sectionGap()}
 
               <!-- ECONOMY Section -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
-                <tr>
-                  <td>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="background-color: #16a34a; padding: 14px 20px;">
-                          <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
-                            💰 ECONOMY
-                          </h2>
-                        </td>
-                      </tr>
-                    </table>
-                    ${economyStatCards(data.economy)}
-                    ${data.economy.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.economy.note}</div>` : ''}
-                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #f0fdf4; border-top: 4px solid #16a34a;">
-                      <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.economy.commentary)}</td>
-                      </tr>
-                    </table>
-                    ${featureImagesHtml(data.economy)}
-                  </td>
-                </tr>
-              </table>
+              ${sectionHeader('03', 'ECONOMY', PAL.economy)}
+              ${economyStatCards(data.economy)}
+              ${asOfNote(data.economy.note)}
+              ${formatCommentary(data.economy.commentary)}
+              ${featureImagesHtml(data.economy)}
 
-              ${data.crypto ? `<!-- Section Divider -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 10px 0;">
-                <tr><td style="border-bottom: 1px solid #e2e8f0; font-size: 1px; height: 1px;">&nbsp;</td></tr>
-              </table>
+              ${data.crypto ? `${sectionGap()}
 
               <!-- CRYPTO Section -->
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 10px;">
-                <tr>
-                  <td>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                      <tr>
-                        <td style="background-color: #f59e0b; padding: 14px 20px;">
-                          <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #ffffff;">
-                            ₿ CRYPTO
-                          </h2>
-                        </td>
-                      </tr>
-                    </table>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 12px 0;">
-                      <tr>
-                        <td width="32%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">BTC</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.crypto.btc)};">${addArrow(data.crypto.btc)}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td width="2%"></td>
-                        <td width="32%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">ETH</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.crypto.eth)};">${addArrow(data.crypto.eth)}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                        <td width="2%"></td>
-                        <td width="32%" style="vertical-align: top;">
-                          <table role="presentation" width="100%" cellpadding="12" cellspacing="0" border="0" style="background-color: #fffbeb; border-left: 4px solid #f59e0b;">
-                            <tr>
-                              <td>
-                                <div style="font-size: 11px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">XRP</div>
-                                <div style="font-size: 17px; font-weight: 700; white-space: nowrap; color: ${valueColor(data.crypto.xrp)};">${addArrow(data.crypto.xrp)}</div>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-                    ${data.crypto.note ? `<div style="font-size: 12px; color: #64748b; font-style: italic; margin-bottom: 12px;">${data.crypto.note}</div>` : ''}
-                    <table role="presentation" width="100%" cellpadding="16" cellspacing="0" border="0" style="background-color: #fffbeb; border-top: 4px solid #f59e0b;">
-                      <tr>
-                        <td style="font-size: 15px; color: #334155;">${formatCommentary(data.crypto.commentary)}</td>
-                      </tr>
-                    </table>
-                    ${featureImagesHtml(data.crypto)}
-                  </td>
-                </tr>
-              </table>` : ''}
+              ${sectionHeader('04', 'CRYPTO', PAL.crypto)}
+              ${statRow3([['BTC', data.crypto.btc], ['ETH', data.crypto.eth], ['XRP', data.crypto.xrp]])}
+              ${asOfNote(data.crypto.note)}
+              ${formatCommentary(data.crypto.commentary)}
+              ${featureImagesHtml(data.crypto)}` : ''}
 
             </td>
           </tr>
@@ -616,22 +587,22 @@ function generateHTML(data) {
             <td style="padding: 0;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
-                  <td style="background-color: #2563eb; height: 4px; font-size: 1px;">&nbsp;</td>
+                  <td bgcolor="${PAL.gold}" style="background-color: ${PAL.gold}; height: 2px; font-size: 1px; line-height: 1px;">&nbsp;</td>
                 </tr>
               </table>
-              <table role="presentation" width="100%" cellpadding="24" cellspacing="0" border="0" style="background-color: #f8fafc;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="${PAL.paper}" style="background-color: ${PAL.paper};">
                 <tr>
-                  <td style="text-align: center;">
-                    <p style="margin: 0 0 8px 0; font-weight: 600; color: #2563eb; font-size: 14px;">REALTY EXPERTS®</p>
-                    <p style="margin: 0 0 8px 0; color: #64748b; font-size: 13px;">"Our Experience is the Difference"</p>
-                    <p style="margin: 0 0 12px 0; color: #64748b; font-size: 13px;">Daily Market Glance · ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
-                    <p style="margin: 0 0 16px 0; color: #2563eb; font-size: 13px;"><a href="https://TeamRealtyExperts.com" style="color: #2563eb; text-decoration: none; font-weight: 600;">TeamRealtyExperts.com</a></p>
-                    <p style="margin: 0; color: #94a3b8; font-size: 11px; line-height: 1.6; border-top: 1px solid #e2e8f0; padding-top: 14px;">Disclaimer: The market data, rates, and information provided in this email are for informational purposes only and should not be considered financial advice. Figures are sourced from third-party providers and may be delayed or subject to change. Always verify rates and data with your lender or financial advisor before making any decisions.</p>
-                    <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 10px; line-height: 1.5;">
+                  <td align="center" style="padding: 28px 30px;">
+                    <p style="margin: 0 0 4px 0; font-family: ${SERIF}; font-size: 17px; font-weight: 600; color: ${PAL.ink}; letter-spacing: 0.5px;">REALTY EXPERTS®</p>
+                    <p style="margin: 0 0 10px 0; font-family: ${SERIF}; font-style: italic; color: ${PAL.soft}; font-size: 13px;">"Our Experience is the Difference"</p>
+                    <p style="margin: 0 0 12px 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 12px; letter-spacing: 0.8px;">DAILY MARKET GLANCE · ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toUpperCase()}</p>
+                    <p style="margin: 0 0 18px 0; font-size: 13px;"><a href="https://TeamRealtyExperts.com" style="font-family: ${SANS}; color: ${PAL.goldDark}; text-decoration: none; font-weight: 700;">TeamRealtyExperts.com</a></p>
+                    <p style="margin: 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 11px; line-height: 1.65; border-top: 1px solid ${PAL.hair}; padding-top: 14px;">Disclaimer: The market data, rates, and information provided in this email are for informational purposes only and should not be considered financial advice. Figures are sourced from third-party providers and may be delayed or subject to change. Always verify rates and data with your lender or financial advisor before making any decisions.</p>
+                    <p style="margin: 10px 0 0 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 10px; line-height: 1.6;">
                       <em>Sources:</em><br>
                       ${generateSourceLinks(data.sources || [])}
                     </p>
-                    <p style="margin: 10px 0 0 0; color: #94a3b8; font-size: 11px; line-height: 1.6;">If you would like to stop receiving this email, simply reply with <strong style="color: #64748b;">UNSUBSCRIBE</strong>.</p>
+                    <p style="margin: 10px 0 0 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 11px; line-height: 1.65;">If you would like to stop receiving this email, simply reply with <strong style="color: ${PAL.soft};">UNSUBSCRIBE</strong>.</p>
                   </td>
                 </tr>
               </table>
@@ -657,7 +628,7 @@ function generateHTML(data) {
       btn.className = 'lightbox-close';
       btn.setAttribute('aria-label', 'Close enlarged image');
       btn.onclick = function() { closeLightbox(); };
-      btn.textContent = '\u00D7';
+      btn.textContent = '×';
       var img = document.createElement('img');
       img.id = 'lightbox-img';
       img.className = 'lightbox-image';

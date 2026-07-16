@@ -1,5 +1,5 @@
 const { GITHUB_RAW_BASE, GITHUB_PAGES_BASE } = require('../lib/config');
-const { buildPostBody } = require('../lib/html-builders');
+const { buildResponsiveBody } = require('../lib/html-builders');
 
 /**
  * Build Agent Hub post title and body from JSON template data.
@@ -16,7 +16,9 @@ function buildPost(data) {
   // encoding bug in the Supabase notes-api notification function and produce
   // a malformed Subject header that some Outlook clients render as raw MIME.
   const title = `"At a Glance" Local Housing STATS and News ${data.date}`;
-  const body = buildPostBody(data, emailUrl, img1Url, img2Url);
+  // Meridian responsive body — same builder the broadcast uses, so the note
+  // never shows the legacy card layout between creation and broadcast.
+  const body = buildResponsiveBody(data, emailUrl, img1Url, img2Url);
 
   return { title, body, emailUrl, img1Url, img2Url };
 }
