@@ -1,55 +1,56 @@
 {
-  "date": "07/15/26",
+  "date": "07/16/26",
   "time": "9:30 AM",
   "stocks": {
-    "sp500": "7,543 (+0.38%)",
-    "dow": "52,508 (+0.02%)",
-    "nasdaq": "26,107 (+0.90%)",
-    "note": "Numbers as of market close on July 14th.",
-    "news": "Stocks ground higher, with the NASDAQ up 0.90% to 26,107, the S&P 500 up 0.38% to 7,543, and the DOW essentially flat at 52,508. The tape was steadier than the headlines, because the day belonged to one name.\n\nIBM (IBM -25.21%) had its worst day since 1987, tumbling about 25% (see today's chart). It missed quarterly earnings and warned results could get worse, and investors who had bet on its AI and chip business scaling up got the opposite message.\n\nThe big banks told a happier story. JPMorgan (JPM +2.50%) said AI has let it cut roughly 40% of roles in some departments, Bank of America (BAC +1.88%) posted $3.3 billion from its consumer division on strong spending, and Goldman Sachs (GS +9.00%) rode record stock trading and announced a $10 billion bond sale.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/ibm-ytd-071526.png",
-      "alt": "IBM common stock year to date 2026, falling to $217.07, down 26.72% on an earnings miss.",
-      "caption": "IBM had its worst day since 1987, closing at $217.07, down 26.72% year to date after an earnings miss.",
-      "source": "Source: NYSE, market data as of July 14, 2026."
-    }
+    "sp500": "7,572 (+0.38%)",
+    "dow": "52,658 (+0.29%)",
+    "nasdaq": "26,269 (+0.62%)",
+    "note": "Numbers as of market close on July 15th.",
+    "news": "Stocks climbed across the board, with the NASDAQ up 0.62% to 26,269, the S&P 500 up 0.38% to 7,572, and the DOW up 0.29% to 52,658. The quiet theme of the day: the AI supply chain keeps collecting tolls.\n\nASML (ASML +2.23%), the Dutch company that makes the only machines capable of producing the world's most advanced AI chips, raised its full year sales forecast to as much as $51.6 billion. When you run the only toll booth on the road to AI, you can raise the toll. Alibaba (BABA +4.78%) added its own AI headline: its Qwen assistant is coming to iPhones in China, since Apple (AAPL +4.01%) needed a Beijing approved local partner.\n\nNot everything soared. SpaceX (SPCX -0.60%) slipped below its $135 IPO price for the first time as the listing hype cools. And United Airlines (UAL +0.52%) beat expectations but warned of a looming $6 billion fuel bill, which could push airline tickets (already up over 25% this year) even higher.",
+    "local_news": ""
   },
   "economy": {
-    "us10year": "4.59% (-0.01%)",
-    "gold": "$4,061 (+0.1%)",
-    "silver": "$58.45 (-0.9%)",
-    "wti": "$85.42 (+2.55%)",
+    "us10year": "4.55% (-0.03%)",
+    "gold": "$4,010 (-1.3%)",
+    "silver": "$56.68 (-3.0%)",
+    "wti": "$85.67 (+1.11%)",
     "oil_label": "Brent Crude",
-    "note": "Stocks and the 10-Year as of the July 14th close; gold and silver are spot as of the morning of July 15th; Brent as of July 14th (Market Briefs, Trading Economics, Yahoo Finance).",
-    "commentary": "Inflation is back in the spotlight, and so is the Fed. New Chair Kevin Warsh told the House that the central bank will not back down on inflation, calling high prices a real burden on American households. With a rate decision due later this month, a growing number of investors now expect at least one more hike in 2026. Headline CPI is running about 3.5%, still well above the Fed's 2% target and stubbornly sticky after the 2022 spike (see today's chart).\n\nThere was a reminder of how the world still finances America. Foreign holdings of U.S. Treasuries climbed to a near-record $9.37 trillion, with Canada alone adding $38.7 billion, as the dollar keeps its safe-haven crown. Steady foreign demand helps hold down U.S. borrowing costs, which feeds through to mortgage and credit card rates.\n\nIn the markets, the 10-year Treasury held at 4.59%. Gold held near $4,061 while silver eased 0.9% to about $58.45. Brent crude jumped 2.55% to $85.42 after President Trump dropped his proposed Strait of Hormuz toll but the blockade stayed in force.",
+    "note": "Stocks, the 10-Year, Brent, and crypto as of the July 15th close; gold and silver are live spot from the morning of July 16th (Market Briefs, Trading Economics, Yahoo Finance).",
+    "commentary": "Retirement math is the story of the day. Americans say they need $1.2 million to retire comfortably, yet most expect to reach their golden years with less than $500,000 saved, since everyday expenses and credit card debt eat paychecks before savings get a turn. A SoFi survey shows exactly when people get going (see today's chart): about half of adults start saving by 35, and 13% never start at all.\n\nThe labor market keeps sending mixed signals. The U.S. added just 57,000 jobs last month, well short of the 117,000 Wall Street expected, as AI adoption and the U.S. and Iran conflict slow hiring. Yet a Dallas staffing firm just posted its best June since before the pandemic, a reminder that some regional markets run warmer than the national tape.\n\nIn the markets, the 10-Year Treasury eased to 4.55%. Gold slid to about $4,010 this morning, its lowest neighborhood since November, as a fifth straight day of U.S. strikes on Iranian military sites lifted oil and firmed the case for rates staying higher. Silver followed to about $56.68, and Brent crude rose 1.11% to $85.67.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/cpi-071526.png",
-      "alt": "U.S. CPI inflation, 12-month percent change, 2006 to 2026, peaking near 9% in 2022 and easing to 3.5%.",
-      "caption": "Headline CPI inflation is running about 3.5%, still above the Fed's 2% target after the 2022 spike.",
-      "source": "Source: U.S. Bureau of Labor Statistics (CPI-U, not seasonally adjusted)."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/retirement-start-071626.png",
+      "alt": "Horizontal bar chart of the age Americans start saving for retirement: 17% under 25, 34% at 25 to 35, 19% at 36 to 45, 9% at 46 to 55, 6% at 56 to 65, 2% over 65, and 13% have not started.",
+      "caption": "Half of Americans start saving for retirement by 35, and 13% have not started at all.",
+      "source": "Source: SoFi."
     }
   },
   "crypto": {
-    "btc": "$64,517 (+3.62%)",
-    "eth": "$1,874 (+5.74%)",
-    "xrp": "$1.11 (+4.11%)",
-    "note": "Numbers as of 4:00 PM ET, July 14th.",
-    "commentary": "Crypto had a strong day, with Bitcoin up 3.62% to $64,517, Ether up 5.74% to $1,874, and XRP up 4.11% to $1.11.\n\nOne theme was crypto muscling into betting. Blockchain.com teamed up with Polymarket to let users wager on World Cup matches inside its app, as crypto firms chase a slice of a projected $10 billion World Cup betting frenzy and prediction markets keep gaining ground.\n\nThe quieter theme was silence. Mentions of Bitcoin on X fell to roughly 130,000 last month, the fewest since 2020. Retail traders have stepped back and big institutions have stepped in, so the market has cooled from its highs even as the plumbing keeps getting built out."
+    "btc": "$64,973 (-0.02%)",
+    "eth": "$1,923 (+1.79%)",
+    "xrp": "$1.11 (-0.02%)",
+    "note": "Numbers as of 4:00 PM ET, July 15th.",
+    "commentary": "Crypto took a breather, with Bitcoin flat at $64,973, Ether up 1.79% to $1,923, and XRP holding at $1.11.\n\nThe eyebrow raiser: a new crypto contract lets traders bet on Chinese chipmaker CXMT before its stock even lists on the Shanghai exchange, and the bets briefly valued the company at $500 billion. The catch is that pre-IPO wagers may look nothing like the real price once shares actually trade.\n\nIn Washington, the CLARITY Act is still moving. Senators met with President Trump and are pushing for a vote by August 7, with Democrats asking for an ethics rule covering the president's own crypto ventures in exchange for support. If it passes, the industry finally gets its rulebook."
   },
   "real_estate": {
-    "rate_30year": "6.70%",
-    "rate_15year": "6.20%",
-    "homebuilder": "Mortgage Rates Ease To 6.70% As New York Pauses Data Center Buildouts For A Year; The East Bay Board Slips To 2,738 Active On 186 New And 203 Closed",
-    "commentary": "The 30-year fixed eased to 6.70% and the 15-year held at 6.20%, a touch lower on the week. Rates in this range keep the lock-in effect firmly in place, so most owners stay put and resale supply stays tight.\n\nThe policy headline sits at the intersection of housing and power bills: New York became the first state to pause data center buildouts for a year, after electricity prices there jumped nearly 68% since 2019. With tech giants planning about $500 billion in data center spending in 2026, the fight over who pays for the power (and how it shows up on home electric bills) is only getting started.\n\nLocally, the East Bay board slipped to 2,738 active, down from 2,759, on 186 new listings and 203 closings, one of the first days in a while with more homes going under contract than coming to market. Oakland again led by a wide margin with 55 new on 713 active, followed by Fremont at 26 and Danville at 16.\n\n📍 Alameda & Contra Costa Snapshot (07/15/26, new listings / active)\n\n📍 Oakland: 55 new / 713 active (board leader).\n\n📍 Fremont: 26 new / 327 active.\n\n📍 Danville: 16 new / 184 active.\n\n📍 Hayward: 14 new / 262 active.\n\n📍 Livermore: 12 new / 212 active.\n\n📍 San Ramon: 10 new / 188 active.\n\n📍 Dublin: 10 new / 191 active.\n\n📍 Castro Valley: 8 new / 92 active.\n\n📍 Pleasanton: 8 new / 149 active.\n\n📍 San Leandro: 8 new / 89 active.\n\n📍 Newark: 7 new / 112 active.\n\n📍 Milpitas: 6 new / 117 active.\n\n📍 Union City: 5 new / 75 active.\n\n📍 Sunol: 1 new / 10 active.\n\n📍 San Lorenzo: 0 new / 17 active.\n\nNew-listing flow totaled 186, led by Oakland (55), Fremont (26), and Danville (16). Closings came in at 203.\n\nFor agents: with closings outpacing new listings today and rates ticking down, the tone is a shade more balanced. Well-priced, well-presented homes still move, but buyers have a bit more leverage than the record-price headlines suggest.",
-    "local_news": ""
+    "rate_30year": "6.64%",
+    "rate_15year": "6.18%",
+    "homebuilder": "Mortgage Rates Sit Near A One Year High As Purchase Applications Slide 7%; The East Bay Board Climbs To 2,776 Active On 188 New And 193 Closed",
+    "commentary": "The daily 30-year fixed sits at 6.64% and the 15-year at 6.18%. The bigger story is the trend: the weekly average just printed its highest level in nearly a year, and buyers noticed, with purchase applications sliding 7% in a week. Rising fuel costs and Middle East unrest pushed bond yields higher, and mortgage rates went along for the ride. Today's chart shows the full round trip: about 6.77% last August, a 6.02% low in March, and back to 6.64% now.\n\nThe market is also splitting in two. Luxury home prices jumped 4.7% to an average $1.37 million while everyone else's rose just 1.5%, powered by cash-rich buyers from booming tech and AI companies who do not much care what mortgage rates are doing. Those trophy purchases keep the market moving, but they pull comps (and prices) up for everyone else.\n\nLocally, the East Bay board climbed to 2,776 active, up from 2,738, on 188 new listings and 193 closings. Inventory rebuilt a touch even with closings nearly matching new supply. Oakland led as usual with 50 new on 723 active, followed by Fremont at 28 and Danville at 24.\n\n📍 Alameda & Contra Costa Snapshot (07/16/26, new listings / active)\n\n📍 Oakland: 50 new / 723 active (board leader).\n\n📍 Fremont: 28 new / 332 active.\n\n📍 Danville: 24 new / 192 active.\n\n📍 Livermore: 12 new / 208 active.\n\n📍 Hayward: 11 new / 268 active.\n\n📍 Dublin: 10 new / 198 active.\n\n📍 San Ramon: 10 new / 190 active.\n\n📍 Milpitas: 10 new / 122 active.\n\n📍 San Leandro: 9 new / 90 active.\n\n📍 Castro Valley: 7 new / 89 active.\n\n📍 Union City: 7 new / 77 active.\n\n📍 Newark: 5 new / 111 active.\n\n📍 Pleasanton: 4 new / 150 active.\n\n📍 Sunol: 1 new / 10 active.\n\n📍 San Lorenzo: 0 new / 16 active.\n\nNew-listing flow totaled 188, led by Oakland (50), Fremont (28), and Danville (24). Closings came in at 193.\n\nFor agents: the middle of the market feels that 7% applications drop first, so sharp pricing and rate buydown conversations win the week. The luxury end is running on cash and barely notices rates, which keeps the top of the market (and the comps) moving.",
+    "local_news": "",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/mortgage-3tracker-071626.png",
+      "alt": "Line chart of 30-year fixed mortgage rates from July 2025 to July 2026 across Mortgage News Daily, MBA, and Freddie Mac, easing from about 6.77% to a 6.02% low in March 2026 and climbing back to 6.64%.",
+      "caption": "The 30-year fixed round trip: 6.77% last August, down to 6.02% in March, and back to 6.64% today, near a one year high.",
+      "source": "Source: Mortgage News Daily."
+    }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://www.bls.gov/cpi/",
+    "https://www.sofi.com/",
     "https://tradingeconomics.com/commodity/gold",
     "https://tradingeconomics.com/commodity/silver"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4889ba3e-2fdf-4f5d-b52c-ae8a5eaa4453",
-  "qr_code_path": "note-qr-4889ba3e.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/6f954a7a-3ce9-43f7-b883-9e0d708d4900",
+  "qr_code_path": "note-qr-6f954a7a.png"
 }
