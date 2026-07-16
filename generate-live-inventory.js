@@ -5,13 +5,13 @@
  * Builds live-inventory.json for the harvrealtor.net /live-inventory page.
  *
  * Source: the newest dated "MLS_Defined_Spread_Sheet_4- MMDDYY" file in Drive
- * (the raw Paragon export, discovered the same way mls-pipeline.js getCsv()
+ * (the raw Paragon export, discovered the same way mls-pipeline.js getRows()
  * does), read via the service account with valueRenderOption=UNFORMATTED_VALUE.
  *
- * NOT the master sheet's MLS_Defined_Spread_Sheet_4 tab: that tab is filled
- * from a Drive CSV export of the dated sheet, and CSV export renders DISPLAY
- * values, so every $1M+ price arrives there as the literal "#########" (the
- * LP column is too narrow). The dated sheet still has the real numbers.
+ * NOT the master sheet's MLS_Defined_Spread_Sheet_4 tab: reading the dated
+ * sheet directly avoids depending on the master tab's fill timing. (The tab
+ * itself is fine now — mls-pipeline.js also reads UNFORMATTED_VALUE, so $1M+
+ * LPs land there as real numbers, not the old CSV-export "#########".)
  *
  * Filter: Fremont, Hayward, Union City, Newark only; live statuses only
  * (ACTV, NEW, CS = Coming Soon, BOMK = Back on Market). AC (contingent) and
@@ -56,6 +56,13 @@ const num = (v) => {
 const int = (v) => {
   const n = num(v);
   return n === null ? null : Math.round(n);
+};
+// Paragon uses 9999 as an "unknown" placeholder (same convention as the Area
+// column); 0 is equally meaningless for a size. Null both so the page never
+// renders a bogus 9,999 sq ft or a $39/sq ft.
+const sizeInt = (v) => {
+  const n = int(v);
+  return n === null || n <= 0 || n === 9999 ? null : n;
 };
 // Unit arrives with spreadsheet formatting artifacts ("$6" for "#6"); keep
 // the meaningful token only.
@@ -110,7 +117,7 @@ function parseCsv(text) {
 }
 
 // Newest dated Paragon export the service account can see (Sheet or CSV),
-// discovered exactly like mls-pipeline.js getCsv().
+// discovered exactly like mls-pipeline.js getRows().
 async function findNewestExport(token) {
   const q = encodeURIComponent(
     "name contains 'MLS_Defined' and trashed=false and mimeType!='application/vnd.google-apps.folder'"
@@ -179,7 +186,7 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
       city: titleCase(city),
       price,
       type: String(r[col.BT] || '').trim().toUpperCase() || null,
-      sqft: int(r[col.SqFt]),
+      sqft: sizeInt(r[col.SqFt]),
       beds: int(r[col.BR]),
       baths: int(r[col.Bth]),
       halfBaths: int(r[col.PB]),
