@@ -496,6 +496,27 @@ function generateHTML(data) {
               </table>
               <div style="text-align: center; font-family: ${SANS}; font-size: 12px; color: ${PAL.faint}; margin: 0 0 6px 0;">Click an image to enlarge it</div>
 
+              <!-- LIVE INVENTORY strip: standing link to the harvrealtor.net
+                   daily ledger (per Harv 2026-07-16: promote it inside the
+                   daily post, not as a separate blog). Static and count-free
+                   on purpose: emails cannot run scripts, and Stage 2 runs
+                   before Stage 3 refreshes live-inventory.json. -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 14px 0 6px 0;">
+                <tr>
+                  <td style="background-color: ${PAL.paper}; border: 1px solid ${PAL.hair}; border-left: 3px solid ${PAL.gold}; padding: 18px 22px;">
+                    <div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: ${PAL.goldDark}; margin-bottom: 8px;">TODAY'S LIVE INVENTORY</div>
+                    <div style="font-family: ${SANS}; font-size: 14.5px; line-height: 1.6; color: ${PAL.soft}; margin-bottom: 12px;">Every home still for sale in Fremont, Hayward, Union City and Newark, one live ledger with prices, sizes and a market read, refreshed each morning from this same MLS export.</div>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td bgcolor="${PAL.gold}" style="background-color: ${PAL.gold}; padding: 10px 18px;">
+                          <a href="https://harvrealtor.net/live-inventory?utm_source=daily-email&amp;utm_medium=email&amp;utm_campaign=live-inventory" style="color: ${PAL.ink}; text-decoration: none; font-family: ${SANS}; font-weight: 700; font-size: 14px;">Browse the live ledger &rarr;</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
               ${data.featured_promo ? `${sectionGap()}<!-- FEATURED PROMO -->
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 6px 0;">
                 <tr>
