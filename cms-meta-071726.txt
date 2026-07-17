@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/17/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/17/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 17, 2026: the 30-year holds at 6.68% near a one year high, NAHB homebuilder confidence falls to 34 matching its 2024 low, and our live board shows 638 buyable homes across Fremont, Hayward, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Contra Costa, Fremont, Hayward, Newark, Union City, Oakland, Tri-Valley, San Ramon, Dublin, Pleasanton, Livermore, Danville, Milpitas, live inventory, homebuilder confidence, NAHB, mortgage rates, housing market, daily market update, At a Glance
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
