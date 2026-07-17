@@ -53,14 +53,25 @@ if [ "$NEW_DATE" = "$PUBLISHED_DATE" ]; then
 fi
 
 # --- Publish just this file from a clean /tmp clone (never the Drive .git) ---
-GH_TOKEN=$(gh auth token -u fremontrealtyexperts-510 2>/dev/null)
-if [ -z "$GH_TOKEN" ]; then
-  echo "ERROR: no GitHub token for fremontrealtyexperts-510 (gh auth login -u fremontrealtyexperts-510)"
-  exit 1
+# Auth: prefer gh (Mac launchd path); fall back to the SSH deploy key when gh
+# is absent (VPS backup-cron path -- gh is not installed there). Both publish to
+# the same GitHub repo from a clean /tmp clone.
+GH_TOKEN=""
+if command -v gh >/dev/null 2>&1; then
+  GH_TOKEN=$(gh auth token -u fremontrealtyexperts-510 2>/dev/null || echo "")
 fi
 
+DEPLOY_KEY="$HOME/.ssh/realty_email_deploy"
 rm -rf "$DST_DIR"
-git clone --depth=1 "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" "$DST_DIR" 2>&1 | tail -1
+if [ -n "$GH_TOKEN" ]; then
+  git clone --depth=1 "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" "$DST_DIR" 2>&1 | tail -1
+elif [ -f "$DEPLOY_KEY" ]; then
+  export GIT_SSH_COMMAND="ssh -i $DEPLOY_KEY -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+  git clone --depth=1 "git@github.com:${REPO}.git" "$DST_DIR" 2>&1 | tail -1
+else
+  echo "ERROR: no gh token and no deploy key at $DEPLOY_KEY -- cannot publish"
+  exit 1
+fi
 cd "$DST_DIR"
 git config user.name "User8888-Level3"
 git config user.email "fremontrealtyexperts510@gmail.com"
