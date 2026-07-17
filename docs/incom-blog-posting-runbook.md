@@ -228,6 +228,18 @@ JSON.stringify({
 ```
 `plotlySVG:true` + `barsDrawn>0` + `newsletterOK:true` = fully working.
 
+**(c) LIVE INVENTORY strip check (standing since 2026-07-16)** — the generator bakes a
+gold "TODAY'S LIVE INVENTORY" strip (link to harvrealtor.net/live-inventory) between the
+chart and the newsletter, plus a `live-inventory-teaser.js` external `<script src>` that
+fills the live count. On BOTH pages:
+```bash
+curl -s "$U?cb=$(date +%s)" | grep -cE 'hb-li-total|live-inventory-teaser\.js'   # expect 2+
+```
+Functional (same Chrome MCP eval): `document.getElementById('hb-li-total').textContent`
+must be a NUMBER (today's 4-city count), not the "hundreds of" fallback. Missing strip =
+stale checkout or hand-edited body → regenerate + re-publish via §7. Never delete the
+strip, its `hb-li-total` id, or the teaser `<script src>` when editing a node body.
+
 ---
 
 ## 7. Re-publishing / fixing an already-posted blog (IMPORTANT)
