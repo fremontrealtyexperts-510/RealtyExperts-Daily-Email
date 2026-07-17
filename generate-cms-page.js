@@ -57,20 +57,33 @@ function parseDate(mmddyy) {
 }
 
 /**
- * Parse RE-v2 rows into the chart cities. RE-v2 columns:
- * [City, TH-Active, TH-Pend, CO-Active, CO-Pend, DU/DE/PH-Active, DU/DE/PH-Pend, Total, All CS, All New]
+ * Parse RE-v2 rows into the chart cities. RE-v2 columns (the per-city "Total"
+ * column was removed in the 2026-07-10 table redesign, so All CS / All New moved
+ * left by one — indices below reflect the CURRENT layout):
+ * [City, TH-Active, TH-Pend, CO-Active, CO-Pend, DU/DE/PH-Active, DU/DE/PH-Pend, All CS, All New]
  * Chart cats map: CO=CO-Active, DE=DU/DE/PH-Active, TH=TH-Active,
  *   Active All = TH+CO+DE actives, New=All New, CS=All CS, PEND = sum of the three pendings.
  * Pure (no IO) so it is unit-testable. Returns [{city, values:[...CATS]}] in CITY_ORDER.
  */
 function parseRev2(rows) {
   if (!rows || rows.length < 2) throw new Error('RE-v2 returned no data rows');
+  // Locate the "All CS" / "All New" columns by header name rather than a fixed
+  // index: those two shift whenever a summary column (e.g. the per-city Total,
+  // dropped 2026-07-10) is added/removed. Fail loudly if they are gone so the
+  // chart never again silently renders New=0. The six type columns (1..6) keep
+  // their stable positions.
+  const header = (rows[0] || []).map(h => String(h || '').trim().toLowerCase());
+  const csIdx = header.findIndex(h => h.includes('all cs'));
+  const nwIdx = header.findIndex(h => h.includes('all new'));
+  if (csIdx === -1 || nwIdx === -1) {
+    throw new Error(`RE-v2 header missing "All CS"/"All New" (got: ${(rows[0] || []).join(' | ')})`);
+  }
   const byCity = {};
   for (const row of rows.slice(1)) {
     const city = String(row[0] || '').trim();
     if (!city) continue;
     const n = i => parseInt(row[i], 10) || 0;
-    const th = n(1), thp = n(2), co = n(3), cop = n(4), de = n(5), dep = n(6), cs = n(8), nw = n(9);
+    const th = n(1), thp = n(2), co = n(3), cop = n(4), de = n(5), dep = n(6), cs = n(csIdx), nw = n(nwIdx);
     byCity[city.toLowerCase()] = {
       CO: co, DE: de, TH: th, 'Active All': th + co + de, New: nw, CS: cs, PEND: thp + cop + dep,
     };
