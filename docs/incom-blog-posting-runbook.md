@@ -60,7 +60,8 @@ node post-to-incom.js --dry-run
 # 6. Go live (BLOG create + LANDING edit)
 node post-to-incom.js
 
-# 7. VERIFY the live pages actually rendered (do NOT trust the script's "✅" — see §6)
+# 7. VERIFY the live pages (do NOT trust the script's "✅" — see §6). The gate:
+node verify-cms-publish.js     # asserts the LIVE chart VALUES match RE-v2 (not just "bars exist")
 ```
 
 Order matters: **generate → push (host chart JS) → post-to-incom.** If you post before the
@@ -202,6 +203,24 @@ Drupal optimistic-concurrency: the edit form carries a hidden `edit[changed]` ti
 > 200 (re-rendered form) and a redirect to `/node/<id>` looks like success. **Its "✅
 > updated" is unreliable. Always verify the live page yourself.**
 
+**(0) Automated VALUE-check — REQUIRED, run first:**
+```bash
+node verify-cms-publish.js          # verifies today's live blog + landing
+node verify-cms-publish.js --local  # also gate the on-disk chart JS before posting
+```
+This is the authoritative Stage 5 gate. Unlike a presence check ("did Plotly draw? are
+there bars?"), it validates the **plotted values**: it fetches the chart JS each LIVE page
+actually loads, parses `var data`, and asserts — for all 12 cities × 7 categories — that the
+numbers **equal an independent recompute from the RE-v2 tab** (its own header-based column
+lookup, so it can't share a bug with `generate-cms-page.js`). It also fails if any category is
+entirely zero across cities (the exact "New column blanked" regression of 2026-07-17, which
+rendered 35 bars and passed every presence check while being wrong for a week) or if
+`Active All != CO+DE+TH`. Exit 0 = pass. **Why this exists:** a chart can render perfectly and
+still plot wrong numbers — bars-exist is not values-correct. The count-is-a-number check for the
+live-inventory strip is JS-runtime, so it stays the Chrome-MCP step in (c) below.
+
+The manual checks below stay useful for a human eyeball, but (0) is the gate that must pass.
+
 **(a) Structural check** — newsletter survived + external chart referenced:
 ```bash
 for U in "https://www.harvrealtor.com/HarvRealtor-daily-market-glance-060326" \
@@ -288,6 +307,8 @@ post you must **edit its node by ID**, not create a new one:
 - [ ] `cms-content.json` re-composed for **today** (not reverted to yesterday by the sync).
 - [ ] Chart JS hosted on **Pages** (200 + `application/javascript`) **before** posting.
 - [ ] Order: **generate → push → wait → post-to-incom**.
-- [ ] **Verify the live DOM** — `post-to-incom.js`'s success message lies.
+- [ ] **Run `node verify-cms-publish.js`** — the value-check gate (chart values == RE-v2, no
+      blank category). `post-to-incom.js`'s success message and "bars rendered" both lie; matching
+      *values* do not.
 - [ ] Re-publishing the blog = **edit the node by id**, not re-create.
 - [ ] Never put the chart as an **inline** `<script>` — Drupal eats it + everything after.
