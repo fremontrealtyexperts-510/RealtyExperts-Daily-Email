@@ -1,56 +1,51 @@
 {
-  "date": "07/16/26",
+  "date": "07/17/26",
   "time": "9:30 AM",
   "stocks": {
-    "sp500": "7,572 (+0.38%)",
-    "dow": "52,658 (+0.29%)",
-    "nasdaq": "26,269 (+0.62%)",
-    "note": "Numbers as of market close on July 15th.",
-    "news": "Stocks climbed across the board, with the NASDAQ up 0.62% to 26,269, the S&P 500 up 0.38% to 7,572, and the DOW up 0.29% to 52,658. The quiet theme of the day: the AI supply chain keeps collecting tolls.\n\nASML (ASML +2.23%), the Dutch company that makes the only machines capable of producing the world's most advanced AI chips, raised its full year sales forecast to as much as $51.6 billion. When you run the only toll booth on the road to AI, you can raise the toll. Alibaba (BABA +4.78%) added its own AI headline: its Qwen assistant is coming to iPhones in China, since Apple (AAPL +4.01%) needed a Beijing approved local partner.\n\nNot everything soared. SpaceX (SPCX -0.60%) slipped below its $135 IPO price for the first time as the listing hype cools. And United Airlines (UAL +0.52%) beat expectations but warned of a looming $6 billion fuel bill, which could push airline tickets (already up over 25% this year) even higher.",
+    "sp500": "7,533 (-0.51%)",
+    "dow": "52,552 (-0.20%)",
+    "nasdaq": "25,881 (-2.47%)",
+    "note": "Numbers as of market close on July 16th.",
+    "news": "Stocks pulled back, and the NASDAQ led the way down, off 2.47% to 25,881, while the S&P 500 slipped 0.51% to 7,533 and the DOW eased 0.20% to 52,552. The common thread was a market rethinking a couple of its favorite AI names.\n\nNetflix (NFLX +0.91%) reported higher profits but softer revenue, and told Wall Street it will stop publishing quarterly viewership numbers. Shares are down about 20% this year as streaming competition heats up and engagement cools. Retiring the report card does not usually mean the grades are improving.\n\nGoogle (GOOG -4.43%) is reportedly delaying its next Gemini AI model because it still cannot code as well as rivals from OpenAI and Anthropic. The update may slip to next month, even as Google plans to spend roughly $190 billion on AI this year. That is a lot of budget to still be running second at the whiteboard.",
     "local_news": ""
   },
   "economy": {
-    "us10year": "4.55% (-0.03%)",
-    "gold": "$4,010 (-1.3%)",
-    "silver": "$56.68 (-3.0%)",
-    "wti": "$85.67 (+1.11%)",
+    "us10year": "4.55% (-0.01%)",
+    "gold": "$3,983 (-0.2%)",
+    "silver": "$56.50 (-0.3%)",
+    "wti": "$85.09 (+1.02%)",
     "oil_label": "Brent Crude",
-    "note": "Stocks, the 10-Year, Brent, and crypto as of the July 15th close; gold and silver are live spot from the morning of July 16th (Market Briefs, Trading Economics, Yahoo Finance).",
-    "commentary": "Retirement math is the story of the day. Americans say they need $1.2 million to retire comfortably, yet most expect to reach their golden years with less than $500,000 saved, since everyday expenses and credit card debt eat paychecks before savings get a turn. A SoFi survey shows exactly when people get going (see today's chart): about half of adults start saving by 35, and 13% never start at all.\n\nThe labor market keeps sending mixed signals. The U.S. added just 57,000 jobs last month, well short of the 117,000 Wall Street expected, as AI adoption and the U.S. and Iran conflict slow hiring. Yet a Dallas staffing firm just posted its best June since before the pandemic, a reminder that some regional markets run warmer than the national tape.\n\nIn the markets, the 10-Year Treasury eased to 4.55%. Gold slid to about $4,010 this morning, its lowest neighborhood since November, as a fifth straight day of U.S. strikes on Iranian military sites lifted oil and firmed the case for rates staying higher. Silver followed to about $56.68, and Brent crude rose 1.11% to $85.67.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/retirement-start-071626.png",
-      "alt": "Horizontal bar chart of the age Americans start saving for retirement: 17% under 25, 34% at 25 to 35, 19% at 36 to 45, 9% at 46 to 55, 6% at 56 to 65, 2% over 65, and 13% have not started.",
-      "caption": "Half of Americans start saving for retirement by 35, and 13% have not started at all.",
-      "source": "Source: SoFi."
-    }
+    "note": "Stocks, the 10-Year, Brent, and crypto are as of the July 16th close; gold and silver are live spot from the morning of July 17th (Market Briefs, Trading Economics, Yahoo Finance).",
+    "commentary": "The 10-Year Treasury held at 4.55%, but the louder move was in the metals. Gold just logged its largest weekly drop in three months, easing to about $3,983, and silver slipped to roughly $56.50 near an eight-month low. Gold usually climbs when investors brace for volatility, so this is a change of tone: a firmer dollar and the prospect of the Fed keeping rates higher, with the U.S. and Iran ceasefire back in question, have some traders rotating out of both. Brent crude ticked up 1.02% to $85.09.\n\nBehind the market numbers sits a household one: 42% of U.S. adults say they lean on their parents for financial help. Some economists frame it as a long-running generational pattern rather than a failure, but the takeaway is simple. When parents feel stretched, younger spending slows, and that eventually shows up in the broader economy."
   },
   "crypto": {
-    "btc": "$64,973 (-0.02%)",
-    "eth": "$1,923 (+1.79%)",
-    "xrp": "$1.11 (-0.02%)",
-    "note": "Numbers as of 4:00 PM ET, July 15th.",
-    "commentary": "Crypto took a breather, with Bitcoin flat at $64,973, Ether up 1.79% to $1,923, and XRP holding at $1.11.\n\nThe eyebrow raiser: a new crypto contract lets traders bet on Chinese chipmaker CXMT before its stock even lists on the Shanghai exchange, and the bets briefly valued the company at $500 billion. The catch is that pre-IPO wagers may look nothing like the real price once shares actually trade.\n\nIn Washington, the CLARITY Act is still moving. Senators met with President Trump and are pushing for a vote by August 7, with Democrats asking for an ethics rule covering the president's own crypto ventures in exchange for support. If it passes, the industry finally gets its rulebook."
+    "btc": "$63,447 (-0.46%)",
+    "eth": "$1,850 (-0.67%)",
+    "xrp": "$1.09 (-0.16%)",
+    "note": "Numbers as of 4:00 PM ET, July 16th.",
+    "commentary": "Crypto drifted lower across the board, with Bitcoin off 0.46% to $63,447, Ether down 0.67% to $1,850, and XRP easing to $1.09.\n\nThe real story was in the plumbing. Visa (V +2.79%) is rolling out a platform that lets banks mint and move their own stablecoins, pushing traditional finance deeper into digital dollars. Circle (CRCL -7.69%) fell on the news, since bank-issued stablecoins could chip away at the market it helped build. When the incumbents start printing your product, the competition gets real."
   },
   "real_estate": {
-    "rate_30year": "6.64%",
-    "rate_15year": "6.18%",
-    "homebuilder": "Mortgage Rates Sit Near A One Year High As Purchase Applications Slide 7%; The East Bay Board Climbs To 2,776 Active On 188 New And 193 Closed",
-    "commentary": "The daily 30-year fixed sits at 6.64% and the 15-year at 6.18%. The bigger story is the trend: the weekly average just printed its highest level in nearly a year, and buyers noticed, with purchase applications sliding 7% in a week. Rising fuel costs and Middle East unrest pushed bond yields higher, and mortgage rates went along for the ride. Today's chart shows the full round trip: about 6.77% last August, a 6.02% low in March, and back to 6.64% now.\n\nThe market is also splitting in two. Luxury home prices jumped 4.7% to an average $1.37 million while everyone else's rose just 1.5%, powered by cash-rich buyers from booming tech and AI companies who do not much care what mortgage rates are doing. Those trophy purchases keep the market moving, but they pull comps (and prices) up for everyone else.\n\nLocally, the East Bay board climbed to 2,776 active, up from 2,738, on 188 new listings and 193 closings. Inventory rebuilt a touch even with closings nearly matching new supply. Oakland led as usual with 50 new on 723 active, followed by Fremont at 28 and Danville at 24.\n\n📍 Alameda & Contra Costa Snapshot (07/16/26, new listings / active)\n\n📍 Oakland: 50 new / 723 active (board leader).\n\n📍 Fremont: 28 new / 332 active.\n\n📍 Danville: 24 new / 192 active.\n\n📍 Livermore: 12 new / 208 active.\n\n📍 Hayward: 11 new / 268 active.\n\n📍 Dublin: 10 new / 198 active.\n\n📍 San Ramon: 10 new / 190 active.\n\n📍 Milpitas: 10 new / 122 active.\n\n📍 San Leandro: 9 new / 90 active.\n\n📍 Castro Valley: 7 new / 89 active.\n\n📍 Union City: 7 new / 77 active.\n\n📍 Newark: 5 new / 111 active.\n\n📍 Pleasanton: 4 new / 150 active.\n\n📍 Sunol: 1 new / 10 active.\n\n📍 San Lorenzo: 0 new / 16 active.\n\nNew-listing flow totaled 188, led by Oakland (50), Fremont (28), and Danville (24). Closings came in at 193.\n\nFor agents: the middle of the market feels that 7% applications drop first, so sharp pricing and rate buydown conversations win the week. The luxury end is running on cash and barely notices rates, which keeps the top of the market (and the comps) moving.",
+    "rate_30year": "6.68%",
+    "rate_15year": "6.19%",
+    "homebuilder": "Homebuilder Confidence Slides To 34, Matching Its 2024 Low, As Rates And Costs Squeeze Both Sides; Our Live Board Shows 638 Homes Buyers Can Pursue Across Fremont, Hayward, Newark, And Union City",
+    "commentary": "The daily 30-year fixed sits at 6.68% and the 15-year at 6.19%, both near a one year high, and the strain is showing up where new homes start. The NAHB homebuilder confidence index just fell to 34, matching its 2024 low (see today's chart), as high mortgage rates, pricey land, and costly materials squeeze buyers and builders at the same time. Any reading below 50 means more builders see conditions as poor than good, and the index has now sat under that line for more than a year. Fewer projects at the drawing board today tends to mean fewer choices, and firmer prices, for buyers down the road.\n\nThe top of the market could not look more different. San Francisco is riding an AI IPO wealth wave, with some local home prices reportedly jumping from about $2.3 million to $3.5 million in a year as newly liquid tech employees go house hunting. It is the same split we keep seeing: cash-rich buyers at the high end set the pace, while everyone else feels every basis point of rates.\n\n📍 Today's Live Inventory (Fremont, Hayward, Newark, Union City)\n\nOur live board shows 638 homes a buyer can actually pursue right now across the four cities, including 60 brand new listings and 67 more coming soon.\n\n📍 Fremont: 283 available (209 active, 35 new, 39 coming soon).\n\n📍 Hayward: 212 available (188 active, 11 new, 12 coming soon).\n\n📍 Newark: 83 available (68 active, 6 new, 8 coming soon).\n\n📍 Union City: 60 available (44 active, 8 new, 8 coming soon).\n\nThe full, always-updating ledger lives at harvrealtor.net/live-inventory. For agents: with rates near a one year high, the middle of the market rewards sharp pricing and rate buydown conversations, while the luxury tier keeps running on cash and barely notices.",
     "local_news": "",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/mortgage-3tracker-071626.png",
-      "alt": "Line chart of 30-year fixed mortgage rates from July 2025 to July 2026 across Mortgage News Daily, MBA, and Freddie Mac, easing from about 6.77% to a 6.02% low in March 2026 and climbing back to 6.64%.",
-      "caption": "The 30-year fixed round trip: 6.77% last August, down to 6.02% in March, and back to 6.64% today, near a one year high.",
-      "source": "Source: Mortgage News Daily."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/homebuilder-confidence-071726.png",
+      "alt": "Bar chart of the NAHB Housing Market Index by month from August 2025 to July 2026, easing from a December peak of 39 to 34 in July 2026, which matches the 2024 low.",
+      "caption": "Homebuilder confidence fell to 34 in July, matching its 2024 low. Any reading below 50 means more builders see conditions as poor than good.",
+      "source": "Source: National Association of Home Builders (NAHB)."
     }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
     "https://market.briefs.co/",
-    "https://www.sofi.com/",
+    "https://www.nahb.org/",
     "https://tradingeconomics.com/commodity/gold",
-    "https://tradingeconomics.com/commodity/silver"
+    "https://tradingeconomics.com/commodity/silver",
+    "https://harvrealtor.net/live-inventory"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/6f954a7a-3ce9-43f7-b883-9e0d708d4900",
-  "qr_code_path": "note-qr-6f954a7a.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4a0f02c6-c052-4617-9bac-55b2abc98df9",
+  "qr_code_path": "note-qr-4a0f02c6.png"
 }
