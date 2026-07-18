@@ -123,6 +123,7 @@ async function main() {
     qrFile,
     'daily-market-template.json',
     'live-inventory.json', // harvrealtor.net /live-inventory feed (GitHub Pages)
+    'inventory-history.json', // harvrealtor.net /inventory-history feed (long-run series)
   ].filter(f => fs.existsSync(f));
 
   execSync(`git add ${filesToAdd.join(' ')}`, { stdio: 'inherit' });

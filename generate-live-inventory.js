@@ -166,10 +166,15 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
 
   const listings = [];
   let dropped = 0;
+  // County-wide live-status count (all Alameda cities in the export), used by
+  // the inventory-history record as a share-of-county denominator.
+  let countyLiveTotal = 0;
   for (const r of rows.slice(1)) {
     const status = String(r[col.Status] || '').trim().toUpperCase();
     const city = String(r[col.City] || '').trim().toUpperCase();
-    if (!LIVE_STATUSES[status] || !TARGET_CITIES.includes(city)) continue;
+    if (!LIVE_STATUSES[status]) continue;
+    countyLiveTotal++;
+    if (!TARGET_CITIES.includes(city)) continue;
 
     const price = num(r[col.LP]);
     const address = String(r[col.Address] || '').trim();
@@ -229,7 +234,130 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
   const tmp = out + '.tmp';
   fs.writeFileSync(tmp, JSON.stringify(payload));
   fs.renameSync(tmp, out);
+
+  // Append today's snapshot to the long-run history series (non-fatal: the
+  // live feed is the critical artifact; history failures only warn).
+  try {
+    const hist = await updateInventoryHistory({
+      listings,
+      countyLiveTotal,
+      feedDate: payload.date,
+      sourceName: source.name,
+      dir: path.dirname(out),
+    });
+    if (hist) console.log(`inventory-history.json: ${hist.count} dates (latest ${hist.latest})`);
+  } catch (err) {
+    console.warn(`WARN inventory-history update failed: ${err.message}`);
+  }
+
   return { out, count: listings.length, dropped, cities: citiesPresent.size, date: payload.date };
+}
+
+// ---------------------------------------------------------------------------
+// inventory-history.json — one record per day, powering the harvrealtor.net
+// /inventory-history page. Seeded 2026-07-17 with a 386-day backfill parsed
+// from every archived MLS_Defined export back to Jan 2024; this function only
+// ever UPSERTS (today's date replaces today's record, everything else is
+// preserved). Base = the published GitHub Pages copy unioned with the local
+// file, so Mac and VPS runs converge instead of clobbering each other.
+// ---------------------------------------------------------------------------
+const HISTORY_URL =
+  'https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/inventory-history.json';
+const HISTORY_STATUSES = ['ACTV', 'NEW', 'CS', 'BOMK'];
+
+function fetchJson(url, timeoutMs = 20000) {
+  return new Promise((resolve) => {
+    const req = https.get(url, { headers: { 'cache-control': 'no-cache' } }, (res) => {
+      if (res.statusCode !== 200) { res.resume(); return resolve(null); }
+      let raw = '';
+      res.on('data', (c) => (raw += c));
+      res.on('end', () => {
+        try { resolve(JSON.parse(raw)); } catch (_) { resolve(null); }
+      });
+    });
+    req.on('error', () => resolve(null));
+    req.setTimeout(timeoutMs, () => { req.destroy(); resolve(null); });
+  });
+}
+
+const median = (arr) => {
+  if (!arr.length) return null;
+  const s = [...arr].sort((a, b) => a - b);
+  const mid = Math.floor(s.length / 2);
+  return s.length % 2 ? s[mid] : Math.round((s[mid - 1] + s[mid]) / 2);
+};
+
+async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sourceName, dir }) {
+  const histPath = path.join(dir, 'inventory-history.json');
+
+  // Today's record, same shape as the seeded backfill.
+  const m = String(feedDate).match(/^(\d{2})\/(\d{2})\/(\d{2})$/);
+  if (!m) throw new Error(`unexpected feed date "${feedDate}"`);
+  const iso = `20${m[3]}-${m[1]}-${m[2]}`;
+  const weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][
+    new Date(Date.UTC(2000 + Number(m[3]), Number(m[1]) - 1, Number(m[2]))).getUTCDay()
+  ];
+  const cities = {};
+  for (const l of listings) {
+    const c = (cities[l.city] = cities[l.city] || {
+      total: 0, ACTV: 0, NEW: 0, CS: 0, BOMK: 0, _lp: [],
+    });
+    c.total++;
+    if (c[l.status] !== undefined) c[l.status]++;
+    if (l.price > 0) c._lp.push(l.price);
+  }
+  // Price-integrity guard: a Fremont sample of 30+ with max LP under $1M means
+  // the export truncated $1M+ prices — counts stay valid, medians are poisoned.
+  const freLp = (cities.Fremont && cities.Fremont._lp) || [];
+  const truncated = freLp.length >= 30 && Math.max(...freLp) < 1000000;
+  for (const c of Object.values(cities)) {
+    c.medianLP = truncated ? null : median(c._lp);
+    delete c._lp;
+  }
+  const record = {
+    date: iso,
+    weekday,
+    cities,
+    fourCityTotal: listings.length,
+    countyActiveTotal: countyLiveTotal || null,
+    sourceFile: sourceName,
+  };
+
+  // Base series = published ∪ local (published wins are irrelevant — same-date
+  // records should be identical; union keeps the superset of dates).
+  const published = await fetchJson(HISTORY_URL);
+  let local = null;
+  try { local = JSON.parse(fs.readFileSync(histPath, 'utf8')); } catch (_) { /* absent is fine */ }
+  const base = published && Array.isArray(published.series) ? published : local;
+  if (!base || !Array.isArray(base.series)) {
+    // Never invent a 1-record history: without a seeded base we would push a
+    // file that clobbers the published 386-day series. Skip and warn instead.
+    throw new Error('no base history reachable (Pages + local both missing) — skipping upsert');
+  }
+  const byDate = new Map(base.series.map((r) => [r.date, r]));
+  if (local && Array.isArray(local.series)) {
+    for (const r of local.series) if (!byDate.has(r.date)) byDate.set(r.date, r);
+  }
+  byDate.set(iso, record); // upsert today
+  const series = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+  if (series.length < base.series.length) {
+    throw new Error('refusing to shrink the history series'); // belt and braces
+  }
+
+  const out = {
+    version: 1,
+    generatedAt: new Date().toISOString(),
+    source: base.source || 'Paragon MLS daily exports (MLS_Defined_Spread_Sheet_4) via REALTY EXPERTS',
+    filter: base.filter || { cities: ['Fremont', 'Hayward', 'Newark', 'Union City'], statuses: HISTORY_STATUSES, note: 'matches live-inventory.json feed filter' },
+    statuses: base.statuses || LIVE_STATUSES,
+    cities: base.cities || ['Fremont', 'Hayward', 'Newark', 'Union City'],
+    count: series.length,
+    series,
+  };
+  const tmpHist = histPath + '.tmp';
+  fs.writeFileSync(tmpHist, JSON.stringify(out));
+  fs.renameSync(tmpHist, histPath);
+  return { count: series.length, latest: iso };
 }
 
 if (require.main === module) {

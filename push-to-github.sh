@@ -76,6 +76,10 @@ copy_if_exists "RE-Daily-2-${DATE_STR}.png"
 copy_if_exists "alameda-chart-${DATE_STR}.js"
 copy_if_exists "alameda-interactive-${DATE_STR}.html"
 copy_if_exists "cms-meta-${DATE_STR}.txt"
+# harvrealtor.net /live-inventory feed — fetched client-side from GitHub Pages
+copy_if_exists "live-inventory.json"
+# harvrealtor.net /inventory-history feed — long-run daily series (same origin)
+copy_if_exists "inventory-history.json"
 
 # Copy QR code (glob for note-qr-*.png that's newer than 1 hour)
 for qr in "$SRC_DIR"/note-qr-*.png; do
