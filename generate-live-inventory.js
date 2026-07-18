@@ -37,7 +37,12 @@ const SCOPE =
   'https://www.googleapis.com/auth/drive.readonly https://www.googleapis.com/auth/spreadsheets.readonly';
 const RANGE = 'A1:U10000'; // no tab name -> first sheet of the dated file
 
-const TARGET_CITIES = ['FREMONT', 'HAYWARD', 'UNION CITY', 'NEWARK'];
+// Milpitas joined the Paragon export on 2026-01-05 and has been in every
+// export since. CORE_CITIES are the four with continuous history back to
+// 2024; fourCityTotal stays defined over those four ONLY, so the long-run
+// history line never steps up on the day the export definition changed.
+const CORE_CITIES = ['FREMONT', 'HAYWARD', 'UNION CITY', 'NEWARK'];
+const TARGET_CITIES = [...CORE_CITIES, 'MILPITAS'];
 const LIVE_STATUSES = { ACTV: 'Active', NEW: 'New', CS: 'Coming Soon', BOMK: 'Back on Market' };
 
 // Sanity gates — refuse to publish a file that fails any of these.
@@ -314,11 +319,18 @@ async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sou
     c.medianLP = truncated ? null : median(c._lp);
     delete c._lp;
   }
+  // fourCityTotal is defined over the four continuously-tracked cities ONLY
+  // (Milpitas entered the export 2026-01-05); the long-run history line stays
+  // apples-to-apples across that change. Milpitas rides in `cities` and in
+  // trackedTotal.
+  const CORE = ['Fremont', 'Hayward', 'Union City', 'Newark'];
+  const coreTotal = CORE.reduce((s, c) => s + (cities[c] ? cities[c].total : 0), 0);
   const record = {
     date: iso,
     weekday,
     cities,
-    fourCityTotal: listings.length,
+    fourCityTotal: coreTotal,
+    trackedTotal: listings.length,
     countyActiveTotal: countyLiveTotal || null,
     sourceFile: sourceName,
   };
