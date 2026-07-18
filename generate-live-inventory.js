@@ -269,6 +269,24 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
 const HISTORY_URL =
   'https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/inventory-history.json';
 const HISTORY_STATUSES = ['ACTV', 'NEW', 'CS', 'BOMK'];
+// Property-type + price-band dimensions (added with the 2026-07-18 v3 rebuild;
+// every historical record carries them, this keeps today's record matching).
+// BAND_BOUNDS mirror harvrealtor-net src/lib/liveInventory.ts PRICE_BAND_EDGES
+// and _inventory-history rebuild-v3.py — keep all three in sync.
+const HISTORY_TYPES = ['DE', 'CO', 'TH', 'DU'];
+// Dates proven corrupt and excluded by the v3 rebuild (2026-07-18): the
+// 2025-10-10 "…(1).csv" was a stale re-download whose MLS number sequence was
+// months older than its neighbors. Never let a cached copy resurrect them.
+const EXCLUDED_DATES = new Set(['2025-10-10']);
+const MEDIAN_TYPES = ['DE', 'CO', 'TH'];
+const BAND_BOUNDS = [800000, 1000000, 1250000, 1500000, 2000000, 3000000];
+const BAND_LABELS = ['Under $800K', '$800K to $1M', '$1M to $1.25M', '$1.25M to $1.5M',
+  '$1.5M to $2M', '$2M to $3M', '$3M and up'];
+const TYPE_LABELS = { DE: 'House', CO: 'Condo', TH: 'Townhome', DU: 'Duplex' };
+const bandIndex = (lp) => {
+  for (let i = 0; i < BAND_BOUNDS.length; i++) if (lp < BAND_BOUNDS[i]) return i;
+  return BAND_BOUNDS.length;
+};
 
 function fetchJson(url, timeoutMs = 20000) {
   return new Promise((resolve) => {
@@ -306,10 +324,18 @@ async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sou
   for (const l of listings) {
     const c = (cities[l.city] = cities[l.city] || {
       total: 0, ACTV: 0, NEW: 0, CS: 0, BOMK: 0, _lp: [],
+      _types: { DE: 0, CO: 0, TH: 0, DU: 0 },
+      _bands: Array(BAND_BOUNDS.length + 1).fill(0),
+      _lpt: { DE: [], CO: [], TH: [], DU: [] },
     });
     c.total++;
     if (c[l.status] !== undefined) c[l.status]++;
-    if (l.price > 0) c._lp.push(l.price);
+    if (l.price > 0) {
+      c._lp.push(l.price);
+      c._bands[bandIndex(l.price)]++;
+      if (l.type && c._lpt[l.type]) c._lpt[l.type].push(l.price);
+    }
+    if (l.type && c._types[l.type] !== undefined) c._types[l.type]++;
   }
   // Price-integrity guard: a Fremont sample of 30+ with max LP under $1M means
   // the export truncated $1M+ prices — counts stay valid, medians are poisoned.
@@ -317,7 +343,16 @@ async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sou
   const truncated = freLp.length >= 30 && Math.max(...freLp) < 1000000;
   for (const c of Object.values(cities)) {
     c.medianLP = truncated ? null : median(c._lp);
+    c.types = c._types;
+    c.bands = truncated ? null : c._bands;
+    c.medianLPByType = {};
+    for (const t of MEDIAN_TYPES) {
+      c.medianLPByType[t] = truncated ? null : median(c._lpt[t]);
+    }
     delete c._lp;
+    delete c._types;
+    delete c._bands;
+    delete c._lpt;
   }
   // fourCityTotal is defined over the four continuously-tracked cities ONLY
   // (Milpitas entered the export 2026-01-05); the long-run history line stays
@@ -348,11 +383,20 @@ async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sou
   }
   const byDate = new Map(base.series.map((r) => [r.date, r]));
   if (local && Array.isArray(local.series)) {
-    for (const r of local.series) if (!byDate.has(r.date)) byDate.set(r.date, r);
+    // Union keeps the superset of dates AND, per date, the richer record: a
+    // record carrying the per-type dimension outranks a counts-only one, so
+    // the v3 enrichment can never be undone by whichever copy fetched first.
+    const hasTypes = (r) =>
+      r && r.cities && Object.values(r.cities).some((c) => c && c.types);
+    for (const r of local.series) {
+      const cur = byDate.get(r.date);
+      if (!cur || (!hasTypes(cur) && hasTypes(r))) byDate.set(r.date, r);
+    }
   }
   byDate.set(iso, record); // upsert today
+  for (const d of EXCLUDED_DATES) byDate.delete(d);
   const series = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
-  if (series.length < base.series.length) {
+  if (series.length < base.series.length - EXCLUDED_DATES.size) {
     throw new Error('refusing to shrink the history series'); // belt and braces
   }
 
@@ -363,6 +407,12 @@ async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sou
     filter: base.filter || { cities: ['Fremont', 'Hayward', 'Newark', 'Union City'], statuses: HISTORY_STATUSES, note: 'matches live-inventory.json feed filter' },
     statuses: base.statuses || LIVE_STATUSES,
     cities: base.cities || ['Fremont', 'Hayward', 'Newark', 'Union City'],
+    coreCities: base.coreCities || CORE_CITIES.map((c) => c.split(' ').map((w) => w[0] + w.slice(1).toLowerCase()).join(' ')),
+    milpitasFrom: base.milpitasFrom || '2026-01-05',
+    typeLabels: base.typeLabels || TYPE_LABELS,
+    bandBounds: base.bandBounds || BAND_BOUNDS,
+    bandLabels: base.bandLabels || BAND_LABELS,
+    excluded: base.excluded || undefined,
     count: series.length,
     series,
   };
