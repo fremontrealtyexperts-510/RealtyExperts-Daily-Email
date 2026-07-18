@@ -505,7 +505,7 @@ function generateHTML(data) {
                 <tr>
                   <td style="background-color: ${PAL.paper}; border: 1px solid ${PAL.hair}; border-left: 3px solid ${PAL.gold}; padding: 18px 22px;">
                     <div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: ${PAL.goldDark}; margin-bottom: 8px;">TODAY'S LIVE INVENTORY</div>
-                    <div style="font-family: ${SANS}; font-size: 14.5px; line-height: 1.6; color: ${PAL.soft}; margin-bottom: 12px;">Every home still for sale in Fremont, Hayward, Union City and Newark, one live ledger with prices, sizes and a market read, refreshed each morning from this same MLS export.</div>
+                    <div style="font-family: ${SANS}; font-size: 14.5px; line-height: 1.6; color: ${PAL.soft}; margin-bottom: 12px;">Every home still for sale in Fremont, Hayward, Union City, Newark and Milpitas, one live ledger with prices, sizes and a market read, refreshed each morning from this same MLS export.</div>
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td bgcolor="${PAL.gold}" style="background-color: ${PAL.gold}; padding: 10px 18px;">

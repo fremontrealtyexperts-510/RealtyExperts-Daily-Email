@@ -214,7 +214,7 @@ function buildCmsHtml({ dateLabel, chartSrc, newsletterInner, pageTitle = '', de
 <div id="chart">&nbsp;</div>
 <div style="max-width:760px;margin:22px auto 0;background:var(--card);border:1px solid var(--hairline);border-left:3px solid var(--gold);border-radius:12px;padding:20px 24px;">
 <div style="font-size:11px;font-weight:700;letter-spacing:2.2px;color:#B08C1E;margin-bottom:8px;">TODAY'S LIVE INVENTORY</div>
-<div style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin-bottom:12px;">Behind these county totals: <strong id="hb-li-total" style="color:var(--ink);">hundreds of</strong> homes still for sale in <strong>Fremont, Hayward, Union City and Newark</strong>, one live ledger with prices, sizes and a market read, refreshed each morning from the same MLS export.</div>
+<div style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin-bottom:12px;">Behind these county totals: <strong id="hb-li-total" style="color:var(--ink);">hundreds of</strong> homes still for sale in <strong>Fremont, Hayward, Union City, Newark and Milpitas</strong>, one live ledger with prices, sizes and a market read, refreshed each morning from the same MLS export.</div>
 <a href="https://harvrealtor.net/live-inventory?utm_source=harvrealtor.com&amp;utm_medium=referral&amp;utm_campaign=com-crosslink&amp;utm_content=daily-post-live-inventory" style="display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;text-decoration:none;padding:10px 18px;border-radius:8px;font-size:14px;">Browse the live ledger &rarr;</a>
 </div>
 <div class="newsletter-container">
