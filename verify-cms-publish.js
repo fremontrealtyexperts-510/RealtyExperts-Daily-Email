@@ -135,7 +135,9 @@ function checkChartValues(chartData, expected) {
 function structural(html, short) {
   return {
     newsletter: ['CRYPTOCURRENCY', 'homebuilder', 'harvrealtor.net/live-inventory'].every((s) => html.includes(s)),
-    plotly: /plotly/i.test(html),
+    // 2026-07-19 redesign: the chart is self-rendering (ranked bars) — Plotly must
+    // be GONE from the live body. Its presence means a stale pre-redesign body.
+    noPlotly: !/plotly/i.test(html),
     liveStrip: html.includes('hb-li-total') && html.includes('live-inventory-teaser.js'),
     chartSrc: (html.match(/src=["']([^"']*alameda-chart-\d+\.js[^"']*)["']/) || [])[1] || null,
   };
@@ -146,8 +148,8 @@ async function verifyPage(label, url, short, expected) {
   const r = await httpGet(url + `?cb=${label}${short}`);
   if (r.status !== 200) { out.ok = false; out.lines.push(`page HTTP ${r.status}`); return out; }
   const s = structural(r.body, short);
-  out.lines.push(`newsletter+strip: ${s.newsletter && s.liveStrip ? 'OK' : 'MISSING'}  plotly: ${s.plotly ? 'OK' : 'MISSING'}`);
-  if (!(s.newsletter && s.liveStrip && s.plotly)) out.ok = false;
+  out.lines.push(`newsletter+strip: ${s.newsletter && s.liveStrip ? 'OK' : 'MISSING'}  no-plotly: ${s.noPlotly ? 'OK' : 'STILL PRESENT (stale body)'}`);
+  if (!(s.newsletter && s.liveStrip && s.noPlotly)) out.ok = false;
   if (!s.chartSrc) { out.ok = false; out.lines.push('no chart <script src> found'); return out; }
   out.lines.push(`chart src: ${s.chartSrc.replace(/^https?:\/\//, '')}`);
   let data;

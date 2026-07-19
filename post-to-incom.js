@@ -80,7 +80,9 @@ function summarize(label, url, fields, bodyHtml) {
   const warn = [];
   if (!fields['edit[form_token]']) warn.push('missing form_token');
   if (fields['edit[format]'] !== BODY_FORMAT) warn.push(`format is ${fields['edit[format]']}, expected ${BODY_FORMAT}`);
-  if (bodyHtml.length < 5000 || !/plotly/i.test(bodyHtml)) warn.push('body looks too small / no Plotly');
+  // 2026-07-19: chart is self-rendering (no Plotly) — sanity-check the external
+  // chart <script src> instead of the old Plotly CDN tag.
+  if (bodyHtml.length < 5000 || !/alameda-chart-\d+\.js/.test(bodyHtml)) warn.push('body looks too small / no chart script src');
   if (warn.length) console.log('       ⚠️  ' + warn.join('; '));
 }
 

@@ -33,16 +33,17 @@ const CITY_ORDER = [
   'Fremont', 'Union City', 'Castro Valley', 'Danville', 'Hayward', 'Livermore',
   'Newark', 'Pleasanton', 'San Ramon', 'Dublin', 'San Leandro', 'Milpitas',
 ];
-// Meridian-harmonized categorical palette: desaturated, earthy tones that sit
-// inside the gold / ink / paper system while staying mutually distinguishable
-// across 12 series. Fremont, the flagship, carries the brand gold.
+// LEGACY (pre-2026-07-19 Plotly grouped-bar era): 12-series categorical palette
+// and the default-visible city set. The ranked-bar chart uses a single gold and
+// shows all 12 cities, so nothing here reads these any more — kept only because
+// they are exported and the values document the old design. Do not re-adopt the
+// 12-color map: three golds / two sages / two slates are not distinguishable.
 const COLORS = {
   'Fremont': '#B08C1E', 'Union City': '#3E5C76', 'Castro Valley': '#6E7B5B',
   'Danville': '#9C6B4A', 'Hayward': '#7E5A73', 'Livermore': '#C9A227',
   'Newark': '#4E7C6E', 'Pleasanton': '#A65A44', 'San Ramon': '#5B7551',
   'Dublin': '#4A6E8A', 'San Leandro': '#8A6D3B', 'Milpitas': '#2E6E6A',
 };
-// Cities shown by default (also drives the info-banner text), in banner order.
 const DEFAULT_VISIBLE = ['Fremont', 'Union City', 'Milpitas', 'Hayward', 'Newark'];
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -103,42 +104,132 @@ async function readRev2() {
   return parseRev2(rows);
 }
 
-function chartInnerJs(inventory) {
-  const traces = inventory.map(({ city, values }) => ({
-    name: city, x: CATS, y: values, type: 'bar',
-    visible: DEFAULT_VISIBLE.includes(city) ? true : 'legendonly',
-    marker: { color: COLORS[city] || '#8A6D3B' },
-    hovertemplate: `<b>${city}</b><br>%{x}: %{y}<extra></extra>`,
-  }));
-  const SERIF = "'Playfair Display', Georgia, 'Times New Roman', serif";
-  const SANS = "'Inter', -apple-system, 'Segoe UI', Arial, sans-serif";
-  const layout = {
-    title: { text: 'Real Estate Inventory by City', font: { size: 21, color: '#2E2E2E', family: SERIF }, x: 0.5, xanchor: 'center', y: 0.97 },
-    xaxis: { title: { text: 'Listing Category', font: { size: 13, color: '#4A4640', family: SANS } }, tickfont: { size: 12, color: '#4A4640', family: SANS }, showgrid: false, zeroline: false },
-    yaxis: { title: { text: 'Count', font: { size: 13, color: '#4A4640', family: SANS } }, tickfont: { size: 12, color: '#4A4640', family: SANS }, gridcolor: 'rgba(46,46,46,0.07)', showgrid: true, zeroline: false },
-    height: 640, plot_bgcolor: '#FFFFFF', paper_bgcolor: '#FFFFFF', hovermode: 'closest', showlegend: true,
-    legend: { title: { text: 'Cities (tap to toggle)', font: { size: 12, color: '#4A4640', family: SANS } }, font: { size: 11, color: '#4A4640', family: SANS }, bgcolor: 'rgba(0,0,0,0)', borderwidth: 0, orientation: 'h', x: 0.5, y: -0.2, xanchor: 'center', yanchor: 'top' },
-    barmode: 'group', bargap: 0.28, bargroupgap: 0.08, margin: { l: 54, r: 18, t: 54, b: 116 }, font: { family: SANS, color: '#4A4640' }, transition: { duration: 600, easing: 'cubic-in-out' },
-  };
-  const config = { displayModeBar: false, displaylogo: false, responsive: true, toImageButtonOptions: { format: 'png', filename: 'realty_experts_inventory', height: 800, width: 1400, scale: 2 } };
+function chartInnerJs(inventory, dateLabel) {
+  // ── DATA CONTRACT (do not change the shape) ──────────────────────────────
+  // verify-cms-publish.js regex-parses this file: it splits on `var baseLayout`
+  // and requires `var data = [...]` (each series {name, x, y}, the legacy Plotly
+  // trace shape) to be the LAST statement before it. That parse feeds the Stage 5
+  // value-check that cross-checks every plotted number against an independent
+  // RE-v2 read (the gate that caught the silent all-zero "New" column, 07-17).
+  // Rendering below is free to change; the first two statements are not.
+  const traces = inventory.map(({ city, values }) => ({ name: city, x: CATS, y: values }));
   // Emitted to an EXTERNAL .js file (alameda-chart-MMDDYY.js) and referenced via
   // <script src>. Drupal strips INLINE <script> from the node body but keeps
-  // external src tags — so the chart only renders when its data lives in a
+  // external src tags — so the chart only renders when its code lives in a
   // hosted file. No HTML-escaping needed here (the file is never HTML-filtered).
+  // Since 2026-07-19 the chart is SELF-RENDERING (no Plotly): a category picker
+  // plus all 12 cities as ranked horizontal bars with the count printed on every
+  // row. That removes the 1.09MB Plotly payload, the touch scroll trap
+  // (dragmode zoom), the hover-only values, and the 12-entry legend in one move.
+  // All DOM is built with createElement/textContent (no HTML parsing of data).
   // The chart is ALWAYS light (white paper): the report embeds in the light InCom
   // page, so a prefers-color-scheme dark chart reads as broken there (2026-07-06).
-  // The click-to-enlarge lightbox also lives here for the same strip-inline reason.
+  // The click-to-enlarge lightbox for NEWSLETTER images also lives here for the
+  // same strip-inline reason — it is not part of the chart; keep it.
   return `var data = ${JSON.stringify(traces)};
-var baseLayout = ${JSON.stringify(layout)};
-var config = ${JSON.stringify(config)};
-function layoutFor(){var w=window.innerWidth,u=JSON.parse(JSON.stringify(baseLayout));u.autosize=true;if(w<600){u.height=560;u.margin={l:42,r:10,t:46,b:176};u.title.font.size=17;u.xaxis.tickfont.size=10;u.yaxis.tickfont.size=10;u.legend.font.size=9;u.legend.x=0;u.legend.xanchor='left';u.legend.title.text='';u.legend.y=-0.26;u.bargap=0.22;}else if(w<900){u.height=580;u.margin={l:48,r:14,t:50,b:134};u.title.font.size=19;u.legend.font.size=10;u.legend.x=0;u.legend.xanchor='left';u.legend.y=-0.24;}return u;}
-function drawChart(){Plotly.newPlot('chart', data, layoutFor(), config);window.addEventListener('resize',function(){Plotly.relayout('chart', layoutFor());});}
-if(window.Plotly){drawChart();}else{document.addEventListener('DOMContentLoaded',drawChart);}
+var baseLayout = {};
+var chartMeta = ${JSON.stringify({ dateLabel: dateLabel || '' })};
+(function(){
+var root=document.getElementById('chart');
+if(!root)return;
+var LABEL={'Active All':'Active All','New':'New','CS':'Coming Soon','PEND':'Pending','DE':'Detached','CO':'Condo','TH':'Townhouse'};
+var SUB={'Active All':'total active listings','New':'new listings','CS':'coming soon listings','PEND':'pending sales','DE':'active detached homes','CO':'active condos','TH':'active townhouses'};
+var GROUPS=[{label:'Market status',cats:['Active All','New','CS','PEND']},{label:'Active by home type',cats:['DE','CO','TH']}];
+var FLAGSHIP='Fremont';
+var css=''+
+'#chart .rr-wrap{max-width:640px;margin:0 auto;}'+
+'#chart .rr-title{font-family:var(--serif,Georgia,serif);font-size:19px;font-weight:700;color:var(--ink,#2E2E2E);text-align:center;margin:8px 0 2px;letter-spacing:-0.01em;}'+
+'#chart .rr-sub{font-family:var(--sans,Arial,sans-serif);font-size:12.5px;color:var(--muted,#6B6459);text-align:center;margin:0 0 14px;}'+
+'#chart .rr-groups{display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:center;margin:0 0 16px;}'+
+'#chart .rr-group-label{font-family:var(--sans,Arial,sans-serif);font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted,#6B6459);margin:0 0 6px;}'+
+'#chart .rr-chips{display:flex;flex-wrap:wrap;gap:8px;}'+
+'#chart .rr-chip{min-height:44px;padding:10px 14px;border-radius:9px;border:1px solid var(--hairline,#E8E4DA);background:#FFFFFF;color:var(--ink-soft,#4A4640);font-family:var(--sans,Arial,sans-serif);font-size:13px;font-weight:600;line-height:1.15;cursor:pointer;}'+
+'#chart .rr-chip[aria-pressed="true"]{background:var(--gold,#D4AF37);border-color:var(--gold-dark,#B08C1E);color:#2E2E2E;font-weight:700;}'+
+'#chart .rr-chip:focus-visible{outline:2px solid var(--gold-dark,#B08C1E);outline-offset:2px;}'+
+'#chart .rr-rows{list-style:none;margin:0;padding:0;}'+
+'#chart .rr-rows li{display:grid;grid-template-columns:100px 1fr 46px;gap:8px;align-items:center;min-height:29px;padding:0;margin:0;}'+
+'#chart .rr-city{font-family:var(--sans,Arial,sans-serif);font-size:12px;color:var(--ink-soft,#4A4640);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;}'+
+'#chart li.rr-flag .rr-city{font-weight:700;color:var(--ink,#2E2E2E);}'+
+'#chart .rr-track{height:16px;background:var(--track,#F2EFE7);border-radius:3px;overflow:hidden;}'+
+'#chart .rr-fill{display:block;height:100%;width:0;background:var(--gold-dark,#B08C1E);border-radius:3px;transition:width 0.32s cubic-bezier(0.22,1,0.36,1);}'+
+'#chart li.rr-flag .rr-fill{background:var(--gold,#D4AF37);box-shadow:inset 0 0 0 1px var(--gold-dark,#B08C1E);}'+
+'#chart .rr-val{font-family:var(--serif,Georgia,serif);font-size:14px;font-weight:600;color:var(--ink,#2E2E2E);text-align:right;font-variant-numeric:tabular-nums;}'+
+'#chart .rr-note{font-family:var(--sans,Arial,sans-serif);font-size:11.5px;color:var(--muted,#6B6459);line-height:1.55;margin:16px auto 4px;max-width:560px;text-align:center;}'+
+'@media (max-width:599px){#chart .rr-rows li{grid-template-columns:88px 1fr 40px;}#chart .rr-groups{justify-content:flex-start;gap:12px 18px;}}'+
+'@media (prefers-reduced-motion:reduce){#chart .rr-fill{transition:none;}}';
+function el(tag,cls){var n=document.createElement(tag);if(cls)n.className=cls;return n;}
+function valueOf(series,cat){var i=series.x.indexOf(cat);return i>=0?(Number(series.y[i])||0):0;}
+while(root.firstChild){root.removeChild(root.firstChild);}
+var style=document.createElement('style');
+style.textContent=css;
+var wrap=el('div','rr-wrap');
+var title=el('div','rr-title');
+title.textContent='Real Estate Inventory by City';
+var sub=el('p','rr-sub');
+sub.setAttribute('aria-live','polite');
+var groups=el('div','rr-groups');
+var buttons=[];
+GROUPS.forEach(function(g){
+var box=el('div','rr-group');
+var lab=el('div','rr-group-label');
+lab.textContent=g.label;
+var chips=el('div','rr-chips');
+g.cats.forEach(function(cat){
+var b=el('button','rr-chip');
+b.type='button';
+b.textContent=LABEL[cat];
+b.setAttribute('data-cat',cat);
+b.setAttribute('aria-pressed','false');
+b.addEventListener('click',function(){update(cat);});
+chips.appendChild(b);
+buttons.push(b);
+});
+box.appendChild(lab);
+box.appendChild(chips);
+groups.appendChild(box);
+});
+var rows=document.createElement('ol');
+rows.className='rr-rows';
+var rowByCity={};
+data.forEach(function(d){
+var li=document.createElement('li');
+if(d.name===FLAGSHIP)li.className='rr-flag';
+var c=el('span','rr-city');
+c.textContent=d.name;
+var t=el('span','rr-track');
+t.setAttribute('aria-hidden','true');
+var f=el('span','rr-fill');
+t.appendChild(f);
+var v=el('span','rr-val');
+li.appendChild(c);li.appendChild(t);li.appendChild(v);
+rows.appendChild(li);
+rowByCity[d.name]={li:li,fill:f,val:v};
+});
+var note=el('p','rr-note');
+note.textContent='Active All is Detached plus Condo plus Townhouse. Pending and Coming Soon are counted separately. Source: REALTY EXPERTS\\u00AE MLS export, '+(chartMeta.dateLabel||'')+'.';
+wrap.appendChild(title);wrap.appendChild(sub);wrap.appendChild(groups);wrap.appendChild(rows);wrap.appendChild(note);
+root.appendChild(style);root.appendChild(wrap);
+function update(cat){
+buttons.forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-cat')===cat));});
+var list=data.map(function(d,i){return {city:d.name,v:valueOf(d,cat),i:i};}).sort(function(a,b){return b.v-a.v||a.i-b.i;});
+var max=1;
+list.forEach(function(r){if(r.v>max)max=r.v;});
+sub.textContent='All 12 cities, ranked by '+SUB[cat]+'. Tap a category to re-rank.';
+rows.setAttribute('aria-label','Cities ranked by '+LABEL[cat]+' count, highest first');
+list.forEach(function(r){
+var n=rowByCity[r.city];
+n.val.textContent=String(r.v);
+n.fill.style.width=(r.v/max*100).toFixed(1)+'%';
+rows.appendChild(n.li);
+});
+}
+update('Active All');
+})();
 (function(){
 var open=null;
 function close(){if(open){if(open.parentNode){open.parentNode.removeChild(open);}open=null;document.body.style.overflow='';}}
 function show(src,alt){close();var o=document.createElement('div');o.className='re-lightbox';o.setAttribute('role','dialog');o.setAttribute('aria-modal','true');o.setAttribute('aria-label',alt||'Enlarged image');var im=document.createElement('img');im.src=src;im.alt=alt||'';var x=document.createElement('span');x.className='re-lightbox-close';x.setAttribute('aria-hidden','true');x.textContent='\\u00D7';o.appendChild(im);o.appendChild(x);document.body.appendChild(o);document.body.style.overflow='hidden';open=o;}
-document.addEventListener('click',function(e){if(open){close();return;}var t=e.target;if(t&&t.tagName==='IMG'&&t.closest&&t.closest('.newsletter-container')){e.preventDefault();show(t.currentSrc||t.src,t.alt);}});
+document.addEventListener('click',function(e){if(open){var t=e.target;if(t===open||(t&&t.className&&String(t.className).indexOf('re-lightbox-close')>-1)){close();}return;}var t2=e.target;if(t2&&t2.tagName==='IMG'&&t2.closest&&t2.closest('.newsletter-container')){e.preventDefault();show(t2.currentSrc||t2.src,t2.alt);}});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'||e.keyCode===27){close();}});
 })();`;
 }
@@ -154,7 +245,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'||e.keyCode==
 const STYLE_BLOCK = `<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
         .re-report { --paper:#FAF7F0; --ink:#2E2E2E; --ink-soft:#4A4640; --muted:#6B6459; --gold:#D4AF37; --gold-dark:#B08C1E; --hairline:#E8E4DA; --track:#F2EFE7; --card:#FFFFFF; --up:#16a34a; --down:#dc2626; --re:#B08C1E; --stocks:#3E5C76; --economy:#5B7551; --crypto:#8A5A2B; --serif:'Playfair Display',Georgia,'Times New Roman',serif; --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; margin: 0; padding: 18px 12px 24px; background: var(--paper); border-radius: 14px; font-family: var(--sans); color: var(--ink); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
         .re-report *, .re-report *::before, .re-report *::after { box-sizing: border-box; }
-        .re-report #chart { background: var(--card); border: 1px solid var(--hairline); border-radius: 14px; box-shadow: 0 1px 3px rgba(46,46,46,0.04), 0 14px 34px -22px rgba(46,46,46,0.20); padding: 14px; max-width: 1000px; margin: 0 auto; min-height: 500px; }
+        .re-report #chart { background: var(--card); border: 1px solid var(--hairline); border-radius: 14px; box-shadow: 0 1px 3px rgba(46,46,46,0.04), 0 14px 34px -22px rgba(46,46,46,0.20); padding: 14px; max-width: 1000px; margin: 0 auto; min-height: 560px; }
         .re-report .date-badge { text-align: center; margin: 4px 0 16px; }
         .re-report .date-badge span { display: inline-block; border: 1px solid var(--gold); color: var(--gold-dark); background: transparent; padding: 7px 22px; border-radius: 40px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
         .re-report .info-banner { max-width: 1000px; margin: 0 auto 14px; background: var(--track); border: 1px solid var(--hairline); color: var(--ink-soft); padding: 10px 16px; border-radius: 10px; text-align: center; font-size: 12.5px; }
@@ -190,14 +281,13 @@ const STYLE_BLOCK = `<style type="text/css">@import url('https://fonts.googleapi
         .re-report .disclaimer strong { color: var(--ink-soft); }
         .re-lightbox { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(28,26,21,0.9); z-index: 999999; display: flex; align-items: center; justify-content: center; padding: 28px; cursor: zoom-out; }
         .re-lightbox img { max-width: 94vw; max-height: 90vh; width: auto; height: auto; background: #fff; border-radius: 10px; box-shadow: 0 24px 80px rgba(0,0,0,0.55); }
-        .re-lightbox-close { position: fixed; top: 12px; right: 20px; color: #fff; font: 700 36px/1 Arial, sans-serif; cursor: pointer; }
+        .re-lightbox-close { position: fixed; top: 8px; top: max(8px, env(safe-area-inset-top)); right: 10px; padding: 12px 14px; color: #fff; font: 700 36px/1 Arial, sans-serif; cursor: pointer; }
         @media (max-width: 900px) { .re-report .newsletter-container { max-width: 100%; padding: 28px 22px; } }
         @media (max-width: 600px) { .re-report { font-size: 15.5px; } .re-report #chart { padding: 8px; border-radius: 12px; } .re-report .newsletter-container { padding: 22px 16px; border-radius: 12px; } .re-report .stat-line { padding: 13px 14px; font-size: 14px; } .re-report .stat-line strong { font-size: 17px; } .re-lightbox { padding: 12px; } }
 </style>`;
 
 /** Assemble the full standalone CMS page. `newsletterInner` is the inner HTML of .newsletter-container. */
 function buildCmsHtml({ dateLabel, chartSrc, newsletterInner, pageTitle = '', description = '' }) {
-  const banner = DEFAULT_VISIBLE.join(', ');
   // Attribute-safe escape for the head meta. NOTE: no inline <script> (e.g.
   // JSON-LD) may go in this document — Drupal strips inline scripts and truncates
   // everything after the first one, which would eat the newsletter. og/twitter
@@ -207,15 +297,17 @@ function buildCmsHtml({ dateLabel, chartSrc, newsletterInner, pageTitle = '', de
   // meta tags rendered as a big empty gap under the page title (2026-07-06).
   const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   const t = esc(pageTitle), d = esc(description);
-  return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${t}</title><meta name="description" content="${d}"><meta property="og:type" content="article"><meta property="og:title" content="${t}"><meta property="og:description" content="${d}"><meta property="og:site_name" content="REALTY EXPERTS&reg;"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="${t}"><meta name="twitter:description" content="${d}"><script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>${STYLE_BLOCK}
+  // No Plotly since 2026-07-19 — the chart JS is self-rendering (ranked bars),
+  // which drops ~1.09MB of render-blocking library from every page view.
+  return `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${t}</title><meta name="description" content="${d}"><meta property="og:type" content="article"><meta property="og:title" content="${t}"><meta property="og:description" content="${d}"><meta property="og:site_name" content="REALTY EXPERTS&reg;"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="${t}"><meta name="twitter:description" content="${d}">${STYLE_BLOCK}
 <div class="re-report">
 <div class="date-badge"><span>${dateLabel} &middot; Alameda County Market Dashboard</span></div>
-<div class="info-banner"><strong>Tip:</strong> Tap a city in the legend to show or hide it &bull; Default view: ${banner} &bull; Tap any chart image below to enlarge</div>
+<div class="info-banner"><strong>Tip:</strong> Tap a category to re-rank all 12 cities &bull; Every count is printed on its bar &bull; Tap any chart image below to enlarge</div>
 <div id="chart">&nbsp;</div>
 <div style="max-width:760px;margin:22px auto 0;background:var(--card);border:1px solid var(--hairline);border-left:3px solid var(--gold);border-radius:12px;padding:20px 24px;">
 <div style="font-size:11px;font-weight:700;letter-spacing:2.2px;color:#B08C1E;margin-bottom:8px;">TODAY'S LIVE INVENTORY</div>
 <div style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin-bottom:12px;">Behind these county totals: <strong id="hb-li-total" style="color:var(--ink);">hundreds of</strong> homes still for sale in <strong>Fremont, Hayward, Union City, Newark and Milpitas</strong>, one live ledger with prices, sizes and a market read, refreshed each morning from the same MLS export.</div>
-<a href="https://harvrealtor.net/live-inventory?utm_source=harvrealtor.com&amp;utm_medium=referral&amp;utm_campaign=com-crosslink&amp;utm_content=daily-post-live-inventory" style="display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;text-decoration:none;padding:10px 18px;border-radius:8px;font-size:14px;">Browse the live ledger &rarr;</a>
+<a href="https://harvrealtor.net/live-inventory?utm_source=harvrealtor.com&amp;utm_medium=referral&amp;utm_campaign=com-crosslink&amp;utm_content=daily-post-live-inventory" style="display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;text-decoration:none;padding:13px 20px;border-radius:8px;font-size:14px;">Browse the live ledger &rarr;</a>
 </div>
 <div class="newsletter-container">
 ${newsletterInner}</div>
@@ -281,7 +373,7 @@ async function generateCmsPage({ date, content, outHtml, outMeta, inventory }) {
   const chartJsPath = path.join(path.dirname(htmlPath), chartJsName);
   fs.writeFileSync(htmlPath, html);
   fs.writeFileSync(metaPath, metaTxt);
-  fs.writeFileSync(chartJsPath, chartInnerJs(inv));
+  fs.writeFileSync(chartJsPath, chartInnerJs(inv, label));
   return { cities: inv.length, htmlBytes: html.length, htmlPath, metaPath, chartJsPath };
 }
 
