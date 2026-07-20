@@ -1,51 +1,58 @@
 {
-  "date": "07/17/26",
-  "time": "9:30 AM",
+  "date": "07/20/26",
+  "time": "10:30 AM",
   "stocks": {
-    "sp500": "7,533 (-0.51%)",
-    "dow": "52,552 (-0.20%)",
-    "nasdaq": "25,881 (-2.47%)",
-    "note": "Numbers as of market close on July 16th.",
-    "news": "Stocks pulled back, and the NASDAQ led the way down, off 2.47% to 25,881, while the S&P 500 slipped 0.51% to 7,533 and the DOW eased 0.20% to 52,552. The common thread was a market rethinking a couple of its favorite AI names.\n\nNetflix (NFLX +0.91%) reported higher profits but softer revenue, and told Wall Street it will stop publishing quarterly viewership numbers. Shares are down about 20% this year as streaming competition heats up and engagement cools. Retiring the report card does not usually mean the grades are improving.\n\nGoogle (GOOG -4.43%) is reportedly delaying its next Gemini AI model because it still cannot code as well as rivals from OpenAI and Anthropic. The update may slip to next month, even as Google plans to spend roughly $190 billion on AI this year. That is a lot of budget to still be running second at the whiteboard.",
+    "sp500": "7,457 (-1.01%)",
+    "dow": "52,146 (-0.77%)",
+    "nasdaq": "25,520 (-1.40%)",
+    "note": "Numbers as of market close on July 17th.",
+    "news": "Stocks slid into the weekend. The NASDAQ led the way down, off 1.40% to 25,520, the S&P 500 gave back 1.01% to 7,457, and the DOW eased 0.77% to 52,146.\n\nTwo names did the talking. Meta fell 2.97% even as reports surfaced that Anthropic is exploring renting roughly $10 billion of Meta's computing power, a reminder that the AI buildout is now big enough that rivals rent from each other. Lucid jumped 13.93% after flatly denying a report that it was preparing to file for bankruptcy, calling it \"completely false.\" That leaves the EV maker up more than 30% over five sessions and still down more than 30% for the year, which tells you how much ground there was to make up.",
     "local_news": ""
   },
   "economy": {
-    "us10year": "4.55% (-0.01%)",
-    "gold": "$3,983 (-0.2%)",
-    "silver": "$56.50 (-0.3%)",
-    "wti": "$85.09 (+1.02%)",
+    "us10year": "4.55% (+0.01%)",
+    "gold": "$4,001 (-0.40%)",
+    "silver": "$56.77 (+1.55%)",
+    "wti": "$90.37 (+2.58%)",
     "oil_label": "Brent Crude",
-    "note": "Stocks, the 10-Year, Brent, and crypto are as of the July 16th close; gold and silver are live spot from the morning of July 17th (Market Briefs, Trading Economics, Yahoo Finance).",
-    "commentary": "The 10-Year Treasury held at 4.55%, but the louder move was in the metals. Gold just logged its largest weekly drop in three months, easing to about $3,983, and silver slipped to roughly $56.50 near an eight-month low. Gold usually climbs when investors brace for volatility, so this is a change of tone: a firmer dollar and the prospect of the Fed keeping rates higher, with the U.S. and Iran ceasefire back in question, have some traders rotating out of both. Brent crude ticked up 1.02% to $85.09.\n\nBehind the market numbers sits a household one: 42% of U.S. adults say they lean on their parents for financial help. Some economists frame it as a long-running generational pattern rather than a failure, but the takeaway is simple. When parents feel stretched, younger spending slows, and that eventually shows up in the broader economy."
+    "note": "The 10-Year, Brent, stocks, and crypto are as of the July 17th close; gold and silver are live spot quotes taken Monday morning, July 20th.",
+    "commentary": "The 10-Year Treasury barely moved at 4.55%. The commodity desk more than made up for it.\n\nBrent crude jumped 2.58% to $90.37, its first close above $90 since June 11, after strikes tied to the Iran and U.S. conflict raised fears of a supply disruption at the tankers (chart below). Zoom out and this is the second act, not the first: Brent spiked to $138.21 on April 7 before falling all the way back to the high $60s in early July. From that July 2 low of $68.53, oil has run up nearly 32% in about two weeks.\n\nThe metals split, which does not happen often. Gold slipped 0.40% to about $4,001 and is drifting toward nine month lows, while silver pushed 1.55% higher to $56.77.\n\nWhy a REALTOR® cares about a barrel of oil: higher crude usually shows up at the pump within a couple of weeks, and gas is one of the few prices households feel every single week. It also feeds the inflation read the Fed is watching, which is the same read that sets mortgage rates.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/brent-crossing-072026.png",
+      "alt": "Line chart of Brent crude oil daily spot price from January 20 to July 17, 2026, spiking to $138.21 on April 7, falling to $68.53 on July 2, and closing at $90.37 on July 17.",
+      "caption": "Brent closed at $90.37, its first finish above $90 since June 11, and up nearly 32% from the July 2 low of $68.53. April's $138.21 spike shows how fast this market can move in both directions.",
+      "source": "Source: U.S. Energy Information Administration Europe Brent spot price via FRED (DCOILBRENTEU); July 17 close per ICE."
+    }
   },
   "crypto": {
-    "btc": "$63,447 (-0.46%)",
-    "eth": "$1,850 (-0.67%)",
-    "xrp": "$1.09 (-0.16%)",
-    "note": "Numbers as of 4:00 PM ET, July 16th.",
-    "commentary": "Crypto drifted lower across the board, with Bitcoin off 0.46% to $63,447, Ether down 0.67% to $1,850, and XRP easing to $1.09.\n\nThe real story was in the plumbing. Visa (V +2.79%) is rolling out a platform that lets banks mint and move their own stablecoins, pushing traditional finance deeper into digital dollars. Circle (CRCL -7.69%) fell on the news, since bank-issued stablecoins could chip away at the market it helped build. When the incumbents start printing your product, the competition gets real."
+    "btc": "$64,721 (+0.05%)",
+    "eth": "$1,871 (+0.04%)",
+    "xrp": "$1.10 (-0.27%)",
+    "note": "Numbers as of 4:00 PM ET, July 17th.",
+    "commentary": "Crypto basically held its breath. Bitcoin added 0.05% to $64,721, Ether ticked up 0.04% to $1,871, and XRP eased 0.27% to $1.10.\n\nThe news was less quiet. A Florida student drained at least $220,000 from about 80 wallets by dressing up malware as free video games on Steam, and crypto real estate firm RealT is winding down and selling all 700 of its Detroit properties after raising roughly $140 million to let investors buy fractional stakes in rentals. Chainalysis estimates crypto scams take $14 billion to $17 billion a year. The lesson travels well beyond crypto: if the returns are effortless and the paperwork is thin, slow down."
   },
   "real_estate": {
-    "rate_30year": "6.68%",
-    "rate_15year": "6.19%",
-    "homebuilder": "Homebuilder Confidence Slides To 34, Matching Its 2024 Low, As Rates And Costs Squeeze Both Sides; Our Live Board Shows 638 Homes Buyers Can Pursue Across Fremont, Hayward, Newark, And Union City",
-    "commentary": "The daily 30-year fixed sits at 6.68% and the 15-year at 6.19%, both near a one year high, and the strain is showing up where new homes start. The NAHB homebuilder confidence index just fell to 34, matching its 2024 low (see today's chart), as high mortgage rates, pricey land, and costly materials squeeze buyers and builders at the same time. Any reading below 50 means more builders see conditions as poor than good, and the index has now sat under that line for more than a year. Fewer projects at the drawing board today tends to mean fewer choices, and firmer prices, for buyers down the road.\n\nThe top of the market could not look more different. San Francisco is riding an AI IPO wealth wave, with some local home prices reportedly jumping from about $2.3 million to $3.5 million in a year as newly liquid tech employees go house hunting. It is the same split we keep seeing: cash-rich buyers at the high end set the pace, while everyone else feels every basis point of rates.\n\n📍 Today's Live Inventory (Fremont, Hayward, Newark, Union City)\n\nOur live board shows 638 homes a buyer can actually pursue right now across the four cities, including 60 brand new listings and 67 more coming soon.\n\n📍 Fremont: 283 available (209 active, 35 new, 39 coming soon).\n\n📍 Hayward: 212 available (188 active, 11 new, 12 coming soon).\n\n📍 Newark: 83 available (68 active, 6 new, 8 coming soon).\n\n📍 Union City: 60 available (44 active, 8 new, 8 coming soon).\n\nThe full, always-updating ledger lives at harvrealtor.net/live-inventory. For agents: with rates near a one year high, the middle of the market rewards sharp pricing and rate buydown conversations, while the luxury tier keeps running on cash and barely notices.",
+    "rate_30year": "6.63%",
+    "rate_15year": "6.16%",
+    "homebuilder": "Affordability Tightens For A Fifth Straight Month As The June Existing Home Median Hits $446,400; The Longer Arc Says Rates Did The Damage, Not Prices",
+    "commentary": "The daily 30-year fixed eased to 6.63% and the 15-year to 6.16%, both a touch friendlier than Thursday.\n\nThat help arrived late. Buying a home got harder for the fifth month in a row, and the National Association of REALTORS® put the June median for existing homes at $446,400. Most American households now need a six figure income to carry a typical home, which is why so many buyers are parked on the sidelines waiting for either prices or rates to blink.\n\nZoom out and the price story is calmer than the affordability story. On the Census and HUD quarterly measure, the national median sale price is $403,200, roughly 8.9% below its late 2022 peak of $442,600 (chart below). Read those two numbers together and the point lands: prices drifted sideways to lower for three years. Rates did the damage. That also means the day financing gets cheaper, the sidelined demand does not have far to climb back.\n\nHousing is turning political, too. Young voters now rank home affordability as their top concern ahead of the midterms, above food prices, and 49% of renters are paying more than 30% of income on rent.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 733 listings across the five cities we track, refreshed this morning.\n• Fremont: 285 listings, with 209 active, 37 new this week, and 38 coming soon.\n• Hayward: 204. Milpitas: 106. Newark: 82. Union City: 56.\n• In the pipeline: 91 coming soon across the five cities, which is next week's supply already lining up, plus 68 brand new this week.\n• Board wide: 2,788 listings across the 15 city table above, down 35 from Thursday.\n\nSupply is easing back while rates tick down. That combination usually firms up the entry level first, so if you have been waiting for a softer Fremont, the window is not getting wider.",
     "local_news": "",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/homebuilder-confidence-071726.png",
-      "alt": "Bar chart of the NAHB Housing Market Index by month from August 2025 to July 2026, easing from a December peak of 39 to 34 in July 2026, which matches the 2024 low.",
-      "caption": "Homebuilder confidence fell to 34 in July, matching its 2024 low. Any reading below 50 means more builders see conditions as poor than good.",
-      "source": "Source: National Association of Home Builders (NAHB)."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/homeprice-median-072026.png",
+      "alt": "Line chart of the U.S. median sales price of houses sold, quarterly from Q1 2016 to Q1 2026, peaking at $442,600 in Q4 2022 and easing to $403,200 in Q1 2026.",
+      "caption": "The national median sale price is $403,200, about 8.9% below its late 2022 peak of $442,600. Prices drifted sideways to lower for three years while affordability still got worse, which tells you rates did the damage.",
+      "source": "Source: U.S. Census Bureau and U.S. Department of Housing and Urban Development, via FRED (MSPUS). Quarterly, not seasonally adjusted."
     }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "https://market.briefs.co/",
-    "https://www.nahb.org/",
+    "Market Briefs daily newsletter, July 20, 2026",
+    "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "https://fred.stlouisfed.org/series/MSPUS",
     "https://tradingeconomics.com/commodity/gold",
     "https://tradingeconomics.com/commodity/silver",
-    "https://harvrealtor.net/live-inventory"
+    "https://www.nar.realtor/newsroom"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4a0f02c6-c052-4617-9bac-55b2abc98df9",
-  "qr_code_path": "note-qr-4a0f02c6.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/480ef71c-5a80-411e-a528-b884bb3677f9",
+  "qr_code_path": "note-qr-480ef71c.png"
 }
