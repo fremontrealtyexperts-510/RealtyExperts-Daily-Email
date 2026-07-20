@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/20/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/20/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 20, 2026: the 30-year eases to 6.63%, the U.S. median sale price sits at $403,200 and 8.9% below its 2022 peak, Brent crude crosses $90, and 733 homes are buyable now across Fremont, Hayward, Milpitas, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, median home price, housing inventory, Brent crude, market update, REALTY EXPERTS
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
