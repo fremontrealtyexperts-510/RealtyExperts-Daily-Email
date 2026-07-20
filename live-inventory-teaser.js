@@ -33,20 +33,28 @@
   function apply(data) {
     if (!data || data.version !== 1 || !Array.isArray(data.listings)) return;
     if (data.listings.length < 50 || data.listings.length > 5000) return;
-    var counts = { Fremont: 0, Hayward: 0, "Union City": 0, Newark: 0 };
+    // Count EVERY city the feed carries; do not hardcode the roster. Milpitas was
+    // added to live-inventory.json on 2026-07-18 but this list was not updated, so
+    // the strip read 627 while harvrealtor.net/live-inventory and the daily report
+    // both said 733 (caught 2026-07-20). Deriving the roster from the feed means the
+    // next city added cannot silently desync the total again.
+    var counts = {};
     for (var i = 0; i < data.listings.length; i++) {
       var city = data.listings[i] && data.listings[i].city;
-      if (counts.hasOwnProperty(city)) counts[city]++;
+      if (!city) continue;
+      counts[city] = (counts[city] || 0) + 1;
     }
-    var total = counts.Fremont + counts.Hayward + counts["Union City"] + counts.Newark;
+    var total = 0;
+    for (var k in counts) { if (counts.hasOwnProperty(k)) total += counts[k]; }
     if (total < 50) return;
     var asOf = label(data.date);
 
     setText("hb-li-total", String(total));
-    setText("hb-li-fremont", String(counts.Fremont));
-    setText("hb-li-hayward", String(counts.Hayward));
-    setText("hb-li-unioncity", String(counts["Union City"]));
-    setText("hb-li-newark", String(counts.Newark));
+    setText("hb-li-fremont", String(counts.Fremont || 0));
+    setText("hb-li-hayward", String(counts.Hayward || 0));
+    setText("hb-li-unioncity", String(counts["Union City"] || 0));
+    setText("hb-li-newark", String(counts.Newark || 0));
+    setText("hb-li-milpitas", String(counts.Milpitas || 0));
     if (asOf) setText("hb-li-asof", asOf);
   }
 

@@ -134,7 +134,13 @@ function checkChartValues(chartData, expected) {
 
 function structural(html, short) {
   return {
-    newsletter: ['CRYPTOCURRENCY', 'homebuilder', 'harvrealtor.net/live-inventory'].every((s) => html.includes(s)),
+    // Truncation sentinels only — these must be STRUCTURAL, never topical. A daily
+    // story word ('homebuilder', 07/17's chart topic) was hardcoded here and
+    // false-FAILED every later run whose chart changed subject (caught 07/20).
+    // 'Disclaimer' is the LAST element of the newsletter, so it is the real
+    // Drupal-truncation check; the section bars prove the body arrived intact.
+    newsletter: ['REAL ESTATE', 'ECONOMY', 'CRYPTOCURRENCY', 'harvrealtor.net/live-inventory', 'Disclaimer']
+      .every((s) => html.includes(s)),
     // 2026-07-19 redesign: the chart is self-rendering (ranked bars) — Plotly must
     // be GONE from the live body. Its presence means a stale pre-redesign body.
     noPlotly: !/plotly/i.test(html),
