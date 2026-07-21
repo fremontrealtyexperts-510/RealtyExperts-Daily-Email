@@ -1,58 +1,51 @@
 {
-  "date": "07/20/26",
-  "time": "10:30 AM",
+  "date": "07/21/26",
+  "time": "9:00 AM",
   "stocks": {
-    "sp500": "7,457 (-1.01%)",
-    "dow": "52,146 (-0.77%)",
-    "nasdaq": "25,520 (-1.40%)",
-    "note": "Numbers as of market close on July 17th.",
-    "news": "Stocks slid into the weekend. The NASDAQ led the way down, off 1.40% to 25,520, the S&P 500 gave back 1.01% to 7,457, and the DOW eased 0.77% to 52,146.\n\nTwo names did the talking. Meta fell 2.97% even as reports surfaced that Anthropic is exploring renting roughly $10 billion of Meta's computing power, a reminder that the AI buildout is now big enough that rivals rent from each other. Lucid jumped 13.93% after flatly denying a report that it was preparing to file for bankruptcy, calling it \"completely false.\" That leaves the EV maker up more than 30% over five sessions and still down more than 30% for the year, which tells you how much ground there was to make up.",
+    "sp500": "7,443 (-0.19%)",
+    "dow": "51,839 (-0.59%)",
+    "nasdaq": "25,508 (-0.05%)",
+    "note": "Numbers as of market close on July 20th.",
+    "news": "Stocks drifted lower to start the week. The DOW gave back 0.59% to 51,839, the S&P 500 eased 0.19% to 7,443, and the NASDAQ was nearly flat, off 0.05% to 25,508.\n\nThe deal desk did the talking. A judge put the $110 billion merger of Paramount and Warner Bros. Discovery on hold after a review found it could hurt competition, pausing what would have been one of the largest media mergers ever. In chips, AMD unveiled a large AI system called Helios and signed Microsoft as its first big customer, a direct swing at Nvidia, which still controls roughly 95% of the AI chip market. Archer Aviation jumped almost 20% after unveiling a military drone with Anduril, a fresh lane for a company whose air taxi plans had stalled in certification limbo.",
     "local_news": ""
   },
   "economy": {
-    "us10year": "4.55% (+0.01%)",
-    "gold": "$4,001 (-0.40%)",
-    "silver": "$56.77 (+1.55%)",
-    "wti": "$90.37 (+2.58%)",
+    "us10year": "4.59% (0.00%)",
+    "gold": "$4,054 (+1.1%)",
+    "silver": "$59.12 (+4.9%)",
+    "wti": "$88.45 (-0.85%)",
     "oil_label": "Brent Crude",
-    "note": "The 10-Year, Brent, stocks, and crypto are as of the July 17th close; gold and silver are live spot quotes taken Monday morning, July 20th.",
-    "commentary": "The 10-Year Treasury barely moved at 4.55%. The commodity desk more than made up for it.\n\nBrent crude jumped 2.58% to $90.37, its first close above $90 since June 11, after strikes tied to the Iran and U.S. conflict raised fears of a supply disruption at the tankers (chart below). Zoom out and this is the second act, not the first: Brent spiked to $138.21 on April 7 before falling all the way back to the high $60s in early July. From that July 2 low of $68.53, oil has run up nearly 32% in about two weeks.\n\nThe metals split, which does not happen often. Gold slipped 0.40% to about $4,001 and is drifting toward nine month lows, while silver pushed 1.55% higher to $56.77.\n\nWhy a REALTOR® cares about a barrel of oil: higher crude usually shows up at the pump within a couple of weeks, and gas is one of the few prices households feel every single week. It also feeds the inflation read the Fed is watching, which is the same read that sets mortgage rates.",
+    "note": "Gold and silver are live spot quotes taken the morning of July 21 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 20 close. Metals can move fast intraday, so treat these as a morning snapshot.",
+    "commentary": "Gas is back over $4. The national average for regular unleaded returned to about $4.00 a gallon, up from an early July dip near $3.78 and closing in on the spring high of $4.50 (chart below). The squeeze is coming from two directions at once: tensions around Iran are pinching fuel supply, and there simply are not enough refineries to turn crude into gasoline fast enough.\n\nOddly, crude itself eased. Brent slipped 0.85% to $88.45, so the pressure at the pump is a refining story more than a barrel story right now.\n\nThe metals ran the other way, hard. Silver spiked about 4.9% to $59.12 and gold added roughly 1.1% to $4,054 as investors weighed the odds of renewed peace talks and what they would mean for inflation and rates. The 10-Year Treasury sat still at 4.59%.\n\nWhy a REALTOR® cares about a gallon of gas: it is one of the few prices households feel every single week, and it feeds the inflation read the Fed is watching. That same read sets mortgage rates, so what happens at the pump does not stay at the pump.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/brent-crossing-072026.png",
-      "alt": "Line chart of Brent crude oil daily spot price from January 20 to July 17, 2026, spiking to $138.21 on April 7, falling to $68.53 on July 2, and closing at $90.37 on July 17.",
-      "caption": "Brent closed at $90.37, its first finish above $90 since June 11, and up nearly 32% from the July 2 low of $68.53. April's $138.21 spike shows how fast this market can move in both directions.",
-      "source": "Source: U.S. Energy Information Administration Europe Brent spot price via FRED (DCOILBRENTEU); July 17 close per ICE."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/gasprices-072126.png",
+      "alt": "Line chart of the U.S. national average regular unleaded gasoline price, weekly from January 2025 to July 2026, dipping to $2.78 in January 2026, peaking at $4.50 in May 2026, easing to $3.78 in early July, and returning to $4.00 on July 20.",
+      "caption": "The national average is back over $4.00 a gallon, up from the early July dip near $3.78 and just below the spring high of $4.50. Gas is one of the few prices households feel every week, and it feeds the inflation read that sets mortgage rates.",
+      "source": "Source: U.S. Energy Information Administration regular gasoline weekly retail price via FRED (GASREGW). GasBuddy's daily national average topped $4.56 in the same stretch."
     }
   },
   "crypto": {
-    "btc": "$64,721 (+0.05%)",
-    "eth": "$1,871 (+0.04%)",
-    "xrp": "$1.10 (-0.27%)",
-    "note": "Numbers as of 4:00 PM ET, July 17th.",
-    "commentary": "Crypto basically held its breath. Bitcoin added 0.05% to $64,721, Ether ticked up 0.04% to $1,871, and XRP eased 0.27% to $1.10.\n\nThe news was less quiet. A Florida student drained at least $220,000 from about 80 wallets by dressing up malware as free video games on Steam, and crypto real estate firm RealT is winding down and selling all 700 of its Detroit properties after raising roughly $140 million to let investors buy fractional stakes in rentals. Chainalysis estimates crypto scams take $14 billion to $17 billion a year. The lesson travels well beyond crypto: if the returns are effortless and the paperwork is thin, slow down."
+    "btc": "$65,318 (+0.16%)",
+    "eth": "$1,909 (+0.30%)",
+    "xrp": "$1.12 (+0.28%)",
+    "note": "Numbers as of 4:00 PM ET, July 20th.",
+    "commentary": "Crypto had a quiet, green day. Bitcoin added 0.16% to $65,318, Ether rose 0.30% to $1,909, and XRP ticked up 0.28% to $1.12.\n\nThe policy news was louder than the price action. Russia is drafting a law that would allow only Bitcoin and Ether for legal crypto trading, since a proposed floor of a $65 billion market cap and five years of history rules almost everything else out. The goal is to route cross border payments around Western sanctions. Meanwhile South Korea's main stock index has been swinging harder than Bitcoin this year, with volatility above 60%, because two chip names, Samsung and SK Hynix, make up more than half the index, so every AI headline shakes the whole market."
   },
   "real_estate": {
-    "rate_30year": "6.63%",
-    "rate_15year": "6.16%",
-    "homebuilder": "Affordability Tightens For A Fifth Straight Month As The June Existing Home Median Hits $446,400; The Longer Arc Says Rates Did The Damage, Not Prices",
-    "commentary": "The daily 30-year fixed eased to 6.63% and the 15-year to 6.16%, both a touch friendlier than Thursday.\n\nThat help arrived late. Buying a home got harder for the fifth month in a row, and the National Association of REALTORS® put the June median for existing homes at $446,400. Most American households now need a six figure income to carry a typical home, which is why so many buyers are parked on the sidelines waiting for either prices or rates to blink.\n\nZoom out and the price story is calmer than the affordability story. On the Census and HUD quarterly measure, the national median sale price is $403,200, roughly 8.9% below its late 2022 peak of $442,600 (chart below). Read those two numbers together and the point lands: prices drifted sideways to lower for three years. Rates did the damage. That also means the day financing gets cheaper, the sidelined demand does not have far to climb back.\n\nHousing is turning political, too. Young voters now rank home affordability as their top concern ahead of the midterms, above food prices, and 49% of renters are paying more than 30% of income on rent.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 733 listings across the five cities we track, refreshed this morning.\n• Fremont: 285 listings, with 209 active, 37 new this week, and 38 coming soon.\n• Hayward: 204. Milpitas: 106. Newark: 82. Union City: 56.\n• In the pipeline: 91 coming soon across the five cities, which is next week's supply already lining up, plus 68 brand new this week.\n• Board wide: 2,788 listings across the 15 city table above, down 35 from Thursday.\n\nSupply is easing back while rates tick down. That combination usually firms up the entry level first, so if you have been waiting for a softer Fremont, the window is not getting wider.",
-    "local_news": "",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/homeprice-median-072026.png",
-      "alt": "Line chart of the U.S. median sales price of houses sold, quarterly from Q1 2016 to Q1 2026, peaking at $442,600 in Q4 2022 and easing to $403,200 in Q1 2026.",
-      "caption": "The national median sale price is $403,200, about 8.9% below its late 2022 peak of $442,600. Prices drifted sideways to lower for three years while affordability still got worse, which tells you rates did the damage.",
-      "source": "Source: U.S. Census Bureau and U.S. Department of Housing and Urban Development, via FRED (MSPUS). Quarterly, not seasonally adjusted."
-    }
+    "rate_30year": "6.71%",
+    "rate_15year": "6.18%",
+    "homebuilder": "Rates Tick Up To 6.71% As A Starter Home Divide Splits The Country; Locally, 728 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "The daily 30-year fixed nudged up to 6.71% and the 15-year to 6.18%, both a touch firmer than yesterday. Small moves, but they land on budgets that were already stretched.\n\nTwo national threads are worth watching. First, where you shop matters more than ever. Sales of homes under $350,000 are down 7.2% this year, with the South leading the drop while parts of the Northeast are still seeing prices rise. The starter rung is not one national market anymore, it is a patchwork. Second, a wave of new AI brokerages is trying to slash the standard 3% commission and hand buyers cash back, which on a $500,000 home could mean around $10,000 toward a smaller down payment or closing costs. Worth knowing, though the value of an agent who knows your specific street tends to show up right when the negotiation does.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 728 listings across the five cities we track, refreshed this morning.\n• Fremont: 280 listings, with 206 active, 35 new this week, and 37 coming soon.\n• Hayward: 206. Milpitas: 107. Newark: 79. Union City: 56.\n• In the pipeline: 94 coming soon across the five cities, plus 68 brand new this week.\n• Board wide: 2,742 listings across the 15 city table above, down 46 from yesterday.\n\nInventory is holding steady while rates tick up. When financing eventually eases, the entry level usually moves first, so the quiet stretch we are in now is the window that tends to close fastest.",
+    "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 20, 2026",
-    "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-    "https://fred.stlouisfed.org/series/MSPUS",
+    "Market Briefs daily newsletter, July 21, 2026",
+    "https://fred.stlouisfed.org/series/GASREGW",
+    "https://www.eia.gov/petroleum/gasdiesel/",
     "https://tradingeconomics.com/commodity/gold",
-    "https://tradingeconomics.com/commodity/silver",
-    "https://www.nar.realtor/newsroom"
+    "https://tradingeconomics.com/commodity/silver"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/480ef71c-5a80-411e-a528-b884bb3677f9",
-  "qr_code_path": "note-qr-480ef71c.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/d53276c8-0450-4090-b486-1053d6c15e8a",
+  "qr_code_path": "note-qr-d53276c8.png"
 }
