@@ -1,51 +1,57 @@
 {
-  "date": "07/21/26",
+  "date": "07/22/26",
   "time": "9:00 AM",
   "stocks": {
-    "sp500": "7,443 (-0.19%)",
-    "dow": "51,839 (-0.59%)",
-    "nasdaq": "25,508 (-0.05%)",
-    "note": "Numbers as of market close on July 20th.",
-    "news": "Stocks drifted lower to start the week. The DOW gave back 0.59% to 51,839, the S&P 500 eased 0.19% to 7,443, and the NASDAQ was nearly flat, off 0.05% to 25,508.\n\nThe deal desk did the talking. A judge put the $110 billion merger of Paramount and Warner Bros. Discovery on hold after a review found it could hurt competition, pausing what would have been one of the largest media mergers ever. In chips, AMD unveiled a large AI system called Helios and signed Microsoft as its first big customer, a direct swing at Nvidia, which still controls roughly 95% of the AI chip market. Archer Aviation jumped almost 20% after unveiling a military drone with Anduril, a fresh lane for a company whose air taxi plans had stalled in certification limbo.",
+    "sp500": "7,509 (+0.89%)",
+    "dow": "52,224 (+0.74%)",
+    "nasdaq": "25,837 (+1.29%)",
+    "note": "Numbers as of market close on July 21st.",
+    "news": "Stocks climbed to start the back half of the week. The NASDAQ led with a 1.29% gain to 25,837, the S&P 500 added 0.89% to 7,509, and the DOW rose 0.74% to 52,224, right in the thick of earnings season with Google, Tesla, and IBM all reporting today.\n\nThe individual names told the story. GM jumped 4.91% after strong SUV sales and shrinking EV losses. Ally beat expectations as auto loan originations rose 21% to $13.3 billion. On the other side, Halliburton slid 5.47% after warning that fracking revenue is going nowhere fast. Apple is trying a fresh angle on the squeezed consumer: starting July 28 it will let you lease iPhones, Macs, and iPads through Klarna instead of buying outright, with terms up to 36 months. Overseas, China's CSI 300 popped 3.06%, while Washington threatened sanctions on China over claims it used stolen U.S. technology to train its AI models.",
     "local_news": ""
   },
   "economy": {
-    "us10year": "4.59% (0.00%)",
-    "gold": "$4,054 (+1.1%)",
-    "silver": "$59.12 (+4.9%)",
-    "wti": "$88.45 (-0.85%)",
+    "us10year": "4.62% (0.00%)",
+    "gold": "$4,113 (+1.3%)",
+    "silver": "$59.80 (+1.2%)",
+    "wti": "$91.01 (+2.40%)",
     "oil_label": "Brent Crude",
-    "note": "Gold and silver are live spot quotes taken the morning of July 21 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 20 close. Metals can move fast intraday, so treat these as a morning snapshot.",
-    "commentary": "Gas is back over $4. The national average for regular unleaded returned to about $4.00 a gallon, up from an early July dip near $3.78 and closing in on the spring high of $4.50 (chart below). The squeeze is coming from two directions at once: tensions around Iran are pinching fuel supply, and there simply are not enough refineries to turn crude into gasoline fast enough.\n\nOddly, crude itself eased. Brent slipped 0.85% to $88.45, so the pressure at the pump is a refining story more than a barrel story right now.\n\nThe metals ran the other way, hard. Silver spiked about 4.9% to $59.12 and gold added roughly 1.1% to $4,054 as investors weighed the odds of renewed peace talks and what they would mean for inflation and rates. The 10-Year Treasury sat still at 4.59%.\n\nWhy a REALTOR® cares about a gallon of gas: it is one of the few prices households feel every single week, and it feeds the inflation read the Fed is watching. That same read sets mortgage rates, so what happens at the pump does not stay at the pump.",
+    "note": "Gold and silver are live spot quotes taken the morning of July 22 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 21 close. Metals can move fast intraday, so treat these as a morning snapshot.",
+    "commentary": "A record 9.5 million federal student loan borrowers are now in default (chart below). The pandemic payment pause ended in late 2024 and income-driven plans were trimmed, so the bill is coming due. Total student debt has more than tripled in a generation, from about $0.52 trillion in 2006 to $1.83 trillion in 2025 (roughly 3.5 times), and about a third of it, near $675 billion, sits with borrowers aged 35 to 49, prime homebuying years.\n\nOil pushed higher. Brent crude rose 2.40% to $91.01 after Saudi Arabia set a record for oil shipped through the Red Sea to route around the closed Strait of Hormuz, only for a Yemeni group to threaten that lane too. The 10-Year Treasury held at 4.62%.\n\nThe metals kept running. Gold pushed above $4,100, up about 1.3% to $4,113, and silver added roughly 1.2% to $59.80 as investors leaned into inflation and Middle East risk.\n\nWhy a REALTOR® cares about student debt: every dollar going to a monthly loan payment is a dollar not going toward a down payment. It is one quiet reason first-time buyers keep getting pushed later, and why the entry level of our market stays so competitive the moment it opens up.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/gasprices-072126.png",
-      "alt": "Line chart of the U.S. national average regular unleaded gasoline price, weekly from January 2025 to July 2026, dipping to $2.78 in January 2026, peaking at $4.50 in May 2026, easing to $3.78 in early July, and returning to $4.00 on July 20.",
-      "caption": "The national average is back over $4.00 a gallon, up from the early July dip near $3.78 and just below the spring high of $4.50. Gas is one of the few prices households feel every week, and it feeds the inflation read that sets mortgage rates.",
-      "source": "Source: U.S. Energy Information Administration regular gasoline weekly retail price via FRED (GASREGW). GasBuddy's daily national average topped $4.56 in the same stretch."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/studentdebt-072226.png",
+      "alt": "Line chart of total U.S. student loan debt by year from 2006 to 2025, in trillions of dollars, rising from about $0.52 trillion in 2006, crossing $1 trillion in 2012, and reaching $1.83 trillion in 2025.",
+      "caption": "Total U.S. student loan debt has more than tripled since 2006, from about $0.52 trillion to $1.83 trillion in 2025. A record 9.5 million federal borrowers are now in default, and roughly a third of the balance is held by people aged 35 to 49, prime homebuying years.",
+      "source": "Source: Education Data Initiative; U.S. Federal Reserve. Totals as of each year's fourth fiscal quarter."
     }
   },
   "crypto": {
-    "btc": "$65,318 (+0.16%)",
-    "eth": "$1,909 (+0.30%)",
-    "xrp": "$1.12 (+0.28%)",
-    "note": "Numbers as of 4:00 PM ET, July 20th.",
-    "commentary": "Crypto had a quiet, green day. Bitcoin added 0.16% to $65,318, Ether rose 0.30% to $1,909, and XRP ticked up 0.28% to $1.12.\n\nThe policy news was louder than the price action. Russia is drafting a law that would allow only Bitcoin and Ether for legal crypto trading, since a proposed floor of a $65 billion market cap and five years of history rules almost everything else out. The goal is to route cross border payments around Western sanctions. Meanwhile South Korea's main stock index has been swinging harder than Bitcoin this year, with volatility above 60%, because two chip names, Samsung and SK Hynix, make up more than half the index, so every AI headline shakes the whole market."
+    "btc": "$66,236 (+1.57%)",
+    "eth": "$1,917 (+0.71%)",
+    "xrp": "$1.14 (+2.37%)",
+    "note": "Numbers as of 4:00 PM ET, July 21st.",
+    "commentary": "Crypto had a green day across the board. Bitcoin rose 1.57% to $66,236, Ether added 0.71% to $1,917, and XRP led the pack with a 2.37% gain to $1.14.\n\nWashington did the moving. Treasury Secretary Bessent said the Clarity Act, which would set clearer rules for the crypto market, is at the one yard line, and Coinbase surged as much as 12.6% on the news before settling up 9.61%. Investors are betting that if the bill passes, the industry finally climbs out of its nearly year-long slump. Not everyone had a good day: the CEO of Twenty One Capital resigned after a three-way, Tether-backed merger fell apart, and the stock is now down 40% from its May high to $5.32."
   },
   "real_estate": {
-    "rate_30year": "6.71%",
-    "rate_15year": "6.18%",
-    "homebuilder": "Rates Tick Up To 6.71% As A Starter Home Divide Splits The Country; Locally, 728 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "The daily 30-year fixed nudged up to 6.71% and the 15-year to 6.18%, both a touch firmer than yesterday. Small moves, but they land on budgets that were already stretched.\n\nTwo national threads are worth watching. First, where you shop matters more than ever. Sales of homes under $350,000 are down 7.2% this year, with the South leading the drop while parts of the Northeast are still seeing prices rise. The starter rung is not one national market anymore, it is a patchwork. Second, a wave of new AI brokerages is trying to slash the standard 3% commission and hand buyers cash back, which on a $500,000 home could mean around $10,000 toward a smaller down payment or closing costs. Worth knowing, though the value of an agent who knows your specific street tends to show up right when the negotiation does.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 728 listings across the five cities we track, refreshed this morning.\n• Fremont: 280 listings, with 206 active, 35 new this week, and 37 coming soon.\n• Hayward: 206. Milpitas: 107. Newark: 79. Union City: 56.\n• In the pipeline: 94 coming soon across the five cities, plus 68 brand new this week.\n• Board wide: 2,742 listings across the 15 city table above, down 46 from yesterday.\n\nInventory is holding steady while rates tick up. When financing eventually eases, the entry level usually moves first, so the quiet stretch we are in now is the window that tends to close fastest.",
-    "local_news": ""
+    "rate_30year": "6.77%",
+    "rate_15year": "6.23%",
+    "homebuilder": "Rates Edge Up To 6.77% As Property Taxes Head To The Ballot In 13 States; Locally, 735 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "The daily 30-year fixed ticked up to 6.77% and the 15-year to 6.23%, both a hair firmer than yesterday as higher oil prices pressed on the inflation outlook.\n\nTwo stories worth your attention. First, property taxes are heading to the ballot. Voters in 13 states will decide this November whether to cut them, because housing costs eat the biggest slice of most household budgets, and Florida's Amendment 3 alone could cost local governments $46 billion by 2032. The chart below shows the stakes: New Jersey homeowners pay about $9,590 a year, the highest in the country, and the top five states all sit well above the roughly $2,500 national average. Second, big landlords are heading for the exits. A new law blocking large investors from buying more single-family homes has Wall Street firms unloading rentals, and July listings from that crowd hit 9,447, more than double February's 4,166. For buyers that could mean more inventory and a little price relief, though renters may find fewer homes to lease.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 735 listings across the five cities we track, refreshed this morning.\n• Fremont: 285 listings, with 216 active, 27 new this week, and 39 coming soon.\n• Hayward: 206. Milpitas: 107. Newark: 80. Union City: 57.\n• In the pipeline: 98 coming soon across the five cities, plus 51 brand new this week.\n• Board wide: 2,726 listings across the 15 city table above, down 16 from yesterday.\n\nInventory nudged up while rates firmed. If a wave of investor owned homes really does hit the market, the extra supply tends to show up first at the entry level, which is exactly where our buyers are fighting hardest.",
+    "local_news": "",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/propertytax-072226.png",
+      "alt": "Horizontal bar chart ranking the top five states by average annual property tax bill: New Jersey $9,590, New Hampshire $6,667, Connecticut $6,643, Illinois $5,298, and Vermont $5,039, with a reference line at the roughly $2,500 U.S. average.",
+      "caption": "New Jersey leads the nation with an average property tax bill near $9,590 a year. The five highest-tax states all run well above the roughly $2,500 U.S. average, which is why voters in 13 states will weigh cutting property taxes this November.",
+      "source": "Source: Rocket Mortgage."
+    }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 21, 2026",
-    "https://fred.stlouisfed.org/series/GASREGW",
-    "https://www.eia.gov/petroleum/gasdiesel/",
-    "https://tradingeconomics.com/commodity/gold",
-    "https://tradingeconomics.com/commodity/silver"
+    "Market Briefs daily newsletter, July 22, 2026",
+    "https://educationdata.org/student-loan-debt-statistics",
+    "https://www.rocketmortgage.com/learn/property-taxes-by-state",
+    "https://www.kitco.com/price/precious-metals",
+    "https://tradingeconomics.com/commodity/gold"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/d53276c8-0450-4090-b486-1053d6c15e8a",
-  "qr_code_path": "note-qr-d53276c8.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/eb0e310c-5ebd-4c34-9b30-120b6f6b3359",
+  "qr_code_path": "note-qr-eb0e310c.png"
 }
