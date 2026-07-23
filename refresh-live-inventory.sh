@@ -39,6 +39,14 @@ echo "Published date: ${PUBLISHED_DATE:-unknown}"
 # --- Regenerate from the newest Drive export (sanity-gated) ---
 node generate-live-inventory.js
 
+# Compact derivative for the harvbalu.homes AI assistant (n8n get_inventory
+# tool). Guarded: a derive failure must never block the main feed publish.
+if python3 derive-assistant-inventory.py; then
+  echo "assistant-inventory.json derived"
+else
+  echo "WARN: derive-assistant-inventory.py failed — publishing main feed only"
+fi
+
 NEW_DATE=$(python3 -c "import json; print(json.load(open('live-inventory.json')).get('date',''))")
 echo "Generated date: $NEW_DATE"
 
@@ -71,11 +79,16 @@ cp "$SRC_DIR/live-inventory.json" "$DST_DIR/live-inventory.json"
 if [ -f "$SRC_DIR/inventory-history.json" ]; then
   cp "$SRC_DIR/inventory-history.json" "$DST_DIR/inventory-history.json"
 fi
+# compact AI-assistant derivative (harvbalu.homes chatbot tool)
+if [ -f "$SRC_DIR/assistant-inventory.json" ]; then
+  cp "$SRC_DIR/assistant-inventory.json" "$DST_DIR/assistant-inventory.json"
+fi
 # keep the refresher itself versioned so the VPS picks it up via git auto-pull
 cp "$SRC_DIR/refresh-live-inventory.sh" "$DST_DIR/refresh-live-inventory.sh"
+cp "$SRC_DIR/derive-assistant-inventory.py" "$DST_DIR/derive-assistant-inventory.py" 2>/dev/null || true
 chmod +x "$DST_DIR/refresh-live-inventory.sh"
 
-git add live-inventory.json inventory-history.json refresh-live-inventory.sh
+git add live-inventory.json inventory-history.json assistant-inventory.json derive-assistant-inventory.py refresh-live-inventory.sh
 if [ -z "$(git status --short)" ]; then
   echo "No changes after copy — nothing to publish"
   rm -rf "$DST_DIR"

@@ -1,0 +1,133 @@
+{
+ "data_date": "07/22/26",
+ "generated_at": "2026-07-23T06:30:32.863671+00:00",
+ "source": "MLS export via RealtyExperts daily feed (same data as harvrealtor.net/live-inventory)",
+ "coverage": [
+  "Fremont",
+  "Hayward",
+  "Milpitas",
+  "Newark",
+  "Union City"
+ ],
+ "note": "Counts include active, new, coming-soon, and back-on-market listings. Refreshed up to 3x daily on business days.",
+ "cities": {
+  "Fremont": {
+   "total_for_sale": 285,
+   "by_status": {
+    "active": 216,
+    "new_this_period": 27,
+    "coming_soon": 39,
+    "back_on_market": 3
+   },
+   "by_type": {
+    "condo": 93,
+    "townhouse": 42,
+    "detached": 147,
+    "duplex/multi": 3
+   },
+   "by_price_band": {
+    "under $800K": 63,
+    "$800K-$1.2M": 66,
+    "$1.2M-$1.6M": 75,
+    "$1.6M-$2M": 51,
+    "$2M+": 30
+   },
+   "median_list_price": 1287769,
+   "median_days_on_market": 28
+  },
+  "Hayward": {
+   "total_for_sale": 206,
+   "by_status": {
+    "active": 173,
+    "new_this_period": 14,
+    "coming_soon": 19,
+    "back_on_market": 0
+   },
+   "by_type": {
+    "condo": 51,
+    "townhouse": 33,
+    "detached": 118,
+    "duplex/multi": 4
+   },
+   "by_price_band": {
+    "under $800K": 86,
+    "$800K-$1.2M": 80,
+    "$1.2M-$1.6M": 25,
+    "$1.6M-$2M": 8,
+    "$2M+": 7
+   },
+   "median_list_price": 849000,
+   "median_days_on_market": 34
+  },
+  "Milpitas": {
+   "total_for_sale": 107,
+   "by_status": {
+    "active": 82,
+    "new_this_period": 1,
+    "coming_soon": 24,
+    "back_on_market": 0
+   },
+   "by_type": {
+    "condo": 38,
+    "townhouse": 34,
+    "duplex/multi": 3,
+    "detached": 32
+   },
+   "by_price_band": {
+    "under $800K": 15,
+    "$800K-$1.2M": 41,
+    "$1.2M-$1.6M": 31,
+    "$1.6M-$2M": 14,
+    "$2M+": 6
+   },
+   "median_list_price": 1188000,
+   "median_days_on_market": 33
+  },
+  "Newark": {
+   "total_for_sale": 80,
+   "by_status": {
+    "active": 67,
+    "new_this_period": 4,
+    "coming_soon": 8,
+    "back_on_market": 1
+   },
+   "by_type": {
+    "condo": 17,
+    "townhouse": 14,
+    "detached": 49
+   },
+   "by_price_band": {
+    "under $800K": 12,
+    "$800K-$1.2M": 25,
+    "$1.2M-$1.6M": 25,
+    "$1.6M-$2M": 13,
+    "$2M+": 5
+   },
+   "median_list_price": 1253444,
+   "median_days_on_market": 30
+  },
+  "Union City": {
+   "total_for_sale": 57,
+   "by_status": {
+    "active": 44,
+    "new_this_period": 5,
+    "coming_soon": 8,
+    "back_on_market": 0
+   },
+   "by_type": {
+    "condo": 15,
+    "townhouse": 8,
+    "detached": 34
+   },
+   "by_price_band": {
+    "under $800K": 20,
+    "$800K-$1.2M": 11,
+    "$1.2M-$1.6M": 18,
+    "$1.6M-$2M": 7,
+    "$2M+": 1
+   },
+   "median_list_price": 1099950,
+   "median_days_on_market": 34
+  }
+ }
+}
