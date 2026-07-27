@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/27/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/27/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 27, 2026: mortgage rates ease to 6.80%, builders cut new-home prices 2.7%, Oracle is down 41% on the year, and 724 homes are buyable now across Fremont, Hayward, Milpitas, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, new home prices, Oracle stock, AI adoption, housing inventory, market update, REALTY EXPERTS
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
