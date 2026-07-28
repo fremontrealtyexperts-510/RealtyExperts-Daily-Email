@@ -1,57 +1,57 @@
 {
-  "date": "07/27/26",
+  "date": "07/28/26",
   "time": "9:00 AM",
   "stocks": {
-    "sp500": "7,411 (+0.05%)",
-    "dow": "51,947 (+0.46%)",
-    "nasdaq": "24,975 (-0.64%)",
-    "note": "Numbers as of market close on July 24th.",
-    "news": "Stocks were mixed to close the week. The DOW added 0.46% to 51,947 and the S&P 500 edged up 0.05% to 7,411, while the NASDAQ slipped 0.64% to 24,975.\n\nOracle landed a big one. The company signed a roughly $7 billion, 10-year deal to build software for the Pentagon. Analysts read it as steady, predictable revenue at a moment when Oracle is taking on debt to fund AI data centers. The stock has not been rewarded for any of it: shares fell 4.21% on the day and are down about 41% for the year (chart below), a long way off their June peak near $250.\n\nNvidia made a bigger one. It locked in a contract with SK Hynix to secure the memory chips its AI processors need, a deal that could be worth $500 billion over several years. SK Hynix only went public in the U.S. a few weeks ago, raising more than $26 billion in its IPO. And on the policy front, President Trump opened a trade investigation into the European Union over the fines it has levied on U.S. tech giants, including a $1 billion antitrust penalty against Google.",
+    "sp500": "7,413 (+0.02%)",
+    "dow": "52,210 (+0.51%)",
+    "nasdaq": "24,932 (-0.18%)",
+    "note": "Numbers as of market close on July 27th.",
+    "news": "Stocks were mixed again. The DOW rose 0.51% to 52,210, the S&P 500 was essentially flat at 7,413, and the NASDAQ eased 0.18% to 24,932.\n\nAmazon wants to put your phone on a satellite. It is seeking approval to launch 5,105 satellites for a direct-to-phone network, no cell towers required, chasing SpaceX's Starlink, which already offers the service. If approved, Amazon would own the second largest fleet in orbit. The scale of that catch-up is the story: there are about 15,500 active satellites circling Earth today and Starlink alone accounts for roughly 10,200 of them, about two thirds (chart below).\n\nApple is having a moment. Traders placed $590 million in Apple options bets in a single day ahead of its July 30 earnings, and the company has overtaken Nvidia as the most valuable in the world at $4.9 trillion. Meanwhile a new Chinese memory chip maker, CXMT, jumped as much as 466% on its Shanghai debut as investors bet on it becoming China's answer in the global AI chip race.",
     "local_news": "",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/oracle-ytd-072726.png",
-      "alt": "Line chart of Oracle's 2026 year-to-date share price, peaking near $250 in June before falling to a July 24 close of $114.99, down 41% on the year.",
-      "caption": "Oracle won a roughly $7 billion Pentagon contract, but the stock is down about 41% in 2026, closing at $114.99 on July 24 after peaking near $250 in June.",
-      "source": "Source: Google Finance. Close of July 24, 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/satellites-072826.png",
+      "alt": "Stacked area chart of active satellites in Earth's orbit from 2010 to 2026, reaching 15,500 total, with Starlink at 10,200 and all other operators at 5,300.",
+      "caption": "About 15,500 active satellites now circle Earth, and Starlink accounts for roughly 10,200 of them. Amazon is seeking approval to launch 5,105 of its own.",
+      "source": "Sources: ESA Space Environment Statistics; CelesTrak SATCAT Boxscore; Jonathan's Space Report (Apr 2026)."
     }
   },
   "economy": {
-    "us10year": "4.68% (-0.02%)",
-    "gold": "$4,077 (+0.62%)",
-    "silver": "$58.53 (+0.95%)",
-    "wti": "$96.78 (-1.00%)",
+    "us10year": "4.62% (-0.02%)",
+    "gold": "$4,032 (-1.0%)",
+    "silver": "$57.53 (-1.49%)",
+    "wti": "$88.36 (-8.7%)",
     "oil_label": "Brent Crude",
-    "note": "Gold and silver are live spot quotes taken the morning of July 27 (change versus the same time a trading day earlier); the 10-Year, Brent, and stocks are as of the July 24 close. Metals can move fast intraday, so treat these as a morning snapshot.",
-    "commentary": "AI has quietly become an everyday habit. Market Briefs asked its readers how often they use it, and about 63% said daily, with another 18% weekly. That is roughly 8 in 10 using AI at least once a week, while 13.9% still do not use it at all (chart below). Not everyone is thrilled about it either: librarians in Maine are now running seminars teaching people how to switch off unwanted AI features on their devices.\n\nThe money it created is showing up in strange places. AI wealth has minted a new wave of millionaires, and top auction houses pulled in around $6 billion in the first half of 2026, a record, as buyers chased rare fossils and expensive watches as stores of value. Dinosaur bones as an asset class is a sentence we did not expect to write.\n\nOil finally cooled. The U.S. paused airstrikes on Iran for a second night and Brent eased 1.00% to $96.78, though crude is still up about 27% in two weeks with the Strait of Hormuz blocked. The 10-Year Treasury slipped to 4.68%.\n\nThe metals kept climbing. Gold rose 0.62% to $4,077 and silver added 0.95% to $58.53 as easing Middle East tension pulled oil down and softened the inflation worry ahead of this week's Fed meeting.\n\nWhy a REALTOR® cares: tariffs on more than 80 countries now cover 99.4% of U.S. trade, and small businesses are suing to overturn them. That fight runs straight through construction costs, which is what turns into the price of a new home.",
+    "note": "Gold and silver are live spot quotes taken the morning of July 28 (change versus the same time a day earlier). The 10-Year and stocks are as of the July 27 close. Brent is the July 27 settlement, live sourced because the newsletter's printed figure did not reconcile with its own daily change.",
+    "commentary": "Tariffs are the quiet cost in everything. The average statutory rate now sits around 10.2% across all goods, but it is wildly uneven by category (chart below). Steel and aluminum carry roughly 52.6%, about five times the all goods rate, while semiconductors run 10.3%, automobiles 9.4%, food 5.7%, and pharmaceuticals 4.7%.\n\nThe trade news moved both ways. China said the U.S. agreed to cap a new set of tariffs on Chinese goods at 20%, though the two sides are still fighting over AI. The U.S. accused China of stealing AI information and is preparing sanctions, and China says it will retaliate if they go through.\n\nThe Fed meets today and tomorrow and is expected to hold rates steady. Inflation is running at 3.5%, still well above the 2% target, with tariff costs and the U.S. and Iran conflict both feeding into the picture.\n\nOil fell off a cliff. Brent settled at $88.36, down about 8.7% in a single session, after the U.S. paused strikes on Iran and Tehran said it had halted retaliation. That is one of the largest one day drops in years. Gold slipped about 1.0% to $4,032 and silver fell 1.49% to $57.53 as a stronger dollar and Fed uncertainty weighed on both.\n\nWhy a REALTOR® cares: steel and aluminum at 52.6% is not an abstraction. It is framing connectors, ductwork, roofing, and appliances, and it lands in the price of every new build and major remodel your clients are quoted.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/aipoll-072726.png",
-      "alt": "Horizontal bar chart of a Market Briefs reader poll on AI use: Daily 63.3%, Weekly 18.1%, Monthly 2.8%, and I don't use AI 13.9%.",
-      "caption": "About 8 in 10 Market Briefs readers now use AI at least weekly, with 63.3% using it daily. Only 13.9% say they do not use it at all.",
-      "source": "Source: Market Briefs reader poll."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/tariffrate-072826.png",
+      "alt": "Step line chart of U.S. average statutory tariff rates by product category from October 2024 to early 2027, with steel and aluminum at 52.6% and all goods at 10.2%.",
+      "caption": "Steel and aluminum carry a statutory tariff rate near 52.6%, about five times the 10.2% average across all goods. Semiconductors sit at 10.3%, automobiles 9.4%, food 5.7%, and pharmaceuticals 4.7%.",
+      "source": "Source: Tax Policy Center."
     }
   },
   "crypto": {
-    "btc": "$64,340 (+0.39%)",
-    "eth": "$1,874 (+0.80%)",
-    "xrp": "$1.10 (flat)",
-    "note": "Bitcoin and Ether are as of the newsletter's weekend snapshot. The XRP quote printed corrupted in the source, so it was replaced with a live morning quote on July 27.",
-    "commentary": "Crypto started the week firm. Bitcoin rose 0.39% to $64,340 and Ether added 0.80% to $1,874, while XRP hovered around $1.10, consolidating after lagging the other two.\n\nThere is a new seller in town. The Smarter Web Company sold 177.9 Bitcoin for $11.68 million to clear an $11.7 million debt, choosing to part with coins rather than issue new shares and dilute its existing owners. A reminder that a Bitcoin treasury is only a strategy until the loan comes due.\n\nAnd in the department of things nobody turned off: the Washington Nationals are still running ads for Terra, the crypto company that shut down in 2024. The 2022 deal was worth $38 million. Somewhere a marketing automation is still faithfully doing its job."
+    "btc": "$63,113 (-0.91%)",
+    "eth": "$1,873 (-0.79%)",
+    "xrp": "$1.06 (-0.84%)",
+    "note": "Numbers as of 4:00 PM ET, July 27th.",
+    "commentary": "Crypto kept sliding. Bitcoin fell 0.91% to $63,113, Ether eased 0.79% to $1,873, and XRP dropped 0.84% to $1.06.\n\nThe sector is trying on a new identity. With crypto in a slump, a lot of firms have pivoted to AI, and it has not rescued anyone yet. Strategy is down 81% from its November 2024 peak, and the median decline across these companies this year is 43%.\n\nSecurity remains the sore spot. Apple is being sued after users lost $1.8 million to a counterfeit wallet app, with the suit arguing Apple's safety assurances gave people false confidence. About $1.32 billion has been lost to crypto scams and hacks so far in 2026, phishing being the biggest culprit."
   },
   "real_estate": {
-    "rate_30year": "6.80%",
-    "rate_15year": "6.33%",
-    "homebuilder": "Rates Ease To 6.80% As Builders Cut New-Home Prices 2.7% And The Housing Market Actually Shrinks; Locally, 724 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "The daily 30-year fixed eased to 6.80% and the 15-year to 6.33%, both down a hair as oil pulled back. Small relief, but relief.\n\nThe housing market is not just slow, it is getting smaller. Residential investment fell 8% in the first quarter of 2026, squeezed by mortgage rates above 6.5%, climbing property taxes, and a new housing law pushing some investors to sell.\n\nBuilders are responding the only way that works. They cut the median new-home price 2.7% to $398,300 in June, on top of the rate buy-downs and cash credits they were already offering. When a builder needs to move inventory, the buyer gets leverage, and right now builders need to move inventory.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 724 listings across the five cities we track, refreshed this morning.\n• Fremont: 277 listings, with 210 active, 23 new this week, and 43 coming soon.\n• Hayward: 204. Milpitas: 110. Newark: 80. Union City: 53.\n• In the pipeline: 98 coming soon across the five cities, plus 54 brand new this week.\n• Board wide: 2,740 listings across the 15 city table above, down 46 from Friday.\n\nInventory tightened a little over the weekend while rates ticked down. If you have been waiting for a reason to get pre-approved and go look, softer builder pricing is a real one.",
+    "rate_30year": "6.76%",
+    "rate_15year": "6.31%",
+    "homebuilder": "Rates Slip To 6.76% As Backyard ADUs Hit 28% Of Bay Area Permits And One In Three Young Adults Lives At Home; Locally, 723 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "The daily 30-year fixed slipped to 6.76% and the 15-year to 6.31%, helped along by oil's collapse. Three straight days of easing now.\n\nThe backyard is the new subdivision. Accessory dwelling units made up nearly 28% of all new home permits in the Bay Area in 2024, as California's housing push turned side yards into build sites. Plenty of owners put them up to rent out and offset a cost of living that keeps climbing. If you own a lot here, that is a real equity lever worth understanding.\n\nThe other half of the story is who is not buying. One in three young Americans now lives with their parents, priced out of living alone. That is a demand problem with a long tail: millions of would be first time buyers sitting out for years, which eventually shows up as fewer move-up sellers too.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 723 listings across the five cities we track, refreshed this morning.\n• Fremont: 277 listings, with 210 active, 23 new this week, and 44 coming soon.\n• Hayward: 202. Milpitas: 109. Newark: 82. Union City: 53.\n• In the pipeline: 99 coming soon across the five cities, plus 55 brand new this week.\n• Board wide: 2,716 listings across the 15 city table above, down 24 from yesterday.\n\nRates easing three days running while inventory holds steady is a quietly good setup. If a client has been waiting for the payment math to move, this is the week to re-run it.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 27, 2026",
-    "https://www.google.com/finance/quote/ORCL:NYSE",
-    "https://fortune.com/article/current-price-of-silver-7-27-2026/",
-    "https://www.cnbc.com/select/the-price-of-gold-today-july-27-2026/",
+    "Market Briefs daily newsletter, July 28, 2026",
+    "https://www.taxpolicycenter.org/",
+    "https://www.cnbc.com/select/the-price-of-gold-today-july-28-2026/",
+    "https://www.jmbullion.com/charts/silver-prices/",
     "https://tradingeconomics.com/commodity/brent-crude-oil"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/cedc16c2-6e0b-4f62-bea7-08d8c690a92f",
-  "qr_code_path": "note-qr-cedc16c2.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/e09d4db7-ae05-4fd1-a053-e58f2c85edf8",
+  "qr_code_path": "note-qr-e09d4db7.png"
 }
