@@ -1,57 +1,57 @@
 {
-  "date": "07/28/26",
+  "date": "07/29/26",
   "time": "9:00 AM",
   "stocks": {
-    "sp500": "7,413 (+0.02%)",
-    "dow": "52,210 (+0.51%)",
-    "nasdaq": "24,932 (-0.18%)",
-    "note": "Numbers as of market close on July 27th.",
-    "news": "Stocks were mixed again. The DOW rose 0.51% to 52,210, the S&P 500 was essentially flat at 7,413, and the NASDAQ eased 0.18% to 24,932.\n\nAmazon wants to put your phone on a satellite. It is seeking approval to launch 5,105 satellites for a direct-to-phone network, no cell towers required, chasing SpaceX's Starlink, which already offers the service. If approved, Amazon would own the second largest fleet in orbit. The scale of that catch-up is the story: there are about 15,500 active satellites circling Earth today and Starlink alone accounts for roughly 10,200 of them, about two thirds (chart below).\n\nApple is having a moment. Traders placed $590 million in Apple options bets in a single day ahead of its July 30 earnings, and the company has overtaken Nvidia as the most valuable in the world at $4.9 trillion. Meanwhile a new Chinese memory chip maker, CXMT, jumped as much as 466% on its Shanghai debut as investors bet on it becoming China's answer in the global AI chip race.",
+    "sp500": "7,428 (+0.21%)",
+    "dow": "52,747 (+1.03%)",
+    "nasdaq": "24,876 (-0.22%)",
+    "note": "Numbers as of market close on July 28th.",
+    "news": "There is a new king on Wall Street. Apple became just the second company ever to reach $5 trillion in value and is now the most valuable public company on Earth, edging past Nvidia. The top five have never been this tightly packed at the summit (chart below): Apple at $4.994 trillion, Nvidia at $4.771 trillion, Alphabet at $4.067 trillion, then a real gap down to Microsoft at $2.921 trillion and Amazon at $2.483 trillion.\n\nThe DOW led the day, up 1.03% to 52,747, while the S&P 500 added 0.21% to 7,428 and the NASDAQ eased 0.22% to 24,876.\n\nEarnings were a mixed bag. Ford beat on better efficiency and steady truck and SUV pricing. UPS fell 6.57% after cutting ties with Amazon and warning that package demand could slow this summer. Royal Caribbean guided lower on the U.S. and Iran conflict, and Boeing took a hit on cost overruns building the newest Air Force One. Elsewhere, brokerages are rolling out AI agents that can trade your portfolio around the clock, which some experts think could take a retail trader from about 2 trades a month to 20 a day.",
     "local_news": "",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/satellites-072826.png",
-      "alt": "Stacked area chart of active satellites in Earth's orbit from 2010 to 2026, reaching 15,500 total, with Starlink at 10,200 and all other operators at 5,300.",
-      "caption": "About 15,500 active satellites now circle Earth, and Starlink accounts for roughly 10,200 of them. Amazon is seeking approval to launch 5,105 of its own.",
-      "source": "Sources: ESA Space Environment Statistics; CelesTrak SATCAT Boxscore; Jonathan's Space Report (Apr 2026)."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/mostvaluable-072926.png",
+      "alt": "Ranked bar chart of the five most valuable companies by market capitalization: Apple $4.994T, NVIDIA $4.771T, Alphabet $4.067T, Microsoft $2.921T, and Amazon $2.483T.",
+      "caption": "Apple is now the most valuable public company on Earth at $4.994 trillion, just the second ever to touch $5 trillion, with Nvidia close behind at $4.771 trillion.",
+      "source": "Source: Market capitalization as of July 28, 2026."
     }
   },
   "economy": {
-    "us10year": "4.62% (-0.02%)",
-    "gold": "$4,032 (-1.0%)",
-    "silver": "$57.53 (-1.49%)",
-    "wti": "$88.36 (-8.7%)",
+    "us10year": "4.61% (+0.01%)",
+    "gold": "$4,029 (-0.33%)",
+    "silver": "$58.05 (+0.90%)",
+    "wti": "$88.04 (+4.70%)",
     "oil_label": "Brent Crude",
-    "note": "Gold and silver are live spot quotes taken the morning of July 28 (change versus the same time a day earlier). The 10-Year and stocks are as of the July 27 close. Brent is the July 27 settlement, live sourced because the newsletter's printed figure did not reconcile with its own daily change.",
-    "commentary": "Tariffs are the quiet cost in everything. The average statutory rate now sits around 10.2% across all goods, but it is wildly uneven by category (chart below). Steel and aluminum carry roughly 52.6%, about five times the all goods rate, while semiconductors run 10.3%, automobiles 9.4%, food 5.7%, and pharmaceuticals 4.7%.\n\nThe trade news moved both ways. China said the U.S. agreed to cap a new set of tariffs on Chinese goods at 20%, though the two sides are still fighting over AI. The U.S. accused China of stealing AI information and is preparing sanctions, and China says it will retaliate if they go through.\n\nThe Fed meets today and tomorrow and is expected to hold rates steady. Inflation is running at 3.5%, still well above the 2% target, with tariff costs and the U.S. and Iran conflict both feeding into the picture.\n\nOil fell off a cliff. Brent settled at $88.36, down about 8.7% in a single session, after the U.S. paused strikes on Iran and Tehran said it had halted retaliation. That is one of the largest one day drops in years. Gold slipped about 1.0% to $4,032 and silver fell 1.49% to $57.53 as a stronger dollar and Fed uncertainty weighed on both.\n\nWhy a REALTOR® cares: steel and aluminum at 52.6% is not an abstraction. It is framing connectors, ductwork, roofing, and appliances, and it lands in the price of every new build and major remodel your clients are quoted.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/tariffrate-072826.png",
-      "alt": "Step line chart of U.S. average statutory tariff rates by product category from October 2024 to early 2027, with steel and aluminum at 52.6% and all goods at 10.2%.",
-      "caption": "Steel and aluminum carry a statutory tariff rate near 52.6%, about five times the 10.2% average across all goods. Semiconductors sit at 10.3%, automobiles 9.4%, food 5.7%, and pharmaceuticals 4.7%.",
-      "source": "Source: Tax Policy Center."
-    }
+    "note": "Gold and silver are live spot quotes taken the morning of July 29 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 28 close. Metals can move fast intraday, so treat these as a morning snapshot.",
+    "commentary": "All eyes on the Fed. The central bank wraps its meeting today and is expected to hold rates steady, with a decision due at 2:00 PM ET. Inflation is still running at 3.5%, well above the 2% target, and tariff costs are part of why.\n\nOn that front, the Senate is weighing a bill that would let the President impose a 500% tariff on Russian goods and 100% on its top energy buyers. Critics warn it would not stop there and could ratchet rates higher on other countries too.\n\nOil turned back up. Brent jumped 4.70% to $88.04, snapping a three day slide after renewed strikes in the Middle East, including intercepted attacks on U.S. troops and drone strikes on Saudi oil facilities. Metals split ahead of the Fed: gold eased 0.33% to $4,029 while silver rebounded 0.90% to $58.05.\n\nOne to file away: PJM, the operator of America's largest electric grid, said it will cut power to big data centers if the grid gets strained, starting June 2027. Facilities drawing 50 megawatts or more go first.\n\nWhy a REALTOR® cares: grid strain is becoming a siting issue. Where data centers cluster, they compete with housing for power and land, and that shows up in what a jurisdiction will approve and how fast."
   },
   "crypto": {
-    "btc": "$63,113 (-0.91%)",
-    "eth": "$1,873 (-0.79%)",
-    "xrp": "$1.06 (-0.84%)",
-    "note": "Numbers as of 4:00 PM ET, July 27th.",
-    "commentary": "Crypto kept sliding. Bitcoin fell 0.91% to $63,113, Ether eased 0.79% to $1,873, and XRP dropped 0.84% to $1.06.\n\nThe sector is trying on a new identity. With crypto in a slump, a lot of firms have pivoted to AI, and it has not rescued anyone yet. Strategy is down 81% from its November 2024 peak, and the median decline across these companies this year is 43%.\n\nSecurity remains the sore spot. Apple is being sued after users lost $1.8 million to a counterfeit wallet app, with the suit arguing Apple's safety assurances gave people false confidence. About $1.32 billion has been lost to crypto scams and hacks so far in 2026, phishing being the biggest culprit."
+    "btc": "$63,662 (-0.29%)",
+    "eth": "$1,907 (-0.65%)",
+    "xrp": "$1.07 (-0.45%)",
+    "note": "Numbers as of 4:00 PM ET, July 28th.",
+    "commentary": "Crypto drifted again. Bitcoin eased 0.29% to $63,662, Ether slipped 0.65% to $1,907, and XRP fell 0.45% to $1.07.\n\nWashington is closing a favorite loophole. Congress is moving to end the wash sale exemption that lets crypto investors sell at a loss, buy right back immediately, and still claim the deduction, something stock investors cannot do. The Treasury estimates closing it raises $24 billion over a decade.\n\nThe big money got a little shy. Wealthy investors trimmed crypto from 7% to 6% of their portfolios last year, though 45% say they plan to increase again next year. Small and large holders alike seem to be treating this slump as temporary."
   },
   "real_estate": {
     "rate_30year": "6.76%",
     "rate_15year": "6.31%",
-    "homebuilder": "Rates Slip To 6.76% As Backyard ADUs Hit 28% Of Bay Area Permits And One In Three Young Adults Lives At Home; Locally, 723 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "The daily 30-year fixed slipped to 6.76% and the 15-year to 6.31%, helped along by oil's collapse. Three straight days of easing now.\n\nThe backyard is the new subdivision. Accessory dwelling units made up nearly 28% of all new home permits in the Bay Area in 2024, as California's housing push turned side yards into build sites. Plenty of owners put them up to rent out and offset a cost of living that keeps climbing. If you own a lot here, that is a real equity lever worth understanding.\n\nThe other half of the story is who is not buying. One in three young Americans now lives with their parents, priced out of living alone. That is a demand problem with a long tail: millions of would be first time buyers sitting out for years, which eventually shows up as fewer move-up sellers too.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 723 listings across the five cities we track, refreshed this morning.\n• Fremont: 277 listings, with 210 active, 23 new this week, and 44 coming soon.\n• Hayward: 202. Milpitas: 109. Newark: 82. Union City: 53.\n• In the pipeline: 99 coming soon across the five cities, plus 55 brand new this week.\n• Board wide: 2,716 listings across the 15 city table above, down 24 from yesterday.\n\nRates easing three days running while inventory holds steady is a quietly good setup. If a client has been waiting for the payment math to move, this is the week to re-run it.",
-    "local_news": ""
+    "homebuilder": "Americans Are Sitting On A Record $17.9 Trillion In Home Equity, 71.6% Of All Home Value, But Low Rates Have Them Locked In; Locally, 728 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "The daily 30-year fixed held at 6.76% and the 15-year at 6.31%.\n\nHomeowners are rich on paper and stuck in practice. Americans now hold a combined $17.9 trillion in home equity, and equity as a share of total U.S. real estate value sits at 71.6%, right near its all time high (chart below). For perspective, that share bottomed at 46.2% in 2011 after the crash. The problem is access: most owners carry an ultra low mortgage rate they would surrender by selling, so they simply do not list.\n\nThat is the whole lock-in market in one number. It also points at where the business is. A homeowner who wants to tap equity without giving up a 3% note is a HELOC conversation, a rental conversion conversation, or an ADU conversation, not necessarily a listing today. Stay in that relationship and you are there when it does become a move.\n\nAlso worth watching: college towns are running hot while the rest of the market crawls. Morgantown, West Virginia jumped 12.9% year over year to $275,000, against a national median up just 2%.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 728 listings across the five cities we track, refreshed this morning.\n• Fremont: 278 listings, with 211 active, 23 new this week, and 44 coming soon.\n• Hayward: 200. Milpitas: 108. Newark: 83. Union City: 59.\n• In the pipeline: 105 coming soon across the five cities, plus 53 brand new this week.\n• Board wide: 2,711 listings across the 15 city table above, down 5 from yesterday.\n\nInventory ticked up locally while rates held. Steady is not exciting, but for a prepared buyer it beats the frantic version of this market every time.",
+    "local_news": "",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/homeequity-072926.png",
+      "alt": "Line chart of homeowner equity as a share of total U.S. real estate value from 1976 to 2026, currently 71.6% after bottoming at 46.2% in 2011.",
+      "caption": "Homeowner equity is 71.6% of total U.S. real estate value, near a record high and far above the 46.2% low reached in 2011 after the housing crash.",
+      "source": "Source: Realtor.com, Federal Reserve. 2026 Q1."
+    }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 28, 2026",
-    "https://www.taxpolicycenter.org/",
-    "https://www.cnbc.com/select/the-price-of-gold-today-july-28-2026/",
-    "https://www.jmbullion.com/charts/silver-prices/",
+    "Market Briefs daily newsletter, July 29, 2026",
+    "https://www.realtor.com/research/",
+    "https://fortune.com/article/current-price-of-silver-7-29-2026/",
+    "https://www.jmbullion.com/charts/gold-price/",
     "https://tradingeconomics.com/commodity/brent-crude-oil"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/e09d4db7-ae05-4fd1-a053-e58f2c85edf8",
-  "qr_code_path": "note-qr-e09d4db7.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/859830d7-1814-4903-bdbf-9075a23fe14c",
+  "qr_code_path": "note-qr-859830d7.png"
 }
