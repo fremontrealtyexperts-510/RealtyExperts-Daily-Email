@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 07/30/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 07/30/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for July 30, 2026: the Fed holds at a 3.63% effective rate with September hike odds near 70%, mortgage rates ease to 6.77%, foreign buyers pull $11 billion out of U.S. housing, and 724 homes are buyable now across Fremont, Hayward, Milpitas, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, Federal Reserve, federal funds rate, Kevin Warsh, foreign buyers, housing inventory, market update, REALTY EXPERTS
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
