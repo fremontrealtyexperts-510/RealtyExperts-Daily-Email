@@ -1,57 +1,58 @@
 {
-  "date": "07/29/26",
-  "time": "9:00 AM",
+  "date": "07/30/26",
+  "time": "2:00 PM",
   "stocks": {
-    "sp500": "7,428 (+0.21%)",
-    "dow": "52,747 (+1.03%)",
-    "nasdaq": "24,876 (-0.22%)",
-    "note": "Numbers as of market close on July 28th.",
-    "news": "There is a new king on Wall Street. Apple became just the second company ever to reach $5 trillion in value and is now the most valuable public company on Earth, edging past Nvidia. The top five have never been this tightly packed at the summit (chart below): Apple at $4.994 trillion, Nvidia at $4.771 trillion, Alphabet at $4.067 trillion, then a real gap down to Microsoft at $2.921 trillion and Amazon at $2.483 trillion.\n\nThe DOW led the day, up 1.03% to 52,747, while the S&P 500 added 0.21% to 7,428 and the NASDAQ eased 0.22% to 24,876.\n\nEarnings were a mixed bag. Ford beat on better efficiency and steady truck and SUV pricing. UPS fell 6.57% after cutting ties with Amazon and warning that package demand could slow this summer. Royal Caribbean guided lower on the U.S. and Iran conflict, and Boeing took a hit on cost overruns building the newest Air Force One. Elsewhere, brokerages are rolling out AI agents that can trade your portfolio around the clock, which some experts think could take a retail trader from about 2 trades a month to 20 a day.",
+    "sp500": "7,316 (-1.52%)",
+    "dow": "51,594 (-2.19%)",
+    "nasdaq": "24,443 (-1.74%)",
+    "note": "Numbers as of market close on July 29th.",
+    "news": "The DOW fell more than 1,100 points, its worst single day since April 2025. The Fed left rates alone, but three officials voted for a hike and the market read the whole meeting as hawkish. Yields rose and stocks slid across the board, with the S&P 500 off 1.52% to 7,316, the DOW down 2.19% to 51,594, and the NASDAQ down 1.74% to 24,443.\n\nM&M earnings, and not the kind you eat. Meta and Microsoft both reported after the bell. Microsoft beat, spending more on data centers and driving cloud revenue higher. Meta went the other way: shares fell more than 10% at one point in after hours trading once the company said its AI investments are draining free cash flow. That caps a rough year for the stock, down 11.28% and $74.48 a share since January, with a February high of $740 and an April low of $527 along the way (chart below). Apple reports after the bell today.\n\nThe chip trade is unwinding fast. The sector has shed more than $1 trillion since last Friday, with Nvidia alone giving up $238 billion in market value. It was the biggest weekly selloff in chip stocks since 2020, and experts read it as a confidence problem rather than a numbers problem, which usually means more volatility ahead.",
     "local_news": "",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/mostvaluable-072926.png",
-      "alt": "Ranked bar chart of the five most valuable companies by market capitalization: Apple $4.994T, NVIDIA $4.771T, Alphabet $4.067T, Microsoft $2.921T, and Amazon $2.483T.",
-      "caption": "Apple is now the most valuable public company on Earth at $4.994 trillion, just the second ever to touch $5 trillion, with Nvidia close behind at $4.771 trillion.",
-      "source": "Source: Market capitalization as of July 28, 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/meta-ytd-073026.png",
+      "alt": "Line chart of Meta Platforms share price year to date 2026, opening at $660.09, peaking at $740 in February, bottoming at $527 in April, and closing July 29 at $585.61, down 11.28 percent.",
+      "caption": "Meta is down 11.28% in 2026, a $74.48 slide from the January open, and shares fell more than 10% in after hours trading on word that AI spending is eating free cash flow.",
+      "source": "Source: Google Finance. Close of July 29, 2026."
     }
   },
   "economy": {
-    "us10year": "4.61% (+0.01%)",
-    "gold": "$4,029 (-0.33%)",
-    "silver": "$58.05 (+0.90%)",
-    "wti": "$88.04 (+4.70%)",
+    "us10year": "4.70% (+0.09%)",
+    "gold": "$4,131 (+0.60%)",
+    "silver": "$58.81 (+1.30%)",
+    "wti": "$90.74 (+7.90%)",
     "oil_label": "Brent Crude",
-    "note": "Gold and silver are live spot quotes taken the morning of July 29 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 28 close. Metals can move fast intraday, so treat these as a morning snapshot.",
-    "commentary": "All eyes on the Fed. The central bank wraps its meeting today and is expected to hold rates steady, with a decision due at 2:00 PM ET. Inflation is still running at 3.5%, well above the 2% target, and tariff costs are part of why.\n\nOn that front, the Senate is weighing a bill that would let the President impose a 500% tariff on Russian goods and 100% on its top energy buyers. Critics warn it would not stop there and could ratchet rates higher on other countries too.\n\nOil turned back up. Brent jumped 4.70% to $88.04, snapping a three day slide after renewed strikes in the Middle East, including intercepted attacks on U.S. troops and drone strikes on Saudi oil facilities. Metals split ahead of the Fed: gold eased 0.33% to $4,029 while silver rebounded 0.90% to $58.05.\n\nOne to file away: PJM, the operator of America's largest electric grid, said it will cut power to big data centers if the grid gets strained, starting June 2027. Facilities drawing 50 megawatts or more go first.\n\nWhy a REALTOR® cares: grid strain is becoming a siting issue. Where data centers cluster, they compete with housing for power and land, and that shows up in what a jurisdiction will approve and how fast."
+    "note": "Gold and silver are live spot quotes taken midday July 30 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 29 close. Metals can move fast intraday, so treat these as a same day snapshot.",
+    "commentary": "Warsh waits. Fed Chairman Kevin Warsh and the committee left rates unchanged in a 9 to 3 vote, the fifth straight meeting with no move, holding the target range at 3.50% to 3.75%. Three officials wanted a hike outright. Traders now put the odds of a September increase near 70%, and that flows straight through to mortgage rates, auto loans, and home equity lines.\n\nThe chart below puts the decision in context: near zero through the pandemic years, a fast climb to 5.33% in 2023, and a slow glide down to the 3.63% effective rate we sit at today. The last five meetings are the flat stretch on the right side.\n\nOil is the wild card now. Brent jumped 7.90% to $90.74 after President Trump threatened to strike Iran, which followed overnight Iranian strikes on U.S. assets. Iran controls the Strait of Hormuz, where roughly a fifth of the world's oil passes. Higher pump prices and pricier flights are the likely follow through.\n\nRefineries are running hot and it still is not enough. U.S. plants are processing about 17 million barrels of crude a day, the most since 2019, but global fuel supply was already tight from the war in Ukraine and there is simply not enough refining capacity to catch up.\n\nMetals liked the hold. Gold crested $4,100 and trades at $4,131 this morning, up 0.60%, after rising nearly 2% on the Fed news itself. Silver added 1.30% to $58.81 and still cannot reclaim $60, a level it has not opened above since July 8.\n\nWhy a REALTOR® cares: a 70% chance of a September hike is the number to watch, not yesterday's hold. If that bet firms up, the 30-year moves before the Fed ever does, and today's rate becomes the good one your buyers wish they had taken.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/fedrate-073026.png",
+      "alt": "Line chart of the federal funds effective rate monthly over the past ten years, from 0.39 percent in 2016, down to near zero in 2020, up to a 5.33 percent peak in 2023, and down to 3.63 percent today.",
+      "caption": "The Fed held again, the fifth straight meeting with no change. The effective rate sits at 3.63%, down from the 5.33% peak in 2023 but still far above the near zero pandemic years.",
+      "source": "Source: Federal Reserve Economic Data (FRED), federal funds effective rate, monthly through June 2026."
+    }
   },
   "crypto": {
-    "btc": "$63,662 (-0.29%)",
-    "eth": "$1,907 (-0.65%)",
-    "xrp": "$1.07 (-0.45%)",
-    "note": "Numbers as of 4:00 PM ET, July 28th.",
-    "commentary": "Crypto drifted again. Bitcoin eased 0.29% to $63,662, Ether slipped 0.65% to $1,907, and XRP fell 0.45% to $1.07.\n\nWashington is closing a favorite loophole. Congress is moving to end the wash sale exemption that lets crypto investors sell at a loss, buy right back immediately, and still claim the deduction, something stock investors cannot do. The Treasury estimates closing it raises $24 billion over a decade.\n\nThe big money got a little shy. Wealthy investors trimmed crypto from 7% to 6% of their portfolios last year, though 45% say they plan to increase again next year. Small and large holders alike seem to be treating this slump as temporary."
+    "btc": "$64,552 (+0.92%)",
+    "eth": "$1,916 (+0.43%)",
+    "xrp": "$1.08 (+0.49%)",
+    "note": "Numbers as of 4:00 PM ET, July 29th.",
+    "commentary": "Crypto held its ground on a red day for stocks. Bitcoin added 0.92% to $64,552, Ether rose 0.43% to $1,916, and XRP gained 0.49% to $1.08.\n\nRegulation is parked until fall. Congress punted the CLARITY Act until after the summer break, and its odds of passing are now put at roughly 5%. The Senate moved a Russia sanctions bill ahead of it, and Democrats remain split over added ethics language. The bill would have answered a long list of open questions about how crypto is actually regulated, so the uncertainty simply carries forward.\n\nRobinhood pulled in $100 million from crypto alone, well above Wall Street estimates. The stock fell 3.15% anyway, which tells you the market is pricing the trend and not the quarter."
   },
   "real_estate": {
-    "rate_30year": "6.76%",
+    "rate_30year": "6.77%",
     "rate_15year": "6.31%",
-    "homebuilder": "Americans Are Sitting On A Record $17.9 Trillion In Home Equity, 71.6% Of All Home Value, But Low Rates Have Them Locked In; Locally, 728 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "The daily 30-year fixed held at 6.76% and the 15-year at 6.31%.\n\nHomeowners are rich on paper and stuck in practice. Americans now hold a combined $17.9 trillion in home equity, and equity as a share of total U.S. real estate value sits at 71.6%, right near its all time high (chart below). For perspective, that share bottomed at 46.2% in 2011 after the crash. The problem is access: most owners carry an ultra low mortgage rate they would surrender by selling, so they simply do not list.\n\nThat is the whole lock-in market in one number. It also points at where the business is. A homeowner who wants to tap equity without giving up a 3% note is a HELOC conversation, a rental conversion conversation, or an ADU conversation, not necessarily a listing today. Stay in that relationship and you are there when it does become a move.\n\nAlso worth watching: college towns are running hot while the rest of the market crawls. Morgantown, West Virginia jumped 12.9% year over year to $275,000, against a national median up just 2%.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 728 listings across the five cities we track, refreshed this morning.\n• Fremont: 278 listings, with 211 active, 23 new this week, and 44 coming soon.\n• Hayward: 200. Milpitas: 108. Newark: 83. Union City: 59.\n• In the pipeline: 105 coming soon across the five cities, plus 53 brand new this week.\n• Board wide: 2,711 listings across the 15 city table above, down 5 from yesterday.\n\nInventory ticked up locally while rates held. Steady is not exciting, but for a prepared buyer it beats the frantic version of this market every time.",
-    "local_news": "",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/homeequity-072926.png",
-      "alt": "Line chart of homeowner equity as a share of total U.S. real estate value from 1976 to 2026, currently 71.6% after bottoming at 46.2% in 2011.",
-      "caption": "Homeowner equity is 71.6% of total U.S. real estate value, near a record high and far above the 46.2% low reached in 2011 after the housing crash.",
-      "source": "Source: Realtor.com, Federal Reserve. 2026 Q1."
-    }
+    "homebuilder": "Foreign Buyers Pulled $11 Billion Out Of The U.S. Housing Market And Chinese Purchases Fell By Nearly Half; A Hawkish Fed Puts September Hike Odds Near 70%; Locally, 724 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "The daily 30-year fixed eased to 6.77% and the 15-year to 6.31%, each down a basis point. That is the calm before the read through: yesterday's hawkish hold pushed September hike odds to about 70%, and the 30-year tends to move well ahead of the Fed itself.\n\nInternational buyers are stepping back. Foreign purchases of U.S. homes dropped $11 billion from a year ago, and Chinese buyers alone spent close to half what they spent last year. High prices, tight inventory, and political tension are all cooling overseas demand. For local buyers that means less competition in exactly the markets that used to draw the most foreign money, California among them.\n\nHousing is also losing some of its shine as a wealth engine. Boomers built net worth on appreciation, but over the past decade stocks have outpaced home appreciation once you account for taxes, insurance, and repairs. Inflation pushed ownership costs up while the market ran, and more Americans are renting and investing the difference rather than buying.\n\nWhy a REALTOR® cares: that comparison leaves out leverage, the mortgage interest deduction, and the fact that nobody lives inside an index fund. It is a real objection you will hear this year, and the answer is a side by side on the specific property, not a defense of housing in general.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 724 listings across the five cities we track, refreshed this morning.\n• Fremont: 274 listings, with 213 active, 18 new this week, and 42 coming soon.\n• Hayward: 200. Milpitas: 106. Newark: 83. Union City: 61.\n• In the pipeline: 102 coming soon across the five cities, plus 41 brand new this week.\n• Board wide: 2,724 listings across the 15 city table above, up 13 from yesterday.\n\nInventory slipped by 4 locally while the board added 13. Nothing dramatic either way, which is the point: supply is holding steady into a week where the rate story got louder than the housing story.",
+    "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 29, 2026",
-    "https://www.realtor.com/research/",
-    "https://fortune.com/article/current-price-of-silver-7-29-2026/",
-    "https://www.jmbullion.com/charts/gold-price/",
-    "https://tradingeconomics.com/commodity/brent-crude-oil"
+    "Market Briefs daily newsletter, July 30, 2026",
+    "https://fred.stlouisfed.org/series/FEDFUNDS",
+    "https://www.fool.com/coverage/stock-market-today/2026/07/29/stock-market-today-july-29-stocks-slide-on-hawkish-fed-and-increased-middle-east-tensions/",
+    "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-30-2026-gold-prices-crest-4100-after-fed-holds-rates-steady-123355668.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-july-30-2026-silver-prices-remain-below-60-even-without-a-rate-increase-125729235.html"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/859830d7-1814-4903-bdbf-9075a23fe14c",
-  "qr_code_path": "note-qr-859830d7.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/a05ce848-6c44-4360-adce-1a1e661c8940",
+  "qr_code_path": "note-qr-a05ce848.png"
 }
