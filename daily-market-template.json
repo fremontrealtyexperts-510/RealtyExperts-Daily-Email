@@ -1,58 +1,53 @@
 {
-  "date": "07/30/26",
-  "time": "2:00 PM",
+  "date": "07/31/26",
+  "time": "12:30 PM",
   "stocks": {
-    "sp500": "7,316 (-1.52%)",
-    "dow": "51,594 (-2.19%)",
-    "nasdaq": "24,443 (-1.74%)",
-    "note": "Numbers as of market close on July 29th.",
-    "news": "The DOW fell more than 1,100 points, its worst single day since April 2025. The Fed left rates alone, but three officials voted for a hike and the market read the whole meeting as hawkish. Yields rose and stocks slid across the board, with the S&P 500 off 1.52% to 7,316, the DOW down 2.19% to 51,594, and the NASDAQ down 1.74% to 24,443.\n\nM&M earnings, and not the kind you eat. Meta and Microsoft both reported after the bell. Microsoft beat, spending more on data centers and driving cloud revenue higher. Meta went the other way: shares fell more than 10% at one point in after hours trading once the company said its AI investments are draining free cash flow. That caps a rough year for the stock, down 11.28% and $74.48 a share since January, with a February high of $740 and an April low of $527 along the way (chart below). Apple reports after the bell today.\n\nThe chip trade is unwinding fast. The sector has shed more than $1 trillion since last Friday, with Nvidia alone giving up $238 billion in market value. It was the biggest weekly selloff in chip stocks since 2020, and experts read it as a confidence problem rather than a numbers problem, which usually means more volatility ahead.",
-    "local_news": "",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/meta-ytd-073026.png",
-      "alt": "Line chart of Meta Platforms share price year to date 2026, opening at $660.09, peaking at $740 in February, bottoming at $527 in April, and closing July 29 at $585.61, down 11.28 percent.",
-      "caption": "Meta is down 11.28% in 2026, a $74.48 slide from the January open, and shares fell more than 10% in after hours trading on word that AI spending is eating free cash flow.",
-      "source": "Source: Google Finance. Close of July 29, 2026."
-    }
+    "sp500": "7,437 (+1.66%)",
+    "dow": "52,208 (+1.19%)",
+    "nasdaq": "25,122 (+2.78%)",
+    "note": "Numbers as of market close on July 30th.",
+    "news": "The market flipped. One day after its biggest selloff in about a year, Wall Street rebounded across the board: the NASDAQ jumped 2.78% to 25,122, the S&P 500 added 1.66% to 7,437, and the DOW gained 1.19% to 52,208. Chip stocks and Microsoft led the bounce.\n\nEarnings were a split decision. Amazon beat expectations as its AWS cloud business boomed on AI demand and the stock rose 3.90%. Apple, the world's most valuable company, missed as App Store and subscription revenue slowed, and shares eased 1.41%. Reddit beat on revenue but its CEO warned that search traffic coming from Google has turned unreliable. Roblox fell 2.91% on fewer players, with the company noting no new hit game has replaced last year's titles.\n\nOracle was the day's standout, up 8.34% on a deal to let customers run Google's Gemini AI inside its business software. The bet is that offering a choice between its own AI and Google's keeps customers from leaving, and it puts new features in front of millions of users without making them learn new software.",
+    "local_news": ""
   },
   "economy": {
-    "us10year": "4.70% (+0.09%)",
-    "gold": "$4,131 (+0.60%)",
-    "silver": "$58.81 (+1.30%)",
-    "wti": "$90.74 (+7.90%)",
+    "us10year": "4.68% (-0.02%)",
+    "gold": "$4,038 (-1.08%)",
+    "silver": "$57.98 (-0.20%)",
+    "wti": "$88.24 (+1.56%)",
     "oil_label": "Brent Crude",
-    "note": "Gold and silver are live spot quotes taken midday July 30 (change versus the same time a day earlier); the 10-Year, Brent, stocks, and crypto are as of the July 29 close. Metals can move fast intraday, so treat these as a same day snapshot.",
-    "commentary": "Warsh waits. Fed Chairman Kevin Warsh and the committee left rates unchanged in a 9 to 3 vote, the fifth straight meeting with no move, holding the target range at 3.50% to 3.75%. Three officials wanted a hike outright. Traders now put the odds of a September increase near 70%, and that flows straight through to mortgage rates, auto loans, and home equity lines.\n\nThe chart below puts the decision in context: near zero through the pandemic years, a fast climb to 5.33% in 2023, and a slow glide down to the 3.63% effective rate we sit at today. The last five meetings are the flat stretch on the right side.\n\nOil is the wild card now. Brent jumped 7.90% to $90.74 after President Trump threatened to strike Iran, which followed overnight Iranian strikes on U.S. assets. Iran controls the Strait of Hormuz, where roughly a fifth of the world's oil passes. Higher pump prices and pricier flights are the likely follow through.\n\nRefineries are running hot and it still is not enough. U.S. plants are processing about 17 million barrels of crude a day, the most since 2019, but global fuel supply was already tight from the war in Ukraine and there is simply not enough refining capacity to catch up.\n\nMetals liked the hold. Gold crested $4,100 and trades at $4,131 this morning, up 0.60%, after rising nearly 2% on the Fed news itself. Silver added 1.30% to $58.81 and still cannot reclaim $60, a level it has not opened above since July 8.\n\nWhy a REALTOR® cares: a 70% chance of a September hike is the number to watch, not yesterday's hold. If that bet firms up, the 30-year moves before the Fed ever does, and today's rate becomes the good one your buyers wish they had taken.",
+    "note": "Gold, silver, and Brent are live quotes taken the morning of July 31 (change versus the same time a day earlier); the 10-Year, stocks, and crypto are as of the July 30 close. Commodities can move fast intraday, so treat these as a same day snapshot.",
+    "commentary": "Growth stalls while inflation sticks. The Bureau of Economic Analysis put second quarter growth at 1.5% in its advance estimate, down from 2.1% in the first quarter, while inflation ran at 3.7%, well above the Fed's 2% target. Slower growth plus stubborn prices is the hard combination, and it is exactly why three Fed officials voted to hike this week.\n\nThe chart below shows the full five year run. The 7.0% reopening surge in late 2021 is long gone, and the last four quarters have swung from 4.4% down to 0.5%, back up to 2.1%, and now to 1.5%. Only two quarters in the whole stretch were negative. BEA credits the slowdown to a downturn in government spending plus decelerating investment and exports, partly offset by consumers who actually spent more.\n\nSmall businesses are feeling it first. Merchant cash advances, the expensive kind of financing, were used by 12% of small firms in 2025, up from 9% a year earlier. Tariffs are squeezing cash flow and many of these businesses cannot qualify for cheaper bank loans. If the Fed does hike in September, those payments get worse.\n\nWhy a REALTOR® cares: 1.5% growth with 3.7% inflation is the setup that keeps mortgage rates elevated without giving buyers the wage gains to absorb them. It also hits the self employed borrower first, and in this market that is a meaningful share of the buyer pool.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/fedrate-073026.png",
-      "alt": "Line chart of the federal funds effective rate monthly over the past ten years, from 0.39 percent in 2016, down to near zero in 2020, up to a 5.33 percent peak in 2023, and down to 3.63 percent today.",
-      "caption": "The Fed held again, the fifth straight meeting with no change. The effective rate sits at 3.63%, down from the 5.33% peak in 2023 but still far above the near zero pandemic years.",
-      "source": "Source: Federal Reserve Economic Data (FRED), federal funds effective rate, monthly through June 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/gdp-quarterly-073126.png",
+      "alt": "Bar chart of quarterly change in real gross domestic product at a seasonally adjusted annual rate from 2021 Q3 through 2026 Q2, peaking at 7.0 percent in late 2021 and easing to 1.5 percent in the second quarter of 2026.",
+      "caption": "Second quarter growth came in at 1.5%, down from 2.1% in the first quarter. Only two quarters in the past five years were negative, and the 7.0% reopening surge of late 2021 is long behind us.",
+      "source": "Source: Bureau of Economic Analysis. Seasonally adjusted annual rate. Q2 2026 advance estimate, released July 30, 2026."
     }
   },
   "crypto": {
-    "btc": "$64,552 (+0.92%)",
-    "eth": "$1,916 (+0.43%)",
-    "xrp": "$1.08 (+0.49%)",
-    "note": "Numbers as of 4:00 PM ET, July 29th.",
-    "commentary": "Crypto held its ground on a red day for stocks. Bitcoin added 0.92% to $64,552, Ether rose 0.43% to $1,916, and XRP gained 0.49% to $1.08.\n\nRegulation is parked until fall. Congress punted the CLARITY Act until after the summer break, and its odds of passing are now put at roughly 5%. The Senate moved a Russia sanctions bill ahead of it, and Democrats remain split over added ethics language. The bill would have answered a long list of open questions about how crypto is actually regulated, so the uncertainty simply carries forward.\n\nRobinhood pulled in $100 million from crypto alone, well above Wall Street estimates. The stock fell 3.15% anyway, which tells you the market is pricing the trend and not the quarter."
+    "btc": "$64,869 (+1.54%)",
+    "eth": "$1,921 (+1.21%)",
+    "xrp": "$1.08 (-0.20%)",
+    "note": "Numbers as of the July 30th close.",
+    "commentary": "Crypto rode the rebound. Bitcoin added 1.54% to $64,869 for a third straight day of gains, Ether rose 1.21% to $1,921, and XRP held near $1.08. Total crypto market value climbed about 1.35% to $2.21 trillion, helped along by the Fed leaving rates alone.\n\nA scam worth warning clients about. Fraudsters are mailing fake IRS letters carrying QR codes that lead to a site built to drain a crypto wallet. Crypto scam losses hit $11 billion in 2025. The rule is simple: never scan a QR code that arrives unsolicited in the mail or shows up on a sticker in public.\n\nCoinbase had a rough quarter. Falling prices meant less trading, and fewer trades means fewer fees, which is a large slice of its revenue. The bright spot was subscription revenue, which actually grew during the quarter, and the stock still finished up 2.18%."
   },
   "real_estate": {
-    "rate_30year": "6.77%",
-    "rate_15year": "6.31%",
-    "homebuilder": "Foreign Buyers Pulled $11 Billion Out Of The U.S. Housing Market And Chinese Purchases Fell By Nearly Half; A Hawkish Fed Puts September Hike Odds Near 70%; Locally, 724 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "The daily 30-year fixed eased to 6.77% and the 15-year to 6.31%, each down a basis point. That is the calm before the read through: yesterday's hawkish hold pushed September hike odds to about 70%, and the 30-year tends to move well ahead of the Fed itself.\n\nInternational buyers are stepping back. Foreign purchases of U.S. homes dropped $11 billion from a year ago, and Chinese buyers alone spent close to half what they spent last year. High prices, tight inventory, and political tension are all cooling overseas demand. For local buyers that means less competition in exactly the markets that used to draw the most foreign money, California among them.\n\nHousing is also losing some of its shine as a wealth engine. Boomers built net worth on appreciation, but over the past decade stocks have outpaced home appreciation once you account for taxes, insurance, and repairs. Inflation pushed ownership costs up while the market ran, and more Americans are renting and investing the difference rather than buying.\n\nWhy a REALTOR® cares: that comparison leaves out leverage, the mortgage interest deduction, and the fact that nobody lives inside an index fund. It is a real objection you will hear this year, and the answer is a side by side on the specific property, not a defense of housing in general.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 724 listings across the five cities we track, refreshed this morning.\n• Fremont: 274 listings, with 213 active, 18 new this week, and 42 coming soon.\n• Hayward: 200. Milpitas: 106. Newark: 83. Union City: 61.\n• In the pipeline: 102 coming soon across the five cities, plus 41 brand new this week.\n• Board wide: 2,724 listings across the 15 city table above, up 13 from yesterday.\n\nInventory slipped by 4 locally while the board added 13. Nothing dramatic either way, which is the point: supply is holding steady into a week where the rate story got louder than the housing story.",
+    "rate_30year": "6.83%",
+    "rate_15year": "6.32%",
+    "homebuilder": "The 30-Year Fixed Just Hit Its Highest Point In A Year At 6.83%, Pushed Up By Middle East Bond Yields And A Hawkish Fed; Blackstone Bought $36 Billion In Australian Mortgages; Locally, 729 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "Rates went the wrong way. The daily 30-year fixed climbed 6 basis points to 6.83% and the 15-year rose a point to 6.32%, putting the 30-year at its highest level in a year. Rising bond yields out of the Middle East tensions plus a Fed that held while sounding hawkish are doing the pushing.\n\nThat matters more than the number itself. High prices had already sidelined millions of buyers, and every tick higher thins the pool further. If you have a buyer sitting on a pre approval written at 6.5%, this is the week to re run their payment and have the honest conversation before they find a house they cannot close on.\n\nBig money is buying mortgages, just not here. Blackstone picked up $36 billion in Australian home loans from HSBC, which is slimming down under new leadership. Blackstone is deliberately diversifying away from the U.S. after new regulations landed on large real estate investors. When the biggest alternative asset manager on the planet goes shopping overseas, it is worth noticing what that says about the domestic return picture.\n\nWhy a REALTOR® cares: institutional money stepping back from U.S. residential is not automatically bad news for your buyers. Less institutional competition on entry level inventory is exactly the opening a first time buyer needs, and locally we just added 5 more buyable homes.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 729 listings across the five cities we track, refreshed this morning.\n• Fremont: 281 listings, with 216 active, 21 new this week, and 43 coming soon.\n• Hayward: 203. Milpitas: 103. Newark: 83. Union City: 59.\n• In the pipeline: 104 coming soon across the five cities, plus 51 brand new this week.\n• Board wide: 2,746 listings across the 15 city table above, up 22 from yesterday.\n\nSupply is building on both counts, up 5 locally and up 22 board wide, right as rates hit a one year high. More choice and less urgency is a real gift for a buyer who can still qualify.",
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 30, 2026",
-    "https://fred.stlouisfed.org/series/FEDFUNDS",
-    "https://www.fool.com/coverage/stock-market-today/2026/07/29/stock-market-today-july-29-stocks-slide-on-hawkish-fed-and-increased-middle-east-tensions/",
-    "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-july-30-2026-gold-prices-crest-4100-after-fed-holds-rates-steady-123355668.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-thursday-july-30-2026-silver-prices-remain-below-60-even-without-a-rate-increase-125729235.html"
+    "Market Briefs daily newsletter, July 31, 2026",
+    "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+    "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=A191RL1Q225SBEA",
+    "https://fortune.com/article/current-price-of-gold-07-31-2026/",
+    "https://fortune.com/article/current-price-of-silver-7-31-2026/",
+    "https://tradingeconomics.com/commodity/brent-crude-oil",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-july-30-2026-prices-rise-after-fed-leaves-rates-unchanged-132340233.html"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/a05ce848-6c44-4360-adce-1a1e661c8940",
-  "qr_code_path": "note-qr-a05ce848.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4806f569-8198-4088-b945-6fdb048a3ebc",
+  "qr_code_path": "note-qr-4806f569.png"
 }
