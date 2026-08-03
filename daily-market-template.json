@@ -1,53 +1,60 @@
 {
-  "date": "07/31/26",
-  "time": "12:30 PM",
+  "date": "08/03/26",
+  "time": "9:00 AM",
   "stocks": {
-    "sp500": "7,437 (+1.66%)",
-    "dow": "52,208 (+1.19%)",
-    "nasdaq": "25,122 (+2.78%)",
-    "note": "Numbers as of market close on July 30th.",
-    "news": "The market flipped. One day after its biggest selloff in about a year, Wall Street rebounded across the board: the NASDAQ jumped 2.78% to 25,122, the S&P 500 added 1.66% to 7,437, and the DOW gained 1.19% to 52,208. Chip stocks and Microsoft led the bounce.\n\nEarnings were a split decision. Amazon beat expectations as its AWS cloud business boomed on AI demand and the stock rose 3.90%. Apple, the world's most valuable company, missed as App Store and subscription revenue slowed, and shares eased 1.41%. Reddit beat on revenue but its CEO warned that search traffic coming from Google has turned unreliable. Roblox fell 2.91% on fewer players, with the company noting no new hit game has replaced last year's titles.\n\nOracle was the day's standout, up 8.34% on a deal to let customers run Google's Gemini AI inside its business software. The bet is that offering a choice between its own AI and Google's keeps customers from leaving, and it puts new features in front of millions of users without making them learn new software.",
+    "sp500": "7,489 (+0.70%)",
+    "dow": "52,485 (+0.53%)",
+    "nasdaq": "25,373 (+1.00%)",
+    "note": "Numbers as of market close on July 31st.",
+    "news": "Wall Street closed out July on a green note. The NASDAQ added 1.00% to 25,373, the S&P 500 rose 0.70% to 7,489, and the DOW gained 0.53% to 52,485. A quiet, broad advance rather than a headline grabbing one.\n\nTexas got its own exchange. The TXSE opened for business, the first major stock trading venue to launch in the United States in decades, backed by BlackRock, Goldman Sachs, and Citadel Securities. The nickname writes itself: Y'all Street. Keep the scale in perspective though, because the TXSE is valued around $275 million against roughly $44 trillion for the NYSE. It is a statement of intent, not yet a rival.\n\nTraders are piling on against SpaceX. The stock fell 3.41% on Friday, and about 34% of all shares outstanding have now been sold short, which is an unusually aggressive bet for a company that went public less than two months ago. The trigger is a share unlock arriving just after its first earnings report, when up to 911.5 million shares become free to sell. The chart below tells the story: after debuting at $160.95 and spiking to $211.39 four days later, SPCX has given back a third and now trades below its $135 IPO price.\n\nGM is putting its own AI assistant into millions of vehicles this year, going beyond the Google Gemini integration it already added to newer models. Worth noting the company just posted its 16th consecutive earnings beat, so it is spending from a position of strength.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/spacex-080326.png",
+      "alt": "Line chart of SpaceX (SPCX) daily closing share prices from its June 12, 2026 market debut through July 31, 2026, showing a debut close of $160.95, a June 16 high of $211.39, and a decline to $108.37, below the $135 IPO price.",
+      "caption": "SpaceX has given back about a third of its value since its market debut, closing at $108.37 on July 31, roughly 20% below the $135 price at which the IPO was sold.",
+      "source": "Source: Yahoo Finance. Daily closes, June 12 to July 31, 2026."
+    },
     "local_news": ""
   },
   "economy": {
-    "us10year": "4.68% (-0.02%)",
-    "gold": "$4,038 (-1.08%)",
-    "silver": "$57.98 (-0.20%)",
-    "wti": "$88.24 (+1.56%)",
+    "us10year": "4.75% (+0.07%)",
+    "gold": "$4,051 (+0.32%)",
+    "silver": "$57.94 (-0.85%)",
+    "wti": "$83.73 (-4.77%)",
     "oil_label": "Brent Crude",
-    "note": "Gold, silver, and Brent are live quotes taken the morning of July 31 (change versus the same time a day earlier); the 10-Year, stocks, and crypto are as of the July 30 close. Commodities can move fast intraday, so treat these as a same day snapshot.",
-    "commentary": "Growth stalls while inflation sticks. The Bureau of Economic Analysis put second quarter growth at 1.5% in its advance estimate, down from 2.1% in the first quarter, while inflation ran at 3.7%, well above the Fed's 2% target. Slower growth plus stubborn prices is the hard combination, and it is exactly why three Fed officials voted to hike this week.\n\nThe chart below shows the full five year run. The 7.0% reopening surge in late 2021 is long gone, and the last four quarters have swung from 4.4% down to 0.5%, back up to 2.1%, and now to 1.5%. Only two quarters in the whole stretch were negative. BEA credits the slowdown to a downturn in government spending plus decelerating investment and exports, partly offset by consumers who actually spent more.\n\nSmall businesses are feeling it first. Merchant cash advances, the expensive kind of financing, were used by 12% of small firms in 2025, up from 9% a year earlier. Tariffs are squeezing cash flow and many of these businesses cannot qualify for cheaper bank loans. If the Fed does hike in September, those payments get worse.\n\nWhy a REALTOR® cares: 1.5% growth with 3.7% inflation is the setup that keeps mortgage rates elevated without giving buyers the wage gains to absorb them. It also hits the self employed borrower first, and in this market that is a meaningful share of the buyer pool.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/07/gdp-quarterly-073126.png",
-      "alt": "Bar chart of quarterly change in real gross domestic product at a seasonally adjusted annual rate from 2021 Q3 through 2026 Q2, peaking at 7.0 percent in late 2021 and easing to 1.5 percent in the second quarter of 2026.",
-      "caption": "Second quarter growth came in at 1.5%, down from 2.1% in the first quarter. Only two quarters in the past five years were negative, and the 7.0% reopening surge of late 2021 is long behind us.",
-      "source": "Source: Bureau of Economic Analysis. Seasonally adjusted annual rate. Q2 2026 advance estimate, released July 30, 2026."
-    }
+    "note": "Gold, silver, and Brent are live quotes taken the morning of August 3 (change versus the same time a day earlier); the 10-Year is the July 31 Treasury close, and stocks are as of the July 31 close. Crypto is a live quote from this morning. Commodities can move fast intraday, so treat these as a same day snapshot.",
+    "commentary": "The 10-Year keeps climbing. Treasury put the 10-year yield at 4.75% at Friday's close, up 7 basis points from Thursday, and that is the number that actually sets mortgage pricing. Worth flagging that the newsletter reported this one as falling to 4.71%; the Treasury's own daily curve says otherwise, and we go with Treasury.\n\nMetals split. Gold ticked up to $4,051 an ounce while silver slipped to $57.94. Nothing dramatic in either direction after a rough stretch for both.\n\nOil dropped hard. Brent fell 4.77% to $83.73 a barrel, a genuinely large one day move. The odd part is that gas prices are barely following it down. Exxon and Chevron both warn pump prices will stay high, and the reason is refining, not crude: roughly 5 million barrels of daily refining capacity is offline because of the Russia and Ukraine and the U.S. and Iran conflicts. Cheap oil does not help anyone if there is nowhere to refine it.\n\nTreasury Secretary Scott Bessent argues the economy is stronger than the 1.5% second quarter GDP print suggests, and pins the slowdown on China's moves in rare earths and AI. Read that against the yield rising and you get the tension in one line: officials talking the economy up while the bond market prices in something costlier.\n\nWhy a REALTOR® cares: the 10-Year is the single best leading indicator you have for where the 30-year fixed goes next. It rose Friday, which is why rates are sitting a hair under their 52-week high rather than easing. If crude staying cheap eventually cools inflation, that is the path to relief, but refining capacity has to come back first."
   },
   "crypto": {
-    "btc": "$64,869 (+1.54%)",
-    "eth": "$1,921 (+1.21%)",
-    "xrp": "$1.08 (-0.20%)",
-    "note": "Numbers as of the July 30th close.",
-    "commentary": "Crypto rode the rebound. Bitcoin added 1.54% to $64,869 for a third straight day of gains, Ether rose 1.21% to $1,921, and XRP held near $1.08. Total crypto market value climbed about 1.35% to $2.21 trillion, helped along by the Fed leaving rates alone.\n\nA scam worth warning clients about. Fraudsters are mailing fake IRS letters carrying QR codes that lead to a site built to drain a crypto wallet. Crypto scam losses hit $11 billion in 2025. The rule is simple: never scan a QR code that arrives unsolicited in the mail or shows up on a sticker in public.\n\nCoinbase had a rough quarter. Falling prices meant less trading, and fewer trades means fewer fees, which is a large slice of its revenue. The bright spot was subscription revenue, which actually grew during the quarter, and the stock still finished up 2.18%."
+    "btc": "$63,693 (+0.97%)",
+    "eth": "$1,863 (+0.34%)",
+    "xrp": "$1.08 (+0.18%)",
+    "note": "Live quotes as of the morning of August 3 (24 hour change).",
+    "commentary": "A quiet, slightly green morning. Bitcoin sits near $63,693, Ether around $1,863, and XRP just over $1.08, all up modestly over the past day. No fireworks.\n\nA scale reminder from Dubai. An unlicensed crypto exchange there moved at least $4 billion for gambling networks tied to Iran, which has leaned on crypto to move money while sanctions choke off conventional banking. It is a useful illustration of why the licensed, regulated venues keep gaining ground with ordinary investors.\n\nTether is buying gold. The stablecoin issuer added 14 tons this spring to reach 146 tons total, and it kept buying even as gold came down off its highs. The logic is diversification: gold backs the tokens and cushions the business when crypto activity slows."
   },
   "real_estate": {
     "rate_30year": "6.83%",
     "rate_15year": "6.32%",
-    "homebuilder": "The 30-Year Fixed Just Hit Its Highest Point In A Year At 6.83%, Pushed Up By Middle East Bond Yields And A Hawkish Fed; Blackstone Bought $36 Billion In Australian Mortgages; Locally, 729 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "Rates went the wrong way. The daily 30-year fixed climbed 6 basis points to 6.83% and the 15-year rose a point to 6.32%, putting the 30-year at its highest level in a year. Rising bond yields out of the Middle East tensions plus a Fed that held while sounding hawkish are doing the pushing.\n\nThat matters more than the number itself. High prices had already sidelined millions of buyers, and every tick higher thins the pool further. If you have a buyer sitting on a pre approval written at 6.5%, this is the week to re run their payment and have the honest conversation before they find a house they cannot close on.\n\nBig money is buying mortgages, just not here. Blackstone picked up $36 billion in Australian home loans from HSBC, which is slimming down under new leadership. Blackstone is deliberately diversifying away from the U.S. after new regulations landed on large real estate investors. When the biggest alternative asset manager on the planet goes shopping overseas, it is worth noticing what that says about the domestic return picture.\n\nWhy a REALTOR® cares: institutional money stepping back from U.S. residential is not automatically bad news for your buyers. Less institutional competition on entry level inventory is exactly the opening a first time buyer needs, and locally we just added 5 more buyable homes.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 729 listings across the five cities we track, refreshed this morning.\n• Fremont: 281 listings, with 216 active, 21 new this week, and 43 coming soon.\n• Hayward: 203. Milpitas: 103. Newark: 83. Union City: 59.\n• In the pipeline: 104 coming soon across the five cities, plus 51 brand new this week.\n• Board wide: 2,746 listings across the 15 city table above, up 22 from yesterday.\n\nSupply is building on both counts, up 5 locally and up 22 board wide, right as rates hit a one year high. More choice and less urgency is a real gift for a buyer who can still qualify.",
+    "homebuilder": "Mortgage Rates Hold At 6.83% Just Under Their 52-Week High; Foreclosure Filings Jumped 21% In The First Half But Sit At 14% Of The Crisis Peak; Locally, 713 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "Rates went nowhere, and that is the good news. The daily 30-year fixed held at 6.83% and the 15-year at 6.32%, parked about two basis points under the 52-week high. After last week's climb, flat counts as a win.\n\nForeclosures are up, and the headline needs context. Filings rose 21% in the first half of 2026 to 227,548 properties, the highest first half since 2019, and foreclosure starts climbed 18%. Economists point to household financial stress rather than anything structural.\n\nNow look at the chart below, because the number only means something next to its history. That 227,548 is about 14% of the 1.65 million filings in the first half of 2010. We are not near a repeat of 2008; we are climbing back toward what a normal housing market looks like, from an artificially frozen floor of 65,082 in 2021 when moratoriums were in place. One more detail worth knowing: the average foreclosure timeline fell to 563 days, the shortest since 2013, so the pipeline is moving faster too.\n\nAI construction is creating a housing niche. Data center crews need somewhere to live fast, and factory built housing is filling the gap. Cavco's orders are booming on exactly that demand, though its shares slid about 5% Friday after missing earnings. The catch is that these crews are large during construction and small once the building opens, so the housing demand is real but temporary.\n\nWhy a REALTOR® cares: if a client asks whether rising foreclosures mean a crash is coming, you now have the answer in one chart. Filings are up from a historic low, not down from a peak, and they remain a fraction of crisis levels. Separately, if you serve a distressed seller, a 563 day timeline is still well over a year of runway to work a solution.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 713 listings across the five cities we track, refreshed this morning.\n• Fremont: 282 listings, with 210 active, 25 new this week, and 45 coming soon.\n• Hayward: 197. Milpitas: 101. Newark: 84. Union City: 49.\n• In the pipeline: 102 coming soon across the five cities, plus 53 brand new this week.\n• Board wide: 2,691 listings across the 15 city table above, down 55 from Friday.\n\nMedian asking prices are holding: Fremont at $1,230,000 with a median 26 days on market, Union City at $1,298,444, Newark at $1,193,000, Milpitas at $1,161,500, and Hayward at $849,500. Inventory eased slightly on both counts while rates stayed put, so buyers who can qualify still have room to negotiate without a bidding war forming behind them.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/foreclosure-080326.png",
+      "alt": "Bar chart of U.S. properties with foreclosure filings in the first six months of each year from 2008 through 2026, peaking at 1.65 million in 2010, bottoming at 65,082 in 2021, and rising to 227,548 in 2026.",
+      "caption": "Foreclosure filings rose 21% in the first half of 2026 to 227,548 properties. That is the highest first half since 2019, and still only about 14% of the 1.65 million filed in the first half of 2010.",
+      "source": "Source: ATTOM mid-year U.S. Foreclosure Market Reports (RealtyTrac for years before 2016)."
+    },
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, July 31, 2026",
-    "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
-    "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=A191RL1Q225SBEA",
-    "https://fortune.com/article/current-price-of-gold-07-31-2026/",
-    "https://fortune.com/article/current-price-of-silver-7-31-2026/",
+    "Market Briefs daily newsletter, August 3, 2026",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+    "https://fortune.com/article/current-price-of-gold-08-03-2026/",
+    "https://fortune.com/article/current-price-of-silver-8-3-2026/",
     "https://tradingeconomics.com/commodity/brent-crude-oil",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-july-30-2026-prices-rise-after-fed-leaves-rates-unchanged-132340233.html"
+    "https://www.coingecko.com/",
+    "https://www.attomdata.com/news/market-trends/foreclosures/2026-mid-year-foreclosure-market-report/",
+    "https://finance.yahoo.com/quote/SPCX/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4806f569-8198-4088-b945-6fdb048a3ebc",
-  "qr_code_path": "note-qr-4806f569.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4eb8aa93-5efb-45dc-8303-e8e33ec6a234",
+  "qr_code_path": "note-qr-4eb8aa93.png"
 }
