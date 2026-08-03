@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/03/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/03/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 3, 2026: mortgage rates hold at 6.83%, U.S. foreclosure filings rise 21% in the first half to 227,548 but sit at 14% of the 2010 crisis peak, the 10-year yield climbs to 4.75%, and 713 homes are buyable across Fremont, Hayward, Milpitas, Newark and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, foreclosure filings, ATTOM, housing inventory, 10-year Treasury, SpaceX, market update, REALTY EXPERTS, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
