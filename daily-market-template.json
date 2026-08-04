@@ -1,60 +1,60 @@
 {
-  "date": "08/03/26",
+  "date": "08/04/26",
   "time": "9:00 AM",
   "stocks": {
-    "sp500": "7,489 (+0.70%)",
-    "dow": "52,485 (+0.53%)",
-    "nasdaq": "25,373 (+1.00%)",
-    "note": "Numbers as of market close on July 31st.",
-    "news": "Wall Street closed out July on a green note. The NASDAQ added 1.00% to 25,373, the S&P 500 rose 0.70% to 7,489, and the DOW gained 0.53% to 52,485. A quiet, broad advance rather than a headline grabbing one.\n\nTexas got its own exchange. The TXSE opened for business, the first major stock trading venue to launch in the United States in decades, backed by BlackRock, Goldman Sachs, and Citadel Securities. The nickname writes itself: Y'all Street. Keep the scale in perspective though, because the TXSE is valued around $275 million against roughly $44 trillion for the NYSE. It is a statement of intent, not yet a rival.\n\nTraders are piling on against SpaceX. The stock fell 3.41% on Friday, and about 34% of all shares outstanding have now been sold short, which is an unusually aggressive bet for a company that went public less than two months ago. The trigger is a share unlock arriving just after its first earnings report, when up to 911.5 million shares become free to sell. The chart below tells the story: after debuting at $160.95 and spiking to $211.39 four days later, SPCX has given back a third and now trades below its $135 IPO price.\n\nGM is putting its own AI assistant into millions of vehicles this year, going beyond the Google Gemini integration it already added to newer models. Worth noting the company just posted its 16th consecutive earnings beat, so it is spending from a position of strength.",
+    "sp500": "7,600 (+1.48%)",
+    "dow": "53,178 (+1.32%)",
+    "nasdaq": "25,913 (+2.13%)",
+    "note": "Numbers as of market close on August 3rd.",
+    "news": "The Dow closed at an all time record high. It finished Monday at 53,178, up 1.32% on the day and up 10.64% for the year. The S&P 500 rose 1.48% to 7,600 and the NASDAQ led with 2.13% to 25,913. Green across the board.\n\nThe chart below puts the run in context. The Dow started the year at 48,063, gave up more than 6% into a March 27 low of 45,167, and has climbed almost without pause since. That is a round trip of roughly 8,000 points in four months.\n\nAmazon joined the $3 trillion club, rising 4.58% to become the fifth most valuable public company in the world. Palantir was the other standout, reporting revenue up 48% to $1 billion on strong government and commercial demand for its Foundry platform. Microsoft added 4.93%. After a couple of years of AI spending with little to show, several of these companies are finally posting the revenue to justify it.\n\nOne rumor worth watching: Bristol Myers Squibb is reportedly weighing a bid for AstraZeneca, potentially as large as $400 billion. Both companies have denied it, and AstraZeneca fell 6.88% on the noise. A deal that size would reshape the drug industry.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/spacex-080326.png",
-      "alt": "Line chart of SpaceX (SPCX) daily closing share prices from its June 12, 2026 market debut through July 31, 2026, showing a debut close of $160.95, a June 16 high of $211.39, and a decline to $108.37, below the $135 IPO price.",
-      "caption": "SpaceX has given back about a third of its value since its market debut, closing at $108.37 on July 31, roughly 20% below the $135 price at which the IPO was sold.",
-      "source": "Source: Yahoo Finance. Daily closes, June 12 to July 31, 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/dow-ytd-080426.png",
+      "alt": "Line chart of the Dow Jones Industrial Average daily closes from January 2 through August 3, 2026, starting the year at 48,063, bottoming at 45,167 on March 27, and finishing at a record high of 53,178.",
+      "caption": "The Dow closed at a record 53,178 on August 3, up 10.64% for the year, after recovering from a March 27 low of 45,167.",
+      "source": "Source: Yahoo Finance. Daily closes, January 2 to August 3, 2026."
     },
     "local_news": ""
   },
   "economy": {
-    "us10year": "4.75% (+0.07%)",
-    "gold": "$4,051 (+0.32%)",
-    "silver": "$57.94 (-0.85%)",
-    "wti": "$83.73 (-4.77%)",
+    "us10year": "4.70% (-0.05%)",
+    "gold": "$4,070 (+0.47%)",
+    "silver": "$58.63 (+1.19%)",
+    "wti": "$78.94 (-5.77%)",
     "oil_label": "Brent Crude",
-    "note": "Gold, silver, and Brent are live quotes taken the morning of August 3 (change versus the same time a day earlier); the 10-Year is the July 31 Treasury close, and stocks are as of the July 31 close. Crypto is a live quote from this morning. Commodities can move fast intraday, so treat these as a same day snapshot.",
-    "commentary": "The 10-Year keeps climbing. Treasury put the 10-year yield at 4.75% at Friday's close, up 7 basis points from Thursday, and that is the number that actually sets mortgage pricing. Worth flagging that the newsletter reported this one as falling to 4.71%; the Treasury's own daily curve says otherwise, and we go with Treasury.\n\nMetals split. Gold ticked up to $4,051 an ounce while silver slipped to $57.94. Nothing dramatic in either direction after a rough stretch for both.\n\nOil dropped hard. Brent fell 4.77% to $83.73 a barrel, a genuinely large one day move. The odd part is that gas prices are barely following it down. Exxon and Chevron both warn pump prices will stay high, and the reason is refining, not crude: roughly 5 million barrels of daily refining capacity is offline because of the Russia and Ukraine and the U.S. and Iran conflicts. Cheap oil does not help anyone if there is nowhere to refine it.\n\nTreasury Secretary Scott Bessent argues the economy is stronger than the 1.5% second quarter GDP print suggests, and pins the slowdown on China's moves in rare earths and AI. Read that against the yield rising and you get the tension in one line: officials talking the economy up while the bond market prices in something costlier.\n\nWhy a REALTOR® cares: the 10-Year is the single best leading indicator you have for where the 30-year fixed goes next. It rose Friday, which is why rates are sitting a hair under their 52-week high rather than easing. If crude staying cheap eventually cools inflation, that is the path to relief, but refining capacity has to come back first."
+    "note": "Gold, silver, and Brent are live quotes taken the morning of August 4 (change versus the same time a day earlier); the 10-Year is the August 3 Treasury close, and stocks are as of the August 3 close. Crypto is a live quote from this morning. Commodities can move fast intraday, so treat these as a same day snapshot.",
+    "commentary": "The 10-Year backed off. Treasury put the 10-year yield at 4.70% at Monday's close, down 5 basis points from Friday's 4.75%. Small, but it is the right direction for anyone shopping a mortgage. Note the newsletter printed 4.67% here; Treasury's own daily curve says 4.70%, and we go with Treasury.\n\nOil fell off a cliff. Brent dropped 5.77% to $78.94 a barrel, a second straight brutal session, on hopes that the U.S. and Iran are heading back to the negotiating table. Two days ago it was $83.73. Cheaper crude eventually feeds into cheaper everything, though as we noted yesterday, refining capacity is the bottleneck between crude and the pump.\n\nMetals both moved up. Gold added $19 to $4,070 an ounce and silver gained 1.19% to $58.63, its second straight gain.\n\nSummer travel is cooling. International flight bookings by Americans fell 8% year over year, with airfare to Europe up 12% and a weaker dollar making everything abroad pricier. Delta and United both warn that elevated jet fuel prices are here for a while.\n\nWhy a REALTOR® cares: a 10-Year drifting down while oil collapses is the combination that eventually pulls mortgage rates lower. It has not happened yet, and one day is not a trend, but this is the shape of the setup you want to see if you are waiting on rate relief for a buyer."
   },
   "crypto": {
-    "btc": "$63,693 (+0.97%)",
-    "eth": "$1,863 (+0.34%)",
-    "xrp": "$1.08 (+0.18%)",
-    "note": "Live quotes as of the morning of August 3 (24 hour change).",
-    "commentary": "A quiet, slightly green morning. Bitcoin sits near $63,693, Ether around $1,863, and XRP just over $1.08, all up modestly over the past day. No fireworks.\n\nA scale reminder from Dubai. An unlicensed crypto exchange there moved at least $4 billion for gambling networks tied to Iran, which has leaned on crypto to move money while sanctions choke off conventional banking. It is a useful illustration of why the licensed, regulated venues keep gaining ground with ordinary investors.\n\nTether is buying gold. The stablecoin issuer added 14 tons this spring to reach 146 tons total, and it kept buying even as gold came down off its highs. The logic is diversification: gold backs the tokens and cushions the business when crypto activity slows."
+    "btc": "$63,959 (+0.37%)",
+    "eth": "$1,868 (+0.30%)",
+    "xrp": "$1.08 (-0.92%)",
+    "note": "Live quotes as of the morning of August 4 (24 hour change).",
+    "commentary": "Mostly flat. Bitcoin near $63,959 and Ether around $1,868, both slightly up, with XRP easing under a percent to just over $1.08.\n\nA hardware wallet got drained, which is the part worth reading twice. Attackers pulled more than 1,000 Bitcoin out of Coldcard wallets in 41 minutes on July 30, roughly $89 million across about 1,200 wallets. A hardware wallet is supposed to be the safe option because it keeps the keys offline. The failure was a coding mistake in certain versions that made the recovery phrase guessable. If a client mentions they hold crypto on a hardware device, this is the week to tell them to check their firmware version.\n\nSelling pressure continues. Strategy offloaded about $105 million of Bitcoin last week, and American Crypto posted a $47 million quarterly loss. When the market slumps, the companies holding the most are the ones who have to sell to raise cash."
   },
   "real_estate": {
-    "rate_30year": "6.83%",
+    "rate_30year": "6.82%",
     "rate_15year": "6.32%",
-    "homebuilder": "Mortgage Rates Hold At 6.83% Just Under Their 52-Week High; Foreclosure Filings Jumped 21% In The First Half But Sit At 14% Of The Crisis Peak; Locally, 713 Homes Remain Buyable Across Our Five Cities",
-    "commentary": "Rates went nowhere, and that is the good news. The daily 30-year fixed held at 6.83% and the 15-year at 6.32%, parked about two basis points under the 52-week high. After last week's climb, flat counts as a win.\n\nForeclosures are up, and the headline needs context. Filings rose 21% in the first half of 2026 to 227,548 properties, the highest first half since 2019, and foreclosure starts climbed 18%. Economists point to household financial stress rather than anything structural.\n\nNow look at the chart below, because the number only means something next to its history. That 227,548 is about 14% of the 1.65 million filings in the first half of 2010. We are not near a repeat of 2008; we are climbing back toward what a normal housing market looks like, from an artificially frozen floor of 65,082 in 2021 when moratoriums were in place. One more detail worth knowing: the average foreclosure timeline fell to 563 days, the shortest since 2013, so the pipeline is moving faster too.\n\nAI construction is creating a housing niche. Data center crews need somewhere to live fast, and factory built housing is filling the gap. Cavco's orders are booming on exactly that demand, though its shares slid about 5% Friday after missing earnings. The catch is that these crews are large during construction and small once the building opens, so the housing demand is real but temporary.\n\nWhy a REALTOR® cares: if a client asks whether rising foreclosures mean a crash is coming, you now have the answer in one chart. Filings are up from a historic low, not down from a peak, and they remain a fraction of crisis levels. Separately, if you serve a distressed seller, a 563 day timeline is still well over a year of runway to work a solution.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 713 listings across the five cities we track, refreshed this morning.\n• Fremont: 282 listings, with 210 active, 25 new this week, and 45 coming soon.\n• Hayward: 197. Milpitas: 101. Newark: 84. Union City: 49.\n• In the pipeline: 102 coming soon across the five cities, plus 53 brand new this week.\n• Board wide: 2,691 listings across the 15 city table above, down 55 from Friday.\n\nMedian asking prices are holding: Fremont at $1,230,000 with a median 26 days on market, Union City at $1,298,444, Newark at $1,193,000, Milpitas at $1,161,500, and Hayward at $849,500. Inventory eased slightly on both counts while rates stayed put, so buyers who can qualify still have room to negotiate without a bidding war forming behind them.",
+    "homebuilder": "Mortgage Rates Ticked Down To 6.82%; Investors Have Bought $5.18 Billion Of Wildfire Risk So Far In 2026, Already 93% Of Last Year's Record; Locally, 710 Homes Remain Buyable Across Our Five Cities",
+    "commentary": "Rates eased a hair. The daily 30-year fixed slipped a basis point to 6.82% and the 15-year held at 6.32%. Not relief, but not another climb either.\n\nWall Street is buying California's wildfire risk, and that is good news for homeowners. Insurers have sold $5.18 billion of catastrophe bonds carrying wildfire exposure so far in 2026, already 93% of last year's full year record with half the year still to run. See the chart below: this market has more than doubled since 2023.\n\nHere is why it matters more than it sounds. A catastrophe bond lets an insurer hand wildfire risk to investors who want the yield. The more of that capacity exists, the more willing carriers are to keep writing policies in fire prone areas instead of walking away. Anyone who has tried to place coverage in a California hillside neighborhood in the past two years knows the problem is availability, not just price. This is the plumbing behind that, and right now the plumbing is getting bigger.\n\nThe caution: the newsletter reported this market at $2 billion for 2026. Artemis, which actually tracks these deals, puts it at $5.183 billion. Worth knowing the real number is more than double, because the direction of travel is the whole story.\n\nBuilders are pulling back. Residential construction spending fell for a fourth straight month in June to an annual pace of $889.3 billion, which is 4.7% below last year. Single family took the bigger hit, with mortgage rates above 6.5% for 11 straight weeks now. Slow sales are turning into fewer starts and fewer permits, which tightens supply 12 to 18 months out.\n\nA scam to warn clients about: fraudsters are now paying U.S. freelancers to post fake rental listings, because a domestic poster does not trip the platform fraud alarms that a foreign one does. Consumers reported about 65,000 rental scams from 2020 through mid 2025, losing $65 million, and half of the recent ones started with a fake Facebook ad.\n\nWhy a REALTOR® cares: builders cutting starts today is next year's inventory shortage. If your buyer is waiting for prices to break, the supply side is quietly moving against them even while rates stay high.\n\n📍 Local Snapshot (Live MLS Inventory)\n\n• Buyable right now: 710 listings across the five cities we track, refreshed this morning.\n• Fremont: 278 listings, with 210 active, 22 new this week, and 44 coming soon.\n• Hayward: 197. Milpitas: 101. Newark: 83. Union City: 51.\n• In the pipeline: 100 coming soon across the five cities, plus 45 brand new this week.\n• Board wide: 2,677 listings across the 15 city table above, down 14 from yesterday.\n\nMedian asking prices barely moved: Fremont at $1,239,500 with a median 27 days on market, Union City at $1,298,444, Newark at $1,198,000, Milpitas at $1,149,000, and Hayward at $849,000. Three straight days of easing inventory with rates flat means the market is just quiet, not turning.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/foreclosure-080326.png",
-      "alt": "Bar chart of U.S. properties with foreclosure filings in the first six months of each year from 2008 through 2026, peaking at 1.65 million in 2010, bottoming at 65,082 in 2021, and rising to 227,548 in 2026.",
-      "caption": "Foreclosure filings rose 21% in the first half of 2026 to 227,548 properties. That is the highest first half since 2019, and still only about 14% of the 1.65 million filed in the first half of 2010.",
-      "source": "Source: ATTOM mid-year U.S. Foreclosure Market Reports (RealtyTrac for years before 2016)."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/wildfire-catbond-080426.png",
+      "alt": "Bar chart of catastrophe bond issuance exposed to wildfire risk by year, rising from $2.57 billion in 2023 to $2.84 billion in 2024, $5.55 billion in 2025, and $5.183 billion year to date in 2026.",
+      "caption": "Insurers have moved $5.18 billion of wildfire risk to capital markets so far in 2026, already 93% of the full year 2025 record. More of this capacity is what keeps carriers writing policies in fire prone areas.",
+      "source": "Source: Artemis. 2026 figure is year to date through early July."
     },
     "local_news": ""
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/",
-    "Market Briefs daily newsletter, August 3, 2026",
+    "Market Briefs daily newsletter, August 4, 2026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://fortune.com/article/current-price-of-gold-08-03-2026/",
-    "https://fortune.com/article/current-price-of-silver-8-3-2026/",
+    "https://fortune.com/article/current-price-of-gold-08-04-2026/",
+    "https://fortune.com/article/current-price-of-silver-8-4-2026/",
     "https://tradingeconomics.com/commodity/brent-crude-oil",
     "https://www.coingecko.com/",
-    "https://www.attomdata.com/news/market-trends/foreclosures/2026-mid-year-foreclosure-market-report/",
-    "https://finance.yahoo.com/quote/SPCX/"
+    "https://www.artemis.bm/news/wildfire-exposed-catastrophe-bond-issuance-soars-to-5-183bn-year-to-date-in-2026/",
+    "https://finance.yahoo.com/quote/%5EDJI/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/4eb8aa93-5efb-45dc-8303-e8e33ec6a234",
-  "qr_code_path": "note-qr-4eb8aa93.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/15a6b01f-de0e-453a-9b54-4e98988e3c6f",
+  "qr_code_path": "note-qr-15a6b01f.png"
 }
