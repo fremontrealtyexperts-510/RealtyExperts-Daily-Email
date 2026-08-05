@@ -39,3 +39,7 @@ harvrealtor-*.json
 *credential*.json
 *-creds.json
 service-account*.json
+
+# Local-only, intentionally untracked on both Mac and VPS (git-sync leaves them alone)
+daily-report-skill/          # /daily-report skill (symlinked from ~/.claude/skills; Drive preserves the Mac copy)
+broadcast-backstop.js        # broadcast safety net (hardening noted in CLAUDE.md 2026-06-04)
