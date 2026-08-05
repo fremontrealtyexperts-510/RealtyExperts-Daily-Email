@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/05/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/05/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 5, 2026: mortgage rates hold at 6.75%, San Jose stays the most expensive metro in America at $2.05 million and the only top ten metro to fall, the 10-Year eases to 4.63%, gold and silver both surge, and 700 homes are buyable across Fremont, Hayward, Milpitas, Newark and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, San Jose home prices, San Francisco home prices, NAR metro prices, most expensive metros, housing inventory, gold price, silver price, REALTY EXPERTS, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
