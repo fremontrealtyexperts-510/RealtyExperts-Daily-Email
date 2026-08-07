@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/06/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/06/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 6, 2026: mortgage rates tick up to 6.77% even as ADP shows hiring nearly stalled at 44,000 jobs, the 10-Year holds flat at 4.63%, gold posts a fourth straight gain, home solar stalls on Treasury paperwork, and 706 homes are buyable across Fremont, Hayward, Milpitas, Newark and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, ADP jobs report, private payrolls, housing inventory, home solar tax credit, gold price, silver price, REALTY EXPERTS, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
