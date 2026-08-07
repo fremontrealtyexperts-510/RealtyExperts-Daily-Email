@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/07/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/07/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 7, 2026: mortgage rates hold at 6.77%, the country's largest mortgage lender posts a $452 million loss and ends its dividend, HOA foreclosures climb nearly 40%, copper sets a record at $6.70 a pound, silver jumps 4.07%, and 728 homes are buyable across Fremont, Hayward, Milpitas, Newark and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, UWM, HOA foreclosures, housing inventory, copper price, silver price, gold price, REALTY EXPERTS, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
