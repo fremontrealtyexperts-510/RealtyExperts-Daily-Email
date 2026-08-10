@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/10/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/10/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 10, 2026: mortgage rates fall to 6.74% after July payrolls went negative at minus 23,000, buyers can negotiate below asking in 38 of the 50 biggest metros, homebuilders consolidate as Dream Finders buys Beazer, and 715 homes are buyable across Fremont, Hayward, Milpitas, Newark and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Oakland, Tri-City, mortgage rates, July jobs report, nonfarm payrolls, housing inventory, Redfin below asking, homebuilder mergers, REALTY EXPERTS, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
