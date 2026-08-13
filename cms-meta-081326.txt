@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/13/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/13/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 13, 2026: mortgage rates hit a five week low of 6.74%, July inflation cooled to 0.1% with shelter two thirds of it, Cisco gave back 8% after beating earnings, the yen sits just under the 160 intervention line, and 707 homes are buyable now across Fremont, Hayward, Milpitas, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, CPI inflation, shelter costs, lumber prices, Cisco, Japanese yen, housing inventory, market update, REALTY EXPERTS
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
