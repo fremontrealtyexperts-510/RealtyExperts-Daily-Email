@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/14/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/14/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 14, 2026: the 30-year fixed hit a four week low of 6.69% after wholesale inflation came in flat, producer prices eased to 4.7% year over year, a new rule lets banks keep escrow interest while states sue, and 722 homes are buyable now across Fremont, Hayward, Milpitas, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, producer price index, PPI, wholesale inflation, escrow interest, affordable housing bonds, housing inventory, market update, REALTY EXPERTS
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
