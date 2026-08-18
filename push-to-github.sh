@@ -13,7 +13,8 @@
 # What it does:
 #   1. Clones repo from GitHub to /tmp/daily-email-push
 #   2. Sets git config + auth token
-#   3. Copies today's generated files + ALL make-*.py chart scripts
+#   3. Copies today's generated files + ALL tooling (make-*.py, verify-*.js,
+#      check-surfaces.sh, scripts/) + this script itself
 #   4. Commits and pushes
 #   5. Cleans up
 #
@@ -27,6 +28,14 @@
 # script now calls that out explicitly instead of leaving it as a one-character
 # tell. (On 08/18 make-gdp-chart.py, a 06/26 BEA quarterly-GDP chart, was
 # clobbered by a new world-GDP chart that reused the name.)
+#
+# verify-*.js, check-surfaces.sh and scripts/ were added for the same reason
+# (2026-08-18): they are git-tracked, not date-stamped, and were therefore
+# exposed to the same silent revert. Adding them recovered
+# scripts/build-interactive-chart.py, which had never been pushed.
+# Deliberately NOT copied: broadcast-backstop.js and daily-report-skill/ are
+# gitignored on purpose so the Mac/VPS git-sync leaves them alone (CLAUDE.md
+# "Stage 4.5b"); cms-content.json is regenerated every run so it does not matter.
 
 set -e
 
@@ -78,6 +87,7 @@ copy_if_exists() {
 # This script itself: without this line an edit to the curated list is reverted
 # by the Mac launchd auto-pull, i.e. the fix silently undoes itself.
 copy_if_exists "push-to-github.sh"
+copy_if_exists "check-surfaces.sh"
 copy_if_exists "daily-market-template.json"
 copy_if_exists "index.html"
 copy_if_exists "daily-market-glance-${DATE_STR}.html"
@@ -120,6 +130,28 @@ for mk in "$SRC_DIR"/make-*.py; do
 done
 echo "📊 Chart scripts copied: $CHART_SCRIPTS"
 
+# Verifier scripts — same rationale as make-*.py above.
+VERIFY_SCRIPTS=0
+for v in "$SRC_DIR"/verify-*.js; do
+  if [ -f "$v" ]; then
+    cp "$v" "$DST_DIR/$(basename "$v")"
+    VERIFY_SCRIPTS=$((VERIFY_SCRIPTS + 1))
+    FILES_COPIED=$((FILES_COPIED + 1))
+  fi
+done
+echo "🔎 Verifier scripts copied: $VERIFY_SCRIPTS"
+
+# scripts/ helper directory (cron wrappers, launchd plist, chart builders).
+# Copy-only: files present on the remote but not locally are left alone, so this
+# can never delete anything. scripts/README.md is gitignored and stays untracked.
+if [ -d "$SRC_DIR/scripts" ]; then
+  mkdir -p "$DST_DIR/scripts"
+  cp -R "$SRC_DIR/scripts/." "$DST_DIR/scripts/"
+  SCRIPTS_N=$(find "$SRC_DIR/scripts" -type f | wc -l | tr -d ' ')
+  FILES_COPIED=$((FILES_COPIED + SCRIPTS_N))
+  echo "🗂  scripts/ files copied: $SCRIPTS_N"
+fi
+
 echo "📋 Copied $FILES_COPIED files"
 
 # --- Stage and check ---
@@ -137,16 +169,16 @@ echo "$CHANGES"
 # A MODIFIED (not added) chart script is either a deliberate edit or an
 # accidental clobber of a different chart that already owned that filename.
 # Surface it loudly rather than leaving it as an `M` to be spotted by eye.
-MODIFIED_CHARTS=$(echo "$CHANGES" | grep -E '^ ?M[ M]? +make-.*\.py$' | awk '{print $NF}' || true)
+MODIFIED_CHARTS=$(echo "$CHANGES" | grep -E '^ ?M[ M]? +(make-.*\.py|verify-.*\.js|check-surfaces\.sh|scripts/.*)$' | awk '{print $NF}' || true)
 if [ -n "$MODIFIED_CHARTS" ]; then
   echo ""
-  echo "⚠️  EXISTING chart script(s) MODIFIED (not new):"
+  echo "⚠️  EXISTING tooling file(s) MODIFIED (not new):"
   for f in $MODIFIED_CHARTS; do
     echo "      $f"
   done
-  echo "    If you meant to edit these, carry on. If you just created a NEW chart"
-  echo "    and expected 'A', you have overwritten a different chart that already"
-  echo "    used that name. Recover it and rename yours:"
+  echo "    If you meant to edit these, carry on. If you just created a NEW file"
+  echo "    and expected 'A', you have overwritten something that already used"
+  echo "    that name. Recover it and rename yours:"
   echo "      git log --oneline -- <file>            # find the prior commit"
   echo "      git show <sha>:<file> > <file>         # restore it"
   echo ""
