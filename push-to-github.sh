@@ -13,9 +13,20 @@
 # What it does:
 #   1. Clones repo from GitHub to /tmp/daily-email-push
 #   2. Sets git config + auth token
-#   3. Copies today's generated files
+#   3. Copies today's generated files + ALL make-*.py chart scripts
 #   4. Commits and pushes
 #   5. Cleans up
+#
+# Chart scripts (make-*.py) are copied EVERY run, not just when new. They are
+# git-tracked but are not date-stamped, so before 2026-08-18 they sat outside
+# this curated list: a new or edited one had to be pushed by hand via a separate
+# /tmp clone, and if that was forgotten the Mac launchd auto-pull silently
+# reverted it (that is how the 08/07 copper rebuild was lost). Copying them here
+# also makes an ACCIDENTAL OVERWRITE visible: reusing an existing filename for a
+# different chart shows up as `M` in the staged-changes list below, and the
+# script now calls that out explicitly instead of leaving it as a one-character
+# tell. (On 08/18 make-gdp-chart.py, a 06/26 BEA quarterly-GDP chart, was
+# clobbered by a new world-GDP chart that reused the name.)
 
 set -e
 
@@ -64,6 +75,9 @@ copy_if_exists() {
 }
 
 # Always copy these
+# This script itself: without this line an edit to the curated list is reverted
+# by the Mac launchd auto-pull, i.e. the fix silently undoes itself.
+copy_if_exists "push-to-github.sh"
 copy_if_exists "daily-market-template.json"
 copy_if_exists "index.html"
 copy_if_exists "daily-market-glance-${DATE_STR}.html"
@@ -93,6 +107,19 @@ for qr in "$SRC_DIR"/note-qr-*.png; do
   fi
 done
 
+# Chart scripts — copy ALL of them every run (see header note). Unlike the QR
+# glob above these are copied unconditionally, so local edits propagate instead
+# of being skipped because the filename already exists on the remote.
+CHART_SCRIPTS=0
+for mk in "$SRC_DIR"/make-*.py; do
+  if [ -f "$mk" ]; then
+    cp "$mk" "$DST_DIR/$(basename "$mk")"
+    CHART_SCRIPTS=$((CHART_SCRIPTS + 1))
+    FILES_COPIED=$((FILES_COPIED + 1))
+  fi
+done
+echo "📊 Chart scripts copied: $CHART_SCRIPTS"
+
 echo "📋 Copied $FILES_COPIED files"
 
 # --- Stage and check ---
@@ -106,6 +133,24 @@ fi
 
 echo "📝 Staged changes:"
 echo "$CHANGES"
+
+# A MODIFIED (not added) chart script is either a deliberate edit or an
+# accidental clobber of a different chart that already owned that filename.
+# Surface it loudly rather than leaving it as an `M` to be spotted by eye.
+MODIFIED_CHARTS=$(echo "$CHANGES" | grep -E '^ ?M[ M]? +make-.*\.py$' | awk '{print $NF}' || true)
+if [ -n "$MODIFIED_CHARTS" ]; then
+  echo ""
+  echo "⚠️  EXISTING chart script(s) MODIFIED (not new):"
+  for f in $MODIFIED_CHARTS; do
+    echo "      $f"
+  done
+  echo "    If you meant to edit these, carry on. If you just created a NEW chart"
+  echo "    and expected 'A', you have overwritten a different chart that already"
+  echo "    used that name. Recover it and rename yours:"
+  echo "      git log --oneline -- <file>            # find the prior commit"
+  echo "      git show <sha>:<file> > <file>         # restore it"
+  echo ""
+fi
 
 # --- Commit ---
 COMMIT_MSG="${2:-Daily email - $(echo $DATE_STR | sed 's/\(..\)\(..\)\(..\)/\1\/\2\/\3/'): Add Agent Hub note + QR code}"
