@@ -1,52 +1,58 @@
 {
-  "date": "08/19/26",
-  "time": "9:00 AM",
+  "date": "08/20/26",
+  "time": "10:00 AM",
   "stocks": {
-    "sp500": "7,691 (-0.69%)",
-    "dow": "53,343 (-0.22%)",
-    "nasdaq": "26,289 (-1.33%)",
-    "note": "Numbers as of market close on August 18th.",
-    "news": "A broad pullback with technology taking the worst of it. The S&P 500 fell 0.69% to 7,691, the Dow eased 0.22% to 53,343, and the NASDAQ dropped 1.33% to 26,289.\n\nEnergy went the other way. The sector is back near record highs because oil keeps getting pricier, and it has climbed 20% from its July low. Valero and Marathon are each up more than 100% so far this year.\n\nStaffing firms also bounced back after months of investors worrying that artificial intelligence would replace them. Manpower rose 4.77% and Robert Half added 3.04% on better than expected earnings, with Manpower posting its best operating profit in three years. The reason is refreshingly simple: companies still need people to recruit, hire and manage temporary staff."
+    "sp500": "7,707 (+0.21%)",
+    "dow": "53,463 (+0.22%)",
+    "nasdaq": "26,331 (+0.16%)",
+    "note": "Numbers as of market close on August 19th.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/moderna-082026.png",
+      "alt": "Line chart of Moderna's share price from the December 31, 2025 close of $29.49 through August 19, 2026. The stock trades between $40 and $85 for most of the year, then spikes to $174.38 on August 19. A dashed leg shows the pullback to $131.77 by midday on August 20.",
+      "caption": "Moderna closed August 19 at $174.38, up 176.97% in a single session and up 491% for the year from its $29.49 start. The open marker is Thursday midday at $131.77, giving back a good part of the spike while the market was still open.",
+      "source": "Source: Yahoo Finance, MRNA daily closing prices. Year to date measured from the December 31, 2025 close."
+    },
+    "news": "A quiet green day on the surface, with the S&P 500 up 0.21% to 7,707, the Dow up 0.22% to 53,463 and the NASDAQ up 0.16% to 26,331. Underneath it was anything but quiet.\n\nModerna and Merck reported that their experimental melanoma vaccine kept the cancer from coming back in a late stage trial. Moderna rose 176.97% in one session to $174.38 and added roughly $60 billion of market value in a day. Merck gained 12.60%. Melanoma is the deadliest form of skin cancer, so if this clears approval the market is very large.\n\nOne caution on that headline. As of midday today the stock had given back a large part of the move and was trading near $131.77. A 177% day invites a second look, and the second look is usually a rethink about how much of an approval is already in the price.\n\nElsewhere, Stripe is paying more than $7 billion for OpenRouter, which lets developers reach hundreds of artificial intelligence models through one connection. And in Shanghai, robot maker Unitree surged 542% on its first day of trading."
   },
   "economy": {
-    "us10year": "4.71% (-0.01%)",
-    "gold": "$4,414 (+0.39%)",
-    "silver": "$63.26 (-2.85%)",
-    "wti": "$91.02 (+0.17%)",
+    "us10year": "4.65% (-0.06%)",
+    "gold": "$4,472 (+1.31%)",
+    "silver": "$66.85 (+5.67%)",
+    "wti": "$91.62 (+0.66%)",
     "oil_label": "Brent Crude",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/portla-081926.png",
-      "alt": "Column chart of total monthly container volume at the Port of Los Angeles for 2026, measured in TEUs. January 812K, February 824K, March 753K, April 891K, May 840K, June 1.00M, July 960K. A dashed reference line marks the July 2025 record of 1.02M, just above the July 2026 column.",
-      "caption": "The Port of Los Angeles moved 960,464 TEUs in July, its second-busiest July on record. The dashed line is the July 2025 record of 1.02M, the only July that beat it. Volume was still down 5.82% from a year ago.",
-      "source": "Source: Port of Los Angeles, historical TEU statistics (TEUs, twenty-foot equivalent units)."
-    },
-    "note": "Ten year yield is the Treasury close for August 18th. Brent is the August 18th settlement. Gold quoted at 8:50 AM Eastern and silver at 6:30 AM Eastern on August 19th.",
-    "commentary": "A note on today's numbers first. The newsletter reported the 10 year yield unchanged and gold down 0.79%. The Treasury daily curve shows the yield easing from 4.72% to 4.71%, and gold actually rose to $4,414. Silver was left out of the newsletter entirely, so we pulled it live. Gold and silver are morning spot quotes, while the 10 year and Brent are Tuesday settlements.\n\nThe Port of Los Angeles moved 960,464 TEUs in July, the second-busiest July in the port's history and behind only July 2025. Retailers pulled shipments forward to get ahead of tariffs and to dodge Iran tensions and Panama Canal delays. The footnote the headline leaves out is that volume was still down 5.82% from last July. Fuller shelves now, with shipping costs that could still reach prices later.\n\nSeparately, the IRS clarified the no tax on overtime deduction. More than 29 million people claimed it in 2025 at roughly $3,000 apiece, but the break is not unlimited. Anything above $12,500 can still be taxed, and employers must keep tracking overtime on W-2s."
+    "note": "Ten year yield is the Treasury close for August 19th. Brent is the August 19th settlement. Gold and silver are spot quotes at 8:50 AM and 6:30 AM Eastern on August 20th.",
+    "commentary": "The 10 year eased 6 basis points to 4.65% and the 30 year came down to 5.19% from the 5.31% it touched Monday, which was a near 19 year high. The Treasury is buying back older bonds to calm that market and is doubling each buyback to at least $4 billion. The aim is to keep borrowing costs stable, and mortgage rates take their cue from this end of the curve, so it matters here.\n\nPrecious metals are having a moment. Gold ran more than 3% on Tuesday to around $4,580 late in the day, then eased back to $4,472 by this morning, and it is still up roughly $500 over the last three weeks. Silver went further, up 5.67% to $66.85. Gold miners came along for the ride, with Barrick up 7.22% and Newmont up 7.85%. The newsletter quoted gold at $4,580, which was accurate for Tuesday afternoon but is above where the metal sits this morning.\n\nOne number for the file: United States national debt crossed $40 trillion for the first time yesterday. That is larger than everything the economy produces in a year, roughly $32 trillion. It does not change your rate this morning, but it is the backdrop to every conversation about long term borrowing costs."
   },
   "crypto": {
-    "btc": "$68,737 (+6.17%)",
-    "eth": "$2,094 (+9.38%)",
-    "xrp": "$1.07 (+6.42%)",
-    "note": "Live quotes as of 9:11 AM Pacific on August 19 (24 hour change).",
-    "commentary": "These are live quotes from this morning rather than yesterday's close, because the market moved hard overnight and the newsletter's 4 PM figures were already well behind.\n\nBitcoin jumped 6.17% to $68,737, Ether led the field with a 9.38% gain to $2,094, and XRP added 6.42% to $1.07. The backdrop was a softer dollar, down 0.75% on the day, and a 10 year yield easing toward 4.65% in intraday trade. Cheaper money and a weaker dollar tend to light up risk assets, and they did.\n\nOn the policy side, the SEC wants to let crypto startups raise up to $75 million without the usual registration red tape, moving on its own while Congress sits on the Clarity Act. Kraken is also launching a debit card paying up to 2% back in cash or Bitcoin, following Coinbase into the wallet."
+    "btc": "$72,752 (+7.01%)",
+    "eth": "$2,342 (+12.47%)",
+    "xrp": "$1.33 (+26.06%)",
+    "note": "Live quotes as of 10:41 AM Pacific on August 20 (24 hour change).",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/btc-082026.png",
+      "alt": "Line chart of Bitcoin daily closing prices from July 20 to August 19, 2026. The price ranges between $62,800 and $66,500 for most of the month, then jumps to $69,266 on August 19. A dashed leg marks midday August 20 at $72,781.",
+      "caption": "Bitcoin closed August 19 at $69,266, up 7.1% on the day and through the $66,505 high that had capped the prior month. The open marker is Thursday midday at $72,781, an even higher high while the day is still running.",
+      "source": "Source: Yahoo Finance, BTC-USD daily closing prices (completed UTC days)."
+    },
+    "commentary": "The rally that started yesterday morning kept going. Bitcoin is up 7.01% to $72,752, Ether added 12.47% to $2,342, and XRP is the standout at $1.33, up 26.06% in 24 hours.\n\nThe catalyst was political. The President hosted crypto executives, said he wants the Singapore based exchange Hyperliquid to open in the United States, and pushed Congress to pass the Clarity Act soon. Bitcoin and Ether both jumped to multi month highs on the news, and the move wiped out more than $1 billion of short bets against Bitcoin in about an hour. Coinbase gained 9.55% and Strategy 12.68%.\n\nThese are live quotes from this morning rather than yesterday's close, because the tape has moved a long way since the newsletter's 4 PM figures were set."
   },
   "real_estate": {
-    "rate_30year": "6.75%",
-    "rate_15year": "6.31%",
-    "homebuilder": "Rates Ticked Up For A Third Session To 6.75%; Goldman Sachs Buys Its Way Into 375 Rentals While Home Depot Calls Housing Frozen",
-    "commentary": "Rates rose again. The 30 year fixed added 2 basis points to 6.75% and the 15 year added 1 basis point to 6.31%, per Mortgage News Daily. Small steps, but the direction has been consistent all week.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,682 active, BOMK, PCH and new listings across the 15 city board, with 220 coming soon and 198 brand new today.\n• Fremont: 238 active across all property types, made up of 33 townhomes, 86 condos and 119 detached homes, plus 103 in contract, 52 coming soon and 22 new today.\n• Live ledger: our 5 city count sits at 719 listings. Fremont 281, Hayward 198, Milpitas 107, Newark 79 and Union City 54.\n\nTwo national items are worth your attention.\n\n• Wall Street's new landlord: Goldman Sachs is buying LCN Capital for $410 million and picking up more than 375 rental properties around the country. LCN owns them but does not manage them, so Goldman is entering the kind of landlord business that never hears from a tenant.\n• Frozen housing, solid quarter: Home Depot beat both profit and sales forecasts, with same store sales up 1.7% for its best showing in four years, and still described the housing market as rough. Customers have the money and are hesitating on the big projects.\n\nThat second point is the one that travels. It is the same standoff we see locally: real demand, slow trigger fingers. Buyers and owners are not short on capacity, they are short on urgency, and that is a very different problem from the one we had two years ago. When the hesitation breaks, it tends to break quickly."
+    "rate_30year": "6.76%",
+    "rate_15year": "6.30%",
+    "homebuilder": "Rates Turned Back Up To 6.76%; A Quarter Of Toll Brothers Buyers Paid All Cash While Everyone Else Waits For A Bigger Drop",
+    "commentary": "Rates turned back up. The 30 year fixed added 4 basis points to 6.76% and the 15 year added 3 to 6.30%, per Mortgage News Daily. The newsletter printed 6.72% and 6.27%, which were Tuesday's closing figures, so treat today's number as the live one.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,712 active, BOMK, PCH and new listings across the 15 city board, with 214 coming soon and 197 brand new today.\n• Fremont: 245 active across all property types, made up of 34 townhomes, 84 condos and 127 detached homes, plus 99 in contract, 52 coming soon and 18 new today.\n• Live ledger: our 5 city count rose to 728 listings. Fremont 288, Hayward 194, Milpitas 109, Newark 79 and Union City 58.\n\nTwo housing datapoints worth holding together.\n\n• Toll Brothers signed 5% more contracts last quarter, and about a quarter of those buyers paid all cash. Those are people trading up from a home they already own, so a 6.76% rate simply does not enter the decision.\n• Total mortgage applications slipped last week. Refinances rose 2% while purchases fell 2%, with rates parked near 6.7% and buyers waiting for a bigger drop.\n\nRead together they describe a split market rather than a slow one. The buyer who does not need a loan is transacting right now. The buyer who does is waiting for a number that has not arrived. That is why the luxury end keeps clearing while entry level sits, and it is the single most useful thing to understand about our market this month. Waiting is a position, and it has a cost that nobody puts on a settlement statement."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "Market Briefs daily newsletter, August 19, 2026",
+    "Market Briefs daily newsletter, August 20, 2026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2026",
-    "https://www.portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2025",
-    "https://fortune.com/article/current-price-of-gold-08-19-2026/",
-    "https://fortune.com/article/current-price-of-silver-8-19-2026/",
+    "https://finance.yahoo.com/quote/MRNA/",
+    "https://finance.yahoo.com/quote/BTC-USD/",
+    "https://fortune.com/article/current-price-of-gold-08-20-2026/",
+    "https://fortune.com/article/current-price-of-silver-8-20-2026/",
     "https://www.coingecko.com/",
     "https://finance.yahoo.com/quote/BZ=F/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/3ff26736-a8aa-4067-9ff3-b39dbbb5ed54",
-  "qr_code_path": "note-qr-3ff26736.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/cf19289b-cd30-48da-b442-cf2756717325",
+  "qr_code_path": "note-qr-cf19289b.png"
 }
