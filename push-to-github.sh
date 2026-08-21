@@ -109,6 +109,8 @@ copy_if_exists "inventory-history.json"
 # rewritten every run by generate-app-report.js, so nothing accumulates. The
 # app reads it from Pages instead of the REALTY EXPERTS email or the .com RSS.
 copy_if_exists "daily-report.json"
+# ...and its generator, so the VPS twin (git auto-pull) has the script too.
+copy_if_exists "generate-app-report.js"
 # The HarvRealtor-voice .com body the app feed is built from. Pushed so the
 # public copy is current (it sat at 07/31 until 2026-08-21).
 copy_if_exists "cms-content.json"
