@@ -17,10 +17,11 @@
 # Exit 0 = all surfaces carry that day. Exit 1 = at least one is missing.
 # Mail checks are skipped (not failed) when no MS365 token is present.
 #
-# PAST-DAY MODE (fixed 2026-08-07). Three surfaces are SINGLETONS: they carry only
+# PAST-DAY MODE (fixed 2026-08-07). Four surfaces are SINGLETONS: they carry only
 # the most recent report, by design.
 #   * index.html            — redirects to the latest email
 #   * live-inventory.json   — one live file, rewritten daily
+#   * daily-report.json     — the HarvRealtor app feed, one file, rewritten daily (2026-08-21)
 #   * the alameda-Interactive landing node — one node, re-edited daily
 # Comparing those against a PAST date can only ever fail, so checking yesterday
 # (which CLAUDE.md mandates every run) always exited 1 and then printed recovery
@@ -80,6 +81,22 @@ else
   bad "live-inventory.json date" "found: ${LID:-none}"
 fi
 
+# HarvRealtor app + harvrealtor.net/today feed (added 2026-08-21). Singleton.
+DRD=$(curl -s "$PAGES/daily-report.json?cb=$CB" \
+      | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('date',''), d.get('voice',''))" 2>/dev/null)
+set -- ${DRD:-"" ""}; DRDATE="${1:-}"; DRVOICE="${2:-}"
+if [ "$DRDATE" = "$SLASH" ]; then
+  if [ "$DRVOICE" = "harv" ]; then
+    ok "daily-report.json (app feed)" "$DRDATE, voice=harv"
+  else
+    ok "daily-report.json (app feed)" "$DRDATE, voice=${DRVOICE:-?} (re-run generate-app-report.js after cms-content.json for Harv's voice)"
+  fi
+elif [ "$IS_TODAY" -eq 0 ]; then
+  moved "daily-report.json (app feed)" "now ${DRDATE:-none} (singleton, expected for a past day)"
+else
+  bad "daily-report.json (app feed)" "found: ${DRDATE:-none}"
+fi
+
 echo; echo "── harvrealtor.com (Stage 5 — the one with no safety net)"
 C=$(code "$CMS/HarvRealtor-daily-market-glance-$D")
 [ "$C" = "200" ] && ok "dated blog node" "$C" || bad "dated blog node" "$C"
@@ -135,6 +152,8 @@ else
     echo "            node edit-incom-node.js --node <id> --date $SLASH   # existing node"
     echo "          Leave the landing node alone; the next daily run refreshes it."
   fi
+  echo "     App feed (daily-report.json) missing or stale? regenerate + push:"
+  echo "       node generate-app-report.js && bash push-to-github.sh"
   echo "     Pages missing? the deploy may have failed on a runner hiccup:"
   echo "       GH_TOKEN=\$(gh auth token -u fremontrealtyexperts-510) gh run rerun <id> -R fremontrealtyexperts-510/RealtyExperts-Daily-Email"
 fi

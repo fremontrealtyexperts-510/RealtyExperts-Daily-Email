@@ -35,7 +35,8 @@
 # scripts/build-interactive-chart.py, which had never been pushed.
 # Deliberately NOT copied: broadcast-backstop.js and daily-report-skill/ are
 # gitignored on purpose so the Mac/VPS git-sync leaves them alone (CLAUDE.md
-# "Stage 4.5b"); cms-content.json is regenerated every run so it does not matter.
+# "Stage 4.5b"). cms-content.json and daily-report.json ARE copied (2026-08-21):
+# the HarvRealtor app feed is built from the former and IS the latter.
 
 set -e
 
@@ -104,6 +105,13 @@ copy_if_exists "cms-meta-${DATE_STR}.txt"
 copy_if_exists "live-inventory.json"
 # harvrealtor.net /inventory-history feed — long-run daily series (same origin)
 copy_if_exists "inventory-history.json"
+# HarvRealtor APP feed + harvrealtor.net/today (added 2026-08-21): ONE file,
+# rewritten every run by generate-app-report.js, so nothing accumulates. The
+# app reads it from Pages instead of the REALTY EXPERTS email or the .com RSS.
+copy_if_exists "daily-report.json"
+# The HarvRealtor-voice .com body the app feed is built from. Pushed so the
+# public copy is current (it sat at 07/31 until 2026-08-21).
+copy_if_exists "cms-content.json"
 
 # Copy QR code (glob for note-qr-*.png that's newer than 1 hour)
 for qr in "$SRC_DIR"/note-qr-*.png; do
