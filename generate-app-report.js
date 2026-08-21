@@ -23,8 +23,15 @@
  * show the latest edition. Git history keeps old versions (a few KB a day).
  *
  * Gates: the file is only written when every gate passes (date shape, both
- * rates numeric, at least three sections with real text, no dashes, headline
- * and teaser present). A failed run exits 1 and leaves yesterday's file alone.
+ * rates numeric, at least three sections with real text, no dashes in any
+ * spelling, no REALTY EXPERTS branding in the prose, https-only images and
+ * links, headline and teaser present). A failed run exits 1 and leaves
+ * yesterday's file alone. Non-https images are dropped with a WARN, not fatal.
+ *
+ * Freshness: GitHub Pages serves max-age=600 and ignores query strings, and
+ * harvrealtor.net/api/daily adds s-maxage=900, so a pushed edition can take up
+ * to ~25 minutes to reach every consumer. By design for a daily feed; the app
+ * and the page print the edition's date.
  *
  * No dependencies (fs + path only), like the other generators here.
  */
@@ -51,9 +58,18 @@ const SECTIONS = [
 
 // The one REALTY EXPERTS label inside the .com sources box. The app is the
 // HarvRealtor brand, so the ledger is named for where it lives.
-const SOURCE_RELABEL = { 'REALTY EXPERTS Live Inventory': 'Live Inventory ledger, harvrealtor.net' };
+const LEDGER_LABEL_RE = /^REALTY\s*EXPERTS\s*®?\s*Live\s+Inventory$/i;
+const LEDGER_LABEL = 'Live Inventory ledger, harvrealtor.net';
+// The app is the HarvRealtor brand: any other REALTY EXPERTS mention in the
+// prose is a hard gate failure (fix the source body, re-run), never a silent ship.
+const BRAND_RE = /REALTY\s*EXPERTS/i;
 
-const DASH_RE = /[—–]|&mdash;|&ndash;/;
+// House style: no em/en dashes, in any spelling (literal, named or numeric entity).
+const DASH_RE = /[—–]|&(?:mdash|ndash|#0*(?:8212|8211)|#x0*(?:2014|2013));/i;
+
+// Non-https images are dropped at parse time (both renderers strip them anyway),
+// and reported as warnings so the operator sees the bad src.
+const PARSE_WARNINGS = [];
 
 // ---------------------------------------------------------------------------
 // small helpers
@@ -73,6 +89,8 @@ function parseDate(mmddyy) {
 }
 
 const decode = (s) => String(s == null ? '' : s)
+  .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+  .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
   .replace(/&nbsp;/g, ' ')
   .replace(/&amp;/g, '&')
   .replace(/&lt;/g, '<')
@@ -96,6 +114,16 @@ function sanitizeHtml(html) {
     .replace(/<(object|embed|link|meta|style)[^>]*>/gi, '')
     .replace(/\son[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '')
     .replace(/(href|src)\s*=\s*("|')\s*javascript:[^"']*("|')/gi, '$1="#"');
+}
+
+/** Remove <img> tags whose src is not https (consumers strip them anyway); warn. */
+function dropNonHttpsImages(html) {
+  return String(html || '').replace(/<img\b[^>]*>/gi, (tag) => {
+    const src = (tag.match(/\bsrc="([^"]*)"/i) || [])[1] || '';
+    if (/^https:\/\//.test(src)) return tag;
+    PARSE_WARNINGS.push(`dropped non-https image: ${src || '(no src)'}`);
+    return '';
+  });
 }
 
 // "7,707 (+0.21%)" -> { value: "7,707", change: "+0.21%" }
@@ -184,13 +212,20 @@ function parseCmsSection(raw) {
   const stats = stat ? parseStatLine(stat[1]) : [];
   if (stat) html = html.replace(stat[0], '');
   html = html.replace(/<hr\s*\/?>\s*$/i, '').trim();
+  // Block-first: match each <figure>...</figure>, then read img + figcaption
+  // inside it (a single lazy regex silently dropped every caption).
   const images = [];
-  const figRe = /<figure[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>[\s\S]*?(?:<figcaption[^>]*>([\s\S]*?)<\/figcaption>)?[\s\S]*?<\/figure>/g;
-  let f;
-  while ((f = figRe.exec(html))) {
-    images.push({ url: f[1], alt: decode(f[2]), caption: f[3] ? stripTags(f[3]) : null });
+  const figBlock = /<figure[^>]*>[\s\S]*?<\/figure>/g;
+  let b;
+  while ((b = figBlock.exec(html))) {
+    const img = b[0].match(/<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"/);
+    if (!img) continue;
+    const cap = b[0].match(/<figcaption[^>]*>([\s\S]*?)<\/figcaption>/);
+    images.push({ url: img[1], alt: decode(img[2]), caption: cap ? stripTags(cap[1]) : null });
   }
-  return { stats, html: sanitizeHtml(html), images, text: stripTags(html) };
+  html = dropNonHttpsImages(html);
+  const kept = images.filter((i) => /^https:\/\//.test(i.url));
+  return { stats, html: sanitizeHtml(html), images: kept, text: stripTags(html) };
 }
 
 function parseCmsSources(raw) {
@@ -199,7 +234,7 @@ function parseCmsSources(raw) {
   let m;
   while ((m = liRe.exec(String(raw || '')))) {
     let label = stripTags(m[2]);
-    if (SOURCE_RELABEL[label]) label = SOURCE_RELABEL[label];
+    if (LEDGER_LABEL_RE.test(label)) label = LEDGER_LABEL;
     const note = stripTags(m[3]).replace(/^\(|\)$/g, '').trim() || null;
     out.push({ label, url: m[1], note });
   }
@@ -265,7 +300,11 @@ function commentaryToHtml(text) {
 function imagesOf(section) {
   const arr = Array.isArray(section.feature_images) ? section.feature_images
     : (section.feature_image ? [section.feature_image] : []);
-  return arr.filter((i) => i && i.url).map((i) => ({
+  return arr.filter((i) => i && i.url).filter((i) => {
+    if (/^https:\/\//.test(String(i.url))) return true;
+    PARSE_WARNINGS.push(`dropped non-https image: ${i.url}`);
+    return false;
+  }).map((i) => ({
     url: i.url, alt: i.alt || '', caption: i.caption || null, source: i.source || null,
   }));
 }
@@ -371,6 +410,7 @@ function localFromTemplate(text, date) {
 
 function build({ template, cms, live, date }) {
   const warnings = [];
+  PARSE_WARNINGS.length = 0;
   const re = template.real_estate || {};
 
   const cmsFresh = !!(cms && cms.newsletter_html && cmsMatchesDate(cms, date));
@@ -432,6 +472,7 @@ function build({ template, cms, live, date }) {
   const headline = String(re.homebuilder || '').trim() || null;
 
   const allImages = sections.flatMap((s) => s.images);
+  warnings.push(...PARSE_WARNINGS);
 
   const payload = {
     version: 1,
@@ -483,12 +524,23 @@ function validate(p) {
     if (typeof v === 'string') {
       if (/^https?:\/\//.test(v)) return;
       if (DASH_RE.test(v)) errs.push(`dash in ${where}`);
+      if (BRAND_RE.test(v)) errs.push(`REALTY EXPERTS branding in ${where} (the app is the HarvRealtor brand; fix the source body)`);
     } else if (Array.isArray(v)) v.forEach((x, i) => walk(x, `${where}[${i}]`));
     else if (v && typeof v === 'object') Object.entries(v).forEach(([k, x]) => walk(x, `${where}.${k}`));
   };
   walk({ headline: p.headline, teaser: p.teaser, sections: p.sections, sources: p.sources, disclaimer: p.disclaimer }, 'report');
   if (p.local && p.local.cities.length && p.local.total !== p.local.cities.reduce((n, c) => n + (c.total || 0), 0)) {
     errs.push('local.total does not equal the sum of city totals');
+  }
+  // Parity with the consumers (app isReport, .net isDailyReport): they refuse the
+  // WHOLE edition on any non-https image or link, so refuse it here, loudly.
+  for (const s of p.sections) {
+    for (const im of s.images || []) {
+      if (!/^https:\/\//.test(String(im.url || ''))) errs.push(`section ${s.key} image url is not https: ${im.url}`);
+    }
+  }
+  for (const k of ['web', 'blog', 'liveInventory']) {
+    if (!/^https:\/\//.test(String((p.links || {})[k] || ''))) errs.push(`links.${k} is not https`);
   }
   return errs;
 }

@@ -27,7 +27,7 @@
 # (which CLAUDE.md mandates every run) always exited 1 and then printed recovery
 # advice ending in `node post-to-incom.js`. Following that advice for a past day
 # would have overwritten the landing node with the OLDER chart, clobbering today.
-# For a past day those three are now reported ⏭ "moved on" and do not set FAIL.
+# For a past day those four are now reported ⏭ "moved on" and do not set FAIL.
 # The per-day evidence that actually matters (dated email page, both dated PNGs,
 # the dated blog node, the sent email, the broadcast confirmation) stays a hard
 # check for every date.
@@ -82,10 +82,28 @@ else
 fi
 
 # HarvRealtor app + harvrealtor.net/today feed (added 2026-08-21). Singleton.
-DRD=$(curl -s "$PAGES/daily-report.json?cb=$CB" \
-      | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('date',''), d.get('voice',''))" 2>/dev/null)
-set -- ${DRD:-"" ""}; DRDATE="${1:-}"; DRVOICE="${2:-}"
-if [ "$DRDATE" = "$SLASH" ]; then
+# (Pages ignores the ?cb= query; a push reaches Pages within <=10 min, /api/daily within ~25.)
+# Shape = the consumer predicate (app isReport / .net isDailyReport) in miniature:
+# an edition that parses but fails it would publish green and never render.
+DRD=$(curl -s "$PAGES/daily-report.json?cb=$CB" | python3 -c "
+import json,sys,re
+try:
+    d=json.load(sys.stdin)
+except Exception:
+    print('', '', 'unreadable'); sys.exit(0)
+r=d.get('rates') or {}; L=d.get('links') or {}; S=d.get('sections')
+ok=(d.get('version')==1 and isinstance(d.get('date'),str) and bool(re.match(r'^\d{2}/\d{2}/\d{2}$',d['date']))
+    and bool(d.get('headline')) and bool(d.get('teaser'))
+    and isinstance(r.get('r30'),(int,float)) and isinstance(r.get('r15'),(int,float))
+    and isinstance(S,list) and len(S)>=3
+    and all(str(i.get('url','')).startswith('https://') for s in S for i in (s.get('images') or []))
+    and all(str(L.get(k,'')).startswith('https://') for k in ('web','blog','liveInventory')))
+print(d.get('date',''), d.get('voice',''), 'ok' if ok else 'shape')
+" 2>/dev/null)
+set -- ${DRD:-"" "" ""}; DRDATE="${1:-}"; DRVOICE="${2:-}"; DRSHAPE="${3:-}"
+if [ -n "$DRDATE" ] && [ "$DRSHAPE" != "ok" ]; then
+  bad "daily-report.json (app feed)" "$DRDATE but SHAPE FAILED ($DRSHAPE): consumers would refuse it; node generate-app-report.js && bash push-to-github.sh"
+elif [ "$DRDATE" = "$SLASH" ]; then
   if [ "$DRVOICE" = "harv" ]; then
     ok "daily-report.json (app feed)" "$DRDATE, voice=harv"
   else
