@@ -1,58 +1,59 @@
 {
-  "date": "08/20/26",
-  "time": "10:00 AM",
+  "date": "08/21/26",
+  "time": "8:00 PM",
   "stocks": {
-    "sp500": "7,707 (+0.21%)",
-    "dow": "53,463 (+0.22%)",
-    "nasdaq": "26,331 (+0.16%)",
-    "note": "Numbers as of market close on August 19th.",
+    "sp500": "7,674 (+0.43%)",
+    "dow": "53,277 (+0.98%)",
+    "nasdaq": "26,180 (+0.43%)",
+    "note": "Numbers as of Friday's close, August 21st. This edition is going out after the bell, so these are today's settled figures rather than yesterday's.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/moderna-082026.png",
-      "alt": "Line chart of Moderna's share price from the December 31, 2025 close of $29.49 through August 19, 2026. The stock trades between $40 and $85 for most of the year, then spikes to $174.38 on August 19. A dashed leg shows the pullback to $131.77 by midday on August 20.",
-      "caption": "Moderna closed August 19 at $174.38, up 176.97% in a single session and up 491% for the year from its $29.49 start. The open marker is Thursday midday at $131.77, giving back a good part of the spike while the market was still open.",
-      "source": "Source: Yahoo Finance, MRNA daily closing prices. Year to date measured from the December 31, 2025 close."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/walmart-082126.png",
+      "alt": "Line chart of Walmart's share price from the December 31, 2025 close of $111.41 through August 21, 2026. The stock trades between $109 and $135 for most of the year, then drops sharply after August 20 earnings to close at $103.70.",
+      "caption": "Walmart started the year at $111.41 and closed Friday at $103.70, down 6.9% for 2026. The drop at the right edge is the 9.15% fall on August 20 after earnings showed the slowest sales growth in six years.",
+      "source": "Source: Yahoo Finance, WMT daily closing prices. Year to date measured from the December 31, 2025 close."
     },
-    "news": "A quiet green day on the surface, with the S&P 500 up 0.21% to 7,707, the Dow up 0.22% to 53,463 and the NASDAQ up 0.16% to 26,331. Underneath it was anything but quiet.\n\nModerna and Merck reported that their experimental melanoma vaccine kept the cancer from coming back in a late stage trial. Moderna rose 176.97% in one session to $174.38 and added roughly $60 billion of market value in a day. Merck gained 12.60%. Melanoma is the deadliest form of skin cancer, so if this clears approval the market is very large.\n\nOne caution on that headline. As of midday today the stock had given back a large part of the move and was trading near $131.77. A 177% day invites a second look, and the second look is usually a rethink about how much of an approval is already in the price.\n\nElsewhere, Stripe is paying more than $7 billion for OpenRouter, which lets developers reach hundreds of artificial intelligence models through one connection. And in Shanghai, robot maker Unitree surged 542% on its first day of trading."
+    "news": "A green finish to the week. The S&P 500 rose 0.43% to 7,674, the Dow added 0.98% to 53,277 and the NASDAQ gained 0.43% to 26,180, recovering part of Thursday's broad decline.\n\nWalmart was the week's cautionary tale. It beat profit expectations and the stock still fell 9.15% on Thursday, because sales grew at their slowest pace in six years and management guided profits lower. It had spent a $2.9 billion tariff refund cutting prices to win shoppers back, and inflation may make those discounts hard to sustain. The stock is down 6.9% for the year.\n\nTwo more worth noting. Anthropic is planning what could be the largest public stock sale ever at $86.2 billion, matching SpaceX, despite a $42 billion net loss last year on artificial intelligence infrastructure. And Alibaba's net income fell 75% for the same reason, heavy AI spending. The market is rewarding that spending in some names and punishing it in others, which is usually what happens late in a build out."
   },
   "economy": {
-    "us10year": "4.65% (-0.06%)",
-    "gold": "$4,472 (+1.31%)",
-    "silver": "$66.85 (+5.67%)",
-    "wti": "$91.62 (+0.66%)",
+    "us10year": "4.74% (+0.05%)",
+    "gold": "$4,587 (+2.57%)",
+    "silver": "$69.61 (+4.12%)",
+    "wti": "$93.78 (+2.36%)",
     "oil_label": "Brent Crude",
-    "note": "Ten year yield is the Treasury close for August 19th. Brent is the August 19th settlement. Gold and silver are spot quotes at 8:50 AM and 6:30 AM Eastern on August 20th.",
-    "commentary": "The 10 year eased 6 basis points to 4.65% and the 30 year came down to 5.19% from the 5.31% it touched Monday, which was a near 19 year high. The Treasury is buying back older bonds to calm that market and is doubling each buyback to at least $4 billion. The aim is to keep borrowing costs stable, and mortgage rates take their cue from this end of the curve, so it matters here.\n\nPrecious metals are having a moment. Gold ran more than 3% on Tuesday to around $4,580 late in the day, then eased back to $4,472 by this morning, and it is still up roughly $500 over the last three weeks. Silver went further, up 5.67% to $66.85. Gold miners came along for the ride, with Barrick up 7.22% and Newmont up 7.85%. The newsletter quoted gold at $4,580, which was accurate for Tuesday afternoon but is above where the metal sits this morning.\n\nOne number for the file: United States national debt crossed $40 trillion for the first time yesterday. That is larger than everything the economy produces in a year, roughly $32 trillion. It does not change your rate this morning, but it is the backdrop to every conversation about long term borrowing costs."
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/jobless-082126.png",
+      "alt": "Line chart of weekly seasonally adjusted US initial jobless claims from July 2025 through August 2026, mostly between 190,000 and 235,000, with a spike to 264,000 in September 2025 and a shaded gap in October 2025 where no weekly release was published. The latest week ending August 15 is 206,000.",
+      "caption": "Initial claims were 206,000 in the week ending August 15, down 6,000 from the revised 212,000 the week before, and well under the 233,000 filed in the same week a year ago. The shaded band is five weeks in late 2025 with no published release, left blank rather than guessed.",
+      "source": "Source: U.S. Department of Labor, weekly unemployment insurance claims releases."
+    },
+    "note": "Ten year yield is the Treasury close for August 21st. Brent is the August 20th settlement, the last one the pricing script treats as settled. Gold and silver are spot quotes on the morning of August 21st.",
+    "commentary": "A correction to this morning's newsletter first. It reported initial jobless claims at around 200,000. The Labor Department's release for the week ending August 15 puts them at 206,000, down 6,000 from a revised 212,000. The direction was right and the level was low. For context, the same week a year ago produced 233,000 claims.\n\nWhat that number means for us: employers are holding onto the people they have but are not rushing to hire. Layoffs stay rare, which supports household income and keeps people current on mortgages. It also means anyone actively looking for work is having a harder time, and that shows up in relocation timing more than in defaults.\n\nThe 10 year rose 5 basis points to 4.74% and the 30 year is back to 5.27%. Gold and silver both ran hard, gold up 2.57% to $4,587 and silver up 4.12% to $69.61, with the Middle East still the driver. Brent settled at $93.78, up 2.36%. The newsletter printed $93.20 and a 1.72% gain, both a little light.\n\nOne policy item worth a bookmark: Treasury proposed limiting Trump Accounts, the tax advantaged accounts for Americans 18 and under, to low fee index funds. Small fees compound over decades in the same direction as returns do, just against you."
   },
   "crypto": {
-    "btc": "$72,752 (+7.01%)",
-    "eth": "$2,342 (+12.47%)",
-    "xrp": "$1.33 (+26.06%)",
-    "note": "Live quotes as of 10:41 AM Pacific on August 20 (24 hour change).",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/btc-082026.png",
-      "alt": "Line chart of Bitcoin daily closing prices from July 20 to August 19, 2026. The price ranges between $62,800 and $66,500 for most of the month, then jumps to $69,266 on August 19. A dashed leg marks midday August 20 at $72,781.",
-      "caption": "Bitcoin closed August 19 at $69,266, up 7.1% on the day and through the $66,505 high that had capped the prior month. The open marker is Thursday midday at $72,781, an even higher high while the day is still running.",
-      "source": "Source: Yahoo Finance, BTC-USD daily closing prices (completed UTC days)."
-    },
-    "commentary": "The rally that started yesterday morning kept going. Bitcoin is up 7.01% to $72,752, Ether added 12.47% to $2,342, and XRP is the standout at $1.33, up 26.06% in 24 hours.\n\nThe catalyst was political. The President hosted crypto executives, said he wants the Singapore based exchange Hyperliquid to open in the United States, and pushed Congress to pass the Clarity Act soon. Bitcoin and Ether both jumped to multi month highs on the news, and the move wiped out more than $1 billion of short bets against Bitcoin in about an hour. Coinbase gained 9.55% and Strategy 12.68%.\n\nThese are live quotes from this morning rather than yesterday's close, because the tape has moved a long way since the newsletter's 4 PM figures were set."
+    "btc": "$78,398 (+5.16%)",
+    "eth": "$2,507 (+6.70%)",
+    "xrp": "$1.54 (+18.96%)",
+    "note": "Live quotes as of 7:48 PM Pacific on August 21 (24 hour change).",
+    "commentary": "The rally is now three days old and still running. Bitcoin is up 5.16% to $78,398, Ether added 6.70% to $2,507, and XRP is up another 18.96% to $1.54. Bitcoin has gained roughly 12% since Wednesday.\n\nIt is all one story: the White House is pressing Congress to pass the Clarity Act and set firm rules for crypto, and the CFTC says it will write rules itself if Congress does not act. Lawmakers are split over the ethics provisions and a Senate vote could still kill it, so this is optimism about a bill, not a bill.\n\nThese are live quotes from this evening rather than yesterday's close, because the market has moved a long way past the newsletter's Thursday afternoon figures."
   },
   "real_estate": {
-    "rate_30year": "6.76%",
-    "rate_15year": "6.30%",
-    "homebuilder": "Rates Turned Back Up To 6.76%; A Quarter Of Toll Brothers Buyers Paid All Cash While Everyone Else Waits For A Bigger Drop",
-    "commentary": "Rates turned back up. The 30 year fixed added 4 basis points to 6.76% and the 15 year added 3 to 6.30%, per Mortgage News Daily. The newsletter printed 6.72% and 6.27%, which were Tuesday's closing figures, so treat today's number as the live one.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,712 active, BOMK, PCH and new listings across the 15 city board, with 214 coming soon and 197 brand new today.\n• Fremont: 245 active across all property types, made up of 34 townhomes, 84 condos and 127 detached homes, plus 99 in contract, 52 coming soon and 18 new today.\n• Live ledger: our 5 city count rose to 728 listings. Fremont 288, Hayward 194, Milpitas 109, Newark 79 and Union City 58.\n\nTwo housing datapoints worth holding together.\n\n• Toll Brothers signed 5% more contracts last quarter, and about a quarter of those buyers paid all cash. Those are people trading up from a home they already own, so a 6.76% rate simply does not enter the decision.\n• Total mortgage applications slipped last week. Refinances rose 2% while purchases fell 2%, with rates parked near 6.7% and buyers waiting for a bigger drop.\n\nRead together they describe a split market rather than a slow one. The buyer who does not need a loan is transacting right now. The buyer who does is waiting for a number that has not arrived. That is why the luxury end keeps clearing while entry level sits, and it is the single most useful thing to understand about our market this month. Waiting is a position, and it has a cost that nobody puts on a settlement statement."
+    "rate_30year": "6.77%",
+    "rate_15year": "6.61%",
+    "homebuilder": "The 30 Year Barely Moved To 6.77% While The 15 Year Printed A Startling Jump; A Typical Family Now Spends 34% Of Income On A New Home Mortgage",
+    "commentary": "The 30 year fixed added 1 basis point to 6.77%, per Mortgage News Daily. Steady, and in line with Freddie Mac's latest survey at 6.65%.\n\n⚠️ Please read this before quoting the 15 year. Mortgage News Daily shows the 15 year fixed at 6.61% today, a jump of 31 basis points in one session and a new 52 week high, while the 30 year moved a single basis point. That would leave only 16 basis points between the two, where the normal gap is closer to 50, and Freddie Mac's latest survey still has the 15 year at 5.95% and drifting down. We publish Mortgage News Daily because it is our source of record, but a move that size with nothing behind it looks like a data problem rather than a market one. Verify the 15 year with your lender before you put it in front of a client, and treat Monday's print as the confirmation.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,725 active, BOMK, PCH and new listings across the 15 city board, with 202 coming soon and 206 brand new today.\n• Fremont: 250 active across all property types, made up of 35 townhomes, 87 condos and 128 detached homes, plus 96 in contract, 47 coming soon and 20 new today.\n• Live ledger: our 5 city count eased to 726 listings. Fremont 287, Hayward 194, Milpitas 111, Newark 77 and Union City 57.\n\nTwo national datapoints landed today, and together they explain the standoff.\n\n• Pending home sales fell 2.2% in July nationally, yet Virginia Beach saw demand jump 17.2%. Buyers have leverage in most markets and none at all in a few.\n• A typical family now spends 34% of income on a new home mortgage, the highest share on record, with rates near 6.7%.\n\nThat second number is the whole story of this year. It is not that people stopped wanting to move. It is that the monthly payment now claims a third of household income, and at that level families rent longer, stay put longer, and remodel instead of trading up. It also means the day rates break lower, the response will be faster than anyone expects, because the wanting never went away."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "Market Briefs daily newsletter, August 20, 2026",
+    "https://www.freddiemac.com/pmms",
+    "Market Briefs daily newsletter, August 21, 2026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://finance.yahoo.com/quote/MRNA/",
-    "https://finance.yahoo.com/quote/BTC-USD/",
-    "https://fortune.com/article/current-price-of-gold-08-20-2026/",
-    "https://fortune.com/article/current-price-of-silver-8-20-2026/",
+    "https://oui.doleta.gov/press/2026/082026.pdf",
+    "https://finance.yahoo.com/quote/WMT/",
+    "https://fortune.com/article/current-price-of-gold-08-21-2026/",
+    "https://fortune.com/article/current-price-of-silver-8-21-2026/",
     "https://www.coingecko.com/",
     "https://finance.yahoo.com/quote/BZ=F/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/cf19289b-cd30-48da-b442-cf2756717325",
-  "qr_code_path": "note-qr-cf19289b.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/ec044c81-7617-40cf-95e1-911201ff12ec",
+  "qr_code_path": "note-qr-ec044c81.png"
 }
