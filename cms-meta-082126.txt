@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/21/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/21/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 21, 2026: the 30-year held at 6.77% while Mortgage News Daily printed a questionable 31 basis point jump in the 15-year, jobless claims came in at 206,000, a typical family now spends 34% of income on a new home mortgage, Walmart finished the year down 6.9%, and 726 homes are buyable now across Fremont, Hayward, Milpitas, Newark, and Union City.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, 15-year fixed, jobless claims, housing affordability, pending home sales, Walmart earnings, gold price, silver price, Brent crude, Clarity Act, housing inventory
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
