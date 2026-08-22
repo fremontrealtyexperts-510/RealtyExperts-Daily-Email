@@ -89,6 +89,18 @@ copy_if_exists() {
 # by the Mac launchd auto-pull, i.e. the fix silently undoes itself.
 copy_if_exists "push-to-github.sh"
 copy_if_exists "check-surfaces.sh"
+# One-off Agent Hub announcements (post-announcement.js) + the brand lockup the
+# flyers are built on. Added 2026-08-21: post-announcement.js is reusable tooling
+# and matched no existing glob (it is not make-*.py or verify-*.js), so without
+# this line it would live only on the Mac and be lost on a restore, the same way
+# make-copper-chart.py was lost on 08/07.
+copy_if_exists "post-announcement.js"
+copy_if_exists "REALTY-EXPERTS-Official-Transparent-logo.png"
+for ann in "$SRC_DIR"/announcement-*.html; do
+  [ -f "$ann" ] || continue
+  cp "$ann" "$DST_DIR/$(basename "$ann")"
+  FILES_COPIED=$((FILES_COPIED + 1))
+done
 copy_if_exists "daily-market-template.json"
 copy_if_exists "index.html"
 copy_if_exists "daily-market-glance-${DATE_STR}.html"
