@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/25/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/25/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 25, 2026: rates held at 6.78% while the 15-year stayed stuck at a questionable 6.62%, oil fell on Iran sanctions, and the 5 city ledger holds 697 homes.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, 15-year fixed, live inventory, data centers, Canada tariffs, daily market report
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
