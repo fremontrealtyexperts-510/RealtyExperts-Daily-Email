@@ -46,3 +46,6 @@ service-account*.json
 daily-report-skill/
 # broadcast safety net (see CLAUDE.md "Stage 4.5b")
 broadcast-backstop.js
+
+# once-per-day stamp for the harvrealtor.net rebuild trigger (local state)
+.net-rebuild-last-date
