@@ -89,6 +89,12 @@ copy_if_exists() {
 # by the Mac launchd auto-pull, i.e. the fix silently undoes itself.
 copy_if_exists "push-to-github.sh"
 copy_if_exists "check-surfaces.sh"
+# harvrealtor.net rebuild trigger + the launchd feed refresher that calls it.
+# refresh-live-inventory.sh is git-tracked but was NOT in this list until
+# 2026-08-25, so an edit to it on the Mac was exposed to the same silent
+# auto-pull revert that make-*.py and check-surfaces.sh were added here for.
+copy_if_exists "trigger-net-rebuild.sh"
+copy_if_exists "refresh-live-inventory.sh"
 # One-off Agent Hub announcements (post-announcement.js) + the brand lockup the
 # flyers are built on. Added 2026-08-21: post-announcement.js is reusable tooling
 # and matched no existing glob (it is not make-*.py or verify-*.js), so without
@@ -227,3 +233,12 @@ echo "🌐 Web: https://${REPO/\//.github.io/}/daily-market-glance-${DATE_STR}.h
 # --- Cleanup ---
 rm -rf "$DST_DIR"
 echo "🧹 Cleaned up /tmp clone"
+
+# --- Rebuild harvrealtor.net if this push moved the live-inventory feed ---
+# .net prerenders its inventory surfaces at build time, so a new feed on Pages
+# is not visible in the served HTML until Vercel rebuilds. The trigger stamps
+# the feed date it fired for, so the Stage 5 push (and the launchd refresher)
+# no-op instead of queueing a second build. Always exits 0.
+if [ -x "$SRC_DIR/trigger-net-rebuild.sh" ]; then
+  "$SRC_DIR/trigger-net-rebuild.sh" || true
+fi

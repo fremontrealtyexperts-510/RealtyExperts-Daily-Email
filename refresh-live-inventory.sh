@@ -101,3 +101,10 @@ cd /
 rm -rf "$DST_DIR"
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Published live-inventory.json for $NEW_DATE"
+
+# --- Rebuild harvrealtor.net so its PRERENDERED html carries this feed ---
+# The .net routes are prerendered at Vercel build time and served from the
+# edge until the next deploy, so without this the first paint (and every
+# scraper that does not run JS) keeps showing the feed from the last deploy.
+# Never fatal: the trigger always exits 0 and no-ops when unconfigured.
+"$SRC_DIR/trigger-net-rebuild.sh" "$NEW_DATE" || true
