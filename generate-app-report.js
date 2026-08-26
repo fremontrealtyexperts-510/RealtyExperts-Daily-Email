@@ -356,7 +356,11 @@ function templateSources(t) {
 
 function boardFromText(text) {
   const s = String(text || '');
-  const active = s.match(/Board wide:\s*([\d,]+)\s+active/i) || s.match(/carrying\s+(?:<strong>)?([\d,]+)(?:<\/strong>)?\s+active/i);
+  // "Board wide: N active ..." was the original phrasing. Since 08/26/26 the copy says
+  // "Board wide: N listings ...", because N is active PLUS in contract and calling it
+  // active alone was wrong. Accept either. (The board.active FIELD name in the app
+  // contract still carries that same total; renaming it is an app side change.)
+  const active = s.match(/Board wide:\s*([\d,]+)\s+(?:active|listings)/i) || s.match(/carrying\s+(?:<strong>)?([\d,]+)(?:<\/strong>)?\s+active/i);
   const cs = s.match(/(\d[\d,]*)\s+coming soon/i);
   const nw = s.match(/(\d[\d,]*)\s+brand new/i) || s.match(/(\d[\d,]*)\s+new today/i);
   if (!active) return null;
