@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/27/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/27/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 27, 2026: core inflation holds at 3.3% and keeps the Fed parked, Fremont's active supply jumps to 251, and the 5 city ledger holds 703 homes.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, core PCE, inflation, Nvidia, live inventory, daily market report
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
