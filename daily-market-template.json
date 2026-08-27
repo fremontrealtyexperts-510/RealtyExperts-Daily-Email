@@ -1,67 +1,58 @@
 {
-  "date": "08/26/26",
-  "time": "Wednesday, August 26, 2026",
+  "date": "08/27/26",
+  "time": "Thursday, August 27, 2026",
   "stocks": {
-    "sp500": "7,677 (+0.32%)",
-    "dow": "53,577 (+0.30%)",
-    "nasdaq": "26,151 (+0.66%)",
-    "note": "Numbers as of Tuesday's close, August 25.",
-    "news": "A quiet, broad advance. All three indexes finished higher, with the NASDAQ doing most of the work at +0.66% while the S&P 500 and the Dow each added about a third of a percent. Nothing in the session suggested a change of trend, and the S&P is up 2.5% for the month so far.\n\nUnder the surface the moves were company specific rather than macro. Dick's Sporting Goods fell sharply on a weak quarter, Northrop Grumman picked up roughly $3 billion in Golden Dome defense work, and Apple confirmed a higher priced Mac mini built around its fastest AI chip. Lego, still private, posted its best first half ever with sales up 21%, which is a useful reminder that consumer spending is not weak everywhere, it is selective."
+    "sp500": "7,675 (-0.02%)",
+    "dow": "53,463 (-0.21%)",
+    "nasdaq": "26,130 (-0.08%)",
+    "note": "Numbers as of Wednesday's close, August 26.",
+    "news": "A flat session that was really a holding pattern. All three indexes finished within a quarter of a percent of where they started, because the market was waiting on two things: Nvidia's results after the bell and the Fed's Jackson Hole symposium, which opens today.\n\nNvidia delivered. Revenue came in at $96.2 billion for the quarter, up 106% from a year ago, with data center sales up 117% to $89.0 billion. The company guided to $108 billion for the current quarter. Shares rose after hours even though they are down about 4% over the past five sessions, which tells you the bar is now set by expectations rather than by results.\n\nSalesforce also beat, and paired it with a deal to embed its systems inside Anthropic's Claude. The stock is still down roughly 19% on the year.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/nvidia-revenue-082726.png",
+      "alt": "Bar chart of Nvidia quarterly revenue rising from $46.7B in the quarter ending July 2025 to $96.2B in the quarter ending July 2026, with $108.0B guidance for October 2026",
+      "caption": "Six quarters, from $46.7 billion to a guided $108 billion. The top bar is company guidance, not a reported result.",
+      "source": "Source: NVIDIA quarterly results releases. October 2026 is guidance of $108.0B plus or minus 2%."
+    }
   },
   "economy": {
-    "us10year": "4.64% (-0.06%)",
-    "gold": "$4,615 (-0.32%)",
-    "silver": "$68.55 (+0.55%)",
-    "wti": "$88.58 (-3.89%)",
+    "us10year": "4.66% (+0.02%)",
+    "gold": "$4,589 (-0.56%)",
+    "silver": "$68.34 (-0.31%)",
+    "wti": "$87.84 (-0.84%)",
     "oil_label": "Brent Crude",
-    "note": "Ten year yield and Brent are Tuesday's August 25 settlements. Gold and silver are Fortune spot prints at 8:55 AM and 7:15 AM Eastern today.",
-    "commentary": "The ten year eased to 4.64%, six basis points below Monday. Worth flagging: this morning's newsletter printed that same 4.64% level but called the day's change 0.00%. Treasury's own daily curve shows Monday at 4.70%, so the yield fell, it did not sit still. The direction matters more than the number here, because a falling ten year is what eventually pulls mortgage rates down.\n\nBrent settled at $88.58, down 3.89% on the day. The newsletter reported $86.23; that figure does not match the front month contract's settlement, which is the number we quote. Oil giving back nearly 4% while Iran and Oman negotiate a shared safe corridor through the Strait of Hormuz is the market pricing a little less risk into every barrel.\n\nGold slipped $15 to $4,615 and silver added 38 cents to $68.55. Do not let the small daily moves hide the month: gold is up 14.6% in August and silver 19.2%. That is the story the chart below tells.\n\n• On the newsletter's gold number: it printed $4,703, roughly $88 above the morning spot price we and Fortune both show. Treat that one with care.",
+    "note": "Ten year yield and Brent are Wednesday's August 26 settlements. Gold and silver are Fortune spot prints at 7:15 AM Eastern today.",
+    "commentary": "Core PCE, the inflation gauge the Fed actually watches, came in at 3.3% for July. That is a tenth above what forecasters expected and it is the number that matters most to anyone waiting on a rate cut.\n\nRead the chart below before you read anyone's opinion about it. Core inflation has spent this entire year in a narrow band above 3%, never once approaching the Fed's 2% target. The Fed meets at Jackson Hole starting today, and this is the reading that makes a near term cut hard to argue for. For housing that translates simply: the case for waiting on dramatically lower mortgage rates just got weaker again.\n\nThe ten year rose two basis points to 4.66%. This morning's newsletter printed 4.65% and called the change zero; Treasury's own daily curve has August 25 at 4.64% and August 26 at 4.66%, so the yield went up, not sideways.\n\nBrent settled at $87.84, down 0.84%. The newsletter reported $87.25 and a 0.67% fall, and neither figure matches the front month contract's settlement.\n\nGold fell $26 to $4,589 and silver eased 21 cents to $68.34. Both of Fortune's day over day comparisons reconcile exactly against what we published yesterday. The newsletter's $4,685 gold print sits about $96 above the morning spot price and has the direction wrong as well.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/debasement-082626.png",
-      "alt": "Bar chart of August month to date returns: Bitcoin plus 25.4 percent, gold plus 14.6 percent, S&P 500 plus 2.5 percent",
-      "caption": "August has belonged to the scarce assets. Bitcoin and gold have both left the S&P 500 far behind this month.",
-      "source": "Sources: CoinGecko, COMEX front month gold, S&P 500 index. Month to date from the July 31 close."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/corepce-082726.png",
+      "alt": "Line chart of core PCE inflation through 2026 running between 3.0 and 3.5 percent, far above the Fed's 2 percent target line",
+      "caption": "Core inflation has not been near 2% at any point this year. That gap is why the Fed is not cutting.",
+      "source": "Source: Bureau of Economic Analysis, core PCE price index, current vintage."
     }
   },
   "crypto": {
-    "btc": "$78,391 (+0.11%)",
-    "eth": "$2,469 (+1.19%)",
-    "xrp": "$1.38 (-5.03%)",
-    "note": "Live quotes at about 1:48 PM Pacific on August 26, showing the 24 hour change.",
-    "commentary": "Bitcoin is flat, ether firmer, and XRP is the outlier with a 5% slide over the last 24 hours.\n\nThe framing doing the rounds is the debasement trade: with federal debt past $40 trillion and the Treasury stepping up buybacks, money moves toward assets that cannot be printed. That is a real flow and the month's numbers support it. Two corrections to the version you may have read this morning. First, Bitcoin did not touch $81,000 yesterday, it peaked near $79,540. Second, this morning's newsletter carried crypto quotes stamped Monday afternoon, two days stale by the time it landed, and its XRP line showed a gain where the live market shows a loss. The figures above are live.\n\nSeparately, a Kalshi market puts the odds of the Clarity Act passing this year below 25%. Crypto's regulatory calendar keeps slipping to the right."
+    "btc": "$80,187 (+2.12%)",
+    "eth": "$2,511 (+1.39%)",
+    "xrp": "$1.45 (+4.90%)",
+    "note": "Live quotes at about 12:32 PM Pacific on August 27, showing the 24 hour change.",
+    "commentary": "A green morning across the board, with XRP leading at nearly 5%.\n\nOne thing to correct from this morning's inbox. The newsletter said Bitcoin \"sits below $80,000\" using quotes stamped Wednesday afternoon. It is above $80,000 as this is written, having added better than 2% overnight. Its crypto numbers were a day old again.\n\nThe theme underneath is the same one the gold chart told yesterday. BlackRock's digital assets chief is describing Bitcoin as a store of value, and the moves are tracking worries about government debt more closely than they track any crypto legislation. When an asset starts trading on fiscal anxiety rather than on its own adoption story, it has changed character."
   },
   "real_estate": {
     "rate_30year": "6.75%",
     "rate_15year": "6.32%",
-    "homebuilder": "Renting beats buying by $1,054 a month in Austin. In Fremont the gap is $4,280",
-    "commentary": "The 30 year fixed is 6.75% and the 15 year is 6.32%, each up a single basis point today, per Mortgage News Daily.\n\nThe 15 year flag comes down, and you should know why:\n\n• What we reported: for three sessions we carried the 15 year at 6.62% and warned that it did not add up, because it left only 16 basis points between the 15 year and the 30 year where the normal gap is closer to 70.\n• What happened: Mortgage News Daily has revised its own history. Its board now shows the 15 year at 6.27%, 6.30%, 6.31%, 6.32%, 6.31% and 6.32% across the last six sessions. The 31 basis point jump we flagged on Friday has been erased from the record.\n• What this means: today's 6.32% is not a 30 basis point collapse in the 15 year. It is the correction of a bad print, and the 15 year has in truth been drifting quietly between 6.27% and 6.32% all week. The gap to the 30 year is back to a normal 43 basis points. The flag was right, and you can quote the 15 year again.\n\nTwo affordability stories worth carrying into a client conversation:\n\n• Cash is losing its grip: all cash purchases fell to 31.4% of sales from 32.3% a year ago. Every point that leaves the cash column is a point where a financed buyer competes on more even footing. If you have buyers who spent last year losing to cash, the odds have moved slightly toward them.\n• Renting is cheaper than buying in seven metros, and none of them is here: the first chart below is the newsletter's ranking. Austin leads it at $1,054 a month and Sacramento is the only California market on the list. Read the method before repeating it. It compares an average apartment rent against a median mortgage payment on a house, so it measures monthly cash out the door, not the same roof, and it leaves out principal paid down and any appreciation. The study is also dated July 24, so it is a month old despite arriving in this morning's inbox.\n• So I ran the same question on our own market, and the answer is not close: the second chart is Fremont, Milpitas, Union City, Newark and Hayward, priced off Zillow's typical home value and typical rent for July, with a payment of 20% down on a 30 year fixed at 6.75%, principal and interest only.\n\n  Fremont's gap is $4,280 a month. That is roughly four times Austin's, and even Hayward, the smallest of our five at $1,680, beats the metro the newsletter ranked first. To keep it honest I ran Austin through my own math too and got $1,006 against their published $1,054, so the method holds. And every figure here is the conservative one, because property taxes, insurance and any HOA sit on top of every payment shown.\n\n  One caution to carry: on this like for like basis Sacramento's gap works out to about $429, not the $1,042 in the newsletter. Their figure is inflated by pricing an apartment rent against a house sized mortgage. Fremont's lead survives either way.\n\n  A second cross check, using our own MLS rather than Zillow: the median list price of today's 240 active Fremont listings is $1,260,912, which at the same terms is $6,543 of principal and interest and a $3,185 gap. So call Fremont's true range $3,200 to $4,300 a month depending on whether you price the typical home or today's median listing.\n\n  What to do with it: this is not an argument against owning, and do not let it be used as one. It is the arithmetic behind why your buyers hesitate, and the honest answer is that in this market buying is a bet on equity and staying put, not on beating rent from month one. A buyer who plans to move in three years is better off renting. A buyer who plans to stay ten is not. Saying that out loud is what earns the listing later.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,697 listings across the 15 city board, counting everything active alongside everything in contract, with 203 coming soon and 186 brand new today.\n• Fremont: 240 active across all property types, made up of 34 townhomes, 85 condos and 121 detached homes, plus 102 in contract, 46 coming soon and 16 new today.\n• Five city live ledger: 696 listings across Fremont, Hayward, Milpitas, Newark and Union City, down 1 from yesterday.\n• The pattern to notice: Fremont has now held exactly 102 listings in contract for three straight days while its active count eased from 241 to 240. Demand is not slipping and supply is not building. This market is simply holding its breath.\n• Coming soon is still the tell: Fremont's staged but not yet live block grew from 44 to 46, the largest on the board. Milpitas is next at 27. That is where a prepared buyer gets a look before the portals light up.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/rentbuy-082626.png",
-        "alt": "Ranked bar chart of seven cities where renting is cheaper than buying, led by Austin at $1,054 and Sacramento at $1,042 a month",
-        "caption": "The newsletter's seven metros. Sacramento is the only California market on the list, and not one of them is in the Bay Area.",
-        "source": "Sources: Apartments.com 2026 rent data with median mortgage payments estimated by the FHFA. Study published July 24, 2026."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/bayarea-rentbuy-082626.png",
-        "alt": "Ranked bar chart of the monthly gap between mortgage payment and rent in five Bay Area cities, led by Fremont at $4,280, with Austin at $1,006 for reference",
-        "caption": "The same question asked locally. Fremont's gap is about four times Austin's, and Hayward, the smallest of our five, still beats it.",
-        "source": "Zillow ZHVI and ZORI, all homes, July 2026. Payment is 20% down on a 30 year fixed at 6.75%, principal and interest only. Taxes and insurance sit on top."
-      }
-    ]
+    "homebuilder": "Inflation at 3.3% keeps the Fed parked, and Fremont's supply is building again",
+    "commentary": "The 30 year fixed is 6.75% and the 15 year is 6.32%, both unchanged for a second day, per Mortgage News Daily. After last week's bad print and its quiet correction, the 15 year has now held steady at 6.31% to 6.32% for four straight sessions. That number is trustworthy again.\n\nWhy rates are not moving, in one line: core inflation is 3.3% and the Fed's target is 2%. The Economy section below has the chart. Anyone advising a client to wait for a big drop in mortgage rates should look at it first.\n\nTwo housing items from this morning worth a moment:\n\n• New York is building for the wrong buyer: new condos for sale are projected to fall 11% through 2029, but entry level units are set to drop 74%. Builders are chasing luxury. It is a national pattern, not just a New York one, and it is the same squeeze that pushes first time buyers here toward townhomes and condos rather than detached houses.\n• Half of planned data centers may never get built: Kimmeridge Energy Management estimates 50% of U.S. projects are delayed or scrapped, with local opposition in Texas, Ohio and Pennsylvania. We showed the data center map two days ago and made the point that those buildings compete with home building for crews, land and power. If half of them stall, some of that pressure comes off.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,709 listings across the 15 city board, counting everything active alongside everything in contract, with 202 coming soon and 171 brand new today.\n• Fremont: 251 active across all property types, made up of 37 townhomes, 87 condos and 127 detached homes, plus 101 in contract, 41 coming soon and 20 new today.\n• Five city live ledger: 703 listings across Fremont, Hayward, Milpitas, Newark and Union City, up 7 from yesterday.\n• The streak ended: Fremont held exactly 102 listings in contract for three straight days and today it is 101. At the same time active supply jumped from 240 to 251, the largest single day gain in weeks, and the coming soon block fell from 46 to 41. Read those together and the picture is clear: staged listings went live. Supply is arriving faster than it is being absorbed.\n• What that means for a seller this week: you now have eleven more competitors than you had yesterday, and 20 of Fremont's listings are brand new today. Pricing to the last comp is how a listing sits. Price to the buyer who has more to choose from this morning than they did last night.\n• Median asking in Fremont is $1,299,000 at 27 median days on market. Newark is the quickest of our five at 25 days."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "https://www.mortgagenewsdaily.com/mortgage-rates/15-year-fixed",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "Market Briefs daily newsletter, August 26, 2026",
-    "https://fortune.com/article/current-price-of-gold-08-26-2026/",
-    "https://fortune.com/article/current-price-of-silver-8-26-2026/",
+    "Market Briefs daily newsletter, August 27, 2026",
+    "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+    "https://fortune.com/article/current-price-of-gold-08-27-2026/",
+    "https://fortune.com/article/current-price-of-silver-8-27-2026/",
     "https://finance.yahoo.com/quote/BZ=F/",
-    "https://www.coingecko.com/",
-    "https://www.apartments.com/blog/cities-where-renting-is-more-affordable-than-buying-in-2026",
-    "https://www.zillow.com/research/data/"
+    "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/aedb0a9c-2db6-431a-b28f-332680305082",
-  "qr_code_path": "note-qr-aedb0a9c.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/3fe48c1f-14a6-490f-9356-97749d67c832",
+  "qr_code_path": "note-qr-3fe48c1f.png"
 }
