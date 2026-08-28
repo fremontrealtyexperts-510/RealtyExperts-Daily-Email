@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/28/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/28/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 28, 2026: mortgage rates tick up to 6.81%, the national rent turn does not describe Fremont's $3,358 typical rent, and the 5 city ledger holds 716 homes.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, rent, Apartment List, Zillow ZORI, silver, live inventory, daily market report
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
