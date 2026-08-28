@@ -1,58 +1,59 @@
 {
-  "date": "08/27/26",
-  "time": "Thursday, August 27, 2026",
+  "date": "08/28/26",
+  "time": "Friday, August 28, 2026",
   "stocks": {
-    "sp500": "7,675 (-0.02%)",
-    "dow": "53,463 (-0.21%)",
-    "nasdaq": "26,130 (-0.08%)",
-    "note": "Numbers as of Wednesday's close, August 26.",
-    "news": "A flat session that was really a holding pattern. All three indexes finished within a quarter of a percent of where they started, because the market was waiting on two things: Nvidia's results after the bell and the Fed's Jackson Hole symposium, which opens today.\n\nNvidia delivered. Revenue came in at $96.2 billion for the quarter, up 106% from a year ago, with data center sales up 117% to $89.0 billion. The company guided to $108 billion for the current quarter. Shares rose after hours even though they are down about 4% over the past five sessions, which tells you the bar is now set by expectations rather than by results.\n\nSalesforce also beat, and paired it with a deal to embed its systems inside Anthropic's Claude. The stock is still down roughly 19% on the year.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/nvidia-revenue-082726.png",
-      "alt": "Bar chart of Nvidia quarterly revenue rising from $46.7B in the quarter ending July 2025 to $96.2B in the quarter ending July 2026, with $108.0B guidance for October 2026",
-      "caption": "Six quarters, from $46.7 billion to a guided $108 billion. The top bar is company guidance, not a reported result.",
-      "source": "Source: NVIDIA quarterly results releases. October 2026 is guidance of $108.0B plus or minus 2%."
-    }
+    "sp500": "7,730 (+0.72%)",
+    "dow": "53,569 (+0.20%)",
+    "nasdaq": "26,541 (+1.57%)",
+    "note": "Numbers as of Thursday's close, August 27.",
+    "news": "Software came back to life. CrowdStrike jumped 20.5% and Okta jumped 28.6% after both blew past their quarterly numbers, and that carried the NASDAQ to a 1.57% gain while the DOW managed only 0.20%.\n\nThe reason those two moves were so large is worth understanding, because it is the same argument running underneath a lot of this market. Investors have spent the year assuming artificial intelligence would eat business software from the inside. Two of the most exposed names just reported that it has not happened yet, and the stocks repriced violently in a single session.\n\nCredit where it is due: all three index numbers in this morning's newsletter reconciled exactly against what we published yesterday. That is the first clean sweep on the stock line in a while."
   },
   "economy": {
-    "us10year": "4.66% (+0.02%)",
-    "gold": "$4,589 (-0.56%)",
-    "silver": "$68.34 (-0.31%)",
-    "wti": "$87.84 (-0.84%)",
+    "us10year": "4.67% (+0.01%)",
+    "gold": "$4,608 (+0.41%)",
+    "silver": "$70.62 (+3.33%)",
+    "wti": "$89.70 (+2.12%)",
     "oil_label": "Brent Crude",
-    "note": "Ten year yield and Brent are Wednesday's August 26 settlements. Gold and silver are Fortune spot prints at 7:15 AM Eastern today.",
-    "commentary": "Core PCE, the inflation gauge the Fed actually watches, came in at 3.3% for July. That is a tenth above what forecasters expected and it is the number that matters most to anyone waiting on a rate cut.\n\nRead the chart below before you read anyone's opinion about it. Core inflation has spent this entire year in a narrow band above 3%, never once approaching the Fed's 2% target. The Fed meets at Jackson Hole starting today, and this is the reading that makes a near term cut hard to argue for. For housing that translates simply: the case for waiting on dramatically lower mortgage rates just got weaker again.\n\nThe ten year rose two basis points to 4.66%. This morning's newsletter printed 4.65% and called the change zero; Treasury's own daily curve has August 25 at 4.64% and August 26 at 4.66%, so the yield went up, not sideways.\n\nBrent settled at $87.84, down 0.84%. The newsletter reported $87.25 and a 0.67% fall, and neither figure matches the front month contract's settlement.\n\nGold fell $26 to $4,589 and silver eased 21 cents to $68.34. Both of Fortune's day over day comparisons reconcile exactly against what we published yesterday. The newsletter's $4,685 gold print sits about $96 above the morning spot price and has the direction wrong as well.",
+    "note": "Ten year yield and Brent are Thursday's August 27 settlements. Gold and silver are Fortune spot prints at 6:30 AM Eastern this morning. Both metals have fallen hard since that print, which the commentary covers.",
+    "commentary": "Read the metals cards above as a 6:30 AM photograph, not as where the metal sits right now. That distinction matters more today than on any morning this month.\n\nGold printed $4,608 at 6:30 AM Eastern, up 0.41%, and silver printed $70.62, up 3.33%. Both figures are correct and both reconcile exactly against what we published yesterday. Then the US session opened and hard assets were sold. By about 2:50 PM Eastern, gold futures were at $4,495.90 against Thursday's $4,609.70 settlement, roughly 2.5% lower, and silver futures were at $66.86 against Thursday's $69.43, roughly 3.7% lower. Anyone quoting this morning's spot price at dinner tonight will be quoting a number the market left behind before lunch.\n\nSilver is the one to look at, and the chart below is why. Measured from a year ago it is up 77%, which is the number a bull will hand you. Measured from its January 26 peak of $115.08 it is down about 40%, which is the number nobody hands you. Both are true. A metal that can round trip like that inside seven months is not behaving like a safe haven, whatever it is being sold as.\n\nTwo corrections to this morning's newsletter. It put the ten year at 4.68% and called the day's change zero; Treasury's own daily curve has August 26 at 4.66% and August 27 at 4.67%, so the yield rose a basis point. And it reported Brent at $89.53, down 0.19%, when the front month contract settled at $89.70 and rose 2.12%. The direction was wrong, not just the level. Oil up 2% on the day is a different story from oil drifting lower, particularly for anyone watching where inflation goes next.\n\nThe Fed is at Jackson Hole. Cleveland's Beth Hammack said now is the time to act on rates, Kansas City's Schmid called inflation sticky and stubborn, and Chair Warsh speaks later today. With core inflation still at 3.3% against a 2% target, the honest read is that nobody on that stage is preparing the market for a cut.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/corepce-082726.png",
-      "alt": "Line chart of core PCE inflation through 2026 running between 3.0 and 3.5 percent, far above the Fed's 2 percent target line",
-      "caption": "Core inflation has not been near 2% at any point this year. That gap is why the Fed is not cutting.",
-      "source": "Source: Bureau of Economic Analysis, core PCE price index, current vintage."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/silver-082826.png",
+      "alt": "Line chart of COMEX front month silver futures from August 2025 to August 2026, rising from $39.19 to a peak of $115.08 in January 2026 and falling back to $69.43 by August 27",
+      "caption": "Up 77% in a year and down 40% from January. Both numbers describe the same line.",
+      "source": "Source: COMEX front month silver futures daily closes. The card above quotes Fortune spot silver, a different series."
     }
   },
   "crypto": {
-    "btc": "$80,187 (+2.12%)",
-    "eth": "$2,511 (+1.39%)",
-    "xrp": "$1.45 (+4.90%)",
-    "note": "Live quotes at about 12:32 PM Pacific on August 27, showing the 24 hour change.",
-    "commentary": "A green morning across the board, with XRP leading at nearly 5%.\n\nOne thing to correct from this morning's inbox. The newsletter said Bitcoin \"sits below $80,000\" using quotes stamped Wednesday afternoon. It is above $80,000 as this is written, having added better than 2% overnight. Its crypto numbers were a day old again.\n\nThe theme underneath is the same one the gold chart told yesterday. BlackRock's digital assets chief is describing Bitcoin as a store of value, and the moves are tracking worries about government debt more closely than they track any crypto legislation. When an asset starts trading on fiscal anxiety rather than on its own adoption story, it has changed character."
+    "btc": "$77,409 (-3.19%)",
+    "eth": "$2,423 (-2.97%)",
+    "xrp": "$1.37 (-5.08%)",
+    "note": "Live quotes at about 11:47 AM Pacific on August 28, showing the 24 hour change.",
+    "commentary": "Everything is red, and Bitcoin has given up the $80,000 level it spent yesterday defending. XRP is down better than 5%.\n\nThis is the same tape as the Economy section above, which is the useful part. Gold down, silver down, crypto down, all on the same afternoon, while stocks closed higher yesterday and the ten year ticked up. That pattern is money leaving hard assets, not money fleeing to them.\n\nOne note on this morning's inbox, and it is a fairness point rather than a correction. The newsletter printed Bitcoin at $80,070, down 0.25%, and stamped those quotes 4:00 PM Eastern on August 27. That was accurate when it was taken. It has simply been overtaken: the newsletter also ran a story crediting a 20% weekly surge for pulling hedge funds back in, and the asset is down more than 3% since that story was written."
   },
   "real_estate": {
-    "rate_30year": "6.75%",
-    "rate_15year": "6.32%",
-    "homebuilder": "Inflation at 3.3% keeps the Fed parked, and Fremont's supply is building again",
-    "commentary": "The 30 year fixed is 6.75% and the 15 year is 6.32%, both unchanged for a second day, per Mortgage News Daily. After last week's bad print and its quiet correction, the 15 year has now held steady at 6.31% to 6.32% for four straight sessions. That number is trustworthy again.\n\nWhy rates are not moving, in one line: core inflation is 3.3% and the Fed's target is 2%. The Economy section below has the chart. Anyone advising a client to wait for a big drop in mortgage rates should look at it first.\n\nTwo housing items from this morning worth a moment:\n\n• New York is building for the wrong buyer: new condos for sale are projected to fall 11% through 2029, but entry level units are set to drop 74%. Builders are chasing luxury. It is a national pattern, not just a New York one, and it is the same squeeze that pushes first time buyers here toward townhomes and condos rather than detached houses.\n• Half of planned data centers may never get built: Kimmeridge Energy Management estimates 50% of U.S. projects are delayed or scrapped, with local opposition in Texas, Ohio and Pennsylvania. We showed the data center map two days ago and made the point that those buildings compete with home building for crews, land and power. If half of them stall, some of that pressure comes off.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,709 listings across the 15 city board, counting everything active alongside everything in contract, with 202 coming soon and 171 brand new today.\n• Fremont: 251 active across all property types, made up of 37 townhomes, 87 condos and 127 detached homes, plus 101 in contract, 41 coming soon and 20 new today.\n• Five city live ledger: 703 listings across Fremont, Hayward, Milpitas, Newark and Union City, up 7 from yesterday.\n• The streak ended: Fremont held exactly 102 listings in contract for three straight days and today it is 101. At the same time active supply jumped from 240 to 251, the largest single day gain in weeks, and the coming soon block fell from 46 to 41. Read those together and the picture is clear: staged listings went live. Supply is arriving faster than it is being absorbed.\n• What that means for a seller this week: you now have eleven more competitors than you had yesterday, and 20 of Fremont's listings are brand new today. Pricing to the last comp is how a listing sits. Price to the buyer who has more to choose from this morning than they did last night.\n• Median asking in Fremont is $1,299,000 at 27 median days on market. Newark is the quickest of our five at 25 days."
+    "rate_30year": "6.81%",
+    "rate_15year": "6.35%",
+    "homebuilder": "Rates moved up for the first time this week, and the national rent headline does not describe our rents",
+    "commentary": "The 30 year fixed is 6.81% and the 15 year is 6.35%, per Mortgage News Daily. Both moved up today, the 30 year by six basis points and the 15 year by three, after four sessions of sitting still.\n\nThis morning's newsletter printed 6.75% and 6.32%. Those were yesterday's numbers, correct when published and stale by the time the email landed. If a client quotes them at you today, they are six basis points light on the 30 year.\n\nThe reason for the move is one section down: the ten year yield rose, Brent rose 2%, and the Fed spent the day at Jackson Hole saying inflation is sticky. Mortgage rates follow the ten year, and the ten year is not falling.\n\n📍 The rent story, and what it actually means here\n\nApartment List reported that the national median rent rose 0.1% in August to $1,390, the first August increase in four years, with its vacancy index down to 7.1% and falling for the first time since 2021. That is a real turn and the newsletter reported it accurately.\n\nIt also describes nobody in our market. The chart below gives the local answer, and one caution belongs with it: Apartment List and Zillow measure different things, so the $1,390 above and the chart below are not the same series and should never be set side by side. The chart is built entirely from Zillow's index, national line included, so the comparison inside it is honest.\n\n• Typical asking rent in Fremont is $3,358, which is 71% above the national figure and up 5.0% over the year.\n• Milpitas is the fastest riser at 8.4%, and the priciest at $3,715. Newark is $3,578, Union City $2,941, Hayward $2,635.\n• Every one of the five is outrunning the nation's 2.3%. The cheapest of them still costs a third more than the national number.\n• What to do with it: when a buyer says they will rent another year and wait for rates, this is the arithmetic. Renting here is not the national $1,390 story. It is $2,600 to $3,700 a month, rising faster than the country, against a 30 year fixed that moved six basis points today.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,741 listings across the 15 city board, counting everything active alongside everything in contract, with 192 coming soon and 191 brand new today. That is 32 more than yesterday.\n• Fremont: 250 active across all property types, made up of 35 townhomes, 85 condos and 130 detached homes and duplexes, plus 99 in contract, 41 coming soon and 22 new today.\n• Five city live ledger: 716 listings across Fremont, Hayward, Milpitas, Newark and Union City, up 13 from yesterday.\n• Watch the pending count, not the active count. Fremont sat at 102 in contract for three straight days, went to 101 yesterday and is 99 today. It has now slipped under 100 for the first time in over a week while active supply held almost exactly flat at 250. Supply is not the thing that changed. Absorption is.\n• Yesterday eleven staged listings went live at once and coming soon fell to 41. Today coming soon held at 41 and 22 more listings came out new. The pipeline is refilling as fast as it empties.\n• What that means for a seller this week: your competition is steady and your buyer pool is thinning slightly. Those two facts together argue for pricing at the front of the market rather than the middle of it.\n• Median asking in Fremont is $1,289,500 at 29 median days on market. Newark is the quickest of our five at 22 days.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/08/localrent-082826.png",
+      "alt": "Bar chart of typical asking rent for July 2026 showing Milpitas $3,715, Newark $3,578, Fremont $3,358, Union City $2,941, Hayward $2,635 and the United States at $1,962",
+      "caption": "The national median is $1,962 on this index. Fremont is $3,358, and every one of our five cities is rising faster than the country.",
+      "source": "Source: Zillow Observed Rent Index, July 2026. Not the same series as the Apartment List figure quoted above."
+    }
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "Market Briefs daily newsletter, August 27, 2026",
-    "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
-    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-    "https://fortune.com/article/current-price-of-gold-08-27-2026/",
-    "https://fortune.com/article/current-price-of-silver-8-27-2026/",
+    "Market Briefs daily newsletter, August 28, 2026",
+    "https://www.apartmentlist.com/research/national-rent-data",
+    "https://www.zillow.com/research/data/",
+    "https://fortune.com/article/current-price-of-gold-08-28-2026/",
+    "https://fortune.com/article/current-price-of-silver-8-28-2026/",
     "https://finance.yahoo.com/quote/BZ=F/",
+    "https://finance.yahoo.com/quote/SI=F/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/3fe48c1f-14a6-490f-9356-97749d67c832",
-  "qr_code_path": "note-qr-3fe48c1f.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/cecb4be6-5be7-48c7-ad64-91b210e1d74d",
+  "qr_code_path": "note-qr-cecb4be6.png"
 }
