@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 08/31/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 08/31/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for August 31, 2026: rate hike odds climb toward 50%, the 15 year sits at a 52 week high, and the 5 city ledger holds 711 homes with 226 new listings on the board.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, Fed rate hike, Jackson Hole, wheat, corn, Bitcoin treasury, live inventory, daily market report
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
