@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/01/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/01/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 1, 2026: both mortgage rates hit 52 week highs at 6.87% and 6.38%, the 30 year Treasury reaches a 19 year high, and the 5 city ledger holds 692 homes.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, 30-year Treasury yield, September seasonality, gold, silver, live inventory, daily market report
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
