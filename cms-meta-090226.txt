@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/02/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/02/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 2, 2026: mortgage rates set fresh 52 week highs at 6.89% and 6.39% as Hormuz strikes push the ten year Treasury to 4.79%, Brent settles at $94.65, and the 5 city ledger carries 695 homes.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, 30-year fixed, 10-year Treasury, Brent crude, gold, silver, Apple CEO, used car prices, live inventory
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
