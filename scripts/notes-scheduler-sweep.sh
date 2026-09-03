@@ -145,8 +145,23 @@ if [ "$STATUS" = "200" ]; then
   fi
   # A quiet tick (claimed:0, expired:0) is deliberately not logged.
 else
-  log "ERROR http=${STATUS:-none} $(printf '%s' "$PAYLOAD" | head -c 300 | tr '\n' ' ')"
-  alert fail "@Harv Agent Hub scheduled posts: the 5-minute scheduler check is failing (HTTP ${STATUS:-no response}). Anything scheduled will NOT go out until this is fixed."
+  SUMMARY="$(printf '%s' "$PAYLOAD" | head -c 300 | tr '\n' ' ')"
+  log "ERROR http=${STATUS:-none} $SUMMARY"
+
+  # Distinguish "the scheduler is unreachable" from "the scheduler is fine and
+  # correctly rejected one bad post". Conflating them was wrong in two ways:
+  # it told Harv nothing would send when everything else was queued and healthy,
+  # and it poisoned the failure-streak state so the next good tick sent a
+  # spurious "recovered". Found by pointing a broadcast at a deleted note: the
+  # sweep returned 404 and the alert claimed the scheduler was down.
+  BAD_NOTE="$(printf '%s' "$PAYLOAD" | jq -r '.note_id // empty' 2>/dev/null)"
+  if [ -n "$BAD_NOTE" ] || [ "${STATUS:-0}" = "409" ]; then
+    # A specific post is broken. The scheduler itself is working, so the failure
+    # streak is NOT touched -- everything else in the queue is unaffected.
+    alert badpost "@Harv Agent Hub: one scheduled post could not be sent (HTTP ${STATUS:-?}) and has been marked failed. Everything else is still queued normally. Open the Scheduled panel in the Hub."
+  else
+    alert fail "@Harv Agent Hub scheduled posts: the 5-minute scheduler check is failing (HTTP ${STATUS:-no response}). Anything scheduled will NOT go out until this is fixed."
+  fi
 fi
 
 # Nothing on this box runs logrotate, and this job wakes 288 times a day.
