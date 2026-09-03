@@ -505,11 +505,11 @@ function generateHTML(data) {
                 <tr>
                   <td style="background-color: ${PAL.paper}; border: 1px solid ${PAL.hair}; border-left: 3px solid ${PAL.gold}; padding: 18px 22px;">
                     <div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: ${PAL.goldDark}; margin-bottom: 8px;">TODAY'S LIVE INVENTORY</div>
-                    <div style="font-family: ${SANS}; font-size: 14.5px; line-height: 1.6; color: ${PAL.soft}; margin-bottom: 12px;">Every home still for sale in Fremont, Hayward, Union City, Newark and Milpitas, one live ledger with prices, sizes and a market read, refreshed each morning from this same MLS export.</div>
+                    <div style="font-family: ${SANS}; font-size: 14.5px; line-height: 1.6; color: ${PAL.soft}; margin-bottom: 12px;">How many homes are for sale in Fremont, Hayward, Union City, Newark and Milpitas this morning, what they ask, how they split by type and price, and how long they have waited, refreshed each morning from this same MLS export, with a map search for the homes themselves.</div>
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0">
                       <tr>
                         <td bgcolor="${PAL.gold}" style="background-color: ${PAL.gold}; padding: 10px 18px;">
-                          <a href="https://harvrealtor.net/live-inventory?utm_source=daily-email&amp;utm_medium=email&amp;utm_campaign=live-inventory" style="color: ${PAL.ink}; text-decoration: none; font-family: ${SANS}; font-weight: 700; font-size: 14px;">Browse the live ledger &rarr;</a>
+                          <a href="https://harvrealtor.net/live-inventory?utm_source=daily-email&amp;utm_medium=email&amp;utm_campaign=live-inventory" style="color: ${PAL.ink}; text-decoration: none; font-family: ${SANS}; font-weight: 700; font-size: 14px;">See today's inventory &rarr;</a>
                         </td>
                       </tr>
                     </table>
