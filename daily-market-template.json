@@ -1,59 +1,73 @@
 {
-  "date": "09/02/26",
-  "time": "Wednesday, September 2, 2026",
+  "date": "09/03/26",
+  "time": "Thursday, September 3, 2026",
   "stocks": {
-    "sp500": "7,631 (-0.71%)",
-    "dow": "52,766 (-0.79%)",
-    "nasdaq": "26,099 (-1.03%)",
-    "note": "Numbers as of Tuesday's close, September 1.",
-    "news": "Apple has a new chief executive. John Ternus took over on September 1, ending Tim Cook's 15 years in the job. The stock rose 2.61% on the news. All three indexes fell, with the NASDAQ down a full point, so the market's enthusiasm was narrow rather than broad.\n\nElsewhere: Dell raised its yearly revenue forecast by $25 billion to $192 billion with about $74 billion of that coming from AI servers, and the stock still fell 6.98%. GoPro jumped 40.38% on a merger with a private optics firm aimed at data centers and defense, with a $285 million cash payout to shareholders. Palo Alto Networks beat on both revenue and profit and dropped 5.24% anyway. Guggenheim's lending arm spent the day reassuring clients it can still place commercial paper after probes into its founder, and one bank moved about $150 million to a rival.\n\nAll three index figures in this morning's newsletter reconciled exactly against what we published yesterday. That is four clean sweeps in a row on the stock line, which is the one part of that newsletter that has earned some trust. The rest of it did not fare as well today, and the Economy note below spells out where.\n\nThe chart is today's handoff story, and it is not the chart that was circulating this morning.",
+    "sp500": "7,666 (+0.46%)",
+    "dow": "53,061 (+0.56%)",
+    "nasdaq": "26,217 (+0.45%)",
+    "note": "Numbers as of Wednesday's close, September 2.",
+    "news": "A green day across all three indexes, and the two stories worth your time are both about what a number actually means.\n\nBroadcom told investors its AI revenue should roughly double twice, to $115 billion in fiscal 2027 and $230 billion in fiscal 2028, after guiding fiscal 2026 up to $58 billion. Last quarter's AI semiconductor revenue was $16.7 billion, up 221% from a year ago and 56% of everything the company sold. Management said demand already exceeds the 2027 target and that supply, not orders, is the limit. The stock fell 0.66% anyway.\n\nUber is cutting 10% of its roughly 34,000 staff and 20% of its management layers, saying too many handoffs are slowing decisions. Investors approved. It is also one more tech employer shrinking in a week when the labor data went soft, which is the thread running through today's Economy section.\n\nThe first chart below is the Broadcom roadmap with the forecasts drawn as forecasts. The second is Palo Alto Networks, which is a lesson in how a true headline can still point the wrong way.",
     "feature_image": {
       "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/aapl-cook-090226.png",
       "alt": "Line chart of Apple's split adjusted share price from August 2011 to September 2026, rising from $13.44 to $325.13, a gain of 2,320%.",
       "caption": "Cook took over at $13.44 a share and handed off at $325.13, a gain of 2,320% over 15 years.",
       "source": "Source: Nasdaq daily closes via Yahoo Finance, split adjusted. The graphic circulating this morning put Apple's all time gain at 203,106%. From the IPO day close of $0.128348 split adjusted, the actual all time figure is about 253,219%."
-    }
+    },
+    "feature_images": [
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/broadcom-ai-090326.png",
+        "alt": "Bar chart of Broadcom AI revenue by fiscal year: $20 billion actual in FY2025, then company forecasts of $58 billion, $115 billion and $230 billion for FY2026, FY2027 and FY2028, drawn as hatched bars.",
+        "caption": "One bar is a result and three are company targets, so the forecasts are hatched. The FY2028 AI target alone is about 3.6 times Broadcom's entire FY2025 revenue of $64 billion.",
+        "source": "Source: Broadcom Q3 FY2026 earnings call, September 2, 2026, and FY2025 results. This morning's newsletter described the $230 billion as total revenue; it is AI revenue, on the same basis as the other three bars."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/panw-090326.png",
+        "alt": "Line chart of Palo Alto Networks month end closing prices from December 2025 to the September 2, 2026 close of $328.48, up 78% year to date but down 14% in the two sessions after earnings.",
+        "caption": "Up 78% from the December 31 close of $184.20, and down 14% in the two sessions after Q4 earnings. Both are true on the same chart.",
+        "source": "Source: PANW daily closes via Yahoo Finance. The series ends at the last settled close; the September 3 price is a live tick and is not plotted."
+      }
+    ]
   },
   "economy": {
-    "us10year": "4.79% (+0.04%)",
-    "gold": "$4,383 (+1.91%)",
-    "silver": "$65.34 (+1.90%)",
-    "wti": "$94.65 (+4.60%)",
+    "us10year": "4.79% (0.00%)",
+    "gold": "$4,487 (+3.88%)",
+    "silver": "$67.15 (+4.68%)",
+    "wti": "$95.63 (+1.04%)",
     "oil_label": "Brent Crude",
-    "note": "Ten year yield and Brent are Tuesday's September 1 settlements. Gold and silver are live spot quotes at about 7:46 AM Pacific on September 2, with the change measured from Tuesday's settlement.",
-    "commentary": "The Strait of Hormuz is driving this whole section. The U.S. struck Iranian targets after two oil tankers were attacked in the strait, and the money moved the way you would expect: out of Treasuries and into oil.\n\nThree of the four numbers on this line had to be corrected against the source before publishing.\n\n• Ten year Treasury: the newsletter printed 4.81% and called it a one basis point move. Treasury's own daily yield curve has Tuesday's close at 4.79%, up four basis points from Monday's 4.75%. Their own story says the yield spiked on the strikes, which a one basis point move plainly is not. We publish Treasury's number.\n\n• Brent: the newsletter printed $96.67 and a 2.16% gain. ICE front month futures settled Tuesday at $94.65, up 4.60% from Monday. Their level is too high and their move is less than half the real one, which understates the single biggest price reaction to the strikes.\n\n• Gold: they printed $4,355 and a 0.94% decline as of Tuesday's close, which does not square with where gold actually settled Tuesday. And it is stale in direction. Gold and silver both fell hard Tuesday and both have rebounded roughly 1.9% this morning. Fortune's 9 AM Eastern print had gold at $4,334, up $3 from the same hour Tuesday, and the metal has added about $50 in the hour and a half since. The morning print is true and it understates the session, so the cards carry the live quote instead.\n\n• Silver was left out entirely again, as it usually is. It is on the card.\n\nGas is over $4 a gallon and the White House met with about a dozen refinery bosses to push for more gasoline and diesel, offering faster permits and more Venezuelan crude. If Brent stays near $95 that is a hard promise to keep.\n\nThe chart below is the used car story, and it is the one with a household budget attached to it.",
+    "note": "Ten year yield and Brent are Wednesday's September 2 settlements. Gold and silver are live spot quotes at about 11:15 AM Pacific on September 3, with the change measured from Wednesday's settlement.",
+    "commentary": "One number set the tone for everything else today. ADP said private employers added just 38,000 jobs in August, against roughly 47,000 expected. Hiring came from schools and hospitals, restaurants and hotels, and construction. Factories and business services shed workers.\n\nEverything on this line is the market repricing rate cuts off that miss. Gold is up 3.9% and silver up 4.7% this morning, both large single day moves. The ten year Treasury settled Wednesday at 4.79%, unchanged from Tuesday, but the live yield has dropped to about 4.75% since the ADP print landed. Mortgage rates eased with it, which is the Real Estate section below.\n\nTwo corrections against the source before publishing.\n\n• Ten year Treasury: the newsletter printed 4.77%. Treasury's own daily yield curve has Wednesday closing at 4.79%, the same as Tuesday. Their direction, flat, was right. Their level was not.\n\n• Brent: the newsletter printed $95.50 and called it a 0.14% decline. ICE front month futures settled Wednesday at $95.63, up 1.04%. Wrong level and wrong direction, which is the third day running Brent has come in wrong from that source.\n\n• Silver was left off again, as it is most days. It is on the card.\n\nThe government's own payroll report lands Friday, with consensus near 53,000 jobs and 4.1% unemployment. That is the number that will actually move mortgage rates next.\n\nThe chart below is the ADP year, rebuilt, because the version going around this morning was not telling the truth about three of its eight months.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/cheapusedcars-090226.png",
-      "alt": "Two panel chart. Left: share of used car sales under $20,000 fell from 55.2% in Q2 2019 to 31.8% in Q2 2026. Right: a $10,000 to $15,000 budget bought a 4.7 year old car with 58,250 miles in 2019 and an 8.7 year old car with 98,222 miles in 2026.",
-      "caption": "Barely a third of used cars now sell under $20,000, down from more than half in 2019, and the same budget buys a car four years older with 40,000 more miles.",
-      "source": "Source: Edmunds Q2 2026 used vehicle report. The graphic circulating this morning showed the two share bars only; Edmunds prints 31.8%, which rounds to the 32% shown. The age and mileage figures come from the same release."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/adp-2026-090326.png",
+      "alt": "Bar chart of U.S. private sector jobs added each month in 2026: 11K in January, rising to 122K in May, then falling to 95K, 46K and 38K through August.",
+      "caption": "Hiring has cooled for four straight months, from 122,000 in May to 38,000 in August. January's 11,000 was still the weakest month of the year, so 2026 is a hump rather than a steady slide.",
+      "source": "Source: ADP National Employment Report via FRED, current vintage. The graphic circulating this morning carried ADP's original February, April and June prints of 63K, 109K and 98K, since revised to 66K, 105K and 95K."
     }
   },
   "crypto": {
-    "btc": "$77,269 (-1.39%)",
-    "eth": "$2,401 (-2.16%)",
-    "xrp": "$1.34 (-3.01%)",
-    "note": "Live quotes at about 7:46 AM Pacific on September 2, showing the 24 hour change.",
-    "commentary": "Lower across the board, and a little heavier than the newsletter suggested. It had all three down about a point; the live 24 hour tape has ether off 2.2% and XRP off 3.0%. Bitcoin is holding just above $77,000.\n\nTwo stories worth knowing. Scammers are draining wallets through fake Grand Theft Auto 6 early access pages, asking people to connect a wallet and approve a request, after which the money is gone. The game does not release until November. And one of Coinbase's co founders is bidding on at least three Venezuelan oil blocks in the Orinoco Belt, which is a strange sentence to write and a sign of where crypto wealth is going next."
+    "btc": "$81,184 (+4.94%)",
+    "eth": "$2,505 (+4.64%)",
+    "xrp": "$1.46 (+9.30%)",
+    "note": "Live quotes at about 11:15 AM Pacific on September 3, showing the 24 hour change.",
+    "commentary": "A sharp move up, and it is the same trade as gold. Bitcoin is back above $81,000, ether above $2,500, and XRP is up more than 9%. Weak jobs data means a higher chance of rate cuts, and that lifts the assets that do best when money is cheap.\n\nWorth flagging that this morning's newsletter had all three roughly flat, because its quotes were Wednesday's 4 PM Eastern prints and the whole move happened after the ADP release. Nothing wrong with their numbers, they are just from before the news.\n\nOn the policy side, the Senate votes on the Clarity Act on September 15, which would finally settle how crypto is regulated, and the SEC has proposed new custody rules. Separately, New Jersey is asking the Supreme Court to decide whether prediction markets are futures or sports betting."
   },
   "real_estate": {
-    "rate_30year": "6.89%",
-    "rate_15year": "6.39%",
-    "homebuilder": "Both mortgage rates set fresh 52 week highs again, for the second day running",
-    "commentary": "The 30 year fixed rose two basis points to 6.89% and the 15 year rose one to 6.39%, per Mortgage News Daily. Both printed a new 52 week high for the second straight day. MND's own range now reads 5.99% to 6.89% on the 30 year and 5.55% to 6.39% on the 15 year, and today's number is the top of each.\n\nThe cause is not in the mortgage market. It is the Hormuz strikes pushing the ten year Treasury up four basis points to 4.79%, and mortgages are priced off that curve. Yesterday MND put the move down to month end bond mechanics, which can unwind. This one is a geopolitical risk premium, which is a different animal and does not unwind on a calendar.\n\nWhat it costs, concretely: on a $450,000 purchase with 20% down, the payment is now about $2,369 a month. That is $5 more than yesterday and about $212 more than in February. Small daily steps, and they add up in one direction.\n\nThe used car chart in the Economy section is worth two minutes of your day even though it is not a housing number. Barely a third of used cars now sell for under $20,000, against more than half in 2019, and a $10,000 to $15,000 budget that once bought a 4.7 year old car with 58,000 miles now buys an 8.7 year old car with 98,000 miles. That is the same squeeze your buyers are feeling on the housing side, showing up in a different line of their budget. A buyer stretching for a car payment on an older vehicle is a buyer with a thinner debt to income cushion when they sit down with a lender.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,649 listings across the 15 city board, counting everything active alongside everything in contract, with 202 coming soon and 192 brand new today. That is 15 fewer than yesterday, a normal day's drift after Monday's month end drop of 80.\n• Fremont: 234 active across all property types, made up of 32 townhomes, 78 condos and 124 detached homes and duplexes, plus 98 in contract, 40 coming soon and 26 new today.\n• Five city live ledger: 695 listings across Fremont, Hayward, Milpitas, Newark and Union City, up 3 from yesterday. Fremont 265, Hayward 184, Milpitas 116, Newark 76, Union City 54.\n• The read: supply is flat and demand is steady. Fremont shed three active listings and added one to contract. Coming soon rose to 40 in Fremont alone, which is the pipeline for the next two weeks and it is not thinning.\n\nWhat to tell a client this week: rates are at a one year high because of a war risk premium in the bond market, not because of anything in housing. That premium can come out as fast as it went in. Nobody should time a purchase on that guess, but anyone who locked in the last few weeks did fine, and anyone floating should talk to their lender today rather than Friday."
+    "rate_30year": "6.88%",
+    "rate_15year": "6.48%",
+    "homebuilder": "Rates backed off their 52 week highs after a soft jobs number, the first daily decline in a week",
+    "commentary": "Both rates fell today. The 30 year is at 6.88%, down three basis points, and the 15 year at 6.48%, down two, per Mortgage News Daily. That is the first daily decline in a week.\n\nRead it in context, because the level still is not friendly. Wednesday's close set fresh 52 week highs at 6.91% and 6.50%, and MND's own headline yesterday afternoon was that rates were approaching 7%. Today gives back three basis points of that. The cause is the soft ADP number in the Economy section: weak hiring means a better chance of Fed cuts, money moves into bonds, yields fall, mortgages follow.\n\nDo not over read one day. This is a three basis point move off a one year high, driven by a private payroll survey. The government's own jobs report lands Friday. If it comes in near the 53,000 consensus, today holds. If it surprises upward, this gets given back quickly.\n\nWhat it costs, concretely: on a $450,000 purchase with 20% down, the payment is about $2,366 a month, roughly $7 below Wednesday's peak and about $209 above February.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,642 listings across the 15 city board, counting everything active alongside everything in contract, with 196 coming soon and 154 brand new today. That is 7 fewer than yesterday.\n• Fremont: 231 active across all property types, made up of 32 townhomes, 78 condos and 121 detached homes, duplexes and half plexes, plus 100 in contract, 38 coming soon and 16 new today.\n• Five city live ledger: 686 listings across Fremont, Hayward, Milpitas, Newark and Union City, down 9 from yesterday. Fremont 260, Hayward 184, Milpitas 114, Newark 75, Union City 53.\n• The read: this is the quietest day for new listings in a while. Sixteen new in Fremont against 26 yesterday, and 154 board wide against 192. Meanwhile Fremont's in contract count rose from 98 to 100. Fewer homes arriving, slightly more going under contract. That tightens things at the margin.\n\nWhat to tell a client this week: rates just came off a one year high because of one soft jobs survey, and Friday's government report will either confirm it or erase it. If you are floating, this is a conversation to have with your lender today, not Monday. If you are listing, the new supply arriving this week is thin, which means less competition for the next two weeks than the last two."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "Market Briefs daily newsletter, September 2, 2026",
+    "Market Briefs daily newsletter, September 3, 2026",
+    "https://fred.stlouisfed.org/series/ADPMNUSNERSA",
     "https://finance.yahoo.com/quote/BZ=F/",
-    "https://finance.yahoo.com/quote/AAPL/",
-    "https://fortune.com/article/current-price-of-gold-09-02-2026/",
+    "https://finance.yahoo.com/quote/PANW/",
     "https://finance.yahoo.com/quote/GC=F/",
     "https://finance.yahoo.com/quote/SI=F/",
-    "https://www.edmunds.com/car-news/insights-q2-2026-used-car-report.html",
+    "https://investors.broadcom.com/news-releases",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/549628b0-be18-4c17-b8a3-3350b63e7cc8",
-  "qr_code_path": "note-qr-549628b0.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/08c51538-350a-4cc6-ac17-f674a5fa894d",
+  "qr_code_path": "note-qr-08c51538.png"
 }
