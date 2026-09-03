@@ -88,6 +88,16 @@ if [ -z "$SIG" ]; then
   exit 1
 fi
 
+# The body goes to a temp file and curl reads it with data=@file. Inlining it as
+# `data = "{"action":"sweep"}"` inside a curl config is a quoting trap -- the
+# inner double quotes terminate the value and curl posts something malformed,
+# which the worker rejects as 400 Invalid JSON. Worse, the signature covers the
+# body, so any transformation between signing and sending breaks auth too. A
+# file keeps the posted bytes byte-identical to the signed bytes.
+BODYFILE="$(mktemp)"
+trap 'rm -f "$BODYFILE"' EXIT
+printf '%s' "$BODY" > "$BODYFILE"
+
 # Headers via a curl config on stdin, so neither the signature nor the apikey
 # lands in `ps`. The apikey is the PUBLIC anon key (it ships in the web bundle).
 RESP="$(printf '%s\n' \
@@ -99,7 +109,7 @@ RESP="$(printf '%s\n' \
   'header = "Content-Type: application/json"' \
   "header = \"x-scheduler-ts: $TS\"" \
   "header = \"x-scheduler-sig: $SIG\"" \
-  "data = \"$BODY\"" \
+  "data = @$BODYFILE" \
   "url = \"$FN\"" \
   'write-out = \nHTTP_STATUS:%{http_code}' \
   | curl -K - 2>&1)"
