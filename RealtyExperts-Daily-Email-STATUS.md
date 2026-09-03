@@ -1,12 +1,15 @@
 # RealtyExperts-Daily-Email — Working Status & Handoff
 
-_Last updated: 2026-08-21 · Update this at the end of each session._
+_Last updated: 2026-09-02 · Update this at the end of each session._
 
 This note is the shared handoff for the RealtyExperts-Daily-Email workspace. It lives **inside** the workspace and travels via **git/GitHub** (this workspace is a git repo, NOT rclone-synced). **Any Claude session — on the Mac or the `claud-realty-email` VPS session — should read this FIRST.**
 
 ---
 
 ## Where things stand (most recent first)
+
+### Sep 2, 2026 — `live-inventory.json` no longer itemizes Coming Soon (MLS rules)
+The Bay East MLS Rules (10.1.1 item 12, and the note under 12.16(a)) keep Coming Soon listings off every public-facing product except the listing brokerage's own, and this feed is fetched by public pages (harvrealtor.net, the HarvRealtor app, the .com teaser strip). Commit `d711268`: `generate-live-inventory.js` still builds the per-city `counts` and the `inventory-history.json` record from EVERY live row (so no total moved: 695 on 09/02), but the published `listings` array now carries Active, New and Back on Market rows only (590 that day; 105 Coming Soon counted, never itemized). New top-level `listed` key documents the shape. Consumers read the Coming Soon figure from `counts[city].CS`: `live-inventory-teaser.js` (.com strip) now totals from `counts`; harvrealtor.net's parser drops any CS row that still arrives and takes totals from `counts`; the app's `parseSnapshot` does the same. `derive-assistant-inventory.py`'s note says the medians cover on-market rows only. Side fix in the same commit: `push-to-github.sh` now copies `assistant-inventory.json` (its public copy had sat at 07/23, because only the refresher pushed it and the refresher no-ops once the morning push has published the day). Still open, owned by the Web workspace: rebuild `/live-inventory` as a statistics page (other brokers' active rows are still itemized publicly), an aggregate-only feed with the repo history purged, and the 12.9 notice.
 
 ### Aug 21, 2026 — HarvRealtor APP feed added: `daily-report.json` (singleton)
 New `generate-app-report.js` builds the HarvRealtor-branded feed the mobile app (Today's Report) and `harvrealtor.net/today` read, from the template + `cms-content.json` + `live-inventory.json`. Run in Stage 3 (template voice) and again in Stage 5 after `generate-cms-page.js` (Harv's voice); `push-to-github.sh` now copies `daily-report.json` + `cms-content.json`; `check-surfaces.sh` checks the feed's date (10 surfaces). One file, rewritten daily, nothing accumulates. The app no longer frames the RE email or reads harvrealtor.com RSS. Details: repo CLAUDE.md callout "The HarvRealtor APP feed".
