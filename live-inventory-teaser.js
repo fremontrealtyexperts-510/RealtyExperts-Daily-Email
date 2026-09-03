@@ -32,17 +32,31 @@
 
   function apply(data) {
     if (!data || data.version !== 1 || !Array.isArray(data.listings)) return;
-    if (data.listings.length < 50 || data.listings.length > 5000) return;
     // Count EVERY city the feed carries; do not hardcode the roster. Milpitas was
     // added to live-inventory.json on 2026-07-18 but this list was not updated, so
     // the strip read 627 while harvrealtor.net/live-inventory and the daily report
     // both said 733 (caught 2026-07-20). Deriving the roster from the feed means the
     // next city added cannot silently desync the total again.
+    //
+    // The totals come from the feed's per-city `counts` (every live status,
+    // Coming Soon included). Since 2026-09-02 the `listings` array itemizes only
+    // the rows the MLS rules allow on a public page (no Coming Soon), so counting
+    // the array would understate the market by the Coming Soon homes. The row
+    // count is only a fallback for a feed without `counts`.
     var counts = {};
-    for (var i = 0; i < data.listings.length; i++) {
-      var city = data.listings[i] && data.listings[i].city;
-      if (!city) continue;
-      counts[city] = (counts[city] || 0) + 1;
+    var fed = data.counts && typeof data.counts === "object" ? data.counts : null;
+    if (fed) {
+      for (var k0 in fed) {
+        if (fed.hasOwnProperty(k0) && fed[k0] && typeof fed[k0].total === "number") {
+          counts[k0] = fed[k0].total;
+        }
+      }
+    } else {
+      for (var i = 0; i < data.listings.length; i++) {
+        var city = data.listings[i] && data.listings[i].city;
+        if (!city) continue;
+        counts[city] = (counts[city] || 0) + 1;
+      }
     }
     var total = 0;
     for (var k in counts) { if (counts.hasOwnProperty(k)) total += counts[k]; }

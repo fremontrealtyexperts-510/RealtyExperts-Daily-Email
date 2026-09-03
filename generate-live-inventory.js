@@ -17,6 +17,14 @@
  * (ACTV, NEW, CS = Coming Soon, BOMK = Back on Market). AC (contingent) and
  * PEND are excluded on purpose: the page shows homes a buyer can still get.
  *
+ * Since 2026-09-02 the per-listing `listings` array carries Active, New and
+ * Back on Market rows ONLY. Coming Soon homes are still counted in the
+ * per-city `counts` (and in inventory-history.json) but are never itemized:
+ * the Bay East MLS Rules (10.1.1 item 12 and the note under 12.16(a)) keep
+ * Coming Soon listings off every public-facing product except the listing
+ * brokerage's own, and this file is fetched by public pages. Consumers read
+ * the Coming Soon figure from counts[city].CS.
+ *
  * Output: live-inventory.json at the repo root. push-to-github.sh and
  * run-daily.js Stage 3 publish it to GitHub Pages, where harvrealtor.net
  * fetches it client-side (Pages serves access-control-allow-origin: *).
@@ -169,7 +177,10 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
     if (col[name] === -1) throw new Error(`column "${name}" missing from ${source.name} header`);
   });
 
-  const listings = [];
+  // Every live-status row in the target cities (Coming Soon included). The
+  // counts and the history record are built from this; the published
+  // per-listing array is the subset below.
+  const liveRows = [];
   let dropped = 0;
   // County-wide live-status count (all Alameda cities in the export), used by
   // the inventory-history record as a share-of-county denominator.
@@ -187,7 +198,7 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
       dropped++;
       continue;
     }
-    listings.push({
+    liveRows.push({
       mls: String(r[col['MLS No']] || '').trim(),
       status,
       dom: int(r[col.DOM]),
@@ -208,23 +219,30 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
   }
 
   // Gates
-  if (listings.length < GATES.minListings || listings.length > GATES.maxListings) {
-    throw new Error(`listing count ${listings.length} outside sanity band — not publishing`);
+  if (liveRows.length < GATES.minListings || liveRows.length > GATES.maxListings) {
+    throw new Error(`listing count ${liveRows.length} outside sanity band — not publishing`);
   }
-  const citiesPresent = new Set(listings.map((l) => l.city));
+  const citiesPresent = new Set(liveRows.map((l) => l.city));
   if (citiesPresent.size < GATES.minCitiesPresent) {
     throw new Error(`only ${citiesPresent.size} cities present — not publishing`);
   }
 
   // Deterministic order: city, then price ascending.
-  listings.sort((a, b) => a.city.localeCompare(b.city) || a.price - b.price);
+  liveRows.sort((a, b) => a.city.localeCompare(b.city) || a.price - b.price);
 
+  // Aggregates over every live status, Coming Soon included.
   const counts = {};
-  for (const l of listings) {
+  for (const l of liveRows) {
     counts[l.city] = counts[l.city] || { total: 0, ACTV: 0, NEW: 0, CS: 0, BOMK: 0 };
     counts[l.city].total++;
     counts[l.city][l.status]++;
   }
+
+  // The published per-listing rows: Active, New and Back on Market only.
+  // Coming Soon homes stay in `counts` and out of `listings` (see the header
+  // note: Bay East MLS Rules 10.1.1 item 12 / 12.16(a)).
+  const listings = liveRows.filter((l) => l.status !== 'CS');
+  const comingSoon = liveRows.length - listings.length;
 
   const payload = {
     version: 1,
@@ -232,6 +250,11 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
     generatedAt: new Date().toISOString(),
     source: 'Paragon MLS daily export via REALTY EXPERTS',
     statuses: LIVE_STATUSES,
+    // What `listings` itemizes. Coming Soon is counted in `counts` only.
+    listed: {
+      statuses: ['ACTV', 'NEW', 'BOMK'],
+      note: 'Coming Soon homes are included in counts only and are not itemized.',
+    },
     counts,
     listings,
   };
@@ -244,7 +267,7 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
   // live feed is the critical artifact; history failures only warn).
   try {
     const hist = await updateInventoryHistory({
-      listings,
+      listings: liveRows, // every live status, so the series stays continuous
       countyLiveTotal,
       feedDate: payload.date,
       sourceName: source.name,
@@ -255,7 +278,15 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
     console.warn(`WARN inventory-history update failed: ${err.message}`);
   }
 
-  return { out, count: listings.length, dropped, cities: citiesPresent.size, date: payload.date };
+  return {
+    out,
+    count: listings.length,
+    comingSoon,
+    rows: liveRows.length,
+    dropped,
+    cities: citiesPresent.size,
+    date: payload.date,
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -429,7 +460,7 @@ if (require.main === module) {
     date: dateArgIdx !== -1 ? process.argv[dateArgIdx + 1] : null,
     outFile: outArgIdx !== -1 ? process.argv[outArgIdx + 1] : null,
   })
-    .then((r) => console.log(`live-inventory.json: ${r.count} listings, ${r.cities} cities, date ${r.date} (${r.dropped} rows dropped)`))
+    .then((r) => console.log(`live-inventory.json: ${r.count} listings itemized + ${r.comingSoon} coming soon in counts only (${r.rows} live rows), ${r.cities} cities, date ${r.date} (${r.dropped} rows dropped)`))
     .catch((e) => { console.error('ERROR:', e.message); process.exit(1); });
 }
 

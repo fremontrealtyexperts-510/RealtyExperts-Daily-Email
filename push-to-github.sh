@@ -123,6 +123,11 @@ copy_if_exists "cms-meta-${DATE_STR}.txt"
 copy_if_exists "live-inventory.json"
 # harvrealtor.net /inventory-history feed — long-run daily series (same origin)
 copy_if_exists "inventory-history.json"
+# harvbalu.homes assistant derivative of the live feed. Only
+# refresh-live-inventory.sh pushed it, and that script no-ops whenever this
+# morning push has already published the day's feed, so the public copy sat at
+# 07/23 until 2026-09-02. Copying it here keeps it current on every run.
+copy_if_exists "assistant-inventory.json"
 # HarvRealtor APP feed + harvrealtor.net/today (added 2026-08-21): ONE file,
 # rewritten every run by generate-app-report.js, so nothing accumulates. The
 # app reads it from Pages instead of the REALTY EXPERTS email or the .com RSS.

@@ -68,7 +68,9 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "MLS export via RealtyExperts daily feed (same data as harvrealtor.net/live-inventory)",
         "coverage": sorted(cities.keys()),
-        "note": "Counts include active, new, coming-soon, and back-on-market listings. Refreshed up to 3x daily on business days.",
+        "note": ("total_for_sale and by_status include active, new, coming-soon and back-on-market listings. "
+                 "by_type, by_price_band and the medians cover the on-market rows only (active, new, back on market); "
+                 "coming-soon homes are counted, never itemized. Refreshed up to 3x daily on business days."),
         "cities": cities,
     }
     json.dump(out, open("assistant-inventory.json", "w"), indent=1)
