@@ -31,7 +31,10 @@
   }
 
   function apply(data) {
-    if (!data || data.version !== 1 || !Array.isArray(data.listings)) return;
+    // Version 1 carried per-listing rows; version 2 (2026-09-02) is statistics
+    // only. Both carry the per-city counts this strip reads.
+    if (!data || (data.version !== 1 && data.version !== 2)) return;
+    if (data.version === 1 && !Array.isArray(data.listings)) return;
     // Count EVERY city the feed carries; do not hardcode the roster. Milpitas was
     // added to live-inventory.json on 2026-07-18 but this list was not updated, so
     // the strip read 627 while harvrealtor.net/live-inventory and the daily report
@@ -51,7 +54,7 @@
           counts[k0] = fed[k0].total;
         }
       }
-    } else {
+    } else if (Array.isArray(data.listings)) {
       for (var i = 0; i < data.listings.length; i++) {
         var city = data.listings[i] && data.listings[i].city;
         if (!city) continue;

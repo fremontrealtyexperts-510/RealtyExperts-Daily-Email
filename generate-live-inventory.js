@@ -17,13 +17,21 @@
  * (ACTV, NEW, CS = Coming Soon, BOMK = Back on Market). AC (contingent) and
  * PEND are excluded on purpose: the page shows homes a buyer can still get.
  *
- * Since 2026-09-02 the per-listing `listings` array carries Active, New and
- * Back on Market rows ONLY. Coming Soon homes are still counted in the
- * per-city `counts` (and in inventory-history.json) but are never itemized:
- * the Bay East MLS Rules (10.1.1 item 12 and the note under 12.16(a)) keep
- * Coming Soon listings off every public-facing product except the listing
- * brokerage's own, and this file is fetched by public pages. Consumers read
- * the Coming Soon figure from counts[city].CS.
+ * Since 2026-09-02 (version 2) the file carries STATISTICS ONLY: no
+ * per-listing rows, no addresses, no MLS numbers. The Bay East MLS Rules treat
+ * the per-listing compilation as confidential to participants and subscribers
+ * (12.12, 12.15.4, 12.16(l)), keep Coming Soon listings off every
+ * public-facing product (10.1.1 item 12), and this file is fetched by public
+ * pages. What is published, per city and for the five cities together:
+ *   counts   every live status: total, ACTV, NEW, CS, BOMK
+ *   allLive  every live status, Coming Soon included: medianLP, types, bands,
+ *            medianLPByType, the same figures the inventory-history.json
+ *            record carries, so the site's "today" overlay is exact
+ *   market   the homes on the market (Active, New, Back on Market): count,
+ *            medians (price, $/sq ft, days), new this week, waiting 60+,
+ *            under $1M, min/max, types, price bands, days-on-market buckets,
+ *            medians by type and by status
+ * The homes themselves are on the harvrealtor.com map search (the IDX).
  *
  * Output: live-inventory.json at the repo root. push-to-github.sh and
  * run-daily.js Stage 3 publish it to GitHub Pages, where harvrealtor.net
@@ -238,25 +246,31 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
     counts[l.city][l.status]++;
   }
 
-  // The published per-listing rows: Active, New and Back on Market only.
-  // Coming Soon homes stay in `counts` and out of `listings` (see the header
-  // note: Bay East MLS Rules 10.1.1 item 12 / 12.16(a)).
-  const listings = liveRows.filter((l) => l.status !== 'CS');
-  const comingSoon = liveRows.length - listings.length;
+  // Statistics only (see the header). Per city and for the five together.
+  const truncated = pricesTruncated(liveRows);
+  const cities = {};
+  for (const c of [...citiesPresent].sort()) {
+    cities[c] = cityBlock(liveRows.filter((l) => l.city === c), truncated);
+  }
+  const all = cityBlock(liveRows, truncated);
+  const comingSoon = all.counts.CS;
 
   const payload = {
-    version: 1,
+    version: 2,
     date: reportDate(date, source.name),
     generatedAt: new Date().toISOString(),
     source: 'Paragon MLS daily export via REALTY EXPERTS',
+    itemized: false,
+    note: 'Statistics only. No per-listing data is published; the homes themselves are on the harvrealtor.com map search.',
     statuses: LIVE_STATUSES,
-    // What `listings` itemizes. Coming Soon is counted in `counts` only.
-    listed: {
-      statuses: ['ACTV', 'NEW', 'BOMK'],
-      note: 'Coming Soon homes are included in counts only and are not itemized.',
-    },
+    typeLabels: TYPE_LABELS,
+    bandBounds: BAND_BOUNDS,
+    bandLabels: BAND_LABELS,
+    domBucketBounds: DOM_BUCKET_BOUNDS,
+    domBucketLabels: DOM_BUCKET_LABELS,
     counts,
-    listings,
+    cities,
+    all,
   };
 
   const tmp = out + '.tmp';
@@ -280,13 +294,130 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
 
   return {
     out,
-    count: listings.length,
+    count: all.market.count,
     comingSoon,
     rows: liveRows.length,
     dropped,
     cities: citiesPresent.size,
     date: payload.date,
   };
+}
+
+// ---------------------------------------------------------------------------
+// Aggregate blocks (the public feed is statistics only, see the header).
+// ---------------------------------------------------------------------------
+const MARKET_TYPES = ['DE', 'CO', 'TH', 'DU'];
+const MARKET_STATUSES = ['ACTV', 'NEW', 'BOMK'];
+const DOM_BUCKET_BOUNDS = [7, 14, 30, 60];
+const DOM_BUCKET_LABELS = ['First week', '8 to 14 days', '15 to 30 days', '31 to 60 days', 'Over 60 days'];
+const domBucket = (dom) => {
+  for (let i = 0; i < DOM_BUCKET_BOUNDS.length; i++) if (dom <= DOM_BUCKET_BOUNDS[i]) return i;
+  return DOM_BUCKET_BOUNDS.length;
+};
+
+function countsOf(rows) {
+  const c = { total: 0, ACTV: 0, NEW: 0, CS: 0, BOMK: 0 };
+  for (const l of rows) {
+    c.total++;
+    if (c[l.status] !== undefined) c[l.status]++;
+  }
+  return c;
+}
+
+// Price-integrity guard: a Fremont sample of 30+ with max LP under $1M means
+// the export truncated $1M+ prices — counts stay valid, every price figure
+// is poisoned and published as null.
+function pricesTruncated(rows) {
+  const fre = rows.filter((l) => l.city === 'Fremont' && l.price > 0).map((l) => l.price);
+  return fre.length >= 30 && Math.max(...fre) < 1000000;
+}
+
+// Every live status, Coming Soon included. Same figures as the history record.
+function allLiveBlock(rows, truncated) {
+  const lp = [];
+  const types = { DE: 0, CO: 0, TH: 0, DU: 0 };
+  const bands = Array(BAND_BOUNDS.length + 1).fill(0);
+  const lpt = { DE: [], CO: [], TH: [], DU: [] };
+  for (const l of rows) {
+    if (l.price > 0) {
+      lp.push(l.price);
+      bands[bandIndex(l.price)]++;
+      if (l.type && lpt[l.type]) lpt[l.type].push(l.price);
+    }
+    if (l.type && types[l.type] !== undefined) types[l.type]++;
+  }
+  const medianLPByType = {};
+  for (const t of MEDIAN_TYPES) medianLPByType[t] = truncated ? null : median(lpt[t]);
+  return {
+    medianLP: truncated ? null : median(lp),
+    types,
+    bands: truncated ? null : bands,
+    medianLPByType,
+  };
+}
+
+// The homes on the market: Active, New and Back on Market rows only. Mirrors
+// harvrealtor-net src/lib/liveInventory.ts computeStats, which computed the
+// same figures from the rows while the rows were published.
+function marketBlock(rows, truncated) {
+  const on = rows.filter((l) => l.status !== 'CS');
+  const prices = [];
+  const ppsf = [];
+  const doms = [];
+  const types = { DE: 0, CO: 0, TH: 0, DU: 0 };
+  const bands = Array(BAND_BOUNDS.length + 1).fill(0);
+  const domBuckets = Array(DOM_BUCKET_BOUNDS.length + 1).fill(0);
+  const lpt = { DE: [], CO: [], TH: [], DU: [] };
+  const lps = { ACTV: [], NEW: [], BOMK: [] };
+  let newThisWeek = 0;
+  let waitingSixtyPlus = 0;
+  let underMillion = 0;
+  let minPrice = null;
+  let maxPrice = null;
+  for (const l of on) {
+    if (l.price > 0) {
+      prices.push(l.price);
+      bands[bandIndex(l.price)]++;
+      if (l.price < 1000000) underMillion++;
+      if (minPrice === null || l.price < minPrice) minPrice = l.price;
+      if (maxPrice === null || l.price > maxPrice) maxPrice = l.price;
+      if (l.sqft && l.sqft > 0) ppsf.push(l.price / l.sqft);
+      if (l.type && lpt[l.type]) lpt[l.type].push(l.price);
+      if (lps[l.status]) lps[l.status].push(l.price);
+    }
+    if (l.type && types[l.type] !== undefined) types[l.type]++;
+    if (typeof l.dom === 'number' && Number.isFinite(l.dom)) {
+      doms.push(l.dom);
+      if (l.dom <= 7) newThisWeek++;
+      if (l.dom > 60) waitingSixtyPlus++;
+      domBuckets[domBucket(l.dom)]++;
+    }
+  }
+  const priced = (v) => (truncated ? null : v);
+  const medianLPByType = {};
+  for (const t of MARKET_TYPES) medianLPByType[t] = priced(median(lpt[t]));
+  const medianLPByStatus = {};
+  for (const st of MARKET_STATUSES) medianLPByStatus[st] = priced(median(lps[st]));
+  return {
+    count: on.length,
+    medianPrice: priced(median(prices)),
+    medianPpsf: priced(ppsf.length ? Math.round(median(ppsf)) : null),
+    medianDom: median(doms),
+    newThisWeek,
+    waitingSixtyPlus,
+    underMillion: priced(underMillion),
+    minPrice: priced(minPrice),
+    maxPrice: priced(maxPrice),
+    types,
+    bands: priced(bands),
+    domBuckets,
+    medianLPByType,
+    medianLPByStatus,
+  };
+}
+
+function cityBlock(rows, truncated) {
+  return { counts: countsOf(rows), allLive: allLiveBlock(rows, truncated), market: marketBlock(rows, truncated) };
 }
 
 // ---------------------------------------------------------------------------
@@ -351,39 +482,17 @@ async function updateInventoryHistory({ listings, countyLiveTotal, feedDate, sou
   const weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][
     new Date(Date.UTC(2000 + Number(m[3]), Number(m[1]) - 1, Number(m[2]))).getUTCDay()
   ];
-  const cities = {};
+  // One record per city: the counts plus the all-live block, the same helpers
+  // the public feed's `allLive` uses, so the two can never disagree.
+  const byCity = new Map();
   for (const l of listings) {
-    const c = (cities[l.city] = cities[l.city] || {
-      total: 0, ACTV: 0, NEW: 0, CS: 0, BOMK: 0, _lp: [],
-      _types: { DE: 0, CO: 0, TH: 0, DU: 0 },
-      _bands: Array(BAND_BOUNDS.length + 1).fill(0),
-      _lpt: { DE: [], CO: [], TH: [], DU: [] },
-    });
-    c.total++;
-    if (c[l.status] !== undefined) c[l.status]++;
-    if (l.price > 0) {
-      c._lp.push(l.price);
-      c._bands[bandIndex(l.price)]++;
-      if (l.type && c._lpt[l.type]) c._lpt[l.type].push(l.price);
-    }
-    if (l.type && c._types[l.type] !== undefined) c._types[l.type]++;
+    if (!byCity.has(l.city)) byCity.set(l.city, []);
+    byCity.get(l.city).push(l);
   }
-  // Price-integrity guard: a Fremont sample of 30+ with max LP under $1M means
-  // the export truncated $1M+ prices — counts stay valid, medians are poisoned.
-  const freLp = (cities.Fremont && cities.Fremont._lp) || [];
-  const truncated = freLp.length >= 30 && Math.max(...freLp) < 1000000;
-  for (const c of Object.values(cities)) {
-    c.medianLP = truncated ? null : median(c._lp);
-    c.types = c._types;
-    c.bands = truncated ? null : c._bands;
-    c.medianLPByType = {};
-    for (const t of MEDIAN_TYPES) {
-      c.medianLPByType[t] = truncated ? null : median(c._lpt[t]);
-    }
-    delete c._lp;
-    delete c._types;
-    delete c._bands;
-    delete c._lpt;
+  const truncated = pricesTruncated(listings);
+  const cities = {};
+  for (const [name, rows] of byCity) {
+    cities[name] = { ...countsOf(rows), ...allLiveBlock(rows, truncated) };
   }
   // fourCityTotal is defined over the four continuously-tracked cities ONLY
   // (Milpitas entered the export 2026-01-05); the long-run history line stays
@@ -460,7 +569,7 @@ if (require.main === module) {
     date: dateArgIdx !== -1 ? process.argv[dateArgIdx + 1] : null,
     outFile: outArgIdx !== -1 ? process.argv[outArgIdx + 1] : null,
   })
-    .then((r) => console.log(`live-inventory.json: ${r.count} listings itemized + ${r.comingSoon} coming soon in counts only (${r.rows} live rows), ${r.cities} cities, date ${r.date} (${r.dropped} rows dropped)`))
+    .then((r) => console.log(`live-inventory.json (statistics only): ${r.rows} live rows, ${r.count} on the market + ${r.comingSoon} coming soon, ${r.cities} cities, date ${r.date} (${r.dropped} rows dropped)`))
     .catch((e) => { console.error('ERROR:', e.message); process.exit(1); });
 }
 
