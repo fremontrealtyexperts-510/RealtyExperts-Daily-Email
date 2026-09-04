@@ -1,73 +1,59 @@
 {
-  "date": "09/03/26",
-  "time": "Thursday, September 3, 2026",
+  "date": "09/04/26",
+  "time": "Friday, September 4, 2026",
   "stocks": {
-    "sp500": "7,666 (+0.46%)",
-    "dow": "53,061 (+0.56%)",
-    "nasdaq": "26,217 (+0.45%)",
-    "note": "Numbers as of Wednesday's close, September 2.",
-    "news": "A green day across all three indexes, and the two stories worth your time are both about what a number actually means.\n\nBroadcom told investors its AI revenue should roughly double twice, to $115 billion in fiscal 2027 and $230 billion in fiscal 2028, after guiding fiscal 2026 up to $58 billion. Last quarter's AI semiconductor revenue was $16.7 billion, up 221% from a year ago and 56% of everything the company sold. Management said demand already exceeds the 2027 target and that supply, not orders, is the limit. The stock fell 0.66% anyway.\n\nUber is cutting 10% of its roughly 34,000 staff and 20% of its management layers, saying too many handoffs are slowing decisions. Investors approved. It is also one more tech employer shrinking in a week when the labor data went soft, which is the thread running through today's Economy section.\n\nThe first chart below is the Broadcom roadmap with the forecasts drawn as forecasts. The second is Palo Alto Networks, which is a lesson in how a true headline can still point the wrong way.",
+    "sp500": "7,748 (+1.06%)",
+    "dow": "53,686 (+1.18%)",
+    "nasdaq": "26,584 (+1.40%)",
+    "note": "Numbers as of Thursday's close, September 3.",
+    "news": "A strong Thursday across all three indexes, and then this morning the jobs report landed and changed the conversation. More on that in Economy below.\n\nOne correction on this line. The newsletter put the NASDAQ at 26,587, up 1.47%. The index actually closed at 26,584.06, up 1.40% from Wednesday. The S&P and DOW figures both reconcile exactly. That is one wrong number out of three, which is a better morning than most.\n\nTesla is running driverless Cybercabs in Austin, with 45 Cybercabs and 420 Teslas licensed to operate in Texas with nobody behind the wheel. For scale, Tesla runs about 200 fully unsupervised cars against roughly 4,000 for Waymo. Elsewhere, Oura filed to go public after its best quarter ever, and Adobe's chief executive is stepping down December 1 after nineteen years.\n\nThe chart below is Anthropic, the AI company, which is lining up a $15 billion credit line ahead of a possible listing. It is worth a careful look, because the number everyone is quoting is not quite the number people think it is.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/aapl-cook-090226.png",
-      "alt": "Line chart of Apple's split adjusted share price from August 2011 to September 2026, rising from $13.44 to $325.13, a gain of 2,320%.",
-      "caption": "Cook took over at $13.44 a share and handed off at $325.13, a gain of 2,320% over 15 years.",
-      "source": "Source: Nasdaq daily closes via Yahoo Finance, split adjusted. The graphic circulating this morning put Apple's all time gain at 203,106%. From the IPO day close of $0.128348 split adjusted, the actual all time figure is about 253,219%."
-    },
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/broadcom-ai-090326.png",
-        "alt": "Bar chart of Broadcom AI revenue by fiscal year: $20 billion actual in FY2025, then company forecasts of $58 billion, $115 billion and $230 billion for FY2026, FY2027 and FY2028, drawn as hatched bars.",
-        "caption": "One bar is a result and three are company targets, so the forecasts are hatched. The FY2028 AI target alone is about 3.6 times Broadcom's entire FY2025 revenue of $64 billion.",
-        "source": "Source: Broadcom Q3 FY2026 earnings call, September 2, 2026, and FY2025 results. This morning's newsletter described the $230 billion as total revenue; it is AI revenue, on the same basis as the other three bars."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/panw-090326.png",
-        "alt": "Line chart of Palo Alto Networks month end closing prices from December 2025 to the September 2, 2026 close of $328.48, up 78% year to date but down 14% in the two sessions after earnings.",
-        "caption": "Up 78% from the December 31 close of $184.20, and down 14% in the two sessions after Q4 earnings. Both are true on the same chart.",
-        "source": "Source: PANW daily closes via Yahoo Finance. The series ends at the last settled close; the September 3 price is a live tick and is not plotted."
-      }
-    ]
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/anthropic-runrate-090426.png",
+      "alt": "Bar chart of Anthropic's annualized revenue run rate on a date axis: $9 billion in December 2025, $14 billion February, $19 billion March, $30 billion April, $47 billion May and $65 billion July 2026.",
+      "caption": "Six disclosures over seven months, plotted on a true date axis so the gaps are to scale. The fastest stretch was April to May, which added $17 billion in a single month.",
+      "source": "Sources: Anthropic disclosures; July figure reported by CNBC, August 17, 2026. This is an annualized run rate, not booked revenue and not audited. The version circulating this morning left out March, which was $19 billion."
+    }
   },
   "economy": {
-    "us10year": "4.79% (0.00%)",
-    "gold": "$4,487 (+3.88%)",
-    "silver": "$67.15 (+4.68%)",
-    "wti": "$95.63 (+1.04%)",
+    "us10year": "4.77% (-0.02%)",
+    "gold": "$4,426 (-0.37%)",
+    "silver": "$65.93 (-0.75%)",
+    "wti": "$95.52 (-0.12%)",
     "oil_label": "Brent Crude",
-    "note": "Ten year yield and Brent are Wednesday's September 2 settlements. Gold and silver are live spot quotes at about 11:15 AM Pacific on September 3, with the change measured from Wednesday's settlement.",
-    "commentary": "One number set the tone for everything else today. ADP said private employers added just 38,000 jobs in August, against roughly 47,000 expected. Hiring came from schools and hospitals, restaurants and hotels, and construction. Factories and business services shed workers.\n\nEverything on this line is the market repricing rate cuts off that miss. Gold is up 3.9% and silver up 4.7% this morning, both large single day moves. The ten year Treasury settled Wednesday at 4.79%, unchanged from Tuesday, but the live yield has dropped to about 4.75% since the ADP print landed. Mortgage rates eased with it, which is the Real Estate section below.\n\nTwo corrections against the source before publishing.\n\n• Ten year Treasury: the newsletter printed 4.77%. Treasury's own daily yield curve has Wednesday closing at 4.79%, the same as Tuesday. Their direction, flat, was right. Their level was not.\n\n• Brent: the newsletter printed $95.50 and called it a 0.14% decline. ICE front month futures settled Wednesday at $95.63, up 1.04%. Wrong level and wrong direction, which is the third day running Brent has come in wrong from that source.\n\n• Silver was left off again, as it is most days. It is on the card.\n\nThe government's own payroll report lands Friday, with consensus near 53,000 jobs and 4.1% unemployment. That is the number that will actually move mortgage rates next.\n\nThe chart below is the ADP year, rebuilt, because the version going around this morning was not telling the truth about three of its eight months.",
+    "note": "Ten year yield and Brent are Thursday's September 3 settlements. Gold and silver are live spot quotes at about 7:58 AM Pacific on September 4, with the change measured from Thursday's settlement.",
+    "commentary": "The August jobs report landed at 5:30 this morning Pacific and it was not close to what anyone expected.\n\n• Payrolls: **162,000** jobs added, against a consensus near 53,000. Roughly three times the forecast.\n• Unemployment: 4.1%, unchanged.\n• Revisions: July was revised UP to a gain of 21,000 from a loss of 23,000. June was revised up to a gain of 31,000.\n\nRead the internals before you read the headline, because they are the reason the bond market stayed calm. The household survey showed 569,000 more people employed and 683,000 more people entering the labor force. Participation rose two tenths of a point. That is why unemployment held at 4.1% even with strong hiring: the supply of workers grew alongside the demand for them. A jobs report driven by people coming back into the workforce is far less inflationary than one driven by employers bidding for a fixed pool of workers. The broader U6 measure, which counts discouraged and involuntarily part time workers, fell to 7.7%, its lowest since June 2025.\n\nSo the ten year Treasury is sitting near 4.77% this morning, essentially where it closed Thursday. Mortgage News Daily called it a balmy report and said bonds were only moderately changed.\n\nWhat it undoes: yesterday's ADP survey showed just 38,000 private jobs and set off a rate cut rally. That trade is unwinding today. Gold is off about a third of a point, silver three quarters, and all three major cryptocurrencies are lower. We flagged yesterday that Friday's number would either confirm the ADP read or erase it. It erased it.\n\nTwo corrections against the source. The newsletter put the ten year at 4.78%; Treasury's own daily curve has Thursday closing at 4.77%, down two basis points, and its own printed change of minus two contradicts its printed level. And it put Brent at $95.85, up 0.23%; ICE front month futures settled at $95.52, DOWN 0.12%. That is the fourth day running Brent has come in wrong from that source.\n\nThe chart below is Japan, where the consumer has now cut back for eight straight months.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/adp-2026-090326.png",
-      "alt": "Bar chart of U.S. private sector jobs added each month in 2026: 11K in January, rising to 122K in May, then falling to 95K, 46K and 38K through August.",
-      "caption": "Hiring has cooled for four straight months, from 122,000 in May to 38,000 in August. January's 11,000 was still the weakest month of the year, so 2026 is a hump rather than a steady slide.",
-      "source": "Source: ADP National Employment Report via FRED, current vintage. The graphic circulating this morning carried ADP's original February, April and June prints of 63K, 109K and 98K, since revised to 66K, 105K and 95K."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/japan-spending-090426.png",
+      "alt": "Bar chart of Japanese household spending, real change from a year earlier, showing eight consecutive negative months from December 2025 at -2.6% through July 2026 at -3.6%.",
+      "caption": "Eight straight months of falling household spending. April and May were nearly flat before June and July broke down, and July's 3.6% drop is the steepest since January 2024.",
+      "source": "Source: Japan Statistics Bureau, Ministry of Internal Affairs and Communications. Economists expected about a 1.6% decline for July. April, May and June carry the Bureau's revised figures after its consumer price index was rebased to 2025."
     }
   },
   "crypto": {
-    "btc": "$81,184 (+4.94%)",
-    "eth": "$2,505 (+4.64%)",
-    "xrp": "$1.46 (+9.30%)",
-    "note": "Live quotes at about 11:15 AM Pacific on September 3, showing the 24 hour change.",
-    "commentary": "A sharp move up, and it is the same trade as gold. Bitcoin is back above $81,000, ether above $2,500, and XRP is up more than 9%. Weak jobs data means a higher chance of rate cuts, and that lifts the assets that do best when money is cheap.\n\nWorth flagging that this morning's newsletter had all three roughly flat, because its quotes were Wednesday's 4 PM Eastern prints and the whole move happened after the ADP release. Nothing wrong with their numbers, they are just from before the news.\n\nOn the policy side, the Senate votes on the Clarity Act on September 15, which would finally settle how crypto is regulated, and the SEC has proposed new custody rules. Separately, New Jersey is asking the Supreme Court to decide whether prediction markets are futures or sports betting."
+    "btc": "$78,924 (-1.68%)",
+    "eth": "$2,442 (-1.52%)",
+    "xrp": "$1.39 (-3.76%)",
+    "note": "Live quotes at about 7:58 AM Pacific on September 4, showing the 24 hour change.",
+    "commentary": "Yesterday's rally is giving back. Bitcoin touched $81,000 on Thursday, its highest since May, and is back near $79,000 this morning. Ether and XRP are down with it, XRP the hardest at nearly four percent.\n\nThe mechanism is the same one running through gold: a strong jobs report means fewer Fed cuts, and these are the assets that do best when money is cheap. Nothing about crypto itself changed overnight.\n\nTwo things still worth watching. The Senate votes on the Clarity Act on September 15, which would finally settle how crypto is regulated, and crypto ETFs have been taking in roughly $290 million a day over the past few weeks. Separately, Revolut just won conditional approval for a U.S. national bank charter, which would let an 80 million customer app offer full banking and crypto services here."
   },
   "real_estate": {
     "rate_30year": "6.88%",
     "rate_15year": "6.48%",
-    "homebuilder": "Rates backed off their 52 week highs after a soft jobs number, the first daily decline in a week",
-    "commentary": "Both rates fell today. The 30 year is at 6.88%, down three basis points, and the 15 year at 6.48%, down two, per Mortgage News Daily. That is the first daily decline in a week.\n\nRead it in context, because the level still is not friendly. Wednesday's close set fresh 52 week highs at 6.91% and 6.50%, and MND's own headline yesterday afternoon was that rates were approaching 7%. Today gives back three basis points of that. The cause is the soft ADP number in the Economy section: weak hiring means a better chance of Fed cuts, money moves into bonds, yields fall, mortgages follow.\n\nDo not over read one day. This is a three basis point move off a one year high, driven by a private payroll survey. The government's own jobs report lands Friday. If it comes in near the 53,000 consensus, today holds. If it surprises upward, this gets given back quickly.\n\nWhat it costs, concretely: on a $450,000 purchase with 20% down, the payment is about $2,366 a month, roughly $7 below Wednesday's peak and about $209 above February.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,642 listings across the 15 city board, counting everything active alongside everything in contract, with 196 coming soon and 154 brand new today. That is 7 fewer than yesterday.\n• Fremont: 231 active across all property types, made up of 32 townhomes, 78 condos and 121 detached homes, duplexes and half plexes, plus 100 in contract, 38 coming soon and 16 new today.\n• Five city live ledger: 686 listings across Fremont, Hayward, Milpitas, Newark and Union City, down 9 from yesterday. Fremont 260, Hayward 184, Milpitas 114, Newark 75, Union City 53.\n• The read: this is the quietest day for new listings in a while. Sixteen new in Fremont against 26 yesterday, and 154 board wide against 192. Meanwhile Fremont's in contract count rose from 98 to 100. Fewer homes arriving, slightly more going under contract. That tightens things at the margin.\n\nWhat to tell a client this week: rates just came off a one year high because of one soft jobs survey, and Friday's government report will either confirm it or erase it. If you are floating, this is a conversation to have with your lender today, not Monday. If you are listing, the new supply arriving this week is thin, which means less competition for the next two weeks than the last two."
+    "homebuilder": "Rates held flat into the jobs report, and the jobs report just took the September cut off the table",
+    "commentary": "The 30 year is at 6.88% and the 15 year at 6.48%, both unchanged. A caveat on those: Mortgage News Daily publishes its daily survey around 4 PM Eastern, so what you see above is Thursday's close. Today's reaction to the jobs report is not in that number yet.\n\nHere is what actually matters for anyone shopping right now. Vice President Vance spent yesterday publicly pressing the Fed to cut rates to make housing more affordable, calling it the proper and responsible move. The Fed meets September 15 and 16. Then this morning the economy printed 162,000 new jobs against a forecast of 53,000, with July revised from a loss to a gain.\n\nA jobs number three times consensus does not make a September cut more likely. It makes it less likely. So the political pressure and the economic data are now pointing in opposite directions, and the data usually wins that argument.\n\nThe one thing keeping this from being worse for rates: the report was strong because more people came back into the labor force, not because employers were bidding wages up. That is why the ten year barely moved this morning. But the direction of risk for mortgage rates over the next two weeks is now up, not down.\n\nWhat it costs, concretely: on a $450,000 purchase with 20% down, the payment is about $2,366 a month at today's 6.88%. If you have been floating a rate waiting for a September cut, this morning was the argument for locking.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,646 listings across the 15 city board, counting everything active alongside everything in contract, with 208 coming soon and 146 brand new today. That is 4 more than yesterday.\n• Fremont: 231 active across all property types, made up of 31 townhomes, 76 condos and 124 detached homes, duplexes and half plexes, plus 99 in contract, 41 coming soon and 15 new today.\n• Five city live ledger: 694 listings across Fremont, Hayward, Milpitas, Newark and Union City, up 8 from yesterday. Fremont 264, Hayward 188, Milpitas 113, Newark 76, Union City 53.\n• The read: new listings stayed thin for a second day, 146 board wide against 154 yesterday and 192 on Wednesday, but coming soon climbed to 208 and Fremont alone is holding 41. That is the pipeline rebuilding for the back half of September. Supply is not leaving, it is queuing.\n\nWhat to tell a client this week: the story changed this morning. All week the market was pricing rate cuts on soft labor data, and one government report undid most of that in a single print. Nobody should panic, and nobody should assume relief is coming in two weeks either. If you are under contract and floating, talk to your lender today. If you are listing in the next month, the coming soon queue says you will have more competition in late September than you would have this week."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "Market Briefs daily newsletter, September 3, 2026",
-    "https://fred.stlouisfed.org/series/ADPMNUSNERSA",
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "Market Briefs daily newsletter, September 4, 2026",
     "https://finance.yahoo.com/quote/BZ=F/",
-    "https://finance.yahoo.com/quote/PANW/",
     "https://finance.yahoo.com/quote/GC=F/",
-    "https://finance.yahoo.com/quote/SI=F/",
-    "https://investors.broadcom.com/news-releases",
+    "https://www.stat.go.jp/english/data/kakei/156.html",
+    "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+    "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/08c51538-350a-4cc6-ac17-f674a5fa894d",
-  "qr_code_path": "note-qr-08c51538.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/9fa81f0d-1b1a-4de7-8475-a567d7dbb3bf",
+  "qr_code_path": "note-qr-9fa81f0d.png"
 }
