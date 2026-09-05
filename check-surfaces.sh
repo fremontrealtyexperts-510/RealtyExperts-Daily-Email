@@ -85,6 +85,12 @@ fi
 # (Pages ignores the ?cb= query; a push reaches Pages within <=10 min, /api/daily within ~25.)
 # Shape = the consumer predicate (app isReport / .net isDailyReport) in miniature:
 # an edition that parses but fails it would publish green and never render.
+# Section floor lowered 3 -> 2 on 2026-09-05. The real contract (isReport in
+# ~/harvrealtor-app/src/lib/dispatch.ts, isDailyReport in ~/harvrealtor-net-live)
+# requires only Array.isArray(sections) && sections.every(isSection), with NO
+# minimum count, so 3 was stricter than the predicate this claims to mirror. It
+# false-FAILED the 09/05/26 jobs special, a Real Estate + Economy edition that
+# every real consumer renders fine. Keep a floor of 2 as an empty-file guard.
 DRD=$(curl -s "$PAGES/daily-report.json?cb=$CB" | python3 -c "
 import json,sys,re
 try:
@@ -95,7 +101,7 @@ r=d.get('rates') or {}; L=d.get('links') or {}; S=d.get('sections')
 ok=(d.get('version')==1 and isinstance(d.get('date'),str) and bool(re.match(r'^\d{2}/\d{2}/\d{2}$',d['date']))
     and bool(d.get('headline')) and bool(d.get('teaser'))
     and isinstance(r.get('r30'),(int,float)) and isinstance(r.get('r15'),(int,float))
-    and isinstance(S,list) and len(S)>=3
+    and isinstance(S,list) and len(S)>=2
     and all(str(i.get('url','')).startswith('https://') for s in S for i in (s.get('images') or []))
     and all(str(L.get(k,'')).startswith('https://') for k in ('web','blog','liveInventory')))
 print(d.get('date',''), d.get('voice',''), 'ok' if ok else 'shape')
