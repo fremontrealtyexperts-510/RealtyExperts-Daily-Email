@@ -174,6 +174,32 @@ for v in "$SRC_DIR"/verify-*.js; do
 done
 echo "🔎 Verifier scripts copied: $VERIFY_SCRIPTS"
 
+# Generator scripts + lib/ — added 2026-09-05. The header above claimed
+# "generate-*.js" was covered, but only generate-app-report.js was ever listed,
+# so generate-daily-email.js and lib/html-builders.js were TRACKED yet never
+# pushed. A local edit to either survived only until the next launchd auto-pull
+# reverted it. That is the same failure mode that lost make-copper-chart.py on
+# 08/07. Caught 09/05 when the jobs-special section gates were patched into both.
+GEN_SCRIPTS=0
+for g in "$SRC_DIR"/generate-*.js; do
+  if [ -f "$g" ]; then
+    cp "$g" "$DST_DIR/$(basename "$g")"
+    GEN_SCRIPTS=$((GEN_SCRIPTS + 1))
+    FILES_COPIED=$((FILES_COPIED + 1))
+  fi
+done
+echo "⚙️  Generator scripts copied: $GEN_SCRIPTS"
+
+# lib/ shared modules (html-builders.js is shared by the email AND the broadcast,
+# so an unpushed edit there silently drifts the two apart). Copy-only, like scripts/.
+if [ -d "$SRC_DIR/lib" ]; then
+  mkdir -p "$DST_DIR/lib"
+  cp -R "$SRC_DIR/lib/." "$DST_DIR/lib/"
+  LIB_N=$(find "$SRC_DIR/lib" -type f -name '*.js' | wc -l | tr -d ' ')
+  FILES_COPIED=$((FILES_COPIED + LIB_N))
+  echo "📚 lib/ files copied: $LIB_N"
+fi
+
 # scripts/ helper directory (cron wrappers, launchd plist, chart builders).
 # Copy-only: files present on the remote but not locally are left alone, so this
 # can never delete anything. scripts/README.md is gitignored and stays untracked.
@@ -202,7 +228,7 @@ echo "$CHANGES"
 # A MODIFIED (not added) chart script is either a deliberate edit or an
 # accidental clobber of a different chart that already owned that filename.
 # Surface it loudly rather than leaving it as an `M` to be spotted by eye.
-MODIFIED_CHARTS=$(echo "$CHANGES" | grep -E '^ ?M[ M]? +(make-.*\.py|verify-.*\.js|check-surfaces\.sh|scripts/.*)$' | awk '{print $NF}' || true)
+MODIFIED_CHARTS=$(echo "$CHANGES" | grep -E '^ ?M[ M]? +(make-.*\.py|verify-.*\.js|check-surfaces\.sh|scripts/.*|generate-.*\.js|lib/.*\.js)$' | awk '{print $NF}' || true)
 if [ -n "$MODIFIED_CHARTS" ]; then
   echo ""
   echo "⚠️  EXISTING tooling file(s) MODIFIED (not new):"

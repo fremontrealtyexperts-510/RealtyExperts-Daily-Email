@@ -327,15 +327,20 @@ function templateSections(t) {
   const ecStats = [sv('US 10-Year', ec.us10year), sv(ec.gold_label || 'Gold', ec.gold), sv(ec.silver_label || 'Silver', ec.silver)];
   if (ec.wti) ecStats.push(sv(ec.oil_label || 'Oil', ec.wti));
   else if (ec.cpi) ecStats.push(sv(ec.cpi_label || 'CPI', ec.cpi));
+  // A themed edition may omit whole sections (09/05/26 jobs special carried
+  // Real Estate and Economy only). Emitting an absent section produced a
+  // zero character stub that then tripped the 80 character gate, so only
+  // sections the template actually carries are built. Normal runs carry all
+  // four, so this is inert there.
   return [
-    mk('real_estate', 'Real estate',
+    t.real_estate ? mk('real_estate', 'Real estate',
       [{ label: '30-Year Fixed', value: String(re.rate_30year || ''), change: null, dir: null },
        { label: '15-Year Fixed', value: String(re.rate_15year || ''), change: null, dir: null }],
-      re.commentary, re),
-    mk('economy', 'Economy', ecStats.filter((s) => s.value), ec.commentary, ec),
-    mk('stocks', 'Stocks', [sv('S&P 500', st.sp500), sv('DOW', st.dow), sv('NASDAQ', st.nasdaq)].filter((s) => s.value), st.news, st),
-    mk('crypto', 'Crypto', [sv('BTC', cr.btc), sv('ETH', cr.eth), sv('XRP', cr.xrp)].filter((s) => s.value), cr.commentary, cr),
-  ];
+      re.commentary, re) : null,
+    t.economy ? mk('economy', 'Economy', ecStats.filter((s) => s.value), ec.commentary, ec) : null,
+    t.stocks ? mk('stocks', 'Stocks', [sv('S&P 500', st.sp500), sv('DOW', st.dow), sv('NASDAQ', st.nasdaq)].filter((s) => s.value), st.news, st) : null,
+    t.crypto ? mk('crypto', 'Crypto', [sv('BTC', cr.btc), sv('ETH', cr.eth), sv('XRP', cr.xrp)].filter((s) => s.value), cr.commentary, cr) : null,
+  ].filter(Boolean);
 }
 
 function templateSources(t) {
@@ -431,11 +436,11 @@ function build({ template, cms, live, date }) {
     sources = parseCmsSources(parts.SOURCES);
     disclaimer = parseCmsDisclaimer(parts.SOURCES || cms.newsletter_html);
     voice = 'harv';
-    if (sections.length < 3) {
+    if (sections.length < MIN_SECTIONS) {
       warnings.push(`cms-content.json parsed into only ${sections.length} sections; falling back to the template`);
     }
   }
-  if (!cmsFresh || sections.length < 3) {
+  if (!cmsFresh || sections.length < MIN_SECTIONS) {
     if (!cmsFresh) {
       warnings.push(cms
         ? `cms-content.json is NOT ${date.label} (meta says "${String((cms.meta || {}).description || '').slice(0, 60)}..."); using template commentary`
@@ -511,6 +516,14 @@ function build({ template, cms, live, date }) {
 // gates
 // ---------------------------------------------------------------------------
 
+// Minimum sections for a report to count as complete. Lowered from 3 to 2 on
+// 09/05/26 for themed editions: the Saturday jobs special carried Real Estate
+// and Economy only, with no Stocks or Crypto stat cards, and 3 would have
+// blocked a perfectly good report. The real anti-stub protection is the
+// per-section 80 character floor below, plus the date, rate range, headline,
+// teaser, sanitization, dash and brand gates.
+const MIN_SECTIONS = 2;
+
 function validate(p) {
   const errs = [];
   if (!/^\d{2}\/\d{2}\/\d{2}$/.test(p.date)) errs.push(`date "${p.date}" malformed`);
@@ -518,7 +531,7 @@ function validate(p) {
   if (!(p.rates.r15 > 2 && p.rates.r15 < 12)) errs.push(`15-year rate ${p.rates.r15} out of range`);
   if (!p.headline) errs.push('headline missing');
   if (!p.teaser || p.teaser.length < 40) errs.push('teaser missing or too short');
-  if (p.sections.length < 3) errs.push(`only ${p.sections.length} sections`);
+  if (p.sections.length < MIN_SECTIONS) errs.push(`only ${p.sections.length} sections`);
   for (const s of p.sections) {
     if (!s.text || s.text.length < 80) errs.push(`section ${s.key} has too little text (${(s.text || '').length} chars)`);
     if (/<script|onerror=|onload=|javascript:/i.test(s.html)) errs.push(`section ${s.key} failed sanitization`);

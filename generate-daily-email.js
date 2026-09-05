@@ -211,10 +211,14 @@ function economyStatCards(e) {
     ['US 10-YEAR', e.us10year],
     [(e.gold_label || 'Gold').toUpperCase(), e.gold],
     [(e.silver_label || 'Silver').toUpperCase(), e.silver],
-  ];
+  ].filter(([, v]) => v);
   if (e.wti) cards.push([(e.oil_label || 'WTI Crude').toUpperCase(), e.wti]);
   else if (e.cpi) cards.push([(e.cpi_label || 'CPI (YoY)').toUpperCase(), e.cpi]);
 
+  // A themed edition can carry an Economy narrative with no market stat cards
+  // at all (09/05/26 jobs special). Absent values are dropped rather than
+  // printed as blanks. Normal runs always supply all three, so this is inert.
+  if (cards.length === 0) return '';
   if (cards.length < 4) return statRow3(cards);
 
   const cell = ([label, value]) => `<td width="48%" style="vertical-align: top;">
@@ -573,14 +577,14 @@ function generateHTML(data) {
               ${formatCommentary(data.real_estate.commentary)}
               ${featureImagesHtml(data.real_estate)}
 
-              ${sectionGap()}
+              ${data.stocks ? `${sectionGap()}
 
               <!-- STOCKS Section -->
               ${sectionHeader('02', 'STOCKS', PAL.stocks)}
               ${statRow3([['S&amp;P 500', data.stocks.sp500], ['DOW', data.stocks.dow], ['NASDAQ', data.stocks.nasdaq]])}
               ${asOfNote(data.stocks.note)}
               ${formatCommentary(data.stocks.news)}
-              ${featureImagesHtml(data.stocks)}
+              ${featureImagesHtml(data.stocks)}` : ''}
 
               ${sectionGap()}
 

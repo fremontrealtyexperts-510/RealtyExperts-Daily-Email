@@ -1,59 +1,56 @@
 {
-  "date": "09/04/26",
-  "time": "Friday, September 4, 2026",
-  "stocks": {
-    "sp500": "7,748 (+1.06%)",
-    "dow": "53,686 (+1.18%)",
-    "nasdaq": "26,584 (+1.40%)",
-    "note": "Numbers as of Thursday's close, September 3.",
-    "news": "A strong Thursday across all three indexes, and then this morning the jobs report landed and changed the conversation. More on that in Economy below.\n\nOne correction on this line. The newsletter put the NASDAQ at 26,587, up 1.47%. The index actually closed at 26,584.06, up 1.40% from Wednesday. The S&P and DOW figures both reconcile exactly. That is one wrong number out of three, which is a better morning than most.\n\nTesla is running driverless Cybercabs in Austin, with 45 Cybercabs and 420 Teslas licensed to operate in Texas with nobody behind the wheel. For scale, Tesla runs about 200 fully unsupervised cars against roughly 4,000 for Waymo. Elsewhere, Oura filed to go public after its best quarter ever, and Adobe's chief executive is stepping down December 1 after nineteen years.\n\nThe chart below is Anthropic, the AI company, which is lining up a $15 billion credit line ahead of a possible listing. It is worth a careful look, because the number everyone is quoting is not quite the number people think it is.",
+  "date": "09/05/26",
+  "time": "11:45 AM PT",
+  "real_estate": {
+    "rate_30year": "6.89%",
+    "rate_15year": "6.49%",
+    "homebuilder": "A surprise jobs report reset the Fed conversation, and rates sat near the top of their yearly range.",
+    "commentary": "Rates below are Friday's close. Mortgage News Daily does not publish on weekends, so these are what carry into Monday.\n\nThe 30-year is 6.89%, one basis point higher on Friday and two basis points under its 52-week high of 6.91%. The 15-year is 6.49%.\n\nFriday's jobs report moved the rate conversation more than it moved rates. Fed funds futures now put 58.4% odds on the Fed raising its target a quarter point at the September 16 meeting, 41.6% on no change and 0.0% on a cut. The day before the report those hike odds were 49.4%. A stronger labor market gives the Fed more room to move, so the odds jumped about nine points in one session.\n\nThree things worth keeping straight:\n\n• The Fed does not set mortgage rates. The 10-year Treasury does most of that work, and a move the market already expects is not the same as a surprise.\n• The real test is Friday, September 11, when the August inflation report lands at 5:30 a.m. Pacific. That number, more than the jobs report, is likely to settle the September 16 question.\n• Rates near the top of their yearly range are why buyer traffic is deliberate rather than frantic. Correctly priced homes are still moving, and the coming soon count says sellers are positioning for fall.\n\n📍 Local inventory, September 5\n\n• Board wide: 2,627 listings across the 15 city board, counting everything active alongside everything in contract, with 220 coming soon and 163 brand new today. That is 19 fewer than yesterday.\n• Five city live ledger: 686 listings across Fremont, Hayward, Milpitas, Newark and Union City, down 8 from yesterday. Fremont 261, Hayward 184, Milpitas 114, Newark 76, Union City 51.\n• The read: Fremont is holding 43 coming soon and Milpitas 29, so the fall pipeline is still building even as live count eases. Supply is not leaving, it is queuing.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/anthropic-runrate-090426.png",
-      "alt": "Bar chart of Anthropic's annualized revenue run rate on a date axis: $9 billion in December 2025, $14 billion February, $19 billion March, $30 billion April, $47 billion May and $65 billion July 2026.",
-      "caption": "Six disclosures over seven months, plotted on a true date axis so the gaps are to scale. The fastest stretch was April to May, which added $17 billion in a single month.",
-      "source": "Sources: Anthropic disclosures; July figure reported by CNBC, August 17, 2026. This is an annualized run rate, not booked revenue and not audited. The version circulating this morning left out March, which was $19 billion."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/jobs-fedwatch-090526.png",
+      "alt": "Bar chart of CME FedWatch probabilities for the September 16, 2026 Fed meeting: 41.6% for no change at 3.50% to 3.75%, and 58.4% for a quarter point increase to 3.75% to 4.00%.",
+      "caption": "The market's read on the September 16 meeting after Friday's jobs report. The day before the report, those hike odds were 49.4%.",
+      "source": "Source: CME FedWatch, implied by 30-day fed funds futures, September 4, 2026. Market-implied odds, not a forecast and not a Federal Reserve statement."
     }
   },
   "economy": {
-    "us10year": "4.77% (-0.02%)",
-    "gold": "$4,426 (-0.37%)",
-    "silver": "$65.93 (-0.75%)",
-    "wti": "$95.52 (-0.12%)",
-    "oil_label": "Brent Crude",
-    "note": "Ten year yield and Brent are Thursday's September 3 settlements. Gold and silver are live spot quotes at about 7:58 AM Pacific on September 4, with the change measured from Thursday's settlement.",
-    "commentary": "The August jobs report landed at 5:30 this morning Pacific and it was not close to what anyone expected.\n\n• Payrolls: **162,000** jobs added, against a consensus near 53,000. Roughly three times the forecast.\n• Unemployment: 4.1%, unchanged.\n• Revisions: July was revised UP to a gain of 21,000 from a loss of 23,000. June was revised up to a gain of 31,000.\n\nRead the internals before you read the headline, because they are the reason the bond market stayed calm. The household survey showed 569,000 more people employed and 683,000 more people entering the labor force. Participation rose two tenths of a point. That is why unemployment held at 4.1% even with strong hiring: the supply of workers grew alongside the demand for them. A jobs report driven by people coming back into the workforce is far less inflationary than one driven by employers bidding for a fixed pool of workers. The broader U6 measure, which counts discouraged and involuntarily part time workers, fell to 7.7%, its lowest since June 2025.\n\nSo the ten year Treasury is sitting near 4.77% this morning, essentially where it closed Thursday. Mortgage News Daily called it a balmy report and said bonds were only moderately changed.\n\nWhat it undoes: yesterday's ADP survey showed just 38,000 private jobs and set off a rate cut rally. That trade is unwinding today. Gold is off about a third of a point, silver three quarters, and all three major cryptocurrencies are lower. We flagged yesterday that Friday's number would either confirm the ADP read or erase it. It erased it.\n\nTwo corrections against the source. The newsletter put the ten year at 4.78%; Treasury's own daily curve has Thursday closing at 4.77%, down two basis points, and its own printed change of minus two contradicts its printed level. And it put Brent at $95.85, up 0.23%; ICE front month futures settled at $95.52, DOWN 0.12%. That is the fourth day running Brent has come in wrong from that source.\n\nThe chart below is Japan, where the consumer has now cut back for eight straight months.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/japan-spending-090426.png",
-      "alt": "Bar chart of Japanese household spending, real change from a year earlier, showing eight consecutive negative months from December 2025 at -2.6% through July 2026 at -3.6%.",
-      "caption": "Eight straight months of falling household spending. April and May were nearly flat before June and July broke down, and July's 3.6% drop is the steepest since January 2024.",
-      "source": "Source: Japan Statistics Bureau, Ministry of Internal Affairs and Communications. Economists expected about a 1.6% decline for July. April, May and June carry the Bureau's revised figures after its consumer price index was rebased to 2025."
-    }
-  },
-  "crypto": {
-    "btc": "$78,924 (-1.68%)",
-    "eth": "$2,442 (-1.52%)",
-    "xrp": "$1.39 (-3.76%)",
-    "note": "Live quotes at about 7:58 AM Pacific on September 4, showing the 24 hour change.",
-    "commentary": "Yesterday's rally is giving back. Bitcoin touched $81,000 on Thursday, its highest since May, and is back near $79,000 this morning. Ether and XRP are down with it, XRP the hardest at nearly four percent.\n\nThe mechanism is the same one running through gold: a strong jobs report means fewer Fed cuts, and these are the assets that do best when money is cheap. Nothing about crypto itself changed overnight.\n\nTwo things still worth watching. The Senate votes on the Clarity Act on September 15, which would finally settle how crypto is regulated, and crypto ETFs have been taking in roughly $290 million a day over the past few weeks. Separately, Revolut just won conditional approval for a U.S. national bank charter, which would let an 80 million customer app offer full banking and crypto services here."
-  },
-  "real_estate": {
-    "rate_30year": "6.88%",
-    "rate_15year": "6.48%",
-    "homebuilder": "Rates held flat into the jobs report, and the jobs report just took the September cut off the table",
-    "commentary": "The 30 year is at 6.88% and the 15 year at 6.48%, both unchanged. A caveat on those: Mortgage News Daily publishes its daily survey around 4 PM Eastern, so what you see above is Thursday's close. Today's reaction to the jobs report is not in that number yet.\n\nHere is what actually matters for anyone shopping right now. Vice President Vance spent yesterday publicly pressing the Fed to cut rates to make housing more affordable, calling it the proper and responsible move. The Fed meets September 15 and 16. Then this morning the economy printed 162,000 new jobs against a forecast of 53,000, with July revised from a loss to a gain.\n\nA jobs number three times consensus does not make a September cut more likely. It makes it less likely. So the political pressure and the economic data are now pointing in opposite directions, and the data usually wins that argument.\n\nThe one thing keeping this from being worse for rates: the report was strong because more people came back into the labor force, not because employers were bidding wages up. That is why the ten year barely moved this morning. But the direction of risk for mortgage rates over the next two weeks is now up, not down.\n\nWhat it costs, concretely: on a $450,000 purchase with 20% down, the payment is about $2,366 a month at today's 6.88%. If you have been floating a rate waiting for a September cut, this morning was the argument for locking.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,646 listings across the 15 city board, counting everything active alongside everything in contract, with 208 coming soon and 146 brand new today. That is 4 more than yesterday.\n• Fremont: 231 active across all property types, made up of 31 townhomes, 76 condos and 124 detached homes, duplexes and half plexes, plus 99 in contract, 41 coming soon and 15 new today.\n• Five city live ledger: 694 listings across Fremont, Hayward, Milpitas, Newark and Union City, up 8 from yesterday. Fremont 264, Hayward 188, Milpitas 113, Newark 76, Union City 53.\n• The read: new listings stayed thin for a second day, 146 board wide against 154 yesterday and 192 on Wednesday, but coming soon climbed to 208 and Fremont alone is holding 41. That is the pipeline rebuilding for the back half of September. Supply is not leaving, it is queuing.\n\nWhat to tell a client this week: the story changed this morning. All week the market was pricing rate cuts on soft labor data, and one government report undid most of that in a single print. Nobody should panic, and nobody should assume relief is coming in two weeks either. If you are under contract and floating, talk to your lender today. If you are listing in the next month, the coming soon queue says you will have more competition in late September than you would have this week."
+    "note": "Jobs data released Friday, September 4, 2026 by the Bureau of Labor Statistics. The inflation figure is the July CPI, the most recent published.",
+    "commentary": "The economy added 162,000 jobs in August against a consensus of about 53,000. It was the best month since March, a sharp step up from July's 21,000, and it brings the 2026 total to 643,000.\n\nTwo surveys disagreed this week, which is worth knowing. ADP had private payrolls up just 38,000 on Wednesday, the smallest gain since January. The government's Friday number came in more than four times higher. When the two split this widely, the honest read is that the truth sits somewhere between them and the next couple of reports matter more than usual.\n\nUnemployment held at 4.1% for a second month, down from the 4.5% peak last November.\n\nAverage hourly earnings rose 3.09% over the year, $37.75 against $36.62 last August. That is the slowest wage growth since May 2021, and it is running a little behind inflation, which was 3.4% in the July CPI. Context worth keeping: 3.1% is roughly where wage growth sat through 2019. This reads as a return to normal rather than a break.\n\n• Where the hiring was: leisure and hospitality added 62,000, government 35,000, construction 22,000 and manufacturing 16,000. Construction is the line that matters most for housing supply.\n• Where it was not: information lost 23,000 and financial activities lost 11,000.\n\nOn layoffs, the picture is better than the headline number suggests. Challenger counted 52,881 announced cuts in August, up 58% from July but down 38% from a year ago, and the lowest August total since 2022. Through August the year's cuts are down 41% from 2025, and announced hiring plans are up 37%. Artificial intelligence remains the leading reason cited year to date at 116,175 cuts, about 22% of the total, though in August it fell to fourth at 3,462, its quietest month since December 2025.\n\nA note on the charts. We rebuilt all four straight from the Bureau of Labor Statistics rather than reusing the versions circulating this week, and every figure checked out. One difference: October 2025 has no unemployment reading because the household survey was not collected that month, so our line shows a dashed gap where the widely shared version draws a solid line through it.",
+    "feature_images": [
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/jobs-growth-090526.png",
+        "alt": "Bar chart of monthly U.S. payroll change from January 2024 through August 2026, with August 2026 at 162,000 highlighted.",
+        "caption": "August added 162,000 jobs, the strongest month since March, after July's 21,000.",
+        "source": "Source: U.S. Bureau of Labor Statistics, total nonfarm payrolls, seasonally adjusted."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/jobs-unemployment-090526.png",
+        "alt": "Line chart of the U.S. unemployment rate from January 2022 to August 2026, ending at 4.1%, with a dashed segment across October 2025.",
+        "caption": "Unemployment held at 4.1% for a second month, down from the 4.5% peak last November. The dashed segment is October 2025, when no rate was published.",
+        "source": "Source: U.S. Bureau of Labor Statistics, seasonally adjusted."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/jobs-wages-090526.png",
+        "alt": "Line chart of year over year growth in U.S. average hourly earnings from January 2022 to August 2026, ending at 3.1%.",
+        "caption": "Wage growth of 3.09% is the slowest since May 2021, and close to where it ran through 2019.",
+        "source": "Source: U.S. Bureau of Labor Statistics, all employees on private nonfarm payrolls."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/jobs-sectors-090526.png",
+        "alt": "Horizontal bar chart of U.S. employment change by sector from July 2026 to August 2026, led by leisure and hospitality at plus 62,000 and with information down 23,000.",
+        "caption": "Leisure and hospitality, government and construction did the lifting. Information and financial activities gave some back.",
+        "source": "Source: U.S. Bureau of Labor Statistics. Categories overlap and do not sum to the headline."
+      }
+    ]
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://www.bls.gov/news.release/empsit.nr0.htm",
-    "Market Briefs daily newsletter, September 4, 2026",
-    "https://finance.yahoo.com/quote/BZ=F/",
-    "https://finance.yahoo.com/quote/GC=F/",
-    "https://www.stat.go.jp/english/data/kakei/156.html",
-    "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
-    "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
-    "https://www.coingecko.com/"
+    "https://api.bls.gov/publicAPI/v1/timeseries/data/",
+    "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+    "https://www.challengergray.com/wp-content/uploads/2026/09/Challenger-Report-August-2026.pdf",
+    "https://www.bls.gov/news.release/cpi.nr0.htm"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/9fa81f0d-1b1a-4de7-8475-a567d7dbb3bf",
-  "qr_code_path": "note-qr-9fa81f0d.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/72cc3cf1-9f09-4907-8855-cb86b5405647",
+  "qr_code_path": "note-qr-72cc3cf1.png"
 }
