@@ -132,6 +132,24 @@ function checkChartValues(chartData, expected) {
   return { issues, catTotal };
 }
 
+// Which section bars this day's body actually carries. Read off the LOCAL
+// generated page so the live check expects exactly what we published.
+// 2026-09-05: 'CRYPTOCURRENCY' had been hardcoded into the sentinel list, so the
+// jobs-special edition (Real Estate + Economy only, no Stocks or Crypto stat
+// cards) false-FAILED even though all five charts, the disclaimer, the live
+// strip and every chart value were correct on both live pages. This is the SAME
+// bug class the comment below already warned about, one level up: a sentinel
+// that encodes what a typical day looks like rather than what this day is.
+function expectedSections(short) {
+  const ALL = ['REAL ESTATE', 'STOCKS', 'ECONOMY', 'CRYPTOCURRENCY'];
+  try {
+    const body = fs.readFileSync(path.join(__dirname, `alameda-interactive-${short}.html`), 'utf8');
+    const found = ALL.filter((s) => body.includes(s));
+    if (found.length) return found;
+  } catch (_) { /* fall through */ }
+  return ['REAL ESTATE', 'ECONOMY'];
+}
+
 function structural(html, short) {
   return {
     // Truncation sentinels only — these must be STRUCTURAL, never topical. A daily
@@ -139,7 +157,7 @@ function structural(html, short) {
     // false-FAILED every later run whose chart changed subject (caught 07/20).
     // 'Disclaimer' is the LAST element of the newsletter, so it is the real
     // Drupal-truncation check; the section bars prove the body arrived intact.
-    newsletter: ['REAL ESTATE', 'ECONOMY', 'CRYPTOCURRENCY', 'harvrealtor.net/live-inventory', 'Disclaimer']
+    newsletter: [...expectedSections(short), 'harvrealtor.net/live-inventory', 'Disclaimer']
       .every((s) => html.includes(s)),
     // 2026-07-19 redesign: the chart is self-rendering (ranked bars) — Plotly must
     // be GONE from the live body. Its presence means a stale pre-redesign body.
