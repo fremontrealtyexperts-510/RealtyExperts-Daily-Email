@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/05/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/05/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 5, 2026: the August jobs report added 162,000 jobs against a 53,000 forecast, Fed hike odds jumped to 58.4%, mortgage rates held at 6.89% and 6.49%, and the 5 city ledger carries 686 homes.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, August jobs report, nonfarm payrolls, unemployment rate, average hourly earnings, CME FedWatch, Fed rate decision, Challenger job cuts, live inventory
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
