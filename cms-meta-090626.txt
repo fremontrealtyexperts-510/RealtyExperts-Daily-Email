@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/06/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/06/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 6, 2026: California's weekly closed sales, pendings and new listings all fell, yet Fremont went under contract in 12 days against 26 statewide and every local city sold at or above its asking price.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, days on market, sales to list price, C.A.R. market data, California housing market, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
