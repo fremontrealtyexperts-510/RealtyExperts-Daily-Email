@@ -163,6 +163,20 @@ for mk in "$SRC_DIR"/make-*.py; do
 done
 echo "📊 Chart scripts copied: $CHART_SCRIPTS"
 
+# Shared chart modules — added 2026-09-06. chart_brand.py is imported BY the
+# make-*.py scripts but is not itself a make-*.py, so the glob above skipped it
+# and the first push silently left it behind. Any make-*.py that imports it
+# would then crash on the VPS and after the next launchd auto-pull. Same class
+# of miss as generate-daily-email.js on 09/05: if a new file matches no glob,
+# it does not get pushed and nothing tells you.
+for mod in "$SRC_DIR"/chart_brand.py; do
+  if [ -f "$mod" ]; then
+    cp "$mod" "$DST_DIR/$(basename "$mod")"
+    FILES_COPIED=$((FILES_COPIED + 1))
+    echo "🎨 Shared chart module copied: $(basename "$mod")"
+  fi
+done
+
 # Verifier scripts — same rationale as make-*.py above.
 VERIFY_SCRIPTS=0
 for v in "$SRC_DIR"/verify-*.js; do
