@@ -42,7 +42,10 @@ these. That figure is weekly and all property types, and C.A.R.'s monthly
 release does not publish a statewide equivalent, so there is no honest statewide
 counterpart to the city letters' price-cut shares. It belongs in the copy alone.
 
-BRAND MARK: HB monogram bottom right, no name text (Harv, 08/26/26).
+BRAND MARK (Harv, 09/06/26): TWO variants via chart_brand.save_pair().
+  <name>.png     monogram only  -> REALTY EXPERTS email + Agent Hub
+  <name>-hb.png  + HarvRealtor.com -> harvrealtor.com and his other sites
+The wordmark never appears on an Agent Hub surface.
 matplotlib only; build with python3.13 on Mac.
 """
 import sys
@@ -78,24 +81,7 @@ MUTED = "#8a8172"
 FILL = {"state": SLATE, "fremont": DEEP, "ledger": CORAL, "nearby": TAN}
 
 
-def add_logo(fig, path=LOGO, height=0.05, x=0.985, y=0.026, alpha=0.20):
-    """HB monogram, bottom right, deliberately near invisible but CRISP."""
-    try:
-        from PIL import Image
-        import numpy as np
-        src = Image.open(path).convert("RGBA")
-    except (FileNotFoundError, OSError, ImportError):
-        print(f"WARN: {path} unavailable, chart rendered without the brand mark")
-        return False
-    fw, fh = fig.get_size_inches()
-    px_h = max(1, int(round(height * fh * fig.dpi)))
-    px_w = max(1, int(round(src.width * px_h / src.height)))
-    src = src.resize((px_w, px_h), Image.LANCZOS)
-    w = px_w / (fw * fig.dpi)
-    ax = fig.add_axes((x - w, y, w, height), zorder=10)
-    ax.imshow(np.asarray(src), interpolation="none", alpha=alpha)
-    ax.axis("off")
-    return True
+from chart_brand import save_pair  # plain for Agent Hub, -hb for harvrealtor.com
 
 
 fig, ax = plt.subplots(figsize=(12.6, 7.2), dpi=170)
@@ -155,10 +141,7 @@ fig.text(0.008, 0.020,
          "California Association of REALTORS®. Statewide sales-price-to-list-price ratio was 99.3% in July 2026, up from "
          "98.5% a year earlier;\ncity ratios from C.A.R.'s July 2026 city market reports.",
          fontsize=10.5, color=MUTED, linespacing=1.5)
-add_logo(fig)
-
 fig.subplots_adjust(left=0.135, right=0.975, top=0.775, bottom=0.150)
-fig.savefig(OUT, facecolor=CREAM)
-print(f"wrote {OUT}")
+save_pair(fig, OUT, facecolor=CREAM)
 for (lb, ratio, role), d in zip(ROWS, devs):
     print(f"  {lb:<12} {ratio:>6.1f}%  -> {d:+.1f} pts   ({role})")
