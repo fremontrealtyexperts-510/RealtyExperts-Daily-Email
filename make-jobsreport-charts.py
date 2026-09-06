@@ -61,9 +61,20 @@ the current target midpoint at 3.625% and the meeting on Sept 16 (14 to 15 of
 
 Independently corroborated that a HIKE is genuinely what is priced (this is
 counterintuitive enough to be worth a second source): Forbes, Aug 31 2026,
-"CME FedWatch Provides A 66% Chance Fed Will Hike Rates In September". The
-supplied screenshot reads 58.4%, LOWER than that 66%, which is the story: the
-softer wage number in this report cooled hike odds. It did not remove them.
+"CME FedWatch Provides A 66% Chance Fed Will Hike Rates In September".
+
+⚠️ CORRECTED IN SESSION, AND THE ORIGINAL REASONING HERE WAS WRONG. From that
+Forbes 66% on Aug 31 against the screenshot's 58.4%, I concluded the jobs report
+had COOLED hike odds, and drafted that into the copy. It is the wrong direction.
+The video transcript gave the actual day over day: 49.4% the day BEFORE the
+report, 58.4% AFTER. Odds ROSE about nine points, which is also the mechanically
+sensible direction, since a stronger labor market gives the Fed more room to
+move. Both numbers were true: 66% on Aug 31 drifted down to 49.4% by Sep 3, then
+jumped on the report.
+
+The lesson, because it nearly shipped: a same-direction number from a DIFFERENT
+DATE is not the day over day. Any "X moved because of Y" claim needs the reading
+immediately before Y and immediately after Y. Nothing else substitutes.
 
 ⚠️ These are market-implied probabilities from fed funds futures, NOT a
 forecast and NOT a Fed statement. The copy must say so.
