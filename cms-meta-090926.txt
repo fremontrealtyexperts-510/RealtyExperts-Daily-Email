@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/09/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/09/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 9, 2026: mortgage rates held at 6.89% for a third session, Canada's new counter tariffs put 50% on steel and 25% on appliances, and local inventory climbed to 698 live listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, Canada counter tariffs, steel aluminum tariff, renovation costs, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
