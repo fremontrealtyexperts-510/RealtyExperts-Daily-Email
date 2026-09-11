@@ -17,12 +17,13 @@
 # Exit 0 = all surfaces carry that day. Exit 1 = at least one is missing.
 # Mail checks are skipped (not failed) when no MS365 token is present.
 #
-# PAST-DAY MODE (fixed 2026-08-07). Four surfaces are SINGLETONS: they carry only
+# PAST-DAY MODE (fixed 2026-08-07). Five surfaces are SINGLETONS: they carry only
 # the most recent report, by design.
 #   * index.html            — redirects to the latest email
 #   * live-inventory.json   — one live file, rewritten daily
 #   * daily-report.json     — the HarvRealtor app feed, one file, rewritten daily (2026-08-21)
 #   * the alameda-Interactive landing node — one node, re-edited daily
+#   * the thebayarearealestate.com homepage date (Newark, Stage 6, 2026-09-11)
 # Comparing those against a PAST date can only ever fail, so checking yesterday
 # (which CLAUDE.md mandates every run) always exited 1 and then printed recovery
 # advice ending in `node post-to-incom.js`. Following that advice for a past day
@@ -134,6 +135,27 @@ else
   bad "landing carries this day's chart" "found: ${LANDHAS:-none}"
 fi
 
+# thebayarearealestate.com, the Newark partnership site (Stage 6, added 2026-09-11).
+# Stage 6 was MISSED on 09/10/26 and caught only at the next morning's wrap up,
+# because nothing here checked it. The dated brief is a hard check for every date.
+# The homepage date is a SINGLETON (it shows only the latest run), so a past day
+# reports ⏭ moved on. Apex host on purpose: www returns 307, which a plain curl
+# reads as a failure. Read only, against the PUBLIC site; nothing from this
+# workspace flows the other way (privacy boundary, project-tbare-newark-daily-stage).
+echo; echo "── thebayarearealestate.com (Stage 6, Newark)"
+TBARE="https://thebayarearealestate.com"
+NSLUG=$(python3 -c "import datetime,sys;d=datetime.datetime.strptime(sys.argv[1],'%m%d%y');print(f'newark-daily-brief-{d:%B}-{d.day}-{d.year}'.lower())" "$D")
+C=$(code "$TBARE/blog/$NSLUG")
+[ "$C" = "200" ] && ok "Newark daily brief" "$C" || bad "Newark daily brief" "$C  /blog/$NSLUG"
+NHOME=$(curl -s "$TBARE/?cb=$CB" | grep -oE '[0-9]{2}/[0-9]{2}/[0-9]{2}' | sort -u | tr '\n' ' ')
+if grep -q "$SLASH" <<<"$NHOME"; then
+  ok "Newark homepage date" "$SLASH"
+elif [ "$IS_TODAY" -eq 0 ]; then
+  moved "Newark homepage date" "now ${NHOME:-none}(singleton, expected for a past day)"
+else
+  bad "Newark homepage date" "found: ${NHOME:-none}(prerender can lag ~1 min after a push; re-run before recovering)"
+fi
+
 echo; echo "── Email + broadcast"
 TOK=$(python3 -c "import json;print(json.load(open('/tmp/ms365-token.json'))['access_token'])" 2>/dev/null)
 if [ -z "${TOK:-}" ]; then
@@ -176,6 +198,10 @@ else
     echo "            node edit-incom-node.js --node <id> --date $SLASH   # existing node"
     echo "          Leave the landing node alone; the next daily run refreshes it."
   fi
+  echo "     Newark brief missing? run Stage 6 (daily-report skill section 4.7):"
+  echo "       cd /tmp/tbare && node scripts/update-newark-listings.mjs /tmp/mls-today.csv --date $SLASH"
+  echo "       then the brief, tsc + tests, commit as thebayarearealestate, push (gh auth switch)"
+  [ "$IS_TODAY" -eq 0 ] && echo "       ⚠️  past day: /tmp/mls-today.csv is TODAY's sheet. Dump $SLASH's dated sheet first (recipe in project-tbare-newark-daily-stage)."
   echo "     App feed (daily-report.json) missing or stale? regenerate + push:"
   echo "       node generate-app-report.js && bash push-to-github.sh"
   echo "     Pages missing? the deploy may have failed on a runner hiccup:"
