@@ -9,7 +9,7 @@
     <array>
         <string>/bin/bash</string>
         <string>-lc</string>
-        <string>"/Users/harvinderbalu1/Library/CloudStorage/OneDrive-Personal/ClaudeCode/RealtyExperts-Daily-Email/pull-from-github.sh"</string>
+        <string>"/Users/harvinderbalu1/Library/Application Support/harvbalu-realty-email-pull/run-pull.sh"</string>
     </array>
 
     <key>StartInterval</key>

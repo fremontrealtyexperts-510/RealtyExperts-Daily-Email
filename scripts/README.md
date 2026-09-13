@@ -8,7 +8,21 @@ Files in this folder set up the bidirectional Mac and VPS sync. See
 | File | Lives on | Purpose |
 |---|---|---|
 | `git-sync-pull.sh` | VPS, runs from cron | Periodic `git pull --rebase --autostash` from origin/main |
-| `com.harvbalu.realty-email-pull.plist` | Mac, runs via launchd | Periodic `pull-from-github.sh` (which lives in repo root) |
+| `mac-launchd/run-pull.sh` + `com.harvbalu.realty-email-pull.plist` | Mac, launchd every 15 min | Runs `pull-from-github.sh` (repo root) from a local clone; copies only files GitHub changed into the Drive workspace |
+| `mac-launchd/run-refresh.sh` + `com.harvbalu.live-inventory-refresh.plist` | Mac, launchd 9:00 / 11:00 / 15:00 PT | Runs `refresh-live-inventory.sh` from a local clone |
+| `mac-launchd/run-backstop.sh` + `com.harvbalu.realty-broadcast-backstop.plist` | Mac, launchd 10:30 / 13:30 PT | Runs `broadcast-backstop.js` (gitignored, copied from Drive) from a local clone |
+
+### Why the Mac jobs go through wrappers (2026-09-13)
+
+launchd must not run code off the Google Drive mount. Under launchd the Drive File
+Provider fails reads and writes with EDEADLK (bash exit 126 "Resource deadlock
+avoided", Node "Unknown system error -11"), and all three jobs had been failing
+silently: the pull since 2026-08-12. Each wrapper lives in its own folder under
+`~/Library/Application Support/`, keeps a local clone of this repo reset to
+origin/main every run, copies only the gitignored files it needs from Drive (keeping
+the last good copies if Drive is unreadable), and runs the job from the clone. The
+wrappers read nothing secret from this repo: the gh token is fetched at run time and
+sent as a header, never written into a URL or `.git/config`.
 
 ## Fresh-machine setup
 
@@ -66,33 +80,52 @@ systemctl is-active cron
 # 1. Have GitHub CLI auth for the fremontrealtyexperts-510 user
 gh auth login -u fremontrealtyexperts-510
 
-# 2. Clone repo (ANY path; default is OneDrive but it works elsewhere too)
-git clone https://github.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email.git \
-  "$HOME/Library/CloudStorage/OneDrive-Personal/ClaudeCode/RealtyExperts-Daily-Email"
-cd "$HOME/Library/CloudStorage/OneDrive-Personal/ClaudeCode/RealtyExperts-Daily-Email"
+# 2. The workspace lives in Google Drive (the wrappers expect this exact path):
+#    ~/Library/CloudStorage/GoogleDrive-harvinder.balu@gmail.com/My Drive/ClaudeCode/RealtyExperts-Daily-Email
+#    Drop in secrets manually (NOT in git): .env, harvrealtor-*.json, .credentials.enc,
+#    and broadcast-backstop.js (gitignored).
+WS="$HOME/Library/CloudStorage/GoogleDrive-harvinder.balu@gmail.com/My Drive/ClaudeCode/RealtyExperts-Daily-Email"
 
-# 3. npm install
-npm install
+# 3. Install the three wrappers OFF Drive, one folder each (plists hardcode
+#    /Users/harvinderbalu1; edit them if your username differs)
+AS="$HOME/Library/Application Support"
+install -d "$AS/harvbalu-realty-email-pull" "$AS/harvbalu-live-inventory" "$AS/harvbalu-broadcast-backstop"
+install -m 755 "$WS/scripts/mac-launchd/run-pull.sh"     "$AS/harvbalu-realty-email-pull/"
+install -m 755 "$WS/scripts/mac-launchd/run-refresh.sh"  "$AS/harvbalu-live-inventory/"
+install -m 755 "$WS/scripts/mac-launchd/run-backstop.sh" "$AS/harvbalu-broadcast-backstop/"
 
-# 4. Install the launchd plist (path-corrected — edit if your username differs)
-PLIST_SRC="scripts/com.harvbalu.realty-email-pull.plist"
-PLIST_DST="$HOME/Library/LaunchAgents/com.harvbalu.realty-email-pull.plist"
-cp "$PLIST_SRC" "$PLIST_DST"
-launchctl unload "$PLIST_DST" 2>/dev/null || true
-launchctl load "$PLIST_DST"
+# 4. Optional, avoids a full compare on the pull job's first pass: seed its SHA cache
+cp "$WS/.git-pull-last-sha" "$AS/harvbalu-realty-email-pull/" 2>/dev/null || true
 
-# 5. Verify
-launchctl list | grep realty-email-pull
+# 5. Install and load the plists
+for J in realty-email-pull live-inventory-refresh realty-broadcast-backstop; do
+  cp "$WS/scripts/mac-launchd/com.harvbalu.$J.plist" "$HOME/Library/LaunchAgents/"
+  launchctl bootout "gui/$(id -u)/com.harvbalu.$J" 2>/dev/null || true
+  launchctl bootstrap "gui/$(id -u)" "$HOME/Library/LaunchAgents/com.harvbalu.$J.plist"
+done
 
-# 6. Drop in secrets manually (NOT in git): .env, harvrealtor-*.json, .credentials.enc
+# 6. Verify: run each once and expect "last exit code = 0"
+for J in realty-email-pull live-inventory-refresh realty-broadcast-backstop; do
+  launchctl kickstart -k "gui/$(id -u)/com.harvbalu.$J"
+done
+sleep 90
+for J in realty-email-pull live-inventory-refresh realty-broadcast-backstop; do
+  printf '%s: ' "$J"; launchctl print "gui/$(id -u)/com.harvbalu.$J" | grep "last exit"
+done
 ```
+
+The live copies of the wrappers are the ones in `~/Library/Application Support/`.
+If you change one, copy it back into `scripts/mac-launchd/` and commit, so a rebuilt
+Mac gets the same version.
 
 ## Removing the auto-sync
 
 - VPS: `crontab -e`, delete the `git-sync-pull.sh` line
-- Mac: `launchctl unload ~/Library/LaunchAgents/com.harvbalu.realty-email-pull.plist`
+- Mac: `launchctl bootout gui/$(id -u)/com.harvbalu.realty-email-pull`
 
 ## Logs
 
 - VPS: `~/workspaces/RealtyExperts-Daily-Email/.git-sync.log` (only writes on changes/errors)
-- Mac: `~/Library/Logs/com.harvbalu.realty-email-pull.{out,err}.log` + workspace `.git-pull.log`
+- Mac: `~/Library/Logs/com.harvbalu.<job>.{out,err}.log`; the pull job's own
+  `.git-pull.log` and SHA cache are in `~/Library/Application Support/harvbalu-realty-email-pull/`
+  (the workspace copies are for manual runs only)
