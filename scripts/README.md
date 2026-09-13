@@ -8,6 +8,10 @@ Files in this folder set up the bidirectional Mac and VPS sync. See
 | File | Lives on | Purpose |
 |---|---|---|
 | `git-sync-pull.sh` | VPS, runs from cron | Periodic `git pull --rebase --autostash` from origin/main |
+| `live-inventory-backstop-cron.sh` | VPS, cron 9:30 / 11:30 / 15:30 PT | Backstops the Mac live-inventory refresh; publishes with the SSH deploy key |
+| `broadcast-backstop-cron.sh` | VPS, cron 10:45 / 13:45 / 16:30 PT | Backstops the daily Agent Hub broadcast (`broadcast-backstop.js`, gitignored, copy it in by hand) |
+| `git-sync-push.sh` | VPS, run by hand (not in cron) | Allowlisted VPS to GitHub handoff push; never integrates, skips unless level with origin |
+| `notes-scheduler-sweep.sh` | VPS, cron every 5 min | Notes scheduler sweep |
 | `mac-launchd/run-pull.sh` + `com.harvbalu.realty-email-pull.plist` | Mac, launchd every 15 min | Runs `pull-from-github.sh` (repo root) from a local clone; copies only files GitHub changed into the Drive workspace |
 | `mac-launchd/run-refresh.sh` + `com.harvbalu.live-inventory-refresh.plist` | Mac, launchd 9:00 / 11:00 / 15:00 PT | Runs `refresh-live-inventory.sh` from a local clone |
 | `mac-launchd/run-backstop.sh` + `com.harvbalu.realty-broadcast-backstop.plist` | Mac, launchd 10:30 / 13:30 PT | Runs `broadcast-backstop.js` (gitignored, copied from Drive) from a local clone |
@@ -66,8 +70,18 @@ chmod +x "$SCRIPT"
 ( crontab -l 2>/dev/null | grep -v "git-sync-pull.sh" ; \
   echo "*/15 * * * * /bin/bash $SCRIPT" ) | crontab -
 
+# 7b. Install the two backstop cron entries (system TZ must be America/Los_Angeles,
+#     so these times are Pacific). broadcast-backstop.js is gitignored: copy it in by hand.
+S="$HOME/workspaces/RealtyExperts-Daily-Email/scripts"
+chmod +x "$S/live-inventory-backstop-cron.sh" "$S/broadcast-backstop-cron.sh"
+( crontab -l 2>/dev/null | grep -v -E "live-inventory-backstop-cron.sh|broadcast-backstop-cron.sh" ; \
+  for h in 9 11 15; do echo "30 $h * * * /bin/bash $S/live-inventory-backstop-cron.sh"; done ; \
+  echo "45 10 * * * /bin/bash $S/broadcast-backstop-cron.sh" ; \
+  echo "45 13 * * * /bin/bash $S/broadcast-backstop-cron.sh" ; \
+  echo "30 16 * * * /bin/bash $S/broadcast-backstop-cron.sh" ) | crontab -
+
 # 8. Verify
-crontab -l | grep git-sync-pull
+crontab -l | grep -E "git-sync-pull|backstop-cron"
 systemctl is-active cron
 
 # 9. Drop in secrets manually (NOT in git): .env, harvrealtor-*.json, .credentials.enc
