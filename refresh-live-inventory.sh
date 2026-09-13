@@ -15,10 +15,11 @@
 #
 # Runs from Mac launchd (com.harvbalu.live-inventory-refresh, 9:00 / 11:00 /
 # 15:00 PT) through a LOCAL wrapper, ~/Library/Application Support/
-# harvbalu-live-inventory/run-refresh.sh, which sets LIVE_INV_SRC_DIR to this
-# Drive folder. launchd must not read a script on the Drive mount: when the
-# File Provider wedges, bash fails with exit 126 "Resource deadlock avoided"
-# and every run is lost (Sep 11 2026). The VPS backstop cron (9:30 / 11:30 /
+# harvbalu-live-inventory/run-refresh.sh, which runs this file from a local
+# clone of this repo (LIVE_INV_SRC_DIR) and names the Drive folder as
+# LIVE_INV_MIRROR_DIR. launchd must not read code on the Drive mount: the File
+# Provider fails those reads with EDEADLK (bash exit 126, Node "Unknown system
+# error -11") and every run is lost (Sep 11 2026). The VPS backstop cron (9:30 / 11:30 /
 # 15:30) runs this same file from its git clone and publishes with the SSH
 # deploy key. Safe to run by hand any time:
 #   ./refresh-live-inventory.sh
@@ -183,10 +184,11 @@ rm -rf "$DST_DIR"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Published:$PUBLISH (live $NEW_DATE, assistant ${NEW_ASSIST:-n/a})"
 
 # Mirror the fresh assistant file back to Drive so push-to-github.sh never
-# sees a stale copy there. Mac only (on the VPS SRC_DIR is a git working tree
-# that must stay clean for auto-pull), best effort, LAST.
-if [ "$ASSIST_MOVED" = 1 ] && [ "$(uname)" = Darwin ]; then
-  cp "$STAGE/assistant-inventory.json" "$SRC_DIR/assistant-inventory.json" 2>/dev/null \
+# sees a stale copy there. Only when the Mac wrapper names a mirror dir (on
+# the VPS SRC_DIR is a git working tree that must stay clean for auto-pull),
+# best effort, LAST.
+if [ "$ASSIST_MOVED" = 1 ] && [ -n "${LIVE_INV_MIRROR_DIR:-}" ]; then
+  cp "$STAGE/assistant-inventory.json" "$LIVE_INV_MIRROR_DIR/assistant-inventory.json" 2>/dev/null \
     || echo "WARN: could not mirror assistant-inventory.json back to Drive"
 fi
 
