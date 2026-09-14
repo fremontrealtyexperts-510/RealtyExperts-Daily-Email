@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/14/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/14/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 14, 2026: consumer prices rose 3.4%, Fed hike odds sit near 85%, the 30-year mortgage rate hit a one year high of 7.17%, Dell's AI backlog reached $95 billion, and local inventory eased to 707 live listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, 7% mortgage rate, conforming loan limit, Consumer Price Index, CPI, inflation, Fed rate hike, Dell, AI servers, Oracle, Brent crude, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
