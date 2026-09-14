@@ -1,62 +1,65 @@
 {
-  "date": "09/11/26",
-  "time": "9:05 AM PT",
+  "date": "09/14/26",
+  "time": "11:31 AM PT",
   "real_estate": {
-    "rate_30year": "7.07%",
-    "rate_15year": "6.62%",
-    "homebuilder": "Rates are holding at 7.07% for now, but the 10-Year just closed at 4.95%, its highest since at least January 2024, and the Fed meets Wednesday with a hike priced in.",
-    "commentary": "Mortgage News Daily still has the 30-year at 7.07% and the 15-year at 6.62%, Thursday's readings and the highest in at least a year. Friday's numbers post around 1 PM PT, and the setup is not friendly: the 10-Year jumped 0.12 on Thursday to 4.95%, and mortgage rates follow the 10-Year.\n\nThe reason sits in the Economy section. Wholesale prices ran hot, and traders now put 85.6% odds on a quarter-point Fed hike next Wednesday, per CME FedWatch. The Fed does not set mortgage rates, but it keeps the pressure on the bond yields that do.\n\n• The local math: at Fremont's median list price of $1,249,000, a 20% down loan is $999,200, which is jumbo. At MND's jumbo 30-year of 7.20%, principal and interest run about $6,782 a month.\n• Every eighth of a point on that loan is about $85 a month, which is why rate lock timing matters more than usual next week.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,760 listings across our 15 city table, counting active and in contract together, with 187 coming soon and 255 brand new.\n• Five city ledger: 720 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 631 are already on the market and 89 are coming soon.\n• Fremont: 272 live, 206 active, 37 coming soon, 29 brand new. The median on market list price is $1,249,000 at $825 a square foot, and the typical active listing has been out 25 days.\n• The rest of the ledger: Hayward 183, Milpitas 123, Newark 88, Union City 54.\n• Across all five cities the median is $1,098,888 at $698 a square foot. 278 homes are priced under a million, and 156 have been sitting 60 days or longer.\n\nWhat this means for you: supply jumped by 24 in a day, to 720 live listings from 696, with 115 arriving in the past week, so buyers have more to choose from. The pressure is on the payment, not the selection. Buyers in contract should talk to their lender about locking before Wednesday's Fed decision. For sellers, 156 homes past the 60 day mark says price for a 7% market."
+    "rate_30year": "7.17%",
+    "rate_15year": "6.70%",
+    "homebuilder": "Mortgage rates just hit a one year high of 7.17%, and the Fed meets Wednesday with markets pricing about an 85% chance of a hike.",
+    "commentary": "Mortgage News Daily has the 30-year at 7.17% and the 15-year at 6.70%, both up 0.05 from Friday and the highest readings of the past year. The newsletter's 7.12% and 6.65% were Friday's numbers.\n\nThe reason is inflation. Consumer prices rose 3.4% over the past year in August, and the Fed meets Wednesday. Kalshi and Polymarket both put the odds of a quarter-point hike at 84.5% this morning. The Fed does not set mortgage rates, but a hike keeps the pressure on the bond yields that do, and the 10-Year closed Friday at 4.96%, its highest close since at least January 2024.\n\n• The local math: at Fremont's median list price of $1,249,000, a 20% down loan is $999,200. That fits under Alameda County's $1,249,125 high-balance conforming limit, so it is not a jumbo. At MND's 30-year of 7.17%, principal and interest run about $6,762 a month, and high-balance loans often price a little above that.\n• Every eighth of a point on that loan is about $84 a month, which is why lock timing around Wednesday matters.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,766 listings across our 15 city table, counting active and in contract together, with 195 coming soon and 311 brand new.\n• Five city ledger: 707 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 616 are already on the market and 91 are coming soon.\n• Fremont: 264 live, 200 active, 39 coming soon, 25 brand new. The median on market list price is $1,249,000 at $824 a square foot, and the typical active listing has been out 27 days.\n• The rest of the ledger: Hayward 178, Milpitas 123, Newark 85, Union City 57.\n• Across all five cities the median is $1,099,450 at $696 a square foot. 267 homes are priced under a million, and 160 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger slipped by 13 over the weekend, to 707 live listings from 720 on Friday, even with 116 arriving in the past week. Fremont gave up 8 and Hayward 5, while Union City added 3. Buyers in contract should talk to their lender about locking before Wednesday's Fed decision. For sellers, 160 homes past the 60 day mark says price for a 7% market, not a 6% one."
   },
   "stocks": {
-    "sp500": "7,591.70 (-0.58%)",
-    "dow": "52,064.10 (-0.60%)",
-    "nasdaq": "26,081.72 (-0.65%)",
-    "note": "Levels are Thursday, September 10 at the closing bell. Friday is live: at 9:02 AM PT the S&P was 7,673.37 (+1.08%), the Dow 52,608.16 (+1.04%) and the Nasdaq 26,404.21 (+1.24%).",
-    "news": "Twenty-five years ago today, nearly 3,000 people lost their lives in the September 11 attacks. We remember them, their families, and the first responders.\n\nThursday made it four losing sessions in a row, each index down about six tenths of a percent. Friday opened with a bounce, all three up about 1% by mid morning.\n\nTaiwan Semiconductor had the record of the day. TSMC's August revenue came in at NT$514.8 billion, up 53.3% from a year ago and 10.1% above July, its fourth straight monthly gain and its first month above NT$500 billion. That is about US$16.1 billion at August's average exchange rate of 32.0 Taiwan dollars per dollar; the newsletter's $16.4 billion assumes a stronger Taiwan dollar. AI chip demand is the whole story.\n\nToday's chart is the one making the rounds, and its numbers check out to the cent: TSM closed Thursday at $428.03, up 40.9% from its December 31 close of $303.89. Our version adds the two things the original leaves out: the baseline that 41% is measured from, and the fact that the stock is still 10.4% below its June 30 high of $477.57. The shares were up about 1.6% Friday morning.",
+    "sp500": "7,656.98 (+0.86%)",
+    "dow": "52,573.29 (+0.98%)",
+    "nasdaq": "26,333.04 (+0.96%)",
+    "note": "Levels are Friday, September 11 at the closing bell. Monday is live: at 11:19 AM PT the S&P was 7,635.80 (-0.28%), the Dow 52,437.72 (-0.26%) and the Nasdaq 26,298.74 (-0.13%).",
+    "news": "Friday snapped a four day losing streak, all three indexes up close to 1%. Monday is giving a little of it back, with all three modestly lower at midday.\n\nDell was Friday's star, up 11.98% to a record $567.29 after RBC Capital Markets started coverage at outperform with a $640 target, pointing to the AI server business. The newsletter's text said 10%; its ticker had it right.\n\nToday's chart is the one making the rounds, and its numbers are right: Dell's AI server backlog went from $43 billion in January to $51.3 billion in May to $95 billion at the end of July. Nearly doubled is a stretch; it rose 85% in one quarter. Our version adds the why. Dell booked $60.9 billion of AI server orders last quarter, more than its entire $47.0 billion of revenue, while shipping $16.4 billion, about the same as the quarter before. Orders are outrunning shipping, and Dell raised its AI server forecast for the fiscal year to $74 billion from $60 billion. The shares were down about 4% Monday late morning.\n\nOracle went the other way. A filing Friday showed Larry Ellison planned to sell up to 50 million Oracle shares, about $7.5 billion; on Saturday he canceled the plan, and Oracle says none were sold. The stock fell 1.74% Friday and was down about 4.5% Monday.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/tsmc-ytd-091126.png",
-      "alt": "Line chart of Taiwan Semiconductor (TSM) daily closing prices from December 31, 2025 to September 10, 2026, rising from $303.89 to $428.03, up 40.9%, with a June 30 high of $477.57 and a March 30 low of $316.50.",
-      "caption": "TSM closed Thursday at $428.03, up 40.9% on the year and still 10.4% below its June 30 high. August revenue was a record NT$514.8 billion, up 53.3%.",
-      "source": "Source: TSM daily closing prices via Yahoo Finance; TSMC monthly revenue report, August 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/dell-backlog-091426.png",
+      "alt": "Bar chart of Dell's AI-optimized server backlog at fiscal quarter end: $43 billion in January 2026, $51.3 billion in May 2026 and $95 billion in July 2026, with quarterly orders of $34.1, $24.4 and $60.9 billion and shipments of $9.5, $16.1 and $16.4 billion.",
+      "caption": "Dell's AI server backlog rose 85% last quarter, to $95 billion, as $60.9 billion of orders far outran $16.4 billion of shipments.",
+      "source": "Source: Dell Technologies results for fiscal Q4 2026, Q1 2027 and Q2 2027, reported February 26, May 28 and September 1, 2026."
     }
   },
   "economy": {
-    "us10year": "4.95% (+0.12%)",
-    "gold": "$4,358.50 (-1.99%)",
-    "silver": "$64.09 (-5.65%)",
-    "wti": "$107.63 (+6.34%)",
+    "us10year": "4.96% (+0.01%)",
+    "gold": "$4,408.90 (+1.16%)",
+    "silver": "$65.19 (+1.72%)",
+    "wti": "$104.61 (-2.81%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Thursday, September 10. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Thursday's 1:00 PM PT print measured against Wednesday's same time print, and Brent is the ICE front month settlement. Friday so far: at 8:52 AM PT gold was $4,413.70, silver $65.02, and Brent was trading near $104.74, a live tick, not a settlement.",
-    "commentary": "Wholesale prices are the story. The Producer Price Index rose 0.4% in August and 5.4% over the past year. Energy drove the month: final demand energy rose 4.2%, diesel jumped 24.1%, and BLS says energy accounted for over three fourths of the rise in goods prices.\n\nToday's chart is the second one making the rounds, and its numbers are right. The headline, energy did the heavy lifting, is true of August. It is less true of the year: take out food, energy and trade and producer prices are still up 4.7%, and services are up 4.5%, both more than twice the Fed's 2% goal. Our version adds services and the month's detail so both halves show. The Fed's goal is for consumer prices, so read it as a yardstick.\n\nThat is why markets moved toward a hike, not a cut. The Fed meets next Wednesday, and CME FedWatch puts the odds of a quarter-point increase at 85.6%, up from 48.4% on August 11. The 10-Year jumped to 4.95%, its highest close since at least January 2024.\n\nOil kept climbing. Brent settled at $107.63 on Thursday, up 6.3% and its highest settlement since May 19, as Iran said it was ready for a wider conflict after the U.S. destroyed five of its tankers. It eased to about $104.74 Friday morning. Metals went the other way: at Thursday's 1:00 PM PT print gold fell 2.0% to $4,358.50 and silver 5.6% to $64.09, and both were bouncing Friday morning.\n\nA note on the newsletter's numbers: its stock, rate and PPI figures check out, including diesel's 24% jump. It had the 10-Year at 4.96% against Treasury's 4.95%, gold down 2.29% where the same time prints show 1.99%, and Brent at $108.63, up 7.28%, against the $107.63 settlement, up 6.34%. Silver was omitted again.",
+    "note": "All four are Friday, September 11. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Friday's 1:00 PM PT print measured against Thursday's same time print, and Brent is the ICE front month settlement. Monday so far: at 11:10 AM PT gold was $4,352.50, silver $64.19, and Brent was trading near $105.66, a live tick, not a settlement.",
+    "commentary": "Inflation is the story. Consumer prices rose 0.4% in August and 3.4% over the past year. Energy did most of the damage: the energy index is up 16.3% in a year, gasoline 27.4% and fuel oil 52%. Strip out food and energy and core prices are up 2.4%, the lowest reading this year.\n\nToday's chart is the second one making the rounds, and all sixteen of its points match BLS. Its headline is right about the year: the gap between the two lines is energy. What it leaves out is the month. Core rose 0.3% in August, its biggest monthly gain since April, and at 2.4% it is still above the Fed's 2% goal. That goal is set for a different gauge, PCE, so read it as a yardstick.\n\nThat is why the Fed is expected to hike Wednesday, not cut. Kalshi and Polymarket both put a quarter-point hike at 84.5% this morning; the newsletter said 90%. The 10-Year closed Friday at 4.96%, its highest close since at least January 2024.\n\nOil eased from its high. Brent settled at $104.61 Friday, down 2.8% after Thursday's jump to $107.63, and was trading near $105.66 Monday. Metals bounced: at Friday's 1:00 PM PT print gold rose 1.2% to $4,408.90 and silver 1.7% to $65.19, and both were lower again Monday morning.\n\nA note on the newsletter's numbers: its stock, CPI and fuel oil figures check out. It had the 10-Year at 4.97% against Treasury's 4.96%, gold at $4,386, down 0.51%, where the same time prints show $4,408.90, up 1.16%, and Brent at $107.39, up 2.66%, where the settlement was $104.61, down 2.81%. Its mortgage rates were Friday's, and silver was left out again.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/ppi-energy-091126.png",
-      "alt": "Bar chart of producer price changes over the 12 months through August 2026: energy 24.4%, all final demand 5.4%, core excluding food, energy and trade 4.7%, services 4.5%, against the Fed's 2% goal for consumer prices.",
-      "caption": "Energy led August, rising 4.2% in the month with diesel up 24.1%. Over the year, producer prices excluding food, energy and trade are still up 4.7%, more than twice the Fed's 2% goal.",
-      "source": "Source: U.S. Bureau of Labor Statistics, Producer Price Index for August 2026, released September 10, 2026. 12 month changes are unadjusted."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/cpi-energy-091426.png",
+      "alt": "Line chart of U.S. consumer price inflation, 12 month change, January to August 2026: headline CPI rising from 2.4% to a 4.2% peak in May and ending at 3.4%, core CPI between 2.4% and 2.9% and ending at 2.4%, against the Fed's 2% goal.",
+      "caption": "Headline inflation is 3.4% and core is 2.4%; the gap between them is energy, up 16.3% in a year. Core still rose 0.3% in August.",
+      "source": "Source: U.S. Bureau of Labor Statistics, Consumer Price Index for August 2026, released September 11, 2026."
     }
   },
   "crypto": {
-    "btc": "$77,702 (+0.63%)",
-    "eth": "$2,559.75 (+4.82%)",
-    "xrp": "$1.37 (+1.28%)",
-    "commentary": "Live quotes pulled at 9:00 AM PT with 24 hour changes. All three are higher with Friday's bounce, and Ether leads, up almost 5%.\n\nNasdaq is buying into crypto plumbing. Its venture arm is putting $100 million into Payward, the parent of the Kraken exchange, at a $21 billion valuation, to distribute tokenized versions of Nasdaq-listed stocks with a launch planned for 2027. Tokens are blockchain versions of shares that can trade around the clock.\n\nWashington gets its turn Tuesday. The Senate holds a procedural vote on the Clarity Act, the bill that would decide which regulator oversees which coins and exchanges, and it needs 60 votes to move forward, which means it needs some Democrats."
+    "btc": "$78,858 (+1.96%)",
+    "eth": "$2,531.21 (+0.97%)",
+    "xrp": "$1.44 (+6.05%)",
+    "commentary": "Live quotes pulled at 11:17 AM PT with 24 hour changes. All three are higher, and XRP leads, up about 6%.\n\nWashington votes Tuesday. The Senate holds a procedural vote on the Clarity Act at 11:15 AM PT, the bill that would decide which regulator oversees which coins and exchanges. It needs 60 votes, so even with every Republican it needs at least seven Democrats or independents.\n\nBanks keep inching in. Italy's UniCredit, with more than 20 million customers, is picking a technology partner to hold and trade digital assets for its clients, Bloomberg reported Friday. No vendor has been chosen yet."
   },
   "sources": [
-    "https://www.mortgagenewsdaily.com/mortgage-rates",
+    "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
+    "https://communityfirstmortgage.com/alameda-county-conforming-loan-limits-2026/",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.bls.gov/news.release/ppi.nr0.htm",
-    "https://investor.tsmc.com/english/monthly-revenue/2026",
-    "https://pr.tsmc.com/english/news/3340",
-    "https://finance.yahoo.com/quote/TSM/",
-    "https://247wallst.com/investing/2026/09/11/with-just-5-days-to-next-fomc-meeting-odds-of-fed-rate-hike-surge-to-over-85/",
-    "https://www.bloomberg.com/news/articles/2026-09-09/latest-oil-market-news-and-analysis-for-sept-10",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~09~dell-technologies-delivers-second-quarter-fiscal-2027-financial-results.htm",
+    "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~05~dell-technologies-delivers-first-quarter-fiscal-2027-financial-results.htm",
+    "https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-3",
+    "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html",
+    "https://www.cnbc.com/2026/09/12/larry-ellison-nixes-plan-to-offload-up-to-7point5-billion-worth-of-oracle-stock-.html",
+    "https://finance.yahoo.com/quote/DELL/",
+    "https://defirate.com/prediction-markets/fed-decision-odds/",
     "https://finance.yahoo.com/quote/BZ%3DF/",
     "https://finance.yahoo.com/quote/GC%3DF/",
     "https://finance.yahoo.com/quote/SI%3DF/",
-    "https://www.cnbc.com/2026/09/10/nasdaq-invests-100-million-in-crypto-firm-eyes-2027-launch-of-tokenized-stocks.html",
-    "https://finance.yahoo.com/markets/crypto/articles/clarity-act-fate-hinges-senate-071251169.html",
+    "https://www.pymnts.com/legal/2026/clarity-act-faces-sept-15-make-or-break-vote-in-senate/",
+    "https://cryptopotato.com/unicredit-weighs-crypto-custody-and-brokerage-hunts-for-a-technology-provider/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/5c8aede7-b0df-4345-ba15-af1a07da535b",
-  "qr_code_path": "note-qr-5c8aede7.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/80640aca-414b-4f4b-9404-c1f310200da7",
+  "qr_code_path": "note-qr-80640aca.png"
 }
