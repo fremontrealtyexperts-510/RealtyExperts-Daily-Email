@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/16/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/16/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 16, 2026: the Fed raised rates a quarter point to 3.75% to 4.00%, its first hike since July 2023, the 10-Year closed at 5% for the first time since 2007, mortgage rates sat near a one year high at 7.19%, and local inventory held at 706 live listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, Fed rate hike, federal funds rate, FOMC, 10-year Treasury, 5% Treasury yield, CBO, defense costs, Trump Accounts, children's savings accounts, Clarity Act, crypto, Harv Balu
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
