@@ -1,93 +1,76 @@
 {
-  "date": "09/15/26",
-  "time": "8:18 AM PT",
+  "date": "09/16/26",
+  "time": "11:36 AM PT",
   "real_estate": {
-    "rate_30year": "7.17%",
-    "rate_15year": "6.70%",
-    "homebuilder": "The 10-Year touched 5% for the first time since 2023, mortgage rates sit at a one year high of 7.17%, and the Fed is expected to hike on Wednesday.",
-    "commentary": "Mortgage News Daily has the 30-year at 7.17% and the 15-year at 6.70%, Monday's readings and the highest of the past year. Tuesday's numbers post around 1 PM PT.\n\nThe bond market is why. The 10-Year touched 5.01% during trading Monday, its first trip to 5% since October 2023, and closed at 4.97%, its highest close since then. It was trading just above 5% again this morning, and mortgage rates follow the 10-Year.\n\nThe Fed decides Wednesday at 11 AM PT. CME FedWatch puts the odds of a quarter-point hike at 92.3%, up from 48.4% a month ago. A hike would lift the Fed's range to 3.75% to 4.00%, its first increase since 2023. The Fed does not set mortgage rates, but it sets the tone for the bonds that do.\n\n• The local math: at Fremont's median list price of $1,249,500, a 20% down loan is $999,600, under Alameda County's $1,249,125 high-balance conforming limit. At MND's 30-year of 7.17%, principal and interest run about $6,765 a month, and high-balance loans often price a little above that.\n• Every eighth of a point on that loan is about $84 a month.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,737 listings across our 15 city table, counting active and in contract together, with 209 coming soon and 268 brand new.\n• Five city ledger: 707 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are already on the market and 96 are coming soon.\n• Fremont: 265 live, 201 active, 41 coming soon, 23 brand new. The median on market list price is $1,249,500 at $823 a square foot, and the typical active listing has been out 28 days.\n• The rest of the ledger: Hayward 175, Milpitas 120, Newark 87, Union City 60.\n• Across all five cities the median is $1,100,000 at $698 a square foot. 265 homes are priced under a million, and 165 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger held at 707, but more of it is waiting. Coming soon rose to 96 from 91, and 165 homes are past 60 days, up from 160. Buyers in contract should talk to their lender before Wednesday's Fed decision. Sellers: price for 7%, because that is where rates are.",
+    "rate_30year": "7.19%",
+    "rate_15year": "6.81%",
+    "homebuilder": "The Fed raised rates today for the first time since 2023, a quarter point to 3.75% to 4.00%, just as the odds we reported all week pointed to.",
+    "commentary": "🔔 The Fed just raised rates:\n\nAt 11 AM PT the Federal Reserve raised its target range by a quarter point, to 3.75% to 4.00%. It is the Fed's first increase since July 2023. The vote was 12 to 0, and the new rate takes effect Thursday.\n\nWe flagged this one. Our September 11 edition put the odds of a hike at 85.6%, Monday's at about 85%, and Tuesday's at 92.3%, and markets had it at 92.7% this morning. The Fed's statement says inflation \"remains elevated\" and that the move supports a timelier return to its 2% goal.\n\nWhat comes next: the Fed's new projections put its rate at 4.1% at the end of this year and again at the end of next year, up from 3.8% and 3.6% in June. In plain terms, the typical Fed official now expects one more quarter point increase this year and no net change in 2027.\n\nWhat it means for mortgages: the Fed does not set mortgage rates, and this hike was widely expected, so much of it was already built into rates. Mortgage News Daily had the 30-year at 7.19% and the 15-year at 6.81% this morning, before the announcement, just under Tuesday's 7.22% and 6.82%, the highest readings of the past year. The 10-Year closed Tuesday at 5.00%, its first close at 5% or higher since July 2007, and was near 4.96% after the decision.\n\n• The local math: at Fremont's median list price of $1,250,000, a 20% down loan is $1,000,000, under Alameda County's $1,249,125 high-balance conforming limit. At 7.19%, principal and interest run about $6,781 a month, and high-balance loans often price a little above that.\n• Every eighth of a point on that loan is about $85 a month.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,722 listings across our 15 city table, counting active and in contract together, with 210 coming soon and 242 brand new.\n• Five city ledger: 706 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are already on the market and 95 are coming soon.\n• Fremont: 259 live, 197 active, 41 coming soon, 21 brand new. The median on market list price is $1,250,000 at $816 a square foot, and the typical active listing has been out 29 days.\n• The rest of the ledger: Hayward 179, Milpitas 123, Newark 89, Union City 56.\n• Across all five cities the median is $1,100,000 at $690 a square foot. 264 homes are priced under a million, and 167 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger held steady at 706, but Fremont thinned to 259 from 265 while Hayward, Milpitas and Newark added listings. Homes sitting 60 days or more rose again, to 167. Buyers in contract: check in with your lender this afternoon, since lenders can reprice after a Fed day. Sellers: the hike was expected and rates are already near 7%, so price for 7% and let condition do the talking.",
     "feature_images": [
       {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/tenyr-2026-091526.png",
-        "alt": "Line chart of the U.S. 10-year Treasury yield in 2026, daily closes, from 4.19% in January to a 3.97% low on February 27 and up to 4.97% on September 14, with an intraday touch of 5.01%.",
-        "caption": "The 10-Year touched 5.01% during trading Monday and closed at 4.97%, its highest close since October 2023.",
-        "source": "Source: U.S. Treasury daily par yield curve; intraday high via Yahoo Finance."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/fedwatch-091526.png",
-        "alt": "Bar chart of CME FedWatch probabilities for the September 16, 2026 Fed decision: 92.3% for a quarter point hike to 3.75% to 4.00% and 7.7% for no change.",
-        "caption": "Markets put a quarter point hike Wednesday at 92.3%, up from 48.4% on August 11.",
-        "source": "Source: CME FedWatch as reported September 15, 2026; target range from the Federal Reserve."
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/fed-hike-091626.png",
+        "alt": "Step chart of the Federal Reserve's target range from 2022 to 2026: hikes to 5.25% to 5.50% by July 2023, cuts from September 2024 to December 2025 down to 3.50% to 3.75%, and the September 16, 2026 increase to 3.75% to 4.00%, with a box listing the hike odds of 85.6%, 92.3% and 92.7% reported beforehand.",
+        "caption": "The Fed raised its target range a quarter point to 3.75% to 4.00%, its first increase since July 2023, after the odds we reported climbed to 92%.",
+        "source": "Source: Federal Reserve FOMC statement, September 16, 2026; history from the Federal Reserve via FRED; odds from CME FedWatch."
       }
     ]
   },
   "stocks": {
-    "sp500": "7,619.98 (-0.48%)",
-    "dow": "52,421.20 (-0.29%)",
-    "nasdaq": "26,186.41 (-0.56%)",
-    "note": "Levels are Monday, September 14 at the closing bell. Tuesday is live: at 8:17 AM PT the S&P was 7,582.91 (-0.49%), the Dow 51,918.25 (-0.96%) and the Nasdaq 26,006.22 (-0.69%).",
-    "news": "Stocks slipped Monday, all three down half a percent or less, and they are lower again Tuesday morning as the Fed's two day meeting begins.\n\nBanks took the hit. Bank of America fell about 5% after CEO Brian Moynihan said third quarter trading revenue should be roughly flat with last year's $5.4 billion and investment banking fees could land at $1.6 billion to $1.8 billion, down more than 10% and below the roughly $2 billion analysts expected.\n\nToday's first chart is AI's power bill. Moody's says U.S. data centers need 45 gigawatts of new power plants by 2030, costing $110 billion. More than 30 of those gigawatts will be natural gas, most of the rest solar and battery storage, and nuclear restarts no more than 5%. Moody's estimates the buildout adds $25 billion to $30 billion a year to U.S. electricity costs, with data centers paying up to $15 billion of it directly. The graphic making the rounds splits out about 13 gigawatts of solar; Moody's gives no such figure, so our version does not either.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/ai-power-091526.png",
-      "alt": "Donut chart of the 45 gigawatts of new U.S. power generation Moody's says data centers need by 2030: more than 30 GW of natural gas and under 15 GW of everything else, mostly solar and storage, with nuclear restarts no more than 5%.",
-      "caption": "Moody's: 45 GW of new power plants by 2030, $110 billion, mostly natural gas, adding $25 billion to $30 billion a year to U.S. power costs.",
-      "source": "Source: Moody's Ratings, September 14, 2026, as reported by Bloomberg and SBS."
-    }
+    "sp500": "7,585.73 (-0.45%)",
+    "dow": "52,093.11 (-0.63%)",
+    "nasdaq": "25,981.57 (-0.78%)",
+    "note": "Levels are Tuesday, September 15 at the closing bell. Wednesday is live: at 11:36 AM PT, after the Fed decision, the S&P was 7,580.89 (-0.06%), the Dow 51,837.95 (-0.49%) and the Nasdaq 26,055.04 (+0.28%).",
+    "news": "Stocks fell for a second day Tuesday as the 10-Year crossed 5%, with the Nasdaq off 0.78%. After the Fed's announcement, the Dow was down 0.49% and the S&P was roughly flat, giving back its morning gain, while the Nasdaq held up 0.28%.\n\nCrypto stocks took the biggest hit Tuesday. Coinbase fell 10.10% and Circle 11.41% after the Senate vote on the crypto rules bill fell short (details in Crypto below). Both are lower again today."
   },
   "economy": {
-    "us10year": "4.97% (+0.01%)",
-    "gold": "$4,340.00 (-1.56%)",
-    "silver": "$63.76 (-2.19%)",
-    "wti": "$105.68 (+1.02%)",
+    "us10year": "5.00% (+0.03%)",
+    "gold": "$4,333.40 (-0.15%)",
+    "silver": "$64.18 (+0.66%)",
+    "wti": "$108.75 (+2.90%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Monday, September 14. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Monday's 1:00 PM PT print measured against Friday's same time print, and Brent is the ICE front month settlement. Tuesday so far: at 8:07 AM PT gold was $4,322.30, silver $63.69, and Brent was trading near $103.14, a live tick, not a settlement.",
-    "commentary": "This week is about the Fed, and the Fed is reacting to inflation. Consumer prices rose 3.4% over the past year in August. Core prices, which leave out food and energy, rose 0.3% in the month, faster than July's 0.2%, and that is what pushed the hike odds up.\n\nToday's economy charts come from a video walking through the CPI report and Wednesday's decision, and we checked every number in them against BLS and Treasury data. The long view holds: inflation is far below the 9.1% peak of June 2022, but the headline turned back up this year, from 2.4% in January to 4.2% in May and 3.4% now, while core, at 2.4%, is the lowest since March 2021.\n\nThe category chart gets two labels wrong. Its \"diesel fuel, up 52%\" is fuel oil, the home heating oil index; diesel sits in other motor fuel, up 44%. Its \"transportation, up 2.4%\" is transportation services; transportation overall, gasoline included, is up 6.2%. The rest checks out: gasoline up 27.4%, energy 16.3%, clothing 3.6%, shelter 3.0%, food 2.7% and new vehicles 0.6%.\n\nShort term rates have already moved. The 3-month Treasury bill closed Monday at 4.11%, above the top of the Fed's 3.50% to 3.75% range and up from about 3.7% in the first five months of the year. That is the market pricing in the hike, and it means the Treasury now pays about 4.1% to roll over its bills.\n\nOil and metals: Brent settled at $105.68 Monday, up 1.0%, and was near $103.14 Tuesday morning. At Monday's 1:00 PM PT print gold fell 1.6% to $4,340.00 and silver 2.2% to $63.76.\n\nA note on the newsletter's numbers: its stocks and mortgage rates check out. It had the 10-Year at 4.99% against Treasury's 4.97%, gold down 1.68% at $4,334 where the same time prints show a 1.56% drop to $4,340.00, and Brent at $106.22, up 1.54%, where the settlement was $105.68, up 1.02%. Silver was left out again.",
+    "note": "All four are Tuesday, September 15. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Tuesday's 1:00 PM PT print measured against Monday's same time print, and Brent is the ICE front month settlement. Wednesday so far: at 11:26 AM PT gold was $4,358.30, silver $64.31, and Brent was trading near $105.57, a live tick, not a settlement.",
+    "commentary": "Today's two economy charts are about budgets, one for the Pentagon and one for families.\n\nThe Congressional Budget Office estimates the conflict with Iran added about $38.1 billion to Defense Department costs from February 28 through August 1. More than half, $21.6 billion, is the cost of replacing munitions, led by $13.1 billion for missile defense interceptors. Extra flying hours added $10.4 billion and higher fuel prices $2.7 billion. CBO says each additional month would cost $2 billion to $3 billion, depending on intensity. The graphic going around shows five of the seven categories and labels the total as what \"the U.S. spent.\" CBO's figure covers only the Pentagon's added costs, and our chart shows all seven categories.\n\nThe second chart is for parents. Trump Accounts, the new IRS savings accounts for children, can take up to $5,000 a year, and 2026 money has to be in by December 31. Employers can put in up to $2,500 per employee, but that counts inside the $5,000, not on top of it as the newsletter said. U.S. citizen children born 2025 through 2028 can also get a one time $1,000 Treasury deposit that does not count toward the cap. Putting in more than the limit triggers a 6% yearly tax on the extra.\n\nOil and metals: Brent settled at $108.75 Tuesday, up 2.9%, and was near $105.57 late this morning. At Tuesday's 1:00 PM PT print, gold slipped 0.15% to $4,333.40 and silver rose 0.66% to $64.18. After the Fed decision gold was $4,358.30 and silver $64.31 at 11:26 AM PT, both above Tuesday's prints but off this morning's highs.\n\nA note on the newsletter's numbers: its stocks and mortgage rates check out. It had the 10-Year at 4.98%, down 0.01, but Treasury shows a 5.00% close, up 0.03. Its own headline correctly says yields topped 5%. It had Brent at $107.83, down 0.85%, but the settlement was $108.75, up 2.90%. It had gold up 0.40% at $4,351, but the 1:00 PM PT prints show a 0.15% dip. Silver was left out again.",
     "feature_images": [
       {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/cpi-2021-091526.png",
-        "alt": "Line chart of U.S. CPI 12 month change from January 2021 to August 2026: all items peaking at 9.1% in June 2022 and ending at 3.4%, core peaking at 6.6% in September 2022 and ending at 2.4%, with October 2025 missing because of the shutdown.",
-        "caption": "Headline inflation turned back up in 2026, to 4.2% in May and 3.4% in August. Core is 2.4%, its lowest since March 2021.",
-        "source": "Source: U.S. Bureau of Labor Statistics, Consumer Price Index through August 2026."
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/defense-cost-091626.png",
+        "alt": "Bar chart of CBO's estimate of added Defense Department costs from the Iran conflict, February 28 to August 1, 2026, totaling $38.1 billion: missile defense interceptors $13.1 billion, increased flying hours $10.4 billion, land-attack cruise missiles $7.3 billion, increased fuel costs $2.7 billion, equipment lost $1.9 billion, other operations costs $1.5 billion, other munitions $1.2 billion.",
+        "caption": "CBO puts the Pentagon's added cost at $38.1 billion through August 1, more than half of it to replace munitions.",
+        "source": "Source: Congressional Budget Office, letter dated September 15, 2026, Table 1."
       },
       {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/cpi-categories-091526.png",
-        "alt": "Bar chart of 12 month CPI changes in August 2026 by category: fuel oil 52.0%, other motor fuel including diesel 44.0%, gasoline 27.4%, energy 16.3%, transportation 6.2%, apparel 3.6%, shelter 3.0%, food 2.7%, transportation services 2.4%, new vehicles 0.6%.",
-        "caption": "The 52% jump is fuel oil, not diesel; diesel is up 44%. Everything outside energy is up less than 4%, except transportation, which includes gasoline.",
-        "source": "Source: U.S. Bureau of Labor Statistics, Consumer Price Index for August 2026."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/tbill-2026-091526.png",
-        "alt": "Line chart of the 3-month Treasury yield in 2026, between 3.62% and 3.74% from January to May, rising to 4.11% on September 14, above the Fed's 3.50% to 3.75% target range.",
-        "caption": "3-month bills closed at 4.11% Monday, above the Fed's current range: the market has already priced in the hike.",
-        "source": "Source: U.S. Treasury daily par yield curve; target range from the Federal Reserve."
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/kids-account-091626.png",
+        "alt": "Stacked bar chart of the 2026 limits on Trump Accounts for children: a $5,000 annual cap covering family and employer money, shown once as $5,000 from family and once as $2,500 family plus $2,500 employer, each with a $1,000 one time Treasury seed outside the cap, for $6,000.",
+        "caption": "Family and employer money share one $5,000 cap. Eligible children born 2025 through 2028 also get a one time $1,000 Treasury deposit outside it.",
+        "source": "Source: IRS Notice 2025-68; IRS news release IR-2025-117; 26 U.S.C. sections 530A, 6434 and 4973."
       }
     ]
   },
   "crypto": {
-    "btc": "$75,976 (-3.13%)",
-    "eth": "$2,411.53 (-3.64%)",
-    "xrp": "$1.39 (-0.75%)",
-    "commentary": "Live quotes pulled at 8:17 AM PT with 24 hour changes. All three are giving back Monday's jump.\n\nThe vote is today. The Senate holds a procedural vote on the Clarity Act at 11:15 AM PT. It needs 60 votes, so even with all 53 Republicans it needs at least seven Democrats or independents. Sponsors released final text Monday with 126 changes Democrats asked for, and a loss would sharply cut the bill's chances of becoming law this year."
+    "btc": "$75,566 (-1.42%)",
+    "eth": "$2,400.00 (-1.11%)",
+    "xrp": "$1.28 (-8.37%)",
+    "commentary": "Live quotes pulled at 11:33 AM PT with 24 hour changes. XRP is down about 8% over the day, Bitcoin is down 1.42% and Ether is down 1.11%.\n\nThe Clarity Act stalled. Tuesday's Senate procedural vote went 49 to 50, short of the 60 needed to move the bill forward. The bill would define how federal agencies regulate different kinds of crypto and give the CFTC new authority over crypto spot markets. XRP fell from about $1.39 to $1.29 during Tuesday's session.\n\nA note on the newsletter: its crypto prices match Tuesday afternoon, but its percent changes (small gains for all three) do not. Compared with Monday at the same hour, Bitcoin was down about 3.6%, Ether 5.0% and XRP 11.5%."
   },
   "sources": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+    "https://fred.stlouisfed.org/series/DFEDTARU",
+    "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://fred.stlouisfed.org/series/DGS10",
-    "https://fred.stlouisfed.org/series/DFEDTARU",
-    "https://stocktwits.com/news-articles/markets/equity/fed-rate-hike-odds-above-90-here-s-what-wall-street-is-watching/cZtnTkRRBTp",
-    "https://247wallst.com/investing/2026/09/14/chances-of-first-fed-rate-hike-since-2023-now-over-90-markets-brace-for-the-warsh-era-shock/",
-    "https://www.bls.gov/news.release/cpi.nr0.htm",
-    "https://www.youtube.com/watch?v=VuXdkYZ9TXc",
     "https://communityfirstmortgage.com/alameda-county-conforming-loan-limits-2026/",
-    "https://www.bloomberg.com/news/articles/2026-09-14/us-ai-boom-needs-110-billion-of-new-power-plants-moody-s-says",
-    "https://news.sbs.co.kr/english/article.do?news_id=N1008754219",
-    "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+    "https://www.cbo.gov/publication/62756",
+    "https://www.irs.gov/pub/irs-drop/n-25-68.pdf",
+    "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-trump-accounts-established-under-the-working-families-tax-cuts-notice-announces-upcoming-regulations",
+    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section530A&num=0&edition=prelim",
+    "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote",
     "https://finance.yahoo.com/quote/BZ%3DF/",
     "https://finance.yahoo.com/quote/GC%3DF/",
     "https://finance.yahoo.com/quote/SI%3DF/",
-    "https://www.thestreet.com/crypto/policy/clarity-act-faces-decisive-senate-vote-tuesday",
+    "https://finance.yahoo.com/quote/COIN/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/919aafdf-24f3-4bbf-ab62-79759d8379af",
-  "qr_code_path": "note-qr-919aafdf.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/113845c4-aed7-4e21-8a2c-54d5f7aa3d11",
+  "qr_code_path": "note-qr-113845c4.png"
 }
