@@ -1,76 +1,60 @@
 {
-  "date": "09/16/26",
-  "time": "11:36 AM PT",
+  "date": "09/17/26",
+  "time": "8:45 AM PT",
   "real_estate": {
-    "rate_30year": "7.19%",
-    "rate_15year": "6.81%",
-    "homebuilder": "The Fed raised rates today for the first time since 2023, a quarter point to 3.75% to 4.00%, just as the odds we reported all week pointed to.",
-    "commentary": "🔔 The Fed just raised rates:\n\nAt 11 AM PT the Federal Reserve raised its target range by a quarter point, to 3.75% to 4.00%. It is the Fed's first increase since July 2023. The vote was 12 to 0, and the new rate takes effect Thursday.\n\nWe flagged this one. Our September 11 edition put the odds of a hike at 85.6%, Monday's at about 85%, and Tuesday's at 92.3%, and markets had it at 92.7% this morning. The Fed's statement says inflation \"remains elevated\" and that the move supports a timelier return to its 2% goal.\n\nWhat comes next: the Fed's new projections put its rate at 4.1% at the end of this year and again at the end of next year, up from 3.8% and 3.6% in June. In plain terms, the typical Fed official now expects one more quarter point increase this year and no net change in 2027.\n\nWhat it means for mortgages: the Fed does not set mortgage rates, and this hike was widely expected, so much of it was already built into rates. Mortgage News Daily had the 30-year at 7.19% and the 15-year at 6.81% this morning, before the announcement, just under Tuesday's 7.22% and 6.82%, the highest readings of the past year. The 10-Year closed Tuesday at 5.00%, its first close at 5% or higher since July 2007, and was near 4.96% after the decision.\n\n• The local math: at Fremont's median list price of $1,250,000, a 20% down loan is $1,000,000, under Alameda County's $1,249,125 high-balance conforming limit. At 7.19%, principal and interest run about $6,781 a month, and high-balance loans often price a little above that.\n• Every eighth of a point on that loan is about $85 a month.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,722 listings across our 15 city table, counting active and in contract together, with 210 coming soon and 242 brand new.\n• Five city ledger: 706 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are already on the market and 95 are coming soon.\n• Fremont: 259 live, 197 active, 41 coming soon, 21 brand new. The median on market list price is $1,250,000 at $816 a square foot, and the typical active listing has been out 29 days.\n• The rest of the ledger: Hayward 179, Milpitas 123, Newark 89, Union City 56.\n• Across all five cities the median is $1,100,000 at $690 a square foot. 264 homes are priced under a million, and 167 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger held steady at 706, but Fremont thinned to 259 from 265 while Hayward, Milpitas and Newark added listings. Homes sitting 60 days or more rose again, to 167. Buyers in contract: check in with your lender this afternoon, since lenders can reprice after a Fed day. Sellers: the hike was expected and rates are already near 7%, so price for 7% and let condition do the talking.",
+    "rate_30year": "7.24%",
+    "rate_15year": "6.84%",
+    "homebuilder": "Mortgage rates hit a new one year high of 7.24% as the Fed's quarter point hike took effect today, and mortgage applications fell 4.1%.",
+    "commentary": "🔔 Mortgage rates hit a new one year high:\n\nThe Fed's quarter point hike took effect today, putting its target range at 3.75% to 4.00%. Mortgage News Daily's final Wednesday reading put the 30-year fixed at 7.24% and the 15-year at 6.84%, both up 0.02 from Tuesday and the highest readings of the past year. Yesterday's report carried MND's 7.19% morning reading, taken before the announcement.\n\nThe 10-Year closed Wednesday at 5.01%, its highest close since July 2007, and eased to about 4.95% this morning. At Fremont's median list price of $1,250,000, a 20% down loan is $1,000,000, under Alameda County's $1,249,125 high-balance conforming limit. At 7.24%, principal and interest run about $6,815 a month, $34 more than at Wednesday morning's 7.19%, and every eighth of a point is about $85.\n\nBuyers are pausing. The Mortgage Bankers Association says applications fell 4.1% in the week ending September 11, with purchase applications down 1% and refinances down 9%. Refinances are 65% below a year ago, and MBA's 30-year average reached 6.97%, its highest since May 2025. The newsletter called that average \"over 7%\"; MBA's own survey is just under it, while MND's daily index is above.\n\nFor more on what the hike means for Bay Area buyers and sellers, including the next Fed meeting dates, read the full write up on Harv's blog: <a href=\"https://harvrealtor.net/blog/fed-rate-hike-september-2026-bay-area-buyers-sellers\" style=\"color:#B08C1E;text-decoration:underline;\">What the Fed hike means for Bay Area buyers and sellers</a>\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,730 listings across our 15 city table, counting active and in contract together, with 203 coming soon and 195 brand new.\n• Five city ledger: 708 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 615 are already on the market and 93 are coming soon.\n• Fremont: 258 live, 202 active, 43 coming soon, 13 brand new. The median on market list price is $1,250,000 at $805 a square foot, and the typical active listing has been out 29 days.\n• The rest of the ledger: Hayward 181, Milpitas 120, Newark 88, Union City 61.\n• Across all five cities the median is $1,099,000 at $687 a square foot. 272 homes are priced under a million, and 158 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger ticked up to 708 from 706, Union City added five listings, and homes sitting 60 days or more fell to 158 from 167. Buyers: with fewer people applying for loans, the line at the open house may be shorter, so refresh your approval at today's rates before you write. Sellers: the buyers still shopping are pricing in 7%, so price for today's rates, not last spring's.",
     "feature_images": [
       {
         "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/fed-hike-091626.png",
         "alt": "Step chart of the Federal Reserve's target range from 2022 to 2026: hikes to 5.25% to 5.50% by July 2023, cuts from September 2024 to December 2025 down to 3.50% to 3.75%, and the September 16, 2026 increase to 3.75% to 4.00%, with a box listing the hike odds of 85.6%, 92.3% and 92.7% reported beforehand.",
-        "caption": "The Fed raised its target range a quarter point to 3.75% to 4.00%, its first increase since July 2023, after the odds we reported climbed to 92%.",
+        "caption": "The Fed's quarter point increase to 3.75% to 4.00%, its first since July 2023, took effect today.",
         "source": "Source: Federal Reserve FOMC statement, September 16, 2026; history from the Federal Reserve via FRED; odds from CME FedWatch."
       }
     ]
   },
   "stocks": {
-    "sp500": "7,585.73 (-0.45%)",
-    "dow": "52,093.11 (-0.63%)",
-    "nasdaq": "25,981.57 (-0.78%)",
-    "note": "Levels are Tuesday, September 15 at the closing bell. Wednesday is live: at 11:36 AM PT, after the Fed decision, the S&P was 7,580.89 (-0.06%), the Dow 51,837.95 (-0.49%) and the Nasdaq 26,055.04 (+0.28%).",
-    "news": "Stocks fell for a second day Tuesday as the 10-Year crossed 5%, with the Nasdaq off 0.78%. After the Fed's announcement, the Dow was down 0.49% and the S&P was roughly flat, giving back its morning gain, while the Nasdaq held up 0.28%.\n\nCrypto stocks took the biggest hit Tuesday. Coinbase fell 10.10% and Circle 11.41% after the Senate vote on the crypto rules bill fell short (details in Crypto below). Both are lower again today."
+    "sp500": "7,551.81 (-0.45%)",
+    "dow": "51,461.90 (-1.21%)",
+    "nasdaq": "25,978.43 (-0.01%)",
+    "note": "Levels are Wednesday, September 16 at the closing bell. Thursday is live: at 8:45 AM PT the S&P was 7,634.67 (+1.10%), the Dow 51,794.34 (+0.65%) and the Nasdaq 26,399.18 (+1.62%).",
+    "news": "Stocks slipped on Fed day Wednesday, with the Dow off 1.21% and the Nasdaq about flat, then bounced Thursday morning, led by the Nasdaq. Weekly jobless claims came in at 196,000 for the week ending September 12, down 10,000, so the job market is still holding up.\n\nJ.B. Hunt fell 13.30% Wednesday after the trucking company warned its third quarter earnings will drop 5% to 10% from the second quarter, citing higher fuel and driver costs. Generac jumped after the bell on a deal to supply backup generators for Amazon's data centers that also gives Amazon the right to buy up to $340 million of Generac stock. It traded near $249 late Wednesday and about $209 this morning, still up about 19%."
   },
   "economy": {
-    "us10year": "5.00% (+0.03%)",
-    "gold": "$4,333.40 (-0.15%)",
-    "silver": "$64.18 (+0.66%)",
-    "wti": "$108.75 (+2.90%)",
+    "us10year": "5.01% (+0.01%)",
+    "gold": "$4,302.50 (-0.71%)",
+    "silver": "$63.42 (-1.19%)",
+    "wti": "$105.83 (-2.69%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Tuesday, September 15. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Tuesday's 1:00 PM PT print measured against Monday's same time print, and Brent is the ICE front month settlement. Wednesday so far: at 11:26 AM PT gold was $4,358.30, silver $64.31, and Brent was trading near $105.57, a live tick, not a settlement.",
-    "commentary": "Today's two economy charts are about budgets, one for the Pentagon and one for families.\n\nThe Congressional Budget Office estimates the conflict with Iran added about $38.1 billion to Defense Department costs from February 28 through August 1. More than half, $21.6 billion, is the cost of replacing munitions, led by $13.1 billion for missile defense interceptors. Extra flying hours added $10.4 billion and higher fuel prices $2.7 billion. CBO says each additional month would cost $2 billion to $3 billion, depending on intensity. The graphic going around shows five of the seven categories and labels the total as what \"the U.S. spent.\" CBO's figure covers only the Pentagon's added costs, and our chart shows all seven categories.\n\nThe second chart is for parents. Trump Accounts, the new IRS savings accounts for children, can take up to $5,000 a year, and 2026 money has to be in by December 31. Employers can put in up to $2,500 per employee, but that counts inside the $5,000, not on top of it as the newsletter said. U.S. citizen children born 2025 through 2028 can also get a one time $1,000 Treasury deposit that does not count toward the cap. Putting in more than the limit triggers a 6% yearly tax on the extra.\n\nOil and metals: Brent settled at $108.75 Tuesday, up 2.9%, and was near $105.57 late this morning. At Tuesday's 1:00 PM PT print, gold slipped 0.15% to $4,333.40 and silver rose 0.66% to $64.18. After the Fed decision gold was $4,358.30 and silver $64.31 at 11:26 AM PT, both above Tuesday's prints but off this morning's highs.\n\nA note on the newsletter's numbers: its stocks and mortgage rates check out. It had the 10-Year at 4.98%, down 0.01, but Treasury shows a 5.00% close, up 0.03. Its own headline correctly says yields topped 5%. It had Brent at $107.83, down 0.85%, but the settlement was $108.75, up 2.90%. It had gold up 0.40% at $4,351, but the 1:00 PM PT prints show a 0.15% dip. Silver was left out again.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/defense-cost-091626.png",
-        "alt": "Bar chart of CBO's estimate of added Defense Department costs from the Iran conflict, February 28 to August 1, 2026, totaling $38.1 billion: missile defense interceptors $13.1 billion, increased flying hours $10.4 billion, land-attack cruise missiles $7.3 billion, increased fuel costs $2.7 billion, equipment lost $1.9 billion, other operations costs $1.5 billion, other munitions $1.2 billion.",
-        "caption": "CBO puts the Pentagon's added cost at $38.1 billion through August 1, more than half of it to replace munitions.",
-        "source": "Source: Congressional Budget Office, letter dated September 15, 2026, Table 1."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/kids-account-091626.png",
-        "alt": "Stacked bar chart of the 2026 limits on Trump Accounts for children: a $5,000 annual cap covering family and employer money, shown once as $5,000 from family and once as $2,500 family plus $2,500 employer, each with a $1,000 one time Treasury seed outside the cap, for $6,000.",
-        "caption": "Family and employer money share one $5,000 cap. Eligible children born 2025 through 2028 also get a one time $1,000 Treasury deposit outside it.",
-        "source": "Source: IRS Notice 2025-68; IRS news release IR-2025-117; 26 U.S.C. sections 530A, 6434 and 4973."
-      }
-    ]
+    "note": "All four are Wednesday, September 16. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Wednesday's 1:00 PM PT print measured against Tuesday's same time print, and Brent is the ICE front month settlement. Thursday so far: at 8:35 AM PT gold was $4,399.60, silver $66.30, and Brent was trading near $103.59, a live tick, not a settlement.",
+    "commentary": "The Fed's new target range of 3.75% to 4.00% is now in effect. Its next two meetings are October 27 to 28 and December 8 to 9, and the Fed's own projections from Wednesday point to one more quarter point increase this year.\n\nThe 10-Year closed Wednesday at 5.01%, up 0.01 and its highest close since July 2007, then eased to about 4.95% this morning. The Labor Department's weekly report showed 196,000 new unemployment claims, 10,000 fewer than the week before.\n\nOil and metals: Brent settled at $105.83 Wednesday, down 2.69%, and was near $103.59 this morning. At Wednesday's 1:00 PM PT print, gold fell 0.71% to $4,302.50 and silver fell 1.19% to $63.42. Both bounced overnight, with gold at $4,399.60 and silver at $66.30 as of 8:35 AM PT.\n\nA note on the newsletter's numbers: its stocks and mortgage rates check out. It had the 10-Year at 4.99%, down 0.01, but Treasury shows a 5.01% close, up 0.01. It had Brent up 0.08% at $105.91, but the settlement was $105.83, down 2.69%. It had gold at $4,347, down 0.90%, but the 1:00 PM PT print was $4,302.50, down 0.71%. Silver was left out again."
   },
   "crypto": {
-    "btc": "$75,566 (-1.42%)",
-    "eth": "$2,400.00 (-1.11%)",
-    "xrp": "$1.28 (-8.37%)",
-    "commentary": "Live quotes pulled at 11:33 AM PT with 24 hour changes. XRP is down about 8% over the day, Bitcoin is down 1.42% and Ether is down 1.11%.\n\nThe Clarity Act stalled. Tuesday's Senate procedural vote went 49 to 50, short of the 60 needed to move the bill forward. The bill would define how federal agencies regulate different kinds of crypto and give the CFTC new authority over crypto spot markets. XRP fell from about $1.39 to $1.29 during Tuesday's session.\n\nA note on the newsletter: its crypto prices match Tuesday afternoon, but its percent changes (small gains for all three) do not. Compared with Monday at the same hour, Bitcoin was down about 3.6%, Ether 5.0% and XRP 11.5%."
+    "btc": "$76,726 (+1.36%)",
+    "eth": "$2,470.05 (+3.34%)",
+    "xrp": "$1.31 (+3.12%)",
+    "commentary": "Live quotes pulled at 8:45 AM PT with 24 hour changes. All three are higher this morning, led by Ether, up about 3%.\n\nWednesday was quieter. After Tuesday's stalled Senate vote on the Clarity Act, Bitcoin stayed between about $75,600 and $76,150 through Wednesday afternoon, Fed decision included.\n\nA note on the newsletter: it showed small gains for all three as of 4:00 PM ET Wednesday. Against Tuesday at the same hour, Bitcoin was down 0.14% and Ether 0.33%, while XRP was up 0.36%."
   },
   "sources": [
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-    "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
-    "https://fred.stlouisfed.org/series/DFEDTARU",
-    "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://harvrealtor.net/blog/fed-rate-hike-september-2026-bay-area-buyers-sellers",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
+    "https://www.mba.org/news-and-research/newsroom/news/2026/09/16/mortgage-applications-decrease-in-latest-mba-weekly-survey",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://fred.stlouisfed.org/series/DGS10",
+    "https://www.dol.gov/ui/data.pdf",
     "https://communityfirstmortgage.com/alameda-county-conforming-loan-limits-2026/",
-    "https://www.cbo.gov/publication/62756",
-    "https://www.irs.gov/pub/irs-drop/n-25-68.pdf",
-    "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-trump-accounts-established-under-the-working-families-tax-cuts-notice-announces-upcoming-regulations",
-    "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section530A&num=0&edition=prelim",
-    "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote",
+    "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html",
+    "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html",
     "https://finance.yahoo.com/quote/BZ%3DF/",
     "https://finance.yahoo.com/quote/GC%3DF/",
     "https://finance.yahoo.com/quote/SI%3DF/",
-    "https://finance.yahoo.com/quote/COIN/",
+    "https://finance.yahoo.com/quote/%5EGSPC/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/113845c4-aed7-4e21-8a2c-54d5f7aa3d11",
-  "qr_code_path": "note-qr-113845c4.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/a44b9de8-d48b-452d-b66f-b918017b377c",
+  "qr_code_path": "note-qr-a44b9de8.png"
 }
