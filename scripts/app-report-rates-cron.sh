@@ -32,6 +32,11 @@ LOG="$WORK/sync.log"
 LAST="$WORK/.last-run"
 DEPLOY_KEY="$HOME/.ssh/realty_email_deploy"
 
+# Absolute, like broadcast-backstop-cron.sh: cron's PATH is not a login shell's,
+# and "node: command not found" at 6 AM would fail this silently for a whole day.
+NODE_BIN="/usr/bin/node"
+[ -x "$NODE_BIN" ] || NODE_BIN="$(command -v node)"
+
 export GIT_SSH_COMMAND="ssh -i $DEPLOY_KEY -o IdentitiesOnly=yes"
 
 mkdir -p "$WORK"
@@ -59,7 +64,7 @@ for attempt in 1 2 3; do
     exit 1
   fi
 
-  if ! out="$(node scripts/sync-app-report-rates.mjs 2>&1)"; then
+  if ! out="$("$NODE_BIN" scripts/sync-app-report-rates.mjs 2>&1)"; then
     log "ERROR sync: $out"
     stamp "ERROR sync: $out"
     exit 1
