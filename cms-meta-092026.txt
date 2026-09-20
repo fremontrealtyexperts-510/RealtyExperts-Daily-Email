@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/20/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/20/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 20, 2026: mortgage rates held at 7.20%, the 10-Year closed at a 19 year high of 5.01%, and twenty months of Fremont, Newark and Union City inventory show the same number of sellers with homes selling more slowly.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, housing inventory, new listings, 10-Year Treasury, Brent crude, gold, silver
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
