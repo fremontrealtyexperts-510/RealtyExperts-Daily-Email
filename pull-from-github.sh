@@ -16,8 +16,15 @@
 #   3. Fetches into a clone that lives OFF Drive
 #   4. Copies ONLY the files that changed between the cached SHA and the remote SHA
 #      (all tracked files if there is no usable cached SHA), skipping any whose Drive
-#      copy is already identical. No deletes; never .git, node_modules, .claude, .npm
-#   5. Updates the cached SHA only if every copy succeeded
+#      copy is already identical, AND skipping any whose Drive copy is NEWER than the
+#      commit being pulled. No deletes; never .git, node_modules, .claude, .npm
+#   5. Updates the cached SHA when every copy succeeded, or after three failed passes
+#      at the same SHA, so one unwritable file cannot pin the cache forever
+#
+# 2026-09-20: two fixes after the job clobbered live work on three consecutive runs
+# and pinned its SHA cache at a 09/14 commit for six days. See the copy loop and the
+# failure policy below for the full account. Short version: local-newer files are now
+# kept, unreadable targets are never overwritten, and a stuck SHA now advances.
 #
 # 2026-09-13: rewritten to touch Drive as little as possible. The launchd runs of the
 # old version rsynced the whole repo (1,000+ files) into the Drive mount, and the
@@ -126,10 +133,37 @@ else
 fi
 
 # --- Copy into the workspace (never deletes; per-file retries) ---
-copied=0; same=0; failed=0
+#
+# 2026-09-20: A PASS MUST NEVER OVERWRITE NEWER LOCAL WORK. A pass targets whatever
+# SHA was newest when it STARTED, then writes files one at a time over several
+# minutes (Drive I/O runs ~13s per file under launchd). On 09/17, 09/18 and 09/19 a
+# pass that started before the morning's first push spent those minutes copying the
+# PREVIOUS day's snapshot on top of the report being built: on 09/18 at 07:56 PT it
+# wrote 6 files from the 09/17 commit, which is how the template, live-inventory,
+# index.html and daily-report.json all went back a day mid run. One of those reverts
+# reached production (a stale index.html rode the next push; the day after, a stale
+# template made post-to-incom skip the blog and publish the prior day's body).
+#
+# The old loop only asked "is this file different". It now also asks "is mine newer",
+# and it fails SAFE: a target whose mtime cannot be read is left alone rather than
+# clobbered, because an unreadable Drive file is exactly the case we cannot reason
+# about.
+copied=0; same=0; failed=0; kept=0
 while IFS= read -r f; do
   [ -f "$WORK/$f" ] || continue
   if cmp -s "$WORK/$f" "$TARGET_DIR/$f" 2>/dev/null; then same=$((same + 1)); continue; fi
+
+  if [ -e "$TARGET_DIR/$f" ]; then
+    # When did the repo last change this file, at or before the SHA we are pulling?
+    F_COMMIT_TS=$(git -C "$WORK" log -1 --format=%ct "$REMOTE_SHA" -- "$f" 2>/dev/null || echo "")
+    T_MTIME=$(stat -f %m "$TARGET_DIR/$f" 2>/dev/null || echo "")
+    if [ -z "$T_MTIME" ] || [ -z "$F_COMMIT_TS" ] || [ "$T_MTIME" -gt "$F_COMMIT_TS" ] 2>/dev/null; then
+      kept=$((kept + 1))
+      log "KEPT local copy of $f (local is newer than the commit, or its mtime could not be read)"
+      continue
+    fi
+  fi
+
   if retry mkdir -p "$(dirname "$TARGET_DIR/$f")" && retry cp -p "$WORK/$f" "$TARGET_DIR/$f"; then
     copied=$((copied + 1))
   else
@@ -138,15 +172,39 @@ while IFS= read -r f; do
   fi
 done < <(grep -v -E '^(node_modules|\.claude|\.npm)/|(^|/)\.DS_Store$' "$LIST")
 
+# --- Failure policy: retry, but never wedge -----------------------------------
+# 2026-09-20: the old policy kept the SHA on ANY failure, so a file the Drive mount
+# refuses under launchd pinned the cache forever (80d8698 from 09/14 was still the
+# cached SHA on 09/20). Every pass then re-copied the same ever growing diff, which
+# is what kept the clobber window open all day. Now a SHA that fails three passes in
+# a row is accepted with a loud warning: the unwritten files are not lost, they come
+# back the next time the repo changes them, and a manual run can always force them.
+FAIL_STATE="$STATE_DIR/.git-pull-fail-state"
 if [ "$failed" -gt 0 ]; then
-  log "ERROR: $failed file(s) not written ($copied copied, $same already current, mode $MODE); SHA kept at ${CACHED_SHA:-none}, next pass retries"
-  say "pull: FAILED ($failed file(s) could not be written, will retry), see .git-pull.log"
+  PREV_SHA=""; PREV_N=0
+  [ -f "$FAIL_STATE" ] && read -r PREV_SHA PREV_N < "$FAIL_STATE" 2>/dev/null
+  case "$PREV_N" in (*[!0-9]*|"") PREV_N=0 ;; esac
+  [ "$PREV_SHA" = "$REMOTE_SHA" ] || PREV_N=0
+  N=$((PREV_N + 1))
+  printf '%s %s\n' "$REMOTE_SHA" "$N" > "$FAIL_STATE"
+
+  if [ "$N" -ge 3 ]; then
+    printf '%s\n' "$REMOTE_SHA" > "$SHA_CACHE"
+    rm -f "$FAIL_STATE"
+    log "WARN: $failed file(s) still unwritten after $N passes at $REMOTE_SHA ($copied copied, $same already current, $kept kept local, mode $MODE); advancing the SHA so the job stops retrying one diff forever"
+    say "pull: advanced to ${REMOTE_SHA:0:7} with $failed file(s) unwritten after $N attempts, see .git-pull.log"
+    exit 0
+  fi
+
+  log "ERROR: $failed file(s) not written ($copied copied, $same already current, $kept kept local, mode $MODE); SHA kept at ${CACHED_SHA:-none}, attempt $N of 3"
+  say "pull: FAILED ($failed file(s) could not be written, attempt $N of 3), see .git-pull.log"
   exit 1
 fi
+rm -f "$FAIL_STATE"
 
 # --- Update SHA cache (only after every copy succeeded) ---
 printf '%s\n' "$REMOTE_SHA" > "$SHA_CACHE"
 
-log "pulled OK to $REMOTE_SHA ($copied copied, $same already current, mode $MODE)"
-say "pull: updated to ${REMOTE_SHA:0:7} ($copied copied, $same already current)"
+log "pulled OK to $REMOTE_SHA ($copied copied, $same already current, $kept kept local, mode $MODE)"
+say "pull: updated to ${REMOTE_SHA:0:7} ($copied copied, $same already current, $kept kept local)"
 exit 0

@@ -243,6 +243,21 @@ if [ -d "$SRC_DIR/scripts" ]; then
   echo "🗂  scripts/ files copied: $SCRIPTS_N"
 fi
 
+# Sync scripts themselves — added 2026-09-20. Both are TRACKED but matched no glob
+# above, so an edit to either lived only on this Mac. That bit hard: the launchd
+# pull job copies pull-from-github.sh OUT OF THE CLONE on every pass, so a local fix
+# to it was overwritten by the repo's older copy before it ever ran. Same class of
+# miss as generate-daily-email.js on 09/05 and chart_brand.py before it.
+SYNC_N=0
+for s in "$SRC_DIR"/pull-from-github.sh "$SRC_DIR"/push-to-github.sh; do
+  if [ -f "$s" ]; then
+    cp "$s" "$DST_DIR/$(basename "$s")"
+    SYNC_N=$((SYNC_N + 1))
+    FILES_COPIED=$((FILES_COPIED + 1))
+  fi
+done
+echo "🔄 Sync scripts copied: $SYNC_N"
+
 echo "📋 Copied $FILES_COPIED files"
 
 # --- Stage and check ---
