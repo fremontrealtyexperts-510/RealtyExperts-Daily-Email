@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/21/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/21/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 21, 2026: mortgage rates at 7.20%, Japan raised rates to a 31 year high, Lennar is paying about 12% in incentives, and it takes about $293,000 a year to carry a median Fremont home with 10% down.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, Bank of Japan, 10-Year Treasury, Lennar, home affordability, Brent crude, gold, silver
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
