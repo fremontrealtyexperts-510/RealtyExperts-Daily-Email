@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/22/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/22/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 22, 2026: mortgage rates at 7.17%, a Brookings paper finds insurance strain weighs on home prices near downtown, AMD crossed $1 trillion, and Bitcoin posted its highest close since January.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, homeowners insurance, Brookings, AMD, chipmakers, Bitcoin, 10-Year Treasury, Brent crude, gold, silver
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
