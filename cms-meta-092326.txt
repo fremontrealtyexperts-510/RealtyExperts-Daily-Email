@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/23/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/23/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 23, 2026: mortgage rates jumped to a 52 week high of 7.26%, the 10-Year pushed to 5.12%, and FHA reaches 59% of our five city listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, Tri-City, mortgage rates, FHA loans, FHA loan limits, LGI Homes, Toll Brothers, ResiClub, AEI Housing Center, 10-Year Treasury, Brent crude, gold, silver, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
