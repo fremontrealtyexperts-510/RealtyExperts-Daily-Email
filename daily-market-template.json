@@ -1,59 +1,59 @@
 {
-  "date": "09/22/26",
-  "time": "9:14 AM PT",
+  "date": "09/23/26",
+  "time": "11:40 AM PT",
   "real_estate": {
-    "rate_30year": "7.17%",
-    "rate_15year": "6.83%",
-    "homebuilder": "Insurance costs are showing up in home prices, most of all near downtown.",
-    "commentary": "Mortgage rates eased a touch. Mortgage News Daily has the 30-year at 7.17% this morning, down 0.02, and the 15-year unchanged at 6.83%. The 10-Year, which mortgage rates follow, closed Monday at 4.96%.\n\nToday's housing story is insurance. A new Brookings working paper by USC economists Matthew Kahn and Wesley Miller finds that homeowners insurance strain is highest near downtown, where natural hazard risk is lowest. Using Treasury data for 2018 through 2022, ZIP codes within a mile of downtown paid average premiums 39% higher than ZIP codes more than five miles out, and insurers declined to renew about 20% more often.\n\nIt shows up in prices. In the paper, a one standard deviation rise in insurance strain went with single family prices about 10.6% lower, and 19.1% lower right downtown, fading to near zero by 30 miles out. The authors call it an association, not proof of cause, and they did not break out the Bay Area. Nobody tours a house for the insurance quote, but every buyer pays it.\n\n📍 Alameda County (Fremont Focus)\n\n• Board wide: 2,727 listings across our 15 city table, counting active and in contract together, with 194 coming soon and 202 brand new.\n• Five city ledger: 705 live listings across Fremont, Hayward, Milpitas, Newark and Union City. 621 are already on the market and 84 are coming soon.\n• Fremont: 252 live, 201 active, 37 coming soon, 14 brand new. The median on market list price is $1,199,999 at $782 a square foot, and the typical active listing has been out 32 days.\n• The rest of the ledger: Hayward 184, Milpitas 111, Newark 92, Union City 66.\n• Across all five cities the median is $1,090,000 at $675 a square foot. 283 homes are priced under a million, and 172 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger slipped to 705 from 717, and homes sitting 60 days or longer rose again, to 172 from 167 yesterday and 161 the day before. Buyers: get a homeowners insurance quote in the first days of escrow, before contingencies come off, because it belongs in the monthly payment math. Sellers: have your roof age, permits and any claims history ready, since a quick, clean insurance quote keeps a buyer moving."
+    "rate_30year": "7.26%",
+    "rate_15year": "6.87%",
+    "homebuilder": "Rates hit a 52 week high, and half our inventory still sits inside FHA's reach.",
+    "commentary": "Rates went the wrong way this morning. Mortgage News Daily has the 30-year at 7.26% as of today, up 0.09, and the 15-year at 6.87%, up 0.04. Both are now at the very top of their 52 week range, so this is the most expensive day to lock a rate in a year. The newsletter printed 7.17% and 6.83%, which were yesterday's readings, so the move is newer than the numbers most people read at breakfast.\n\nThe cause is in the bond market. The 10-Year closed Tuesday at 4.96%, unchanged on the day, but it pushed to 5.12% by 11:35 AM PT this morning, and MND says mortgage backed securities are significantly weaker. Mortgage rates follow that lead in hours, not days.\n\nToday's national story is about how buyers are stretching to get in the door. ResiClub, working with AEI Housing Center data, looked at which homebuilders lean on FHA loans, the government backed mortgage that allows as little as 3.5% down. At LGI Homes, a starter home builder whose average sale is $367,407, 53% of 2025 buyers used one. At Toll Brothers, where the average sale is $996,400, just 3% did. The split is not strategy, it is price point. The newsletter's graphic also showed Ashton Woods at 39%, and we left that bar out because we could not source it anywhere the number was actually published.\n\nSo what does FHA reach here? We ran it on today's board. FHA's 2026 limit for a one unit home in Alameda County is $1,249,125, and Milpitas carries the same Santa Clara County ceiling. Measured against that limit, 413 of our 705 live listings, or 59%, are priced inside it. Hayward is the wide door at 80%. Fremont is exactly half, 126 of 253. Union City is the tightest at 45%. FHA is not a fringe product in this market, it is a door into about six of every ten homes on our board.\n\n• Board wide: 2,701 listings across our 15 city table, counting active and in contract together, with 206 coming soon and 158 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 705 listings across Fremont, Hayward, Milpitas, Newark and Union City. 610 are on the market and 95 are coming soon.\n• Fremont: 253 live, 199 active, 44 coming soon, 10 brand new. The median on market list price is $1,218,888 at $794 a square foot, and the typical active listing has been out 31 days.\n• The rest of the ledger: Hayward 184, Milpitas 112, Newark 90, Union City 66.\n• Across all five cities the median is $1,098,444 at $684 a square foot. 275 homes are priced under a million, and 171 have been sitting 60 days or longer.\n\nWhat this means for you: the ledger held flat at 705, but coming soon jumped to 95 from 84, so next week's supply is already stacking up. Buyers: if you are FHA, today's 52 week high in rates costs more than the loan type does, and the 30-year FHA rate is 6.87%, a full 0.39 under the conventional 30-year. Run both. Sellers: 171 homes on our board have been sitting 60 days or longer, and every tick up in rates shrinks the pool that can still afford your price. Price to today's rate, not to August's.",
+    "feature_images": [
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/fha-builders-092326.png",
+        "alt": "Two panel bar chart. Left, share of 2025 homebuyers who used an FHA loan: LGI Homes 53%, Toll Brothers 3%. Right, average selling price: LGI Homes $367,407, Toll Brothers $996,400.",
+        "caption": "FHA reliance tracks price point, not strategy. The starter home builder runs on it, the luxury builder barely touches it. We dropped the Ashton Woods bar from the original graphic because the 39% figure could not be sourced.",
+        "source": "Source: ResiClub analysis of AEI Housing Center data, September 2026. FHA counted as a share of all sales, including all cash."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/fha-reach-tricity-092326.png",
+        "alt": "Ranked bar chart of the share of live listings priced within the $1,249,125 FHA limit: Hayward 80%, Newark 54%, Milpitas 54%, Fremont 50%, Union City 45%.",
+        "caption": "The local answer. 413 of our 705 live listings, 59%, are priced inside the FHA limit. Hayward is the wide door at 80%, Fremont is exactly half.",
+        "source": "Source: Bay East MLS live listings, September 23, 2026, and the 2026 FHA one unit limit for Alameda and Santa Clara counties."
+      }
+    ]
   },
   "stocks": {
-    "sp500": "7,764.70 (+1.49%)",
-    "dow": "52,048.83 (+0.71%)",
-    "nasdaq": "27,122.09 (+2.26%)",
-    "note": "Levels are Monday, September 21 at the closing bell. Tuesday is live: at 9:14 AM PT the S&P was 7,763.84 (-0.01%), the Dow 51,818.02 (-0.44%) and the Nasdaq 27,192.86 (+0.26%).",
-    "news": "Monday belonged to tech. The Nasdaq jumped 2.26% as Meta rose 11.34% after its new AI app, Muse, overtook ChatGPT as the top free iPhone app in the U.S. Sensor Tower counts more than 2.5 million downloads since its September 8 launch.\n\nAMD rose 9.95% and closed above $1 trillion in market value for the first time, joining Nvidia, Broadcom and Micron (chart above). Four years ago no U.S. chipmaker was worth that much; now four are. AMD is up about 187% this year.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/chip-trillion-092226.png",
-      "alt": "Ranked bar chart of the market value of U.S. chipmakers worth $1 trillion or more at the September 21, 2026 close: Nvidia $5.48 trillion, Broadcom $1.73 trillion, Micron $1.18 trillion and AMD $1.00 trillion, with Intel shown as the next largest at $0.61 trillion.",
-      "caption": "AMD closed above $1 trillion in market value for the first time on Monday, the fourth U.S. chipmaker to get there. Intel, the next largest, is worth about $0.61 trillion.",
-      "source": "Source: Nasdaq closing prices, September 21, 2026, times shares outstanding from each company's latest SEC filing."
-    }
+    "sp500": "7,764.64 (-0.00%)",
+    "dow": "51,863.69 (-0.36%)",
+    "nasdaq": "27,244.28 (+0.45%)",
+    "note": "Levels are Tuesday, September 22 at the closing bell. Wednesday is live and lower: at 11:35 AM PT the S&P was 7,710.67 (-0.70%), the Dow 51,557.09 (-0.59%) and the Nasdaq 26,945.28 (-1.10%).",
+    "news": "Tuesday was a split market. The Nasdaq added 0.45% while the Dow gave up 0.36% and the S&P finished dead flat, six hundredths of a point off Monday's close. Wednesday is a different story: the jump in yields has knocked every index down, with the Nasdaq off more than a percent by late morning. Rate sensitive growth names fall hardest when the 10-Year moves this fast."
   },
   "economy": {
-    "us10year": "4.96% (-0.05%)",
-    "gold": "$4,381.00 (-0.99%)",
-    "silver": "$66.53 (-0.92%)",
-    "wti": "$100.34 (-3.40%)",
+    "us10year": "4.96% (0.00%)",
+    "gold": "$4,324.00 (-1.20%)",
+    "silver": "$65.05 (-2.23%)",
+    "wti": "$99.25 (-1.09%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Monday, September 21. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month at Monday's 1:00 PM PT print measured against Friday's same time print, and Brent is the ICE front month (November contract) settlement.",
-    "commentary": "Oil fell for a fourth straight session Monday, and it is holding near $100.47 this morning. The 10-Year is edging up, near 4.97%, after Monday's 4.96% close.\n\nGold and silver each gave back about 1% on Monday and are a little lower again this morning, gold near $4,364 and silver near $66.20. Market Briefs printed gold and Brent as higher on Monday; both fell, and the cards use the exchange prints."
+    "note": "Bases differ today and are stated on purpose. The 10-Year is the Treasury daily yield curve close for Tuesday, September 22, unchanged from Monday. Brent is the ICE front month settlement for Tuesday. Gold and silver are live COMEX front month quotes at 11:35 AM PT Wednesday against Tuesday's settlement, because the hourly data we normally use for the 1:00 PM PT print was unavailable all morning.",
+    "commentary": "One number drove everything today. The 10-Year Treasury yield pushed to 5.12% by late morning, up about 15 basis points from Tuesday's 4.96% close, and the move rippled straight through. Mortgage rates jumped, stocks fell, and metals were hit hardest.\n\nGold is down 1.20% to $4,324 and silver down 2.23% to $65.05 as of 11:35 AM PT. Both had been grinding higher for weeks, and both sold off as yields rose, which is the textbook reaction: metals pay no interest, so they look worse every time bonds pay more.\n\nBrent settled Tuesday at $99.25, down 1.09%, its second straight decline from last week's run above $100. The newsletter printed Brent at $98.82 and called it a 0.43% fall; the front month settlement says $99.25 and 1.09%. It also put the 10-Year at 4.95% and down 0.01, where the Treasury curve says 4.96% and unchanged. Small gaps, but they are the two numbers that set mortgage pricing, so we go with the primary sources."
   },
   "crypto": {
-    "btc": "$86,218 (+0.58%)",
-    "eth": "$2,734.88 (-0.55%)",
-    "xrp": "$1.56 (+4.40%)",
-    "commentary": "Bitcoin's six-day climb is the story (chart above). It closed Monday at $86,505, its highest close since January 28 and up 14.3% from last week's low of $75,650. Most of that came in two days, about 6% Friday and 6.5% Monday, and it is about 35% above where it was three months ago.\n\nMarket Briefs printed Bitcoin at $81,177, Ethereum at $2,639 and XRP at $1.41, the same three numbers it printed on Monday. Ours are live from CoinGecko as of 9:11 AM PT: Bitcoin is holding near $86,218, and XRP is the day's big mover, up 4.40% over 24 hours.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/btc-sixday-092226.png",
-      "alt": "Line chart of Bitcoin's daily closing price from September 15 to September 21, 2026: $75,650 on September 15, near $76,000 through Thursday, $80,944 on Friday, near $81,000 over the weekend and $86,505 on Monday, below a dashed line at $89,178 marking January 28, the last time Bitcoin closed higher. A dashed leg shows Tuesday morning's live price near $86,400.",
-      "caption": "Bitcoin closed Monday at $86,505, up 14.3% from last week's low and its highest close since January 28. The dashed leg is Tuesday morning's live price, not a close.",
-      "source": "Source: Coin Metrics reference rate, daily close at 00:00 UTC; Tuesday's live price from CoinGecko."
-    }
+    "btc": "$84,157 (-2.50%)",
+    "eth": "$2,661.18 (-3.16%)",
+    "xrp": "$1.49 (-5.52%)",
+    "commentary": "Crypto gave back the week's gains. Bitcoin is at $84,157, down 2.50% over 24 hours, after closing Monday at its highest level since August. Ether is off 3.16% to $2,661 and XRP is the worst of the three, down 5.52% to $1.49.\n\nThe same rate move is behind it. When Treasuries suddenly pay 5.12%, the riskiest assets are the first thing sold, and crypto sits at that end of the shelf. Prices are live at 11:35 AM PT, so they will move again before you read this.\n\nWorth noting: the newsletter's crypto table was Tuesday's close and showed all three UP, Bitcoin at $86,617 and rising 0.49%. That was accurate for Tuesday and is the opposite of where the market is right now."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.brookings.edu/articles/how-local-homeowners-insurance-market-stress-impacts-urban-and-suburban-housing-markets/",
-    "https://www.brookings.edu/wp-content/uploads/2026/09/WP115_KahnMiller.pdf",
-    "https://www.nasdaq.com/market-activity/stocks/amd/historical",
-    "https://www.sec.gov/edgar/search/",
-    "https://coinmetrics.io/community-network-data/",
+    "https://www.briefs.co/news/builders-lean-on-fha-loans-as-affordability-tightens-and-the/",
+    "https://www.resiclubanalytics.com/t/homebuilding",
+    "https://www.lendingtree.com/home/fha/fha-loan-limits-in-california/",
+    "https://quote.cnbc.com/",
+    "https://www.nasdaq.com/market-activity/stocks/spy/historical",
     "https://www.coingecko.com/",
-    "https://finance.yahoo.com/quote/GC%3DF/",
-    "https://finance.yahoo.com/quote/SI%3DF/",
     "https://finance.yahoo.com/quote/BZ%3DF/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/872bcc4e-7fce-4b3f-9b47-01f60bc4a747",
-  "qr_code_path": "note-qr-872bcc4e.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/90cd0cda-c0d3-4753-b35b-53149185bea8",
+  "qr_code_path": "note-qr-90cd0cda.png"
 }
