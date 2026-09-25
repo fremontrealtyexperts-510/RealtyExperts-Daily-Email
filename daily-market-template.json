@@ -1,55 +1,56 @@
 {
-  "date": "09/24/26",
-  "time": "11:50 AM PT",
+  "date": "09/25/26",
+  "time": "4:35 PM PT",
   "real_estate": {
-    "rate_30year": "7.37%",
-    "rate_15year": "7.00%",
-    "homebuilder": "Mortgage rates climbed again, to 7.37%, as the 10-Year closed at its highest since 2007.",
-    "commentary": "Rates climbed for a second straight day. Mortgage News Daily has the 30-year at 7.37% as of today, up 0.11, and the 15-year at 7.00%, up 0.13. Both are new 52 week highs, topping yesterday's. The newsletter printed 7.26% and 6.87%, which were Wednesday's readings.\n\nThe bond market is the reason (chart above). The 10-Year closed Wednesday at 5.11%, up 0.15 in a single session and its highest close since July 2007. It has climbed 114 basis points from February's 3.97% low, and it was at 5.16% at 11:49 AM PT today, so the pressure has not let up.\n\nHere is what that means on a real Fremont home. At today's median on market list price of $1,238,944, with 20% down, the loan is $991,155, which is still high balance conforming here, not jumbo. Principal and interest is $6,842 a month at 7.37%, against $5,936 at 5.99%, the 52 week low. That is $906 more every month for the same house.\n\n• Board wide: 2,740 listings across our 15 city table, counting active and in contract together, with 192 coming soon and 179 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 707 listings across Fremont, Hayward, Milpitas, Newark and Union City. 615 are on the market and 92 are coming soon.\n• Fremont: 256 live, 204 active, 40 coming soon, 12 brand new. The median on market list price is $1,238,944 at $798 a square foot, and the typical active listing has been out 29 days.\n• The rest of the ledger: Hayward 184, Milpitas 114, Newark 86, Union City 67.\n• Across all five cities the median is $1,098,000 at $680 a square foot. 278 homes are priced under a million, and 166 have been sitting 60 days or longer.\n\nWhat this means for you: supply edged up to 707 from 705 and the pile of homes past 60 days shrank to 166 from 171, so listings are still moving even as rates rise. Buyers: get a written quote this week and compare the 30-year FHA at 6.98% and a 7/6 ARM at 6.80% against the 7.37% fixed, because the gap now buys real payment room. Sellers: the same house now costs a buyer about $900 more a month than it did at the 52 week low, so price to this week's rate, not to spring's.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/treasury-10yr-high-092426.png",
-      "alt": "Line chart of the 10-year Treasury yield at each month end of 2026: 4.26% in January, a 3.97% low in February, 4.30% March, 4.40% April, 4.45% May, 4.44% June, 4.75% July and August, and 5.11% on September 23, above a dashed line marking the October 2023 peak of 4.98%.",
-      "caption": "The 10-Year closed Wednesday at 5.11%, its highest close since July 2007 and above the 4.98% peak of October 2023. Mortgage rates follow it within hours.",
-      "source": "Source: U.S. Treasury Daily Par Yield Curve Rates, 10 year, through September 23, 2026."
-    }
+    "rate_30year": "7.43%",
+    "rate_15year": "7.10%",
+    "homebuilder": "Mortgage rates paused at 7.43%, just off Thursday's 52 week high, as sellers start trimming prices.",
+    "commentary": "Rates finally took a breather. Mortgage News Daily has the 30-year at 7.43% today, down 0.02, and the 15-year unchanged at 7.10%. Thursday's 7.45% was the top of the 52 week range. The newsletter printed 7.45% and 7.10%, which were Thursday's readings.\n\nSellers are starting to respond. The newsletter's lead is price cuts multiplying as rates climb, and today's MLS export shows 95 listings across our 15 city table with a price change status, 22 of them in Fremont, Hayward, Milpitas, Newark and Union City. The 10-Year closed Friday at 5.17%, a hair under Thursday's 5.18%, the highest close since 2007, so the pressure has not lifted.\n\nHere is what that means on a real Fremont home. At today's median on market list price of $1,199,000, with 20% down, the loan is $959,200, which is high balance conforming here, not jumbo. Principal and interest is $6,661 a month at 7.43%, against $5,745 at 5.99%, the 52 week low. That is $916 more every month for the same house.\n\n• Board wide: 2,788 listings across our 15 city table, counting active and in contract together, with 172 coming soon and 229 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 714 listings across Fremont, Hayward, Milpitas, Newark and Union City. 629 are on the market and 85 are coming soon.\n• Fremont: 257 live, 201 active, 36 coming soon, 20 brand new. The median on market list price is $1,199,000 at $781 a square foot, and the typical active listing has been out 28 days.\n• The rest of the ledger: Hayward 183, Milpitas 117, Newark 91, Union City 66.\n• Across all five cities the median is $1,089,000 at $675 a square foot. 291 homes are priced under a million, and 158 have been sitting 60 days or longer.\n\nWhat this means for you: supply rose to 714 from 707 and the homes past 60 days fell to 158 from 166, so buyers are still writing offers at 7% rates. Buyers: ask your lender to price the 30-year FHA at 7.15% and a 7/6 ARM at 6.85% against the 7.43% fixed, and watch for price changes, because some sellers are adjusting. Sellers: the same house costs a buyer about $900 more a month than it did at the 52 week low, so price to this week's rate and get the first price right, rather than chasing the market down."
   },
   "stocks": {
-    "sp500": "7,706.03 (-0.75%)",
-    "dow": "51,511.59 (-0.68%)",
-    "nasdaq": "26,936.04 (-1.13%)",
-    "note": "Levels are Wednesday, September 23 at the closing bell. Thursday is live and roughly flat: at 11:49 AM PT the S&P was 7,705.96 (0.00%), the Dow 51,361.56 (-0.29%) and the Nasdaq 26,933.52 (-0.01%).",
-    "news": "Wednesday was a rate day. The jump in the 10-Year pulled all three indexes lower, with the Nasdaq down 1.13% and the S&P off 0.75%. McDonald's fell 4.81% after saying the fast food slowdown is sticking, with U.S. sales at existing stores up just 0.8% last quarter and beef costs a big part of the squeeze. Thursday is holding steady so far."
+    "sp500": "7,743.41 (+0.51%)",
+    "dow": "51,828.62 (+0.93%)",
+    "nasdaq": "27,068.72 (+0.48%)",
+    "note": "Levels are Friday, September 25 at the closing bell.",
+    "news": "Stocks finished the week higher even with the 10-Year near 5.2%. The S&P rose 0.51% Friday and 1.21% on the week, the Nasdaq gained 2.06% for the week, and the Dow's 0.93% Friday rally ended a three week losing streak.\n\nDarden is the chart. LongHorn Steakhouse grew same-restaurant sales 6.2% last quarter, while Olive Garden, Darden's biggest brand at $1.33 billion in quarterly sales, managed 1.1%. The results came in just shy of Wall Street's estimates, and the stock fell 3.02% Thursday and another 3.61% Friday to $199.75. Record beef prices, apparently, have not kept anyone out of the steakhouse.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/darden-q1fy27-092526.png",
+      "alt": "Horizontal bar chart of Darden same-restaurant sales growth in the first quarter of fiscal 2027: LongHorn Steakhouse 6.2%, other brands 3.8%, Darden overall 3.1%, Fine Dining 1.6%, Olive Garden 1.1%. Quarterly sales: LongHorn $861 million, other brands $705 million, Darden $3.20 billion, Fine Dining $304 million, Olive Garden $1.33 billion.",
+      "caption": "LongHorn led Darden's first quarter with same-restaurant sales up 6.2%, while Olive Garden, its largest brand, grew 1.1%. Every bar matches Darden's filing.",
+      "source": "Source: Darden Restaurants fiscal 2027 first quarter results, SEC Form 8-K Exhibit 99.1, September 24, 2026."
+    }
   },
   "economy": {
-    "us10year": "5.11% (+0.15%)",
-    "gold": "$4,318.40 (-1.33%)",
-    "silver": "$64.96 (-2.35%)",
-    "wti": "$103.08 (+3.86%)",
+    "us10year": "5.17% (-0.01%)",
+    "gold": "$4,321.20 (+0.54%)",
+    "silver": "$64.80 (+1.25%)",
+    "wti": "$106.60 (+3.41%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Wednesday, September 23. The 10-Year is the Treasury daily yield curve close, gold and silver are the COMEX front month settlement against Tuesday's settlement, and Brent is the ICE front month (November contract) settlement.",
-    "commentary": "Beef is the chart today. The Bureau of Labor Statistics has 100% ground beef at a record $6.92 a pound this August, up 55% from $4.47 in August 2021. In the West, the closest region BLS publishes to us, it is $7.44, up 53%. The newsletter said beef prices have roughly doubled in five years; the government's own numbers say closer to half again. The version of this chart going around showed $6.88, which was July; August set the record.\n\nThe 10-Year closed at 5.11%, up 0.15 on the day and the highest since July 2007. The newsletter printed 5.12% and called it up 0.01; the Treasury curve says 5.11% and up 0.15. It credits strong economic data, a weakly received government bond sale and Fed talk of more hikes.\n\nGold settled down 1.33% at $4,318.40 and silver down 2.35% at $64.96 as yields rose. Brent went the other way, settling at $103.08, up 3.86%. The newsletter printed Brent at $91.85; the front month settlement is $103.08, a gap too large to be rounding, so we go with the exchange.",
+    "note": "The 10-Year, gold and silver are Friday, September 25: the Treasury daily yield curve close and the COMEX front month settlements against Thursday's. Brent is Thursday's settlement of the ICE November contract, the front month.",
+    "commentary": "Layoffs are still rare. First time jobless claims fell to 197,000 in the week ending September 19, down 1,000, and the 4-week average slipped to 202,250, its lowest since early August. The same week a year ago was 219,000. Closer to home, California logged 34,931 claims, 6.6% fewer than the same week of 2025.\n\nThe 10-Year closed Friday at 5.17%, down 0.01, after Thursday's 5.18%, the highest close since 2007. The newsletter printed 5.19% and up 0.03 for Thursday; the Treasury curve says 5.18% and up 0.07. Gold settled up 0.54% at $4,321.20 and silver up 1.25% at $64.80.\n\nThe Brent card is Thursday's settlement, $106.60, up 3.41%; the newsletter had $105.97 and down 0.58%. Friday it gave back 2.14% to settle at $104.32, on hopes that shipping through the Strait of Hormuz could reopen.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/beef-price-092426.png",
-      "alt": "Paired bar chart of the average retail price per pound of 100% ground beef every August from 2021 to 2026. U.S. city average: $4.47, $4.94, $5.08, $5.58, $6.32, $6.92. West region: $4.87, $5.56, $5.81, $6.46, $6.84, $7.44.",
-      "caption": "Ground beef hit a record $6.92 a pound nationally this August, up 55% in five years. The West, the closest region BLS publishes to the Bay Area, is at $7.44.",
-      "source": "Source: Bureau of Labor Statistics average price data, series APU0000703112 and APU0400703112, August of each year."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/09/jobless-claims-092526.png",
+      "alt": "Line chart of U.S. weekly initial jobless claims, seasonally adjusted, for every week of 2026 through September 19, with the 4-week average. Claims ranged from a low of 189,000 in July to highs of 230,000 in January and June, and ended at 197,000, with the 4-week average at 202,000, below a dashed line at 219,000 marking the same week last year.",
+      "caption": "Weekly claims are at 197,000 and the 4-week average at 202,250, both below the 219,000 of the same week last year. California's own count fell 6.6% from a year earlier.",
+      "source": "Source: U.S. Department of Labor weekly claims via FRED (ICSA, IC4WSA, CAICLAIMS), week ending September 19, 2026."
     }
   },
   "crypto": {
-    "btc": "$84,377 (+0.13%)",
-    "eth": "$2,687.06 (+0.84%)",
-    "xrp": "$1.53 (+2.52%)",
-    "commentary": "Crypto is catching its breath after Wednesday's drop. Bitcoin is at $84,377, up 0.13% over 24 hours, Ether is up 0.84% to $2,687 and XRP leads at $1.53, up 2.52%. Prices are live from CoinGecko at 11:49 AM PT.\n\nIt is a quiet bounce, not a reversal. Bitcoin is still about $2,000 below where it closed Monday, before the jump in yields sent the riskiest assets lower."
+    "btc": "$84,083 (-0.39%)",
+    "eth": "$2,693.28 (+0.09%)",
+    "xrp": "$1.57 (+2.18%)",
+    "commentary": "Crypto drifted into the weekend. Bitcoin is at $84,083, down 0.39% over 24 hours, Ether is up 0.09% and XRP leads again, up 2.18% to $1.57. Bitcoin has held near $84,000 since Wednesday's slide from about $86,600 at Monday's close. Prices are live from CoinGecko at 4:33 PM PT."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.bls.gov/charts/consumer-price-index/consumer-price-index-average-price-data.htm",
-    "https://www.nasdaq.com/market-activity/stocks/mcd/historical",
+    "https://www.dol.gov/ui/data.pdf",
+    "https://fred.stlouisfed.org/series/ICSA",
+    "https://www.sec.gov/Archives/edgar/data/940944/000094094426000032/exhibit991-q1fy27.htm",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/",
-    "https://finance.yahoo.com/quote/BZ%3DF/"
+    "https://finance.yahoo.com/quote/BZX26.NYM/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/0bd3162d-aa59-47b0-819f-9bd1c3ea804d",
-  "qr_code_path": "note-qr-0bd3162d.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/f10000e9-b365-43db-9994-b794ccae91b6",
+  "qr_code_path": "note-qr-f10000e9.png"
 }
