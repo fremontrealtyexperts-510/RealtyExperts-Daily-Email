@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/28/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/28/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 28, 2026: most California homes lost to fire were underinsured, Meta's AI spending keeps climbing, and Bay Area recreation prices rose 7.5%.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, home insurance, underinsurance, wildfire, mortgage rates, 10-Year Treasury, Meta capital spending, funflation, recreation prices, airfares, gold, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
