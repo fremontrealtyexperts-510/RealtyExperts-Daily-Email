@@ -21,6 +21,8 @@
  *      value-check: it catches wrong numbers, not just missing ones.
  *   6. Structural: newsletter markers + Plotly lib + live-inventory strip
  *      (`hb-li-total` + teaser `<script src>`) present in the live HTML.
+ *   7. The Bay East MLS Rule 12.9 notice is on the live page (dates from
+ *      09/28/26 on; see lib/mls-notice.js).
  *
  * Note: the live-inventory COUNT is filled by JS at runtime, so over HTTP the
  * strip shows its "hundreds of" fallback — this script confirms the strip is
@@ -163,8 +165,17 @@ function structural(html, short) {
     // be GONE from the live body. Its presence means a stale pre-redesign body.
     noPlotly: !/plotly/i.test(html),
     liveStrip: html.includes('hb-li-total') && html.includes('live-inventory-teaser.js'),
+    // Bay East MLS Rule 12.9 notice (lib/mls-notice.js), required on every page
+    // dated 09/28/26 or later. Marker kept local so this check stays independent.
+    mlsNotice: html.includes('Based on information from the Bay East Association of REALTORS'),
     chartSrc: (html.match(/src=["']([^"']*alameda-chart-\d+\.js[^"']*)["']/) || [])[1] || null,
   };
+}
+
+// The notice shipped 09/28/26; pages before that never carried it.
+function needsMlsNotice(short) {
+  const mm = short.slice(0, 2), dd = short.slice(2, 4), yy = short.slice(4, 6);
+  return `20${yy}${mm}${dd}` >= '20260928';
 }
 
 async function verifyPage(label, url, short, expected) {
@@ -174,6 +185,10 @@ async function verifyPage(label, url, short, expected) {
   const s = structural(r.body, short);
   out.lines.push(`newsletter+strip: ${s.newsletter && s.liveStrip ? 'OK' : 'MISSING'}  no-plotly: ${s.noPlotly ? 'OK' : 'STILL PRESENT (stale body)'}`);
   if (!(s.newsletter && s.liveStrip && s.noPlotly)) out.ok = false;
+  if (needsMlsNotice(short)) {
+    out.lines.push(`12.9 notice: ${s.mlsNotice ? 'OK' : 'MISSING (Bay East MLS notice not on the live page)'}`);
+    if (!s.mlsNotice) out.ok = false;
+  }
   if (!s.chartSrc) { out.ok = false; out.lines.push('no chart <script src> found'); return out; }
   out.lines.push(`chart src: ${s.chartSrc.replace(/^https?:\/\//, '')}`);
   let data;

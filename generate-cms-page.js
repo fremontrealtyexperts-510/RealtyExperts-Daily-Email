@@ -12,6 +12,10 @@
  * "composed each morning" and supplied via cms-content.json. Everything else
  * (date badge, default-city banner, title, copyright, robots) is derived.
  *
+ * The page always ends with the Bay East MLS Rule 12.9 notice (lib/mls-notice.js,
+ * dated to this report), because it prints MLS counts and medians in public.
+ * It is generator-owned: never compose it into cms-content.json, never remove it.
+ *
  * Replaces the throwaway /tmp/build-alameda.py.
  */
 
@@ -19,6 +23,7 @@ const fs = require('fs');
 const path = require('path');
 const { getAccessToken, getSheetValues, SCOPES } = require('./lib/google-sa');
 const { TEMPLATE_PATH, GITHUB_PAGES_BASE } = require('./lib/config');
+const { mlsNoticeHtml } = require('./lib/mls-notice');
 
 const SHEET_ID = '1YxbK29giJO6XDQAV3RHXml2vjMejmtBpZfD3ICW_gTw';
 const REV2_RANGE = 'RE-v2!A1:Z40';
@@ -311,6 +316,7 @@ function buildCmsHtml({ dateLabel, chartSrc, newsletterInner, pageTitle = '', de
 </div>
 <div class="newsletter-container">
 ${newsletterInner}</div>
+<p class="mls-notice" style="max-width:760px;margin:18px auto 0;padding:0 6px;font-size:12px;line-height:1.6;color:var(--muted);">${mlsNoticeHtml(dateLabel)}</p>
 </div>
 <script src="${chartSrc}"></script>
 <script src="${GITHUB_PAGES_BASE}/live-inventory-teaser.js"></script>

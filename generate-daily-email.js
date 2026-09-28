@@ -2,6 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
+// Bay East MLS Rule 12.9 notice for the footer (zero dependency module, added 09/28/26).
+const { mlsNoticeHtml } = require('./lib/mls-notice');
 
 // ── Meridian palette (matches lib/html-builders.js + the harvrealtor.com report) ──
 // paper/ink/gold with the muted directional signal (sage up, clay down) approved 2026-07-06.
@@ -623,6 +625,7 @@ function generateHTML(data) {
                     <p style="margin: 0 0 12px 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 12px; letter-spacing: 0.8px;">DAILY MARKET GLANCE · ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toUpperCase()}</p>
                     <p style="margin: 0 0 18px 0; font-size: 13px;"><a href="https://TeamRealtyExperts.com" style="font-family: ${SANS}; color: ${PAL.goldDark}; text-decoration: none; font-weight: 700;">TeamRealtyExperts.com</a></p>
                     <p style="margin: 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 11px; line-height: 1.65; border-top: 1px solid ${PAL.hair}; padding-top: 14px;">Disclaimer: The market data, rates, and information provided in this email are for informational purposes only and should not be considered financial advice. Figures are sourced from third-party providers and may be delayed or subject to change. Always verify rates and data with your lender or financial advisor before making any decisions.</p>
+                    <p style="margin: 10px 0 0 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 11px; line-height: 1.65;">${mlsNoticeHtml(data.date)}</p>
                     <p style="margin: 10px 0 0 0; font-family: ${SANS}; color: ${PAL.faint}; font-size: 10px; line-height: 1.6;">
                       <em>Sources:</em><br>
                       ${generateSourceLinks(data.sources || [])}
