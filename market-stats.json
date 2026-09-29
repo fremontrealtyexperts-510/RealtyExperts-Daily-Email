@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T04:02:03.730446Z",
+ "generatedAt": "2026-09-29T05:44:17.244614Z",
  "note": "Monthly market stats from Bay East/RPR reports, one entry per city from that city's latest published harvrealtor.net market report. Cities can be on different report months: when quoting a city, cite its as_of (its report month). generatedAt is only when this file was built, never an as-of date for the numbers.",
  "cities": {
   "Fremont": {
@@ -472,159 +472,159 @@
    }
   },
   "Newark": {
-   "report_month": "July 2026",
-   "as_of": "July 2026 monthly market report",
+   "report_month": "August 2026",
+   "as_of": "August 2026 monthly market report",
    "scope": "Single Family Residence",
    "source": "Bay East Association of REALTORS\u00ae / RPR",
-   "blog_url": "https://harvrealtor.net/blog/newark-real-estate-market-report-july-2026",
+   "blog_url": "https://harvrealtor.net/blog/newark-real-estate-market-report-august-2026",
    "headline": {
     "months_of_inventory": {
-     "value": 2.17,
-     "page": 1,
-     "mom": 18.11,
+     "value": 2.23,
+     "page": 2,
+     "mom": 8.23,
      "mom_dir": "down"
     },
     "sold_to_list_pct": {
-     "value": 101.6,
-     "page": 1,
-     "mom": 0.68,
+     "value": 99.4,
+     "page": 2,
+     "mom": 2.1,
      "mom_dir": "down"
     },
     "median_days": {
-     "value": 18,
-     "page": 1,
-     "mom": 28.57,
+     "value": 27,
+     "page": 2,
+     "mom": 50.0,
      "mom_dir": "up"
     },
     "median_sold_price": {
-     "value": 1325000,
-     "page": 1,
-     "mom": 4.57,
-     "mom_dir": "down"
+     "value": 1465000,
+     "page": 2,
+     "mom": 10.57,
+     "mom_dir": "up"
     },
     "market_type": {
      "value": "Seller's Market",
-     "page": 1,
+     "page": 2,
      "derived": true,
-     "basis": "months_of_inventory=2.17"
+     "basis": "months_of_inventory=2.23"
     },
     "median_estimated_value": {
-     "value": 1373100,
-     "page": 1,
-     "last_month_pct": -2.9,
+     "value": 1360150,
+     "page": 2,
+     "last_month_pct": -0.9,
      "twelve_month_pct": -3.0
     }
    },
    "new_listings": {
     "median_list_price": {
-     "value": 1299999,
-     "page": 2,
-     "mom": 6.1,
-     "mom_dir": "down"
+     "value": 1360000,
+     "page": 3,
+     "mom": 4.6,
+     "mom_dir": "up"
     },
     "count": {
-     "value": 32,
-     "page": 2,
-     "mom": 28.9,
-     "mom_dir": "down",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "value": 39,
+     "page": 3,
+     "mom": 18.2,
+     "mom_dir": "up",
+     "dir_source": "PDF arrow glyph + RPR fill color (green up, red down), page.chars, verified 2026-09-28"
     }
    },
    "active_listings": {
     "median_list_price": {
-     "value": 1309000,
-     "page": 3,
-     "mom": 8.3,
+     "value": 1299000,
+     "page": 4,
+     "mom": 0.1,
      "mom_dir": "down"
     },
     "count": {
-     "value": 50,
-     "page": 3,
-     "mom": 18.0,
+     "value": 49,
+     "page": 4,
+     "mom": 12.5,
      "mom_dir": "down",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "dir_source": "PDF arrow glyph + RPR fill color (green up, red down), page.chars, verified 2026-09-28"
     },
     "median_ppsf": {
-     "value": 804,
-     "page": 4,
-     "mom": 5.8,
-     "mom_dir": "up"
+     "value": 781,
+     "page": 5,
+     "mom": 2.9,
+     "mom_dir": "down"
     },
     "median_days": {
-     "value": 35,
-     "page": 4,
-     "mom": 2.9,
-     "mom_dir": "up",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "value": 23,
+     "page": 5,
+     "mom": 28.1,
+     "mom_dir": "down",
+     "dir_source": "PDF arrow glyph + RPR fill color (green up, red down), page.chars, verified 2026-09-28"
     }
    },
    "new_pending": {
     "median_list_price": {
-     "value": 1399999,
-     "page": 5,
-     "mom": 7.8,
-     "mom_dir": "up"
+     "value": 1372500,
+     "page": 6,
+     "mom": 1.9,
+     "mom_dir": "down"
     },
     "count": {
-     "value": 17,
-     "page": 5,
-     "mom": 34.6,
-     "mom_dir": "down",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "value": 24,
+     "page": 6,
+     "mom": 26.3,
+     "mom_dir": "up",
+     "dir_source": "PDF arrow glyph + RPR fill color (green up, red down), page.chars, verified 2026-09-28"
     },
     "median_days": {
-     "value": 21,
-     "page": 6,
-     "mom": 61.5,
-     "mom_dir": "up"
+     "value": 18,
+     "page": 7,
+     "mom": 25.0,
+     "mom_dir": "down"
     }
    },
    "pending": {
     "median_list_price": {
-     "value": 1490000,
-     "page": 7,
-     "mom": 7.3,
-     "mom_dir": "up"
+     "value": 1399999,
+     "page": 8,
+     "mom": 4.4,
+     "mom_dir": "down"
     },
     "count": {
-     "value": 26,
-     "page": 7,
-     "mom": 29.7,
-     "mom_dir": "down",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "value": 27,
+     "page": 8,
+     "mom": 0.0,
+     "mom_dir": "flat",
+     "dir_source": "PDF shows 0% with no arrow glyph on p8, so flat; verified 2026-09-28"
     }
    },
    "sold": {
     "median_sold_price": {
-     "value": 1325000,
-     "page": 8,
-     "mom": 4.6,
-     "mom_dir": "down"
+     "value": 1465000,
+     "page": 9,
+     "mom": 10.6,
+     "mom_dir": "up"
     },
     "count": {
-     "value": 31,
-     "page": 8,
-     "mom": 10.7,
-     "mom_dir": "up",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "value": 23,
+     "page": 9,
+     "mom": 25.8,
+     "mom_dir": "down",
+     "dir_source": "PDF arrow glyph + RPR fill color (green up, red down), page.chars, verified 2026-09-28"
     },
     "avg_list_to_sale_pct": {
-     "value": 101.56,
-     "page": 9,
-     "mom": 0.7,
+     "value": 99.43,
+     "page": 10,
+     "mom": 2.1,
      "mom_dir": "down"
     },
     "median_days": {
-     "value": 18,
-     "page": 9,
-     "mom": 28.6,
+     "value": 27,
+     "page": 10,
+     "mom": 50.0,
      "mom_dir": "up",
-     "dir_source": "PDF arrow glyph + RPR fill color, verified 2026-08-29"
+     "dir_source": "PDF arrow glyph + RPR fill color (green up, red down), page.chars, verified 2026-09-28"
     },
     "median_ppsf": {
-     "value": 793,
-     "page": 10,
-     "mom": 9.3,
+     "value": 708,
+     "page": 11,
+     "mom": 10.7,
      "mom_dir": "down"
     }
    }
