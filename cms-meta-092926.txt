@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 09/29/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 09/29/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for September 29, 2026: mortgage rates hit 7.50%, the highest since April 2024, rental investors pull back, Nvidia authorizes a record $150 billion buyback, and oil's round trip is back on.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, Alameda County housing, Fremont, Hayward, Milpitas, Newark, Union City, mortgage rates, 10-Year Treasury, single-family rental investors, Nvidia buyback, Anthropic IPO, Brent crude, gas prices, gold, silver, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
