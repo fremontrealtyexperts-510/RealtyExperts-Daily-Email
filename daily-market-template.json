@@ -1,64 +1,60 @@
 {
-  "date": "10/01/26",
-  "time": "7:50 AM PT",
+  "date": "10/02/26",
+  "time": "8:00 AM PT",
   "real_estate": {
-    "rate_30year": "7.60%",
-    "rate_15year": "7.22%",
-    "homebuilder": "One in five working-age renters paid late in 2025, and the 30-year reached 7.60%, its highest in almost three years.",
-    "commentary": "Mortgage rates rose for a third straight day. Mortgage News Daily's 30-year reached 7.60% on Wednesday, up 0.02 and the highest in almost three years, and the 15-year is 7.22%, the highest since October 2023. On our five city median of $1,088,000 with 20% down, principal and interest come to $6,146 a month, $419 more than when September began at 6.89%.\n\nToday's first chart is a new Urban Institute survey. One in five working-age renters (20.0%) paid rent late or short at some point in 2025, up from 16.5% in 2024 and the survey's first significant yearly change since it began in 2017. The jump came from middle income renters, 14.3% to 21.6%. The lower income rise the graphic going around shows (26.4% to 27.8%) is within the margin of error, so we drew it dashed.\n\nThe survey's income bands are national, so a family of three earning $53,300 to $106,600 counts as middle income, and the West was the one region where the share slipped. Our rents tell their own story. Zillow's August index puts the typical Fremont rent at $3,375, up 5.2% in a year, with Milpitas up 9.5% and Union City 6.3%, against 2.5% nationally. All five of our cities beat the national pace.\n\nWhat this means for you: today's squeezed renters are tomorrow's buyers, but at 7.60% the median home costs about 1.8 times Fremont's typical rent before taxes and insurance. Rent growth is holding up for owners who lease; for buyers, the math rewards negotiating on price, and 147 of the ledger's 593 homes on the market have been listed 60 days or longer. Locally the five city ledger slipped to 675 from 691 and the board wide table fell 28 to 2,672.\n\n• Board wide: 2,672 listings across our 15 city table, counting active and in contract together, with 167 coming soon and 166 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 675 listings across Fremont, Hayward, Milpitas, Newark and Union City. 593 are on the market and 82 are coming soon.\n• Fremont: 242 live, 189 active, 30 coming soon, 22 brand new and 1 back on market. The median on market list price is $1,242,633 at $771 a square foot, and the typical active listing has been out 30 days.\n• The rest of the ledger: Hayward 177, Milpitas 107, Newark 87, Union City 62.\n• Across all five cities the median is $1,088,000 at $673 a square foot. 276 homes are priced under a million, and 147 have been sitting 60 days or longer.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/rent-squeeze-100126.png",
-      "alt": "Two panel chart. Left: share of renters ages 18 to 64 who paid rent late or short in the past 12 months, 2024 to 2025, from the Urban Institute: lower income 26.4% to 27.8% (not statistically significant), all renters 16.5% to 20.0%, middle income 14.3% to 21.6% (highlighted, the only significant income group rise), higher income 4.9% to 6.9% (not significant). Right: Zillow typical rent, August 2026, change from a year earlier: Milpitas up 9.5% ($3,702 a month), Union City up 6.3% ($2,945), Fremont up 5.2% ($3,375), Newark up 4.7% ($3,675), Hayward up 3.0% ($2,637), U.S. up 2.5% ($1,948).",
-      "caption": "Middle income renters drove 2025's rise in late rent nationally. Here, rent rose faster than the national 2.5% in all five of our cities.",
-      "source": "Sources: Urban Institute, Well-Being and Basic Needs Survey, fielded December 2025 (September 2026 brief); Zillow Observed Rent Index, August 2026."
-    }
+    "rate_30year": "7.54%",
+    "rate_15year": "7.18%",
+    "homebuilder": "Mortgage rates eased to 7.54% from a near three year high as hiring slowed to 29,000 jobs in September.",
+    "commentary": "Mortgage rates eased from a near three year high. Mortgage News Daily's 30-year was 7.54% on Thursday, down 0.06 from Wednesday's 7.60%, and the 15-year is 7.18%. On our five city median of $1,079,500 with 20% down, principal and interest come to $6,062 a month, $36 less than Wednesday and still $380 more than when September began at 6.89%.\n\nThis morning's jobs report is the kind of news that can move rates. Employers added 29,000 jobs in September, unemployment rose to 4.2%, and July and August were revised down by a combined 60,000. The 10-Year Treasury, which mortgage rates tend to follow, was near 5.24% at 8:00 AM PT, about where it closed Thursday, so the report has not moved rates yet.\n\nLocally, the five city ledger edged up to 679 from 675 and the board wide table rose 28 to 2,700, with 189 brand new listings, up from 166 on Thursday.\n\nWhat this means for you: buyers who stepped back at 7.60% should keep a preapproval current, because on the median home every quarter point off the rate is worth about $147 a month. Sellers should price for today's rates, not tomorrow's; 140 of the ledger's 604 homes on the market have been listed 60 days or longer.\n\n• Board wide: 2,700 listings across our 15 city table, counting active and in contract together, with 161 coming soon and 189 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 679 listings across Fremont, Hayward, Milpitas, Newark and Union City. 604 are on the market and 75 are coming soon.\n• Fremont: 244 live, 193 active, 30 coming soon, 20 brand new and 1 back on market. The median on market list price is $1,249,495 at $781 a square foot, and the typical active listing has been out 30 days.\n• The rest of the ledger: Hayward 179, Milpitas 107, Newark 88, Union City 61.\n• Across all five cities the median is $1,079,500 at $675 a square foot. 283 homes are priced under a million, and 140 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,651.54 (-0.25%)",
-    "dow": "50,906.05 (-0.86%)",
-    "nasdaq": "26,861.06 (+0.24%)",
-    "note": "Levels are Wednesday, September 30 at the closing bell. Thursday is live: at 7:50 AM PT the S&P was 7,641.95 (-0.13%), the Dow 50,712.64 (-0.38%) and the Nasdaq 26,852.78 (-0.03%).",
-    "news": "Stocks closed the third quarter mixed Wednesday: the Dow fell 0.86% while the Nasdaq gained 0.24%. ADP said private employers added 90,000 jobs in September, up from a revised 36,000 in August. The government's report on Friday is expected to show 84,000 jobs and 4.1% unemployment.\n\nAfter the bell, Micron reported fiscal fourth quarter revenue of $54.23 billion, nearly five times the $11.32 billion of a year earlier, and adjusted earnings of $33.42 a share. It guided to about $61.5 billion for the current quarter. AI data centers are buying memory as fast as it can be made, which is good news for Micron and less so for the price of your next laptop. The shares are down 1.3% this morning anyway."
+    "sp500": "7,666.45 (+0.19%)",
+    "dow": "50,926.56 (+0.04%)",
+    "nasdaq": "26,871.60 (+0.04%)",
+    "note": "Levels are Thursday, October 1 at the closing bell. Friday is live: at 8:00 AM PT the S&P was 7,737.43 (+0.93%), the Dow 51,198.27 (+0.53%) and the Nasdaq 27,266.38 (+1.47%).",
+    "news": "Stocks inched higher Thursday to open the fourth quarter, and Friday is stronger so far: at 8:00 AM PT the S&P 500 was up 0.93% and the Nasdaq up 1.47%.\n\nToday's first chart is Nike. Revenue fell 4% to $11.2 billion in the quarter ended August 31, and Greater China fell 26% excluding currency moves (22% in dollars), leaving it smaller than Asia Pacific and Latin America; a year ago it was larger. North America grew 2%. Nike expects revenue for the fiscal year to fall by a high single digit percentage, and the shares are down 5.89% this morning after closing Thursday at $35.15, already their lowest close since 2016. The turnaround is still at the starting line.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/nike-china-100226.png",
+      "alt": "Bar chart of Nike revenue change by region from a year earlier, currency-neutral, for the quarter ended August 31, 2026: Greater China down 26% ($1.18 billion, from $1.51 billion, down 22% in dollars), EMEA down 5% ($3.18 billion, from $3.33 billion), APLA flat ($1.46 billion, from $1.49 billion, down 2% in dollars) and North America up 2% ($5.13 billion, from $5.02 billion). Total revenue was $11.21 billion, down 4% in dollars and 5% currency-neutral.",
+      "caption": "Nike's Greater China revenue fell 26% excluding currency moves and is now smaller than its Asia Pacific and Latin America business. North America grew 2%.",
+      "source": "Source: NIKE, Inc. fiscal 2027 first quarter results, Form 8-K filed October 1, 2026."
+    }
   },
   "economy": {
-    "us10year": "5.29% (+0.03%)",
-    "gold": "$4,186.70 (+0.17%)",
-    "silver": "$60.57 (-0.96%)",
-    "wti": "$98.03 (+1.94%)",
+    "us10year": "5.24% (-0.05%)",
+    "gold": "$4,202.30 (+0.37%)",
+    "silver": "$61.18 (+1.01%)",
+    "wti": "$102.31 (+4.37%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Wednesday, September 30: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement, now the front month. Thursday is live: at 7:50 AM PT the 10-Year was near 5.29%, gold $4,204.00 (+0.41%), silver $61.64 (+1.77%) and December Brent $100.79 (+2.82%).",
-    "commentary": "The 10-Year Treasury closed at 5.29% Wednesday, up three basis points and its highest close since May 14, 2002. Higher U.S. yields are pulling money into the dollar: the euro is near $1.13 this morning, its lowest in more than a year.\n\nToday's second chart is Europe, where inflation jumped in September. Spain's harmonised rate hit 5.0%, Italy's 4.1%, France's 3.4% and Germany's 3.3%, all up from August and all above the European Central Bank's 2% target, which it has raised rates twice this year to defend. For scale, consumer prices in the U.S. and the San Francisco area both rose 3.4% in the year to August. The euro area figure comes Friday.\n\nDecember gold settled up 0.17% and silver down 0.96%. As flagged yesterday, the Brent card switches to December, the new front month: it settled at $98.03, up 1.94% from its own Tuesday settle of $96.16. The newsletter's $103.50 was November's last day before it expired.",
+    "note": "All four are Thursday, October 1: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement, compared with December's own Wednesday settle. Friday is live: at 8:00 AM PT the 10-Year was near 5.24%, gold $4,198.00 (-0.10%), silver $61.41 (+0.38%) and December Brent $100.25 (-2.01%).",
+    "commentary": "Today's second chart started as the ISM factory survey making the rounds: its index was 54.5 in September, the ninth straight month of growth, with the prices gauge jumping to 77.9 from 71.1. ISM does not allow charts built from its index, so we drew the same story from public jobs data. Factories added 9,000 jobs in September, a fourth straight monthly gain, and 72,000 since December.\n\nThe local picture splits. Factory jobs in the San Jose metro rose 1.4% in the year to August, while the Oakland-Fremont area, which covers Alameda and Contra Costa counties, lost 5.5%. Its 93,300 factory jobs are the fewest for an August since 2016, down from 113,500 at the September 2022 peak.\n\nThe wider jobs report was soft: hourly pay rose 3.0% in a year, below the 3.4% rise in consumer prices. In Europe, today's flash estimate put euro area inflation at 3.8% in September, up from 3.2%, led by energy at 18.8%. December gold settled up 0.37% and silver up 1.01%. Brent's December contract jumped 4.37% Thursday to $102.31 and is giving back part of it this morning.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/europe-inflation-100126.png",
-      "alt": "Horizontal bar chart of harmonised (HICP) annual inflation, September 2026 flash estimates, with August marked: Spain 5.0% (from 4.6%), Italy 4.1% (from 3.2%), France 3.4% (from 2.6%), Germany 3.3% (from 2.9%). A dashed line marks the ECB's 2% target. For scale, U.S. and San Francisco area consumer prices both rose 3.4% in the year to August 2026.",
-      "caption": "All four of Europe's largest economies saw inflation rise in September, each well above the ECB's 2% target. U.S. and Bay Area prices are running at 3.4%.",
-      "source": "Sources: INE, Istat, INSEE and Destatis flash estimates of September 29 and 30, 2026; U.S. Bureau of Labor Statistics."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/factory-jobs-100226.png",
+      "alt": "Two panel chart. Left: U.S. manufacturing employment, seasonally adjusted, October 2025 to September 2026, falling to a December low of 12,580,000 and rising to 12,652,000 in September, up 72,000 since December. Right: factory jobs in August 2026 compared with a year earlier, not seasonally adjusted: San Jose metro up 1.4% (131,400 jobs), United States up 0.3%, California down 1.2% and the Oakland-Fremont area down 5.5% (93,300 jobs, highlighted).",
+      "caption": "U.S. factory jobs have risen four months in a row, but the Oakland-Fremont area, Alameda and Contra Costa counties, has 5.5% fewer than a year ago.",
+      "source": "Source: U.S. Bureau of Labor Statistics, Current Employment Statistics, national through September and metro through August 2026."
     }
   },
   "crypto": {
-    "btc": "$83,889 (+0.16%)",
-    "eth": "$2,686.08 (+0.34%)",
-    "xrp": "$1.48 (-1.15%)",
-    "commentary": "Bitcoin closed the third quarter at $83,580 at 5 PM PT Wednesday, up 42.8% from June 30. That is its best quarter since late 2024 and its first winning quarter in a year, yet it ended about 33% below last October's record close and 4.5% below where 2026 began.\n\nThis morning is quiet: Bitcoin is up 0.16% over 24 hours, Ether up 0.34% and XRP down 1.15%, live from Coinbase at 7:50 AM PT."
+    "btc": "$85,676 (+1.84%)",
+    "eth": "$2,708.96 (+1.02%)",
+    "xrp": "$1.51 (+2.06%)",
+    "commentary": "Crypto is up with stocks this morning. Bitcoin is up 1.84% over 24 hours to about $85,700, near its September 21 high close of $86,505, while Ether is up 1.02% and XRP 2.06%, live from Coinbase at 8:00 AM PT."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.urban.org/research/publication/renters-increasingly-struggle-pay-housing",
-    "https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv",
-    "https://www.ine.es/dyngs/Prensa/en/adIPC0926.htm",
-    "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
-    "https://www.insee.fr/fr/statistiques/9056956",
-    "https://www.destatis.de/EN/Press/2026/09/PE26_348_611.html",
-    "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-    "https://www.bls.gov/cpi/",
-    "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
-    "https://www.foxbusiness.com/economy/private-sector-added-90000-jobs-september-above-expectations-adp-says",
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "https://data.bls.gov/timeseries/SMU06360843000000001",
+    "https://data.bls.gov/timeseries/SMU06419403000000001",
+    "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report-302894520.html",
+    "https://www.sec.gov/Archives/edgar/data/320187/000032018726000184/q1fy27exhibit991er.htm",
+    "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
     "https://finance.yahoo.com/quote/BZZ26.NYM/",
     "https://quote.cnbc.com/",
     "https://coinmetrics.io/community-network-data/",
     "https://exchange.coinbase.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/7bdee969-16a1-4d5b-a578-0b0c31a5745a",
-  "qr_code_path": "note-qr-7bdee969.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/fda8721d-b1d2-490b-87eb-84e930a4c840",
+  "qr_code_path": "note-qr-fda8721d.png"
 }
