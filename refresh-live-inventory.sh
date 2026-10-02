@@ -104,6 +104,15 @@ if [ -z "$NEW_DATE" ]; then
   echo "ERROR: generated file has no date, not publishing"
   exit 1
 fi
+# Never publish a date after today (PT). newer() only ever moves forward, so one
+# future date (the 09/30/26 sheet named "093036" would have stamped 09/30/36)
+# would freeze the feed for good. generate-live-inventory.js already refuses an
+# implausible sheet-name date; this is the second lock, and it also covers --date.
+TODAY_YMD=$(TZ=America/Los_Angeles date +%y%m%d)
+if [ "$(ymd "$NEW_DATE")" \> "$TODAY_YMD" ]; then
+  echo "ERROR: generated date $NEW_DATE is after today ($TODAY_YMD PT), not publishing"
+  exit 1
+fi
 
 LIVE_MOVED=0
 ASSIST_MOVED=0

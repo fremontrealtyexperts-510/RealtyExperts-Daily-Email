@@ -58,6 +58,13 @@ const toCsv = rows => rows.map(r => r.map(v => {
   const f = (list.files || []).find(x => x.mimeType === 'text/csv' || x.mimeType === SHEET);
   if (!f) throw new Error('no MLS_Defined* / MLS_Listing_Summary* CSV/Sheet visible to the service account');
   console.log('\nUsing:', f.name, `(${f.mimeType === SHEET ? 'google-sheet' : 'csv'}, ${f.modifiedTime})`);
+  // The six digits become every downstream file's date. Flag a newest export that is
+  // not named for today (PT): a misnamed upload (093036 on 09/30/26) or one this query
+  // could not see (10/02/26), which silently hands back yesterday's sheet.
+  const nd = f.name.match(/(\d{2})(\d{2})(\d{2})\s*$/);
+  const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+  const today = [now.getMonth() + 1, now.getDate(), now.getFullYear() % 100].map(n => String(n).padStart(2, '0')).join('');
+  if (!nd || nd.slice(1).join('') !== today) console.warn(`WARN: the newest export is named for ${nd ? nd.slice(1).join('') : 'no date'}, not today (${today} PT); check the sheet name and that today's export was uploaded`);
   let rows;
   if (f.mimeType === SHEET) {
     const res = await req('GET', `https://sheets.googleapis.com/v4/spreadsheets/${f.id}/values/${encodeURIComponent('A1:AZ100000')}?valueRenderOption=UNFORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING`, token);

@@ -93,20 +93,71 @@ const cleanUnit = (v) => String(v == null ? '' : v).replace(/[$#,\s]/g, '').trim
 const titleCase = (s) =>
   String(s).toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
 
-function todayPT() {
-  const d = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+// MM/DD/YY of an instant, on the Pacific calendar.
+function ptMDY(when) {
+  const d = new Date(when.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
   const mm = String(d.getMonth() + 1).padStart(2, '0');
   const dd = String(d.getDate()).padStart(2, '0');
   const yy = String(d.getFullYear() % 100).padStart(2, '0');
   return `${mm}/${dd}/${yy}`;
 }
 
-function reportDate(explicit, sourceName) {
-  if (explicit) return explicit;
+function todayPT() {
+  return ptMDY(new Date());
+}
+
+// MM/DD/YY -> UTC ms of that calendar day, or NaN when it is not a real date.
+function mdyToUTC(mdy) {
+  const m = /^(\d{2})\/(\d{2})\/(\d{2})$/.exec(String(mdy));
+  if (!m) return NaN;
+  const y = 2000 + Number(m[3]), mo = Number(m[1]) - 1, day = Number(m[2]);
+  const t = Date.UTC(y, mo, day);
+  const back = new Date(t);
+  return back.getUTCFullYear() === y && back.getUTCMonth() === mo && back.getUTCDate() === day ? t : NaN;
+}
+
+// A sheet name's trailing MMDDYY is trusted only when it is a real date, not in
+// the future, and within NAME_DATE_TOLERANCE_DAYS of the file's last change.
+// 09/30/26: the export was saved as "MLS_Defined_Spread_Sheet_4 - 093036". The
+// 9:00 refresh would have stamped the feed 09/30/36, and because
+// refresh-live-inventory.sh publishes only NEWER dates, no real day would ever
+// have replaced it. A bad name is refused rather than guessed: guessing from
+// the modified time would mislabel an old sheet that someone merely edited.
+const NAME_DATE_TOLERANCE_DAYS = 3;
+
+function nameDateProblem(named, modifiedTime) {
+  const t = mdyToUTC(named);
+  if (Number.isNaN(t)) return 'is not a real calendar date';
+  if (t > mdyToUTC(todayPT())) return `is after today (${todayPT()} PT)`;
+  if (modifiedTime) {
+    const changed = ptMDY(new Date(modifiedTime));
+    const days = Math.round(Math.abs(t - mdyToUTC(changed)) / 86400000);
+    if (days > NAME_DATE_TOLERANCE_DAYS) return `is ${days} days from the file's last change (${changed} PT)`;
+  }
+  return null;
+}
+
+function reportDate(explicit, sourceName, sourceModified) {
   // The dated file name is the truth: "MLS_Defined_Spread_Sheet_4- 071626"
   // or "MLS_Listing_Summary_Spreadsheet - 100226" (same trailing MMDDYY).
   const m = String(sourceName || '').match(/(\d{2})(\d{2})(\d{2})\s*$/);
-  if (m) return `${m[1]}/${m[2]}/${m[3]}`;
+  const named = m ? `${m[1]}/${m[2]}/${m[3]}` : null;
+  if (explicit) {
+    // An explicit --date (update-inventory.js passes the template date) wins,
+    // but a newest export named for another day usually means today's export
+    // is missing or misnamed, so say so.
+    if (named && named !== explicit) {
+      console.warn(`WARN: using --date ${explicit}, but the newest export "${sourceName}" is named ${named}; check that today's export was uploaded and named correctly`);
+    }
+    return explicit;
+  }
+  if (named) {
+    const problem = nameDateProblem(named, sourceModified);
+    if (problem) {
+      throw new Error(`the newest export "${sourceName}" is named ${named}, which ${problem}; fix the sheet name in Drive or pass --date MM/DD/YY`);
+    }
+    return named;
+  }
   try {
     const t = JSON.parse(fs.readFileSync(TEMPLATE_PATH, 'utf8'));
     if (t && typeof t.date === 'string' && /^\d{2}\/\d{2}\/\d{2}$/.test(t.date)) return t.date;
@@ -261,7 +312,7 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
 
   const payload = {
     version: 2,
-    date: reportDate(date, source.name),
+    date: reportDate(date, source.name, source.modifiedTime),
     generatedAt: new Date().toISOString(),
     source: 'Paragon MLS daily export via REALTY EXPERTS',
     itemized: false,
@@ -577,4 +628,4 @@ if (require.main === module) {
     .catch((e) => { console.error('ERROR:', e.message); process.exit(1); });
 }
 
-module.exports = { buildLiveInventory };
+module.exports = { buildLiveInventory, reportDate };
