@@ -1,6 +1,6 @@
 /**
  * dump-mls-csv.js  [outCsv]
- * READ-ONLY: lists the MLS_Defined* files the service account can see, reads the
+ * READ-ONLY: lists the MLS_Defined* / MLS_Listing_Summary* exports the service account can see, reads the
  * newest (Sheet via Sheets API UNFORMATTED_VALUE, else CSV), writes it to a local
  * CSV, and prints the file list + row count. No sheet writes, no Drive uploads.
  * Auth + read logic mirrors mls-pipeline.js getRows().
@@ -48,13 +48,15 @@ const toCsv = rows => rows.map(r => r.map(v => {
   const tr = await req('POST', 'https://oauth2.googleapis.com/token', '', { headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: `grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=${makeJwt(creds)}` });
   const token = j(tr.body).access_token;
   if (!token) throw new Error('auth failed: ' + tr.body.toString().slice(0, 300));
-  const q = encodeURIComponent("name contains 'MLS_Defined' and trashed=false and mimeType!='application/vnd.google-apps.folder'");
+  // Harv's Paragon export arrives under either name: "MLS_Defined_Spread_Sheet_4 - MMDDYY"
+  // or, since 10/02/26, "MLS_Listing_Summary_Spreadsheet - MMDDYY". Match both; newest wins.
+  const q = encodeURIComponent("(name contains 'MLS_Defined' or name contains 'MLS_Listing_Summary') and trashed=false and mimeType!='application/vnd.google-apps.folder'");
   const list = j((await req('GET', `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,mimeType,modifiedTime)&orderBy=modifiedTime desc&pageSize=10`, token)).body);
-  console.log('=== MLS_Defined* files (newest first) ===');
+  console.log('=== MLS_Defined* / MLS_Listing_Summary* files (newest first) ===');
   (list.files || []).forEach(f => console.log(`${f.modifiedTime}  ${f.mimeType.includes('spreadsheet') ? 'SHEET' : 'csv  '}  ${f.name}`));
   const SHEET = 'application/vnd.google-apps.spreadsheet';
   const f = (list.files || []).find(x => x.mimeType === 'text/csv' || x.mimeType === SHEET);
-  if (!f) throw new Error('no MLS_Defined* CSV/Sheet visible to the service account');
+  if (!f) throw new Error('no MLS_Defined* / MLS_Listing_Summary* CSV/Sheet visible to the service account');
   console.log('\nUsing:', f.name, `(${f.mimeType === SHEET ? 'google-sheet' : 'csv'}, ${f.modifiedTime})`);
   let rows;
   if (f.mimeType === SHEET) {

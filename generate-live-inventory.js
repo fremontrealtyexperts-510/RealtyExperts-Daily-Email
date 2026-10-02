@@ -4,7 +4,8 @@
  *
  * Builds live-inventory.json for the harvrealtor.net /live-inventory page.
  *
- * Source: the newest dated "MLS_Defined_Spread_Sheet_4- MMDDYY" file in Drive
+ * Source: the newest dated "MLS_Defined_Spread_Sheet_4- MMDDYY" (or, since
+ * 10/02/26, "MLS_Listing_Summary_Spreadsheet - MMDDYY") file in Drive
  * (the raw Paragon export, discovered the same way mls-pipeline.js getRows()
  * does), read via the service account with valueRenderOption=UNFORMATTED_VALUE.
  *
@@ -102,7 +103,8 @@ function todayPT() {
 
 function reportDate(explicit, sourceName) {
   if (explicit) return explicit;
-  // The dated file name is the truth: "MLS_Defined_Spread_Sheet_4- 071626".
+  // The dated file name is the truth: "MLS_Defined_Spread_Sheet_4- 071626"
+  // or "MLS_Listing_Summary_Spreadsheet - 100226" (same trailing MMDDYY).
   const m = String(sourceName || '').match(/(\d{2})(\d{2})(\d{2})\s*$/);
   if (m) return `${m[1]}/${m[2]}/${m[3]}`;
   try {
@@ -138,10 +140,12 @@ function parseCsv(text) {
 }
 
 // Newest dated Paragon export the service account can see (Sheet or CSV),
-// discovered exactly like mls-pipeline.js getRows().
+// discovered exactly like mls-pipeline.js getRows(). Either export name counts:
+// "MLS_Defined_Spread_Sheet_4 - MMDDYY" or, since 10/02/26,
+// "MLS_Listing_Summary_Spreadsheet - MMDDYY"; newest by modifiedTime wins.
 async function findNewestExport(token) {
   const q = encodeURIComponent(
-    "name contains 'MLS_Defined' and trashed=false and mimeType!='application/vnd.google-apps.folder'"
+    "(name contains 'MLS_Defined' or name contains 'MLS_Listing_Summary') and trashed=false and mimeType!='application/vnd.google-apps.folder'"
   );
   const r = JSON.parse((await apiGet(
     `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,mimeType,modifiedTime)&orderBy=modifiedTime desc&pageSize=10`,
@@ -149,7 +153,7 @@ async function findNewestExport(token) {
   )).body);
   const SHEET = 'application/vnd.google-apps.spreadsheet';
   const f = (r.files || []).find((x) => x.mimeType === SHEET || x.mimeType === 'text/csv');
-  if (!f) throw new Error('no MLS_Defined* Sheet/CSV visible to the service account');
+  if (!f) throw new Error('no MLS_Defined* / MLS_Listing_Summary* Sheet/CSV visible to the service account');
   return f;
 }
 

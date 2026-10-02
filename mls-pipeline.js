@@ -7,8 +7,9 @@
  *   2. Renders RE-Daily-1.png (table) + RE-Daily-2.png (chart) via mls-csv-to-images.py.
  *   3. Archives yesterday's PNGs and uploads today's to Raw-data. [needs Raw-data folder = Editor]
  *
- * CSV source: a local path if given, else the newest MLS_Defined_Spread* file the
- * service account can see in Drive (i.e. uploaded into the shared Raw-data folder).
+ * CSV source: a local path if given, else the newest MLS_Defined_Spread* or (since
+ * 10/02/26) MLS_Listing_Summary* file the service account can see in Drive (i.e.
+ * uploaded into the shared Raw-data folder).
  * No external deps (Node built-ins + the python renderer).
  */
 const https = require('https'), crypto = require('crypto'), fs = require('fs'),
@@ -67,11 +68,13 @@ function parseCsv(text) {
 }
 async function getCsv(token) {
   if (LOCAL_CSV) { console.log('CSV source: local', LOCAL_CSV); return fs.readFileSync(LOCAL_CSV, 'utf8'); }
-  const q = encodeURIComponent("name contains 'MLS_Defined' and trashed=false and mimeType!='application/vnd.google-apps.folder'");
+  // Harv's Paragon export arrives under either name: "MLS_Defined_Spread_Sheet_4 - MMDDYY"
+  // or, since 10/02/26, "MLS_Listing_Summary_Spreadsheet - MMDDYY". Match both; newest wins.
+  const q = encodeURIComponent("(name contains 'MLS_Defined' or name contains 'MLS_Listing_Summary') and trashed=false and mimeType!='application/vnd.google-apps.folder'");
   const r = j((await req('GET', `https://www.googleapis.com/drive/v3/files?q=${q}&fields=files(id,name,mimeType,modifiedTime)&orderBy=modifiedTime desc&pageSize=10`, token)).body);
   const SHEET = 'application/vnd.google-apps.spreadsheet';
   const f = (r.files || []).find(x => x.mimeType === 'text/csv' || x.mimeType === SHEET); // newest CSV upload or auto-converted Sheet
-  if (!f) throw new Error("no MLS_Defined* CSV/Sheet visible to the service account — upload today's export to a shared Drive folder first");
+  if (!f) throw new Error("no MLS_Defined* / MLS_Listing_Summary* CSV/Sheet visible to the service account — upload today's export to a shared Drive folder first");
   console.log('CSV source: Drive', f.name, `(${f.mimeType === SHEET ? 'google-sheet' : 'csv'}, ${f.modifiedTime})`);
   const url = f.mimeType === SHEET
     ? `https://www.googleapis.com/drive/v3/files/${f.id}/export?mimeType=text/csv`
