@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T05:44:17.244614Z",
+ "generatedAt": "2026-10-03T17:41:11.668250Z",
  "note": "Monthly market stats from Bay East/RPR reports, one entry per city from that city's latest published harvrealtor.net market report. Cities can be on different report months: when quoting a city, cite its as_of (its report month). generatedAt is only when this file was built, never an as-of date for the numbers.",
  "cities": {
   "Fremont": {
@@ -321,153 +321,162 @@
    }
   },
   "Milpitas": {
-   "report_month": "July 2026",
-   "as_of": "July 2026 monthly market report",
+   "report_month": "August 2026",
+   "as_of": "August 2026 monthly market report",
    "scope": "Single Family Residence",
    "source": "Bay East Association of REALTORS\u00ae / RPR",
-   "blog_url": "https://harvrealtor.net/blog/milpitas-real-estate-market-report-july-2026",
+   "blog_url": "https://harvrealtor.net/blog/milpitas-real-estate-market-report-august-2026",
    "headline": {
     "months_of_inventory": {
-     "value": 1.86,
+     "value": 1.36,
      "page": 2,
-     "mom": 56.3,
-     "mom_dir": "up"
+     "mom": 36.45,
+     "mom_dir": "down",
+     "yoy": 5.4,
+     "yoy_dir": "up"
     },
     "sold_to_list_pct": {
-     "value": 101.6,
+     "value": 100.3,
      "page": 2,
-     "mom": 2.4,
+     "mom": 1.28,
      "mom_dir": "down"
     },
     "median_days": {
      "value": 13,
      "page": 2,
-     "mom": 8.33,
-     "mom_dir": "up"
+     "note": "Key Details shows no MoM for Median Days in RPR (p2); sold page p10 shows 0% MoM"
     },
     "median_sold_price": {
-     "value": 1670000,
+     "value": 1775000,
      "page": 2,
-     "mom": 7.22,
-     "mom_dir": "down"
+     "mom": 6.29,
+     "mom_dir": "up"
     },
     "market_type": {
      "value": "Seller's Market",
      "page": 2,
      "derived": true,
-     "basis": "months_of_inventory=1.86"
+     "basis": "months_of_inventory=1.36"
     },
     "median_estimated_value": {
-     "value": 1649570,
+     "value": 1632090,
      "page": 2,
-     "last_month_pct": 0.2,
-     "twelve_month_pct": -9.6
+     "last_month_pct": -1.1,
+     "twelve_month_pct": -10.3,
+     "as_of": "September 2026 (p2 label: \"September 2026 Median Estimated Property Value\")"
     }
    },
    "new_listings": {
     "median_list_price": {
-     "value": 1591500,
+     "value": 1624000,
      "page": 3,
      "mom": 2.0,
-     "mom_dir": "down"
+     "mom_dir": "up"
     },
     "count": {
-     "value": 26,
+     "value": 22,
      "page": 3,
-     "mom": 62.5,
-     "mom_dir": "up"
+     "mom": 15.4,
+     "mom_dir": "down",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
     }
    },
    "active_listings": {
     "median_list_price": {
-     "value": 1593000,
+     "value": 1650000,
      "page": 4,
-     "mom": 0.4,
-     "mom_dir": "down"
-    },
-    "count": {
-     "value": 26,
-     "page": 4,
-     "mom": 36.8,
+     "mom": 5.2,
      "mom_dir": "up"
     },
+    "count": {
+     "value": 19,
+     "page": 4,
+     "mom": 36.7,
+     "mom_dir": "down",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
+    },
     "median_ppsf": {
-     "value": 994,
+     "value": 992,
      "page": 5,
-     "mom": 0.7,
+     "mom": 0.2,
      "mom_dir": "down"
     },
     "median_days": {
-     "value": 22,
+     "value": 12,
      "page": 5,
-     "mom": 29.0,
-     "mom_dir": "down"
+     "mom": 42.9,
+     "mom_dir": "down",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
     }
    },
    "new_pending": {
     "median_list_price": {
-     "value": 1680000,
+     "value": 1588000,
      "page": 6,
-     "mom": 6.7,
+     "mom": 5.5,
      "mom_dir": "down"
     },
     "count": {
-     "value": 11,
+     "value": 21,
      "page": 6,
-     "mom": 35.3,
-     "mom_dir": "down"
+     "mom": 90.9,
+     "mom_dir": "up",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
     },
     "median_days": {
-     "value": 14,
+     "value": 13,
      "page": 7,
-     "mom": 0.0,
-     "mom_dir": "flat"
+     "mom": 7.1,
+     "mom_dir": "down"
     }
    },
    "pending": {
     "median_list_price": {
-     "value": 1790000,
+     "value": 1596500,
      "page": 8,
-     "mom": 0.6,
+     "mom": 10.8,
      "mom_dir": "down"
     },
     "count": {
-     "value": 8,
+     "value": 18,
      "page": 8,
-     "mom": 38.5,
-     "mom_dir": "down"
+     "mom": 125.0,
+     "mom_dir": "up",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
     }
    },
    "sold": {
     "median_sold_price": {
-     "value": 1670000,
+     "value": 1775000,
      "page": 9,
-     "mom": 7.2,
-     "mom_dir": "down"
+     "mom": 6.3,
+     "mom_dir": "up"
     },
     "count": {
-     "value": 16,
+     "value": 10,
      "page": 9,
-     "mom": 5.9,
-     "mom_dir": "down"
+     "mom": 37.5,
+     "mom_dir": "down",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
     },
     "avg_list_to_sale_pct": {
-     "value": 101.58,
+     "value": 100.28,
      "page": 10,
-     "mom": 2.4,
+     "mom": 1.3,
      "mom_dir": "down"
     },
     "median_days": {
      "value": 13,
      "page": 10,
-     "mom": 8.3,
-     "mom_dir": "up"
+     "mom": 0.0,
+     "mom_dir": "flat",
+     "mom_dir_src": "read from rendered arrow glyph, pdftoppm 2026-10-03"
     },
     "median_ppsf": {
-     "value": 1017,
+     "value": 932,
      "page": 11,
-     "mom": 4.1,
-     "mom_dir": "up"
+     "mom": 8.4,
+     "mom_dir": "down"
     }
    }
   },
