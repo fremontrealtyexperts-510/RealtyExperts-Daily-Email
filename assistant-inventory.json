@@ -1,6 +1,6 @@
 {
- "data_date": "10/03/26",
- "generated_at": "2026-10-03T16:30:04.908194+00:00",
+ "data_date": "10/04/26",
+ "generated_at": "2026-10-04T18:00:15.770574+00:00",
  "source": "MLS export via RealtyExperts daily feed (same statistics as harvrealtor.net/live-inventory)",
  "coverage": [
   "Fremont",
@@ -12,41 +12,41 @@
  "note": "total_for_sale and by_status include active, new, coming-soon and back-on-market listings. on_market, by_type, by_price_band and the medians cover the homes on the market (active, new, back on market); coming-soon homes are counted, never itemized. No per-listing data is available here; point people to the harvrealtor.com map search for individual homes. Refreshed up to 3x daily on business days.",
  "cities": {
   "Fremont": {
-   "total_for_sale": 241,
+   "total_for_sale": 240,
    "by_status": {
-    "active": 189,
-    "new_this_period": 21,
-    "coming_soon": 30,
+    "active": 185,
+    "new_this_period": 22,
+    "coming_soon": 32,
     "back_on_market": 1
    },
-   "on_market": 211,
+   "on_market": 208,
    "by_type": {
-    "detached": 108,
-    "condo": 68,
+    "detached": 106,
+    "condo": 67,
     "townhouse": 33,
     "duplex/multi": 2
    },
    "by_price_band": {
-    "Under $800K": 45,
+    "Under $800K": 44,
     "$800K to $1M": 28,
     "$1M to $1.25M": 32,
     "$1.25M to $1.5M": 33,
-    "$1.5M to $2M": 50,
+    "$1.5M to $2M": 48,
     "$2M to $3M": 17,
     "$3M and up": 6
    },
-   "median_list_price": 1250000,
-   "median_price_per_sqft": 783,
+   "median_list_price": 1249995,
+   "median_price_per_sqft": 781,
    "median_days_on_market": 30,
-   "new_in_last_7_days": 36,
-   "asking_under_1m": 73
+   "new_in_last_7_days": 35,
+   "asking_under_1m": 72
   },
   "Hayward": {
-   "total_for_sale": 171,
+   "total_for_sale": 174,
    "by_status": {
     "active": 140,
     "new_this_period": 21,
-    "coming_soon": 10,
+    "coming_soon": 13,
     "back_on_market": 0
    },
    "on_market": 161,
@@ -66,16 +66,16 @@
    },
    "median_list_price": 815000,
    "median_price_per_sqft": 528,
-   "median_days_on_market": 31,
-   "new_in_last_7_days": 28,
+   "median_days_on_market": 32,
+   "new_in_last_7_days": 27,
    "asking_under_1m": 119
   },
   "Milpitas": {
-   "total_for_sale": 105,
+   "total_for_sale": 106,
    "by_status": {
     "active": 83,
     "new_this_period": 3,
-    "coming_soon": 19,
+    "coming_soon": 20,
     "back_on_market": 0
    },
    "on_market": 86,
@@ -96,67 +96,66 @@
    },
    "median_list_price": 1149500,
    "median_price_per_sqft": 740,
-   "median_days_on_market": 24,
-   "new_in_last_7_days": 13,
+   "median_days_on_market": 25,
+   "new_in_last_7_days": 12,
    "asking_under_1m": 35
   },
   "Newark": {
-   "total_for_sale": 88,
+   "total_for_sale": 87,
    "by_status": {
-    "active": 72,
+    "active": 71,
     "new_this_period": 5,
     "coming_soon": 11,
     "back_on_market": 0
    },
-   "on_market": 77,
+   "on_market": 76,
    "by_type": {
-    "detached": 48,
+    "detached": 47,
     "condo": 22,
     "townhouse": 5,
     "duplex/multi": 2
    },
    "by_price_band": {
     "Under $800K": 14,
-    "$800K to $1M": 13,
+    "$800K to $1M": 12,
     "$1M to $1.25M": 19,
     "$1.25M to $1.5M": 17,
     "$1.5M to $2M": 13,
     "$2M to $3M": 1
    },
-   "median_list_price": 1197000,
+   "median_list_price": 1197500,
    "median_price_per_sqft": 641,
-   "median_days_on_market": 24,
+   "median_days_on_market": 25,
    "new_in_last_7_days": 7,
-   "asking_under_1m": 27
+   "asking_under_1m": 26
   },
   "Union City": {
-   "total_for_sale": 59,
+   "total_for_sale": 57,
    "by_status": {
-    "active": 50,
+    "active": 49,
     "new_this_period": 5,
-    "coming_soon": 4,
+    "coming_soon": 3,
     "back_on_market": 0
    },
-   "on_market": 55,
+   "on_market": 54,
    "by_type": {
-    "detached": 38,
+    "detached": 37,
     "condo": 10,
     "townhouse": 6,
     "duplex/multi": 1
    },
    "by_price_band": {
     "Under $800K": 13,
-    "$800K to $1M": 10,
+    "$800K to $1M": 11,
     "$1M to $1.25M": 8,
-    "$1.25M to $1.5M": 17,
-    "$1.5M to $2M": 6,
-    "$2M to $3M": 1
+    "$1.25M to $1.5M": 16,
+    "$1.5M to $2M": 6
    },
-   "median_list_price": 1149000,
-   "median_price_per_sqft": 741,
+   "median_list_price": 1118000,
+   "median_price_per_sqft": 710,
    "median_days_on_market": 23,
-   "new_in_last_7_days": 10,
-   "asking_under_1m": 23
+   "new_in_last_7_days": 9,
+   "asking_under_1m": 24
   }
  }
 }
