@@ -1,18 +1,32 @@
 {
-  "date": "10/03/26",
-  "time": "9:30 AM PT",
+  "date": "10/04/26",
+  "time": "10:06 AM PT",
   "real_estate": {
     "rate_30year": "7.57%",
     "rate_15year": "7.19%",
-    "homebuilder": "Hiring slowed to 29,000 jobs in September, yet mortgage rates rose to 7.57% on Friday.",
-    "commentary": "Friday's soft jobs report was supposed to help mortgage rates. It did not. Mortgage News Daily's 30-year rose to 7.57%, up 0.03 from Thursday and just under the 7.60% high of September 30, and the 15-year is 7.19%. On our five city median of $1,079,000 with 20% down, principal and interest come to $6,077 a month, $398 more than when September began at 6.89% and $700 more than the same loan cost a year ago at 6.36%.\n\nEmployers added just 29,000 jobs in September and unemployment rose to 4.2%, news that usually pulls rates down. Bonds did rally early Friday, then gave it back: the jobless rate edged up because the labor force grew by 485,000, and 406,000 more people reported having a job. The 10-Year Treasury, which mortgage rates tend to follow, closed at 5.28%, up from 5.24%. Today's two charts, in the Economy section, show the slowdown and who is still hiring.\n\nLocally, the five city ledger slipped to 664 from 679 on Friday, and the board wide table held at 2,700 with 212 brand new listings, up from 189.\n\nWhat this means for you: buyers should not count on soft jobs data to bring rates down, because Friday's did not. If the payment works, lock it and keep a preapproval current; on the median home a quarter point is worth about $147 a month. Sellers should price for today's 7.57%; 134 of the ledger's 590 homes on the market have been listed 60 days or longer.\n\n• Board wide: 2,700 listings across our 15 city table, counting active and in contract together, with 161 coming soon and 212 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 664 listings across Fremont, Hayward, Milpitas, Newark and Union City. 590 are on the market and 74 are coming soon.\n• Fremont: 241 live, 189 active, 30 coming soon, 21 brand new and 1 back on market. The median on market list price is $1,250,000 at $783 a square foot, and the typical active listing has been out 30 days.\n• The rest of the ledger: Hayward 171, Milpitas 105, Newark 88, Union City 59.\n• Across all five cities the median is $1,079,000 at $676 a square foot. 277 homes are priced under a million, and 134 have been sitting 60 days or longer."
+    "homebuilder": "More than half of homes listed in our five cities carry HOA dues, and the median here is nearly three times the national figure.",
+    "commentary": "Today's topic is the bill that is not in the list price: HOA dues. In Fremont, Hayward, Milpitas, Newark and Union City, 57% of listed homes carry them, against 44% nationally and 39% statewide, per Realtor.com. The median here is $395 a month, nearly three times the national $135; condos run $550, townhomes $380.\n\nCompared with last October, the typical condo's dues are up only about 2%, to $560 in Fremont, Hayward, Newark and Union City, but two in three listed condos now ask $500 or more, up from 56%. More single family homes come with an HOA too: one in four, up from one in five.\n\nFalling behind is getting costlier. Cotality counts 19,504 HOA liens in California in 2025, up 69.5% since 2022, and 3,404 HOA foreclosure filings; nationwide, filings rose 46% (the newsletter rounded it to 50%).\n\nWhat this means for you: with Mortgage News Daily's 30-year at 7.57% Friday, every $100 of monthly dues costs a buyer about $14,200 of borrowing power, so a $550 condo fee is worth about $78,100. Buyers should read the budget and reserve study before offering; in California a board can raise regular dues up to 20% a year, and levy special assessments up to 5% of the budget, without a member vote. Sellers should have those documents ready on day one.\n\nLocally, the five city ledger held at 664 and the board wide table eased to 2,687 from 2,700.\n\n• Board wide: 2,687 listings across our 15 city table, counting active and in contract together, with 168 coming soon and 215 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 664 listings across Fremont, Hayward, Milpitas, Newark and Union City. 585 are on the market and 79 are coming soon.\n• Fremont: 240 live, 185 active, 32 coming soon, 22 brand new and 1 back on market. The median on market list price is $1,249,995 at $781 a square foot, and the typical active listing has been out 30 days.\n• The rest of the ledger: Hayward 174, Milpitas 106, Newark 87, Union City 57.\n• Across all five cities the median is $1,074,950 at $675 a square foot. 276 homes are priced under a million, and 132 have been sitting 60 days or longer.",
+    "feature_images": [
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/hoa-dues-100426.png",
+        "alt": "Two panel bar chart. Left: median monthly HOA dues on homes listed October 4, 2026. Condos: Fremont $612, Hayward $558, Newark $555, Milpitas $505, Union City $395. All five cities: townhomes $380, single family homes with an HOA $161, all homes with dues $395. United States, 2025: all homes with dues $135. Right: the borrowing power dues cost at a 7.57% 30-year rate: $200 a month equals $28,400 of loan, $400 equals $56,800, $550 (the median condo) equals $78,100, and $700 equals $99,400.",
+        "caption": "More than half of local listings carry HOA dues, with a median of $395 a month against $135 nationally. At 7.57%, a $550 condo fee costs about $78,100 of borrowing power.",
+        "source": "Source: our MLS export of October 4, 2026; U.S. median for 2025 from Realtor.com."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/hoa-mix-100426.png",
+        "alt": "Two donut charts of condos listed in Fremont, Hayward, Newark and Union City by monthly HOA dues. October 7, 2025, 167 condos, median $549: under $300, 7%; $300 to $499, 37%; $500 to $699, 39%; $700 or more, 17%; 56% at $500 or more. October 4, 2026, 181 condos, median $560: under $300, 6%; $300 to $499, 27%; $500 to $699, 46%; $700 or more, 21%; 67% at $500 or more.",
+        "caption": "Two in three condos listed in Fremont, Hayward, Newark and Union City now carry dues of $500 or more, up from 56% last October.",
+        "source": "Source: our MLS exports of October 7, 2025 and October 4, 2026."
+      }
+    ]
   },
   "stocks": {
     "sp500": "7,722.72 (+0.73%)",
     "dow": "51,176.96 (+0.49%)",
     "nasdaq": "27,190.86 (+1.19%)",
-    "note": "Levels are Friday, October 2 at the closing bell; markets are closed for the weekend.",
-    "news": "Stocks took the soft jobs report in stride Friday. The Nasdaq rose 1.19%, the S&P 500 0.73% and the Dow 0.49%, even as Treasury yields climbed, so stocks and bonds read the same report differently.\n\nFor the week, the Nasdaq gained 0.45%, while the S&P 500 slipped 0.27% and the Dow lost 1.26%."
+    "note": "Levels are Friday, October 2 at the closing bell; markets reopen Monday.",
+    "news": "No trading this weekend. Friday's rally left the Nasdaq up 0.45% for the week, while the S&P 500 slipped 0.27% and the Dow lost 1.26%."
   },
   "economy": {
     "us10year": "5.28% (+0.04%)",
@@ -20,44 +34,28 @@
     "silver": "$60.42 (-1.24%)",
     "wti": "$102.25 (-0.06%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Friday, October 2: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement. Markets are closed for the weekend.",
-    "commentary": "Friday's jobs report showed hiring nearly stalled. Employers added 29,000 jobs in September, below the 45,000 a month of the prior year, and July and August were revised down a combined 60,000, turning July into a loss of 10,000. Unemployment rose to 4.2% from 4.1%, and hourly pay was up 3.0% from a year earlier.\n\nThe second chart shows who is still hiring. If the economy has a hiring desk, it is in a hospital: health care and social assistance added 520,000 jobs over the past year, more than the 496,000 added overall, so everything else combined slipped. Government, information and finance each lost more than 100,000. Locally, jobs in the San Jose metro rose 1.6% in the year to August, while the Oakland-Fremont area, Alameda and Contra Costa counties, was nearly flat at 0.2%.\n\nGold settled down 0.95% Friday and silver down 1.24%, and December Brent was little changed at $102.25.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/jobs-monthly-100326.png",
-        "alt": "Bar chart of the monthly change in U.S. payroll jobs, seasonally adjusted, October 2025 to September 2026: October down 140,000 (federal job cuts), November up 41,000, December down 17,000, January up 160,000, February down 156,000, March up 214,000, April up 148,000, May up 63,000, June up 31,000, July down 10,000 (previously reported up 21,000), August up 133,000 (previously reported up 162,000) and September up 29,000, highlighted. A dashed line marks the prior 12 month average of 45,000.",
-        "caption": "September's 29,000 gain was below the prior year's average of 45,000 a month, and July and August were revised down a combined 60,000.",
-        "source": "Source: U.S. Bureau of Labor Statistics, The Employment Situation for September 2026, released October 2, 2026."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/jobs-hiring-100326.png",
-        "alt": "Two panel bar chart. Left: U.S. jobs added or lost from September 2025 to September 2026 by industry: all industries up 496,000; health care and social assistance up 520,000, highlighted; professional and business services up 123,000; construction up 109,000; leisure and hospitality up 62,000; manufacturing up 40,000; financial activities down 107,000; information down 120,000; government down 216,000. Right: jobs in August 2026 compared with a year earlier, not seasonally adjusted: San Jose metro up 1.6%, San Francisco and San Mateo up 1.1%, California up 0.7%, United States up 0.3%, and the Oakland-Fremont area, Alameda and Contra Costa counties, up 0.2%, highlighted.",
-        "caption": "Health care and social assistance added more jobs in a year than the U.S. economy did overall. Locally, San Jose grew fastest and the Oakland-Fremont area was nearly flat.",
-        "source": "Source: U.S. Bureau of Labor Statistics, Current Employment Statistics, national through September and metro through August 2026."
-      }
-    ]
+    "note": "All four are Friday, October 2: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement. Markets reopen Monday.",
+    "commentary": "Friday's jobs report showed hiring slowed to 29,000 in September and unemployment rose to 4.2%, yet the 10-Year Treasury still closed higher at 5.28%. Gold settled down 0.95% and silver 1.24%, and December Brent was little changed at $102.25."
   },
   "crypto": {
-    "btc": "$84,781 (-0.43%)",
-    "eth": "$2,679.14 (-0.37%)",
-    "xrp": "$1.49 (-1.06%)",
-    "commentary": "Crypto trades on weekends, though this morning it is mostly resting. Bitcoin is down 0.43% over 24 hours to about $84,800, Ether is down 0.37% and XRP 1.06%, live from Coinbase at 9:28 AM PT."
+    "btc": "$85,383 (+0.46%)",
+    "eth": "$2,703.86 (+0.57%)",
+    "xrp": "$1.50 (+0.72%)",
+    "commentary": "Crypto is up a little this Sunday morning. Bitcoin is up 0.46% over 24 hours to about $85,400, Ether 0.57% and XRP 0.72%, live from Coinbase at 10:06 AM PT."
   },
   "sources": [
-    "https://www.bls.gov/news.release/empsit.nr0.htm",
-    "https://data.bls.gov/timeseries/CES0000000001",
-    "https://data.bls.gov/timeseries/SMU06419400000000001",
-    "https://data.bls.gov/timeseries/SMU06418840000000001",
-    "https://data.bls.gov/timeseries/SMU06360840000000001",
+    "https://www.realtor.com/research/homeowners-associations-2025/",
+    "https://www.cotality.com/resources/hoa-lien-foreclosure-report",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=5605",
     "https://www.mortgagenewsdaily.com/mortgage-rates",
-    "https://www.mortgagenewsdaily.com/markets/mortgage-rates-10022026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
     "https://finance.yahoo.com/quote/GCZ26.CMX/",
     "https://finance.yahoo.com/quote/SIZ26.CMX/",
     "https://finance.yahoo.com/quote/BZZ26.NYM/",
     "https://quote.cnbc.com/",
     "https://exchange.coinbase.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/739b6a0d-9b08-4b1c-a110-a917d9132994",
-  "qr_code_path": "note-qr-739b6a0d.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/83d80c58-f02c-4458-9d8a-3a6eb7db1b96",
+  "qr_code_path": "note-qr-83d80c58.png"
 }
