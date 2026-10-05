@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/05/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/05/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 5, 2026: mortgage rates rose to 7.57% despite a soft jobs report, the East Bay has added only about 500 jobs this year, and Ford gave back its battery storage rally.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, mortgage rates, jobs report, East Bay jobs, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, Ford stock, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
