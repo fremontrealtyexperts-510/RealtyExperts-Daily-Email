@@ -249,7 +249,13 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
   // the inventory-history record as a share-of-county denominator.
   let countyLiveTotal = 0;
   for (const r of rows.slice(1)) {
-    const status = String(r[col.Status] || '').trim().toUpperCase();
+    // PCH (Price Change) is a short-lived Paragon status for an active listing
+    // whose price just moved; the home is still for sale. Count it as Active
+    // (Harv, 10/06/26: it was silently dropping ~20 homes from the ledger and app,
+    // while the RE-Daily-1 table counts them). Folding it into ACTV keeps the
+    // feed schema unchanged for every consumer.
+    const rawStatus = String(r[col.Status] || '').trim().toUpperCase();
+    const status = rawStatus === 'PCH' ? 'ACTV' : rawStatus;
     const city = String(r[col.City] || '').trim().toUpperCase();
     if (!LIVE_STATUSES[status]) continue;
     countyLiveTotal++;
