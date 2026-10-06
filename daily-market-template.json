@@ -1,58 +1,52 @@
 {
-  "date": "10/05/26",
+  "date": "10/06/26",
   "time": "8:16 AM PT",
   "real_estate": {
-    "rate_30year": "7.57%",
-    "rate_15year": "7.19%",
-    "homebuilder": "A soft jobs report did not bring mortgage rates down, and the East Bay has added almost no jobs this year.",
-    "commentary": "Friday's jobs report was soft, and mortgage rates rose anyway. Mortgage News Daily's 30-year fixed ended the week at 7.57% and the 15-year at 7.19%, and the 10-Year Treasury is higher again this morning, near 5.33%. A weak jobs report usually helps rates; this one did not get the memo.\n\nHere, flat hiring is not new. The Oakland, Fremont and Berkeley metro division added only about 500 jobs from December to August, while the San Jose area added 14,700 (see the chart in Economy).\n\nLocally, the five city ledger held at 664 for a third straight day, though the mix shifted: Union City rose to 60 and Fremont slipped to 238. The board wide table edged up to 2,688 from 2,687.\n\nWhat this means for you: at 7.57%, the five city median list price of $1,070,000 with 20% down runs about $6,026 a month in principal and interest. Slower hiring can thin the buyer pool, so sellers should price for the buyers who are here today. Buyers with steady income have more leverage; ask for seller credits toward a rate buydown.\n\n• Board wide: 2,688 listings across our 15 city table, counting active and in contract together, with 167 coming soon and 202 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 664 listings across Fremont, Hayward, Milpitas, Newark and Union City. 583 are on the market and 81 are coming soon.\n• Fremont: 238 live, 187 active, 32 coming soon, 18 brand new and 1 back on market. The median on market list price is $1,249,495 at $777 a square foot, and the typical active listing has been out 31 days.\n• The rest of the ledger: Hayward 173, Milpitas 106, Newark 87, Union City 60.\n• Across all five cities the median is $1,070,000 at $675 a square foot. 276 homes are priced under a million, and 139 have been sitting 60 days or longer."
+    "rate_30year": "7.61%",
+    "rate_15year": "7.23%",
+    "homebuilder": "Mortgage rates hit another high for this run, and service prices are heating up faster in the Bay Area than nationally.",
+    "commentary": "Mortgage rates set another high for this run. Mortgage News Daily's 30-year fixed rose to 7.61% Monday and the 15-year to 7.23%; MND's consolation is that the new high is only a hundredth of a point above last Wednesday's 7.60%. The 10-Year Treasury closed at 5.31%, its highest close since May 2002, and is a little lower this morning, near 5.26%.\n\nOne reason bonds stay on edge is in Economy: service businesses say the prices they pay are rising at the fastest pace since July 2022, and Bay Area consumer prices for services are now rising faster than the nation's. Sticky service prices are what keep the Fed leaning toward higher rates.\n\nLocally, the five city ledger rose to 671 from 664: Newark gained three to 90, Hayward two to 175, and Fremont held at 238. The board wide table eased to 2,661 from 2,688.\n\nWhat this means for you: at 7.61%, the five city median list price of $1,079,500 with 20% down runs about $6,104 a month in principal and interest, $422 more than on Sept. 1, when the 30-year was 6.89%. Sellers should price for that payment, not for the summer's. Buyers have room to negotiate with the 141 homes that have sat 60 days or longer; ask for seller credits toward a rate buydown.\n\n• Board wide: 2,661 listings across our 15 city table, counting active and in contract together, with 168 coming soon and 188 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 671 listings across Fremont, Hayward, Milpitas, Newark and Union City. 592 are on the market and 79 are coming soon.\n• Fremont: 238 live, 188 active, 32 coming soon and 18 brand new. The median on market list price is $1,249,495 at $781 a square foot, and the typical active listing has been out 31 days.\n• The rest of the ledger: Hayward 175, Milpitas 107, Newark 90, Union City 61.\n• Across all five cities the median is $1,079,500 at $676 a square foot. 278 homes are priced under a million, and 141 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,722.72 (+0.73%)",
-    "dow": "51,176.96 (+0.49%)",
-    "nasdaq": "27,190.86 (+1.19%)",
-    "note": "Levels are Friday, October 2 at the closing bell. Monday at 8:16 AM PT: S&P 500 +0.40%, Dow -0.22%, Nasdaq +0.70%.",
-    "news": "Ford has had a rough ride. The stock closed Friday at $12.10, down 7.8% for 2026 while the S&P 500 is up 12.8%, and 31% below its May 29 high of $17.44. That peak was a battery storage rally: shares jumped 13% on May 13 after a bullish Morgan Stanley call on Ford Energy, and on May 18 Ford agreed to supply EDF with up to 20 GWh of grid storage starting in 2028.\n\nSeptember let the air out: a recall of 223,472 F-150s over fuel tank straps, a supplier problem that disrupted F-150 production at month end, and third quarter U.S. sales down 6.6%. Ford says the sales drop reflects the planned end of the Escape and Corsair, and that the supplier issue fits inside its $10 billion to $11 billion profit guidance. Ford is unchanged this morning at $12.10.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/ford-ytd-100526.png",
-      "alt": "Line chart of Ford Motor Co.'s closing share price from December 31, 2025 to October 2, 2026. It started the year at $13.12, fell to a low of $11.21 on March 30, jumped 45% in 12 sessions in a May battery storage rally to a high of $17.44 on May 29, then slid through September to $12.10 on October 2, down 7.8% for the year and 31% below the May high. Over the same span the S&P 500 rose 12.8% and GM fell 3.8%.",
-      "caption": "Ford has given back its whole May battery storage rally and closed Friday 7.8% below where it started the year, while the S&P 500 is up 12.8%.",
-      "source": "Source: Nasdaq closing prices for Ford and GM, CNBC for the S&P 500, Ford's Q3 2026 U.S. sales release, NHTSA recall 26V578."
-    }
+    "sp500": "7,773.95 (+0.66%)",
+    "dow": "51,267.90 (+0.18%)",
+    "nasdaq": "27,477.31 (+1.05%)",
+    "note": "Levels are Monday, October 5 at the closing bell. Tuesday at 8:16 AM PT: S&P 500 +0.86%, Dow +0.73%, Nasdaq +0.86%.",
+    "news": "The Nasdaq closed at a record Monday, up 1.05% to 27,477.31, past its Sept. 22 high. The AI trade led again: SpaceX jumped more than 7%, Meta rose almost 2%, and Nvidia and Tesla gained 2% each. One money manager summed it up to CNBC as \"buy tech, sell everything else.\"\n\nThis morning the S&P 500 is trading above its Aug. 13 record close of 7,798.99, up 0.86% as of 8:16 AM PT, helped by chipmakers (Marvell is up 7.1%) and lower oil and Treasury yields. Investors are also waiting on Wednesday's minutes from the Fed's September rate hike."
   },
   "economy": {
-    "us10year": "5.28% (+0.04%)",
-    "gold": "$4,162.30 (-0.95%)",
-    "silver": "$60.42 (-1.24%)",
-    "wti": "$102.25 (-0.06%)",
+    "us10year": "5.31% (+0.03%)",
+    "gold": "$4,156.80 (-0.13%)",
+    "silver": "$61.30 (+1.46%)",
+    "wti": "$100.32 (-1.89%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Friday, October 2: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement. Monday at 8:16 AM PT: 10-Year 5.33%, gold $4,170.80, silver $61.50, Brent $102.24.",
-    "commentary": "Hiring has hit a wall. Employers added just 29,000 jobs in September, July was revised to a loss of 10,000, and 2026 is averaging 68,000 a month. The unemployment rate rose to 4.2%.\n\nThe chart's right panel is the local view: San Jose is still hiring, while the East Bay has gone sideways all year. Bond traders read the soft report and sold anyway, which is why mortgage rates went the wrong way on Friday.",
+    "note": "All four are Monday, October 5: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement. Tuesday at 8:16 AM PT: 10-Year 5.26%, gold $4,190.10, silver $61.52, Brent $98.13.",
+    "commentary": "Service prices are running hot. The Institute for Supply Management's services survey put its prices paid index at 74 in September, up from 72.6 and the highest since July 2022, and fuel costs came up twice as often as any other issue respondents raised. The headline services index slipped to 54.9, still growing.\n\nISM does not allow charts built from its index, so ours tells the same story with government data: service businesses raised prices 5.4% over the year to August, and Bay Area consumer prices for services rose 3.8%, against 3.1% nationally. A year ago the Bay Area ran a full point below the nation; now it runs seven tenths above, a lead nobody here asked for.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/hiring-2026-100526.png",
-      "alt": "Two panel chart of payroll jobs, seasonally adjusted. Left, a line of the monthly change in U.S. payroll jobs in 2026: January +160,000, February minus 156,000, March +214,000, April +148,000, May +63,000, June +31,000, July minus 10,000, August +133,000 and September +29,000, against a 2026 average of +68,000 a month. Right, jobs added from December 2025 to August 2026: San Jose metro +1.26% (14,700 jobs), California +0.64% (114,700), United States +0.37% (583,000), and the Oakland, Fremont and Berkeley metro division +0.04% (about 500).",
-      "caption": "U.S. hiring slowed to 29,000 in September and is averaging 68,000 a month this year. The Oakland, Fremont and Berkeley metro division has added about 500 jobs since December.",
-      "source": "Source: U.S. Bureau of Labor Statistics, Current Employment Statistics."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/service-prices-100626.png",
+      "alt": "Two panel chart of price changes from a year earlier, not seasonally adjusted. Left, a line of the U.S. producer price index for final demand services, September 2025 to August 2026: 3.0%, then 2.8% in October (the low), 3.1%, 3.1%, 3.1%, 3.4%, 4.3%, 5.7%, 5.9% in May (the fastest since December 2022), 5.6%, 4.8% and 5.4% in August. Right, consumer prices for services in August: the San Francisco, Oakland and Hayward area rose from 2.8% in August 2025 to 3.8% in August 2026, while the U.S. eased from 3.8% to 3.1%.",
+      "caption": "What service businesses charge rose 5.4% over the year to August, up from 3.0% a year earlier. Bay Area consumer prices for services are now rising faster than the nation's, 3.8% against 3.1%.",
+      "source": "Source: U.S. Bureau of Labor Statistics, Producer Price Index (final demand services) and Consumer Price Index (services, U.S. and the San Francisco, Oakland, Hayward area)."
     }
   },
   "crypto": {
-    "btc": "$85,511 (+0.32%)",
-    "eth": "$2,700.50 (+0.07%)",
-    "xrp": "$1.50 (-0.30%)",
-    "commentary": "Crypto is quiet this Monday morning. Bitcoin is up 0.32% over 24 hours at about $85,500, Ether up 0.07%, and XRP is down 0.30%, live from Coinbase at 8:16 AM PT. Bitcoin has spent the weekend near $85,000, which by its standards counts as a nap."
+    "btc": "$86,588 (+1.25%)",
+    "eth": "$2,722.69 (+0.81%)",
+    "xrp": "$1.52 (+1.39%)",
+    "commentary": "Bitcoin is up 1.25% over 24 hours near $86,600, Ether up 0.81% and XRP up 1.39%, live from CoinGecko at 8:16 AM PT. Bitcoin has stayed between about $82,500 and $87,250 for nine days, a calm stretch it rarely gets credit for."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
+    "https://www.mortgagenewsdaily.com/markets/mortgage-rates-10052026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.bls.gov/news.release/empsit.nr0.htm",
-    "https://www.bls.gov/sae/",
-    "https://www.sec.gov/Archives/edgar/data/0000037996/000003799626000184/exhibit99q32026salesrele.htm",
-    "https://s205.q4cdn.com/882619693/files/doc_news/2026/May/18/Ford-Energy-and-EDF-Announce-Five-Year-Framework-Agreement.pdf",
-    "https://www.nhtsa.gov/?nhtsaId=26V578000",
-    "https://www.nasdaq.com/market-activity/stocks/f/historical",
+    "https://www.prnewswire.com/news-releases/services-pmi-at-54-9-september-2026-ism-services-pmi-report-302898421.html",
+    "https://www.bls.gov/ppi/",
+    "https://www.bls.gov/regions/west/news-release/consumerpriceindex_sanfrancisco.htm",
+    "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
     "https://quote.cnbc.com/",
-    "https://exchange.coinbase.com/"
+    "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/ebf85be3-d0f6-4567-b1c9-5a31a74d1c48",
-  "qr_code_path": "note-qr-ebf85be3.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/73797349-b928-4b52-abaf-4fcd4c69c518",
+  "qr_code_path": "note-qr-73797349.png"
 }
