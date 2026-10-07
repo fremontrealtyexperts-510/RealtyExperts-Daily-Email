@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/07/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/07/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 7, 2026: mortgage rates eased to 7.56%, the 10-Year Treasury hit its highest level since 2002, Wall Street eyes a record year, and the trade gap topped $100 billion.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, mortgage rates, 10-Year Treasury, trade deficit, Wall Street profits, Taiwan stock market, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, S&P 500 record, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
