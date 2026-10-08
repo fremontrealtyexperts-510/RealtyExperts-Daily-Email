@@ -1,69 +1,60 @@
 {
-  "date": "10/07/26",
-  "time": "7:58 AM PT",
+  "date": "10/08/26",
+  "time": "3:11 PM PT",
   "real_estate": {
-    "rate_30year": "7.56%",
-    "rate_15year": "7.22%",
-    "homebuilder": "Mortgage rates eased Tuesday, but the 10-Year Treasury hit its highest level since 2002 this morning, and the local ledger now counts price change homes.",
-    "commentary": "Mortgage rates got a one day breather. Mortgage News Daily's 30-year fixed eased to 7.56% Tuesday from Monday's 7.61%, and the 15-year to 7.22%. The 10-Year Treasury closed at 5.27%, down from 5.31%.\n\nThe breather looks short. This morning the 10-Year touched 5.35%, its highest level since April 2002 according to CNBC, so expect lenders to give back some of Tuesday's improvement today.\n\nLocally, the five city ledger reads 685, up from 671, but that is mostly bookkeeping. Starting today it counts the 21 homes in price change status, which are still for sale and were being left out. On Tuesday's rules the count would be 664, seven fewer. The board wide table eased to 2,643 from 2,661.\n\nWhat this means for you: at 7.56%, the five city median list price of $1,079,000 with 20% down runs about $6,071 a month in principal and interest, $392 more than on Sept. 1, when the 30-year was 6.89%. Buyers have leverage with the 150 homes that have sat 60 days or longer; ask for seller credits toward a rate buydown. Sellers who are not getting showings should price for today's payment, not for summer's.\n\n• Board wide: 2,643 listings across our 15 city table, counting active and in contract together, with 167 coming soon and 170 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 685 listings across Fremont, Hayward, Milpitas, Newark and Union City. 609 are on the market and 76 are coming soon. From today the ledger includes homes in price change status (21 today).\n• Fremont: 244 live, 200 active, 29 coming soon and 15 brand new. The median on market list price is $1,275,000 at $797 a square foot, and the typical active listing has been out 30 days.\n• The rest of the ledger: Hayward 183, Milpitas 108, Newark 88, Union City 62.\n• Across all five cities the median is $1,079,000 at $680 a square foot. 286 homes are priced under a million, and 150 have been sitting 60 days or longer."
+    "rate_30year": "7.50%",
+    "rate_15year": "7.17%",
+    "homebuilder": "Mortgage rates posted their biggest one day drop in three months Thursday, and Zillow shows how little a six figure income rents in the Bay Area.",
+    "commentary": "Mortgage rates finally caught a real break. Mortgage News Daily's 30-year fixed fell to 7.50% Thursday from Wednesday's 7.59%, its biggest one day drop in three months, and the 15-year eased to 7.17%. The 10-Year Treasury closed at 5.22%, down from 5.28%.\n\nMND credits investors who decided bond yields were finally high enough to buy, with some help from midday Middle East headlines. It is not calling a trend: next week's inflation reports, due Wednesday and Thursday, are the next real test.\n\nWhat does $100,000 rent? Zillow says a household earning that can spend about $2,500 a month under the 30% rule. In Memphis that rents a median 2,119 square foot, four bedroom house. In the San Francisco metro, which includes Fremont, Hayward, Newark and Union City, it rents a 729 square foot one bedroom, and in San Jose's, home to Milpitas, 650 square feet. Only 5% of what that budget rents in either metro is a house.\n\nLocally, the five city ledger reads 682, down from 685. Milpitas slipped to 101 from 108 and Fremont to 240 from 244, while Hayward rose to 190 from 183. The board wide table rose to 2,656 from 2,643.\n\nWhat this means for you: at 7.50%, the five city median list price of $1,088,000 with 20% down runs about $6,086 a month in principal and interest. That is $54 less than at Wednesday's rate, still $359 more than on Sept. 1, when the 30-year was 6.89%, and more than twice the $2,500 a six figure renter can budget. Buyers who are close to a lock should talk to their lender on a day like this. Sellers should note the 149 homes that have sat 60 days or longer and price for today's payment.\n\n• Board wide: 2,656 listings across our 15 city table, counting active and in contract together, with 151 coming soon and 193 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 682 listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are on the market and 71 are coming soon.\n• Fremont: 240 live, 197 active, 26 coming soon and 17 brand new. The median on market list price is $1,286,500 at $797 a square foot, and the typical active listing has been out 31 days.\n• The rest of the ledger: Hayward 190, Milpitas 101, Newark 89, Union City 62.\n• Across all five cities the median is $1,088,000 at $676 a square foot. 285 homes are priced under a million, and 149 have been sitting 60 days or longer.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/rent-100k-100826.png",
+      "alt": "Horizontal bar chart of the median size of rentals listed at $2,333 to $2,500 a month in 2026, the top of a $100,000 household's budget. Roomiest metros: Memphis 2,119 square feet with 4 bedrooms, Oklahoma City 2,000, Raleigh 1,885, San Antonio 1,874 and Houston 1,848, each with 3 bedrooms. U.S. overall: 1,152 square feet, 2 bedrooms. Tightest: Boston 758, Los Angeles 750, San Francisco 729, San Diego 726 and San Jose 650, each 1 bedroom. Only 5% of these rentals in San Francisco and San Jose are houses.",
+      "caption": "On a $100,000 income, the rent budget tops out near $2,500 a month. In Memphis that is a four bedroom house. In the San Francisco and San Jose metros, it is a one bedroom of 650 to 729 square feet.",
+      "source": "Source: Zillow, \"What $100K rents,\" Oct. 7, 2026, from Zillow rental listings priced $2,333 to $2,500 a month in the 50 largest metros."
+    }
   },
   "stocks": {
-    "sp500": "7,818.93 (+0.58%)",
-    "dow": "51,521.28 (+0.49%)",
-    "nasdaq": "27,599.79 (+0.45%)",
-    "note": "Levels are Tuesday, October 6 at the closing bell. Wednesday at 7:58 AM PT: S&P 500 -0.62%, Dow -1.03%, Nasdaq -0.79%.",
-    "news": "The S&P 500 closed above 7,800 for the first time Tuesday, a record at 7,818.93, and the Nasdaq set a second straight record close. It did not last the night: as of 7:58 AM PT Wednesday the Dow is down 1.03%, the S&P 500 down 0.62% and the Nasdaq down 0.79%, with Treasury yields at a 24 year high and the minutes of the Fed's September meeting due this afternoon.\n\nThe firms that run these markets are having a year to match. New York's Comptroller says NYSE member firms earned $45.9 billion before taxes in the first half of 2026, their best six months on record, and could top $90 billion for the year if the pace holds. Last year's record was $65.1 billion. Record bonuses are the expected next headline.\n\nAbroad, Taiwan just took the year's top spot from South Korea. Taiwan's Taiex rose 3.9% last quarter while Korea's Kospi fell 19.3%, a 23 point swing, leaving Taiwan up 65.5% for 2026 through September and Korea up 62.3%. In May, Taiwan passed India to become the world's fifth biggest stock market at $4.95 trillion, by Bloomberg's count, carried by TSMC, the chipmaker behind much of Silicon Valley's AI hardware.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/wallst-profits-100726.png",
-        "alt": "Bar chart of annual pretax profits of NYSE member firms: 2020 $50.9 billion, 2021 $58.4 billion, 2022 $25.8 billion, 2023 $26.3 billion, 2024 $49.9 billion, 2025 a record $65.1 billion. The 2026 bar shows $45.9 billion earned in the first half and a hatched projection to $90 billion or more if the pace holds. A dashed line marks the previous record, $61.4 billion in 2009.",
-        "caption": "Wall Street earned $45.9 billion in the first half of 2026, its best six months on record. If the pace holds, the year tops $90 billion, against 2025's record $65.1 billion.",
-        "source": "Source: Office of the New York State Comptroller, The Securities Industry in New York City (October 2026) and the October 2024 report. Pretax profits of NYSE member firms' broker and dealer operations."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/taiwan-crown-100726.png",
-        "alt": "Dot chart of benchmark index changes in 2026, at June 30 and at Sept. 30: Taiwan Taiex +59.3% to +65.5%; South Korea Kospi +101.1% to +62.3%; Japan Nikkei 225 +39.2% to +32.6%; U.S. S&P 500 +9.6% to +11.8%; Hong Kong Hang Seng minus 10.7% to minus 4.0%; China CSI 300 +7.5% to minus 5.9%; India Nifty 50 minus 8.7% to minus 13.4%. Last quarter Taiwan rose 3.9% and Korea fell 19.3%.",
-        "caption": "Korea led the world at midyear, up 101%. A 19.3% third quarter drop handed the lead to Taiwan, now up 65.5% for 2026 through September.",
-        "source": "Source: CNBC daily index closes, price only in local currency, measured from each index's last 2025 close. Taiwan's $4.95 trillion market value: Bloomberg, May 2026."
-      }
-    ]
+    "sp500": "7,765.36 (-0.47%)",
+    "dow": "51,231.64 (+0.10%)",
+    "nasdaq": "27,193.34 (-1.25%)",
+    "note": "Levels are Thursday, October 8 at the closing bell.",
+    "news": "AI stocks stumbled Thursday. The Nasdaq fell 1.25%, its biggest one day loss since mid August, after CNBC confirmed that OpenAI told investors it reached $50 billion in annualized revenue at the end of September, short of the $68 billion figure widely reported last month. CoreWeave fell more than 7%, Oracle, Intel and Super Micro Computer about 5%, and Nvidia almost 3%.\n\nThe S&P 500 slipped 0.47% for a second straight loss, while the Dow edged up 0.10%. Delta's earnings and October consumer sentiment are due Friday morning. One rough day is not a trend, but the AI trade has carried this market, so it is worth watching."
   },
   "economy": {
-    "us10year": "5.27% (-0.04%)",
-    "gold": "$4,187.10 (+0.73%)",
-    "silver": "$61.59 (+0.47%)",
-    "wti": "$100.58 (+0.26%)",
+    "us10year": "5.22% (-0.06%)",
+    "gold": "$4,157.00 (+0.39%)",
+    "silver": "$59.42 (-1.44%)",
+    "wti": "$100.20 (-0.38%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Tuesday, October 6: the Treasury daily yield curve close, the COMEX December gold and silver settlements, and the ICE December Brent settlement. Wednesday at 7:58 AM PT: 10-Year 5.30%, gold $4,130.40, silver $60.06, Brent $101.90. Market Briefs printed the 10-Year at 5.31% and rising, gold at $4,168 and falling, and Brent at $101.49; the official closes are on the cards.",
-    "commentary": "The trade gap is back above $100 billion. The deficit in goods and services widened 13.7% in August to $105.6 billion, the widest since March 2025, when importers rushed goods in ahead of tariffs. Imports rose $17.2 billion, led by industrial supplies such as crude oil and gold, and capital goods such as semiconductors. For the year to date, the deficit is still 19.9% smaller than in 2025.\n\nTaiwan, home of the chips, posted the third largest goods deficit with the U.S. in August, $18.3 billion, behind Mexico and Vietnam. Gold, meanwhile, slid this morning to its lowest level since early August, which CNBC tied in part to a stronger dollar.",
+    "note": "The 10-Year, gold and silver are Thursday, October 8: the Treasury daily yield curve close and the COMEX December settlements. Brent is Wednesday's ICE December settlement; Thursday it settled at $104.28, up 4.07%. Market Briefs printed Wednesday's gold at $4,130, down 0.25% (the settle was $4,140.70, down 1.11%), and Brent at $101.22, up 1.02% (settle $100.20, down 0.38%), and left silver out.",
+    "commentary": "Used car prices are cooling. Cox Automotive's Manheim index of wholesale used vehicle prices fell 1.1% in September to 205.9, down 4.4% from March's peak and 0.6% below a year ago, the first year over year drop of 2026. Cox pointed to record diesel prices, rapidly climbing interest rates and the Middle East conflict, and cut its outlook: it now expects the index to end 2026 up only about 0.2%, down from the 2% it forecast in July. Auctions are where dealers restock, so softer wholesale prices tend to reach the lot later.\n\nThe Fed is not done. Minutes of the September meeting, released Wednesday, say most officials thought another increase in the federal funds rate would likely be appropriate by year end, after September's quarter point hike to a 3.75% to 4% range. Oil did not help the inflation fight Thursday: Brent settled at $104.28, up about 4%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/trade-gap-100726.png",
-      "alt": "Line chart of the monthly U.S. trade deficit in goods and services, January 2025 to August 2026. It peaks at $133.0 billion in March 2025 as imports rushed in ahead of tariffs, falls to about $60 billion by April, hits a low of $37.4 billion in October 2025, holds near $53 billion from January to April 2026, then climbs to $92.8 billion in July and $105.6 billion in August 2026, the widest since March 2025.",
-      "caption": "The deficit widened 13.7% in August to $105.6 billion, the widest since the March 2025 rush to beat tariffs. For the year to date it is still 19.9% smaller than 2025.",
-      "source": "Source: U.S. Census Bureau and Bureau of Economic Analysis, U.S. International Trade in Goods and Services, August 2026 (released Oct. 6, 2026), seasonally adjusted."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/manheim-100826.png",
+      "alt": "Line chart of the Manheim Used Vehicle Value Index in 2026 against 2025. 2026: January 210.5, February 212.3, a March peak of 215.3, April 211.9, May 212.6, June 212.9, July 210.0, August 208.2 and September 205.9, down 4.4% from March and 0.6% below September 2025. A dotted line runs to Cox Automotive's forecast of about 206 for December, up 0.2% on the year.",
+      "caption": "Wholesale used vehicle prices fell 1.1% in September and sit 4.4% below March's peak. Cox Automotive now expects the index to end 2026 up only about 0.2%.",
+      "source": "Source: Cox Automotive, Manheim Used Vehicle Value Index September 2026 data file and Q3 2026 press release, Oct. 7, 2026. Adjusted for mix, mileage and season."
     }
   },
   "crypto": {
-    "btc": "$82,910 (-4.21%)",
-    "eth": "$2,561.40 (-5.86%)",
-    "xrp": "$1.43 (-6.28%)",
-    "commentary": "Bitcoin is down 4.21% over 24 hours near $82,900, Ether down 5.86% and XRP down 6.28%, live from CoinGecko at 7:58 AM PT. The selling arrived with this morning's jump in Treasury yields and puts Bitcoin back near the bottom of the $82,500 to $87,000 range it has held for ten days. Range trading is only calm until it is not."
+    "btc": "$81,651 (-1.86%)",
+    "eth": "$2,478.84 (-3.46%)",
+    "xrp": "$1.38 (-2.71%)",
+    "commentary": "Bitcoin is down 1.86% over 24 hours near $81,700, Ether down 3.46% and XRP down 2.71%, live from CoinGecko at 3:11 PM PT. Thursday Bitcoin broke below $82,500, a floor that had held since late September, and touched about $80,300 on Coinbase, on a day of selling in AI stocks. Market Briefs printed Bitcoin up 0.05% for Wednesday; it actually fell about 2.7% that day."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.mortgagenewsdaily.com/markets/mortgage-rates-10062026",
+    "https://www.mortgagenewsdaily.com/markets/mortgage-rates-10082026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
-    "https://www.cnbc.com/2026/10/06/stock-market-today-live-updates.html",
-    "https://www.osc.ny.gov/press/releases/2026/10/wall-street-first-half-profits-soar-nearly-46-billion",
-    "https://www.osc.ny.gov/files/reports/osdc/2026/pdf/nyc-securities-industry-2026.pdf",
-    "https://www.osc.ny.gov/press/releases/2024/10/dinapoli-wall-streets-2024-first-half-profits-232b-were-793-higher-last-year",
-    "https://businessmirror.com.ph/2026/05/26/taiwan-overtakes-india-as-worlds-fifth-largest-stock-market/",
-    "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-    "https://fred.stlouisfed.org/series/BOPGSTB",
+    "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+    "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-september-2026-trends/",
+    "https://www.coxautoinc.com/wp-content/uploads/2026/10/Q3-2026-Manheim-Used-Vehicle-Value-Index-press-release.pdf",
+    "https://www.prnewswire.com/news-releases/what-100k-rents-a-house-in-memphis-a-one-bedroom-apartment-in-san-jose-302900677.html",
+    "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
     "https://quote.cnbc.com/",
-    "https://www.coingecko.com/"
+    "https://www.coingecko.com/",
+    "https://exchange.coinbase.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/260f6569-7f10-41da-8efc-3018ba94e770",
-  "qr_code_path": "note-qr-260f6569.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/90c848e1-0c10-4377-a20e-7bdb082de306",
+  "qr_code_path": "note-qr-90c848e1.png"
 }
