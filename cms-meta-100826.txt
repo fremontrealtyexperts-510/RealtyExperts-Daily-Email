@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/08/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/08/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 8, 2026: mortgage rates fell to 7.50% in their biggest one day drop in three months, what a $100K income rents in the Bay Area, and used car prices cool.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, mortgage rates, 10-Year Treasury, rent, Zillow, $100K income, used car prices, Manheim index, Fed minutes, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, Nasdaq, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
