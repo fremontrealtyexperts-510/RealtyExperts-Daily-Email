@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/09/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/09/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 9, 2026: what a month of rising mortgage rates costs on the typical local home, Oracle versus CoreWeave in 2026, tariffs and consumer sentiment.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area real estate, mortgage rates, monthly payment, buying power, 10-Year Treasury, Oracle, CoreWeave, AI stocks, tariffs, New York Fed, jobless claims, consumer sentiment, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, Nasdaq, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
