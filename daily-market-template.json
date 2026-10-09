@@ -1,60 +1,61 @@
 {
-  "date": "10/08/26",
-  "time": "3:11 PM PT",
+  "date": "10/09/26",
+  "time": "9:20 AM PT",
   "real_estate": {
     "rate_30year": "7.50%",
     "rate_15year": "7.17%",
-    "homebuilder": "Mortgage rates posted their biggest one day drop in three months Thursday, and Zillow shows how little a six figure income rents in the Bay Area.",
-    "commentary": "Mortgage rates finally caught a real break. Mortgage News Daily's 30-year fixed fell to 7.50% Thursday from Wednesday's 7.59%, its biggest one day drop in three months, and the 15-year eased to 7.17%. The 10-Year Treasury closed at 5.22%, down from 5.28%.\n\nMND credits investors who decided bond yields were finally high enough to buy, with some help from midday Middle East headlines. It is not calling a trend: next week's inflation reports, due Wednesday and Thursday, are the next real test.\n\nWhat does $100,000 rent? Zillow says a household earning that can spend about $2,500 a month under the 30% rule. In Memphis that rents a median 2,119 square foot, four bedroom house. In the San Francisco metro, which includes Fremont, Hayward, Newark and Union City, it rents a 729 square foot one bedroom, and in San Jose's, home to Milpitas, 650 square feet. Only 5% of what that budget rents in either metro is a house.\n\nLocally, the five city ledger reads 682, down from 685. Milpitas slipped to 101 from 108 and Fremont to 240 from 244, while Hayward rose to 190 from 183. The board wide table rose to 2,656 from 2,643.\n\nWhat this means for you: at 7.50%, the five city median list price of $1,088,000 with 20% down runs about $6,086 a month in principal and interest. That is $54 less than at Wednesday's rate, still $359 more than on Sept. 1, when the 30-year was 6.89%, and more than twice the $2,500 a six figure renter can budget. Buyers who are close to a lock should talk to their lender on a day like this. Sellers should note the 149 homes that have sat 60 days or longer and price for today's payment.\n\n• Board wide: 2,656 listings across our 15 city table, counting active and in contract together, with 151 coming soon and 193 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 682 listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are on the market and 71 are coming soon.\n• Fremont: 240 live, 197 active, 26 coming soon and 17 brand new. The median on market list price is $1,286,500 at $797 a square foot, and the typical active listing has been out 31 days.\n• The rest of the ledger: Hayward 190, Milpitas 101, Newark 89, Union City 62.\n• Across all five cities the median is $1,088,000 at $676 a square foot. 285 homes are priced under a million, and 149 have been sitting 60 days or longer.",
+    "homebuilder": "A month of rising mortgage rates adds $355 a month to the payment on the typical local home.",
+    "commentary": "We will skip the daily rate recap and put the month in dollars instead. Mortgage News Daily's 30-year fixed was 6.89% on Sept. 8 and 7.50% Thursday, after a high of 7.61% on Oct. 5. On the five city median list price of $1,075,000 with 20% down, that moves principal and interest from $5,658 a month to $6,013, $355 more for the same home. Put the other way, the Sept. 8 payment now borrows about $51,000 less.\n\nOne correction: Market Briefs said rates \"jumped (again)\" to 7.5%. Thursday's 7.50% was a 0.09 point drop from Wednesday's 7.59%, MND's biggest one day decline in three months.\n\nLocally, the five city ledger reads 687, up from 682. Milpitas rose to 103 from 101, and Fremont, Hayward and Newark each added one, to 241, 191 and 90; Union City held at 62. The board wide table rose to 2,670 from 2,656.\n\nWhat this means for you: buyers holding a preapproval from early September should have it rerun, because the same payment now qualifies for about 6% less loan. Sellers should note the 147 homes that have sat 60 days or longer; most came on the market when the 30-year was under 6.9%.\n\n• Board wide: 2,670 listings across our 15 city table, counting active and in contract together, with 148 coming soon and 201 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 687 listings across Fremont, Hayward, Milpitas, Newark and Union City. 615 are on the market and 72 are coming soon.\n• Fremont: 241 live, 198 active, 27 coming soon and 16 brand new. The median on market list price is $1,274,944 at $797 a square foot, and the typical active listing has been out 31 days.\n• The rest of the ledger: Hayward 191, Milpitas 103, Newark 90, Union City 62.\n• Across all five cities the median is $1,075,000 at $675 a square foot. 290 homes are priced under a million, and 147 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/rent-100k-100826.png",
-      "alt": "Horizontal bar chart of the median size of rentals listed at $2,333 to $2,500 a month in 2026, the top of a $100,000 household's budget. Roomiest metros: Memphis 2,119 square feet with 4 bedrooms, Oklahoma City 2,000, Raleigh 1,885, San Antonio 1,874 and Houston 1,848, each with 3 bedrooms. U.S. overall: 1,152 square feet, 2 bedrooms. Tightest: Boston 758, Los Angeles 750, San Francisco 729, San Diego 726 and San Jose 650, each 1 bedroom. Only 5% of these rentals in San Francisco and San Jose are houses.",
-      "caption": "On a $100,000 income, the rent budget tops out near $2,500 a month. In Memphis that is a four bedroom house. In the San Francisco and San Jose metros, it is a one bedroom of 650 to 729 square feet.",
-      "source": "Source: Zillow, \"What $100K rents,\" Oct. 7, 2026, from Zillow rental listings priced $2,333 to $2,500 a month in the 50 largest metros."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/rate-month-payment-100926.png",
+      "alt": "Line chart of Mortgage News Daily's 30-year fixed rate, daily, from Sept. 8 to Oct. 8, 2026. It rose from 6.89% on Sept. 8 to a high of 7.61% on Oct. 5 and closed Thursday at 7.50%. On the five city median list price of $1,075,000 with 20% down, the monthly principal and interest went from $5,658 to $6,013, up $355, and the Sept. 8 payment now borrows about $51,000 less.",
+      "caption": "Four weeks of rising rates added $355 a month to the payment on the median home across Fremont, Hayward, Milpitas, Newark and Union City.",
+      "source": "Source: Mortgage News Daily daily rate index, as of Oct. 8, 2026. Payment is principal and interest on $1,075,000, the five city median list price in our Oct. 9 MLS export, with 20% down."
     }
   },
   "stocks": {
     "sp500": "7,765.36 (-0.47%)",
     "dow": "51,231.64 (+0.10%)",
     "nasdaq": "27,193.34 (-1.25%)",
-    "note": "Levels are Thursday, October 8 at the closing bell.",
-    "news": "AI stocks stumbled Thursday. The Nasdaq fell 1.25%, its biggest one day loss since mid August, after CNBC confirmed that OpenAI told investors it reached $50 billion in annualized revenue at the end of September, short of the $68 billion figure widely reported last month. CoreWeave fell more than 7%, Oracle, Intel and Super Micro Computer about 5%, and Nvidia almost 3%.\n\nThe S&P 500 slipped 0.47% for a second straight loss, while the Dow edged up 0.10%. Delta's earnings and October consumer sentiment are due Friday morning. One rough day is not a trend, but the AI trade has carried this market, so it is worth watching."
+    "note": "Levels are Thursday, October 8 at the closing bell. At 9:20 AM PT Friday the S&P 500 was up 0.53% and the Nasdaq 0.60%.",
+    "news": "Thursday's AI selloff hit Oracle and CoreWeave hardest. Oracle fell 5.48% and CoreWeave 7.77% after OpenAI, a major customer of both, put its revenue at about $50 billion a year, short of the $68 billion investors had heard.\n\nTheir year tells two very different stories. CoreWeave, which rents out AI computing power, is up 13.9% for 2026 after being up as much as 92.7% in May. Oracle, which is borrowing heavily to build AI data centers, is down 30.4%, and was down 41% at its July low. Both trail the Nasdaq's 17.0% gain. Early Friday, Oracle bounced more than 4%.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/oracle-coreweave-100926.png",
+      "alt": "Line chart of year to date stock performance in 2026 through the Oct. 8 close. CoreWeave is up 13.9% after a high of 92.7% on May 6. Oracle is down 30.4% after a low of minus 41.0% on July 24. The Nasdaq Composite, dashed, is up 17.0%.",
+      "caption": "CoreWeave has kept a gain and Oracle has not, but both trail the Nasdaq's 17.0% this year.",
+      "source": "Source: Yahoo Finance daily closes, Dec. 31, 2025 to Oct. 8, 2026. Price change only, dividends not included."
+    }
   },
   "economy": {
     "us10year": "5.22% (-0.06%)",
     "gold": "$4,157.00 (+0.39%)",
     "silver": "$59.42 (-1.44%)",
-    "wti": "$100.20 (-0.38%)",
+    "wti": "$104.28 (+4.07%)",
     "oil_label": "Brent Crude",
-    "note": "The 10-Year, gold and silver are Thursday, October 8: the Treasury daily yield curve close and the COMEX December settlements. Brent is Wednesday's ICE December settlement; Thursday it settled at $104.28, up 4.07%. Market Briefs printed Wednesday's gold at $4,130, down 0.25% (the settle was $4,140.70, down 1.11%), and Brent at $101.22, up 1.02% (settle $100.20, down 0.38%), and left silver out.",
-    "commentary": "Used car prices are cooling. Cox Automotive's Manheim index of wholesale used vehicle prices fell 1.1% in September to 205.9, down 4.4% from March's peak and 0.6% below a year ago, the first year over year drop of 2026. Cox pointed to record diesel prices, rapidly climbing interest rates and the Middle East conflict, and cut its outlook: it now expects the index to end 2026 up only about 0.2%, down from the 2% it forecast in July. Auctions are where dealers restock, so softer wholesale prices tend to reach the lot later.\n\nThe Fed is not done. Minutes of the September meeting, released Wednesday, say most officials thought another increase in the federal funds rate would likely be appropriate by year end, after September's quarter point hike to a 3.75% to 4% range. Oil did not help the inflation fight Thursday: Brent settled at $104.28, up about 4%.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/manheim-100826.png",
-      "alt": "Line chart of the Manheim Used Vehicle Value Index in 2026 against 2025. 2026: January 210.5, February 212.3, a March peak of 215.3, April 211.9, May 212.6, June 212.9, July 210.0, August 208.2 and September 205.9, down 4.4% from March and 0.6% below September 2025. A dotted line runs to Cox Automotive's forecast of about 206 for December, up 0.2% on the year.",
-      "caption": "Wholesale used vehicle prices fell 1.1% in September and sit 4.4% below March's peak. Cox Automotive now expects the index to end 2026 up only about 0.2%.",
-      "source": "Source: Cox Automotive, Manheim Used Vehicle Value Index September 2026 data file and Q3 2026 press release, Oct. 7, 2026. Adjusted for mix, mileage and season."
-    }
+    "note": "All four are Thursday, October 8: the Treasury daily yield curve close, the COMEX December gold and silver settlements and the ICE December Brent settlement. Market Briefs printed the 10-Year at 5.23%, unchanged (Treasury: 5.22%, down 0.06), gold at $4,200, up 1.04% (settle $4,157.00, up 0.39%), and Brent at $103.38, down 0.86% (settle $104.28, up 4.07%), and left silver out. Friday morning gold traded near $4,215 and silver near $61.",
+    "commentary": "A New York Fed study puts a number on tariffs. By February, tariffs had added about 2.9 percentage points to goods inflation: goods prices rose 2.0% over the year, and the authors estimate they would have fallen about 0.9% without tariffs. The study covers 67 categories of consumer goods other than oil, about three quarters of that spending.\n\nLayoffs remain rare, but moods are slipping. First time jobless claims fell to 197,000 in the week ending Oct. 3, the lowest since July. On Friday the University of Michigan's preliminary October consumer sentiment index fell to 46.3 from 48.1, and year ahead inflation expectations rose to 4.7% from 4.6%."
   },
   "crypto": {
-    "btc": "$81,651 (-1.86%)",
-    "eth": "$2,478.84 (-3.46%)",
-    "xrp": "$1.38 (-2.71%)",
-    "commentary": "Bitcoin is down 1.86% over 24 hours near $81,700, Ether down 3.46% and XRP down 2.71%, live from CoinGecko at 3:11 PM PT. Thursday Bitcoin broke below $82,500, a floor that had held since late September, and touched about $80,300 on Coinbase, on a day of selling in AI stocks. Market Briefs printed Bitcoin up 0.05% for Wednesday; it actually fell about 2.7% that day."
+    "btc": "$82,902 (+2.05%)",
+    "eth": "$2,495.56 (+2.53%)",
+    "xrp": "$1.39 (+2.36%)",
+    "commentary": "Bitcoin is up 2.05% over 24 hours near $82,900, Ether up 2.53% and XRP up 2.36%, live from CoinGecko at 9:20 AM PT. Thursday Bitcoin fell 1.90% on Coinbase, to $81,693; Market Briefs printed it up 0.56%.\n\nJPMorgan estimates about $50 billion has flowed into digital assets so far this year, counting funds, futures, venture money and company treasuries. Crypto ETF flows are positive for the year again after outflows in May and June, though the overall pace is still about half of last year's."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://www.mortgagenewsdaily.com/markets/mortgage-rates-10082026",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html",
+    "https://finance.yahoo.com/quote/ORCL/history/",
+    "https://finance.yahoo.com/quote/CRWV/history/",
     "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-    "https://www.coxautoinc.com/insights/manheim-used-vehicle-value-index-september-2026-trends/",
-    "https://www.coxautoinc.com/wp-content/uploads/2026/10/Q3-2026-Manheim-Used-Vehicle-Value-Index-press-release.pdf",
-    "https://www.prnewswire.com/news-releases/what-100k-rents-a-house-in-memphis-a-one-bedroom-apartment-in-san-jose-302900677.html",
-    "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+    "https://libertystreeteconomics.newyorkfed.org/2026/10/how-fast-do-tariffs-pass-through-into-consumer-prices/",
+    "https://www.dol.gov/ui/data.pdf",
+    "https://www.sca.isr.umich.edu/",
+    "https://www.theblock.co/news/markets/2026-10-08-jpmorgan-crypto-inflows-50-billion-etf-futures-q4-418115",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/",
     "https://exchange.coinbase.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/90c848e1-0c10-4377-a20e-7bdb082de306",
-  "qr_code_path": "note-qr-90c848e1.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/9049791e-ca31-46db-9c84-58f643e6de77",
+  "qr_code_path": "note-qr-9049791e.png"
 }
