@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/10/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/10/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 10, 2026: East Bay luxury homes had a strong spring but $2 million contracts are down from a year ago, with Fremont holding up and jumbo rates higher.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Bay Area luxury homes, East Bay luxury real estate, $2 million homes, jumbo mortgage rates, Fremont, Danville, Pleasanton, Tri-Valley, Tri-City, Hayward, Milpitas, Newark, Union City, Alameda County housing, mortgage rates, 10-Year Treasury, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
