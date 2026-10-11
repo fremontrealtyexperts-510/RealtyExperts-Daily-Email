@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/11/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/11/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 11, 2026: the 3% mortgage versus today's 7.48% on a local median home, the Fed's first hike since 2023, and why mortgage rates follow the bond market.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, 3% mortgage, mortgage payment, Fed rate hike, federal funds rate, 30-year fixed, 10-Year Treasury, national debt, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
