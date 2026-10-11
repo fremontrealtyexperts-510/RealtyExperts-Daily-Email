@@ -1,38 +1,24 @@
 {
-  "date": "10/10/26",
-  "time": "10:49 AM PT",
+  "date": "10/11/26",
+  "time": "11:33 AM PT",
   "real_estate": {
     "rate_30year": "7.48%",
     "rate_15year": "7.15%",
-    "homebuilder": "East Bay luxury had a strong spring, but $2 million homes are now going into contract more slowly than a year ago.",
-    "commentary": "Is the luxury market booming? In our corner of the Bay Area, it did this spring. Across our 14 city MLS table, homes listed at $2 million or more that were in contract peaked at 120 in May, 38% above last October's 87. Since then that count has fallen to 64, down 26% from a year ago and 47% from May.\n\nThe cooling is sharpest at the very top. Homes in contract at $3 million and up fell to 15 from 27 a year ago, down 44%, while those under $1 million slipped 8%, to 416 from 453. A year ago, $2 million homes went into contract faster than homes under $1 million, 46 in contract for every 100 for sale against 39. Today it is the other way around, 38 against 42.\n\nFremont is where the top end held up. It has 18 homes of $2 million or more in contract, about where it stood a year ago and now the most of any city in our table. Danville fell to 17 from 23 and Pleasanton to 5 from 16, so the Tri-Valley's share of these contracts dropped to 55% from 69%.\n\nOne likely reason is the cost of a jumbo loan, which is any loan above Alameda County's $1,249,125 conforming limit. Mortgage News Daily's 30-year jumbo rate is 7.63%, up 1.34 points in a year. On a $2 million home with 20% down, that is $11,330 a month in principal and interest, $1,437 more than a year ago, even with the S&P 500 up 14.1% this year.\n\nLocally, the five city ledger reads 688, up from 687, and 34 of its 614 homes on the market are listed at $2 million or more. Newark rose to 92 and Hayward to 192, Milpitas slipped to 101, and Fremont (241) and Union City (62) held. The board wide table eased to 2,667 from 2,670.\n\nWhat this means for you: sellers above $2 million are pricing for a smaller pool of buyers than in May, so price against today's jumbo payment. Buyers above $2 million have 174 homes to choose from across our 15 city table, and fewer are going into contract than a year ago, which can mean more room to negotiate.\n\n• Board wide: 2,667 listings across our 15 city table, counting active and in contract together, with 154 coming soon and 236 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 688 listings across Fremont, Hayward, Milpitas, Newark and Union City. 614 are on the market and 74 are coming soon.\n• Fremont: 241 live, 196 active, 27 coming soon and 18 brand new. The median on market list price is $1,262,444 at $789 a square foot, and the typical active listing has been out 32 days.\n• The rest of the ledger: Hayward 192, Milpitas 101, Newark 92, Union City 62.\n• Across all five cities the median is $1,074,975 at $676 a square foot. 289 homes are priced under a million, and 144 have been sitting 60 days or longer.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/luxury-monthly-101026.png",
-        "alt": "Paired bar chart of homes listed at $2 million or more across our 14 city MLS table, one snapshot near the 10th of each month from October 2025 to October 2026. In contract: 87, 89, 46, 47, 70, 73, 88, a May peak of 120, then 87, 82, 82, 65 and 64 today. For sale: 191, 140, 110, 62, 92, 148, 198, 215, 214, 206, 196, 166 and 167.",
-        "caption": "Homes of $2 million or more in contract peaked at 120 in May. Today's 64 is 26% below a year ago and 47% below May.",
-        "source": "Source: our daily MLS exports, Oct. 9, 2025 to Oct. 10, 2026, across 14 cities (Milpitas joined in January and is left out). List prices, all property types; in contract means pending or contingent; coming soon excluded."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/luxury-bands-101026.png",
-        "alt": "Bar chart of the change in homes in contract by list price from Oct. 9, 2025 to Oct. 10, 2026: under $1 million down 8% (453 to 416), $1 million to $1.5 million down 19% (202 to 163), $1.5 million to $2 million down 18% (126 to 103), $2 million to $3 million down 18% (60 to 49), and $3 million and up down 44% (27 to 15).",
-        "caption": "Contracts are down in every price band, least under $1 million and most at $3 million and up.",
-        "source": "Source: our daily MLS exports, Oct. 9, 2025 to Oct. 10, 2026, across 14 cities (Milpitas joined in January and is left out). List prices, all property types; in contract means pending or contingent; coming soon excluded."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/luxury-where-101026.png",
-        "alt": "Two donut charts of homes listed at $2 million or more that are in contract, by area. A year ago, Oct. 9, 2025: 87 in all, Tri-Valley 60 (69%), Tri-City 18 (21%), rest of the table 9 (10%). Today, Oct. 10, 2026: 64 in all, Tri-Valley 35 (55%), Tri-City 23 (36%), rest 6 (9%). Fremont now leads the table with 18; Danville went from 23 to 17 and Pleasanton from 16 to 5.",
-        "caption": "The Tri-Valley's share of $2 million contracts fell to 55% from 69%. Fremont, with 18, now has the most of any city in our table.",
-        "source": "Source: our daily MLS exports of Oct. 9, 2025 and Oct. 10, 2026. Tri-Valley: Danville, Pleasanton, San Ramon, Dublin, Livermore. Tri-City: Fremont, Newark, Union City. Pending and contingent, list prices, all property types."
-      }
-    ]
+    "homebuilder": "Mortgage rates answer to the bond market more than the Fed, and today's 7.48% adds $2,375 a month to the local median home compared with 3%.",
+    "commentary": "This Sunday's newsletter theme is debt: Ray Dalio's warning that rising government and corporate borrowing could squeeze families and companies. The federal debt passed $40 trillion on Aug. 18 and stood at $40.31 trillion on Oct. 8, per the Treasury. For housing, what matters is what all that borrowing does to mortgage rates.\n\nMortgage News Daily's 30-year fixed is 7.48% and the 15-year is 7.15%. Both are Friday's readings, since lenders do not post on weekends. The 30-year is 1.10 points higher than a year ago.\n\nThe newsletter's mortgage math says a $400,000 loan costs about $975 more a month than it would at 3%. The real gap is larger: $1,686 at 3% against $2,791 at today's 7.48%, or $1,105 more. Their $975 is the gap at 7.00%.\n\nOn a local home the stakes are bigger. The median list price across Fremont, Hayward, Milpitas, Newark and Union City is $1,074,950. With 20% down, that is $3,626 a month at 3% and $6,001 today: $2,375 more, or about $28,500 a year. That gap is why so many owners with low rates are staying put, which keeps listings thin.\n\nLocally, the five city ledger reads 684, down from 688. Fremont slipped to 239, Milpitas to 100 and Newark to 91, while Hayward (192) and Union City (62) held. The board wide table eased to 2,662 from 2,667.\n\nWhat this means for you: waiting for 3% is a plan; it just isn't a schedule. Even at 6%, the median payment would be $845 lower than today, so for buyers a refinance later is a realistic hope, not a promise. Sellers should price against today's payment, not last spring's.\n\n• Board wide: 2,662 listings across our 15 city table, counting active and in contract together, with 154 coming soon and 236 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 684 listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are on the market and 73 are coming soon.\n• Fremont: 239 live, 195 active, 26 coming soon and 18 brand new. The median on market list price is $1,275,000 at $797 a square foot, and the typical active listing has been out 33 days.\n• The rest of the ledger: Hayward 192, Milpitas 100, Newark 91, Union City 62.\n• Across all five cities the median is $1,074,950 at $676 a square foot. 288 homes are priced under a million, and 148 have been sitting 60 days or longer.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/mortgage-3pct-local-101126.png",
+      "alt": "Bar chart of the monthly principal and interest on $1,074,950, the median list price in Fremont, Hayward, Milpitas, Newark and Union City, with 20% down: $3,626 at 3%, $4,106 at 4%, $4,616 at 5%, $5,156 at 6% and $6,001 at today's 7.48%, a gap of $2,375 a month.",
+      "caption": "At 3%, the median local home cost $3,626 a month in principal and interest. At today's 7.48%, it is $6,001.",
+      "source": "Source: our Oct. 11, 2026 MLS export (median list price of 611 homes on the market in five cities), 20% down; Mortgage News Daily 30-year fixed, Oct. 9, 2026."
+    }
   },
   "stocks": {
     "sp500": "7,811.54 (+0.59%)",
     "dow": "51,654.95 (+0.83%)",
     "nasdaq": "27,366.17 (+0.64%)",
-    "note": "Levels are Friday, October 9 at the closing bell. No newsletter today; every number is from its source.",
-    "news": "Stocks bounced Friday, led by tech, after Thursday's AI selloff, and all three averages finished the week higher: the S&P 500 up 1.15%, the Dow 0.93% and the Nasdaq 0.64%. For the year the S&P 500 is up 14.1% and the Nasdaq 17.7%. Bank earnings start next week; Johnson & Johnson, UnitedHealth, Wells Fargo and Citigroup report Tuesday."
+    "note": "Levels are Friday, October 9 at the closing bell; markets are closed for the weekend.",
+    "news": "Markets are closed for the weekend, so the cards repeat Friday's close, when all three averages rose and finished the week higher. The S&P 500 is up 14.1% this year and the Nasdaq 17.7%.\n\nMonday is Columbus Day. Stocks trade as usual, but the bond market is closed, so there is no new Treasury yield until Tuesday. Earnings season starts Tuesday, when JPMorgan, Wells Fargo and Citigroup report, along with Johnson & Johnson."
   },
   "economy": {
     "us10year": "5.24% (+0.02%)",
@@ -41,23 +27,30 @@
     "wti": "$104.72 (+0.42%)",
     "oil_label": "Brent Crude",
     "note": "All four are Friday, October 9: the Treasury daily yield curve close, the COMEX December gold and silver settlements and the ICE December Brent settlement.",
-    "commentary": "Metals had a strong Friday: gold settled at $4,216.30, up 1.43%, and silver at $61.05, up 2.73%. The 10-Year Treasury edged up to 5.24% from 5.22%, and Brent settled at $104.72, up 0.42%."
+    "commentary": "The Fed raised its target range to 3.75% to 4% on Sept. 17, its first hike since July 2023. Inflation was 3.4% in August, per the Labor Department, well above the Fed's 2% goal.\n\nMortgage rates did not wait for the Fed. Freddie Mac's weekly 30-year bottomed at 5.98% on Feb. 26 and reached 7.40% on Oct. 8, up 1.42 points, while the Fed moved a quarter point. Mortgages follow the 10-Year Treasury, which closed Friday at 5.24%. The Fed gets the headlines; the bond market sends the bill.\n\nOn Friday, gold settled at $4,216.30, up 1.43%, silver at $61.05, up 2.73%, and Brent at $104.72, up 0.42%.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/fed-vs-mortgage-101126.png",
+      "alt": "Line chart from January 2015 to October 8, 2026 of the Fed's target range and Freddie Mac's weekly 30-year fixed mortgage rate. The Fed raised its range to 3.75% to 4% on Sept. 17, 2026, its first hike since 2023, while the 30-year rose from 5.98% on Feb. 26 to 7.40% on Oct. 8.",
+      "caption": "The Fed's one hike this year came Sept. 17. By that week the 30-year had already climbed from 5.98% in February to 6.95%, and it has reached 7.40% since.",
+      "source": "Source: Federal Reserve target range and Freddie Mac Primary Mortgage Market Survey, via FRED; U.S. Treasury."
+    }
   },
   "crypto": {
-    "btc": "$83,060 (+0.54%)",
-    "eth": "$2,506.17 (+0.91%)",
-    "xrp": "$1.40 (+1.21%)",
-    "commentary": "Bitcoin is up 0.54% over 24 hours near $83,100, Ether up 0.91% and XRP up 1.21%, live from CoinGecko at 10:49 AM PT. On Coinbase, Bitcoin rose 1.04% Friday, to $82,545, after Thursday's 1.90% drop."
+    "btc": "$83,793 (+1.01%)",
+    "eth": "$2,538.48 (+1.22%)",
+    "xrp": "$1.41 (+0.80%)",
+    "commentary": "Bitcoin is up 1.01% over 24 hours near $83,800, Ether up 1.22% and XRP up 0.80%, live from CoinGecko at 11:33 AM PT. Crypto trades through the weekend, so these are the only live cards in today's report."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/quote/%5EGSPC/history/",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/",
+    "https://fred.stlouisfed.org/series/DFEDTARU",
+    "https://fred.stlouisfed.org/series/MORTGAGE30US",
+    "https://www.bls.gov/cpi/",
     "https://quote.cnbc.com/",
-    "https://www.coingecko.com/",
-    "https://exchange.coinbase.com/"
+    "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/abb14a3e-9bc6-4fbc-b718-4007c6b59eb1",
-  "qr_code_path": "note-qr-abb14a3e.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/7d9c695e-5cba-440a-acb4-145f3b7da310",
+  "qr_code_path": "note-qr-7d9c695e.png"
 }
