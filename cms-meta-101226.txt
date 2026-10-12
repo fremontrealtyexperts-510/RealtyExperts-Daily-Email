@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/12/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/12/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 12, 2026: consumer sentiment near a record low, France now paying more to borrow than Italy, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+consumer sentiment, University of Michigan, France bond yields, Italy bond yields, 10-year yields, mortgage rates, 10-Year Treasury, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
