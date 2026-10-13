@@ -1,54 +1,58 @@
 {
-  "date": "10/12/26",
-  "time": "8:51 AM PT",
+  "date": "10/13/26",
+  "time": "10:47 AM PT",
   "real_estate": {
-    "rate_30year": "7.48%",
-    "rate_15year": "7.15%",
-    "homebuilder": "Consumer mood is near a record low, and buyers point to the same two things home shoppers feel: high prices and borrowing costs.",
-    "commentary": "Consumers are in a sour mood. The University of Michigan's sentiment index slipped to a preliminary 46.3 in October from 48.1. If it holds, that is the second lowest reading since the survey began in 1952, behind only May's 44.8. Before this year, the low was 50.0 in June 2022.\n\nThe survey's director said buying conditions for big ticket items \"plummeted amid high prices and borrowing costs,\" and year-ahead inflation expectations rose to 4.7% from 4.6%. Home buyers know the feeling: Mortgage News Daily's 30-year fixed is 7.48% and the 15-year 7.15%. Those are Friday's readings, since the bond market is closed for Columbus Day.\n\nLocally, a cautious buyer shows up as patience. Across our five cities, 156 of the 611 homes on the market have been listed 60 days or longer, up from 148 on Sunday. The five city ledger reads 686, up from 684. Fremont rose to 241 and Milpitas to 101, Newark slipped to 90, and Hayward (192) and Union City (62) held. The board wide table eased to 2,661 from 2,662.\n\nWhat this means for you: a gloomy survey is not a market crash, but it does thin the crowd. Buyers who are ready can find sellers more willing to talk, especially on homes that have sat 60 days or more. Sellers should price for the buyer who is actually showing up, not the one from last spring.\n\n• Board wide: 2,661 listings across our 15 city table, counting active and in contract together, with 158 coming soon and 222 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 686 listings across Fremont, Hayward, Milpitas, Newark and Union City. 611 are on the market and 75 are coming soon.\n• Fremont: 241 live, 197 active, 28 coming soon and 16 brand new. The median on market list price is $1,275,000 at $797 a square foot, and the typical active listing has been out 34 days.\n• The rest of the ledger: Hayward 192, Milpitas 101, Newark 90, Union City 62.\n• Across all five cities the median is $1,075,000 at $676 a square foot. 287 homes are priced under a million, and 156 have been sitting 60 days or longer.",
+    "rate_30year": "7.46%",
+    "rate_15year": "7.14%",
+    "homebuilder": "Reverse mortgage cash is forecast to nearly triple by 2035, and the U.S. is the biggest market for it.",
+    "commentary": "More retirees are expected to turn their homes into cash. A new EY survey for EPPARG, a European industry group, puts the equity released each year through reverse mortgages and home reversions across 14 countries at about $19.8 billion today, rising to $58.3 billion by 2035. The U.S. is the largest single market: about $8.6 billion a year now, forecast at $24.1 billion.\n\nTwo fixes to the newsletter version. The survey reports in euros (17.7 billion and 52.1 billion), which Market Briefs printed as dollars, and it covers reverse mortgages, not the cash-out refinances most owners use. For now the forecast is ahead of the borrowers: FHA reverse mortgage endorsements fell 14% to 24,182 in fiscal 2026, and HUD's San Francisco field office logged 784, down from 964.\n\nMortgage News Daily's 30-year fixed eased to 7.46% Tuesday and the 15-year to 7.14%. Locally, the five city ledger reads 683, down from 686. Fremont (241), Milpitas (101), Newark (90) and Union City (62) held while Hayward slipped to 189 from 192. Of the 606 homes on the market, 161 have been listed 60 days or longer, up from 156. The board wide table eased to 2,652 from 2,661.\n\nWhat this means for you: owners 62 and older sitting on Bay Area equity have more ways to tap it without selling, but a reverse mortgage carries real costs, and HUD requires a counseling session before one closes. Buyers get a slightly lower rate today, and 161 homes sitting 60 days or longer leave room to negotiate.\n\n• Board wide: 2,652 listings across our 15 city table, counting active and in contract together, with 163 coming soon and 207 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 683 listings across Fremont, Hayward, Milpitas, Newark and Union City. 606 are on the market and 77 are coming soon.\n• Fremont: 241 live, 199 active, 29 coming soon and 13 brand new. The median on market list price is $1,262,444 at $789 a square foot, and the typical active listing has been out 34 days.\n• The rest of the ledger: Hayward 189, Milpitas 101, Newark 90, Union City 62.\n• Across all five cities the median is $1,069,944 at $675 a square foot. 286 homes are priced under a million, and 161 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/consumer-sentiment-101226.png",
-      "alt": "Line chart of the University of Michigan index of consumer sentiment in 2026: 56.4 in January, 56.6 in February, 53.3 in March, 49.8 in April, a record low of 44.8 in May, 49.5 in June, 55.2 in July, 51.7 in August, 48.1 in September and a preliminary 46.3 in October. A dashed line marks 50.0, the lowest reading before 2026, set in June 2022.",
-      "caption": "October's preliminary 46.3 would be the second lowest reading on record, behind May's 44.8. Before 2026, the low was 50.0.",
-      "source": "Source: University of Michigan Surveys of Consumers; October is preliminary (released Oct. 9, 2026), and the final is due Oct. 23."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/equity-release-101326.png",
+      "alt": "Bar chart of home equity released each year through reverse mortgages and home reversions in 14 countries: about $19.8 billion today and a forecast $58.3 billion in 2035, 2.9 times as much. By country, the U.S. leads at $8.6 billion today and $24.1 billion in 2035, followed by the U.K. at $3.5 billion and $8.2 billion and Canada at $1.9 billion and $7.3 billion.",
+      "caption": "The U.S. is the largest market in EY's survey: about $8.6 billion a year now, forecast at $24.1 billion by 2035.",
+      "source": "Source: EY Global Equity Release Survey 2026 for EPPARG (Oct. 12, 2026), reported in euros and converted at the ECB reference rate of $1.1188 on Oct. 13, 2026."
     }
   },
   "stocks": {
-    "sp500": "7,811.54 (+0.59%)",
-    "dow": "51,654.95 (+0.83%)",
-    "nasdaq": "27,366.17 (+0.64%)",
-    "note": "Levels are Friday, October 9 at the closing bell. Monday at 8:51 AM PT: S&P 500 up 0.04%, Dow up 0.50%, Nasdaq down 0.21%.",
-    "news": "Stocks are trading on Columbus Day even though the bond market is closed. Late Monday morning the S&P 500 and the Dow are higher while the Nasdaq is lower, after all three finished last week higher. The S&P 500 is up 14.1% this year.\n\nEarnings season starts Tuesday, when JPMorgan, Wells Fargo and Citigroup report, along with Johnson & Johnson. Banks are a good read on whether that sour consumer mood is showing up in actual spending and borrowing."
+    "sp500": "7,807.24 (-0.06%)",
+    "dow": "51,850.55 (+0.38%)",
+    "nasdaq": "27,245.90 (-0.44%)",
+    "note": "Levels are Monday, October 12 at the closing bell. Tuesday at 10:47 AM PT: S&P 500 down 0.09%, Dow down 0.40%, Nasdaq down 0.21%.",
+    "news": "Earnings season opened Tuesday with mixed bank results. JPMorgan posted what CNBC called \"a rare miss,\" Goldman Sachs beat on strong stock trading, and Citigroup and Wells Fargo are trading lower. All three indexes are a touch lower late Tuesday morning after a quiet Monday.\n\nJohnson & Johnson is down about 6% after its medical technology sales of $8.6 billion missed estimates of $8.71 billion. The consumer read was steadier: Wells Fargo's finance chief told CNBC the bank is \"just not seeing any sort of cracks around delinquency trends.\" Bank of America and Morgan Stanley report Wednesday, the same morning as September's inflation report."
   },
   "economy": {
     "us10year": "5.24% (+0.02%)",
-    "gold": "$4,216.30 (+1.43%)",
-    "silver": "$61.05 (+2.73%)",
-    "wti": "$104.72 (+0.42%)",
+    "gold": "$4,190.60 (-0.61%)",
+    "silver": "$60.51 (-0.88%)",
+    "wti": "$106.65 (+1.84%)",
     "oil_label": "Brent Crude",
-    "note": "All four are Friday, October 9: the Treasury daily yield curve close, the COMEX December gold and silver settlements and the ICE December Brent settlement. Monday at 8:51 AM PT: gold $4,192.00 (down 0.58%), silver $60.60 (down 0.73%), Brent $106.74 (up 1.93%); no Treasury trading for Columbus Day.",
-    "commentary": "France now pays more to borrow than Italy. France's 10-year yield closed Friday at 4.86% against Italy's 4.60%, per CNBC data. Thursday's gap of 0.28 points was the widest in data back to 1999. At the start of 2024, Italy paid 1.12 points more than France.\n\nFrance first edged above Italy in October 2025 and has stayed above since early August. Its 10-year is now the highest since 2002, and its gap over Germany (3.49%) is 1.37 points. Spain pays 4.11%. The bond market, it seems, has stopped grading on reputation.\n\nFor American borrowers the takeaway is that rates are high everywhere. The U.S. 10-Year closed Friday at 5.24%, above all four, and that is the yield mortgage rates follow.",
+    "note": "Gold, silver and Brent cards are Monday, October 12 settlements (COMEX December gold and silver, ICE December Brent). The 10-Year is Friday's Treasury close, since the bond market was shut Monday for Columbus Day. Tuesday's COMEX settlements: gold $4,177.30 (down 0.32%), silver $59.53 (down 1.63%). At 10:47 AM PT: 10-Year 5.22%, Brent $105.72 (down 0.87%).",
+    "commentary": "Inflation likely peaked in May at 4.2%, but it is in no hurry to leave. Consumer prices ran 3.4% above a year earlier in both July and August, and Kalshi traders and the FactSet consensus expect 3.6% for September when the Labor Department reports Wednesday at 5:30 AM PT. That would be a step up from August, though still under the peak. This morning Kalshi priced 3.6% and 3.7% at close to even odds.\n\nBay Area prices run on their own clock. The government measures the San Francisco area every other month, and it was up 3.4% in the year to August, matching the nation, after 3.8% in April and June. Sticky inflation is what keeps the 10-Year near 5.2%, and mortgage rates follow it.\n\nA correction: Market Briefs showed the 10-Year at 5.19% for Monday, but the bond market was closed; Treasury's latest close is Friday's 5.24%. It also had gold up and Brent down Monday, when the settlements show gold down 0.61% and Brent up 1.84%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/france-italy-yields-101226.png",
-      "alt": "Bar chart of 10-year government bond yields at Friday's close, Oct. 9, 2026: France 4.86%, Italy 4.60%, Spain 4.11%, Germany 3.49%, with the U.S. 10-Year Treasury at 5.24% for comparison. A second panel shows France's yield minus Italy's since January 2024, rising from about minus 1.1 points to above zero for the first time on Oct. 7, 2025, and to plus 0.26 points on Oct. 9, 2026.",
-      "caption": "France's 10-year yield closed Friday 0.26 points above Italy's. At the start of 2024, Italy paid 1.12 points more.",
-      "source": "Source: CNBC daily closing yields, Jan. 1999 to Oct. 9, 2026; U.S. Treasury daily yield curve."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/cpi-peak-101326.png",
+      "alt": "Line chart of U.S. consumer price inflation, the change from a year earlier, in 2026: 2.4% in January and February, 3.3% in March, 3.8% in April, a 4.2% peak in May, 3.5% in June, and 3.4% in July and August, with a dashed line to a 3.6% forecast for September. Below it, the San Francisco Bay Area's index, measured every other month: 2.5% in February, 3.8% in April and June, and 3.4% in August.",
+      "caption": "A 3.6% September would be a step up from August's 3.4%, still under May's 4.2% peak. The government reports Wednesday.",
+      "source": "Source: U.S. Bureau of Labor Statistics, CPI for all urban consumers, not seasonally adjusted; September forecast from Kalshi traders and FactSet consensus via CNBC, Oct. 12, 2026."
     }
   },
   "crypto": {
-    "btc": "$82,658 (-0.88%)",
-    "eth": "$2,529.22 (+0.09%)",
-    "xrp": "$1.38 (-2.62%)",
-    "commentary": "Bitcoin is down 0.88% over 24 hours near $82,700, Ether up 0.09% and XRP down 2.62%, live from CoinGecko at 8:51 AM PT. Sunday's report caught Bitcoin near $83,800, so the weekend ended a little softer."
+    "btc": "$83,132 (+0.90%)",
+    "eth": "$2,503.17 (-0.04%)",
+    "xrp": "$1.37 (+0.50%)",
+    "commentary": "Bitcoin is up 0.90% over 24 hours near $83,100, Ether is flat and XRP is up 0.50%, live from CoinGecko at 10:47 AM PT. Monday's report caught Bitcoin near $82,700, so a quiet start to the week has turned a little firmer."
   },
   "sources": [
-    "https://www.sca.isr.umich.edu/",
+    "https://epparg.org/wp-content/uploads/2026/10/Global_ERM_Survey-2026-FINAL.pdf",
+    "https://apps.hud.gov/pub/chums/f17fvc/F17FVCQ-20261001.txt",
+    "https://www.bls.gov/cpi/",
+    "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
+    "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
+    "https://www.cnbc.com/2026/10/13/jnj-earnings-q3-2026.html",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.cnbc.com/quotes/FR10Y-FR",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/70619dc0-6022-4e39-a713-a1d5fdee33be",
-  "qr_code_path": "note-qr-70619dc0.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/40153113-9cdd-4989-97c4-fd45dd0bd87d",
+  "qr_code_path": "note-qr-40153113.png"
 }
