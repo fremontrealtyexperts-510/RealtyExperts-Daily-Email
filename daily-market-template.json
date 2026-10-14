@@ -1,58 +1,71 @@
 {
-  "date": "10/13/26",
-  "time": "10:47 AM PT",
+  "date": "10/14/26",
+  "time": "9:31 AM PT",
   "real_estate": {
     "rate_30year": "7.46%",
     "rate_15year": "7.14%",
-    "homebuilder": "Reverse mortgage cash is forecast to nearly triple by 2035, and the U.S. is the biggest market for it.",
-    "commentary": "More retirees are expected to turn their homes into cash. A new EY survey for EPPARG, a European industry group, puts the equity released each year through reverse mortgages and home reversions across 14 countries at about $19.8 billion today, rising to $58.3 billion by 2035. The U.S. is the largest single market: about $8.6 billion a year now, forecast at $24.1 billion.\n\nTwo fixes to the newsletter version. The survey reports in euros (17.7 billion and 52.1 billion), which Market Briefs printed as dollars, and it covers reverse mortgages, not the cash-out refinances most owners use. For now the forecast is ahead of the borrowers: FHA reverse mortgage endorsements fell 14% to 24,182 in fiscal 2026, and HUD's San Francisco field office logged 784, down from 964.\n\nMortgage News Daily's 30-year fixed eased to 7.46% Tuesday and the 15-year to 7.14%. Locally, the five city ledger reads 683, down from 686. Fremont (241), Milpitas (101), Newark (90) and Union City (62) held while Hayward slipped to 189 from 192. Of the 606 homes on the market, 161 have been listed 60 days or longer, up from 156. The board wide table eased to 2,652 from 2,661.\n\nWhat this means for you: owners 62 and older sitting on Bay Area equity have more ways to tap it without selling, but a reverse mortgage carries real costs, and HUD requires a counseling session before one closes. Buyers get a slightly lower rate today, and 161 homes sitting 60 days or longer leave room to negotiate.\n\n• Board wide: 2,652 listings across our 15 city table, counting active and in contract together, with 163 coming soon and 207 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 683 listings across Fremont, Hayward, Milpitas, Newark and Union City. 606 are on the market and 77 are coming soon.\n• Fremont: 241 live, 199 active, 29 coming soon and 13 brand new. The median on market list price is $1,262,444 at $789 a square foot, and the typical active listing has been out 34 days.\n• The rest of the ledger: Hayward 189, Milpitas 101, Newark 90, Union City 62.\n• Across all five cities the median is $1,069,944 at $675 a square foot. 286 homes are priced under a million, and 161 have been sitting 60 days or longer.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/equity-release-101326.png",
-      "alt": "Bar chart of home equity released each year through reverse mortgages and home reversions in 14 countries: about $19.8 billion today and a forecast $58.3 billion in 2035, 2.9 times as much. By country, the U.S. leads at $8.6 billion today and $24.1 billion in 2035, followed by the U.K. at $3.5 billion and $8.2 billion and Canada at $1.9 billion and $7.3 billion.",
-      "caption": "The U.S. is the largest market in EY's survey: about $8.6 billion a year now, forecast at $24.1 billion by 2035.",
-      "source": "Source: EY Global Equity Release Survey 2026 for EPPARG (Oct. 12, 2026), reported in euros and converted at the ECB reference rate of $1.1188 on Oct. 13, 2026."
-    }
+    "homebuilder": "Adjustable rate mortgages are back: more than 11% of rate locks, the largest share in nearly four years.",
+    "commentary": "Buyers are reaching for adjustable rate mortgages again. ICE's October Mortgage Monitor says ARMs made up more than 11% of rate locks, their largest share in nearly four years, as fixed rates climbed past 7%. About 150,000 ARMs reach their first reset this year and roughly 180,000 next year, a small slice of the market, but some resets bite: ICE expects 7-year ARMs taken out in 2020 to jump a median $1,066 a month, or 36%.\n\nHere is the trade on our five city median list price of $1,050,000 with 20% down. At Mortgage News Daily's 30-year fixed of 7.46%, principal and interest run about $5,850 a month. Its 7/6 ARM at 6.88% runs about $5,521, roughly $329 less, or about $27,700 over the seven fixed years. After that the rate follows the market.\n\nMND's latest reading is Tuesday's: 7.46% for the 30-year and 7.14% for the 15-year. This morning's hotter inflation report pushed the 10-Year to about 5.23%, so Wednesday's reading could come in higher.\n\nLocally, the five city ledger reads 677, down from 683. Fremont slipped to 234 from 241 and Newark to 89 from 90, Union City rose to 64 from 62, and Hayward (189) and Milpitas (101) held. Of the 601 homes on the market, 165 have been listed 60 days or longer, up from 161. The board wide table eased to 2,639 from 2,652, and brand new listings fell to 169 from 207.\n\nWhat this means for you: an ARM can lower the payment if you expect to sell or refinance within seven years, but price the reset before you sign. Ask your lender for the caps and the worst case payment. With 165 homes sitting 60 days or longer, sellers are listening.\n\n• Board wide: 2,639 listings across our 15 city table, counting active and in contract together, with 163 coming soon and 169 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 677 listings across Fremont, Hayward, Milpitas, Newark and Union City. 601 are on the market and 76 are coming soon.\n• Fremont: 234 live, 193 active, 28 coming soon and 13 brand new. The median on market list price is $1,249,995 at $778 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 189, Milpitas 101, Newark 89, Union City 64.\n• Across all five cities the median is $1,050,000 at $675 a square foot. 286 homes are priced under a million, and 165 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,807.24 (-0.06%)",
-    "dow": "51,850.55 (+0.38%)",
-    "nasdaq": "27,245.90 (-0.44%)",
-    "note": "Levels are Monday, October 12 at the closing bell. Tuesday at 10:47 AM PT: S&P 500 down 0.09%, Dow down 0.40%, Nasdaq down 0.21%.",
-    "news": "Earnings season opened Tuesday with mixed bank results. JPMorgan posted what CNBC called \"a rare miss,\" Goldman Sachs beat on strong stock trading, and Citigroup and Wells Fargo are trading lower. All three indexes are a touch lower late Tuesday morning after a quiet Monday.\n\nJohnson & Johnson is down about 6% after its medical technology sales of $8.6 billion missed estimates of $8.71 billion. The consumer read was steadier: Wells Fargo's finance chief told CNBC the bank is \"just not seeing any sort of cracks around delinquency trends.\" Bank of America and Morgan Stanley report Wednesday, the same morning as September's inflation report."
-  },
-  "economy": {
-    "us10year": "5.24% (+0.02%)",
-    "gold": "$4,190.60 (-0.61%)",
-    "silver": "$60.51 (-0.88%)",
-    "wti": "$106.65 (+1.84%)",
-    "oil_label": "Brent Crude",
-    "note": "Gold, silver and Brent cards are Monday, October 12 settlements (COMEX December gold and silver, ICE December Brent). The 10-Year is Friday's Treasury close, since the bond market was shut Monday for Columbus Day. Tuesday's COMEX settlements: gold $4,177.30 (down 0.32%), silver $59.53 (down 1.63%). At 10:47 AM PT: 10-Year 5.22%, Brent $105.72 (down 0.87%).",
-    "commentary": "Inflation likely peaked in May at 4.2%, but it is in no hurry to leave. Consumer prices ran 3.4% above a year earlier in both July and August, and Kalshi traders and the FactSet consensus expect 3.6% for September when the Labor Department reports Wednesday at 5:30 AM PT. That would be a step up from August, though still under the peak. This morning Kalshi priced 3.6% and 3.7% at close to even odds.\n\nBay Area prices run on their own clock. The government measures the San Francisco area every other month, and it was up 3.4% in the year to August, matching the nation, after 3.8% in April and June. Sticky inflation is what keeps the 10-Year near 5.2%, and mortgage rates follow it.\n\nA correction: Market Briefs showed the 10-Year at 5.19% for Monday, but the bond market was closed; Treasury's latest close is Friday's 5.24%. It also had gold up and Brent down Monday, when the settlements show gold down 0.61% and Brent up 1.84%.",
+    "sp500": "7,805.45 (-0.02%)",
+    "dow": "51,670.10 (-0.35%)",
+    "nasdaq": "27,204.38 (-0.15%)",
+    "note": "Levels are Tuesday, October 13 at the closing bell. Wednesday at 9:31 AM PT: S&P 500 down 1.12%, Dow down 0.30%, Nasdaq down 1.72%.",
+    "news": "Bumble agreed Tuesday to be taken private by Ithaca Holdings for $6.05 a share in cash, a deal that values the dating app at $1.3 billion. That is 138% above Friday's $2.54 close. The stock jumped to $3.80 Monday on reports of talks and closed Tuesday at $5.95, up 66.7% for the year after sliding to $2.50 last week.\n\nWednesday turned on the inflation report. Stocks opened lower and at 9:31 AM PT the S&P 500 was down 1.12% and the Nasdaq down 1.72%. Bank of America is down 5.34% after a $1.2 billion regulatory penalty cut its third quarter profit to 91 cents a share, against the $1.10 analysts expected; excluding the penalty it earned $1.08. Morgan Stanley beat, with stock trading revenue of $5.8 billion against $4.9 billion expected, yet it is down 3.49%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/cpi-peak-101326.png",
-      "alt": "Line chart of U.S. consumer price inflation, the change from a year earlier, in 2026: 2.4% in January and February, 3.3% in March, 3.8% in April, a 4.2% peak in May, 3.5% in June, and 3.4% in July and August, with a dashed line to a 3.6% forecast for September. Below it, the San Francisco Bay Area's index, measured every other month: 2.5% in February, 3.8% in April and June, and 3.4% in August.",
-      "caption": "A 3.6% September would be a step up from August's 3.4%, still under May's 4.2% peak. The government reports Wednesday.",
-      "source": "Source: U.S. Bureau of Labor Statistics, CPI for all urban consumers, not seasonally adjusted; September forecast from Kalshi traders and FactSet consensus via CNBC, Oct. 12, 2026."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/bumble-buyout-101426.png",
+      "alt": "Line chart of Bumble's daily closing price in 2026: $3.57 on Dec. 31, a high of $4.47 on April 21, a slide to $2.54 on Friday, Oct. 9, then $3.80 Monday when talks were reported and $5.95 Tuesday, just under the $6.05 a share buyout price. That is up 134% since Friday and 66.7% this year, in a deal valued at $1.3 billion.",
+      "caption": "Bumble closed Tuesday at $5.95, just under the $6.05 cash price and up 134% from Friday.",
+      "source": "Source: Nasdaq daily closes through Oct. 13, 2026; deal terms from Bumble's Oct. 13, 2026 announcement (SEC Form 8-K)."
     }
   },
+  "economy": {
+    "us10year": "5.21% (-0.03%)",
+    "gold": "$4,177.30 (-0.32%)",
+    "silver": "$59.53 (-1.63%)",
+    "wti": "$105.69 (-0.90%)",
+    "oil_label": "Brent Crude",
+    "note": "Gold, silver and Brent cards are Tuesday, October 13 settlements (COMEX December gold and silver, ICE December Brent); the 10-Year is Tuesday's Treasury close. At 9:31 AM PT Wednesday: gold $4,097.80 (down 1.90%), silver $55.80 (down 6.26%), 10-Year 5.23%, Brent $106.33.",
+    "commentary": "Inflation picked back up. Consumer prices rose 0.6% in September and 3.7% from a year earlier, up from August's 3.4% and a tenth above the 3.6% forecast in Tuesday's report. Gasoline jumped 9.1% in the month and accounted for over half of the increase. Core prices, without food and energy, rose 0.3% in the month and 2.6% from a year earlier. The 10-Year climbed to about 5.23% this morning, and metals slid: gold was down 1.90% and silver down 6.26% at 9:31 AM PT.\n\nThe same numbers set retirees' raise. Social Security benefits rise 3.6% in January, the biggest increase since 2023's 8.7%, which lifts the average retired worker to $2,170 a month from $2,095, about $75 more. Market Briefs had estimated about 3.5% and $68. For Bay Area retirees, local prices rose 3.4% in the year to August, so the raise roughly keeps pace here.\n\nOil supply is climbing back. Saudi Arabia told OPEC it pumped 8.37 million barrels a day in September, up about a third from August's 6.24 million, which was its lowest since 1990. That is still about 2.5 million short of February's 10.9 million, before the conflict with Iran began Feb. 28, so Market Briefs' \"close to pre-war levels\" is a stretch. Two fixes to the supplied graphic: July was 8.2 million as Saudi Arabia reported it, not 8.1, and the kingdom's own May figure was never published, so our chart leaves May out.\n\nA correction: Market Briefs showed gold down 0.02% and Brent up 1.17% for Tuesday; the settlements show gold down 0.32% and Brent down 0.90%. Its 10-Year of 5.21% was right, but that is down 0.03 from Friday, not flat.",
+    "feature_images": [
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/saudi-output-101426.png",
+        "alt": "Line chart of crude production Saudi Arabia reported to OPEC in 2026, in million barrels a day: 10.1 in January, 10.9 in February, then after the conflict with Iran began Feb. 28, 7.0 in March and 6.3 in April. May was not published. 7.1 in June, 8.2 in July, 6.2 in August, the lowest since 1990, and 8.37 in September, up a third.",
+        "caption": "Saudi output rebounded to 8.37 million barrels a day in September, still well below February's 10.9 million.",
+        "source": "Source: OPEC Monthly Oil Market Reports (production reported by Saudi Arabia), as published Feb. to Oct. 2026."
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/cola-2027-101426.png",
+        "alt": "Bar chart of the Social Security cost of living adjustment by the year it is paid: 5.9% in 2022, 8.7% in 2023, 3.2% in 2024, 2.5% in 2025, 2.8% in 2026 and an official 3.6% for 2027, the biggest since 2023. The average retired worker's monthly benefit rises from $2,095 to $2,170, or $75.",
+        "caption": "The official 2027 COLA is 3.6%, above the 3.5% estimate, about $75 a month for the average retiree.",
+        "source": "Source: Social Security Administration COLA history and 2027 COLA fact sheet (Oct. 14, 2026)."
+      }
+    ]
+  },
   "crypto": {
-    "btc": "$83,132 (+0.90%)",
-    "eth": "$2,503.17 (-0.04%)",
-    "xrp": "$1.37 (+0.50%)",
-    "commentary": "Bitcoin is up 0.90% over 24 hours near $83,100, Ether is flat and XRP is up 0.50%, live from CoinGecko at 10:47 AM PT. Monday's report caught Bitcoin near $82,700, so a quiet start to the week has turned a little firmer."
+    "btc": "$81,662 (-2.18%)",
+    "eth": "$2,430.92 (-3.44%)",
+    "xrp": "$1.33 (-3.35%)",
+    "commentary": "Crypto slid with stocks Wednesday. Bitcoin is down 2.18% over 24 hours near $81,700, Ether is down 3.44% and XRP is down 3.35%, live from CoinGecko at 9:31 AM PT. Tuesday's report caught Bitcoin near $83,100."
   },
   "sources": [
-    "https://epparg.org/wp-content/uploads/2026/10/Global_ERM_Survey-2026-FINAL.pdf",
-    "https://apps.hud.gov/pub/chums/f17fvc/F17FVCQ-20261001.txt",
-    "https://www.bls.gov/cpi/",
-    "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
-    "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html",
-    "https://www.cnbc.com/2026/10/13/jnj-earnings-q3-2026.html",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.ssa.gov/cola/",
+    "https://www.ssa.gov/news/en/cola/factsheets/2027.html",
+    "https://www.ssa.gov/oact/cola/colaseries.html",
+    "https://tradingeconomics.com/saudi-arabia/crude-oil-production",
+    "https://www.worldoil.com/news/2026/8/12/opec-saudi-crude-production-rebounds-by-more-than-1-mmbpd-in-july/",
+    "https://enterpriseam.com/ksa/2026/05/14/saudis-april-crude-production-drops-to-lows-unseen-since-1990/",
+    "https://www.sec.gov/Archives/edgar/data/1830043/000095010326015480/dp254907_ex9901.htm",
+    "https://api.nasdaq.com/api/quote/BMBL/historical",
+    "https://s2.q4cdn.com/154085107/files/doc_news/ICE-Mortgage-Monitor-ARM-Demand-Hits-Nearly-Four-Year-High-on-Rising-Mortgage-Rates-2026.pdf",
+    "https://finance.yahoo.com/markets/live/earnings-live-updates-big-banks-q3-earnings-115135687.html",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/40153113-9cdd-4989-97c4-fd45dd0bd87d",
-  "qr_code_path": "note-qr-40153113.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/4560fac0-da09-4859-8b83-9e6477fef7f9",
+  "qr_code_path": "note-qr-4560fac0.png"
 }
