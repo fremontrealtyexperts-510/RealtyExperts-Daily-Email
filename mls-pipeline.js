@@ -2,14 +2,16 @@
  * mls-pipeline.js  [csvPath]  [--dry-run]
  *
  * Turns the Paragon "MLS Defined Spread Sheet 4" CSV into the daily artifacts:
- *   1. Writes the raw CSV into the master sheet's MLS_Defined_Spread_Sheet_4 tab
+ *   1. Writes the export's raw values into the master sheet's MLS_Defined_Spread_Sheet_4 tab
  *      (so RE-v2 / Interactive / blog tabs recalc).            [needs sheet = Editor]
  *   2. Renders RE-Daily-1.png (table) + RE-Daily-2.png (chart) via mls-csv-to-images.py.
  *   3. Archives yesterday's PNGs and uploads today's to Raw-data. [needs Raw-data folder = Editor]
  *
- * CSV source: a local path if given, else the newest MLS_Defined_Spread* or (since
+ * Data source: a local CSV path if given, else the newest MLS_Defined_Spread* or (since
  * 10/02/26) MLS_Listing_Summary* file the service account can see in Drive (i.e.
- * uploaded into the shared Raw-data folder).
+ * uploaded into the shared Raw-data folder). A Google Sheet source is read via the
+ * Sheets API with UNFORMATTED_VALUE, never the Drive CSV export: that export renders
+ * DISPLAY values ("$1,250,000", or "#########" when the LP column is too narrow).
  * No external deps (Node built-ins + the python renderer).
  */
 const https = require('https'), crypto = require('crypto'), fs = require('fs'),
@@ -66,8 +68,12 @@ function parseCsv(text) {
   if (cell.length || row.length) { row.push(cell); rows.push(row); }
   return rows.filter(r => r.some(c => c !== ''));
 }
-async function getCsv(token) {
-  if (LOCAL_CSV) { console.log('CSV source: local', LOCAL_CSV); return fs.readFileSync(LOCAL_CSV, 'utf8'); }
+const toCsv = rows => rows.map(r => r.map(v => {
+  const s = v == null ? '' : String(v);
+  return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}).join(',')).join('\n') + '\n';
+async function getRows(token) {
+  if (LOCAL_CSV) { console.log('CSV source: local', LOCAL_CSV); return parseCsv(fs.readFileSync(LOCAL_CSV, 'utf8')); }
   // Harv's Paragon export arrives under either name: "MLS_Defined_Spread_Sheet_4 - MMDDYY"
   // or, since 10/02/26, "MLS_Listing_Summary_Spreadsheet - MMDDYY". Match both; newest wins.
   const q = encodeURIComponent("(name contains 'MLS_Defined' or name contains 'MLS_Listing_Summary') and trashed=false and mimeType!='application/vnd.google-apps.folder'");
@@ -76,14 +82,26 @@ async function getCsv(token) {
   const f = (r.files || []).find(x => x.mimeType === 'text/csv' || x.mimeType === SHEET); // newest CSV upload or auto-converted Sheet
   if (!f) throw new Error("no MLS_Defined* / MLS_Listing_Summary* CSV/Sheet visible to the service account — upload today's export to a shared Drive folder first");
   console.log('CSV source: Drive', f.name, `(${f.mimeType === SHEET ? 'google-sheet' : 'csv'}, ${f.modifiedTime})`);
-  const url = f.mimeType === SHEET
-    ? `https://www.googleapis.com/drive/v3/files/${f.id}/export?mimeType=text/csv`
-    : `https://www.googleapis.com/drive/v3/files/${f.id}?alt=media`;
-  return (await req('GET', url, token)).body.toString('utf8');
+  if (f.mimeType === SHEET) {
+    // Sheets API, NOT the Drive CSV export: the export renders DISPLAY values, so a
+    // too-narrow LP column turns every $1M+ price into the literal "#########".
+    // UNFORMATTED_VALUE returns the real numbers; FORMATTED_STRING keeps any date
+    // cells human-readable instead of serial numbers. Same read as dump-mls-csv.js.
+    const res = await req('GET', `https://sheets.googleapis.com/v4/spreadsheets/${f.id}/values/${encodeURIComponent('A1:AZ100000')}?valueRenderOption=UNFORMATTED_VALUE&dateTimeRenderOption=FORMATTED_STRING`, token);
+    if (res.status !== 200) throw new Error('sheet read failed: ' + res.body.toString().slice(0, 300));
+    return (j(res.body).values || []).filter(row => row.some(c => c !== '' && c != null));
+  }
+  return parseCsv((await req('GET', `https://www.googleapis.com/drive/v3/files/${f.id}?alt=media`, token)).body.toString('utf8'));
 }
 
 // ── 1. write into master sheet ────────────────────────────────────────────────
 async function updateSheet(token, rows) {
+  // "#########" can also be the cell's literal TEXT (the 07/21/26 export), which no
+  // render option recovers. Refuse to write it, as update-master-tab.js does; the fix
+  // is a fresh export.
+  const lp = rows[0].indexOf('LP');
+  const hashes = lp < 0 ? 0 : rows.slice(1).filter(r => String(r[lp] || '').startsWith('####')).length;
+  if (hashes) throw new Error(`refusing to write '${DATA_TAB}': ${hashes} rows have LP "####" (corrupt export, re-export it)`);
   if (DRY) { console.log(`[dry-run] would CLEAR '${DATA_TAB}' then write ${rows.length} rows x ${rows[0].length} cols`); return; }
   let r = await req('POST', `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${encodeURIComponent(DATA_TAB)}:clear`, token, { headers: { 'Content-Type': 'application/json' }, body: '{}' });
   if (r.status !== 200) throw new Error('clear failed: ' + r.body.toString().slice(0, 300));
@@ -117,14 +135,13 @@ async function pushPngs(token, outDir) {
 // ── main ─────────────────────────────────────────────────────────────────────
 (async () => {
   const token = await getToken();
-  const csvText = await getCsv(token);
-  const rows = parseCsv(csvText);
-  console.log(`parsed CSV: ${rows.length} rows, ${rows[0].length} cols, header[5]=${rows[0][5]} header[1]=${rows[0][1]} header[9]=${rows[0][9]}`);
+  const rows = await getRows(token);
+  console.log(`parsed rows: ${rows.length} rows, ${rows[0].length} cols, header[5]=${rows[0][5]} header[1]=${rows[0][1]} header[9]=${rows[0][9]}`);
 
   await updateSheet(token, rows);
 
   const tmpCsv = LOCAL_CSV || '/tmp/mls-pipeline-input.csv';
-  if (!LOCAL_CSV) fs.writeFileSync(tmpCsv, csvText);
+  if (!LOCAL_CSV) fs.writeFileSync(tmpCsv, toCsv(rows));
   console.log(execFileSync('python3', [path.join(__dirname, 'mls-csv-to-images.py'), tmpCsv, '/tmp'], { encoding: 'utf8' }).trim());
 
   await pushPngs(token, '/tmp');
