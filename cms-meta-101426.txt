@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/14/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/14/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 14, 2026: adjustable rate mortgages back in favor, September inflation at 3.7%, a 3.6% Social Security raise, Bumble's buyout, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+adjustable rate mortgage, ARM reset, ICE Mortgage Monitor, mortgage rates, CPI, September inflation, Social Security COLA 2027, Bumble buyout, Bank of America earnings, 10-Year Treasury, Saudi oil output, Brent crude, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, gold, silver, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
