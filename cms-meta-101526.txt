@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/15/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/15/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 15, 2026: mortgage rates at 7.5%, local homes in contract down 20% from a year ago, hot wholesale inflation, an AI hardware selloff, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, MBA purchase applications, pending home sales, homes in contract, Bay East MLS, producer price index, PPI, 10-Year Treasury, Fed rate hike odds, Dell, CoreWeave, AI stocks, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, gold, silver, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
