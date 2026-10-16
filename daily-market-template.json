@@ -1,51 +1,61 @@
 {
-  "date": "10/15/26",
-  "time": "8:49 AM PT",
+  "date": "10/16/26",
+  "time": "2:11 PM PT",
   "real_estate": {
-    "rate_30year": "7.45%",
-    "rate_15year": "7.14%",
-    "homebuilder": "Mortgage rates hit 7.5%, and local homes in contract are down 20% from a year ago.",
-    "commentary": "Buyers are pulling back nationally. The Mortgage Bankers Association's 30-year contract rate reached 7.50% last week, its highest since November 2023 and more than a point above a year ago. Purchase applications fell 4% on the week and are 16% below the same week last year, and adjustable rate loans rose to 10.5% of applications as borrowers hunt for a lower payment.\n\nWe checked our own MLS export against the same day last year, and the slowdown is here too. Across the board's 14 cities, homes in contract fell 20%, to 686 from 858, while homes for sale slipped just 4%, to 1,979 from 2,072. Newark (35 to 20) and Union City (30 to 23) saw the sharpest drop in signed deals even as their for sale counts rose 36% and 56%. Hayward held up best, with contracts down 6%.\n\nMND's latest reading is Wednesday's: 7.45% for the 30-year and 7.14% for the 15-year. On our five city median list price of $1,064,944 with 20% down, principal and interest run about $5,928 a month, roughly $649 more than at last October's 6.31%. That is a car payment, minus the car. The 10-Year fell to about 5.10% this morning, so Thursday's reading could come in lower.\n\nLocally, the five city ledger reads 683, up from 677. Fremont rose to 239 from 234 and Newark to 90 from 89, while Hayward (189), Milpitas (101) and Union City (64) held. Of the 606 homes on the market, 167 have been listed 60 days or longer, up from 165. The board wide table edged up to 2,645 from 2,639, and brand new listings fell to 153 from 169.\n\nWhat this means for you: with fewer buyers signing, the ones still shopping have room to negotiate, especially in Newark and Union City where supply has grown. Sellers should price for the market we have now; 167 homes have already sat 60 days or longer.\n\n• Board wide: 2,645 listings across our 15 city table, counting active and in contract together, with 155 coming soon and 153 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 683 listings across Fremont, Hayward, Milpitas, Newark and Union City. 606 are on the market and 77 are coming soon.\n• Fremont: 239 live, 198 active, 27 coming soon, 13 brand new and 1 back on market. The median on market list price is $1,249,995 at $782 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 189, Milpitas 101, Newark 90, Union City 64.\n• Across all five cities the median is $1,064,944 at $679 a square foot. 288 homes are priced under a million, and 167 have been sitting 60 days or longer.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/incontract-yoy-101526.png",
-      "alt": "Bar chart of the change from Oct. 15, 2025 to Oct. 15, 2026 in homes for sale and homes in contract. Board wide across 14 cities, for sale fell 4% (2,072 to 1,979) and in contract fell 20% (858 to 686). Fremont: for sale up 8%, in contract down 10%. Hayward: for sale down 18%, in contract down 6%. Newark: for sale up 36%, in contract down 43%. Union City: for sale up 56%, in contract down 23%.",
-      "caption": "Homes in contract are down 20% from the same day last year across the board's 14 cities, while supply is down 4%.",
-      "source": "Source: our daily Bay East MLS export, Oct. 15, 2025 and Oct. 15, 2026, all property types. Milpitas joined the export in January 2026 and is not included."
-    }
+    "rate_30year": "7.37%",
+    "rate_15year": "7.04%",
+    "homebuilder": "Signed home sales fall to their lowest since 2014, and local supply keeps building.",
+    "commentary": "Buyers are signing fewer contracts. Redfin says pending home sales fell 4% from August to September, the biggest monthly drop in more than three years, to the lowest level since 2014 outside the pandemic lockdown. West Coast metros slowed the most, with Seattle down 24.4% from a year ago and Los Angeles down 16%.\n\nRates are the reason. Freddie Mac's weekly average held at 7.40% on Thursday, its highest since November 2023 and up from 6.27% a year ago. MND's daily index ticked up Friday to 7.37% for the 30-year and 7.04% for the 15-year, from 7.33% and 6.98% Thursday. On our five city median list price of $1,088,000 with 20% down, principal and interest run about $6,009 a month, roughly $661 more than at last October's 6.23%. The house did not get pricier; the money did.\n\nLocally, supply is still building. The five city ledger reads 687, up from 683: Newark rose to 95 from 90 and Union City to 66 from 64, while Fremont slipped to 237 from 239 and Milpitas to 100 from 101, and Hayward held at 189. The board wide table rose to 2,681 from 2,645 as coming soon homes went live: brand new listings jumped to 196 from 153 while coming soon fell to 133 from 155.\n\nWhat this means for you: buyers who can carry today's payment face fewer rivals and more choice, with 165 homes on the five city ledger listed 60 days or longer. Sellers should price for the buyers shopping now, not the ones waiting on rates.\n\n• Board wide: 2,681 listings across our 15 city table, counting active and in contract together, with 133 coming soon and 196 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 687 listings across Fremont, Hayward, Milpitas, Newark and Union City. 617 are on the market and 70 are coming soon.\n• Fremont: 237 live, 190 active, 26 coming soon, 18 brand new and 3 back on market. The median on market list price is $1,299,000 at $805 a square foot, and the typical active listing has been out 36 days.\n• The rest of the ledger: Hayward 189, Milpitas 100, Newark 95, Union City 66.\n• Across all five cities the median is $1,088,000 at $681 a square foot. 287 homes are priced under a million, and 165 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,718.94 (-1.11%)",
-    "dow": "51,621.48 (-0.09%)",
-    "nasdaq": "26,692.87 (-1.88%)",
-    "note": "Levels are Wednesday, October 14 at the closing bell. Thursday at 8:49 AM PT: S&P 500 up 0.09%, Dow up 0.95%, Nasdaq down 0.39%.",
-    "news": "AI hardware took the hit Wednesday. Dell fell 11.27% and CoreWeave, which rents out AI computing power, fell 15.46% as investors questioned how much businesses will really spend on AI and how much tech companies are borrowing to build it. Nvidia slipped 3.16% and Meta 3.27%. The S&P 500 lost 1.11% and the Nasdaq 1.88%, while the Dow, lighter on tech, eased just 0.09%. Bank of America fell 4.76% after its $1.2 billion penalty dented the quarter.\n\nThe selling kept going in AI gear this morning: at 8:49 AM PT Dell is down 7.89% and CoreWeave down 3.28%, while the Dow is up 0.95% as money rotates out of tech rather than out of stocks. Even a building boom needs a buyer at the end."
+    "sp500": "7,659.44 (-1.09%)",
+    "dow": "52,002.41 (-0.34%)",
+    "nasdaq": "26,140.03 (-2.14%)",
+    "note": "Levels are Friday, October 16 at the closing bell. For the week: S&P 500 down 1.95%, Dow up 0.67%, Nasdaq down 4.48%.",
+    "news": "Chips and AI names sold off again Friday. AMD fell 5.95%, Micron 5.63% and Broadcom 4.52%, and CoreWeave, the debt heavy AI cloud company, dropped 11.91%. The Nasdaq lost 2.14% and 4.48% for the week, its worst week since late June. Energy cushioned the Dow, with Exxon up 2.46% and Chevron up 2.59% as oil jumped.\n\nNetflix closed at $70.53, down 2.86% on the day and 24.8% for 2026, about a third below its April 16 high of $107.79. This week it announced about 1,000 job cuts, roughly 6% of its staff, and it reports third quarter results Tuesday. Shareholders will be watching that episode closely.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/netflix-ytd-101626.png",
+      "alt": "Line chart of Netflix's daily closing share price in 2026. It started the year at $93.76 on Dec. 31, 2025, peaked at $107.79 on April 16, hit a 2026 low of $67.06 on Oct. 2, and closed at $70.53 on Oct. 16, down 24.8% for the year and 34.6% below the high.",
+      "caption": "Netflix closed Friday at $70.53, down 24.8% for 2026 and 34.6% below its April 16 high. It reports third quarter results Tuesday, Oct. 20.",
+      "source": "Source: Yahoo Finance daily closes, Dec. 31, 2025 through Oct. 16, 2026."
+    }
   },
   "economy": {
-    "us10year": "5.19% (-0.02%)",
-    "gold": "$4,107.90 (-1.66%)",
-    "silver": "$55.88 (-6.13%)",
-    "wti": "$106.06 (+0.35%)",
+    "us10year": "5.09% (-0.01%)",
+    "gold": "$4,181.10 (+0.26%)",
+    "silver": "$57.31 (+0.26%)",
+    "wti": "$105.92 (-0.13%)",
     "oil_label": "Brent Crude",
-    "note": "Gold, silver and Brent cards are Wednesday, October 14 settlements (COMEX December gold and silver, ICE December Brent); the 10-Year is Wednesday's Treasury close. At 8:49 AM PT Thursday: gold $4,171.10 (up 1.54%), silver $57.23 (up 2.41%), 10-Year 5.10%, Brent $106.04.",
-    "commentary": "Wholesale prices ran hot. The producer price index for final demand rose 1.3% in September and 6.3% from a year earlier, the fastest annual pace since December 2022. It lands a day after consumer prices rose 3.7%.\n\nBonds rallied anyway. The 10-Year fell to about 5.10% this morning from Wednesday's 5.19% close as investors moved into Treasurys during the tech selloff. Fed Governor Michelle Bowman said the Fed has time to wait after September's hike, and San Francisco Fed President Mary Daly said another hike is likely needed but not urgent. CME FedWatch odds of a hold at the Oct. 27 to 28 meeting rose to 68% from 46%. A lower 10-Year usually pulls mortgage rates down with it, with a lag.\n\nMetals swung both ways. Gold settled down 1.66% and silver down 6.13% Wednesday; this morning gold is up 1.54% and silver up 2.41%.\n\nA correction: Market Briefs showed the 10-Year at 5.10%, gold up 1.16% and Brent down 1.38% for Wednesday. Treasury's close was 5.19%, and the settlements show gold down 1.66% and Brent up 0.35%."
+    "note": "Gold and silver are Friday, October 16 settlements (COMEX December); the 10-Year is Friday's Treasury close. The Brent card is Thursday's ICE December settlement; Friday it settled at $109.86, up 3.72%.",
+    "commentary": "Holiday shoppers are expected to spend more. The National Retail Federation forecast Thursday that November and December sales will grow 4.2% to a record $1.013 trillion, after 3.1% last year. Bain sees 4.5%, Deloitte 4.0% to 4.8% and Mastercard 5.5%, the most upbeat of the group.\n\nOne fix to the newsletter's chart: it measured every forecast against a single 2025 figure of 3.1%, which is NRF's own number. Each firm counts differently, so we set each forecast next to its own 2025 result. Three of the four still speed up, while Deloitte's range sits around its 4.1% from last year. About half the gain is prices: Mastercard says 2.8 points of its 5.5% is inflation, and Bain says more than half. Santa's sleigh costs more to fuel this year.\n\nOil jumped Friday. Brent settled at $109.86, up 3.72%, as attacks on tankers around the Strait of Hormuz picked up. Bonds held steady, with the 10-Year closing at 5.09% after Thursday's drop to 5.10% from 5.19%.\n\nA correction: Market Briefs showed Thursday's 10-Year at 5.07% (down 0.01), gold up 0.21% and Brent at $105.30, down 0.59%. Treasury's close was 5.10%, down 0.09; gold settled up 1.51%; and Brent settled at $105.92, down 0.13%.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/holiday-sales-101626.png",
+      "alt": "Bar chart of 2026 U.S. holiday retail sales growth forecasts next to each forecaster's own 2025 result. Mastercard 5.5% (3.9% in 2025), Bain 4.5% (3.5%), Deloitte 4.0% to 4.8% (4.1%), NRF 4.2% (3.1%).",
+      "caption": "Three of four forecasters expect faster holiday sales growth than they measured last year; Deloitte's range sits around its 4.1% from 2025. About half the gain is higher prices.",
+      "source": "Source: NRF (Oct. 15, 2026), Deloitte (Sept. 10), Bain & Company (Sept. 3), Mastercard Economics Institute (Sept. 23) and Mastercard SpendingPulse (Dec. 23, 2025). Windows differ by forecaster."
+    }
   },
   "crypto": {
-    "btc": "$82,263 (+0.66%)",
-    "eth": "$2,436.99 (+0.05%)",
-    "xrp": "$1.34 (+0.24%)",
-    "commentary": "Crypto held steadier than tech. Bitcoin is up 0.66% over 24 hours near $82,300, Ether is up 0.05% and XRP is up 0.24%, live from CoinGecko at 8:49 AM PT. Wednesday's report caught Bitcoin near $81,700, so it has gone essentially nowhere while Dell lost nearly a fifth over two days."
+    "btc": "$81,581 (-0.59%)",
+    "eth": "$2,412.03 (-1.65%)",
+    "xrp": "$1.30 (-2.53%)",
+    "commentary": "Crypto slipped with tech. Bitcoin is down 0.59% over 24 hours near $81,600, Ether is down 1.65% and XRP is down 2.53%, live from CoinGecko at 2:11 PM PT. Bitcoin briefly dipped below $80,000 on Thursday, to $79,676 on Coinbase, before buyers stepped back in."
   },
   "sources": [
-    "https://www.mba.org/news-and-research/newsroom/news/2026/10/14/mortgage-applications-decrease-in-latest-mba-weekly-survey",
-    "https://www.bls.gov/news.release/ppi.nr0.htm",
-    "https://www.economies.com/markets/americas-news/us-10-year-treasury-yields-fall-to-three-week-low-as-fed-remarks-ease-rate-hike-bets-50140",
-    "https://www.theglobeandmail.com/investing/article-us-treasury-yields-fall-sharply-on-ai-jitters/",
+    "https://www.realestatenews.com/2026/10/12/pending-sales-drop-to-lowest-level-in-12-years",
+    "https://www.freddiemac.com/pmms",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
+    "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient",
+    "https://www.deloitte.com/us/en/about/press-room/deloitte-forecasts-holiday-retail-sales.html",
+    "https://www.bain.com/about/media-center/press-releases/2026/us-holiday-retail-sales-set-to-outpace-last-years-seasonal-growth-performance-to-exceed-$1-trillion-for-the-first-timebain--company-forecasts/",
+    "https://www.mastercard.com/us/en/news-and-trends/insights-report/our-insights/holiday-blog-2026.html",
+    "https://www.businesswire.com/news/home/20251223325766/en/Mastercard-SpendingPulse-Savvy-Shoppers-and-E-Commerce-Fuel-U.S.-Holiday-Retail-Sales-Growth-by-3.9-YOY",
+    "https://www.news4jax.com/business/2026/10/14/netflix-is-laying-off-6-of-its-workforce-in-biggest-round-of-job-cuts-at-streaming-giant-in-years/",
+    "https://finance.yahoo.com/quote/NFLX/history/",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://finance.yahoo.com/quote/DELL/history/",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/7d3ccbd1-ad64-4c12-9cb1-e9b0bae94741",
-  "qr_code_path": "note-qr-7d3ccbd1.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/a31c16cd-e0ad-4f6d-9cac-5c0b20ce0408",
+  "qr_code_path": "note-qr-a31c16cd.png"
 }
