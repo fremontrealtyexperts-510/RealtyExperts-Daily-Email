@@ -19,12 +19,13 @@ echo "[$(date -u +%FT%TZ)] --- cron wake ---" >> "$LOG"
 ./refresh-live-inventory.sh >> "$LOG" 2>&1
 rc=$?
 
-# The generator always rewrites the tracked live-inventory.json (intra-day inventory
+# The generator always rewrites the tracked live-inventory.json (and, since 07-17/07-22,
+# inventory-history.json + assistant-inventory.json) (intra-day inventory
 # shifts even when the date field does not), which would dirty the working tree and make
 # the 15-min git auto-pull's --autostash pop conflict against an incoming publish commit.
 # The authoritative feed lives on origin / GitHub Pages, not this working copy, so discard
 # any local regeneration to keep the tree clean for auto-pull.
-git checkout -- live-inventory.json 2>/dev/null
+git checkout -- live-inventory.json inventory-history.json assistant-inventory.json 2>/dev/null
 
 echo "[$(date -u +%FT%TZ)] refresh exit=$rc; tree recleaned" >> "$LOG"
 exit $rc
