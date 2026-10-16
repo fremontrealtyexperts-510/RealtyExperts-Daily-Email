@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/16/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/16/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 16, 2026: pending home sales at their lowest since 2014, mortgage rates near 7.4%, holiday sales forecasts compared fairly, Netflix down a quarter for the year, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, pending home sales, Redfin, Freddie Mac, Bay East MLS, holiday sales forecast, NRF, Deloitte, Bain, Mastercard, Netflix stock, chip stocks, Brent crude, 10-Year Treasury, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, gold, silver, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
