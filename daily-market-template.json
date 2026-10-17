@@ -1,61 +1,56 @@
 {
-  "date": "10/16/26",
-  "time": "2:11 PM PT",
+  "date": "10/17/26",
+  "time": "11:21 AM PT",
   "real_estate": {
     "rate_30year": "7.37%",
     "rate_15year": "7.04%",
-    "homebuilder": "Signed home sales fall to their lowest since 2014, and local supply keeps building.",
-    "commentary": "Buyers are signing fewer contracts. Redfin says pending home sales fell 4% from August to September, the biggest monthly drop in more than three years, to the lowest level since 2014 outside the pandemic lockdown. West Coast metros slowed the most, with Seattle down 24.4% from a year ago and Los Angeles down 16%.\n\nRates are the reason. Freddie Mac's weekly average held at 7.40% on Thursday, its highest since November 2023 and up from 6.27% a year ago. MND's daily index ticked up Friday to 7.37% for the 30-year and 7.04% for the 15-year, from 7.33% and 6.98% Thursday. On our five city median list price of $1,088,000 with 20% down, principal and interest run about $6,009 a month, roughly $661 more than at last October's 6.23%. The house did not get pricier; the money did.\n\nLocally, supply is still building. The five city ledger reads 687, up from 683: Newark rose to 95 from 90 and Union City to 66 from 64, while Fremont slipped to 237 from 239 and Milpitas to 100 from 101, and Hayward held at 189. The board wide table rose to 2,681 from 2,645 as coming soon homes went live: brand new listings jumped to 196 from 153 while coming soon fell to 133 from 155.\n\nWhat this means for you: buyers who can carry today's payment face fewer rivals and more choice, with 165 homes on the five city ledger listed 60 days or longer. Sellers should price for the buyers shopping now, not the ones waiting on rates.\n\n• Board wide: 2,681 listings across our 15 city table, counting active and in contract together, with 133 coming soon and 196 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 687 listings across Fremont, Hayward, Milpitas, Newark and Union City. 617 are on the market and 70 are coming soon.\n• Fremont: 237 live, 190 active, 26 coming soon, 18 brand new and 3 back on market. The median on market list price is $1,299,000 at $805 a square foot, and the typical active listing has been out 36 days.\n• The rest of the ledger: Hayward 189, Milpitas 100, Newark 95, Union City 66.\n• Across all five cities the median is $1,088,000 at $681 a square foot. 287 homes are priced under a million, and 165 have been sitting 60 days or longer."
+    "homebuilder": "Outside the gas pump, Bay Area living costs are rising modestly, and rents here rose just 2.6% in a year.",
+    "commentary": "This week's spending headlines, translated for the Bay Area: September prices rose 3.7% from a year ago nationally, but one item did much of the damage. Gasoline cost 34% more than a year ago, and 31.5% more here. Leave out food and energy and prices rose 2.6%.\n\nHousing is the good news locally. Bay Area rents rose 2.6% from a year ago, a touch below the nation's 2.8%, and shelter costs overall rose 2.6% here versus 3.2% nationally. Groceries are the one place the Bay Area runs hotter, up 4.4% here versus 1.8% nationally, and car insurance costs 5% less than a year ago.\n\nMortgage rates closed the week steady. MND's 30-year ended Friday at 7.37% and the 15-year at 7.04%. On our five city median list price of $1,088,000 with 20% down, principal and interest run about $6,009 a month.\n\nLocally, the five city ledger reads 679, down from 687, as Fremont slipped to 233 from 237 and Union City to 64 from 66. The board wide table eased to 2,666 from 2,681, while brand new listings rose to 210 from 196.\n\nWhat this means for you: a paycheck rising about 3% a year is keeping up with everything but the gas tank, and Bay Area rents are rising slower than that. Buyers have room to negotiate, with 169 homes on the five city ledger listed 60 days or longer.\n\n• Board wide: 2,666 listings across our 15 city table, counting active and in contract together, with 136 coming soon and 210 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 679 listings across Fremont, Hayward, Milpitas, Newark and Union City. 609 are on the market and 70 are coming soon.\n• Fremont: 233 live, 186 active, 27 coming soon, 17 brand new and 3 back on market. The median on market list price is $1,298,500 at $804 a square foot, and the typical active listing has been out 37 days.\n• The rest of the ledger: Hayward 188, Milpitas 100, Newark 94, Union City 64.\n• Across all five cities the median is $1,088,000 at $681 a square foot. 283 homes are priced under a million, and 169 have been sitting 60 days or longer.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/cost-of-200-101726.png",
+      "alt": "Bar chart of what $200 of last September's spending costs in September 2026, U.S. with Bay Area marks. Car insurance $190.03 (down 5.0%), groceries $203.62 (up 1.8%; Bay Area $208.76, up 4.4%), rent $205.56 (up 2.8%; Bay Area $205.29, up 2.6%), restaurant meals $206.92 (up 3.5%), all items $207.48 (up 3.7%), electricity $208.73 (up 4.4%), gasoline $268.34 (up 34.2%; Bay Area $262.99, up 31.5%).",
+      "caption": "Everything but gasoline lands within $10 of last year's $200. Bay Area rent rose 2.6%; car insurance is cheaper than a year ago.",
+      "source": "Source: U.S. Bureau of Labor Statistics, Consumer Price Index (CPI-U, not seasonally adjusted), September 2026. Bay Area = San Francisco, Oakland and Hayward area."
+    }
   },
   "stocks": {
     "sp500": "7,659.44 (-1.09%)",
     "dow": "52,002.41 (-0.34%)",
     "nasdaq": "26,140.03 (-2.14%)",
-    "note": "Levels are Friday, October 16 at the closing bell. For the week: S&P 500 down 1.95%, Dow up 0.67%, Nasdaq down 4.48%.",
-    "news": "Chips and AI names sold off again Friday. AMD fell 5.95%, Micron 5.63% and Broadcom 4.52%, and CoreWeave, the debt heavy AI cloud company, dropped 11.91%. The Nasdaq lost 2.14% and 4.48% for the week, its worst week since late June. Energy cushioned the Dow, with Exxon up 2.46% and Chevron up 2.59% as oil jumped.\n\nNetflix closed at $70.53, down 2.86% on the day and 24.8% for 2026, about a third below its April 16 high of $107.79. This week it announced about 1,000 job cuts, roughly 6% of its staff, and it reports third quarter results Tuesday. Shareholders will be watching that episode closely.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/netflix-ytd-101626.png",
-      "alt": "Line chart of Netflix's daily closing share price in 2026. It started the year at $93.76 on Dec. 31, 2025, peaked at $107.79 on April 16, hit a 2026 low of $67.06 on Oct. 2, and closed at $70.53 on Oct. 16, down 24.8% for the year and 34.6% below the high.",
-      "caption": "Netflix closed Friday at $70.53, down 24.8% for 2026 and 34.6% below its April 16 high. It reports third quarter results Tuesday, Oct. 20.",
-      "source": "Source: Yahoo Finance daily closes, Dec. 31, 2025 through Oct. 16, 2026."
-    }
+    "note": "Markets are closed for the weekend. Levels are Friday, October 16 at the closing bell. For the week: S&P 500 down 1.95%, Dow up 0.67%, Nasdaq down 4.48%.",
+    "news": "Stocks ended a choppy week mixed. The Dow finished up 0.67% for the week, while the S&P 500 lost 1.95% and the Nasdaq 4.48% as investors sold chip and AI shares. Friday's drop was led by AMD (down 5.95%), Micron (down 5.63%) and CoreWeave (down 11.91%), while energy stocks rose with oil.\n\nThe consumer side looks healthier than the tech tape. September sales at online retailers rose 8.2% from a year ago and at restaurants 7.0%, a good sign for retailers heading into the holiday quarter. Netflix kicks off a busy earnings week on Tuesday."
   },
   "economy": {
     "us10year": "5.09% (-0.01%)",
     "gold": "$4,181.10 (+0.26%)",
     "silver": "$57.31 (+0.26%)",
-    "wti": "$105.92 (-0.13%)",
+    "wti": "$109.86 (+3.72%)",
     "oil_label": "Brent Crude",
-    "note": "Gold and silver are Friday, October 16 settlements (COMEX December); the 10-Year is Friday's Treasury close. The Brent card is Thursday's ICE December settlement; Friday it settled at $109.86, up 3.72%.",
-    "commentary": "Holiday shoppers are expected to spend more. The National Retail Federation forecast Thursday that November and December sales will grow 4.2% to a record $1.013 trillion, after 3.1% last year. Bain sees 4.5%, Deloitte 4.0% to 4.8% and Mastercard 5.5%, the most upbeat of the group.\n\nOne fix to the newsletter's chart: it measured every forecast against a single 2025 figure of 3.1%, which is NRF's own number. Each firm counts differently, so we set each forecast next to its own 2025 result. Three of the four still speed up, while Deloitte's range sits around its 4.1% from last year. About half the gain is prices: Mastercard says 2.8 points of its 5.5% is inflation, and Bain says more than half. Santa's sleigh costs more to fuel this year.\n\nOil jumped Friday. Brent settled at $109.86, up 3.72%, as attacks on tankers around the Strait of Hormuz picked up. Bonds held steady, with the 10-Year closing at 5.09% after Thursday's drop to 5.10% from 5.19%.\n\nA correction: Market Briefs showed Thursday's 10-Year at 5.07% (down 0.01), gold up 0.21% and Brent at $105.30, down 0.59%. Treasury's close was 5.10%, down 0.09; gold settled up 1.51%; and Brent settled at $105.92, down 0.13%.",
+    "note": "Markets are closed for the weekend. Gold and silver are Friday, October 16 settlements (COMEX December); Brent is Friday's ICE December settlement; the 10-Year is Friday's Treasury close.",
+    "commentary": "Shoppers kept spending in September. Retail and restaurant sales rose 0.8% from August and 6.3% from a year earlier, the Census Bureau said Thursday, and Reuters reported the gain beat expectations. Restaurants and bars took in 7.0% more than a year ago while menu prices rose 3.5%, so people are eating out more, not just paying more.\n\nGasoline did a lot of the lifting. Gas station sales jumped 6.4% in the month and 28.1% from a year ago, while pump prices rose 34.2%, so drivers paid more for slightly less fuel. Leave gas stations out and sales still rose 4.5% from a year ago. Higher spending does not always mean buying more, and at the pump it did not.\n\nSome of the scarier graphics online this week show a grocery cart up 10%. The September data puts grocery prices up 1.8% nationally and 4.4% in the Bay Area, and car insurance down 5%. Average hourly pay rose 3.0% over the year: behind the 3.7% rise in all prices, mostly because of gasoline, but ahead of the 2.6% rise outside food and energy.\n\nOil rose again Friday, with Brent settling at $109.86, up 3.72%, as tanker attacks around the Strait of Hormuz picked up. That keeps gasoline the line item to watch, and also the one that can ease fastest when oil cools.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/holiday-sales-101626.png",
-      "alt": "Bar chart of 2026 U.S. holiday retail sales growth forecasts next to each forecaster's own 2025 result. Mastercard 5.5% (3.9% in 2025), Bain 4.5% (3.5%), Deloitte 4.0% to 4.8% (4.1%), NRF 4.2% (3.1%).",
-      "caption": "Three of four forecasters expect faster holiday sales growth than they measured last year; Deloitte's range sits around its 4.1% from 2025. About half the gain is higher prices.",
-      "source": "Source: NRF (Oct. 15, 2026), Deloitte (Sept. 10), Bain & Company (Sept. 3), Mastercard Economics Institute (Sept. 23) and Mastercard SpendingPulse (Dec. 23, 2025). Windows differ by forecaster."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/spending-vs-prices-101726.png",
+      "alt": "Paired bar chart, September 2026 vs a year earlier. All stores and restaurants: sales up 6.3%, all consumer prices up 3.7% (buying more). Restaurants and bars: sales up 7.0%, menu prices up 3.5% (buying more). Grocery stores: sales up 0.9%, grocery prices up 1.8%. Gas stations: sales up 28.1%, gasoline prices up 34.2%.",
+      "caption": "Overall and at restaurants, sales grew faster than prices, so shoppers bought more. At the pump and the grocery store, prices outran sales.",
+      "source": "Source: U.S. Census Bureau, Advance Monthly Retail Sales (Oct. 15, 2026); U.S. Bureau of Labor Statistics, CPI-U. Store sales are matched to the main item each store type sells."
     }
   },
   "crypto": {
-    "btc": "$81,581 (-0.59%)",
-    "eth": "$2,412.03 (-1.65%)",
-    "xrp": "$1.30 (-2.53%)",
-    "commentary": "Crypto slipped with tech. Bitcoin is down 0.59% over 24 hours near $81,600, Ether is down 1.65% and XRP is down 2.53%, live from CoinGecko at 2:11 PM PT. Bitcoin briefly dipped below $80,000 on Thursday, to $79,676 on Coinbase, before buyers stepped back in."
+    "btc": "$81,449 (+0.35%)",
+    "eth": "$2,414.88 (+0.23%)",
+    "xrp": "$1.30 (-0.30%)",
+    "commentary": "Crypto had a quiet Saturday. Bitcoin is up 0.35% over 24 hours near $81,400, Ether is up 0.23% and XRP is down 0.30%, live from CoinGecko at 11:21 AM PT. It trades through the weekend, so these are the only live prices on the page."
   },
   "sources": [
-    "https://www.realestatenews.com/2026/10/12/pending-sales-drop-to-lowest-level-in-12-years",
-    "https://www.freddiemac.com/pmms",
+    "https://www.census.gov/retail/marts/www/marts_current.pdf",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.bls.gov/news.release/realer.nr0.htm",
+    "https://data.bls.gov/timeseries/CUURS49BSEHA",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient",
-    "https://www.deloitte.com/us/en/about/press-room/deloitte-forecasts-holiday-retail-sales.html",
-    "https://www.bain.com/about/media-center/press-releases/2026/us-holiday-retail-sales-set-to-outpace-last-years-seasonal-growth-performance-to-exceed-$1-trillion-for-the-first-timebain--company-forecasts/",
-    "https://www.mastercard.com/us/en/news-and-trends/insights-report/our-insights/holiday-blog-2026.html",
-    "https://www.businesswire.com/news/home/20251223325766/en/Mastercard-SpendingPulse-Savvy-Shoppers-and-E-Commerce-Fuel-U.S.-Holiday-Retail-Sales-Growth-by-3.9-YOY",
-    "https://www.news4jax.com/business/2026/10/14/netflix-is-laying-off-6-of-its-workforce-in-biggest-round-of-job-cuts-at-streaming-giant-in-years/",
-    "https://finance.yahoo.com/quote/NFLX/history/",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/a31c16cd-e0ad-4f6d-9cac-5c0b20ce0408",
-  "qr_code_path": "note-qr-a31c16cd.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/aeed1608-9a2c-4979-acea-718cb077e956",
+  "qr_code_path": "note-qr-aeed1608.png"
 }
