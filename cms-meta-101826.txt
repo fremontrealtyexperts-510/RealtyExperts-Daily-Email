@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/18/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/18/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 18, 2026: how inflation shrinks a fixed mortgage payment, East Bay home values against incomes and prices since 1989, bonds paying more than inflation again, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+inflation, national debt, real yield, 10-year Treasury, financial repression, fixed rate mortgage, East Bay home values, Alameda County income, mortgage rates, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)

@@ -1,16 +1,16 @@
 {
-  "date": "10/17/26",
-  "time": "11:21 AM PT",
+  "date": "10/18/26",
+  "time": "11:28 AM PT",
   "real_estate": {
     "rate_30year": "7.37%",
     "rate_15year": "7.04%",
-    "homebuilder": "Outside the gas pump, Bay Area living costs are rising modestly, and rents here rose just 2.6% in a year.",
-    "commentary": "This week's spending headlines, translated for the Bay Area: September prices rose 3.7% from a year ago nationally, but one item did much of the damage. Gasoline cost 34% more than a year ago, and 31.5% more here. Leave out food and energy and prices rose 2.6%.\n\nHousing is the good news locally. Bay Area rents rose 2.6% from a year ago, a touch below the nation's 2.8%, and shelter costs overall rose 2.6% here versus 3.2% nationally. Groceries are the one place the Bay Area runs hotter, up 4.4% here versus 1.8% nationally, and car insurance costs 5% less than a year ago.\n\nMortgage rates closed the week steady. MND's 30-year ended Friday at 7.37% and the 15-year at 7.04%. On our five city median list price of $1,088,000 with 20% down, principal and interest run about $6,009 a month.\n\nLocally, the five city ledger reads 679, down from 687, as Fremont slipped to 233 from 237 and Union City to 64 from 66. The board wide table eased to 2,666 from 2,681, while brand new listings rose to 210 from 196.\n\nWhat this means for you: a paycheck rising about 3% a year is keeping up with everything but the gas tank, and Bay Area rents are rising slower than that. Buyers have room to negotiate, with 169 homes on the five city ledger listed 60 days or longer.\n\n• Board wide: 2,666 listings across our 15 city table, counting active and in contract together, with 136 coming soon and 210 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 679 listings across Fremont, Hayward, Milpitas, Newark and Union City. 609 are on the market and 70 are coming soon.\n• Fremont: 233 live, 186 active, 27 coming soon, 17 brand new and 3 back on market. The median on market list price is $1,298,500 at $804 a square foot, and the typical active listing has been out 37 days.\n• The rest of the ledger: Hayward 188, Milpitas 100, Newark 94, Union City 64.\n• Across all five cities the median is $1,088,000 at $681 a square foot. 283 homes are priced under a million, and 169 have been sitting 60 days or longer.",
+    "homebuilder": "Inflation raises nearly every bill but one: the fixed mortgage payment. Since 1989, East Bay home values have outrun both paychecks and prices.",
+    "commentary": "Sunday's market newsletter looked at an old idea: inflation shrinks a debt, because the amount owed stays the same while paychecks grow. Homeowners with a fixed rate mortgage live that math every month. The payment never changes, while incomes and rents rise around it.\n\nOur chart puts local numbers on it. Since 1989, East Bay home values rose about 4.7 times, Alameda County's median household income 3.7 times, and Bay Area consumer prices 2.8 times. Values have cooled lately: this spring's index sits 4.7% below its 2024 average.\n\nRates are where the national debt reaches your payment. Investors want more to hold long bonds, and the 30-year Treasury touched 5.67% on October 7, its highest since 2002. MND's 30-year mortgage ended the week at 7.37% and the 15-year at 7.04%. On our five city median list price of $1,084,000 with 20% down, principal and interest run about $5,987 a month.\n\nLocally, the five city ledger holds at 679 for a second day, with Fremont at 231 from 233 and Milpitas at 102 from 100. The board wide table eased to 2,662 from 2,666, while coming soon listings rose to 139 from 136.\n\nWhat this means for you: a buyer who locks a fixed rate today locks the one housing cost inflation cannot raise, with a refinance available if rates fall. Sellers face a ledger where 171 homes have sat 60 days or longer, so pricing to the comps still wins.\n\n• Board wide: 2,662 listings across our 15 city table, counting active and in contract together, with 139 coming soon and 209 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 679 listings across Fremont, Hayward, Milpitas, Newark and Union City. 606 are on the market and 73 are coming soon.\n• Fremont: 231 live, 183 active, 28 coming soon, 17 brand new and 3 back on market. The median on market list price is $1,299,000 at $805 a square foot, and the typical active listing has been out 38 days.\n• The rest of the ledger: Hayward 188, Milpitas 102, Newark 93, Union City 65.\n• Across all five cities the median is $1,084,000 at $682 a square foot. 282 homes are priced under a million, and 171 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/cost-of-200-101726.png",
-      "alt": "Bar chart of what $200 of last September's spending costs in September 2026, U.S. with Bay Area marks. Car insurance $190.03 (down 5.0%), groceries $203.62 (up 1.8%; Bay Area $208.76, up 4.4%), rent $205.56 (up 2.8%; Bay Area $205.29, up 2.6%), restaurant meals $206.92 (up 3.5%), all items $207.48 (up 3.7%), electricity $208.73 (up 4.4%), gasoline $268.34 (up 34.2%; Bay Area $262.99, up 31.5%).",
-      "caption": "Everything but gasoline lands within $10 of last year's $200. Bay Area rent rose 2.6%; car insurance is cheaper than a year ago.",
-      "source": "Source: U.S. Bureau of Labor Statistics, Consumer Price Index (CPI-U, not seasonally adjusted), September 2026. Bay Area = San Francisco, Oakland and Hayward area."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/eastbay-homes-vs-income-101826.png",
+      "alt": "Line chart, growth since 1989 with each line indexed to 1x. By 2024: East Bay home values 4.7x, Alameda County median household income 3.7x, Bay Area consumer prices 2.8x. Home values dipped after 2006 and passed incomes again in 2013.",
+      "caption": "Since 1989, East Bay home values rose 4.7 times, local incomes 3.7 times and Bay Area prices 2.8 times. Incomes beat inflation, and owning beat both.",
+      "source": "Source: FHFA all-transactions house price index (Oakland-Berkeley-Livermore: Alameda and Contra Costa counties); Census SAIPE median household income, Alameda County; BLS CPI-U, San Francisco-Oakland-Hayward. Indexed to 1989."
     }
   },
   "stocks": {
@@ -18,7 +18,7 @@
     "dow": "52,002.41 (-0.34%)",
     "nasdaq": "26,140.03 (-2.14%)",
     "note": "Markets are closed for the weekend. Levels are Friday, October 16 at the closing bell. For the week: S&P 500 down 1.95%, Dow up 0.67%, Nasdaq down 4.48%.",
-    "news": "Stocks ended a choppy week mixed. The Dow finished up 0.67% for the week, while the S&P 500 lost 1.95% and the Nasdaq 4.48% as investors sold chip and AI shares. Friday's drop was led by AMD (down 5.95%), Micron (down 5.63%) and CoreWeave (down 11.91%), while energy stocks rose with oil.\n\nThe consumer side looks healthier than the tech tape. September sales at online retailers rose 8.2% from a year ago and at restaurants 7.0%, a good sign for retailers heading into the holiday quarter. Netflix kicks off a busy earnings week on Tuesday."
+    "news": "Markets are closed for the weekend, so the cards show Friday's close. The week belonged to the Dow, which edged higher while selling in chip and AI shares pulled the Nasdaq down.\n\nSunday's newsletter made a point long term investors know: over decades, rising prices flow into company sales and earnings. Since the end of 1971 the S&P 500 is up about 75 times, before dividends, while consumer prices rose about 8 times. Owning has been the hedge, in stocks and in homes alike, though never in a straight line, as this week showed."
   },
   "economy": {
     "us10year": "5.09% (-0.01%)",
@@ -27,30 +27,34 @@
     "wti": "$109.86 (+3.72%)",
     "oil_label": "Brent Crude",
     "note": "Markets are closed for the weekend. Gold and silver are Friday, October 16 settlements (COMEX December); Brent is Friday's ICE December settlement; the 10-Year is Friday's Treasury close.",
-    "commentary": "Shoppers kept spending in September. Retail and restaurant sales rose 0.8% from August and 6.3% from a year earlier, the Census Bureau said Thursday, and Reuters reported the gain beat expectations. Restaurants and bars took in 7.0% more than a year ago while menu prices rose 3.5%, so people are eating out more, not just paying more.\n\nGasoline did a lot of the lifting. Gas station sales jumped 6.4% in the month and 28.1% from a year ago, while pump prices rose 34.2%, so drivers paid more for slightly less fuel. Leave gas stations out and sales still rose 4.5% from a year ago. Higher spending does not always mean buying more, and at the pump it did not.\n\nSome of the scarier graphics online this week show a grocery cart up 10%. The September data puts grocery prices up 1.8% nationally and 4.4% in the Bay Area, and car insurance down 5%. Average hourly pay rose 3.0% over the year: behind the 3.7% rise in all prices, mostly because of gasoline, but ahead of the 2.6% rise outside food and energy.\n\nOil rose again Friday, with Brent settling at $109.86, up 3.72%, as tanker attacks around the Strait of Hormuz picked up. That keeps gasoline the line item to watch, and also the one that can ease fastest when oil cools.",
+    "commentary": "Sunday's Market Briefs asked whether inflation could help shrink the $40 trillion federal debt. The backdrop checks out: interest on the debt is running about $1.28 trillion a year, and gross debt was 122.6% of the economy in early 2026, just above the 1946 peak of 119%. The newsletter said about 125%; the Fed's data says a little less.\n\nThe historical version was the 1940s, when long rates were held near 2.5% while inflation ran far higher, a quiet loss for lenders that economists call financial repression. Today is the opposite. In September the 10-Year paid about 1.3 points more than inflation, positive every month since June 2023, and the Fed's next decision is October 28. For once, the saver is not the one footing the bill; the flip side is mortgage rates above 7%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/spending-vs-prices-101726.png",
-      "alt": "Paired bar chart, September 2026 vs a year earlier. All stores and restaurants: sales up 6.3%, all consumer prices up 3.7% (buying more). Restaurants and bars: sales up 7.0%, menu prices up 3.5% (buying more). Grocery stores: sales up 0.9%, grocery prices up 1.8%. Gas stations: sales up 28.1%, gasoline prices up 34.2%.",
-      "caption": "Overall and at restaurants, sales grew faster than prices, so shoppers bought more. At the pump and the grocery store, prices outran sales.",
-      "source": "Source: U.S. Census Bureau, Advance Monthly Retail Sales (Oct. 15, 2026); U.S. Bureau of Labor Statistics, CPI-U. Store sales are matched to the main item each store type sells."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/real-yield-101826.png",
+      "alt": "Area chart of the 10-year Treasury yield minus inflation over the past 12 months, 1942 to September 2026. Deeply negative in the 1940s (minus 17.5 points in March 1947, a 2.2% yield against 19.7% inflation), negative again in the mid 1970s and 2021 to 2023 (minus 6.4 in March 2022), positive every month since June 2023, plus 1.3 in September 2026.",
+      "caption": "In the 1940s, the 1970s and 2022, the 10-Year paid less than inflation. Since June 2023 it has paid more, about 1.3 points in September.",
+      "source": "Source: Federal Reserve 10-year constant maturity yield (long-term government bond yield before April 1953) and BLS CPI-U, via FRED."
     }
   },
   "crypto": {
-    "btc": "$81,449 (+0.35%)",
-    "eth": "$2,414.88 (+0.23%)",
-    "xrp": "$1.30 (-0.30%)",
-    "commentary": "Crypto had a quiet Saturday. Bitcoin is up 0.35% over 24 hours near $81,400, Ether is up 0.23% and XRP is down 0.30%, live from CoinGecko at 11:21 AM PT. It trades through the weekend, so these are the only live prices on the page."
+    "btc": "$81,052 (-0.51%)",
+    "eth": "$2,362.51 (-2.24%)",
+    "xrp": "$1.27 (-1.80%)",
+    "commentary": "Crypto is the only market open this weekend, and it is drifting lower. Bitcoin is down 0.51% over 24 hours near $81,050, Ether is down 2.24% and XRP is down 1.80%, live from CoinGecko at 11:28 AM PT. Bitcoin is often pitched as a hedge against a cheaper dollar; this weekend it mostly took the day off."
   },
   "sources": [
-    "https://www.census.gov/retail/marts/www/marts_current.pdf",
-    "https://www.bls.gov/news.release/cpi.nr0.htm",
-    "https://www.bls.gov/news.release/realer.nr0.htm",
-    "https://data.bls.gov/timeseries/CUURS49BSEHA",
+    "https://fred.stlouisfed.org/series/GFDEGDQ188S",
+    "https://fred.stlouisfed.org/series/A091RC1Q027SBEA",
+    "https://fred.stlouisfed.org/series/GS10",
+    "https://fred.stlouisfed.org/series/CPIAUCNS",
+    "https://fred.stlouisfed.org/series/ATNHPIUS36084Q",
+    "https://fred.stlouisfed.org/series/MHICA06001A052NCEN",
+    "https://data.bls.gov/timeseries/CUUSS49BSA0",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/aeed1608-9a2c-4979-acea-718cb077e956",
-  "qr_code_path": "note-qr-aeed1608.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/78c11fcc-78e7-41b3-bd16-676f29ed957e",
+  "qr_code_path": "note-qr-78c11fcc.png"
 }
