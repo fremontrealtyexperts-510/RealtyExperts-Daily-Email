@@ -1,60 +1,56 @@
 {
-  "date": "10/18/26",
-  "time": "11:28 AM PT",
+  "date": "10/19/26",
+  "time": "1:34 PM PT",
   "real_estate": {
-    "rate_30year": "7.37%",
-    "rate_15year": "7.04%",
-    "homebuilder": "Inflation raises nearly every bill but one: the fixed mortgage payment. Since 1989, East Bay home values have outrun both paychecks and prices.",
-    "commentary": "Sunday's market newsletter looked at an old idea: inflation shrinks a debt, because the amount owed stays the same while paychecks grow. Homeowners with a fixed rate mortgage live that math every month. The payment never changes, while incomes and rents rise around it.\n\nOur chart puts local numbers on it. Since 1989, East Bay home values rose about 4.7 times, Alameda County's median household income 3.7 times, and Bay Area consumer prices 2.8 times. Values have cooled lately: this spring's index sits 4.7% below its 2024 average.\n\nRates are where the national debt reaches your payment. Investors want more to hold long bonds, and the 30-year Treasury touched 5.67% on October 7, its highest since 2002. MND's 30-year mortgage ended the week at 7.37% and the 15-year at 7.04%. On our five city median list price of $1,084,000 with 20% down, principal and interest run about $5,987 a month.\n\nLocally, the five city ledger holds at 679 for a second day, with Fremont at 231 from 233 and Milpitas at 102 from 100. The board wide table eased to 2,662 from 2,666, while coming soon listings rose to 139 from 136.\n\nWhat this means for you: a buyer who locks a fixed rate today locks the one housing cost inflation cannot raise, with a refinance available if rates fall. Sellers face a ledger where 171 homes have sat 60 days or longer, so pricing to the comps still wins.\n\n• Board wide: 2,662 listings across our 15 city table, counting active and in contract together, with 139 coming soon and 209 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 679 listings across Fremont, Hayward, Milpitas, Newark and Union City. 606 are on the market and 73 are coming soon.\n• Fremont: 231 live, 183 active, 28 coming soon, 17 brand new and 3 back on market. The median on market list price is $1,299,000 at $805 a square foot, and the typical active listing has been out 38 days.\n• The rest of the ledger: Hayward 188, Milpitas 102, Newark 93, Union City 65.\n• Across all five cities the median is $1,084,000 at $682 a square foot. 282 homes are priced under a million, and 171 have been sitting 60 days or longer.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/eastbay-homes-vs-income-101826.png",
-      "alt": "Line chart, growth since 1989 with each line indexed to 1x. By 2024: East Bay home values 4.7x, Alameda County median household income 3.7x, Bay Area consumer prices 2.8x. Home values dipped after 2006 and passed incomes again in 2013.",
-      "caption": "Since 1989, East Bay home values rose 4.7 times, local incomes 3.7 times and Bay Area prices 2.8 times. Incomes beat inflation, and owning beat both.",
-      "source": "Source: FHFA all-transactions house price index (Oakland-Berkeley-Livermore: Alameda and Contra Costa counties); Census SAIPE median household income, Alameda County; BLS CPI-U, San Francisco-Oakland-Hayward. Indexed to 1989."
-    }
+    "rate_30year": "7.43%",
+    "rate_15year": "7.07%",
+    "homebuilder": "Mortgage rates climbed to 7.43% as the 10-Year closed at 5.15%, the same rising rates that pushed Washington's interest bill past $1 trillion.",
+    "commentary": "The bond market set the tone for housing today. The 10-Year Treasury closed at 5.15%, up 0.06, and MND's 30-year mortgage rose to 7.43% with the 15-year at 7.07%. Those same higher rates are why the federal interest bill topped $1 trillion this fiscal year, as the Economy section shows.\n\nOn our five city median list price of $1,084,000 with 20% down, principal and interest now run about $6,022 a month, about $35 more than at Friday's 7.37%. Small moves add up on Bay Area loan sizes.\n\nLocally, the five city ledger rose to 681 from 679, with Hayward at 191 from 188 and Milpitas at 104 from 102, while Fremont slipped to 227 from 231. The board wide table eased to 2,651 from 2,662, and brand new listings fell to 198 from 209.\n\nWhat this means for you: on days when rates jump, buyers with a rate lock plan ready before they write an offer are the ones who stay calm. With 175 homes on the ledger sitting 60 days or longer, there is still room to negotiate, and sellers who price to the comps are the ones getting offers.\n\n• Board wide: 2,651 listings across our 15 city table, counting active and in contract together, with 139 coming soon and 198 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 681 listings across Fremont, Hayward, Milpitas, Newark and Union City. 608 are on the market and 73 are coming soon.\n• Fremont: 227 live, 181 active, 27 coming soon, 16 brand new and 3 back on market. The median on market list price is $1,298,500 at $800 a square foot, and the typical active listing has been out 39 days.\n• The rest of the ledger: Hayward 191, Milpitas 104, Newark 94, Union City 65.\n• Across all five cities the median is $1,084,000 at $678 a square foot. 283 homes are priced under a million, and 175 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,659.44 (-1.09%)",
-    "dow": "52,002.41 (-0.34%)",
-    "nasdaq": "26,140.03 (-2.14%)",
-    "note": "Markets are closed for the weekend. Levels are Friday, October 16 at the closing bell. For the week: S&P 500 down 1.95%, Dow up 0.67%, Nasdaq down 4.48%.",
-    "news": "Markets are closed for the weekend, so the cards show Friday's close. The week belonged to the Dow, which edged higher while selling in chip and AI shares pulled the Nasdaq down.\n\nSunday's newsletter made a point long term investors know: over decades, rising prices flow into company sales and earnings. Since the end of 1971 the S&P 500 is up about 75 times, before dividends, while consumer prices rose about 8 times. Owning has been the hedge, in stocks and in homes alike, though never in a straight line, as this week showed."
+    "sp500": "7,690.73 (+0.41%)",
+    "dow": "51,966.03 (-0.07%)",
+    "nasdaq": "26,430.89 (+1.11%)",
+    "note": "Levels are Monday, October 19 at the closing bell.",
+    "news": "Chip stocks led a rebound after last week's sell-off. Intel rose 2.43%, AMD 1.76% and Nvidia 1.38%, lifting the Nasdaq 1.11% while the Dow finished nearly flat. Netflix reports Tuesday, kicking off a busy earnings week.\n\nToday is the 39th anniversary of Black Monday, when the Dow fell 22.61% in one session, from 2,246.74 to 1,738.74. It is still the worst day on record; at today's close, a day like that would erase about 11,750 points. Two of the five worst days came in March 2020, and the Dow closed back above its February 2020 record by November 16 that year. This Monday, thankfully, behaved.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/dow-worst-days-101926.png",
+      "alt": "Horizontal bar chart of the Dow's five worst days by percentage drop, close to close: Oct. 19, 1987, down 22.61% (2,246.74 to 1,738.74); Mar. 16, 2020, down 12.93%; Oct. 28, 1929, down 12.82%; Oct. 29, 1929, down 11.73%; Mar. 12, 2020, down 9.99%.",
+      "caption": "Black Monday's 22.61% drop is still the Dow's worst day. At Monday's close of 51,966, a day like it would erase about 11,750 points.",
+      "source": "Source: S&P Dow Jones Indices daily closes (Dow Jones Highlights/Lowlights, WSJ market data); Yahoo Finance for 2020. Excludes Dec. 12, 1914, an index revision break."
+    }
   },
   "economy": {
-    "us10year": "5.09% (-0.01%)",
-    "gold": "$4,181.10 (+0.26%)",
-    "silver": "$57.31 (+0.26%)",
+    "us10year": "5.15% (+0.06%)",
+    "gold": "$4,160.10 (-0.50%)",
+    "silver": "$57.27 (-0.06%)",
     "wti": "$109.86 (+3.72%)",
     "oil_label": "Brent Crude",
-    "note": "Markets are closed for the weekend. Gold and silver are Friday, October 16 settlements (COMEX December); Brent is Friday's ICE December settlement; the 10-Year is Friday's Treasury close.",
-    "commentary": "Sunday's Market Briefs asked whether inflation could help shrink the $40 trillion federal debt. The backdrop checks out: interest on the debt is running about $1.28 trillion a year, and gross debt was 122.6% of the economy in early 2026, just above the 1946 peak of 119%. The newsletter said about 125%; the Fed's data says a little less.\n\nThe historical version was the 1940s, when long rates were held near 2.5% while inflation ran far higher, a quiet loss for lenders that economists call financial repression. Today is the opposite. In September the 10-Year paid about 1.3 points more than inflation, positive every month since June 2023, and the Fed's next decision is October 28. For once, the saver is not the one footing the bill; the flip side is mortgage rates above 7%.",
+    "note": "Gold and silver are Monday, October 19 settlements (COMEX December); the 10-Year is Monday's Treasury close; Brent is Friday's ICE December settlement, the latest one our source has settled.",
+    "commentary": "The federal interest bill topped $1 trillion. Net interest on the debt reached $1.05 trillion in fiscal 2026, which ended September 30, according to the Treasury's September statement, up from $970 billion a year earlier and $241 billion in fiscal 2016. That is 19.5% of federal receipts, close to Market Briefs' one dollar of every five.\n\nRates are doing as much of the work as the size of the debt. The average rate Treasury pays on its marketable debt is 3.52%, up from 1.47% in September 2021, and the 10-Year closed Monday at 5.15%. It turns out Uncle Sam has a rate problem too.\n\nA correction on Friday's numbers: the newsletter printed Brent at $107.99, down 1.69%, but Friday's settlement was $109.86, up 3.72%, and it had the 10-Year at 5.06% where Treasury's close was 5.09%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/real-yield-101826.png",
-      "alt": "Area chart of the 10-year Treasury yield minus inflation over the past 12 months, 1942 to September 2026. Deeply negative in the 1940s (minus 17.5 points in March 1947, a 2.2% yield against 19.7% inflation), negative again in the mid 1970s and 2021 to 2023 (minus 6.4 in March 2022), positive every month since June 2023, plus 1.3 in September 2026.",
-      "caption": "In the 1940s, the 1970s and 2022, the 10-Year paid less than inflation. Since June 2023 it has paid more, about 1.3 points in September.",
-      "source": "Source: Federal Reserve 10-year constant maturity yield (long-term government bond yield before April 1953) and BLS CPI-U, via FRED."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/net-interest-101926.png",
+      "alt": "Bar chart of net interest on federal debt by fiscal year: FY2016 $241B, FY2017 $263B, FY2018 $325B, FY2019 $376B, FY2020 $345B, FY2021 $352B, FY2022 $475B, FY2023 $659B, FY2024 $882B, FY2025 $970B, FY2026 $1.05T (19.5% of receipts, up from 7.4% in FY2016).",
+      "caption": "Net interest reached $1.05 trillion in fiscal 2026, 19.5% of federal receipts, up from 7.4% in fiscal 2016.",
+      "source": "Source: U.S. Treasury, Monthly Treasury Statement (Table 9) and average interest rates on Treasury securities, via Fiscal Data."
     }
   },
   "crypto": {
-    "btc": "$81,052 (-0.51%)",
-    "eth": "$2,362.51 (-2.24%)",
-    "xrp": "$1.27 (-1.80%)",
-    "commentary": "Crypto is the only market open this weekend, and it is drifting lower. Bitcoin is down 0.51% over 24 hours near $81,050, Ether is down 2.24% and XRP is down 1.80%, live from CoinGecko at 11:28 AM PT. Bitcoin is often pitched as a hedge against a cheaper dollar; this weekend it mostly took the day off."
+    "btc": "$81,931 (+1.34%)",
+    "eth": "$2,398.87 (+2.13%)",
+    "xrp": "$1.30 (+3.18%)",
+    "commentary": "Crypto moved with tech. Bitcoin is up 1.34% over 24 hours near $81,950, Ether is up 2.13% and XRP is up 3.18%, live from CoinGecko at 1:34 PM PT."
   },
   "sources": [
-    "https://fred.stlouisfed.org/series/GFDEGDQ188S",
-    "https://fred.stlouisfed.org/series/A091RC1Q027SBEA",
-    "https://fred.stlouisfed.org/series/GS10",
-    "https://fred.stlouisfed.org/series/CPIAUCNS",
-    "https://fred.stlouisfed.org/series/ATNHPIUS36084Q",
-    "https://fred.stlouisfed.org/series/MHICA06001A052NCEN",
-    "https://data.bls.gov/timeseries/CUUSS49BSA0",
-    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/",
+    "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities/",
+    "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/",
+    "https://finance.yahoo.com/quote/%5EDJI/history/",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://quote.cnbc.com/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/78c11fcc-78e7-41b3-bd16-676f29ed957e",
-  "qr_code_path": "note-qr-78c11fcc.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/dd51a92c-f8e7-404b-806c-7c288df8832d",
+  "qr_code_path": "note-qr-dd51a92c.png"
 }
