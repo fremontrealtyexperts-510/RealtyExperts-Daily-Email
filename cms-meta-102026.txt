@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/20/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/20/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 20, 2026: builder confidence falls to 29, the lowest since June 2012, new homes cool on the local MLS, September housing starts slip, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+builder confidence, NAHB Housing Market Index, new construction, housing starts, building permits, homebuilder stocks, mortgage rates, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Tri-Valley, Alameda County housing, gold, silver, Brent crude, Bitcoin
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
