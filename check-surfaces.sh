@@ -162,15 +162,26 @@ if [ -z "${TOK:-}" ]; then
   skip "daily email sent" "no MS365 token"
   skip "broadcast confirmed" "no MS365 token"
 else
-  MSGS=$(curl -s "https://graph.microsoft.com/v1.0/me/messages?\$top=300&\$select=subject&\$orderby=receivedDateTime%20desc" \
-         -H "Authorization: Bearer $TOK")
-  COUNT=$(SL="$SLASH" python3 -c "
-import json,os,sys
-w=os.environ['SL']; v=json.load(sys.stdin).get('value',[])
+  # Page back until we pass the start of that day (PT). A flat $top=300 only
+  # reached ~1.5 days on this mailbox: on 10/22/26 the 10/20 email and
+  # confirmation sat at positions 469 to 473 and were reported missing.
+  COUNT=$(SL="$SLASH" TOK="$TOK" python3 -c "
+import json,os,urllib.request
+from datetime import datetime
+from zoneinfo import ZoneInfo
+w=os.environ['SL']; tok=os.environ['TOK']
+day=datetime.strptime(w,'%m/%d/%y').replace(tzinfo=ZoneInfo('America/Los_Angeles'))
+u='https://graph.microsoft.com/v1.0/me/messages?\$top=250&\$select=subject,receivedDateTime&\$orderby=receivedDateTime%20desc'
+v=[]
+for _ in range(12):
+    d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={'Authorization':'Bearer '+tok}),timeout=30))
+    v+=d.get('value',[])
+    u=d.get('@odata.nextLink')
+    if not u or not v or datetime.fromisoformat(v[-1]['receivedDateTime'].replace('Z','+00:00'))<day: break
 mail=[m for m in v if 'At a Glance' in (m.get('subject') or '') and w in (m.get('subject') or '') and 'Agent Hub' not in (m.get('subject') or '')]
 conf=[m for m in v if 'Agent Hub' in (m.get('subject') or '') and w in (m.get('subject') or '') and 'Confirmation' in (m.get('subject') or '')]
 print(len(mail), len(conf))
-" <<<"$MSGS" 2>/dev/null)
+" 2>/dev/null)
   set -- $COUNT
   [ "${1:-0}" -ge 1 ] && ok "daily email sent" "$1 copies" || bad "daily email sent" "none found"
   # NOTE: census the mailbox, do NOT use verify-broadcast.js for a past date —
