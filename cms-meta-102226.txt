@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/22/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/22/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 22, 2026: mortgage rates ease to 7.36%, applications keep falling, the 10-Year dips under 5% as tech stocks slide, Tesla's quarter, tokenized stock trading, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, mortgage applications, 10-Year Treasury, Tesla earnings, Tesla stock, Meta earnings, tokenized stocks, Robinhood Chain, Bitcoin, gold, silver, Brent crude, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
