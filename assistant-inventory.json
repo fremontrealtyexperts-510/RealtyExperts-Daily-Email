@@ -1,6 +1,6 @@
 {
- "data_date": "10/22/26",
- "generated_at": "2026-10-22T18:00:11.775091+00:00",
+ "data_date": "10/23/26",
+ "generated_at": "2026-10-23T18:00:12.518683+00:00",
  "source": "MLS export via RealtyExperts daily feed (same statistics as harvrealtor.net/live-inventory)",
  "coverage": [
   "Fremont",
@@ -12,105 +12,104 @@
  "note": "total_for_sale and by_status include active, new, coming-soon and back-on-market listings. on_market, by_type, by_price_band and the medians cover the homes on the market (active, new, back on market); coming-soon homes are counted, never itemized. No per-listing data is available here; point people to the harvrealtor.com map search for individual homes. Refreshed up to 3x daily on business days.",
  "cities": {
   "Fremont": {
-   "total_for_sale": 231,
+   "total_for_sale": 235,
    "by_status": {
-    "active": 187,
-    "new_this_period": 13,
-    "coming_soon": 28,
-    "back_on_market": 3
+    "active": 188,
+    "new_this_period": 16,
+    "coming_soon": 30,
+    "back_on_market": 1
    },
-   "on_market": 203,
+   "on_market": 205,
    "by_type": {
     "detached": 109,
     "condo": 66,
-    "townhouse": 24,
+    "townhouse": 26,
     "duplex/multi": 4
    },
    "by_price_band": {
-    "Under $800K": 42,
-    "$800K to $1M": 23,
-    "$1M to $1.25M": 28,
-    "$1.25M to $1.5M": 36,
-    "$1.5M to $2M": 50,
+    "Under $800K": 41,
+    "$800K to $1M": 24,
+    "$1M to $1.25M": 30,
+    "$1.25M to $1.5M": 34,
+    "$1.5M to $2M": 51,
     "$2M to $3M": 17,
-    "$3M and up": 7
+    "$3M and up": 8
    },
    "median_list_price": 1300000,
-   "median_price_per_sqft": 805,
+   "median_price_per_sqft": 802,
    "median_days_on_market": 36,
-   "new_in_last_7_days": 26,
+   "new_in_last_7_days": 27,
    "asking_under_1m": 65
   },
   "Hayward": {
-   "total_for_sale": 197,
+   "total_for_sale": 194,
    "by_status": {
-    "active": 174,
-    "new_this_period": 13,
-    "coming_soon": 8,
+    "active": 173,
+    "new_this_period": 12,
+    "coming_soon": 7,
     "back_on_market": 2
    },
-   "on_market": 189,
+   "on_market": 187,
    "by_type": {
-    "detached": 110,
-    "condo": 56,
+    "detached": 109,
+    "condo": 55,
     "townhouse": 23
    },
    "by_price_band": {
-    "Under $800K": 90,
-    "$800K to $1M": 50,
+    "Under $800K": 87,
+    "$800K to $1M": 51,
     "$1M to $1.25M": 19,
-    "$1.25M to $1.5M": 11,
+    "$1.25M to $1.5M": 10,
     "$1.5M to $2M": 14,
-    "$2M to $3M": 4,
+    "$2M to $3M": 5,
     "$3M and up": 1
    },
-   "median_list_price": 816000,
-   "median_price_per_sqft": 528,
-   "median_days_on_market": 35,
-   "new_in_last_7_days": 27,
-   "asking_under_1m": 140
+   "median_list_price": 823000,
+   "median_price_per_sqft": 526,
+   "median_days_on_market": 36,
+   "new_in_last_7_days": 22,
+   "asking_under_1m": 138
   },
   "Milpitas": {
-   "total_for_sale": 97,
+   "total_for_sale": 95,
    "by_status": {
-    "active": 75,
+    "active": 74,
     "new_this_period": 2,
-    "coming_soon": 19,
+    "coming_soon": 18,
     "back_on_market": 1
    },
-   "on_market": 78,
+   "on_market": 77,
    "by_type": {
     "detached": 24,
     "condo": 27,
-    "townhouse": 26,
-    "duplex/multi": 1
+    "townhouse": 26
    },
    "by_price_band": {
     "Under $800K": 19,
-    "$800K to $1M": 14,
+    "$800K to $1M": 15,
     "$1M to $1.25M": 11,
-    "$1.25M to $1.5M": 19,
+    "$1.25M to $1.5M": 17,
     "$1.5M to $2M": 10,
     "$2M to $3M": 3,
     "$3M and up": 2
    },
-   "median_list_price": 1152500,
-   "median_price_per_sqft": 734,
-   "median_days_on_market": 34,
-   "new_in_last_7_days": 9,
-   "asking_under_1m": 33
+   "median_list_price": 1150000,
+   "median_price_per_sqft": 730,
+   "median_days_on_market": 35,
+   "new_in_last_7_days": 11,
+   "asking_under_1m": 34
   },
   "Newark": {
-   "total_for_sale": 89,
+   "total_for_sale": 92,
    "by_status": {
     "active": 75,
-    "new_this_period": 2,
+    "new_this_period": 5,
     "coming_soon": 12,
     "back_on_market": 0
    },
-   "on_market": 77,
+   "on_market": 80,
    "by_type": {
-    "detached": 51,
+    "detached": 54,
     "condo": 20,
     "townhouse": 4,
     "duplex/multi": 2
@@ -118,44 +117,44 @@
    "by_price_band": {
     "Under $800K": 15,
     "$800K to $1M": 11,
-    "$1M to $1.25M": 18,
-    "$1.25M to $1.5M": 17,
-    "$1.5M to $2M": 12,
+    "$1M to $1.25M": 19,
+    "$1.25M to $1.5M": 20,
+    "$1.5M to $2M": 11,
     "$2M to $3M": 4
    },
-   "median_list_price": 1175000,
-   "median_price_per_sqft": 671,
+   "median_list_price": 1176625,
+   "median_price_per_sqft": 690,
    "median_days_on_market": 38,
    "new_in_last_7_days": 10,
    "asking_under_1m": 26
   },
   "Union City": {
-   "total_for_sale": 65,
+   "total_for_sale": 68,
    "by_status": {
-    "active": 58,
-    "new_this_period": 4,
-    "coming_soon": 3,
+    "active": 59,
+    "new_this_period": 5,
+    "coming_soon": 4,
     "back_on_market": 0
    },
-   "on_market": 62,
+   "on_market": 64,
    "by_type": {
-    "detached": 46,
-    "condo": 8,
-    "townhouse": 7,
+    "detached": 48,
+    "condo": 7,
+    "townhouse": 8,
     "duplex/multi": 1
    },
    "by_price_band": {
     "Under $800K": 13,
-    "$800K to $1M": 10,
+    "$800K to $1M": 9,
     "$1M to $1.25M": 10,
-    "$1.25M to $1.5M": 24,
-    "$1.5M to $2M": 5
+    "$1.25M to $1.5M": 26,
+    "$1.5M to $2M": 6
    },
-   "median_list_price": 1199444,
-   "median_price_per_sqft": 739,
+   "median_list_price": 1269944,
+   "median_price_per_sqft": 728,
    "median_days_on_market": 28,
-   "new_in_last_7_days": 6,
-   "asking_under_1m": 23
+   "new_in_last_7_days": 9,
+   "asking_under_1m": 22
   }
  }
 }
