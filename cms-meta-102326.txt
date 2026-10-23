@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/23/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/23/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 23, 2026: mortgage rates ease from 7.40%, pending home sales fall 7.3%, young workers lose tech jobs in Britain and faster in the Bay Area, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, Freddie Mac, pending home sales, Blackstone, young workers, tech jobs, Bay Area jobs, UK payrolls, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
