@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/24/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/24/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 24, 2026: about one in three local sellers cut their asking price this month, rates hold at 7.33% before the Fed meets, Brent hits its highest since April, and the local inventory count.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+price cuts, list price reductions, mortgage rates, Mortgage News Daily, Freddie Mac, Federal Reserve, American Express, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)

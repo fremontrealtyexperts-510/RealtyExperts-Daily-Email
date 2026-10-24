@@ -1,68 +1,51 @@
 {
-  "date": "10/23/26",
-  "time": "10:45 AM PT",
+  "date": "10/24/26",
+  "time": "1:31 PM PT",
   "real_estate": {
     "rate_30year": "7.33%",
     "rate_15year": "6.98%",
-    "homebuilder": "Mortgage rates eased for the first time since August, after September's climb cut pending home sales 7.3%.",
-    "commentary": "Rates finally blinked. Freddie Mac's weekly 30-year average fell to 7.32% Thursday from 7.40%, its first weekly decline since Aug. 20. Mortgage News Daily's daily average dropped to 7.30% Thursday afternoon after the bond rally, below the 7.36% morning reading in yesterday's report, and sits at 7.33% today, with the 15-year at 6.98%.\n\nThe newsletter's chart had rates still climbing at 7.40%; that was the Oct. 8 and Oct. 15 reading. For the year, Freddie's average has run from 6.15% at the end of 2025 to a 5.98% low in late February and the 7.40% peak this month. A year ago it was 6.19%.\n\nBuyers felt the climb in September. Pending home sales, contracts signed but not yet closed, fell 7.3% from August and 11.3% from a year earlier, NAR said Tuesday, and the West fell the most. NAR's Lawrence Yun said \"mortgage rates could be topping out.\"\n\nThe biggest landlords feel it too. Blackstone's distributable earnings fell 9.2% in the third quarter, and its opportunistic real estate funds lost 3.2% of their value. The stock still rose 8.38% Thursday; Market Briefs had it falling 8.38%.\n\nLocally, inventory ticked up. The board wide table rose to 2,636 from 2,631, with 132 coming soon and 174 brand new. The five city ledger rose to 684 from 679: Fremont to 235 from 231, Newark to 92 from 89 and Union City to 68 from 65, while Hayward slipped to 194 from 197 and Milpitas to 95 from 97.\n\nWhat this means for you: the rate climb has already cost real money. On our five city median of $1,080,000 with 20% down, principal and interest runs about $5,935 a month at Freddie's 7.32%, against $5,169 at February's 5.98%, or $766 a month more. Every quarter point moves it by about $146. If you are buying, a week of easing is a good time to get a fresh quote; if you are selling, price for today's payment, not February's.\n\n• Board wide: 2,636 listings across our 15 city table, counting active and in contract together, with 132 coming soon and 174 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 684 listings across Fremont, Hayward, Milpitas, Newark and Union City. 613 are on the market and 71 are coming soon.\n• Fremont: 235 live, 188 active, 30 coming soon, 16 brand new and 1 back on market. The median on market list price is $1,300,000 at $802 a square foot, and the typical active listing has been out 36 days.\n• The rest of the ledger: Hayward 194, Milpitas 95, Newark 92, Union City 68.\n• Across all five cities the median is $1,080,000 at $672 a square foot. 285 homes are priced under a million, and 177 have been sitting 60 days or longer.",
+    "homebuilder": "About one in three local sellers cut their asking price this past month, and about as many have every month since March.",
+    "commentary": "Sellers are meeting today's rates partway. In Fremont, Hayward, Newark and Union City, 105 of the 308 homes on the market at both our Sept. 24 and Oct. 24 MLS exports lowered their asking price in between, or 34.1%, and the typical cut was 3.8%. Newark sellers cut the most, 22 of 48; Hayward the least, 27 of 107.\n\nIt is not a one month blip. In every month since March, between 33.2% and 40.4% of the listings in those four cities have cut, against 16% to 28% last fall and winter. Board wide, across 14 cities, it was 34.2% this month.\n\nMortgage News Daily's 30-year average ended the week at 7.33% and the 15-year at 6.98%; it does not update on weekends. Freddie Mac's weekly average was 7.32% Thursday. The Fed meets Tuesday and Wednesday, its first meeting since raising its rate in September.\n\nLocally, inventory held steady. The board wide table rose to 2,640 from 2,636, with 133 coming soon and 205 brand new. The five city ledger rose to 688 from 684: Milpitas to 102 from 95 and Hayward to 198 from 194, while Fremont slipped to 230 from 235, Newark to 91 from 92 and Union City to 67 from 68.\n\nWhat this means for you: a typical cut is worth real money. On our five city median of $1,075,000 with 20% down, a 3.8% cut takes about $40,850 off the price and about $225 off the monthly principal and interest at 7.33%, roughly what a rate near 6.94% would do. If you are buying, ask about price before you shop for a lower rate; if you are selling, a third of your competition has already cut, so price for today's payment from day one.\n\n• Board wide: 2,640 listings across our 15 city table, counting active and in contract together, with 133 coming soon and 205 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 688 listings across Fremont, Hayward, Milpitas, Newark and Union City. 618 are on the market and 70 are coming soon.\n• Fremont: 230 live, 182 active, 29 coming soon, 18 brand new and 1 back on market. The median on market list price is $1,300,000 at $796 a square foot, and the typical active listing has been out 36 days.\n• The rest of the ledger: Hayward 198, Milpitas 102, Newark 91, Union City 67.\n• Across all five cities the median is $1,075,000 at $666 a square foot. 291 homes are priced under a million, and 176 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/freddie-30yr-102326.png",
-      "alt": "Line chart of Freddie Mac's average 30-year fixed mortgage rate, weekly, from 6.15% on Dec. 31, 2025 to a 2026 low of 5.98% on Feb. 26, a peak of 7.40% on Oct. 8 and Oct. 15, and 7.32% on Oct. 22. A year ago it was 6.19%. On our five city median of $1,080,000 with 20% down, principal and interest is $5,935 at 7.32% versus $5,169 at February's 5.98%.",
-      "caption": "Freddie Mac's 30-year average eased to 7.32% on Oct. 22 from a 7.40% peak. On our five city median, that is $766 a month more than at February's low.",
-      "source": "Source: Freddie Mac Primary Mortgage Market Survey, through Oct. 22, 2026; payment on a $1,080,000 median with 20% down."
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/price-cuts-102426.png",
+      "alt": "Bar chart of the share of homes on the market that lowered their asking price in the month before each date, Fremont, Hayward, Newark and Union City: 26.0% to Nov. 24, 2025, 16.1% to Dec. 24, 20.8% to Jan. 23, 28.4% to Feb. 23, then 39.5%, 37.4%, 35.7%, 38.7%, 33.2%, 34.2%, 40.4% to Sept. 24, and 34.1% (105 of 308) to Oct. 24, 2026. A dashed line shows the 14 city board, 34.2% this month.",
+      "caption": "Since March, 33% to 40% of the homes on the market in Fremont, Hayward, Newark and Union City have cut their asking price each month. This month it was 105 of 308.",
+      "source": "Source: our daily Bay East MLS export nearest the 24th of each month, Oct. 24, 2025 to Oct. 24, 2026, all property types."
     }
   },
   "stocks": {
-    "sp500": "7,663.43 (-1.21%)",
-    "dow": "52,867.98 (+0.02%)",
-    "nasdaq": "26,008.86 (-2.60%)",
-    "note": "Levels are Thursday, October 22 at the closing bell. At 10:39 AM PT Friday, the Dow was down 1.18%, the S&P 500 0.45% and the Nasdaq 0.09%.",
-    "news": "The tech selloff held through Thursday's close. The Nasdaq fell 2.60% and the S&P 500 1.21%, with Meta down 6.98% after its results and Nvidia down 4.40%, while the Dow finished flat.\n\nA few earnings reports cut the other way. Spotify jumped 11.10% after its results, and Moderna fell 17.57% on news from its personalized cancer vaccine trial.\n\nFriday the selling moved to the Dow, down about 1.2% by late morning with American Express off about 3.9%, as Brent climbed toward $116. The Dow sat out Thursday's selloff and joined Friday's, fashionably late."
+    "sp500": "7,623.68 (-0.52%)",
+    "dow": "52,215.16 (-1.23%)",
+    "nasdaq": "25,955.34 (-0.21%)",
+    "note": "Levels are Friday, October 23 at the closing bell. For the week, the S&P 500 fell 0.47%, the Nasdaq 0.71%, and the Dow rose 0.41%.",
+    "news": "Oil set the tone Friday. The Dow fell 652.82 points, or 1.23%, as Brent climbed, while the S&P 500 slipped 0.52% and the Nasdaq 0.21% after Thursday's tech selloff.\n\nAmerican Express fell 3.68% even after record third quarter revenue of $20.1 billion, up 9%, adjusted earnings of $4.68 a share, up 13%, and a raised full year forecast; the quarter carried a $336 million restructuring charge. Next week brings the Fed and more big tech earnings, so enjoy the intermission."
   },
   "economy": {
-    "us10year": "4.96% (-0.17%)",
-    "gold": "$4,060.40 (-2.16%)",
-    "silver": "$55.01 (-4.68%)",
-    "wti": "$113.17 (+4.00%)",
+    "us10year": "5.00% (+0.04%)",
+    "gold": "$4,007.90 (-1.29%)",
+    "silver": "$53.95 (-1.92%)",
+    "wti": "$116.72 (+3.14%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Thursday, October 22: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE December settlement.",
-    "commentary": "Young workers are losing the best paid entry jobs. In Britain, payroll jobs held by 18 to 24 year olds in information and communication, the government's tech category, fell 30.0% from December 2022 to December 2025, and finance jobs fell 9.7%, according to HMRC's payroll tables, the data behind a Boston Consulting Group analysis Bloomberg reported Thursday. All jobs for that age group were flat, down 0.2%.\n\nThe Bay Area is sharper. In Alameda, Contra Costa, San Francisco, San Mateo and Santa Clara counties, information sector jobs held by 19 to 24 year olds fell 44.6% from fall 2022 to fall 2025, to 7,353 from 13,281, Census Bureau data show. Finance jobs for that age group fell 16.1%, while all jobs for young workers slipped just 2.6%. Most of the drop came in 2023 and 2024. For housing, these are the jobs that turn young renters into first-time buyers, so a thinner pipeline now can mean fewer of them later.\n\nBonds held their rally. The 10-Year closed Thursday at 4.96%, down 0.17 point and its lowest close since Sept. 22, and traded near 4.99% at 10:39 AM PT. Brent settled up 4.00% at $113.17 and traded near $116 this morning, its highest since late April, while gold and silver fell for a second day.\n\nA correction: Market Briefs had the 10-Year up 0.01 point Thursday; Treasury shows it down 0.17 to 4.96%. It also had gold down 0.72% at $4,031 and Brent up 0.56%; the settlements were gold down 2.16% at $4,060.40 and Brent up 4.00%. Oil and bonds rallied together for a second day, which is how you know nobody agrees on what comes next.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/uk-youth-jobs-102326.png",
-        "alt": "Bar chart of the change in UK payrolled jobs held by 18 to 24 year olds, December 2022 to December 2025: information and communication (tech) down 30.0%, from 121,900 to 85,300; tech and finance combined down 21.6%; finance and insurance down 9.7%; all jobs for that age group down 0.2%.",
-        "caption": "In Britain, tech jobs for 18 to 24 year olds fell 30% in three years while young people's jobs overall held flat.",
-        "source": "Source: HM Revenue and Customs payrolled employments by industry and age, December 2022 to December 2025, the data behind the Boston Consulting Group analysis Bloomberg reported."
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/bayarea-young-tech-jobs-102326.png",
-        "alt": "Bar chart of the change in jobs held by 19 to 24 year olds in Alameda, Contra Costa, San Francisco, San Mateo and Santa Clara counties, fall 2022 to fall 2025: information (tech) down 44.6%, from 13,281 to 7,353; tech and finance combined down 36.8%; finance and insurance down 16.1%; all jobs for that age group down 2.6%.",
-        "caption": "In five Bay Area counties, tech jobs held by 19 to 24 year olds fell 44.6% from fall 2022 to fall 2025, faster than Britain's 30%.",
-        "source": "Source: U.S. Census Bureau Quarterly Workforce Indicators, private jobs on the first day of the fourth quarter, 2022 and 2025."
-      }
-    ]
+    "note": "Levels are Friday, October 23: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE December settlement.",
+    "commentary": "Oil kept climbing. Brent settled up 3.14% at $116.72 Friday on renewed Middle East tensions, its highest settlement since April 29, and gained 6.2% for the week from $109.86.\n\nBonds gave a little back. The 10-Year closed at 5.00%, up 0.04 point on the day but down 0.09 for the week. Gold settled down 1.29% at $4,007.90 and silver down 1.92% at $53.95, leaving gold $7.90 above $4,000, close enough that traders will be watching it Monday."
   },
   "crypto": {
-    "btc": "$81,548 (+0.41%)",
-    "eth": "$2,404.68 (+1.03%)",
-    "xrp": "$1.31 (-0.21%)",
-    "commentary": "Crypto steadied. Bitcoin is up 0.41% over 24 hours near $81,550, Ether is up 1.03% and XRP is down 0.21%, live from CoinGecko at 10:39 AM PT. After Wednesday's 4% drop, a quiet day counts as good news."
+    "btc": "$80,472 (-1.07%)",
+    "eth": "$2,342.62 (-2.24%)",
+    "xrp": "$1.29 (-1.13%)",
+    "commentary": "Crypto slipped into the weekend. Bitcoin is down 1.07% over 24 hours near $80,500, Ether is down 2.24% and XRP is down 1.13%, live from CoinGecko at 1:31 PM PT. Bitcoin is holding above $80,000, which these days passes for a quiet Saturday."
   },
   "sources": [
-    "https://www.freddiemac.com/pmms",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.nar.realtor/newsroom/pending-home-sales-decreased-7-3-percent-in-september",
-    "https://www.sec.gov/Archives/edgar/data/1393818/000119312526428297/d160590dex991.htm",
-    "https://www.gov.uk/government/statistics/uk-payrolled-employments-by-nationality-region-industry-age-and-sex-from-july-2014-to-december-2025",
-    "https://www.bloomberg.com/news/articles/2026-10-22/young-brits-see-tech-and-finance-jobs-plunge-22-in-three-years",
-    "https://lehd.ces.census.gov/data/",
+    "https://www.freddiemac.com/pmms",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://finance.yahoo.com/quote/BZ%3DF/",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/407d207e-54f9-498a-a957-0de6b60b1fd3",
-  "qr_code_path": "note-qr-407d207e.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/0e945bc4-a067-4e6a-b8a1-be5c8ff2f71f",
+  "qr_code_path": "note-qr-0e945bc4.png"
 }
