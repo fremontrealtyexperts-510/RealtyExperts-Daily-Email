@@ -17,7 +17,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 const { IncomClient, readIncomCreds, extractFormFields } = require('./lib/incom-client');
 const { ENV_PATH, TEMPLATE_PATH, GITHUB_PAGES_BASE, JSDELIVR_GH_BASE } = require('./lib/config');
 
@@ -40,8 +40,26 @@ function pinChartToJsdelivr(html, short) {
   }
   catch (_) { console.log('   ⚠️  could not resolve HEAD SHA — leaving Pages chart URL as-is'); return html; }
   const cdnUrl = `${JSDELIVR_GH_BASE}@${sha}/alameda-chart-${short}.js`;
+  // jsDelivr refuses GitHub packages over 50 MB, and this repo passed that on
+  // 10/25/26 (56.4 MB): the first fetch of a new commit came back 403 "Package size
+  // exceeded the configured limit" and only served about 3 minutes later. A pinned
+  // URL that does not answer leaves the live chart blank, so pin only when the CDN
+  // serves the file right now; otherwise keep the canonical Pages URL, which the
+  // Stage 5 runbook confirms is serving before this step runs.
+  if (!urlServes(cdnUrl)) {
+    console.log(`   ⚠️  jsDelivr @${sha.slice(0, 8)} does not serve the chart yet — keeping the Pages URL`);
+    if (!urlServes(pagesUrl)) console.log('   ⚠️  the Pages chart URL does not serve yet either — the live chart stays blank until Pages finishes building');
+    return html;
+  }
   console.log(`   chart src pinned to jsDelivr @${sha.slice(0, 8)}`);
   return html.split(pagesUrl).join(cdnUrl);
+}
+
+// True when the URL answers 200 right now (one GET through curl, 20 s cap).
+function urlServes(url) {
+  try {
+    return execFileSync('curl', ['-s', '-o', '/dev/null', '-w', '%{http_code}', '--max-time', '20', url], { encoding: 'utf8' }).trim() === '200';
+  } catch (_) { return false; }
 }
 
 const BLOG_URL = 'https://www.harvrealtor.com/node/add/blog';

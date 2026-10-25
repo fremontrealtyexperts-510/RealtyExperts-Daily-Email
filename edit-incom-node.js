@@ -36,8 +36,23 @@ function pinChartToJsdelivr(html, short) {
       || execFileSync('git', ['ls-remote', 'https://github.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email.git', 'HEAD'], { cwd: __dirname, encoding: 'utf8' }).split(/\s+/)[0].trim();
   } catch (_) { console.log('   ⚠️  could not resolve remote HEAD SHA — leaving Pages chart URL as-is'); return html; }
   const cdnUrl = `${JSDELIVR_GH_BASE}@${sha}/alameda-chart-${short}.js`;
+  // Same guard as post-to-incom.js: jsDelivr 403s GitHub packages over 50 MB (this
+  // repo since 10/25/26), so pin only when the CDN serves the file right now and
+  // otherwise keep the canonical Pages URL.
+  if (!urlServes(cdnUrl)) {
+    console.log(`   ⚠️  jsDelivr @${sha.slice(0, 8)} does not serve the chart yet — keeping the Pages URL`);
+    if (!urlServes(pagesUrl)) console.log('   ⚠️  the Pages chart URL does not serve yet either — the live chart stays blank until Pages finishes building');
+    return html;
+  }
   console.log(`   chart src pinned to jsDelivr @${sha.slice(0, 8)}`);
   return html.split(pagesUrl).join(cdnUrl);
+}
+
+// True when the URL answers 200 right now (one GET through curl, 20 s cap).
+function urlServes(url) {
+  try {
+    return execFileSync('curl', ['-s', '-o', '/dev/null', '-w', '%{http_code}', '--max-time', '20', url], { encoding: 'utf8' }).trim() === '200';
+  } catch (_) { return false; }
 }
 
 async function main() {
