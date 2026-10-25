@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/25/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/25/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 25, 2026: buying our five city median takes about $286,400 a year in income, three times a typical electrician's pay, as rates hold at 7.33% before the Fed meets and BLS sees office jobs shrinking by 2035.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+trades, electricians, housing affordability, income needed, BLS employment projections, jobs outlook, AI and jobs, mortgage rates, Mortgage News Daily, Federal Reserve, Microsoft earnings, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
