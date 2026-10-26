@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/26/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/26/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 26, 2026: a new order targets mortgage insurance and refinance title costs, rates sit at 7.33% before the Fed meets, Coca-Cola is up 32.6% this year, and Germany's factories are growing again.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage insurance, PMI cancellation, FHFA, title insurance waiver, refinance costs, executive order, mortgage rates, Mortgage News Daily, Federal Reserve, data centers, S&P Global Ratings, Coca-Cola, Lycia Therapeutics, Germany manufacturing, Eurostat, consumer sentiment, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City, Alameda County housing
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
