@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/27/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/27/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 27, 2026: Case-Shiller has the San Francisco metro up 3.4% from a year ago, rates hold at 7.33% before Wednesday's Fed decision, and Microsoft offers buyouts to about 60,000 employees.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Case-Shiller, home prices, San Francisco metro, Alameda County housing, mortgage rates, Mortgage News Daily, Federal Reserve, FOMC, Microsoft buyouts, severance, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
