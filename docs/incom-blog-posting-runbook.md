@@ -57,11 +57,11 @@ curl -sI "https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email/a
 # 5. Dry-run the InCom publish (logs in, scrapes forms, writes intended POST to /tmp — submits nothing)
 node post-to-incom.js --dry-run
 
-# 6. Go live (BLOG create + LANDING edit)
+# 6. Go live (BLOG create + SHARE IMAGE + LANDING edit)
 node post-to-incom.js
 
 # 7. VERIFY the live pages (do NOT trust the script's "✅" — see §6). The gate:
-node verify-cms-publish.js     # asserts the LIVE chart VALUES match RE-v2 (not just "bars exist")
+node verify-cms-publish.js     # asserts the LIVE chart VALUES match RE-v2 (not just "bars exist"), and the share image loads
 ```
 
 Order matters: **generate → push (host chart JS) → post-to-incom.** If you post before the
@@ -186,10 +186,27 @@ node post-to-incom.js               # LIVE
    - `edit[nodewords][description|keywords|copyright]` = from cms-meta
    - `edit[form_token]`, `edit[form_id]=blog_node_form`, `op=Submit`
    - Live URL → `https://www.harvrealtor.com/HarvRealtor-daily-market-glance-MMDDYY`
+2b. **SHARE IMAGE** (added Monday, October 26, 2026, `lib/incom-share-image.js`). InCom writes
+   og:image as `https://www.harvrealtor.com` + the src of the body's FIRST `<img>` (the Featured
+   Image does not feed it), and the daily's first picture lives on dscloud or GitHub, so every
+   daily post shared `https://www.harvrealtor.comhttps://...` and no link preview (Facebook,
+   LinkedIn, iMessage, Slack) could load it. Right after the blog is created, or found already
+   posted, the script:
+   - downloads that first picture and uploads it as the blog's **Featured Image** (a web JPEG via
+     python3 + Pillow, present on the Mac and the VPS); InCom stores it at `/files/blog/3316/<nid>.jpg`.
+     An existing Featured Image of the same picture is reused instead;
+   - repoints ONLY that first `<img src>` to the stored path (every other field re-posted as scraped),
+     re-reads the node, and checks the live og:image. Same picture, no visible change.
+   - Log line: `SHARE IMAGE → node <nid>: ✅ og:image https://www.harvrealtor.com/files/blog/3316/<nid>.jpg`.
+     On an error it prints `SHARE IMAGE → ❌` with the retry and the run counts a failure; the blog
+     stays posted. `--dry-run` only reads and downloads.
 3. **LANDING** (unless `--blog-only`): GET `https://www.harvrealtor.com/node/1319025/edit`,
    scrape **all** fields (Drupal blanks any omitted field), then POST **only** swapping
    `edit[body]` + forcing `edit[format]=3` + `op=Submit`. Title / path
    (`alameda-Interactive`) / `changed` token / nodewords are preserved **as-scraped**.
+   - The body's first `<img src>` points at the blog's hosted copy (`LANDING first picture → ...`)
+     when it is the same picture, so the landing's share image loads too. A page node has no
+     Featured Image field of its own.
    - Live URL → `https://www.harvrealtor.com/alameda-Interactive`
 
 Drupal optimistic-concurrency: the edit form carries a hidden `edit[changed]` timestamp;
@@ -218,6 +235,12 @@ rendered 35 bars and passed every presence check while being wrong for a week) o
 `Active All != CO+DE+TH`. Exit 0 = pass. **Why this exists:** a chart can render perfectly and
 still plot wrong numbers — bars-exist is not values-correct. The count-is-a-number check for the
 live-inventory strip is JS-runtime, so it stays the Chrome-MCP step in (c) below.
+
+**Share image (from 10/26/26):** the gate also prints `share image: OK (/files/blog/3316/<nid>.jpg)`
+for both pages. A doubled `https://www.harvrealtor.comhttps://...` og:image, or one that does not
+load as an image, FAILS with the fix command; no og:image at all (a day with no picture in the body)
+passes. `check-surfaces.sh` carries the same check (the dated blog for every date from 10/26/26, the
+landing on its own day only).
 
 The manual checks below stay useful for a human eyeball, but (0) is the gate that must pass.
 
@@ -264,8 +287,13 @@ strip, its `hb-li-total` id, or the teaser `<script src>` when editing a node bo
 ## 7. Re-publishing / fixing an already-posted blog (IMPORTANT)
 
 The blog `edit[path]` is dated, so **re-running `post-to-incom.js` for the same day skips
-the blog** ("path is already in use" → idempotent). To **fix/replace** an existing blog
-post you must **edit its node by ID**, not create a new one:
+the blog** ("path is already in use" → idempotent; the share image step still runs on the
+existing blog, so a same-day re-run also retries it). To **fix/replace** an existing blog
+post you must **edit its node by ID**, not create a new one. The tool is
+`node edit-incom-node.js --node <id> --date MM/DD/YY` (the steps below are what it does); it
+re-applies the share image after the body save, reusing the blog's Featured Image.
+**Share image only** (any day, never touches the landing):
+`node edit-incom-node.js --share-image-only --date MM/DD/YY [--node <id>] [--dry-run]`.
 
 1. Find the node id from the live page:
    ```bash
@@ -310,5 +338,7 @@ post you must **edit its node by ID**, not create a new one:
 - [ ] **Run `node verify-cms-publish.js`** — the value-check gate (chart values == RE-v2, no
       blank category). `post-to-incom.js`'s success message and "bars rendered" both lie; matching
       *values* do not.
+- [ ] Share image loads: the gate prints `share image: OK` on both pages (InCom builds og:image
+      from the body's FIRST `<img src>`; `post-to-incom.js` hosts that picture on harvrealtor.com).
 - [ ] Re-publishing the blog = **edit the node by id**, not re-create.
 - [ ] Never put the chart as an **inline** `<script>` — Drupal eats it + everything after.

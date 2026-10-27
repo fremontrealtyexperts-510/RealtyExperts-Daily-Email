@@ -135,6 +135,29 @@ else
   bad "landing carries this day's chart" "found: ${LANDHAS:-none}"
 fi
 
+# Share images (og:image), from 10/26/26 on. InCom builds og:image from the body's
+# FIRST <img src>, so a first picture on dscloud or GitHub shares
+# "https://www.harvrealtor.comhttps://..." and no link preview can load it.
+# post-to-incom.js hosts that picture on harvrealtor.com (lib/incom-share-image.js).
+# No og:image at all means no picture in that day's body: nothing to share, not a fail.
+# The landing is a singleton, so it is checked on its own day only.
+share_check() {  # $1 label, $2 page HTML
+  local og ct
+  og=$(grep -oE '<meta property="og:image" content="[^"]*"' <<<"$2" | head -1 | sed -E 's/.*content="([^"]*)"/\1/')
+  if [ -z "$og" ]; then ok "$1" "none (no picture in the body)"; return; fi
+  if [[ "$og" =~ ^https://www\.harvrealtor\.com/files/blog/[0-9]+/[0-9]+\.(jpe?g|png|gif)$ ]]; then
+    ct=$(curl -s -o /dev/null -w '%{http_code} %{content_type}' "$og")
+    if [[ "$ct" == "200 image/"* ]]; then ok "$1" "${og#"$CMS"}"; else bad "$1" "$og answers $ct"; fi
+  else
+    bad "$1" "broken: $og"
+  fi
+}
+YMD="${D:4:2}${D:0:2}${D:2:2}"
+if [[ "$YMD" > "261025" ]]; then
+  share_check "dated blog share image" "$(curl -s "$CMS/HarvRealtor-daily-market-glance-$D?cb=$CB")"
+  [ "$IS_TODAY" -eq 1 ] && share_check "landing share image" "$LAND"
+fi
+
 # thebayarearealestate.com, the Newark partnership site (Stage 6, added 2026-09-11).
 # Stage 6 was MISSED on 09/10/26 and caught only at the next morning's wrap up,
 # because nothing here checked it. The dated brief is a hard check for every date.
@@ -209,6 +232,9 @@ else
     echo "            node edit-incom-node.js --node <id> --date $SLASH   # existing node"
     echo "          Leave the landing node alone; the next daily run refreshes it."
   fi
+  echo "     Share image broken? the dated blog, any day (never touches the landing):"
+  echo "       node edit-incom-node.js --share-image-only --date $SLASH"
+  [ "$IS_TODAY" -eq 1 ] && echo "       then the landing (today only): node post-to-incom.js --landing-only"
   echo "     Newark brief missing? run Stage 6 (daily-report skill section 4.7):"
   echo "       cd /tmp/tbare && node scripts/update-newark-listings.mjs /tmp/mls-today.csv --date $SLASH"
   echo "       then the brief, tsc + tests, commit as thebayarearealestate, push (gh auth switch)"

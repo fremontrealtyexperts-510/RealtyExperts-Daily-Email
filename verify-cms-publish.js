@@ -23,6 +23,11 @@
  *      (`hb-li-total` + teaser `<script src>`) present in the live HTML.
  *   7. The Bay East MLS Rule 12.9 notice is on the live page (dates from
  *      09/28/26 on; see lib/mls-notice.js).
+ *   8. The share image loads (dates from 10/26/26 on): InCom builds og:image
+ *      from the body's FIRST <img src>, so an off-site first picture shares
+ *      "https://www.harvrealtor.comhttps://...". post-to-incom.js hosts it on
+ *      harvrealtor.com (lib/incom-share-image.js); this checks the live result.
+ *      No og:image at all = no picture in that day's body, which is not a fail.
  *
  * Note: the live-inventory COUNT is filled by JS at runtime, so over HTTP the
  * strip shows its "hundreds of" fallback — this script confirms the strip is
@@ -178,6 +183,35 @@ function needsMlsNotice(short) {
   return `20${yy}${mm}${dd}` >= '20260928';
 }
 
+// Share images were fixed on 10/26/26 (by hand that day, by post-to-incom.js after).
+function needsShareImage(short) {
+  const mm = short.slice(0, 2), dd = short.slice(2, 4), yy = short.slice(4, 6);
+  return `20${yy}${mm}${dd}` >= '20261026';
+}
+
+// Status and content type of a URL, without reading the body.
+function httpHead(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, (r) => { resolve({ status: r.statusCode, type: r.headers['content-type'] || '' }); r.destroy(); })
+      .on('error', reject);
+  });
+}
+
+async function shareImage(html, label, short) {
+  const og = (html.match(/<meta property="og:image" content="([^"]*)"/i) || [])[1];
+  if (!og) return { ok: true, line: 'share image: none (no picture in this day\'s body, nothing to share)' };
+  const fix = label === 'LANDING'
+    ? 'node post-to-incom.js --landing-only (today, after the blog is fixed)'
+    : `node edit-incom-node.js --share-image-only --date ${short.slice(0, 2)}/${short.slice(2, 4)}/${short.slice(4, 6)}`;
+  if (!/^https:\/\/www\.harvrealtor\.com\/files\/blog\/\d+\/\d+\.(?:jpe?g|png|gif)$/i.test(og)) {
+    return { ok: false, line: `share image: BROKEN og:image ${og} (fix: ${fix})` };
+  }
+  const r = await httpHead(og);
+  return r.status === 200 && /^image\//i.test(r.type)
+    ? { ok: true, line: `share image: OK (${og.replace(/^https?:\/\/[^/]+/, '')})` }
+    : { ok: false, line: `share image: ${og} answers ${r.status} ${r.type} (fix: ${fix})` };
+}
+
 async function verifyPage(label, url, short, expected) {
   const out = { label, url, ok: true, lines: [] };
   const r = await httpGet(url + `?cb=${label}${short}`);
@@ -188,6 +222,11 @@ async function verifyPage(label, url, short, expected) {
   if (needsMlsNotice(short)) {
     out.lines.push(`12.9 notice: ${s.mlsNotice ? 'OK' : 'MISSING (Bay East MLS notice not on the live page)'}`);
     if (!s.mlsNotice) out.ok = false;
+  }
+  if (needsShareImage(short)) {
+    const si = await shareImage(r.body, label, short);
+    out.lines.push(si.line);
+    if (!si.ok) out.ok = false;
   }
   if (!s.chartSrc) { out.ok = false; out.lines.push('no chart <script src> found'); return out; }
   out.lines.push(`chart src: ${s.chartSrc.replace(/^https?:\/\//, '')}`);
@@ -262,4 +301,4 @@ if (require.main === module) {
   main().catch((e) => { console.error('Fatal:', e.message); process.exit(1); });
 }
 
-module.exports = { checkChartValues, parseChartData, expectedFromRev2 };
+module.exports = { checkChartValues, parseChartData, expectedFromRev2, shareImage };

@@ -5,12 +5,19 @@
  *
  * Publishes the daily CMS page to InCom (harvrealtor.com / Drupal):
  *   1. BLOG    — creates a NEW dated blog entry  (node/add/blog)
+ *   1b. SHARE IMAGE — hosts the blog's first picture on harvrealtor.com as its Featured
+ *                Image and points that first <img src> at it (lib/incom-share-image.js),
+ *                because InCom builds og:image from the body's FIRST <img src> and the
+ *                daily's first picture lives on dscloud or GitHub (10/26/26). Also runs
+ *                when the blog is already posted, so a same-day re-run retries it.
  *   2. LANDING — EDITS the fixed "Alameda County Real Estate Interactive Inventory"
  *                node (1319025), swapping only the body, preserving everything else.
+ *                Its first picture points at the blog's hosted copy when it is the
+ *                same picture, so the landing's share image loads too.
  *
  * --dry-run logs in, scrapes the forms, and writes the full intended POST field
- * set to /tmp for review — but submits NOTHING. Always dry-run before the first
- * live publish.
+ * set to /tmp for review — but submits NOTHING (the share-image step only reads
+ * and downloads). Always dry-run before the first live publish.
  *
  * Credentials come from .env (INCOM_LOGIN_URL / INCOM_USER / INCOM_PASS).
  */
@@ -20,6 +27,7 @@ const path = require('path');
 const { execSync, execFileSync } = require('child_process');
 const { IncomClient, readIncomCreds, extractFormFields } = require('./lib/incom-client');
 const { ENV_PATH, TEMPLATE_PATH, GITHUB_PAGES_BASE, JSDELIVR_GH_BASE } = require('./lib/config');
+const share = require('./lib/incom-share-image');
 
 // Repoint the chart <script src> from the GitHub Pages URL (which can 404 for many
 // minutes on publish day while Pages rebuilds) to a commit-pinned jsDelivr CDN URL,
@@ -81,6 +89,50 @@ function parseMetaTxt(txt) {
   };
 }
 
+// Step 1b: give the dated blog a share image that loads. Never undoes the publish: on
+// an error it prints how to retry and returns { result: 'FAILED' } for the caller to count.
+function shareImageStep(c, node, alias, date, live) {
+  try {
+    const nid = node || share.nodeIdForAlias(c, alias);
+    if (!nid) {
+      if (!live) { console.log('\n  SHARE IMAGE → (dry run) the blog is not posted yet: right after it is created, its first picture is hosted on harvrealtor.com and the src repointed'); return null; }
+      throw new Error(`could not find the node id behind ${alias}`);
+    }
+    const s = share.fixShareImage(c, { node: nid, alias, live });
+    s.node = nid;
+    console.log(`\n  SHARE IMAGE → node ${nid}: ${share.describe(s)}`);
+    return s;
+  } catch (e) {
+    console.log(`\n  SHARE IMAGE → ❌ ${e.message}`);
+    if (live) {
+      console.log('     The blog IS posted. Retry today: node post-to-incom.js (the blog is skipped, the share image retried, the landing re-saved).');
+      console.log(`     Any day, the blog only: node edit-incom-node.js --share-image-only --date ${date}`);
+    }
+    return { result: 'FAILED', error: e.message };
+  }
+}
+
+// The landing carries the same body as the blog, so its first picture is the blog's first
+// picture: point it at the blog's hosted copy when the two <img> tags match apart from src.
+function landingWithHostedPicture(c, bodyHtml, pic, alias, dryRun) {
+  const mine = share.firstImg(bodyHtml);
+  if (!mine || share.isHosted(mine.src)) return bodyHtml;
+  if (!pic || !pic.hosted) {
+    try {
+      const nid = (pic && pic.node) || share.nodeIdForAlias(c, alias);
+      pic = nid ? share.readFirstPicture(c, nid, alias) : null;
+    } catch (e) { console.log(`\n  ⚠️  could not read today's blog first picture: ${e.message}`); pic = null; }
+  }
+  if (pic && pic.hosted && share.sameTagApartFromSrc(pic.tag, mine.tag)) {
+    console.log(`\n  LANDING first picture → ${pic.hosted} (the blog's hosted copy, so the landing's share image loads)`);
+    return share.repointFirstImg(bodyHtml, pic.hosted);
+  }
+  console.log(dryRun
+    ? '\n  LANDING first picture → (dry run) follows the blog\'s hosted copy once the live blog step has run'
+    : '\n  ⚠️  LANDING first picture stays off-site (today\'s blog has no hosted copy of the same picture): the landing\'s share image will not load');
+  return bodyHtml;
+}
+
 function summarize(label, url, fields, bodyHtml) {
   const keys = Object.keys(fields).sort();
   const dump = path.join(require('os').tmpdir(), `incom-plan-${label.toLowerCase()}.json`);
@@ -131,7 +183,9 @@ async function main() {
 
   const { url, user, pass } = readIncomCreds(ENV_PATH);
   const c = new IncomClient();
+  const alias = `HarvRealtor-daily-market-glance-${short}`;
   let failures = 0;
+  let pic = null;   // the blog's share-image result; the landing reuses its hosted picture
   try {
     c.login(url, user, pass);
     console.log('  ✅ logged in');
@@ -143,7 +197,7 @@ async function main() {
       delete fields['edit[body]'];
       Object.assign(fields, {
         'edit[title]': meta.title || `"At a Glance" Local Housing STATS and News ${date}`,
-        'edit[path]': `HarvRealtor-daily-market-glance-${short}`,
+        'edit[path]': alias,
         'edit[format]': BODY_FORMAT,
         'edit[nodewords][copyright]': meta.copyright,
         'edit[nodewords][description]': meta.description,
@@ -154,23 +208,32 @@ async function main() {
       });
       if (dryRun) {
         summarize('BLOG', BLOG_URL, fields, bodyHtml);
+        pic = shareImageStep(c, '', alias, date, false);
       } else {
         const r = c.postNode(BLOG_URL, fields, bodyHtml);
+        let posted = true, node = '';
         if (r.ok) {
           console.log(`\n  BLOG → HTTP ${r.status} ✅ created → ${r.finalUrl}`);
+          node = (r.finalUrl.match(/\/node\/(\d+)(?:[/?#]|$)/) || [])[1] || '';
         } else if (/path is already in use/i.test(r.body)) {
           // idempotent: a blog entry already exists at this dated path (already posted today)
-          console.log(`\n  BLOG → ⏭️  already posted for ${date} (path "HarvRealtor-daily-market-glance-${short}" in use) — skipped.`);
+          console.log(`\n  BLOG → ⏭️  already posted for ${date} (path "${alias}" in use) — skipped.`);
         } else {
+          posted = false;
           failures++;
           fs.writeFileSync('/tmp/incom-blog-response.html', r.body);
           console.log(`\n  BLOG → HTTP ${r.status} ❌ FAILED → response saved to /tmp/incom-blog-response.html`);
+        }
+        if (posted) {
+          pic = shareImageStep(c, node, alias, date, true);
+          if (pic && pic.result === 'FAILED') failures++;
         }
       }
     }
 
     // ---- LANDING: edit fixed node, swap body only ----
     if (!blogOnly) {
+      const landingBody = landingWithHostedPicture(c, bodyHtml, pic, alias, dryRun);
       const lf = c.getForm(LANDING_URL);
       const fields = extractFormFields(lf.html);
       delete fields['edit[body]'];
@@ -178,9 +241,9 @@ async function main() {
       fields['op'] = 'Submit';                    // title / path / nodewords preserved as-scraped
       if (!fields['edit[form_token]'] && lf.formToken) fields['edit[form_token]'] = lf.formToken;
       if (dryRun) {
-        summarize('LANDING', LANDING_URL, fields, bodyHtml);
+        summarize('LANDING', LANDING_URL, fields, landingBody);
       } else {
-        const r = c.postNode(LANDING_URL, fields, bodyHtml);
+        const r = c.postNode(LANDING_URL, fields, landingBody);
         console.log(`\n  LANDING → HTTP ${r.status} ${r.ok ? '✅ updated' : '❌ FAILED'} → ${r.finalUrl}`);
         if (!r.ok) { failures++; fs.writeFileSync('/tmp/incom-landing-response.html', r.body); console.log('     response saved to /tmp/incom-landing-response.html'); }
       }
