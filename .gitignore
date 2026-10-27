@@ -14,6 +14,9 @@ WORKSPACE-HANDOFF.md
 .env.*.local
 *session-token*
 *.token
+# Local backups: an .env backup holds secrets, and CLAUDE.md stays local only (10/27/26)
+.env.bak*
+CLAUDE.md.bak*
 
 # Generated files
 latest_inventory_chart.html
