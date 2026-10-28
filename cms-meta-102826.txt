@@ -12,7 +12,7 @@ META COPYRIGHT (Optional):
 
 
 META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
-Daily Bay Area housing recap for October 28, 2026: mortgage applications rose 3.4% as rates eased, but purchase applications trail last year by 18%, and Alameda County's fell 6.9% in 2025. The Fed decides at 11 AM Pacific.
+Daily Bay Area housing recap for October 28, 2026: mortgage applications rose 3.4% as rates eased, but purchase applications trail last year by 18%, and Alameda County's fell 6.9% in 2025. The Fed held rates at 3.75% to 4.00%.
 
 
 META KEYWORDS (Optional — comma-separated, max 450 chars):
