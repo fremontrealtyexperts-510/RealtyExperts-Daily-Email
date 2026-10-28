@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/28/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/28/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 28, 2026: mortgage applications rose 3.4% as rates eased, but purchase applications trail last year by 18%, and Alameda County's fell 6.9% in 2025. The Fed decides at 11 AM Pacific.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage applications, MBA weekly survey, purchase applications, refinance, HMDA, Alameda County housing, mortgage rates, Mortgage News Daily, Federal Reserve, FOMC, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
