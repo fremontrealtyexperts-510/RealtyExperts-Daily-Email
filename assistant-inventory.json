@@ -1,6 +1,6 @@
 {
- "data_date": "10/27/26",
- "generated_at": "2026-10-27T16:00:11.310207+00:00",
+ "data_date": "10/28/26",
+ "generated_at": "2026-10-28T18:00:15.920277+00:00",
  "source": "MLS export via RealtyExperts daily feed (same statistics as harvrealtor.net/live-inventory)",
  "coverage": [
   "Fremont",
@@ -14,8 +14,8 @@
   "Fremont": {
    "total_for_sale": 226,
    "by_status": {
-    "active": 181,
-    "new_this_period": 17,
+    "active": 184,
+    "new_this_period": 14,
     "coming_soon": 28,
     "back_on_market": 0
    },
@@ -30,80 +30,80 @@
     "Under $800K": 41,
     "$800K to $1M": 24,
     "$1M to $1.25M": 28,
-    "$1.25M to $1.5M": 35,
-    "$1.5M to $2M": 45,
+    "$1.25M to $1.5M": 36,
+    "$1.5M to $2M": 44,
     "$2M to $3M": 17,
     "$3M and up": 8
    },
    "median_list_price": 1299944,
    "median_price_per_sqft": 801,
-   "median_days_on_market": 34,
+   "median_days_on_market": 35,
    "new_in_last_7_days": 30,
    "asking_under_1m": 65
   },
   "Hayward": {
-   "total_for_sale": 198,
+   "total_for_sale": 196,
    "by_status": {
     "active": 175,
-    "new_this_period": 14,
+    "new_this_period": 12,
     "coming_soon": 8,
     "back_on_market": 1
    },
-   "on_market": 190,
+   "on_market": 188,
    "by_type": {
-    "detached": 111,
+    "detached": 109,
     "condo": 57,
     "townhouse": 22
    },
    "by_price_band": {
-    "Under $800K": 89,
-    "$800K to $1M": 51,
+    "Under $800K": 90,
+    "$800K to $1M": 48,
     "$1M to $1.25M": 19,
     "$1.25M to $1.5M": 12,
     "$1.5M to $2M": 13,
     "$2M to $3M": 5,
     "$3M and up": 1
    },
-   "median_list_price": 824000,
-   "median_price_per_sqft": 528,
-   "median_days_on_market": 39,
-   "new_in_last_7_days": 23,
-   "asking_under_1m": 140
+   "median_list_price": 821444,
+   "median_price_per_sqft": 527,
+   "median_days_on_market": 36,
+   "new_in_last_7_days": 22,
+   "asking_under_1m": 138
   },
   "Milpitas": {
-   "total_for_sale": 104,
+   "total_for_sale": 103,
    "by_status": {
     "active": 83,
     "new_this_period": 1,
-    "coming_soon": 20,
+    "coming_soon": 19,
     "back_on_market": 0
    },
    "on_market": 84,
    "by_type": {
-    "detached": 23,
-    "condo": 30,
+    "detached": 22,
+    "condo": 31,
     "townhouse": 31
    },
    "by_price_band": {
-    "Under $800K": 19,
+    "Under $800K": 21,
     "$800K to $1M": 17,
-    "$1M to $1.25M": 17,
+    "$1M to $1.25M": 16,
     "$1.25M to $1.5M": 18,
-    "$1.5M to $2M": 8,
+    "$1.5M to $2M": 7,
     "$2M to $3M": 3,
     "$3M and up": 2
    },
-   "median_list_price": 1099988,
-   "median_price_per_sqft": 709,
-   "median_days_on_market": 34,
-   "new_in_last_7_days": 14,
-   "asking_under_1m": 36
+   "median_list_price": 1097887,
+   "median_price_per_sqft": 704,
+   "median_days_on_market": 35,
+   "new_in_last_7_days": 16,
+   "asking_under_1m": 38
   },
   "Newark": {
    "total_for_sale": 89,
    "by_status": {
-    "active": 73,
-    "new_this_period": 5,
+    "active": 74,
+    "new_this_period": 4,
     "coming_soon": 11,
     "back_on_market": 0
    },
@@ -124,16 +124,16 @@
    },
    "median_list_price": 1176625,
    "median_price_per_sqft": 677,
-   "median_days_on_market": 42,
+   "median_days_on_market": 43,
    "new_in_last_7_days": 9,
    "asking_under_1m": 26
   },
   "Union City": {
-   "total_for_sale": 61,
+   "total_for_sale": 60,
    "by_status": {
-    "active": 52,
-    "new_this_period": 5,
-    "coming_soon": 4,
+    "active": 54,
+    "new_this_period": 3,
+    "coming_soon": 3,
     "back_on_market": 0
    },
    "on_market": 57,
@@ -145,16 +145,16 @@
    },
    "by_price_band": {
     "Under $800K": 10,
-    "$800K to $1M": 7,
+    "$800K to $1M": 6,
     "$1M to $1.25M": 9,
-    "$1.25M to $1.5M": 25,
+    "$1.25M to $1.5M": 26,
     "$1.5M to $2M": 6
    },
-   "median_list_price": 1299900,
-   "median_price_per_sqft": 738,
-   "median_days_on_market": 31,
-   "new_in_last_7_days": 7,
-   "asking_under_1m": 17
+   "median_list_price": 1349000,
+   "median_price_per_sqft": 741,
+   "median_days_on_market": 32,
+   "new_in_last_7_days": 8,
+   "asking_under_1m": 16
   }
  }
 }
