@@ -1,55 +1,67 @@
 {
-  "date": "10/28/26",
-  "time": "10:07 AM PT",
+  "date": "10/29/26",
+  "time": "11:23 AM PT",
   "real_estate": {
-    "rate_30year": "7.33%",
-    "rate_15year": "7.01%",
-    "homebuilder": "Mortgage applications rose 3.4% last week as rates eased, but home purchase applications are still 18% behind last year's pace.",
-    "commentary": "Today's question is mortgage applications, and the short answer is that buyers are pausing. The Mortgage Bankers Association's weekly survey, out this morning, shows applications up 3.4% in the week ending October 23 as its 30-year contract rate eased to 7.37% from 7.41%. Even with that bounce, home purchase applications were 18% below the same week last year, and refinances were 61% lower.\n\nRates explain most of it. Early this year, with that rate near 6.2%, purchase applications ran as much as 18% ahead of 2025. Then rates rose every week for two months, reaching 7.50% in early October, the highest since November 2023, and purchase applications have trailed last year in each of the past seven weeks. More borrowers are turning to adjustable rate loans, now 11.3% of applications, the most in over a year.\n\nLocally, the newest full year of federal lending data (HMDA) shows Alameda County lenders took 13,940 home purchase loan applications in 2025, down 6.9% from 2024 even as the nation edged up 1.1%, and about half the 2021 peak (chart). Our own MLS shows the pause today: on this date a year apart, across the same 14 cities, homes in contract fell 26% to 609 from 820, while homes for sale barely moved, 1,957 from 1,989.\n\nMortgage News Daily's 30-year average held at 7.33% Tuesday and the 15-year is 7.01%, with the Fed's decision at 11 AM our time (more in Economy). The board wide table slipped to 2,554 from 2,578, with 144 coming soon and 148 brand new. The five city ledger is 674, from 678: Fremont (226) and Newark (89) held, while Hayward eased to 196, Milpitas to 103 and Union City to 60.\n\nWhat this means for you: buyers are waiting on rates, not walking away, and even a small dip brought them back this week. Keep buyers pre-approved so they can move on the next one, and if an ARM comes up, have them go over the adjustment terms with their lender. Sellers should price for today's payment from day one, because inventory is flat from a year ago while contracts are down a quarter.\n\n• Board wide: 2,554 listings across our 15 city table, counting active and in contract together, with 144 coming soon and 148 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 674 listings across Fremont, Hayward, Milpitas, Newark and Union City. 605 are on the market and 69 are coming soon.\n• Fremont: 226 live, 184 active, 28 coming soon and 14 brand new. The median on market list price is $1,299,944 at $801 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 196, Milpitas 103, Newark 89, Union City 60.\n• Across all five cities the median is $1,079,000 at $668 a square foot. 283 homes are priced under a million, and 182 have been sitting 60 days or longer.",
+    "rate_30year": "7.29%",
+    "rate_15year": "6.95%",
+    "homebuilder": "Renting beats buying by $1,105 a month nationally, and by $5,486 in the San Francisco metro that includes Fremont.",
+    "commentary": "Today's theme is rent versus buy. Zillow's latest report puts the typical U.S. rent at $1,932 a month in September, while a new buyer's payment, with 10% down and taxes and insurance included, is $3,037. That is $1,105 more every month to own, and rental demand is up 19.2% from a year ago as would-be buyers rent instead.\n\nHere the gap is far wider (chart). In Zillow's San Francisco metro, which includes Oakland, Fremont and Hayward, rent is $3,445 against an $8,931 buyer payment, $5,486 apart. In the San Jose metro, which includes Milpitas, it is $3,812 against $11,845, so the payment would cover the rent three times over. Our two metros also lead the country in rental demand growth: San Jose is up 82.5% from a year ago and San Francisco 66.9%.\n\nThe local twist is that rents are rising faster than buyer costs. San Francisco metro rent is up 11.8% in a year while the buyer payment rose 7.1%; nationally it is the other way around. On our own MLS, Fremont's median asking price of $1,300,000 works out to about $8,000 a month in principal and interest alone at today's 7.29% with 10% down, before taxes and insurance.\n\nMortgage News Daily's 30-year average eased to 7.29% today from 7.35%, and the 15-year is 6.95%, after the Fed held its rate Wednesday (more in Economy). The board wide table is 2,558, from 2,554, with 141 coming soon and 139 brand new. The five city ledger is 670, from 674: Milpitas (103), Newark (89) and Union City (60) held, while Fremont eased to 225 and Hayward to 193.\n\nWhat this means for you: renting wins month one, nationally and even more so here, so buying is a bet on equity and on staying put. With metro rents climbing about 10% a year, a renter weighing a purchase should compare both paths over five to ten years, not one month. Sellers should know their buyer is often a renter doing exactly that math, so a price that pencils against today's rent gets the call.\n\n• Board wide: 2,558 listings across our 15 city table, counting active and in contract together, with 141 coming soon and 139 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 670 listings across Fremont, Hayward, Milpitas, Newark and Union City. 601 are on the market and 69 are coming soon.\n• Fremont: 225 live, 179 active, 29 coming soon and 17 brand new. The median on market list price is $1,300,000 at $808 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 193, Milpitas 103, Newark 89, Union City 60.\n• Across all five cities the median is $1,079,000 at $668 a square foot. 282 homes are priced under a million, and 180 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/mortgage-apps-hmda-102826.png",
-      "alt": "Bar chart of home purchase loan applications in Alameda County from 2018 to 2025, with 2025 compared with 2024 and 2019 for the county and the United States",
-      "caption": "Alameda County lenders took 13,940 home purchase loan applications in 2025, about half the 2021 peak and 35% fewer than in 2019. Nationally, 2025 was 16% below 2019.",
-      "source": "FFIEC HMDA Data Browser (CFPB), 2018 to 2025"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/rent-vs-buy-102926.png",
+      "alt": "Bar chart comparing typical monthly rent with a new buyer's monthly payment in September 2026 for the United States, the San Francisco metro and the San Jose metro",
+      "caption": "Renting costs $1,105 less a month than buying nationally, $5,486 less in the San Francisco metro and $8,032 less in the San Jose metro, where rental demand rose the most in the country.",
+      "source": "Zillow, Oct. 15, 2026 release and research data (September 2026)"
     }
   },
   "stocks": {
-    "sp500": "7,722.60 (+0.60%)",
-    "dow": "52,377.57 (+0.03%)",
-    "nasdaq": "26,477.81 (+1.18%)",
-    "note": "Levels are Tuesday, October 27 at the closing bell. Live at 10:07 AM PT Wednesday: S&P 500 up 0.24%, Dow up 0.30%, Nasdaq up 0.06%.",
-    "news": "Stocks are inching higher ahead of the Fed: as of 10:07 AM PT the S&P 500 is up 0.24%, the Dow up 0.30% and the Nasdaq up 0.06%, after a Tuesday led by the Nasdaq's 1.18% gain. The Fed decides at 11 AM our time, and Microsoft reports its quarter today, so the afternoon has two chances to change the mood."
+    "sp500": "7,743.98 (+0.28%)",
+    "dow": "52,475.10 (+0.19%)",
+    "nasdaq": "26,549.85 (+0.27%)",
+    "note": "Levels are Wednesday, October 28 at the closing bell. Live at 11:23 AM PT Thursday: S&P 500 down 0.58%, Dow down 0.55%, Nasdaq down 1.59%.",
+    "news": "Alphabet is the story. Its shares are down 13.2% as of 11:23 AM PT, the day after earnings, and the Nasdaq is down 1.59%. Over six months through Wednesday, Microsoft was up 25.1% and Alphabet down 7.3% (chart); today's drop stretches that gap to about 44 points.\n\nAlphabet's top line was strong: revenue rose 25% to $127.6 billion and Google Cloud more than doubled, up 103%. What spooked investors was the spending. Capital expenditures hit $51.4 billion in the quarter, more than double a year ago, free cash flow turned negative ($9.1 billion), and earnings per share fell to $2.12 from $2.87, partly on an $8.7 billion loss on stock holdings. Market Briefs said Google's AI sales dipped; the company's release says the opposite. Microsoft's Azure grew 48% on revenue of $92.3 billion, up 19%, and its stock is down 0.35%. Wall Street's message: spend all you like, as long as the cash comes back first.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/msft-goog-102926.png",
+      "alt": "Line chart of Microsoft and Alphabet stock performance from April 29 to October 28, 2026, with Thursday's intraday move after Alphabet's earnings",
+      "caption": "Microsoft rose 25.1% from the Apr. 29 close through Wednesday while Alphabet fell 7.3%. The dashed line is Thursday's trading after Alphabet's earnings, as of 11:05 AM PT.",
+      "source": "Yahoo Finance daily closes (MSFT, GOOG); CNBC intraday"
+    }
   },
   "economy": {
-    "us10year": "4.99% (-0.01%)",
-    "gold": "$4,073.10 (+1.04%)",
-    "silver": "$54.50 (+0.85%)",
-    "wti": "$113.88 (-1.67%)",
+    "us10year": "5.05% (+0.06%)",
+    "gold": "$4,081.20 (+0.20%)",
+    "silver": "$54.04 (-0.83%)",
+    "wti": "$115.32 (+1.26%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Tuesday, October 27: the 10-Year is Treasury's close, gold and silver are COMEX December futures at the 4 PM ET print, and Brent is the ICE December settlement, a contract that expires Friday. Live at 10:07 AM PT Wednesday: gold $4,055.20 (-0.44%), silver $53.77 (-1.34%), Brent $115.94 (+1.81%).",
-    "commentary": "It is Fed day. The Fed announces its rate decision at 11 AM our time, after raising its target range to 3.75% to 4.00% in September. Mortgage rates follow the 10-Year Treasury more closely than the Fed's own rate, and the 10-Year closed Tuesday at 4.99%, just under 5%.\n\nOil fell: Brent's December contract settled at $113.88, down 1.67%, though it is up 1.81% this morning. Gold rose 1.04% to $4,073 and silver 0.85% to $54.50. One correction: Market Briefs printed the 10-Year at 5.02%, gold down 0.37% and Brent up 1.59% at $115.69; Treasury's close was 4.99%, gold finished up 1.04%, and Brent settled down 1.67% at $113.88."
+    "note": "Levels are Wednesday, October 28: the 10-Year is Treasury's close, gold and silver are COMEX December futures at the 4 PM ET print, and Brent is the ICE December settlement, a contract that expires Friday. Live at 11:23 AM PT Thursday: gold $4,020.70 (-0.76%), silver $52.13 (-2.85%), Brent $114.83 (-0.42%).",
+    "commentary": "The Fed held. It kept its target range at 3.75% to 4.00% Wednesday, after raising it in September, and two officials, Lisa Cook and Beth Hammack, dissented because they wanted another hike. The statement says inflation \"remains elevated\" and that more information will guide its next step, with the next meeting in December (chart).\n\nThe 10-Year Treasury, which mortgage rates follow more closely than the Fed's own rate, closed Wednesday at 5.05%, up from 4.99%, and is near 4.99% this morning. Brent's December contract settled up 1.26% at $115.32, gold rose 0.20% and silver slipped 0.83%. One correction: Market Briefs printed the 10-Year at 4.99% and lower, gold down 0.04% and Brent down 1.07% at $114.07; Treasury's close was 5.05%, gold finished up 0.20% at the 4 PM print, and Brent settled up 1.26%.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/fed-uturn-102926.png",
+      "alt": "Step chart of the Fed funds target rate upper bound from January 2025 to October 2026",
+      "caption": "The Fed cut three times in late 2025, held at five straight meetings, raised its rate in September and held again on Oct. 28 at 3.75% to 4.00%.",
+      "source": "Federal Reserve FOMC statements; FRED DFEDTARU"
+    }
   },
   "crypto": {
-    "btc": "$80,446 (-0.07%)",
-    "eth": "$2,331.83 (-0.66%)",
-    "xrp": "$1.31 (-0.53%)",
-    "commentary": "Crypto is flat into the Fed. Bitcoin is down 0.07% over 24 hours near $80,400, Ether is down 0.66% and XRP is down 0.53%, live from CoinGecko at 10:07 AM PT. Home buyers and Bitcoin holders have rarely agreed on anything, but today they are both watching the same 11 AM announcement."
+    "btc": "$80,808 (+0.06%)",
+    "eth": "$2,338.80 (-0.12%)",
+    "xrp": "$1.29 (-2.09%)",
+    "commentary": "Crypto is calm after the Fed. Bitcoin is near $80,800, up 0.06% over 24 hours, Ether is down 0.12% and XRP is down 2.09%, live from CoinGecko at 11:23 AM PT. For once, the coins were steadier than the search engine."
   },
   "sources": [
-    "https://www.mba.org/news-and-research/newsroom/news/2026/10/28/mortgage-applications-increase-in-latest-mba-weekly-survey",
-    "https://www.mba.org/news-and-research/newsroom/news/2026/10/14/mortgage-applications-decrease-in-latest-mba-weekly-survey",
-    "https://www.mba.org/news-and-research/newsroom/news/2026/01/21/mortgage-applications-increase-in-latest-mba-weekly-survey",
-    "https://ffiec.cfpb.gov/data-browser/",
-    "https://www.ffiec.gov/news/press-releases/2026/an-06-23",
+    "https://zillow.mediaroom.com/2026-10-15-Rental-demand-is-up-20-as-high-lending-costs-stifle-the-for-sale-market",
+    "https://www.zillow.com/research/data/",
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+    "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "https://fred.stlouisfed.org/series/DFEDTARU",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-    "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+    "https://finance.yahoo.com/quote/GOOG/",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/66ad4423-72c0-4653-9446-16005a14762b",
-  "qr_code_path": "note-qr-66ad4423.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/d6752ab7-fffb-4c64-a55b-31126f8111ff",
+  "qr_code_path": "note-qr-d6752ab7.png"
 }
