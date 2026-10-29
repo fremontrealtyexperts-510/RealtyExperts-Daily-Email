@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/29/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/29/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 29, 2026: renting costs $1,105 a month less than buying nationally and $5,486 less in the San Francisco metro, the Fed held at 3.75% to 4.00%, and Alphabet fell after earnings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+rent vs buy, Zillow rental report, rental demand, San Francisco metro, San Jose metro, mortgage rates, Mortgage News Daily, Federal Reserve, FOMC, 10-Year Treasury, Alphabet earnings, Microsoft earnings, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
