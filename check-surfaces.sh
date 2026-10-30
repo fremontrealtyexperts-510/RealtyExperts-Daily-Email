@@ -32,6 +32,13 @@
 # The per-day evidence that actually matters (dated email page, both dated PNGs,
 # the dated blog node, the sent email, the broadcast confirmation) stays a hard
 # check for every date.
+#
+# BOUNCES (added 2026-10-30). The confirmation email only proves the send was
+# attempted: on 10/30 Google rejected the whole second batch (20 of 100 agents)
+# and this script still said "broadcast confirmed". It now counts the bounce
+# notices. 5+ agents is a rejected batch, the same line verify-broadcast.js uses.
+# That FAILS for today and only warns for a past day: yesterday's bounce cannot
+# be fixed by anything here, and a recovered day should not hold the gate red.
 
 set -uo pipefail
 
@@ -43,11 +50,12 @@ PAGES="https://fremontrealtyexperts-510.github.io/RealtyExperts-Daily-Email"
 RAW="https://raw.githubusercontent.com/fremontrealtyexperts-510/RealtyExperts-Daily-Email/main"
 CMS="https://www.harvrealtor.com"
 CB="$(date +%s)"
-FAIL=0; SKIP=0
+FAIL=0; SKIP=0; BOUNCED=0
 
 ok()   { printf "  \033[32m✅\033[0m %-34s %s\n" "$1" "${2:-}"; }
 bad()  { printf "  \033[31m❌\033[0m %-34s %s\n" "$1" "${2:-}"; FAIL=1; }
 skip() { printf "  \033[33m⏭\033[0m  %-34s %s\n" "$1" "${2:-}"; SKIP=1; }
+warn() { printf "  \033[33m⚠️\033[0m  %-34s %s\n" "$1" "${2:-}"; }
 # a singleton surface that has legitimately rolled forward past the asked-for day
 moved() { printf "  \033[33m⏭\033[0m  %-34s %s\n" "$1" "${2:-}"; SKIP=1; }
 
@@ -184,17 +192,18 @@ TOK=$(python3 -c "import json;print(json.load(open('/tmp/ms365-token.json'))['ac
 if [ -z "${TOK:-}" ]; then
   skip "daily email sent" "no MS365 token"
   skip "broadcast confirmed" "no MS365 token"
+  skip "broadcast bounces" "no MS365 token"
 else
   # Page back until we pass the start of that day (PT). A flat $top=300 only
   # reached ~1.5 days on this mailbox: on 10/22/26 the 10/20 email and
   # confirmation sat at positions 469 to 473 and were reported missing.
   COUNT=$(SL="$SLASH" TOK="$TOK" python3 -c "
-import json,os,urllib.request
+import json,os,re,urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 w=os.environ['SL']; tok=os.environ['TOK']
 day=datetime.strptime(w,'%m/%d/%y').replace(tzinfo=ZoneInfo('America/Los_Angeles'))
-u='https://graph.microsoft.com/v1.0/me/messages?\$top=250&\$select=subject,receivedDateTime&\$orderby=receivedDateTime%20desc'
+u='https://graph.microsoft.com/v1.0/me/messages?\$top=250&\$select=subject,receivedDateTime,bodyPreview&\$orderby=receivedDateTime%20desc'
 v=[]
 for _ in range(12):
     d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={'Authorization':'Bearer '+tok}),timeout=30))
@@ -203,7 +212,11 @@ for _ in range(12):
     if not u or not v or datetime.fromisoformat(v[-1]['receivedDateTime'].replace('Z','+00:00'))<day: break
 mail=[m for m in v if 'At a Glance' in (m.get('subject') or '') and w in (m.get('subject') or '') and 'Agent Hub' not in (m.get('subject') or '')]
 conf=[m for m in v if 'Agent Hub' in (m.get('subject') or '') and w in (m.get('subject') or '') and 'Confirmation' in (m.get('subject') or '')]
-print(len(mail), len(conf))
+# bounce notices; the sender bounces too on a rejected batch (its To: line), and it is not an agent
+ndr=[m for m in v if (m.get('subject') or '').strip().lower().startswith('undeliverable:') and '[Agent Hub]' in (m.get('subject') or '') and w in (m.get('subject') or '')]
+who=sorted({a.group(1) for a in (re.search(r'recipients or groups:\s+(\S+)',m.get('bodyPreview') or '') for m in ndr) if a})
+who=[a for a in who if a.lower()!='fremontrealtyexperts@gmail.com']
+print(len(mail), len(conf), len(who), *who)
 " 2>/dev/null)
   set -- $COUNT
   [ "${1:-0}" -ge 1 ] && ok "daily email sent" "$1 copies" || bad "daily email sent" "none found"
@@ -211,6 +224,21 @@ print(len(mail), len(conf))
   # it gates on a recent arrival window and false-negatives a day later.
   [ "${2:-0}" -ge 1 ] && ok "broadcast confirmed" "confirmation present" \
                       || bad "broadcast confirmed" "no confirmation for $SLASH"
+  if [ -z "${3:-}" ]; then
+    skip "broadcast bounces" "mailbox not read"
+  else
+    NDR="$3"; shift 3
+    if [ "$NDR" -eq 0 ]; then
+      ok "broadcast bounces" "none"
+    elif [ "$NDR" -lt 5 ]; then
+      warn "broadcast bounces" "$NDR, single mailboxes: $*"
+    elif [ "$IS_TODAY" -eq 1 ]; then
+      bad "broadcast bounces" "$NDR agents did NOT get it: $*"
+      BOUNCED=1
+    else
+      warn "broadcast bounces" "$NDR agents bounced on $SLASH, confirm they were sent it: $*"
+    fi
+  fi
 fi
 
 echo
@@ -220,6 +248,11 @@ if [ "$FAIL" -eq 0 ]; then
   [ "$SKIP" -eq 1 ] && echo "  (some checks skipped — see ⏭ above)"
 else
   echo "  ❌ AT LEAST ONE SURFACE IS MISSING $SLASH"
+  if [ "$BOUNCED" -eq 1 ]; then
+    echo "     Broadcast bounced? NEVER re-fire it: the agents who got it would get it twice."
+    echo "       Show Harv the list. With his OK, send those addresses the same email from"
+    echo "       Outlook, blind copied (memory: session-2026-10-30-daily-horton-amazon-coinbase-gmail-rejected-batch)."
+  fi
   echo "     Stage 5 missing? compose cms-content.json, then:"
   echo "       node generate-cms-page.js --date $SLASH && bash push-to-github.sh"
   if [ "$IS_TODAY" -eq 1 ]; then
