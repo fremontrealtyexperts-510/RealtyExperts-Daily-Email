@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 10/30/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 10/30/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for October 30, 2026: D.R. Horton expects fewer closings and says incentives will stay elevated, the 30-year eased to 7.27%, GDP grew 3.4% with inflation running hot, and Intel, Amazon and Coinbase fell.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+D.R. Horton, builder incentives, new homes, Prop. 37, mortgage rates, Mortgage News Daily, GDP, PCE inflation, 10-Year Treasury, Intel earnings, Amazon free cash flow, Coinbase, Binance hack, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
