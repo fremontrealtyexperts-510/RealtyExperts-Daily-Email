@@ -1,67 +1,64 @@
 {
-  "date": "10/29/26",
-  "time": "11:23 AM PT",
+  "date": "10/30/26",
+  "time": "1:09 PM PT",
   "real_estate": {
-    "rate_30year": "7.29%",
-    "rate_15year": "6.95%",
-    "homebuilder": "Renting beats buying by $1,105 a month nationally, and by $5,486 in the San Francisco metro that includes Fremont.",
-    "commentary": "Today's theme is rent versus buy. Zillow's latest report puts the typical U.S. rent at $1,932 a month in September, while a new buyer's payment, with 10% down and taxes and insurance included, is $3,037. That is $1,105 more every month to own, and rental demand is up 19.2% from a year ago as would-be buyers rent instead.\n\nHere the gap is far wider (chart). In Zillow's San Francisco metro, which includes Oakland, Fremont and Hayward, rent is $3,445 against an $8,931 buyer payment, $5,486 apart. In the San Jose metro, which includes Milpitas, it is $3,812 against $11,845, so the payment would cover the rent three times over. Our two metros also lead the country in rental demand growth: San Jose is up 82.5% from a year ago and San Francisco 66.9%.\n\nThe local twist is that rents are rising faster than buyer costs. San Francisco metro rent is up 11.8% in a year while the buyer payment rose 7.1%; nationally it is the other way around. On our own MLS, Fremont's median asking price of $1,300,000 works out to about $8,000 a month in principal and interest alone at today's 7.29% with 10% down, before taxes and insurance.\n\nMortgage News Daily's 30-year average eased to 7.29% today from 7.35%, and the 15-year is 6.95%, after the Fed held its rate Wednesday (more in Economy). The board wide table is 2,558, from 2,554, with 141 coming soon and 139 brand new. The five city ledger is 670, from 674: Milpitas (103), Newark (89) and Union City (60) held, while Fremont eased to 225 and Hayward to 193.\n\nWhat this means for you: renting wins month one, nationally and even more so here, so buying is a bet on equity and on staying put. With metro rents climbing about 10% a year, a renter weighing a purchase should compare both paths over five to ten years, not one month. Sellers should know their buyer is often a renter doing exactly that math, so a price that pencils against today's rent gets the call.\n\n• Board wide: 2,558 listings across our 15 city table, counting active and in contract together, with 141 coming soon and 139 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 670 listings across Fremont, Hayward, Milpitas, Newark and Union City. 601 are on the market and 69 are coming soon.\n• Fremont: 225 live, 179 active, 29 coming soon and 17 brand new. The median on market list price is $1,300,000 at $808 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 193, Milpitas 103, Newark 89, Union City 60.\n• Across all five cities the median is $1,079,000 at $668 a square foot. 282 homes are priced under a million, and 180 have been sitting 60 days or longer.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/rent-vs-buy-102926.png",
-      "alt": "Bar chart comparing typical monthly rent with a new buyer's monthly payment in September 2026 for the United States, the San Francisco metro and the San Jose metro",
-      "caption": "Renting costs $1,105 less a month than buying nationally, $5,486 less in the San Francisco metro and $8,032 less in the San Jose metro, where rental demand rose the most in the country.",
-      "source": "Zillow, Oct. 15, 2026 release and research data (September 2026)"
-    }
+    "rate_30year": "7.27%",
+    "rate_15year": "6.92%",
+    "homebuilder": "America's biggest builder expects fewer closings next year and says incentives are staying. Its Bay Area sale ends Sunday.",
+    "commentary": "Today's theme is the builder's discount. D.R. Horton, the country's largest builder, reported Thursday that orders fell 7% last quarter and cancellations rose to 23% from 20%. It expects 79,000 to 84,000 closings next year, after 84,202 this year, and says incentives will stay elevated.\n\nIt reaches here. D.R. Horton's Red Tag sale, which it emailed local agents about this morning, covers Bay Area homes and ends Sunday. Nobody runs a Red Tag event when homes are selling themselves. On our own MLS, 33 of the 599 homes on the market in our five cities were built in 2025 or later, 20 of them townhomes, and they have been listed a median 52 days against 36 for older homes.\n\nRates got a small break. Mortgage News Daily's 30-year average is 7.27%, from 7.29%, the lowest since late September and well below this month's 7.61% peak. The 15-year is 6.92%. The 30-year is still nearly a full point above a year ago, and this week's inflation report argues against counting on much more (see Economy).\n\nOne more new home item for Tuesday's ballot: California's Prop. 37 would let the state housing finance agency sell up to $25 billion in bonds to fund loans of up to 17% of the price for buyers of newly built homes who put at least 3% down and earn no more than double their area's typical income. The Legislative Analyst's Office estimates no direct state or local costs.\n\nThe board wide table is 2,554, from 2,558, with 138 coming soon and 134 brand new. The five city ledger is 665, from 670: Fremont (223), Hayward (188) and Milpitas (101) eased, while Newark (90) and Union City (63) rose.\n\nWhat this means for you: treat the builder's offer as the number to beat. Buyers looking at new homes should ask what the incentive is worth in rate and in price, then compare it with what a resale seller will give. Sellers of newer homes are up against that offer directly, so price against it, not against last spring.\n\n• Board wide: 2,554 listings across our 15 city table, counting active and in contract together, with 138 coming soon and 134 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 665 listings across Fremont, Hayward, Milpitas, Newark and Union City. 599 are on the market and 66 are coming soon.\n• Fremont: 223 live, 173 active, 28 coming soon and 22 brand new. The median on market list price is $1,325,000 at $813 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 188, Milpitas 101, Newark 90, Union City 63.\n• Across all five cities the median is $1,075,000 at $670 a square foot. 284 homes are priced under a million, and 178 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,743.98 (+0.28%)",
-    "dow": "52,475.10 (+0.19%)",
-    "nasdaq": "26,549.85 (+0.27%)",
-    "note": "Levels are Wednesday, October 28 at the closing bell. Live at 11:23 AM PT Thursday: S&P 500 down 0.58%, Dow down 0.55%, Nasdaq down 1.59%.",
-    "news": "Alphabet is the story. Its shares are down 13.2% as of 11:23 AM PT, the day after earnings, and the Nasdaq is down 1.59%. Over six months through Wednesday, Microsoft was up 25.1% and Alphabet down 7.3% (chart); today's drop stretches that gap to about 44 points.\n\nAlphabet's top line was strong: revenue rose 25% to $127.6 billion and Google Cloud more than doubled, up 103%. What spooked investors was the spending. Capital expenditures hit $51.4 billion in the quarter, more than double a year ago, free cash flow turned negative ($9.1 billion), and earnings per share fell to $2.12 from $2.87, partly on an $8.7 billion loss on stock holdings. Market Briefs said Google's AI sales dipped; the company's release says the opposite. Microsoft's Azure grew 48% on revenue of $92.3 billion, up 19%, and its stock is down 0.35%. Wall Street's message: spend all you like, as long as the cash comes back first.",
+    "sp500": "7,580.07 (-1.82%)",
+    "dow": "51,770.31 (-1.09%)",
+    "nasdaq": "25,437.00 (-2.86%)",
+    "note": "Levels are Friday, October 30 at the closing bell.",
+    "news": "A hard Friday, led by chips. Intel fell 28.6%, its worst day since at least 1980, after forecasting fourth quarter revenue of $15.0 billion to $16.0 billion when Wall Street expected about $17 billion. It is still up 78% this year, which shows how far the run had gone. Nvidia fell 4.2%.\n\nAmazon is the other warning (chart). Over the past 12 months it took in $168.3 billion from operations and spent $210.7 billion on property and equipment, up $94.8 billion in a year, mainly for AI. That left free cash flow at negative $42.4 billion. The business itself is strong: AWS sales rose 39% and the operating margin hit a record 13.9%. After Alphabet's report this week, the question for every AI spender is the same: when does the cash come back?\n\nAmazon's shares fell 1.41% Friday. Thursday's 4.25% drop came before its report, not after it, as Market Briefs implied.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/msft-goog-102926.png",
-      "alt": "Line chart of Microsoft and Alphabet stock performance from April 29 to October 28, 2026, with Thursday's intraday move after Alphabet's earnings",
-      "caption": "Microsoft rose 25.1% from the Apr. 29 close through Wednesday while Alphabet fell 7.3%. The dashed line is Thursday's trading after Alphabet's earnings, as of 11:05 AM PT.",
-      "source": "Yahoo Finance daily closes (MSFT, GOOG); CNBC intraday"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/amazon-fcf-103026.png",
+      "alt": "Bar chart of Amazon's trailing 12-month free cash flow from the first quarter of 2025 to the third quarter of 2026",
+      "caption": "Free cash flow fell from $25.9 billion to negative $42.4 billion in six quarters. Operating cash flow rose 29% to $168.3 billion, but spending on property and equipment rose faster, to $210.7 billion.",
+      "source": "Amazon quarterly earnings releases (SEC 8-K, Exhibit 99.1)"
     }
   },
   "economy": {
-    "us10year": "5.05% (+0.06%)",
-    "gold": "$4,081.20 (+0.20%)",
-    "silver": "$54.04 (-0.83%)",
-    "wti": "$115.32 (+1.26%)",
+    "us10year": "4.94% (-0.04%)",
+    "gold": "$3,894.20 (-3.45%)",
+    "silver": "$49.40 (-5.41%)",
+    "wti": "$117.64 (+2.40%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Wednesday, October 28: the 10-Year is Treasury's close, gold and silver are COMEX December futures at the 4 PM ET print, and Brent is the ICE December settlement, a contract that expires Friday. Live at 11:23 AM PT Thursday: gold $4,020.70 (-0.76%), silver $52.13 (-2.85%), Brent $114.83 (-0.42%).",
-    "commentary": "The Fed held. It kept its target range at 3.75% to 4.00% Wednesday, after raising it in September, and two officials, Lisa Cook and Beth Hammack, dissented because they wanted another hike. The statement says inflation \"remains elevated\" and that more information will guide its next step, with the next meeting in December (chart).\n\nThe 10-Year Treasury, which mortgage rates follow more closely than the Fed's own rate, closed Wednesday at 5.05%, up from 4.99%, and is near 4.99% this morning. Brent's December contract settled up 1.26% at $115.32, gold rose 0.20% and silver slipped 0.83%. One correction: Market Briefs printed the 10-Year at 4.99% and lower, gold down 0.04% and Brent down 1.07% at $114.07; Treasury's close was 5.05%, gold finished up 0.20% at the 4 PM print, and Brent settled up 1.26%.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/fed-uturn-102926.png",
-      "alt": "Step chart of the Fed funds target rate upper bound from January 2025 to October 2026",
-      "caption": "The Fed cut three times in late 2025, held at five straight meetings, raised its rate in September and held again on Oct. 28 at 3.75% to 4.00%.",
-      "source": "Federal Reserve FOMC statements; FRED DFEDTARU"
-    }
+    "note": "Levels are Friday, October 30: the 10-Year is Treasury's close, gold and silver are COMEX December futures at the 4 PM ET print, and Brent is the final settlement of the ICE December contract, which expired Friday. January, now the front month, is near $112.40.",
+    "commentary": "The economy is running hot, and for housing that matters more than any stock move. GDP grew at a 3.4% annual rate in the third quarter, and the PCE price index, the Fed's preferred inflation gauge, rose 0.5% in September and 3.6% from a year ago. Core rose 0.3% and 3.1%. Hot growth and hot prices are what keep mortgage rates high, and two Fed officials dissented this week in favor of a hike. The next meeting is in December.\n\nThe 10-Year closed at 4.94%, from 4.98%, as stocks fell. Gold dropped to its lowest since early October 2025 and silver closed under $50 as traders weighed the risk of another hike. One correction: Market Briefs printed Thursday's 10-Year at 4.92% and Brent up 1.07% at $116.11; Treasury's close was 4.98%, and December Brent settled down 0.38% at $114.88."
   },
   "crypto": {
-    "btc": "$80,808 (+0.06%)",
-    "eth": "$2,338.80 (-0.12%)",
-    "xrp": "$1.29 (-2.09%)",
-    "commentary": "Crypto is calm after the Fed. Bitcoin is near $80,800, up 0.06% over 24 hours, Ether is down 0.12% and XRP is down 2.09%, live from CoinGecko at 11:23 AM PT. For once, the coins were steadier than the search engine."
+    "btc": "$76,946 (-4.12%)",
+    "eth": "$2,239.92 (-3.06%)",
+    "xrp": "$1.25 (-1.64%)",
+    "commentary": "Binance, the world's largest crypto exchange, suffered the biggest crypto hack on record Thursday. It puts the loss at about $6.3 billion, more than four times the old record of $1.5 billion at Bybit in 2025, says about $3 billion has been frozen, and says it will cover all losses. Bitcoin is down 4.12% over 24 hours, Ether 3.06% and XRP 1.64%, live from CoinGecko at 1:09 PM PT.\n\nCoinbase fell 10.6% to $143.54 the day after its earnings and is now down 37% this year (chart). The newsletter's graphic said 28%, which was right through Wednesday. Most of its $719 million profit was gains on crypto it holds; adjusted net income was $78 million, and revenue fell 35% to $1.22 billion.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/10/coinbase-ytd-103026.png",
+      "alt": "Line chart of Coinbase month-end closing prices from December 31, 2025 to October 30, 2026",
+      "caption": "Coinbase closed 2025 at $226.14 and closed October at $143.54, down 37%, after losing 10.6% on Friday.",
+      "source": "Yahoo Finance daily closes (COIN)"
+    }
   },
   "sources": [
-    "https://zillow.mediaroom.com/2026-10-15-Rental-demand-is-up-20-as-high-lending-costs-stifle-the-for-sale-market",
-    "https://www.zillow.com/research/data/",
-    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
-    "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-    "https://fred.stlouisfed.org/series/DFEDTARU",
+    "https://www.sec.gov/Archives/edgar/data/882184/000088218426000119/a9302026exhibit991.htm",
+    "https://lao.ca.gov/BallotAnalysis/Proposition?number=37&year=2026",
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec.htm",
+    "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+    "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "https://www.nbcnews.com/business/markets/binance-hack-tether-circle-stablecoins-rcna606445",
+    "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://finance.yahoo.com/quote/GOOG/",
+    "https://finance.yahoo.com/quote/COIN/",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/d6752ab7-fffb-4c64-a55b-31126f8111ff",
-  "qr_code_path": "note-qr-d6752ab7.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/b8d5b686-1ea3-44b1-b370-01be626fd62d",
+  "qr_code_path": "note-qr-b8d5b686.png"
 }
