@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/02/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/02/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 2, 2026: housing and food took 46.9% of the average budget in 2025 and more here, the 30-year held at 7.27%, oil plunged on Iran talks, and I bonds jumped to 5.51%.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+household budget, housing costs, Consumer Expenditures, San Francisco metro, mortgage rates, Mortgage News Daily, construction spending, oil, Brent crude, Iran talks, ISM manufacturing, I bonds, 10-Year Treasury, Exxon, Chevron, gold, silver, Bitcoin, Binance, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
