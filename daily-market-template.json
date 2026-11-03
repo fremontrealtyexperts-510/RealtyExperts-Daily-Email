@@ -1,65 +1,55 @@
 {
-  "date": "11/02/26",
-  "time": "10:20 AM PT",
+  "date": "11/03/26",
+  "time": "8:00 AM PT",
   "real_estate": {
     "rate_30year": "7.27%",
     "rate_15year": "6.92%",
-    "homebuilder": "Housing and food took 46.9% of the average budget in 2025, the most in 15 years, and the share runs higher here. Oil's plunge pulled the 10-Year down, but mortgage rates have not followed yet.",
-    "commentary": "Today's theme is the household budget. New federal data show housing and food took 46.9% of the average American household's spending in 2025, the most in 15 years (chart). Nearly half the budget now goes to the roof and the refrigerator. Housing did nearly all of that work: it rose 5.8% to $27,790 a year, and shelter alone rose 8.0%, while total spending rose 4.3%. Market Briefs pinned it on groceries, but its 4.6% is all food, and housing added $1,524 a year to food's $464.\n\nIt runs higher here. The latest metro data, for 2023 and 2024, put the San Francisco metro, which includes Alameda County, at $42,517 a year on housing, 36.2% of spending, and 48.6% with food (chart). A Fremont buyer at today's $1,346,900 median with 20% down would pay about $7,365 a month in principal and interest at 7.27%, or $88,380 a year. That is about double the metro average before taxes and insurance.\n\nRates held, for now. Mortgage News Daily's 30-year average is unchanged at 7.27% and the 15-year at 6.92%. Oil's plunge pulled the 10-Year to about 4.88% this morning from 4.94%, and if that lasts, mortgage rates should follow. It is one morning, and nothing is signed (see Economy).\n\nOne headline to read twice: Census said residential construction spending fell 5.5% in September. All of that was home improvements, which had jumped in August. Spending on new single family homes was flat at a $403 billion annual pace.\n\nThe board wide table is 2,482, from 2,554 on Friday, with 144 coming soon and 138 brand new. The five city ledger is 650, from 665: Fremont (220), Hayward (183), Milpitas (99) and Newark (84) eased, while Union City (64) rose. Part of that looks like the calendar. The count has dipped at each of the last six month turns, and 63 of the 119 listings that left the board table since Friday were active, not pending, which usually means expired or withdrawn rather than sold.\n\nWhat this means for you: budget the whole payment, not the list price. Buyers should run principal, interest, taxes, insurance and any HOA against take home pay before they start touring; 274 of the 583 homes on the market in our five cities are priced under a million. Sellers, the buyer across the table is doing that same math, and 179 homes have been sitting 60 days or longer, so price to the payment.\n\n• Board wide: 2,482 listings across our 15 city table, counting active and in contract together, with 144 coming soon and 138 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 650 listings across Fremont, Hayward, Milpitas, Newark and Union City. 583 are on the market and 67 are coming soon.\n• Fremont: 220 live, 169 active, 30 coming soon and 21 brand new. The median on market list price is $1,346,900 at $824 a square foot, and the typical active listing has been out 38 days.\n• The rest of the ledger: Hayward 183, Milpitas 99, Newark 84, Union City 64.\n• Across all five cities the median is $1,088,000 at $671 a square foot. 274 homes are priced under a million, and 179 have been sitting 60 days or longer.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/housing-food-share-110226.png",
-        "alt": "Donut chart of the average U.S. household budget in 2025: housing 33.9%, food 13.0%, everything else 53.1%, with a small line of the housing and food share from 2010 to 2025",
-        "caption": "Housing and food took 46.9% of the average household's spending in 2025, the most since 2010. Housing was $27,790 a year, up 5.8%, and food was $10,633, up 4.6%.",
-        "source": "U.S. Bureau of Labor Statistics, Consumer Expenditures 2025 (Oct. 29, 2026)"
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/bay-budget-110226.png",
-        "alt": "Bar charts comparing the United States, the West and the San Francisco metro for 2023 and 2024: housing $25,853, $31,353 and $42,517 a year, and housing plus food 46.1%, 47.1% and 48.6% of spending",
-        "caption": "The San Francisco metro, which includes Alameda County, spends $42,517 a year on housing, 64% above the national average. BLS publishes metro data on a two year basis, so these run through 2024.",
-        "source": "U.S. Bureau of Labor Statistics, Consumer Expenditure Surveys 2023-2024, Tables 1800 and 3033"
-      }
-    ]
-  },
-  "stocks": {
-    "sp500": "7,580.07 (-1.82%)",
-    "dow": "51,770.31 (-1.09%)",
-    "nasdaq": "25,437.00 (-2.86%)",
-    "note": "Levels are Friday, October 30 at the closing bell. Live at 10:20 AM PT Monday: S&P 500 up 0.42%, Dow up 1.06%, Nasdaq up 0.37%.",
-    "news": "Stocks are higher as oil falls. As of 10:20 AM PT the Dow is up 1.06%, the S&P 500 up 0.42% and the Nasdaq up 0.37%. October was rough on tech: the Nasdaq lost 5.3%, its worst month since March 2025, and the S&P 500 lost 0.9%, while the Dow gained 1.7% as investors rotated toward defensive names. This week brings the midterms and the jobs report.\n\nBig Oil just had a very good quarter. Exxon earned $15.4 billion, up from $7.5 billion a year ago, and Chevron earned $9.9 billion, up from $3.5 billion. Refining did the heavy lifting: Exxon's Energy Products unit made $7.2 billion, from $1.8 billion, and Chevron's downstream made $4.9 billion, from $1.1 billion. Today's oil drop is the other side of that trade. Exxon is down 3.5% and Chevron 3.1% this morning."
-  },
-  "economy": {
-    "us10year": "4.94% (-0.04%)",
-    "gold": "$3,898.90 (-3.29%)",
-    "silver": "$49.28 (-5.93%)",
-    "wti": "$113.43 (+2.37%)",
-    "oil_label": "Brent Crude",
-    "note": "Levels are Friday, October 30: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. January became the front month when December expired Friday at $117.64, so the lower card is a contract roll, not a drop. Live at 10:20 AM PT Monday: 10-Year 4.88%, gold $3,975.60 (+1.97%), silver $51.01 (+3.52%), Brent $103.37 (-8.87%).",
-    "commentary": "Oil is the story. Brent is down about 9% this morning after Iran's president said Tehran will try to resolve the conflict through dialogue and its foreign minister said negotiators in Qatar are working on a proposal that could reopen the Strait of Hormuz in as little as two days if Iran's conditions are met. Nothing is signed, and a similar offer in September went nowhere. Cheaper oil would ease the inflation that has kept mortgage rates above 7%, which is why the 10-Year fell to about 4.88%. Factories stayed busy: the ISM manufacturing index rose to 55.5 in October from 54.5, with its prices index at 75.2 from 77.9.\n\nI bonds got a raise (chart). Treasury's new rate is 5.51%, up from 4.26%, the highest since the window that ended in April 2023, for bonds bought through April 30. The 1.40% fixed part, which stays for the life of the bond, is the highest since November 2006. The limits matter: $10,000 a year per person, no cashing in for 12 months, and you lose the last three months of interest if you cash in before five years. For a buyer saving a down payment, that is a slow lane, not a checking account.\n\nOne correction: Market Briefs stamped gold at $3,910, Brent at $109.69 and the 10-Year at 4.92% as Friday's 4 PM ET levels. The gold and Brent figures were Monday's overnight prices, measured against Friday's settlements. Treasury's Friday close was 4.94%.",
+    "homebuilder": "U.S. home prices slipped below a year ago and rents rose above it, both for the first time in three years. In our five cities that flip is at least a year old, and rents are now rising faster.",
+    "commentary": "Today's theme is the flip. Redfin says the typical U.S. home sold for $389,601 in the four weeks to Oct. 25, down 0.1% from a year earlier, the first annual decline in more than three years. Apartment List says the national median rent, $1,384, is now 0.1% above a year ago, its first annual gain in over three years. Both are year-over-year changes; Market Briefs called them last month's moves, and October rents actually slipped 0.3% month to month.\n\nHere the flip is at least a year old (chart). Zillow's September data has rents up in all five of our cities, from 3.9% in Hayward to 10.1% in Milpitas, and typical values down in all five, from 1.2% in Milpitas to 2.4% in Hayward and Newark. A year earlier, values were falling 3% to 7% and rents rising 1% to 3.5%, so the declines are shrinking while rent gains speed up. Next door the picture is mixed: Redfin has San Jose sale prices down 4.9%, the second steepest drop among big metros, and San Francisco's up 15%.\n\nRates held. Mortgage News Daily's 30-year average is 7.27% and the 15-year 6.92%, unchanged since Friday. At 7.27%, a Fremont buyer at today's $1,329,000 median with 20% down would pay about $7,267 a month in principal and interest, about 2.1 times Zillow's $3,388 typical Fremont rent. The gap is still wide, but it is closing from both ends.\n\nThe board wide table is 2,457, from 2,482 Monday, with 155 coming soon and 139 brand new. The five city ledger is 648, from 650: Fremont (221) added one, Union City (61) dropped three, and Hayward (183), Milpitas (99) and Newark (84) held. Coming soon rose to 73 from 67, led by Fremont's 34, so more supply is on deck.\n\nWhat this means for you: the renewal notice is the new open house. Renters facing increases like these should price a purchase now, while values sit below last year; 272 of the 575 homes on the market in our five cities are priced under a million. Sellers, buyers can see these numbers too, and 180 homes have been sitting 60 days or longer, so price to this year's market, not last year's.\n\n• Board wide: 2,457 listings across our 15 city table, counting active and in contract together, with 155 coming soon and 139 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 648 listings across Fremont, Hayward, Milpitas, Newark and Union City. 575 are on the market and 73 are coming soon.\n• Fremont: 221 live, 165 active, 34 coming soon, 21 brand new and 1 back on the market. The median on market list price is $1,329,000 at $825 a square foot, and the typical active listing has been out 36 days.\n• The rest of the ledger: Hayward 183, Milpitas 99, Newark 84, Union City 61.\n• Across all five cities the median is $1,075,000 at $668 a square foot. 272 homes are priced under a million, and 180 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/ibond-rate-110226.png",
-      "alt": "Line chart of the rate on new Series I bonds by six-month issue window, from 6.89% in November 2022 to 5.51% in November 2026",
-      "caption": "New I bonds pay 5.51% for bonds issued through April 30, 2027, up from 4.26%. The 1.40% fixed part is the highest since November 2006.",
-      "source": "U.S. Treasury, TreasuryDirect"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/price-rent-flip-110326.png",
+      "alt": "Paired bar chart of the change from a year earlier in September 2026: rents up 6.0% in Fremont, 3.9% in Hayward, 10.1% in Milpitas, 4.7% in Newark and 7.8% in Union City, with typical home values down 1.5%, 2.4%, 1.2%, 2.4% and 1.9%; U.S. rents up 2.7% and values up 1.2%",
+      "caption": "In all five of our cities, typical rents rose over the year to September while typical home values fell. Nationally, both rose: rents 2.7% and values 1.2%.",
+      "source": "Zillow Research, Zillow Observed Rent Index and Zillow Home Value Index, September 2026"
     }
   },
+  "stocks": {
+    "sp500": "7,541.40 (-0.51%)",
+    "dow": "51,983.98 (+0.41%)",
+    "nasdaq": "25,164.31 (-1.07%)",
+    "note": "Levels are Monday, November 2 at the closing bell. Live at 8:00 AM PT Tuesday: S&P 500 up 0.58%, Dow down 0.20%, Nasdaq up 1.03%.",
+    "news": "Tech is bouncing after the Nasdaq's lowest close since July 30. As of 8:00 AM PT the Nasdaq is up 1.03%, the S&P 500 up 0.58% and the Dow down 0.20%. Monday was a split day: the Dow gained 0.41% while the Nasdaq fell 1.07% and the S&P 500 0.51%.\n\nApple and Palantir reported after Monday's close, and both are lower anyway. Apple, under CEO John Ternus, posted record September quarter revenue of $114.5 billion, up 12%, with iPhone sales up 17% to $57.6 billion and Greater China up 21%; the stock is down 2.7%. Palantir's revenue rose 96% to $2.31 billion, and its U.S. commercial sales, up 148% to $984 million, passed its U.S. government sales for the first time. Its shares are down 1.5%, a reminder that a great quarter is not the same as a surprise."
+  },
+  "economy": {
+    "us10year": "4.91% (-0.03%)",
+    "gold": "$3,969.60 (+1.81%)",
+    "silver": "$50.89 (+3.27%)",
+    "wti": "$104.77 (-7.63%)",
+    "oil_label": "Brent Crude",
+    "note": "Levels are Monday, November 2: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement, compared with January's $113.43 Friday settlement. Live at 8:00 AM PT Tuesday: 10-Year 4.93%, gold $3,947.00 (-0.57%), silver $49.98 (-1.79%), Brent $103.10 (-1.59%).",
+    "commentary": "Oil's slide held. Brent settled Monday at $104.77, down 7.6%, after Iran signaled talks that could reopen the Strait of Hormuz, and it is down another 1.59% this morning near $103.10. Cheaper oil would help with inflation, which ran 3.7% in September with core at 2.6%. With inflation there, two Fed officials voted for a rate hike last week, and mortgage rates are still above 7%.\n\nMetals bounced Monday, with gold up 1.81% to $3,969.60 and silver up 3.27% to $50.89 after Friday's selloff, and both are giving some back this morning. One correction: Market Briefs stamped gold at $3,934 and Brent at $104.86 as Monday's 4 PM ET levels. Both were Tuesday's overnight prices measured against Monday's settlements, and its 10-Year moved down 0.03 on Monday, not up 0.02."
+  },
   "crypto": {
-    "btc": "$77,132 (-0.99%)",
-    "eth": "$2,256.01 (-0.22%)",
-    "xrp": "$1.24 (-0.43%)",
-    "commentary": "Stocks got the oil memo; crypto did not. Bitcoin is down 0.99% over 24 hours near $77,132, Ether is down 0.22% and XRP is down 0.43%, live from CoinGecko at 10:20 AM PT.\n\nBinance reopened withdrawals Sunday and says it has restored backing for about 90% of the roughly $6.3 billion taken last week; the rest is in less liquid tokens it is still buying. That is backing, not recovery. The FBI has attributed the theft to North Korea."
+    "btc": "$77,635 (+0.28%)",
+    "eth": "$2,297.86 (+1.17%)",
+    "xrp": "$1.28 (+2.53%)",
+    "commentary": "Bitcoin is taking the exodus calmly: it is up 0.28% over 24 hours near $77,635, Ether is up 1.17% and XRP is up 2.53%, live from CoinGecko at 8:00 AM PT.\n\nBinance reopened withdrawals Sunday after last week's record $6.3 billion hack, and in the first 9.5 hours customers pulled out $4.65 billion and put in $1.01 billion, a $3.64 billion net outflow (chart). That was 2.1% of the exchange's $171 billion in assets, and Binance says it has now covered about 95% of the stolen amount, up from 90%. Covered is not recovered: Binance is shouldering the loss itself, though Circle says it has frozen more than $1.1 billion in USDC tied to the theft.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/binance-outflow-110326.png",
+      "alt": "Horizontal bar chart: withdrawn $4.65 billion, deposited $1.01 billion and net outflow $3.64 billion in the 9.5 hours after Binance reopened withdrawals, with side notes that the outflow was 2.1% of its $171 billion in assets, $6.3 billion was stolen, and Binance says about 95% is covered",
+      "caption": "Customers withdrew $4.65 billion and deposited $1.01 billion in the first 9.5 hours after Binance reopened withdrawals, a $3.64 billion net outflow, about 2.1% of its $171 billion in assets.",
+      "source": "Binance, via CNBC (Nov. 1, 2026)"
+    }
   },
   "sources": [
-    "https://www.bls.gov/news.release/cesan.nr0.htm",
-    "https://www.bls.gov/cex/tables.htm",
-    "https://www.census.gov/construction/c30/pdf/release.pdf",
-    "https://www.treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/",
-    "https://www.treasurydirect.gov/savings-bonds/i-bonds/",
-    "https://www.sec.gov/Archives/edgar/data/0002115436/000211543626000018/livef8k3q26991.htm",
-    "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/a09302026ex9918-k.htm",
+    "https://www.redfin.com/news/housing-market-update-home-sale-prices-fall-october-2026/",
+    "https://www.apartmentlist.com/research/national-rent-data",
+    "https://www.zillow.com/research/data/",
+    "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html",
+    "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm",
+    "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
     "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html",
-    "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
-    "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://www.cnbc.com/quotes/@GC.1",
@@ -67,6 +57,6 @@
     "https://www.cnbc.com/quotes/@LCO.1",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/250ec076-ea07-45d3-aaf8-2ca4f0035bd0",
-  "qr_code_path": "note-qr-250ec076.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/62c30deb-b39d-42f1-976c-1d0b730a386a",
+  "qr_code_path": "note-qr-62c30deb.png"
 }
