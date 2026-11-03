@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/03/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/03/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 3, 2026: U.S. home prices dipped and rents rose from a year ago, our five cities flipped first, the 30-year held at 7.27%, and Binance users pulled $3.64 billion.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+home prices, rents, rent versus buy, Redfin, Apartment List, Zillow, mortgage rates, Mortgage News Daily, Apple earnings, Palantir, oil, Brent crude, inflation, CPI, gold, silver, Bitcoin, Binance, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
