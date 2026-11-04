@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/04/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/04/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 4, 2026: thank you for voting, Prop. 37 is projected to pass, the 30-year eased to 7.25%, AMD's data center sales nearly doubled, and gas set an Election Day record.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Prop. 37, Proposition 37, election results, CalHFA, new homes, mortgage rates, Mortgage News Daily, AMD earnings, data center, gas prices, EIA, Brent crude, gold, silver, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
