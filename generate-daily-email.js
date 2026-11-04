@@ -480,6 +480,23 @@ function generateHTML(data) {
           <tr>
             <td class="email-body" style="padding: 32px 40px 36px 40px;">
 
+              ${data.top_note && data.top_note.title ? `<!-- TOP NOTE (optional editorial line, added 2026-11-04) -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 26px 0;">
+                <tr>
+                  <td bgcolor="${PAL.ink}" style="background-color: ${PAL.ink}; padding: 22px 26px 14px 26px; border-top: 3px solid ${PAL.gold};">
+                    ${data.top_note.eyebrow ? `<div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: ${PAL.gold}; margin-bottom: 10px;">${String(data.top_note.eyebrow).toUpperCase()}</div>` : ''}
+                    <h2 style="margin: 0 0 12px 0; font-family: ${SERIF}; font-size: 23px; font-weight: 600; line-height: 1.3; color: #ffffff;">${data.top_note.title}</h2>
+                    ${(() => {
+                      const blocks = String(data.top_note.body || '').split('\n\n').map(t => t.trim()).filter(Boolean).map(t => `<div style="font-family: ${SANS}; font-size: 15px; line-height: 1.6; color: #EDEAE2; margin-bottom: 10px;">${t}</div>`);
+                      const im = data.top_note.image;
+                      if (im && im.url) blocks.splice(Math.min(1, blocks.length), 0, `<a href="${im.url}" target="_blank" style="display: block; text-decoration: none; margin: 4px 0 12px 0;"><img src="${im.url}" alt="${im.alt || ''}" width="570" style="width: 100%; max-width: 570px; height: auto; display: block; border: 0;" /></a>`);
+                      return blocks.join('');
+                    })()}
+                    ${data.top_note.source ? `<div style="font-family: ${SANS}; font-size: 12px; color: ${PAL.cardLabel}; margin: 2px 0 6px 0;">${data.top_note.source}</div>` : ''}
+                  </td>
+                </tr>
+              </table>` : ''}
+
               <!-- Local MLS snapshot images -->
               <div style="font-family: ${SANS}; font-size: 11px; font-weight: 700; color: ${PAL.goldDark}; letter-spacing: 2.2px; margin: 0 0 12px 0;">LOCAL MLS SNAPSHOT</div>
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 0 14px 0;">
