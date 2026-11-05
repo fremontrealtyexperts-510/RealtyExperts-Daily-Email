@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/05/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/05/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 5, 2026: Prop. 37 is still projected to pass, the 30-year held at 7.22%, Zillow says rates cooled home sales, South Korea's chip surplus hit a record, and South Bay jobs grew while the East Bay shed some.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Prop. 37, Proposition 37, election results, mortgage rates, Mortgage News Daily, Zillow earnings, South Korea current account, memory chips, ADP jobs, Bay Area jobs, BLS, Brent crude, gold, silver, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
