@@ -1,71 +1,59 @@
 {
-  "date": "11/05/26",
-  "time": "8:55 AM PT",
-  "top_note": {
-    "eyebrow": "Prop. 37 update",
-    "title": "Prop. 37 is still projected to pass.",
-    "body": "The count grew overnight and the margin held. The Secretary of State's semi-official tally as of 7:20 PM PT Wednesday has Prop. 37, the loan program for middle income buyers of newly built homes, at 61.2% Yes (4,783,474 votes) to 38.8% No (3,036,774), about 268,000 more ballots than Wednesday morning. Alameda County is at 67.5% Yes.\n\nMail ballots postmarked by Election Day still count if they arrive within seven days, and the state certifies the result by Dec. 11.",
-    "image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/prop37-status-110526.png",
-      "alt": "Prop. 37 results chart: California statewide Yes 61.2% (4,783,474 votes) to No 38.8% (3,036,774), semi-official count as of 7:20 PM PT Nov. 4, 2026; Bay Area counties Yes: San Francisco 71.8%, Alameda 67.5%, San Mateo 65.4%, Contra Costa 64.6%, Santa Clara 61.2%"
-    },
-    "source": "Source: California Secretary of State, semi-official results."
-  },
+  "date": "11/06/26",
+  "time": "9:33 AM PT",
   "real_estate": {
-    "rate_30year": "7.22%",
-    "rate_15year": "6.86%",
-    "homebuilder": "Rates hold at 7.22%, and Zillow says higher than expected rates cooled home sales.",
-    "commentary": "Mortgage News Daily's 30-year average is 7.22% this morning, unchanged, and the 15-year is 6.86%, up 0.01. Rates kept easing after our Wednesday report went out: the 30-year finished Wednesday at 7.22%, not the 7.25% we printed that morning. At 7.22%, a Fremont buyer at today's $1,299,444 median with 20% down would pay about $7,070 a month in principal and interest, $57 less than at Tuesday's 7.30%.\n\nZillow said the same thing from the other side of the table. Its residential revenue, mostly fees from real estate agents, fell 4% from a year ago to $419 million, which it blamed on higher than expected mortgage rates slowing sales, while rentals grew 26%. Most of its $158 million loss was a $165 million settlement of a shareholder lawsuit over Zillow Offers, its old home buying business. The stock rose 9.43% Wednesday before the report and is down 9.0% this morning.\n\nThe board wide table is 2,443, from 2,438 Wednesday, with 149 coming soon and 129 brand new. The five city ledger is 634, from 642: Fremont (214) fell four, Milpitas (97) three, Hayward (181) and Union City (60) one each, and Newark (82) added one.\n\nWhat this means for you: stocks are falling and the 10-Year is easing this morning, and that tends to reach lender rate sheets within a day. If you are close to locking, ask your lender to watch it with you rather than guess. Sellers, 171 homes in our five cities have been listed 60 days or longer; the market is rewarding the right price, not the hopeful one.\n\n• Board wide: 2,443 listings across our 15 city table, counting active and in contract together, with 149 coming soon and 129 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 634 listings across Fremont, Hayward, Milpitas, Newark and Union City. 567 are on the market and 67 are coming soon.\n• Fremont: 214 live, 163 active, 30 coming soon, 20 brand new and 1 back on the market. The median on market list price is $1,299,444 at $814 a square foot, and the typical active listing has been out 36 days.\n• The rest of the ledger: Hayward 181, Milpitas 97, Newark 82, Union City 60.\n• Across all five cities the median is $1,049,000 at $667 a square foot. 276 homes are priced under a million, and 171 have been sitting 60 days or longer."
+    "rate_30year": "7.17%",
+    "rate_15year": "6.80%",
+    "homebuilder": "Rates eased to 7.17% in Thursday's stock selloff, down from 7.61% a month ago.",
+    "commentary": "Mortgage News Daily's 30-year average finished Thursday at 7.17%, down 0.05, and the 15-year at 6.80%, also down 0.05; Friday's reading was not posted as of 9:33 AM PT. We printed 7.22% Thursday morning, and rates improved through the day as money left stocks for Treasury bonds. At 7.17%, a Fremont buyer at today's $1,299,000 median with 20% down would pay about $7,033 a month in principal and interest, $312 less than at the 7.61% of a month ago.\n\nThe counterweight is Friday's strong jobs report (see Economy). Good news for the economy usually means higher rates, yet the 10-Year was nearly unchanged at 4.85% this morning, about where it closed Thursday.\n\nThe board wide table is 2,464, from 2,443 Thursday, with 147 coming soon and 150 brand new. The five city ledger is 628, from 634: Hayward (178) fell three, Milpitas (95) two, Fremont (213) and Newark (81) one each, and Union City (61) added one.\n\nWhat this means for you: the 0.05 drop is worth about $35 a month on the median Fremont home, so if you are close to locking, ask your lender whether today's jobs news has moved their rate sheet. Buyers counting on company stock for a down payment saw Thursday how fast that number can change; talk with your lender about when to move it to cash. Sellers, 165 homes in our five cities have been listed 60 days or longer.\n\n• Board wide: 2,464 listings across our 15 city table, counting active and in contract together, with 147 coming soon and 150 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 628 listings across Fremont, Hayward, Milpitas, Newark and Union City. 559 are on the market and 69 are coming soon.\n• Fremont: 213 live, 168 active, 30 coming soon and 15 brand new. The median on market list price is $1,299,000 at $798 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 178, Milpitas 95, Newark 81, Union City 61.\n• Across all five cities the median is $1,038,888 at $667 a square foot. 275 homes are priced under a million, and 165 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,688.62 (+1.58%)",
-    "dow": "53,356.12 (+3.03%)",
-    "nasdaq": "25,736.51 (+1.44%)",
-    "note": "Levels are Wednesday, November 4 at the closing bell. Live at 8:55 AM PT Thursday: Dow down 2.36%, S&P 500 down 3.18%, Nasdaq down 4.31%.",
-    "news": "Wednesday's rally is coming undone. As of 8:55 AM PT the Nasdaq is down 4.31%, the S&P 500 down 3.18% and the Dow down 2.36%, led by a selloff in chip and AI stocks: the Philadelphia semiconductor index is down 9.3%. Qualcomm, down 11.3%, reported results after Wednesday's close. Wednesday, the morning after Election Day, the Dow had jumped 3.03% and the S&P 500 1.58%. One day's rally, one day's refund.\n\nThe memory chip boom shows up plainly in South Korea (chart). Its current account surplus hit a record $61.5 billion in September, 4.3 times a year earlier, as goods exports reached $130.7 billion, and the first nine months already total $340.7 billion against $123.1 billion for all of 2025. Samsung and SK hynix, both with U.S. headquarters in San Jose, make most of those chips. Korea's Kospi fell 5.3% Thursday as the selloff spread.",
+    "sp500": "7,353.73 (-4.36%)",
+    "dow": "51,523.06 (-3.44%)",
+    "nasdaq": "24,315.00 (-5.52%)",
+    "note": "Levels are Thursday, November 5 at the closing bell. Live at 9:33 AM PT Friday: Dow 0.00%, S&P 500 up 0.74%, Nasdaq up 1.38%.",
+    "news": "Thursday was the worst day for stocks since April 2025. The S&P 500 fell 4.36% to 7,353.73, the Nasdaq 5.52% to 24,315.00 and the Dow 3.44%, or 1,833 points, to 51,523.06, more than erasing Wednesday's post election rally. The Nasdaq now sits 11.9% below its October 6 record, a correction. The selling started in chips: the Philadelphia semiconductor index fell 12.25%, its worst day since March 2020, on worries that the election results could slow the building of AI data centers.\n\nIt hit close to home (chart). Fremont's Lam Research fell 16.4%, and Milpitas neighbors KLA and Sandisk fell 13.3% and 22.3%; AMD dropped 17.3% and Nvidia 9.3%, both based in Santa Clara. Friday is calmer: as of 9:33 AM PT the Nasdaq is up 1.38%, the S&P 500 up 0.74% and the Dow flat, and Lam has won back 8.6%. One bad day does not make a trend, but it did make a lot of Bay Area stock grants feel smaller.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/korea-surplus-110526.png",
-      "alt": "Bar chart of South Korea's monthly current account surplus in 2026: $13.3 billion in January, $23.2 billion in February, $37.9 billion in March, $28.3 billion in April, $38.6 billion in May, $49.7 billion in June, $42.1 billion in July, $46.1 billion in August and a record $61.5 billion in September, against $14.2 billion in September 2025",
-      "caption": "South Korea's current account surplus hit a record $61.5 billion in September, 4.3 times a year earlier, on memory chip exports.",
-      "source": "Bank of Korea, balance of payments (ECOS), through September 2026"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/bayarea-chip-selloff-110626.png",
+      "alt": "Bar chart of stock price changes on Thursday, November 5, 2026 for Bay Area chip and hardware companies by headquarters city: Sandisk (Milpitas) down 22.3%, Western Digital (San Jose) down 17.4%, AMD (Santa Clara) down 17.3%, Lam Research (Fremont) down 16.4%, Applied Materials (Santa Clara) down 13.6%, KLA (Milpitas) down 13.3%, Broadcom (Palo Alto) down 10.4%, Intel (Santa Clara) down 10.3%, Nvidia (Santa Clara) down 9.3%, Super Micro (San Jose) down 8.5%. Benchmarks: Philadelphia Semiconductor Index down 12.2%, Nasdaq down 5.5%, S&P 500 down 4.4%, Dow down 3.4%.",
+      "caption": "Fremont's Lam Research fell 16.4% Thursday and Milpitas's Sandisk 22.3%, as the chip index had its worst day since March 2020.",
+      "source": "Nasdaq.com closing prices, November 4 and 5, 2026; headquarters from each company's SEC filings"
     }
   },
   "economy": {
-    "us10year": "4.90% (-0.05%)",
-    "gold": "$4,073.00 (+3.37%)",
-    "silver": "$52.28 (+5.08%)",
-    "wti": "$94.62 (-8.67%)",
+    "us10year": "4.84% (-0.06%)",
+    "gold": "$4,113.50 (+0.99%)",
+    "silver": "$52.38 (+0.18%)",
+    "wti": "$98.29 (+3.88%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Wednesday, November 4: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. Live at 8:55 AM PT Thursday: 10-Year 4.83%, gold $4,131.00 (+1.42%), silver $52.77 (+0.94%), Brent $96.85 (+2.36%).",
-    "commentary": "Private employers added 86,000 jobs in October, ADP reported Wednesday, a second solid month, though professional and business services lost 27,000, a third monthly decline in a row. The government's own October jobs report is due Friday.\n\nADP does not allow charts built from its data, so we drew the local version from public BLS figures (chart). Over the year to September, the San Jose metro added 19,900 private jobs, 11,100 of them in education and health, while the East Bay, home to Fremont, Hayward, Newark and Union City, lost 5,700, led by manufacturing (down 5,100) and construction (down 4,400). Education and health led the gains on both sides of the Bay.\n\nOil fell hard Wednesday. Brent settled at $94.62, down 8.67% and back under $100, on hopes the Iran war winds down sooner; it is up 2.36% this morning near $96.85. Gold settled up 3.37% and silver 5.08%. Two corrections: Market Briefs stamped gold at $4,145 (+1.78%) and Brent at $93.62 (-1.06%) as Wednesday's 4 PM ET levels, but both were Thursday's overnight prices measured against Wednesday's settlements, a fourth day running, and Treasury has the 10-Year closing Wednesday at 4.90%, down 0.05, not 4.85%.",
+    "note": "Levels are Thursday, November 5: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. Live at 9:33 AM PT Friday: 10-Year 4.85%, gold $4,068.40 (-1.10%), silver $51.96 (-0.80%), Brent $97.78 (-0.52%).",
+    "commentary": "The government's October jobs report beat forecasts. Employers added 165,000 jobs, more than double the monthly average of the past year (about 74,000), and unemployment slipped to 4.1% from 4.2%, the Bureau of Labor Statistics said Friday. Average hourly earnings rose 0.4% for the month and 3.1% over the year.\n\nLayoff announcements cooled too (chart). Employers announced 43,994 job cuts in October, Challenger, Gray & Christmas reported Thursday, down 71% from 153,074 a year earlier and the fewest for an October since 2023. California still led all states with 10,032, down 29% from a year ago, and technology, at 171,501 so far this year, is the industry with the most cuts in 2026.\n\nTreasury has the 10-Year closing Thursday at 4.84%, down 0.06, as money moved from stocks to bonds. Brent settled at $98.29, up 3.88% after Wednesday's 8.67% drop, gold at $4,113.50, up 0.99%, and silver at $52.38, up 0.18%. Market Briefs did not arrive this morning, so every number in this report comes straight from its source.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/bayarea-jobs-by-industry-110526.png",
-      "alt": "Paired bar chart of private sector job change by industry, September 2025 to September 2026. East Bay (Oakland-Fremont-Berkeley, Alameda and Contra Costa counties) total down 5,700: education and health up 5,100, leisure and hospitality up 1,900, trade transport and utilities up 2,000, other services up 800, construction and mining down 4,400, professional and business down 2,100, financial down 1,700, manufacturing down 5,100, information down 2,200. San Jose metro total up 19,900: education and health up 11,100, leisure and hospitality up 2,500, trade up 1,100, other services up 200, construction and mining up 4,000, professional and business down 200, financial down 700, manufacturing up 2,600, information down 700",
-      "caption": "Over the year to September, the San Jose metro added 19,900 private jobs while the East Bay lost 5,700; education and health led the gains on both sides of the Bay.",
-      "source": "U.S. Bureau of Labor Statistics, Current Employment Statistics, State and Metro Area, not seasonally adjusted, September 2026 preliminary"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/challenger-layoffs-110626.png",
+      "alt": "Bar chart of job cuts announced by U.S. employers each month, October 2025 to October 2026: 153K, 71K, 36K, 108K, 48K, 61K, 83K, 97K, 46K, 33K, 53K, 43K and 44K, down 71% from October 2025. California led all states in October with 10,032 cuts, down 29% from 14,206 a year earlier.",
+      "caption": "Announced job cuts fell to 43,994 in October, down 71% from a year earlier and the fewest for an October since 2023.",
+      "source": "Challenger, Gray & Christmas, Job Cut Announcement Report, October 2026"
     }
   },
   "crypto": {
-    "btc": "$76,385 (-5.09%)",
-    "eth": "$2,266.37 (-6.87%)",
-    "xrp": "$1.24 (-5.24%)",
-    "commentary": "Crypto is following tech lower. Bitcoin is down 5.09% over 24 hours near $76,385, back under $80,000 a day after reclaiming it, with Ether down 6.87% near $2,266.37 and XRP down 5.24%, live from CoinGecko at 8:55 AM PT. Market Briefs printed all three up about 0.22% at Wednesday's close, the same move for three different coins, so we did not use its numbers. Bitcoin's stay above $80,000 lasted about as long as the post election rally."
+    "btc": "$75,796 (-0.34%)",
+    "eth": "$2,228.49 (-1.18%)",
+    "xrp": "$1.19 (-4.04%)",
+    "commentary": "Crypto took its hit early and has been quiet since. Bitcoin is down 0.34% over 24 hours near $75,796, Ether down 1.18% near $2,228.49 and XRP down 4.04% near $1.19, live from CoinGecko at 9:33 AM PT. Bitcoin had already dropped about 5% by the time we wrote Thursday's report and is within 1% of that level now, through stocks' worst afternoon since April 2025. For once, crypto was the calm one in the room."
   },
   "sources": [
-    "https://electionresults.sos.ca.gov/returns/ballot-measures",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.sec.gov/Archives/edgar/data/1617640/000161764026000068/q32026991.htm",
-    "https://ecos.bok.or.kr/",
-    "https://adpemploymentreport.com/",
-    "https://www.bls.gov/sae/",
+    "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+    "https://www.nasdaq.com/market-activity/index/sox",
+    "https://www.sec.gov/edgar/search/",
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "https://www.challengergray.com/blog/october-layoffs-at-three-year-low-seasonal-hiring-plans-up-26/",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
-    "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
-    "https://www.cnbc.com/quotes/.SOX",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/ad06497d-992f-4531-a126-1e695858a220",
-  "qr_code_path": "note-qr-ad06497d.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/cdd03475-351f-4677-afca-c1e932d7b602",
+  "qr_code_path": "note-qr-cdd03475.png"
 }
