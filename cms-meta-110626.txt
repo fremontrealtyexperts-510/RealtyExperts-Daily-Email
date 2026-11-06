@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/06/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/06/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 6, 2026: the 30-year eased to 7.17% as stocks had their worst day since April 2025, Fremont's Lam Research fell 16.4% in a chip rout, October added 165,000 jobs, and layoff announcements fell 71% from a year ago.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, Mortgage News Daily, stock market selloff, chip stocks, Lam Research, KLA, Sandisk, Nvidia, AMD, Philadelphia semiconductor index, October jobs report, BLS, Challenger layoffs, job cuts, Brent crude, gold, silver, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
