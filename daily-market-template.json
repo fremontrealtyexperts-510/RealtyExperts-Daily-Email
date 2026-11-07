@@ -1,59 +1,68 @@
 {
-  "date": "11/06/26",
-  "time": "9:33 AM PT",
+  "date": "11/07/26",
+  "time": "11:25 AM PT",
   "real_estate": {
     "rate_30year": "7.17%",
-    "rate_15year": "6.80%",
-    "homebuilder": "Rates eased to 7.17% in Thursday's stock selloff, down from 7.61% a month ago.",
-    "commentary": "Mortgage News Daily's 30-year average finished Thursday at 7.17%, down 0.05, and the 15-year at 6.80%, also down 0.05; Friday's reading was not posted as of 9:33 AM PT. We printed 7.22% Thursday morning, and rates improved through the day as money left stocks for Treasury bonds. At 7.17%, a Fremont buyer at today's $1,299,000 median with 20% down would pay about $7,033 a month in principal and interest, $312 less than at the 7.61% of a month ago.\n\nThe counterweight is Friday's strong jobs report (see Economy). Good news for the economy usually means higher rates, yet the 10-Year was nearly unchanged at 4.85% this morning, about where it closed Thursday.\n\nThe board wide table is 2,464, from 2,443 Thursday, with 147 coming soon and 150 brand new. The five city ledger is 628, from 634: Hayward (178) fell three, Milpitas (95) two, Fremont (213) and Newark (81) one each, and Union City (61) added one.\n\nWhat this means for you: the 0.05 drop is worth about $35 a month on the median Fremont home, so if you are close to locking, ask your lender whether today's jobs news has moved their rate sheet. Buyers counting on company stock for a down payment saw Thursday how fast that number can change; talk with your lender about when to move it to cash. Sellers, 165 homes in our five cities have been listed 60 days or longer.\n\n• Board wide: 2,464 listings across our 15 city table, counting active and in contract together, with 147 coming soon and 150 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 628 listings across Fremont, Hayward, Milpitas, Newark and Union City. 559 are on the market and 69 are coming soon.\n• Fremont: 213 live, 168 active, 30 coming soon and 15 brand new. The median on market list price is $1,299,000 at $798 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 178, Milpitas 95, Newark 81, Union City 61.\n• Across all five cities the median is $1,038,888 at $667 a square foot. 275 homes are priced under a million, and 165 have been sitting 60 days or longer."
+    "rate_15year": "6.83%",
+    "homebuilder": "Rates held at 7.17% Friday as the jobs report raised the odds of a December Fed hike.",
+    "commentary": "Mortgage News Daily's 30-year average held at 7.17% Friday, unchanged on the day, and the 15-year rose 0.03 to 6.83%. MND does not post on weekends, so these are Friday's rates. The 30-year is 0.10 lower than a week ago and 0.39 lower than a month ago (7.56%). At 7.17%, a Fremont buyer at today's $1,298,000 median with 20% down would pay about $7,027 a month in principal and interest, $276 less than a month ago.\n\nFriday's strong jobs report (see Economy) moved the outlook for the Federal Reserve. Before the report, CME's FedWatch tool put the chance of a quarter point increase at the December 9 meeting at 66.4%. By our math from Friday's settlement in fed funds futures, it is now about 77%. The Fed's target range is 3.75% to 4.00%. The Fed does not set mortgage rates; they track the 10-Year Treasury, which edged up to 4.86% Friday. But a December increase would make it harder for rates to keep falling.\n\nPaychecks are the other half of a buyer's budget (chart). Average hourly pay rose 3.1% over the year to October, while consumer prices were up 3.7% in the year to September, the latest reading. Prices have risen faster than pay in each of the six latest months of data, April through September. Before this year, the last month that happened was April 2023.\n\nThe board wide table is 2,456, from 2,464 Friday, with 145 coming soon and 179 brand new. The five city ledger is 625, from 628: Milpitas (93) fell two, Fremont (212) and Newark (80) one each, Hayward (179) added one, and Union City (61) held.\n\nWhat this means for you: if you are under contract or close to it, ask your lender what a lock through early December would cost, since the next Fed meeting lands December 9. Every quarter point on the median Fremont home is about $176 a month. Sellers, 163 homes in our five cities have been listed 60 days or longer.\n\n• Board wide: 2,456 listings across our 15 city table, counting active and in contract together, with 145 coming soon and 179 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 625 listings across Fremont, Hayward, Milpitas, Newark and Union City. 555 are on the market and 70 are coming soon.\n• Fremont: 212 live, 167 active, 29 coming soon and 16 brand new. The median on market list price is $1,298,000 at $798 a square foot, and the typical active listing has been out 33 days.\n• The rest of the ledger: Hayward 179, Milpitas 93, Newark 80, Union City 61.\n• Across all five cities the median is $1,020,000 at $665 a square foot. 276 homes are priced under a million, and 163 have been sitting 60 days or longer.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/pay-vs-prices-110726.png",
+      "alt": "Line chart of the change from a year earlier in average hourly pay and in consumer prices, January 2022 to October 2026. Prices peaked near 9.1% in June 2022 while pay peaked at 5.9% in March 2022. Pay grew faster than prices from May 2023 to March 2026. Since April 2026 prices have run ahead again: 3.7% in September against pay of 3.1% in October.",
+      "caption": "Average hourly pay rose 3.1% over the year to October; consumer prices rose 3.7% in the year to September.",
+      "source": "U.S. Bureau of Labor Statistics: average hourly earnings, all private employees (CES0500000003) and CPI-U, all items (CUUR0000SA0)"
+    }
   },
   "stocks": {
-    "sp500": "7,353.73 (-4.36%)",
-    "dow": "51,523.06 (-3.44%)",
-    "nasdaq": "24,315.00 (-5.52%)",
-    "note": "Levels are Thursday, November 5 at the closing bell. Live at 9:33 AM PT Friday: Dow 0.00%, S&P 500 up 0.74%, Nasdaq up 1.38%.",
-    "news": "Thursday was the worst day for stocks since April 2025. The S&P 500 fell 4.36% to 7,353.73, the Nasdaq 5.52% to 24,315.00 and the Dow 3.44%, or 1,833 points, to 51,523.06, more than erasing Wednesday's post election rally. The Nasdaq now sits 11.9% below its October 6 record, a correction. The selling started in chips: the Philadelphia semiconductor index fell 12.25%, its worst day since March 2020, on worries that the election results could slow the building of AI data centers.\n\nIt hit close to home (chart). Fremont's Lam Research fell 16.4%, and Milpitas neighbors KLA and Sandisk fell 13.3% and 22.3%; AMD dropped 17.3% and Nvidia 9.3%, both based in Santa Clara. Friday is calmer: as of 9:33 AM PT the Nasdaq is up 1.38%, the S&P 500 up 0.74% and the Dow flat, and Lam has won back 8.6%. One bad day does not make a trend, but it did make a lot of Bay Area stock grants feel smaller.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/bayarea-chip-selloff-110626.png",
-      "alt": "Bar chart of stock price changes on Thursday, November 5, 2026 for Bay Area chip and hardware companies by headquarters city: Sandisk (Milpitas) down 22.3%, Western Digital (San Jose) down 17.4%, AMD (Santa Clara) down 17.3%, Lam Research (Fremont) down 16.4%, Applied Materials (Santa Clara) down 13.6%, KLA (Milpitas) down 13.3%, Broadcom (Palo Alto) down 10.4%, Intel (Santa Clara) down 10.3%, Nvidia (Santa Clara) down 9.3%, Super Micro (San Jose) down 8.5%. Benchmarks: Philadelphia Semiconductor Index down 12.2%, Nasdaq down 5.5%, S&P 500 down 4.4%, Dow down 3.4%.",
-      "caption": "Fremont's Lam Research fell 16.4% Thursday and Milpitas's Sandisk 22.3%, as the chip index had its worst day since March 2020.",
-      "source": "Nasdaq.com closing prices, November 4 and 5, 2026; headquarters from each company's SEC filings"
-    }
+    "sp500": "7,376.86 (+0.31%)",
+    "dow": "51,285.73 (-0.46%)",
+    "nasdaq": "24,579.43 (+1.09%)",
+    "note": "Levels are Friday, November 6 at the closing bell. Markets are closed for the weekend.",
+    "news": "Stocks steadied Friday after Thursday's selloff. The Nasdaq rose 1.09% to 24,579.43 and the S&P 500 0.31% to 7,376.86, while the Dow slipped 0.46%, or 237 points, to 51,285.73. For the week the Nasdaq lost 3.37%, the S&P 500 2.68% and the Dow 0.94%. Thursday's 4.36% drop in the S&P 500 was bigger than the whole week's loss; Wednesday's rally and Friday's bounce made back part of it.\n\nA strong jobs report is good news for paychecks, and it also raised the odds of a Fed rate increase in December (see Real Estate)."
   },
   "economy": {
-    "us10year": "4.84% (-0.06%)",
-    "gold": "$4,113.50 (+0.99%)",
-    "silver": "$52.38 (+0.18%)",
-    "wti": "$98.29 (+3.88%)",
+    "us10year": "4.86% (+0.02%)",
+    "gold": "$4,074.90 (-0.94%)",
+    "silver": "$51.94 (-0.83%)",
+    "wti": "$98.32 (+0.03%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Thursday, November 5: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. Live at 9:33 AM PT Friday: 10-Year 4.85%, gold $4,068.40 (-1.10%), silver $51.96 (-0.80%), Brent $97.78 (-0.52%).",
-    "commentary": "The government's October jobs report beat forecasts. Employers added 165,000 jobs, more than double the monthly average of the past year (about 74,000), and unemployment slipped to 4.1% from 4.2%, the Bureau of Labor Statistics said Friday. Average hourly earnings rose 0.4% for the month and 3.1% over the year.\n\nLayoff announcements cooled too (chart). Employers announced 43,994 job cuts in October, Challenger, Gray & Christmas reported Thursday, down 71% from 153,074 a year earlier and the fewest for an October since 2023. California still led all states with 10,032, down 29% from a year ago, and technology, at 171,501 so far this year, is the industry with the most cuts in 2026.\n\nTreasury has the 10-Year closing Thursday at 4.84%, down 0.06, as money moved from stocks to bonds. Brent settled at $98.29, up 3.88% after Wednesday's 8.67% drop, gold at $4,113.50, up 0.99%, and silver at $52.38, up 0.18%. Market Briefs did not arrive this morning, so every number in this report comes straight from its source.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/challenger-layoffs-110626.png",
-      "alt": "Bar chart of job cuts announced by U.S. employers each month, October 2025 to October 2026: 153K, 71K, 36K, 108K, 48K, 61K, 83K, 97K, 46K, 33K, 53K, 43K and 44K, down 71% from October 2025. California led all states in October with 10,032 cuts, down 29% from 14,206 a year earlier.",
-      "caption": "Announced job cuts fell to 43,994 in October, down 71% from a year earlier and the fewest for an October since 2023.",
-      "source": "Challenger, Gray & Christmas, Job Cut Announcement Report, October 2026"
-    }
+    "note": "Levels are Friday, November 6: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. Markets are closed for the weekend.",
+    "commentary": "Here is what was inside Friday's jobs report. Employers added 165,000 jobs in October, the third strongest month this year after March (214,000) and August (186,000), and unemployment eased to 4.1% from 4.2%, the Bureau of Labor Statistics said (chart).\n\nProfessional and business services led with 70,000 new jobs, followed by health care and social assistance at 55,100 and transportation and warehousing at 24,800 (chart). Leisure and hospitality, which covers restaurants, bars and hotels, lost 13,000, and wholesale trade lost 9,100. Construction slipped 3,000. These are first estimates, and BLS revises each month twice.\n\nTreasury has the 10-Year at 4.86% Friday, up 0.02 after the report. Gold settled at $4,074.90, down 0.94% on the day but up 4.5% for the week; silver at $51.94, down 0.83%; and Brent at $98.32, up 0.03%. It is Saturday, so there is no Market Briefs newsletter, and every number in this report comes straight from its source.",
+    "feature_images": [
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/jobs-monthly-110726.png",
+        "alt": "Bar chart of the net change in U.S. nonfarm payroll jobs each month from January 2023 to October 2026. October 2026 added 165,000 jobs. Months with job losses include October 2025 (140,000 fewer) and February 2026 (156,000 fewer). Unemployment was 4.1% in October, down from 4.2% in September.",
+        "caption": "Employers added 165,000 jobs in October, and unemployment eased to 4.1%.",
+        "source": "U.S. Bureau of Labor Statistics, Employment Situation, October 2026"
+      },
+      {
+        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/jobs-by-sector-110726.png",
+        "alt": "Bar chart of the change in U.S. jobs from September to October 2026 by industry: professional and business services up 70,000, health care and social assistance up 55,100, transportation and warehousing up 24,800, manufacturing up 19,000, financial activities up 7,000, government, retail trade and other services up 6,000 each, utilities up 100, mining and logging and information down 1,000 each, private education down 2,000, construction down 3,000, wholesale trade down 9,100 and leisure and hospitality down 13,000.",
+        "caption": "Professional and business services added the most jobs in October; leisure and hospitality lost the most.",
+        "source": "U.S. Bureau of Labor Statistics, Employment Situation, October 2026"
+      }
+    ]
   },
   "crypto": {
-    "btc": "$75,796 (-0.34%)",
-    "eth": "$2,228.49 (-1.18%)",
-    "xrp": "$1.19 (-4.04%)",
-    "commentary": "Crypto took its hit early and has been quiet since. Bitcoin is down 0.34% over 24 hours near $75,796, Ether down 1.18% near $2,228.49 and XRP down 4.04% near $1.19, live from CoinGecko at 9:33 AM PT. Bitcoin had already dropped about 5% by the time we wrote Thursday's report and is within 1% of that level now, through stocks' worst afternoon since April 2025. For once, crypto was the calm one in the room."
+    "btc": "$75,738 (+0.03%)",
+    "eth": "$2,232.59 (+0.19%)",
+    "xrp": "$1.16 (-1.86%)",
+    "commentary": "Crypto is quiet into the weekend. Bitcoin is up 0.03% over 24 hours near $75,738, Ether up 0.19% near $2,232.59 and XRP down 1.86% near $1.16, live from CoinGecko at 11:11 AM PT. Bitcoin is within about $60 of where it stood when we wrote Friday's report, through the jobs report and a mixed day for stocks."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
-    "https://www.nasdaq.com/market-activity/index/sox",
-    "https://www.sec.gov/edgar/search/",
     "https://www.bls.gov/news.release/empsit.nr0.htm",
-    "https://www.challengergray.com/blog/october-layoffs-at-three-year-low-seasonal-hiring-plans-up-26/",
+    "https://www.bls.gov/cpi/",
+    "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+    "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.html",
+    "https://www.newyorkfed.org/markets/reference-rates/effr",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+    "https://www.cnbc.com/quotes/.SPX",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/cdd03475-351f-4677-afca-c1e932d7b602",
-  "qr_code_path": "note-qr-cdd03475.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/5bbfcf90-7df7-4850-b24f-9f2e9f3c0b78",
+  "qr_code_path": "note-qr-5bbfcf90.png"
 }
