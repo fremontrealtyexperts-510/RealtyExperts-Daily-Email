@@ -1,68 +1,53 @@
 {
-  "date": "11/07/26",
-  "time": "11:25 AM PT",
+  "date": "11/09/26",
+  "time": "9:30 AM PT",
   "real_estate": {
     "rate_30year": "7.17%",
     "rate_15year": "6.83%",
-    "homebuilder": "Rates held at 7.17% Friday as the jobs report raised the odds of a December Fed hike.",
-    "commentary": "Mortgage News Daily's 30-year average held at 7.17% Friday, unchanged on the day, and the 15-year rose 0.03 to 6.83%. MND does not post on weekends, so these are Friday's rates. The 30-year is 0.10 lower than a week ago and 0.39 lower than a month ago (7.56%). At 7.17%, a Fremont buyer at today's $1,298,000 median with 20% down would pay about $7,027 a month in principal and interest, $276 less than a month ago.\n\nFriday's strong jobs report (see Economy) moved the outlook for the Federal Reserve. Before the report, CME's FedWatch tool put the chance of a quarter point increase at the December 9 meeting at 66.4%. By our math from Friday's settlement in fed funds futures, it is now about 77%. The Fed's target range is 3.75% to 4.00%. The Fed does not set mortgage rates; they track the 10-Year Treasury, which edged up to 4.86% Friday. But a December increase would make it harder for rates to keep falling.\n\nPaychecks are the other half of a buyer's budget (chart). Average hourly pay rose 3.1% over the year to October, while consumer prices were up 3.7% in the year to September, the latest reading. Prices have risen faster than pay in each of the six latest months of data, April through September. Before this year, the last month that happened was April 2023.\n\nThe board wide table is 2,456, from 2,464 Friday, with 145 coming soon and 179 brand new. The five city ledger is 625, from 628: Milpitas (93) fell two, Fremont (212) and Newark (80) one each, Hayward (179) added one, and Union City (61) held.\n\nWhat this means for you: if you are under contract or close to it, ask your lender what a lock through early December would cost, since the next Fed meeting lands December 9. Every quarter point on the median Fremont home is about $176 a month. Sellers, 163 homes in our five cities have been listed 60 days or longer.\n\n• Board wide: 2,456 listings across our 15 city table, counting active and in contract together, with 145 coming soon and 179 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 625 listings across Fremont, Hayward, Milpitas, Newark and Union City. 555 are on the market and 70 are coming soon.\n• Fremont: 212 live, 167 active, 29 coming soon and 16 brand new. The median on market list price is $1,298,000 at $798 a square foot, and the typical active listing has been out 33 days.\n• The rest of the ledger: Hayward 179, Milpitas 93, Newark 80, Union City 61.\n• Across all five cities the median is $1,020,000 at $665 a square foot. 276 homes are priced under a million, and 163 have been sitting 60 days or longer.",
-    "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/pay-vs-prices-110726.png",
-      "alt": "Line chart of the change from a year earlier in average hourly pay and in consumer prices, January 2022 to October 2026. Prices peaked near 9.1% in June 2022 while pay peaked at 5.9% in March 2022. Pay grew faster than prices from May 2023 to March 2026. Since April 2026 prices have run ahead again: 3.7% in September against pay of 3.1% in October.",
-      "caption": "Average hourly pay rose 3.1% over the year to October; consumer prices rose 3.7% in the year to September.",
-      "source": "U.S. Bureau of Labor Statistics: average hourly earnings, all private employees (CES0500000003) and CPI-U, all items (CUUR0000SA0)"
-    }
+    "homebuilder": "Rates sit at 7.17% as futures traders lift the odds of a December Fed hike to about 82%.",
+    "commentary": "Mortgage News Daily's 30-year average is 7.17% and the 15-year 6.83%. Those are Friday's rates; Monday's reading posts this afternoon. The 30-year is 0.10 lower than a week ago and 0.39 lower than a month ago (7.56%). At 7.17%, a Fremont buyer at today's $1,286,500 median with 20% down would pay about $6,965 a month in principal and interest, $274 less than at last month's rate.\n\nThe strong jobs report (see Economy) is still working through the Fed outlook. By our math from fed funds futures at 9:00 AM PT, traders now put the chance of a quarter point increase at the December 9 meeting at about 82%, up from the high 70s after Friday's settlement. The Fed's target range is 3.75% to 4.00%. The Fed does not set mortgage rates; they follow the 10-Year Treasury, which is near 4.88% this morning, about where it was Friday.\n\nThe board wide table is 2,451, from 2,456 in Saturday's report, with 140 coming soon and 157 brand new. The five city ledger is 624, from 625: Newark (78) fell two and Hayward (178) one, Milpitas (94) and Union City (62) added one each, and Fremont (212) held. Fremont's median on market list price eased to $1,286,500 from $1,298,000.\n\nWhat this means for you: if you are under contract or close to it, ask your lender what a lock through early December would cost, since the Fed meets December 9. Every quarter point on the median Fremont home is about $175 a month. Sellers, 175 homes in our five cities have now been listed 60 days or longer, up from 163 in Saturday's report.\n\n• Board wide: 2,451 listings across our 15 city table, counting active and in contract together, with 140 coming soon and 157 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 624 listings across Fremont, Hayward, Milpitas, Newark and Union City. 560 are on the market and 64 are coming soon.\n• Fremont: 212 live, 168 active, 28 coming soon and 15 brand new. The median on market list price is $1,286,500 at $802 a square foot, and the typical active listing has been out 35 days.\n• The rest of the ledger: Hayward 178, Milpitas 94, Newark 78, Union City 62.\n• Across all five cities the median is $1,022,475 at $665 a square foot. 278 homes are priced under a million, and 175 have been sitting 60 days or longer."
   },
   "stocks": {
-    "sp500": "7,376.86 (+0.31%)",
-    "dow": "51,285.73 (-0.46%)",
-    "nasdaq": "24,579.43 (+1.09%)",
-    "note": "Levels are Friday, November 6 at the closing bell. Markets are closed for the weekend.",
-    "news": "Stocks steadied Friday after Thursday's selloff. The Nasdaq rose 1.09% to 24,579.43 and the S&P 500 0.31% to 7,376.86, while the Dow slipped 0.46%, or 237 points, to 51,285.73. For the week the Nasdaq lost 3.37%, the S&P 500 2.68% and the Dow 0.94%. Thursday's 4.36% drop in the S&P 500 was bigger than the whole week's loss; Wednesday's rally and Friday's bounce made back part of it.\n\nA strong jobs report is good news for paychecks, and it also raised the odds of a Fed rate increase in December (see Real Estate)."
+    "sp500": "7,544.41 (+2.27%)",
+    "dow": "52,336.11 (+2.05%)",
+    "nasdaq": "25,223.41 (+2.62%)",
+    "note": "Levels are live at 9:13 AM PT Monday, November 9, compared with Friday's close.",
+    "news": "Stocks are bouncing back to start the week. At 9:13 AM PT the S&P 500 is up 2.27% at 7,544.41, the Nasdaq 2.62% at 25,223.41 and the Dow 2.05%, or about 1,050 points, at 52,336.11. Even so, the S&P 500 is still about 1.9% below where it closed last Wednesday, before Thursday's selloff.\n\nChip stocks are leading the rebound. The Philadelphia Semiconductor Index is up 6.62% and sits about 2.5% below its Wednesday close, after Thursday's 12.25% plunge. Two local names are near the top: Fremont's Lam Research is up 9.2% and Milpitas's KLA 8.9%. AMD is up 11.6%. Nvidia is the exception, down 4.9%.\n\nFalling oil is helping too (see Economy)."
   },
   "economy": {
-    "us10year": "4.86% (+0.02%)",
-    "gold": "$4,074.90 (-0.94%)",
-    "silver": "$51.94 (-0.83%)",
+    "us10year": "4.88% (+0.02%)",
+    "gold": "$4,120.20 (+1.11%)",
+    "silver": "$52.77 (+1.60%)",
     "wti": "$98.32 (+0.03%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Friday, November 6: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. Markets are closed for the weekend.",
-    "commentary": "Here is what was inside Friday's jobs report. Employers added 165,000 jobs in October, the third strongest month this year after March (214,000) and August (186,000), and unemployment eased to 4.1% from 4.2%, the Bureau of Labor Statistics said (chart).\n\nProfessional and business services led with 70,000 new jobs, followed by health care and social assistance at 55,100 and transportation and warehousing at 24,800 (chart). Leisure and hospitality, which covers restaurants, bars and hotels, lost 13,000, and wholesale trade lost 9,100. Construction slipped 3,000. These are first estimates, and BLS revises each month twice.\n\nTreasury has the 10-Year at 4.86% Friday, up 0.02 after the report. Gold settled at $4,074.90, down 0.94% on the day but up 4.5% for the week; silver at $51.94, down 0.83%; and Brent at $98.32, up 0.03%. It is Saturday, so there is no Market Briefs newsletter, and every number in this report comes straight from its source.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/jobs-monthly-110726.png",
-        "alt": "Bar chart of the net change in U.S. nonfarm payroll jobs each month from January 2023 to October 2026. October 2026 added 165,000 jobs. Months with job losses include October 2025 (140,000 fewer) and February 2026 (156,000 fewer). Unemployment was 4.1% in October, down from 4.2% in September.",
-        "caption": "Employers added 165,000 jobs in October, and unemployment eased to 4.1%.",
-        "source": "U.S. Bureau of Labor Statistics, Employment Situation, October 2026"
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/jobs-by-sector-110726.png",
-        "alt": "Bar chart of the change in U.S. jobs from September to October 2026 by industry: professional and business services up 70,000, health care and social assistance up 55,100, transportation and warehousing up 24,800, manufacturing up 19,000, financial activities up 7,000, government, retail trade and other services up 6,000 each, utilities up 100, mining and logging and information down 1,000 each, private education down 2,000, construction down 3,000, wholesale trade down 9,100 and leisure and hospitality down 13,000.",
-        "caption": "Professional and business services added the most jobs in October; leisure and hospitality lost the most.",
-        "source": "U.S. Bureau of Labor Statistics, Employment Situation, October 2026"
-      }
-    ]
+    "note": "Gold, silver and the 10-Year are live at 9:13 AM PT Monday, compared with Friday's COMEX settlements and Treasury's Friday close of 4.86%. Brent is Friday's ICE January settlement; it is trading near $93.86 this morning.",
+    "commentary": "Here is the jobs story in one picture (chart). Employers added 165,000 jobs in October, nearly three times the 59,000 that economists surveyed by Dow Jones expected, after 186,000 in August and 60,000 in September, the Bureau of Labor Statistics said. Unemployment eased to 4.1% from 4.2%. September and October are first estimates, and BLS revises each month twice.\n\nOil is the big mover this morning. Brent futures are down about 4.5% to $93.86 at 9:13 AM PT; the card shows Friday's settlement of $98.32 because today's price has not settled. Gold is up 1.11% to $4,120.20 and silver 1.60% to $52.77 against Friday's settlements. The 10-Year is near 4.88%, up about 0.02 from Treasury's 4.86% close Friday.\n\nMarket Briefs did not arrive this morning, so every number in this report comes straight from its source.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/jobs-vs-forecast-110926.png",
+      "alt": "Bar chart of the net change in U.S. nonfarm payroll jobs: August 2026 up 186,000, September up 60,000 and October up 165,000. A dashed line marks the October forecast of 59,000 from economists surveyed by Dow Jones; October came in about 2.8 times the forecast.",
+      "caption": "Employers added 165,000 jobs in October, nearly three times the 59,000 economists expected.",
+      "source": "U.S. Bureau of Labor Statistics, Employment Situation, October 2026; forecast: Dow Jones survey of economists, via CNBC"
+    }
   },
   "crypto": {
-    "btc": "$75,738 (+0.03%)",
-    "eth": "$2,232.59 (+0.19%)",
-    "xrp": "$1.16 (-1.86%)",
-    "commentary": "Crypto is quiet into the weekend. Bitcoin is up 0.03% over 24 hours near $75,738, Ether up 0.19% near $2,232.59 and XRP down 1.86% near $1.16, live from CoinGecko at 11:11 AM PT. Bitcoin is within about $60 of where it stood when we wrote Friday's report, through the jobs report and a mixed day for stocks."
+    "btc": "$74,834 (-1.07%)",
+    "eth": "$2,126.19 (-4.43%)",
+    "xrp": "$1.10 (-5.11%)",
+    "commentary": "Crypto is not joining the rally. Over 24 hours Bitcoin is down 1.07% near $74,834, Ether 4.43% near $2,126.19 and XRP 5.11% near $1.10, live from CoinGecko at 9:13 AM PT. Bitcoin is about $900 below where it stood when we wrote Saturday's report."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://www.bls.gov/news.release/empsit.nr0.htm",
-    "https://www.bls.gov/cpi/",
-    "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
     "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.html",
     "https://www.newyorkfed.org/markets/reference-rates/effr",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.cnbc.com/quotes/.SPX",
+    "https://finance.yahoo.com/quote/%5EGSPC/",
+    "https://finance.yahoo.com/quote/%5ESOX/",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/5bbfcf90-7df7-4850-b24f-9f2e9f3c0b78",
-  "qr_code_path": "note-qr-5bbfcf90.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/5d09ac01-3ffa-41df-aab8-6ffebb6f5c7b",
+  "qr_code_path": "note-qr-5d09ac01.png"
 }
