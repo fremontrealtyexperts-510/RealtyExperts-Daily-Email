@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/09/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/09/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 9, 2026: October hiring nearly tripled the forecast at 165,000 jobs, stocks rebounded led by Fremont and Milpitas chipmakers, oil fell about 4.5%, and December Fed hike odds rose to about 82%.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, Mortgage News Daily, October jobs report, BLS, jobs forecast, Dow Jones estimate, Federal Reserve, fed funds futures, 10-Year Treasury, stock market rebound, semiconductors, Lam Research, KLA, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
