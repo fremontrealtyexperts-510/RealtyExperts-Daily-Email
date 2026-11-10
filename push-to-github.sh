@@ -123,29 +123,8 @@ copy_if_exists "cms-meta-${DATE_STR}.txt"
 copy_if_exists "live-inventory.json"
 # harvrealtor.net /inventory-history feed — long-run daily series (same origin)
 copy_if_exists "inventory-history.json"
-# harvbalu.homes assistant derivative of the live feed. Only
-# refresh-live-inventory.sh pushed it, and that script no-ops whenever this
-# morning push has already published the day's feed, so the public copy sat at
-# 07/23 until 2026-09-02. Copying it here keeps it current on every run.
-# Guarded since 2026-09-13: copy only a parseable Drive copy whose data_date is
-# at least the published one, so a stale Drive file (it sat at 09/02 while the
-# refresher was down) can never roll back the refresher's newer publish.
-if python3 - "$SRC_DIR/assistant-inventory.json" "$DST_DIR/assistant-inventory.json" <<'PY'
-import json, sys
-def key(p):
-    try:
-        m, d, y = json.load(open(p))["data_date"].split("/")
-        return y + m + d
-    except Exception:
-        return None
-src, dst = key(sys.argv[1]), key(sys.argv[2])
-sys.exit(0 if src and (dst is None or src >= dst) else 1)
-PY
-then
-  copy_if_exists "assistant-inventory.json"
-else
-  echo "⏭️  assistant-inventory.json: Drive copy missing or older than the published one, keeping the published one"
-fi
+# assistant-inventory.json is no longer pushed (2026-11-09): the harvbalu.homes
+# assistant is Harv's personal brand and now reads harvrealtor.net/api/assistant-inventory.
 # HarvRealtor APP feed + harvrealtor.net/today (added 2026-08-21): ONE file,
 # rewritten every run by generate-app-report.js, so nothing accumulates. The
 # app reads it from Pages instead of the REALTY EXPERTS email or the .com RSS.

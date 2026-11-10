@@ -3,15 +3,18 @@
 # refresh-live-inventory.sh
 #
 # Hands-off refresher for the harvrealtor.net live-inventory feed (homepage
-# pulse band + /live-inventory page) and its harvbalu.homes assistant
-# derivative. Regenerates live-inventory.json from the NEWEST dated
+# pulse band + /live-inventory page). Regenerates live-inventory.json from the NEWEST dated
 # "MLS_Defined_Spread_Sheet_4- MMDDYY" file in Google Drive and publishes to
 # GitHub Pages, but ONLY when something is actually newer than Pages, so
 # re-runs on an unchanged Drive are silent no-ops (no commit spam):
 #   - live-inventory.json (+ inventory-history.json) when the export date moved
-#   - assistant-inventory.json whenever its data_date is newer than Pages', even
-#     if the daily email already published the day's live feed (before
-#     2026-09-13 that case exited early and the assistant feed sat at 09/02)
+#
+# Since 2026-11-09 this no longer derives or publishes assistant-inventory.json.
+# That file fed the harvbalu.homes assistant, which is Harv's personal brand, so
+# it moved off this agency account: harvrealtor.net/api/assistant-inventory now
+# derives the same JSON from the public live-inventory.json this script
+# publishes. The old assistant-inventory.json and derive-assistant-inventory.py
+# stay in the repo, frozen, until they are deleted after a quiet week.
 #
 # Runs from Mac launchd (com.harvbalu.live-inventory-refresh, 9:00 / 11:00 /
 # 15:00 PT) through a LOCAL wrapper, ~/Library/Application Support/
@@ -59,8 +62,7 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] refresh-live-inventory: start"
 
 # --- What is already published? (empty if Pages is unreachable) ---
 PUBLISHED_DATE=$(pages_field live-inventory.json date)
-PUBLISHED_ASSIST=$(pages_field assistant-inventory.json data_date)
-echo "Published date: ${PUBLISHED_DATE:-unknown} (assistant: ${PUBLISHED_ASSIST:-unknown})"
+echo "Published date: ${PUBLISHED_DATE:-unknown}"
 
 # --- Regenerate from the newest Drive export (sanity-gated) ---
 retry 3 node generate-live-inventory.js
@@ -81,24 +83,8 @@ if [ -f "$SRC_DIR/inventory-history.json" ]; then
   fi
 fi
 
-# Compact derivative for the harvbalu.homes AI assistant (n8n get_inventory
-# tool), derived IN the stage dir. Guarded: a derive failure must never block
-# the main feed publish.
-HAVE_ASSIST=0
-if retry 4 cp "$SRC_DIR/derive-assistant-inventory.py" "$STAGE/derive-assistant-inventory.py" \
-  && (cd "$STAGE" && python3 derive-assistant-inventory.py) \
-  && valid_json "$STAGE/assistant-inventory.json"; then
-  HAVE_ASSIST=1
-  echo "assistant-inventory.json derived"
-else
-  echo "WARN: derive-assistant-inventory.py failed, publishing main feed only"
-  rm -f "$STAGE/assistant-inventory.json"
-fi
-
 NEW_DATE=$(json_field "$STAGE/live-inventory.json" date)
-NEW_ASSIST=""
-[ "$HAVE_ASSIST" = 1 ] && NEW_ASSIST=$(json_field "$STAGE/assistant-inventory.json" data_date)
-echo "Generated date: $NEW_DATE (assistant: ${NEW_ASSIST:-none})"
+echo "Generated date: $NEW_DATE"
 
 if [ -z "$NEW_DATE" ]; then
   echo "ERROR: generated file has no date, not publishing"
@@ -115,12 +101,10 @@ if [ "$(ymd "$NEW_DATE")" \> "$TODAY_YMD" ]; then
 fi
 
 LIVE_MOVED=0
-ASSIST_MOVED=0
 if newer "$NEW_DATE" "$PUBLISHED_DATE"; then LIVE_MOVED=1; fi
-if [ "$HAVE_ASSIST" = 1 ] && newer "$NEW_ASSIST" "$PUBLISHED_ASSIST"; then ASSIST_MOVED=1; fi
 
-if [ "$LIVE_MOVED" = 0 ] && [ "$ASSIST_MOVED" = 0 ]; then
-  echo "Feed already current ($NEW_DATE, assistant ${NEW_ASSIST:-n/a}), nothing to publish"
+if [ "$LIVE_MOVED" = 0 ]; then
+  echo "Feed already current ($NEW_DATE), nothing to publish"
   exit 0
 fi
 
@@ -158,8 +142,6 @@ if [ "$LIVE_MOVED" = 1 ]; then
   # generate-live-inventory.js on the same run that refreshed the live feed)
   [ "$HAVE_HISTORY" = 1 ] && PUBLISH="$PUBLISH inventory-history.json"
 fi
-# compact AI-assistant derivative (harvbalu.homes chatbot tool)
-[ "$ASSIST_MOVED" = 1 ] && PUBLISH="$PUBLISH assistant-inventory.json"
 for f in $PUBLISH; do
   cp "$STAGE/$f" "$DST_DIR/$f"
   if ! valid_json "$DST_DIR/$f"; then
@@ -169,10 +151,9 @@ for f in $PUBLISH; do
 done
 # keep the refresher itself versioned so the VPS picks it up via git auto-pull
 cp "$SELF" "$DST_DIR/refresh-live-inventory.sh"
-cp "$STAGE/derive-assistant-inventory.py" "$DST_DIR/derive-assistant-inventory.py" 2>/dev/null || true
 chmod +x "$DST_DIR/refresh-live-inventory.sh"
 
-git add $PUBLISH refresh-live-inventory.sh derive-assistant-inventory.py
+git add $PUBLISH refresh-live-inventory.sh
 if [ -z "$(git status --short)" ]; then
   echo "No changes after copy, nothing to publish"
   cd /
@@ -180,26 +161,13 @@ if [ -z "$(git status --short)" ]; then
   exit 0
 fi
 
-if [ "$LIVE_MOVED" = 1 ]; then
-  git commit -q -m "live-inventory: refresh feed to $NEW_DATE (auto)"
-else
-  git commit -q -m "assistant-inventory: publish $NEW_ASSIST (auto)"
-fi
+git commit -q -m "live-inventory: refresh feed to $NEW_DATE (auto)"
 # the daily-email push can land between our clone and push; rebase once
 git push -q origin main || { git pull -q --rebase origin main && git push -q origin main; }
 cd /
 rm -rf "$DST_DIR"
 
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] Published:$PUBLISH (live $NEW_DATE, assistant ${NEW_ASSIST:-n/a})"
-
-# Mirror the fresh assistant file back to Drive so push-to-github.sh never
-# sees a stale copy there. Only when the Mac wrapper names a mirror dir (on
-# the VPS SRC_DIR is a git working tree that must stay clean for auto-pull),
-# best effort, LAST.
-if [ "$ASSIST_MOVED" = 1 ] && [ -n "${LIVE_INV_MIRROR_DIR:-}" ]; then
-  cp "$STAGE/assistant-inventory.json" "$LIVE_INV_MIRROR_DIR/assistant-inventory.json" 2>/dev/null \
-    || echo "WARN: could not mirror assistant-inventory.json back to Drive"
-fi
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Published:$PUBLISH (live $NEW_DATE)"
 
 # --- Rebuild harvrealtor.net so its PRERENDERED html carries this feed ---
 # The .net routes are prerendered at Vercel build time and served from the
