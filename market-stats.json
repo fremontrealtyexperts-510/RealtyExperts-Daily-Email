@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T03:48:56.042214Z",
+ "generatedAt": "2026-11-10T02:17:17.392715Z",
  "note": "Monthly market stats from Bay East/RPR reports, one entry per city from that city's latest published harvrealtor.net market report. Cities can be on different report months: when quoting a city, cite its as_of (its report month). generatedAt is only when this file was built, never an as-of date for the numbers.",
  "cities": {
   "Fremont": {
@@ -645,161 +645,160 @@
    }
   },
   "Union City": {
-   "report_month": "August 2026",
-   "as_of": "August 2026 monthly market report",
+   "report_month": "October 2026",
+   "as_of": "October 2026 monthly market report",
    "scope": "Single Family Residence",
    "source": "Bay East Association of REALTORS\u00ae / RPR",
-   "blog_url": "https://harvrealtor.net/blog/union-city-real-estate-market-report-august-2026",
+   "blog_url": "https://harvrealtor.net/blog/union-city-real-estate-market-report",
    "headline": {
     "months_of_inventory": {
-     "value": 1.71,
-     "page": 2,
-     "mom": 12.31,
-     "mom_dir": "down"
+     "value": 2.25,
+     "page": 1,
+     "mom": 2.27,
+     "mom_dir": "up"
     },
     "sold_to_list_pct": {
-     "value": 100.7,
-     "page": 2,
-     "mom": 0.21,
-     "mom_dir": "up"
-    },
-    "median_days": {
-     "value": 12,
-     "page": 2,
-     "mom": 29.41,
+     "value": 100.2,
+     "page": 1,
+     "mom": 0.15,
      "mom_dir": "down"
     },
-    "median_sold_price": {
-     "value": 1450000,
-     "page": 2,
-     "mom": 10.48,
+    "median_days": {
+     "value": 23,
+     "page": 1,
+     "mom": 64.29,
      "mom_dir": "up"
+    },
+    "median_sold_price": {
+     "value": 1363000,
+     "page": 1,
+     "mom": 2.29,
+     "mom_dir": "down"
     },
     "market_type": {
      "value": "Seller's Market",
-     "page": 2,
+     "page": 1,
      "derived": true,
-     "basis": "months_of_inventory=1.71"
+     "basis": "months_of_inventory=2.25"
     },
     "median_estimated_value": {
-     "value": 1474840,
-     "page": 2,
-     "last_month_pct": 0.1,
-     "twelve_month_pct": 0.2
+     "value": 1421950,
+     "page": 1,
+     "last_month_pct": -3.0,
+     "twelve_month_pct": -2.8
     }
    },
    "new_listings": {
     "median_list_price": {
-     "value": 1388000,
-     "page": 3,
-     "mom": 0.8,
-     "mom_dir": "down"
+     "value": 1399444,
+     "page": 2,
+     "mom": 3.7,
+     "mom_dir": "up"
     },
     "count": {
-     "value": 21,
-     "page": 3,
-     "mom": 25.0,
+     "value": 32,
+     "page": 2,
+     "mom": 11.1,
      "mom_dir": "down",
-     "dir_source": "arrow glyph position, page 3"
+     "mom_dir_source": "page.chars FontAwesome arrow"
     }
    },
    "active_listings": {
     "median_list_price": {
-     "value": 1381444,
-     "page": 4,
-     "mom": 1.0,
-     "mom_dir": "down"
-    },
-    "count": {
-     "value": 36,
-     "page": 4,
-     "mom": 12.2,
-     "mom_dir": "down",
-     "dir_source": "arrow glyph position, page 4"
-    },
-    "median_ppsf": {
-     "value": 815,
-     "page": 5,
-     "mom": 4.0,
+     "value": 1388000,
+     "page": 3,
+     "mom": 4.8,
      "mom_dir": "up"
     },
-    "median_days": {
-     "value": 43,
-     "page": 5,
-     "mom": 16.2,
+    "count": {
+     "value": 45,
+     "page": 3,
+     "mom": 2.3,
      "mom_dir": "up",
-     "dir_source": "arrow glyph position, page 5"
+     "mom_dir_source": "page.chars FontAwesome arrow"
+    },
+    "median_ppsf": {
+     "value": 780,
+     "page": 4,
+     "mom": 1.3,
+     "mom_dir": "down"
+    },
+    "median_days": {
+     "value": 31,
+     "page": 4,
+     "mom": 63.2,
+     "mom_dir": "up",
+     "mom_dir_source": "page.chars FontAwesome arrow"
     }
    },
    "new_pending": {
     "median_list_price": {
-     "value": 1473944,
-     "page": 6,
-     "mom": 5.7,
-     "mom_dir": "up"
+     "value": 1298000,
+     "page": 5,
+     "mom": 7.1,
+     "mom_dir": "down"
     },
     "count": {
-     "value": 12,
-     "page": 6,
-     "mom": 36.8,
-     "mom_dir": "down",
-     "dir_source": "arrow glyph position, page 6"
+     "value": 21,
+     "page": 5,
+     "mom": 16.7,
+     "mom_dir": "up",
+     "mom_dir_source": "page.chars FontAwesome arrow"
     },
     "median_days": {
-     "value": 11,
-     "page": 7,
-     "mom": 42.1,
-     "mom_dir": "down"
+     "value": 22,
+     "page": 6,
+     "mom": 22.2,
+     "mom_dir": "up"
     }
    },
    "pending": {
     "median_list_price": {
-     "value": 1399000,
-     "page": 8,
-     "mom": 0.0,
-     "mom_dir": "flat",
-     "dir_source": "arrow glyph position, page 8"
+     "value": 1250000,
+     "page": 7,
+     "mom": 10.6,
+     "mom_dir": "down"
     },
     "count": {
-     "value": 11,
-     "page": 8,
-     "mom": 35.3,
+     "value": 15,
+     "page": 7,
+     "mom": 6.3,
      "mom_dir": "down",
-     "dir_source": "arrow glyph position, page 8"
+     "mom_dir_source": "page.chars FontAwesome arrow"
     }
    },
    "sold": {
     "median_sold_price": {
-     "value": 1450000,
-     "page": 9,
-     "mom": 10.5,
-     "mom_dir": "up"
+     "value": 1363000,
+     "page": 8,
+     "mom": 2.3,
+     "mom_dir": "down"
     },
     "count": {
-     "value": 17,
-     "page": 9,
-     "mom": 22.7,
-     "mom_dir": "down",
-     "dir_source": "arrow glyph position, page 9"
+     "value": 22,
+     "page": 8,
+     "mom": 57.1,
+     "mom_dir": "up",
+     "mom_dir_source": "page.chars FontAwesome arrow"
     },
     "avg_list_to_sale_pct": {
-     "value": 100.73,
-     "page": 10,
-     "mom": 0.2,
-     "mom_dir": "up"
+     "value": 100.22,
+     "page": 9,
+     "mom": 0.1,
+     "mom_dir": "down"
     },
     "median_days": {
-     "value": 12,
-     "page": 10,
-     "mom": 29.4,
-     "mom_dir": "down",
-     "dir_source": "arrow glyph position, page 10"
+     "value": 23,
+     "page": 9,
+     "mom": 64.3,
+     "mom_dir": "up",
+     "mom_dir_source": "page.chars FontAwesome arrow"
     },
     "median_ppsf": {
-     "value": 729,
-     "page": 11,
-     "mom": 5.8,
-     "mom_dir": "down"
+     "value": 758,
+     "page": 10,
+     "mom": 8.0,
+     "mom_dir": "up"
     }
    }
   }
