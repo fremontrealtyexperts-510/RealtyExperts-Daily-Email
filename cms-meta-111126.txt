@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/11/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/11/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 11, 2026: the 30-year jumped to 7.30% on a hot inflation report, Anthropic set terms for what could be the second largest IPO ever, TSMC posted record October sales, and home equity borrowing grew the most since 2005.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, Mortgage News Daily, VA loan rates, CPI, inflation, Federal Reserve, Anthropic IPO, SpaceX IPO, largest IPOs, TSMC revenue, CoreWeave, chip stocks, Lam Research, HELOC, household debt, New York Fed, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
