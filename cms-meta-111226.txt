@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/12/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/12/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 12, 2026: the 30-year rose to 7.42% as bonds reopened, October home sales hit their lowest since 2010, Nvidia's Jensen Huang stepped down as CEO, CoreWeave revenue rose 168%, and condo sellers outnumber buyers far less in the Bay Area.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, Mortgage News Daily, existing home sales, NAR, condo market, Redfin, condo sellers and buyers, Oakland metro, San Jose, San Francisco, Nvidia, Jensen Huang, Colette Kress, CoreWeave revenue, AI stocks, AMD, Broadcom, Nebius, 10-Year Treasury, jobless claims, Federal Reserve, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
