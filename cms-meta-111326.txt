@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/13/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/13/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing recap for November 13, 2026: existing home sales sank to a 16 year low, homes in contract on our Bay East board are down 29% from a year ago, Nvidia erased its 2026 gains, the 10-Year closed at 5.10%, and the Fed trimmed its 2027 calendar.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+existing home sales, NAR, 16 year low, homes in contract, pending sales, mortgage rates, Mortgage News Daily, Nvidia, NVDA, Jensen Huang, Nebius, semiconductor stocks, 10-Year Treasury, Federal Reserve, FOMC 2027 schedule, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
