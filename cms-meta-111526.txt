@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/15/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/15/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Weekly Bay Area housing and markets recap for November 15, 2026: mortgage rates climbed to 7.50%, stocks rose about 2% for the week while Nvidia fell, gold and Bitcoin slid, and our Bay East board eased slightly from Friday to Friday.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+mortgage rates, Mortgage News Daily, Freddie Mac, markets this week, weekly market recap, S&P 500, Dow, Nasdaq, Nvidia, 10-Year Treasury, CPI, gold, silver, Brent crude, Bitcoin, Bay East MLS, homes in contract, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
