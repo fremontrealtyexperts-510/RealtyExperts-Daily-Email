@@ -25,6 +25,10 @@ with Mercy in the loop. Done from the Mac A.I session:
   Mercy's setup test then passed end to end at 9:23 AM PT: reply in #agent-hub signed `Claude Daily Email VPS:`, note
   moved to `_daily-email/processed/`.
 - The claude.ai Slack and Microsoft 365 connectors load in VPS sessions.
+- **Copy job for the gitignored files (9:35 AM PT):** `~/bin/realty-gitignored-sync.sh`, cron `8-59/15`, copies
+  `CLAUDE.md`, `DAILY-INTAKE.md`, `broadcast-backstop.js` and `daily-report-skill/SKILL.md` ONE WAY from the Mac's Google
+  Drive copy to the VPS when they change (backups in `~/.cache/realty-gitignored-sync/backups/`, never `.env`). Edit those
+  files on the Mac only. Live test passed: the 9:53 AM scheduled run picked up a Mac `CLAUDE.md` edit by itself.
 
 ### Sunday, November 15, 2026 — catch-up: what changed between Sep 2 and Nov 15 (this file had gone stale)
 Written from the Mac A.I session from `git log` (262 commits since 09/02; HEAD `e79ad2d`, "Daily email - 11/15/26") and this
