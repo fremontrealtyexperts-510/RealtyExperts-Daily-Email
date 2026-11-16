@@ -1,12 +1,27 @@
 # RealtyExperts-Daily-Email — Working Status & Handoff
 
-_Last updated: Sunday, November 15, 2026 (PT) · Update this at the end of each session._
+_Last updated: Monday, November 16, 2026 (PT) · Update this at the end of each session._
 
 This note is the shared handoff for the RealtyExperts-Daily-Email workspace. It lives **inside** the workspace and travels via **git/GitHub** (this workspace is a git repo, NOT rclone-synced). **Any Claude session — on the Mac or the `claud-realty-email` VPS session — should read this FIRST.**
 
 ---
 
 ## Where things stand (most recent first)
+
+### Monday, November 16, 2026: the VPS session `claud-realty-email` is now a full stand-in for the Mac
+Harv asked to keep the always-on VPS session and run the whole workflow from it (from his phone via the Claude app),
+with Mercy in the loop. Done from the Mac A.I session:
+- **Memory is shared.** The VPS memory dir is now a symlink to the Mac-keyed mirror that Syncthing keeps in step with
+  the Mac, so a note written on either machine shows up on the other in seconds. No more end-of-run memory sync. Old
+  dir backed up on n8n at `~/.cache/realty-memory-before-link-20261116/`.
+- **CLAUDE.md** on the VPS now matches the Mac (md5 `ac66b3cc`), including the Mercy section and a new "Working from
+  the VPS" subsection. It is gitignored: edit on the Mac, scp to the VPS, compare md5.
+- **Mercy:** on the VPS her `_daily-email` folder is reached with rclone (Drive is not mounted there). VPS posts in
+  #agent-hub are signed `Claude Daily Email VPS:`. Her two guides in Drive `REALTY-EXPERTS-Agent-Hub/` explain both sessions.
+- **Outlook for scripts:** the VPS's own MS365 refresh token had been dead since May 22 (`invalid_grant`), so
+  `send-daily-email.js` would have failed on the VPS. New helper `~/bin/ms365-devicecode-login.py`. The first code
+  expired unapproved: **re-login pending Harv.** Until then, send from the Mac.
+- The claude.ai Slack and Microsoft 365 connectors load in VPS sessions.
 
 ### Sunday, November 15, 2026 — catch-up: what changed between Sep 2 and Nov 15 (this file had gone stale)
 Written from the Mac A.I session from `git log` (262 commits since 09/02; HEAD `e79ad2d`, "Daily email - 11/15/26") and this
