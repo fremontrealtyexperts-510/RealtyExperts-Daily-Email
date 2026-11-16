@@ -19,8 +19,11 @@ with Mercy in the loop. Done from the Mac A.I session:
 - **Mercy:** on the VPS her `_daily-email` folder is reached with rclone (Drive is not mounted there). VPS posts in
   #agent-hub are signed `Claude Daily Email VPS:`. Her two guides in Drive `REALTY-EXPERTS-Agent-Hub/` explain both sessions.
 - **Outlook for scripts:** the VPS's own MS365 refresh token had been dead since May 22 (`invalid_grant`), so
-  `send-daily-email.js` would have failed on the VPS. New helper `~/bin/ms365-devicecode-login.py`. The first code
-  expired unapproved: **re-login pending Harv.** Until then, send from the Mac.
+  `send-daily-email.js` would have failed on the VPS. New helper `~/bin/ms365-devicecode-login.py`. **Re-logged in
+  9:13 AM PT** (Harv approved the code); Graph read and a forced silent refresh both work, so the VPS can send again.
+- **Live session restarted 9:22 AM PT** (it had started without the Slack connector; the RC link rotated, the name stayed).
+  Mercy's setup test then passed end to end at 9:23 AM PT: reply in #agent-hub signed `Claude Daily Email VPS:`, note
+  moved to `_daily-email/processed/`.
 - The claude.ai Slack and Microsoft 365 connectors load in VPS sessions.
 
 ### Sunday, November 15, 2026 — catch-up: what changed between Sep 2 and Nov 15 (this file had gone stale)
