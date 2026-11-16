@@ -1,53 +1,60 @@
 {
-  "date": "11/15/26",
-  "time": "1:11 PM PT",
+  "date": "11/16/26",
+  "time": "8:15 AM PT",
   "real_estate": {
     "rate_30year": "7.50%",
     "rate_15year": "7.03%",
-    "homebuilder": "Mortgage rates climbed to 7.50% this week, about $229 a month more on the median Fremont home.",
-    "commentary": "Mortgage News Daily's 30-year average ended the week at 7.50% Friday, up 0.33 from the Friday before and 1.16 above a year ago, with the 15-year at 7.03%. On today's $1,275,000 Fremont median with 20% down, that is about $7,132 a month in principal and interest, $229 more than at last Friday's 7.17%. Freddie Mac's weekly survey, published Thursday, came in lower at 7.11%, down 0.07; Mortgage News Daily's daily index caught Thursday's and Friday's rise in yields.\n\nOur own board eased a little over the week (chart). From Friday to Friday, the 15 city table went from 2,464 listings to 2,419, homes in contract from 631 to 622, and the five city ledger from 628 to 623. Fremont's median on market list price slipped to $1,279,000 from $1,299,000.\n\nSunday's export shows 2,421 board wide, from 2,419 Friday, with 138 coming soon and 155 brand new. The five city ledger is 616, from 623: Milpitas (98) added two, while Fremont (212) fell four, Hayward (177) and Union City (57) two each, and Newark (72) one.\n\nWhat this means for you: a third of a point in one week is about $229 a month on the median Fremont home, so buyers who are ready should ask their lender about locking rather than waiting for a pullback. Sellers, buyers are pricing in that payment, so price for it. Rates did not take the short week off.\n\n• Board wide: 2,421 listings across our 15 city table, counting active and in contract together, with 138 coming soon and 155 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 616 listings across Fremont, Hayward, Milpitas, Newark and Union City. 546 are on the market and 70 are coming soon.\n• Fremont: 212 live, 165 active, 29 coming soon and 18 brand new. The median on market list price is $1,275,000 at $787 a square foot, and the typical active listing has been out 37 days.\n• The rest of the ledger: Hayward 177, Milpitas 98, Newark 72, Union City 57.\n• Across all five cities the median is $999,994 at $666 a square foot. 274 homes are priced under a million, and 179 have been sitting 60 days or longer."
-  },
-  "stocks": {
-    "sp500": "7,561.67 (-0.40%)",
-    "dow": "52,347.55 (+0.10%)",
-    "nasdaq": "25,136.27 (-0.91%)",
-    "note": "Levels are Friday, November 13 at the closing bell. Markets are closed for the weekend.",
-    "news": "Stocks finished the week higher (chart). The S&P 500 gained 2.51%, the Dow 2.07% and the Nasdaq 2.27% from the Friday before, and nearly all of it came Monday, when the S&P rose 2.35%. Friday was mixed: the S&P 500 slipped 0.40% and the Nasdaq 0.91%, while the Dow edged up 0.10%.\n\nNvidia went the other way. The Santa Clara chipmaker closed Friday at $162.85, down 2.01% on the day and 12.75% for the week, after its board accepted chief executive Jensen Huang's resignation Wednesday. It is now 12.68% below where it started the year. A good week for the index, a long one in Santa Clara.\n\nWe checked Market Briefs' weekly scoreboard against the sources. The stock, Brent and 10-Year figures hold up; gold, the mortgage rate and Bitcoin needed correcting, and the chart shows the corrected numbers.",
+    "homebuilder": "Repeat buyers made 78% of U.S. home purchases; here, the typical first-time down payment on the five city median is about $90,000.",
+    "commentary": "Mortgage News Daily's 30-year average stood at 7.50% at Friday's update, with the 15-year at 7.03%; Monday's reading had not posted by 8:15 AM PT. On today's $1,249,990 Fremont median with 20% down, that is about $6,992 a month in principal and interest.\n\nRepeat buyers made 78% of U.S. home purchases in the year to June, according to the National Association of REALTORS® 2026 Profile of Home Buyers and Sellers (chart). Their median age is 62 and first-time buyers' is 40, both tying records, and the typical buyer overall is now 58. The first-time share edged up to 22% from last year's record low of 21%.\n\nHere, the gap is the down payment. NAR's median first-time buyer put down 9% and the median repeat buyer 19%. On our five city median list price of $999,988, that is about $90,000 down and $6,363 a month for the first-time buyer, against $190,000 down and $5,664 for the repeat buyer, at 7.50% before taxes and insurance. Equity from the last house is doing a lot of the lifting.\n\nMonday's export shows 2,408 board wide, from 2,421 Sunday, with 134 coming soon and 144 brand new. The five city ledger is 606, from 616: Fremont (205) fell seven, Hayward (175) two and Newark (71) one, while Milpitas (98) and Union City (57) held.\n\nWhat this means for you: first-time buyers, 9% down is the national norm, so get preapproved on what you have rather than waiting for 20%. Sellers, most of today's buyers arrive with equity, and a well priced home still draws them even at 7.50%.\n\n• Board wide: 2,408 listings across our 15 city table, counting active and in contract together, with 134 coming soon and 144 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 606 listings across Fremont, Hayward, Milpitas, Newark and Union City. 539 are on the market and 67 are coming soon.\n• Fremont: 205 live, 164 active, 26 coming soon and 15 brand new. The median on market list price is $1,249,990 at $783 a square foot, and the typical active listing has been out 38 days.\n• The rest of the ledger: Hayward 175, Milpitas 98, Newark 71, Union City 57.\n• Across all five cities the median is $999,988 at $666 a square foot. 271 homes are priced under a million, and 188 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/markets-week-111526.png",
-      "alt": "Scoreboard of the week from Friday, Nov. 6 to Friday, Nov. 13, 2026: S&P 500 7,561.67, up 2.51%; Dow 52,347.55, up 2.07%; Nasdaq 25,136.27, up 2.27%; gold $3,886.30, down 4.63%; Brent crude $95.84, down 2.52%; 10-Year Treasury 5.15%, up 0.29 points; 30-year mortgage (Mortgage News Daily) 7.50%, up 0.33 points; Bitcoin $68,823 at 4 PM ET, down 9.21%. Our 15 city MLS board: 2,419 listings, down 45; 622 in contract, down 9; five city ledger 623, down 5; Fremont median list price $1,279,000, down $20,000.",
-      "caption": "Stocks rose about 2% for the week while gold, oil and Bitcoin fell and rates climbed; our own board eased slightly.",
-      "source": "Yahoo Finance and CNBC (index closes, COMEX and ICE settlements); U.S. Treasury; Mortgage News Daily; CoinGecko; Bay East MLS exports, Nov. 6 and Nov. 13, 2026"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/repeat-buyers-111626.png",
+      "alt": "Donut chart: repeat buyers made 78% of U.S. home purchases from July 2025 to June 2026 (median age 62, 19% median down payment) and first-time buyers 22% (median age 40, 9% down). Local panel: on the five city median list price of $999,988, 9% down is $90,000 and $6,363 a month in principal and interest at 7.50%; 19% down is $190,000 and $5,664 a month.",
+      "caption": "Repeat buyers dominate, and their bigger down payments cut the monthly cost by about $700 on our median home.",
+      "source": "National Association of REALTORS®, 2026 Profile of Home Buyers and Sellers; Mortgage News Daily; Bay East MLS export, Nov. 16, 2026"
     }
   },
+  "stocks": {
+    "sp500": "7,469.20 (-1.22%)",
+    "dow": "52,007.68 (-0.65%)",
+    "nasdaq": "24,682.23 (-1.81%)",
+    "note": "Levels are live at 8:15 AM PT Monday, November 16, against Friday's close. The market closes at 1:00 PM PT.",
+    "news": "Stocks slipped Monday morning, led by chips. At 8:15 AM PT the S&P 500 was down 1.22%, the Nasdaq 1.81% and the Dow 0.65%, and the Philadelphia semiconductor index was off 4.44%. Fremont's Lam Research was down 5.21% and Milpitas's KLA 4.20%.\n\nNvidia, down 2.57% at $158.66, reports quarterly results Tuesday after the close, its first since Jensen Huang stepped down as chief executive. Market Briefs also expects Anthropic, the San Francisco company behind Claude, to go public this week; its filing offers 825 million shares at $70 to $78, up to about $64.4 billion. A busy week for Bay Area tickers."
+  },
   "economy": {
-    "us10year": "5.15% (+0.05%)",
-    "gold": "$3,886.30 (+0.03%)",
-    "silver": "$49.12 (-1.89%)",
+    "us10year": "5.13% (-0.02%)",
+    "gold": "$3,861.30 (-0.64%)",
+    "silver": "$46.61 (-5.11%)",
     "wti": "$95.84 (+0.02%)",
     "oil_label": "Brent Crude",
-    "note": "Levels are Friday, November 13: the 10-Year is Treasury's close, gold and silver are COMEX December settlements, and Brent is the ICE January settlement. Markets are closed for the weekend.",
-    "commentary": "The 10-Year Treasury yield closed Friday at 5.15%, up 0.29 for the week and back to its October 19 close. Consumer prices rose 0.4% in October, more than the 0.3% economists expected, with core prices up 0.3%, which keeps a December rate increase on the table.\n\nGold settled Friday at $3,886.30, down 4.63% for the week, and silver at $49.12, down 5.43%. Brent settled at $95.84, down 2.52% for the week but nearly unchanged Friday. Market Briefs' scoreboard had gold at $3,884, down 4.58%; the COMEX settlement is $3,886.30, down 4.63%. Fremont's price per square foot slipped about 1.4% this week; gold slipped 4.6%."
+    "note": "Live at 8:15 AM PT Monday: the 10-Year is CNBC's quote against Treasury's 5.15% Friday close, gold and silver are December COMEX futures against Friday's settlements, and Brent is Friday's ICE January settlement.",
+    "commentary": "Wholesale prices rose 0.3% in October and 6.5% from a year earlier, the fastest pace since November 2022 (chart). What builders pay for the materials in a new home rose 9.8%, also the fastest since November 2022, and that cost lands in the price of new construction. With consumer prices up 0.4% in October as well, a December rate increase stays on the table.\n\nThe 10-Year Treasury yield is near 5.13%, against Friday's 5.15% close. Gold is near $3,861.30, down 0.64% from Friday's settlement, and silver has dropped 5.11% to $46.61. Brent is down about 2.5% this morning near $93.49; the card shows Friday's $95.84 settlement.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/wholesale-prices-111626.png",
+      "alt": "Line chart, Producer Price Index change from a year earlier, not seasonally adjusted, October 2025 to October 2026: final demand rose from 2.8% to 6.5% and inputs to residential construction from 2.8% to 9.8%, both the fastest since November 2022.",
+      "caption": "Wholesale prices are up 6.5% from a year ago, and home building materials 9.8%.",
+      "source": "U.S. Bureau of Labor Statistics, Producer Price Index (October 2026 release; July to October preliminary)"
+    }
   },
   "crypto": {
-    "btc": "$65,034 (+0.81%)",
-    "eth": "$1,822.33 (+2.54%)",
-    "xrp": "$0.96 (+4.34%)",
-    "commentary": "Bitcoin had the roughest week on the board. It ended Friday's stock session at $68,823, down 9.21% from the Friday before, and slid further this weekend; it is near $65,034, up 0.81% over the past 24 hours and still near its lowest since mid August, live from CoinGecko at 1:11 PM PT. Ether is near $1,822.33 and XRP near $0.96. Market Briefs' $69,556 was a Friday morning price, not a close. Crypto never closes, which this week was not a selling point."
+    "btc": "$64,220 (-0.61%)",
+    "eth": "$1,812.61 (+0.29%)",
+    "xrp": "$0.95 (-0.71%)",
+    "commentary": "Bitcoin slid to about $62,600 Saturday evening, its lowest since mid July, and is near $64,220, down 0.61% over the past 24 hours, live from CoinGecko at 8:15 AM PT. Ether is near $1,812.61 and XRP near $0.95. With the 10-Year Treasury above 5%, a safer yield is competing for the same money."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.freddiemac.com/pmms",
+    "https://www.nar.realtor/newsroom/first-time-home-buyer-share-inches-up-to-22-median-age-remains-at-record-high-of-40",
+    "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "https://data.bls.gov/timeseries/WPUIP2311001",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://www.cnbc.com/quotes/.SPX",
+    "https://www.cnbc.com/quotes/.SOX",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
-    "https://www.nasdaq.com/market-activity/stocks/nvda/historical",
-    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
-    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/080ff074-c710-4aaa-a5a4-a459cd3b4885",
-  "qr_code_path": "note-qr-080ff074.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/00ec2195-dda3-4f1d-ac12-8fe9dcff3463",
+  "qr_code_path": "note-qr-00ec2195.png"
 }

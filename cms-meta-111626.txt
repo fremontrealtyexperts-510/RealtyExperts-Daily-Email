@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/16/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/16/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing and markets recap for November 16, 2026: repeat buyers made 78% of U.S. home purchases, wholesale prices rose 6.5% from a year ago with home building materials up 9.8%, chip stocks fell before Nvidia's earnings, and our Bay East board eased to 2,408 listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+repeat buyers, first-time buyers, NAR Profile of Home Buyers and Sellers, down payment, mortgage rates, Mortgage News Daily, Producer Price Index, wholesale inflation, building materials, S&P 500, Nasdaq, Nvidia, Lam Research, KLA, Anthropic, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
