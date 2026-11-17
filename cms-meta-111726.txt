@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/17/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/17/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing and markets recap for November 17, 2026: about 4 in 10 Alameda County homeowners 75 and older still carry a mortgage, diesel slipped under $6 a gallon, chip stocks fell ahead of Nvidia's earnings, and our Bay East board eased to 2,381 listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+homeowners 75 and older, mortgage, Census American Community Survey, Alameda County, diesel prices, EIA, California diesel, mortgage rates, Mortgage News Daily, S&P 500, Nasdaq, Nvidia, Lam Research, KLA, Anthropic, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Strategy, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)

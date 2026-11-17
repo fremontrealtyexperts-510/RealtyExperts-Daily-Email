@@ -1,51 +1,50 @@
 {
-  "date": "11/16/26",
-  "time": "8:15 AM PT",
+  "date": "11/17/26",
+  "time": "8:56 AM PT",
   "real_estate": {
-    "rate_30year": "7.50%",
-    "rate_15year": "7.03%",
-    "homebuilder": "Repeat buyers made 78% of U.S. home purchases; here, the typical first-time down payment on the five city median is about $90,000.",
-    "commentary": "Mortgage News Daily's 30-year average stood at 7.50% at Friday's update, with the 15-year at 7.03%; Monday's reading had not posted by 8:15 AM PT. On today's $1,249,990 Fremont median with 20% down, that is about $6,992 a month in principal and interest.\n\nRepeat buyers made 78% of U.S. home purchases in the year to June, according to the National Association of REALTORS® 2026 Profile of Home Buyers and Sellers (chart). Their median age is 62 and first-time buyers' is 40, both tying records, and the typical buyer overall is now 58. The first-time share edged up to 22% from last year's record low of 21%.\n\nHere, the gap is the down payment. NAR's median first-time buyer put down 9% and the median repeat buyer 19%. On our five city median list price of $999,988, that is about $90,000 down and $6,363 a month for the first-time buyer, against $190,000 down and $5,664 for the repeat buyer, at 7.50% before taxes and insurance. Equity from the last house is doing a lot of the lifting.\n\nMonday's export shows 2,408 board wide, from 2,421 Sunday, with 134 coming soon and 144 brand new. The five city ledger is 606, from 616: Fremont (205) fell seven, Hayward (175) two and Newark (71) one, while Milpitas (98) and Union City (57) held.\n\nWhat this means for you: first-time buyers, 9% down is the national norm, so get preapproved on what you have rather than waiting for 20%. Sellers, most of today's buyers arrive with equity, and a well priced home still draws them even at 7.50%.\n\n• Board wide: 2,408 listings across our 15 city table, counting active and in contract together, with 134 coming soon and 144 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 606 listings across Fremont, Hayward, Milpitas, Newark and Union City. 539 are on the market and 67 are coming soon.\n• Fremont: 205 live, 164 active, 26 coming soon and 15 brand new. The median on market list price is $1,249,990 at $783 a square foot, and the typical active listing has been out 38 days.\n• The rest of the ledger: Hayward 175, Milpitas 98, Newark 71, Union City 57.\n• Across all five cities the median is $999,988 at $666 a square foot. 271 homes are priced under a million, and 188 have been sitting 60 days or longer.",
+    "rate_30year": "7.51%",
+    "rate_15year": "7.04%",
+    "homebuilder": "About 4 in 10 Alameda County homeowners 75 and older still carry a mortgage, against 28.7% nationally.",
+    "commentary": "Mortgage News Daily's 30-year average was 7.51% at Monday's update, with the 15-year at 7.04%; Tuesday's reading had not posted by 8:56 AM PT. On today's $1,275,000 Fremont median with 20% down, that is about $7,139 a month in principal and interest.\n\nMore homeowners are still paying off a mortgage late in life. In 2025, 28.7% of U.S. homeowners 75 and older still had one, up from 20.3% in 2010, and their number more than doubled to about 3.9 million, according to Census Bureau survey data (chart). Here the share is higher: 41.5% of Alameda County homeowners 75 and older carry a mortgage, about 19,600 households, up from 27.3% in 2010 and above California's 39.1%. If more of those owners stay put, fewer homes come up for resale.\n\nTuesday's export shows 2,381 board wide, from 2,408 Monday, with 132 coming soon and 136 brand new. The five city ledger is 604, from 606: Hayward (176) added one, Milpitas (96) fell two and Newark (70) one, while Fremont (205) and Union City (57) held. The five city median list price crossed a million, to $1,024,950 from $999,988.\n\nWhat this means for you: sellers, an existing loan is not a reason to hold off, since it is paid off at closing. Buyers, resale supply stays thin when owners stay put, so be preapproved before the right home lists.\n\n• Board wide: 2,381 listings across our 15 city table, counting active and in contract together, with 132 coming soon and 136 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 604 listings across Fremont, Hayward, Milpitas, Newark and Union City. 539 are on the market and 65 are coming soon.\n• Fremont: 205 live, 166 active, 24 coming soon and 15 brand new. The median on market list price is $1,275,000 at $787 a square foot, and the typical active listing has been out 39 days.\n• The rest of the ledger: Hayward 176, Milpitas 96, Newark 70, Union City 57.\n• Across all five cities the median is $1,024,950 at $666 a square foot. 268 homes are priced under a million, and 191 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/repeat-buyers-111626.png",
-      "alt": "Donut chart: repeat buyers made 78% of U.S. home purchases from July 2025 to June 2026 (median age 62, 19% median down payment) and first-time buyers 22% (median age 40, 9% down). Local panel: on the five city median list price of $999,988, 9% down is $90,000 and $6,363 a month in principal and interest at 7.50%; 19% down is $190,000 and $5,664 a month.",
-      "caption": "Repeat buyers dominate, and their bigger down payments cut the monthly cost by about $700 on our median home.",
-      "source": "National Association of REALTORS®, 2026 Profile of Home Buyers and Sellers; Mortgage News Daily; Bay East MLS export, Nov. 16, 2026"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/seniors-mortgage-111726.png",
+      "alt": "Donut charts: 20.3% of U.S. homeowners 75 and older had a mortgage in 2010 (1.79 million) and 28.7% in 2025 (3.93 million), 2.2 times as many. Local panel: in Alameda County the share rose from 27.3% (about 8,200 homeowners) to 41.5% (about 19,600), against 39.1% in California.",
+      "caption": "More homeowners 75 and older still have a mortgage, and Alameda County runs well above the nation.",
+      "source": "U.S. Census Bureau, American Community Survey 1-year estimates, table B25027, 2010 and 2025"
     }
   },
   "stocks": {
-    "sp500": "7,469.20 (-1.22%)",
-    "dow": "52,007.68 (-0.65%)",
-    "nasdaq": "24,682.23 (-1.81%)",
-    "note": "Levels are live at 8:15 AM PT Monday, November 16, against Friday's close. The market closes at 1:00 PM PT.",
-    "news": "Stocks slipped Monday morning, led by chips. At 8:15 AM PT the S&P 500 was down 1.22%, the Nasdaq 1.81% and the Dow 0.65%, and the Philadelphia semiconductor index was off 4.44%. Fremont's Lam Research was down 5.21% and Milpitas's KLA 4.20%.\n\nNvidia, down 2.57% at $158.66, reports quarterly results Tuesday after the close, its first since Jensen Huang stepped down as chief executive. Market Briefs also expects Anthropic, the San Francisco company behind Claude, to go public this week; its filing offers 825 million shares at $70 to $78, up to about $64.4 billion. A busy week for Bay Area tickers."
+    "sp500": "7,416.59 (-1.92%)",
+    "dow": "51,608.17 (-1.41%)",
+    "nasdaq": "24,509.76 (-2.49%)",
+    "note": "Levels are Monday, November 16 at the closing bell. Live at 8:56 AM PT Tuesday: Dow down 1.61%, S&P 500 down 1.37%, Nasdaq down 1.48%.",
+    "news": "Stocks fell hard Monday, led by chips. The Nasdaq closed down 2.49% at 24,509.76, the S&P 500 down 1.92% and the Dow down 1.41%, and the Philadelphia semiconductor index lost 5.28%. Fremont's Lam Research fell 6.68% and Milpitas's KLA 5.49%.\n\nNvidia closed Monday at $156.14, down 4.12%, and reports quarterly results after the close today, its first since Jensen Huang stepped down as chief executive. Market Briefs also reports that Anthropic, the San Francisco company behind Claude, is set to begin trading Thursday. Tuesday is lower again so far."
   },
   "economy": {
-    "us10year": "5.13% (-0.02%)",
-    "gold": "$3,861.30 (-0.64%)",
-    "silver": "$46.61 (-5.11%)",
-    "wti": "$95.84 (+0.02%)",
+    "us10year": "5.12% (-0.03%)",
+    "gold": "$3,853.00 (-0.86%)",
+    "silver": "$46.86 (-4.60%)",
+    "wti": "$92.44 (-3.55%)",
     "oil_label": "Brent Crude",
-    "note": "Live at 8:15 AM PT Monday: the 10-Year is CNBC's quote against Treasury's 5.15% Friday close, gold and silver are December COMEX futures against Friday's settlements, and Brent is Friday's ICE January settlement.",
-    "commentary": "Wholesale prices rose 0.3% in October and 6.5% from a year earlier, the fastest pace since November 2022 (chart). What builders pay for the materials in a new home rose 9.8%, also the fastest since November 2022, and that cost lands in the price of new construction. With consumer prices up 0.4% in October as well, a December rate increase stays on the table.\n\nThe 10-Year Treasury yield is near 5.13%, against Friday's 5.15% close. Gold is near $3,861.30, down 0.64% from Friday's settlement, and silver has dropped 5.11% to $46.61. Brent is down about 2.5% this morning near $93.49; the card shows Friday's $95.84 settlement.",
+    "note": "Closing levels for Monday, November 16: the 10-Year is Treasury's daily close, gold and silver are December COMEX settlements, and Brent is the ICE January settlement. Live moves at 8:56 AM PT are in the commentary.",
+    "commentary": "Diesel slipped under $6 a gallon. The U.S. average was $5.94 in the Energy Information Administration's Nov. 16 survey, the first week under $6 since early September and down from the $6.53 record on Sept. 21 (chart). California is at $7.73, about $1.80 above the national average and off its own $8.25 record that week. Diesel is still up about 53% from a year ago, and it moves the trucks behind groceries and building materials alike, so a lasting slide would ease prices down the line.\n\nThe 10-Year Treasury yield closed Monday at 5.12%, down from 5.15% Friday; Market Briefs printed it up at 5.13%. Gold settled at $3,853.00 and silver at $46.86, and both are firmer this morning: gold near $3,868.30 (+0.40%) and silver near $47.46 (+1.28%). Brent settled at $92.44, down 3.55%, not the $91.68 Market Briefs printed, and is near $93.27 this morning. The 10-Year is near 5.10%.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/wholesale-prices-111626.png",
-      "alt": "Line chart, Producer Price Index change from a year earlier, not seasonally adjusted, October 2025 to October 2026: final demand rose from 2.8% to 6.5% and inputs to residential construction from 2.8% to 9.8%, both the fastest since November 2022.",
-      "caption": "Wholesale prices are up 6.5% from a year ago, and home building materials 9.8%.",
-      "source": "U.S. Bureau of Labor Statistics, Producer Price Index (October 2026 release; July to October preliminary)"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/diesel-111726.png",
+      "alt": "Line chart, average retail diesel price per gallon, weekly, Jan. 5 to Nov. 16, 2026: the U.S. average rose from $3.48 to a record $6.53 on Sept. 21 and was $5.94 on Nov. 16; California rose to a record $8.25 the same week and was $7.73 on Nov. 16.",
+      "caption": "Diesel is under $6 nationally for the first time since early September; California pays about $1.80 more.",
+      "source": "U.S. Energy Information Administration, weekly retail diesel prices, through Nov. 16, 2026"
     }
   },
   "crypto": {
-    "btc": "$64,220 (-0.61%)",
-    "eth": "$1,812.61 (+0.29%)",
-    "xrp": "$0.95 (-0.71%)",
-    "commentary": "Bitcoin slid to about $62,600 Saturday evening, its lowest since mid July, and is near $64,220, down 0.61% over the past 24 hours, live from CoinGecko at 8:15 AM PT. Ether is near $1,812.61 and XRP near $0.95. With the 10-Year Treasury above 5%, a safer yield is competing for the same money."
+    "btc": "$63,574 (-1.62%)",
+    "eth": "$1,773.73 (-2.60%)",
+    "xrp": "$0.95 (-0.15%)",
+    "commentary": "Bitcoin is near $63,574, down 1.62% over the past 24 hours, live from CoinGecko at 8:56 AM PT, after sliding to about $62,600 over the weekend, its lowest since mid July. Ether is near $1,773.73 and XRP near $0.95. Strategy, the company with the biggest bitcoin holdings, fell 7.70% Monday and is down 5.42% this morning; Market Briefs reports that MSCI will drop it from its USA index after Nov. 30."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
-    "https://www.nar.realtor/newsroom/first-time-home-buyer-share-inches-up-to-22-median-age-remains-at-record-high-of-40",
-    "https://www.bls.gov/news.release/ppi.nr0.htm",
-    "https://data.bls.gov/timeseries/WPUIP2311001",
+    "https://data.census.gov/table/ACSDT1Y2025.B25027",
+    "https://www.eia.gov/petroleum/gasdiesel/",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "https://www.cnbc.com/quotes/.SPX",
     "https://www.cnbc.com/quotes/.SOX",
@@ -55,6 +54,6 @@
     "https://www.nasdaq.com/market-activity/stocks/nvda/earnings",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/00ec2195-dda3-4f1d-ac12-8fe9dcff3463",
-  "qr_code_path": "note-qr-00ec2195.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/a84ad28a-7aa7-4ea2-8fa4-854812968dbc",
+  "qr_code_path": "note-qr-a84ad28a.png"
 }
