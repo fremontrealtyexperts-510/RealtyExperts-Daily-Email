@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/18/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/18/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing and markets recap for November 18, 2026: builder confidence fell to 25, the lowest since April 2012, new homes in our five cities lost their sales edge over resale, political ad spending set a $12.06 billion record led by California, and our Bay East board eased to 2,350 listings.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+builder confidence, NAHB Housing Market Index, new construction, housing starts, building permits, mortgage rates, Mortgage News Daily, political ad spending, AdImpact, retail sales, Nvidia earnings, S&P 500, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
