@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/19/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/19/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing and markets recap for November 19, 2026: pending home sales hit a second straight record low, homes in contract across our Bay East cities are down 29% from a year ago while supply is up 3%, and Anthropic priced the largest IPO ever at $81.34 billion.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+pending home sales, NAR, homes in contract, housing inventory, mortgage rates, Mortgage News Daily, Freddie Mac, Anthropic IPO, ANT, largest IPO, SpaceX, Fed minutes, S&P 500, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
