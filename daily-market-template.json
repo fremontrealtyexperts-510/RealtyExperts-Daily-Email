@@ -1,62 +1,61 @@
 {
-  "date": "11/19/26",
-  "time": "10:55 AM PT",
+  "date": "11/21/26",
+  "time": "3:52 PM PT",
   "real_estate": {
-    "rate_30year": "7.45%",
-    "rate_15year": "6.99%",
-    "homebuilder": "Pending home sales hit a record low nationally; here, homes in contract are down 29% from a year ago.",
-    "commentary": "Mortgage News Daily's 30-year average is 7.45% this morning, down 0.01 from Wednesday, with the 15-year at 6.99%. Freddie Mac's weekly survey, out this morning, rose to 7.28% from 7.11%, its first increase since October 8 (the newsletter's 7.35% does not match Freddie's release). On today's $1,258,995 Fremont median with 20% down, that is about $7,008 a month in principal and interest.\n\nPending home sales fell 4.7% in October and 16.7% from a year ago, NAR reported, a second straight month at a record low. The West fell hardest, down 20.3% on the year. NAR's Lawrence Yun said October \"could mark the low point in contract signings for this housing cycle.\"\n\nOur own count points the same way, and more sharply (chart). On this date a year ago, 803 homes were in contract across the 14 cities in both of our exports; today it is 570, down 29%, while homes for sale rose 3% to 1,755. That is 3.1 homes for sale for every one in contract, up from 2.1. Fremont's contracts fell from 89 to 56, Hayward's from 97 to 59 and Newark's from 35 to 24.\n\nThursday's export shows 2,313 board wide, from 2,350 Wednesday, with 131 coming soon and 105 brand new. The five city ledger is 589, from 594: Fremont (197) fell three, Hayward (170) two and Milpitas (94) one, while Newark (72) added one and Union City (56) held.\n\nWhat this means for you: buyers, with three homes on the market for every signed contract, you have time to compare and room to negotiate. Sellers, fewer buyers are signing, so price to today's comps rather than last spring's.\n\n• Board wide: 2,313 listings across our 15 city table, counting active and in contract together, with 131 coming soon and 105 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 589 listings across Fremont, Hayward, Milpitas, Newark and Union City. 524 are on the market and 65 are coming soon.\n• Fremont: 197 live, 165 active, 23 coming soon and 9 brand new. The median on market list price is $1,258,995 at $778 a square foot, and the typical active listing has been out 41 days.\n• The rest of the ledger: Hayward 170, Milpitas 94, Newark 72, Union City 56.\n• Across all five cities the median is $1,036,500 at $666 a square foot. 258 homes are priced under a million, and 187 have been sitting 60 days or longer.",
+    "rate_30year": "7.33%",
+    "rate_15year": "6.89%",
+    "homebuilder": "Rents rose nationally for the first time since 2023; here they are up 4% to 9% from a year ago.",
+    "commentary": "Friday's selloff pulled mortgage rates down with Treasury yields. Mortgage News Daily's 30-year average fell 0.12 to 7.33%, with the 15-year at 6.89%, and Freddie Mac's weekly survey on Thursday was 7.28%. On today's $1,242,321 Fremont median with 20% down, that is about $6,834 a month in principal and interest.\n\nRealtor.com's October rental report shows the median asking rent for 0 to 2 bedroom units in the 50 largest metros at $1,692, up 0.1% from a year ago, the first annual increase since June 2023. Here the climb is steeper (chart): Zillow's rent index has Milpitas up 9.4%, Union City 7.1%, Fremont 6.8%, Newark 5.5% and Hayward 3.9%, against 2.9% nationally on the same measure.\n\nIn realtor.com's latest weekly data, homes for sale are up 8.3% from a year ago, new listings are down 10.3%, and the median list price is down 1.2%, the 43rd straight week below last year. Its new construction report finds builders holding their prices while existing home prices slip.\n\nHere, supply is up 3% from this date last year across the 14 cities in both of our exports (1,710 from 1,659), while homes in contract are down 29% (567 from 803). New homes are the ones giving ground: the board's median new listing (built 2025 or 2026) asks $1,249,000, down from $1,382,750 for the newest homes a year ago, while resale rose to $899,694 from $825,000. Part of that is mix, since many new homes are townhomes.\n\nSaturday's export shows 2,262 board wide, from 2,313 Thursday, with 125 coming soon and 102 brand new. The five city ledger is 565, from 589 Thursday: Hayward (161) fell nine, Milpitas (88) six, and Fremont (194), Newark (69) and Union City (53) three each.\n\nWhat this means for you: renters, local rents are rising faster than the national headline, so price out a purchase before your lease renews. Buyers, rates just eased and fewer people are signing contracts, so there is room to negotiate.\n\n• Board wide: 2,262 listings across our 15 city table, counting active and in contract together, with 125 coming soon and 102 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 565 listings across Fremont, Hayward, Milpitas, Newark and Union City. 501 are on the market and 64 are coming soon.\n• Fremont: 194 live, 159 active, 24 coming soon and 10 brand new. The median on market list price is $1,242,321 at $769 a square foot, and the typical active listing has been out 40 days.\n• The rest of the ledger: Hayward 161, Milpitas 88, Newark 69, Union City 53.\n• Across all five cities the median is $1,000,000 at $667 a square foot. 250 homes are priced under a million, and 179 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/local-market-status-111926.png",
-      "alt": "Bar chart of change from Nov. 19, 2025 to Nov. 19, 2026 in our Bay East MLS export. Board wide (14 cities): homes for sale up 3%, 1,696 to 1,755; homes in contract down 29%, 803 to 570. Fremont for sale 173 to 197, in contract 89 to 56. Hayward 194 to 170 and 97 to 59. Newark 45 to 72 and 35 to 24. Union City 44 to 56 and 18 to 16. Homes for sale per home in contract, board wide, rose from 2.1 to 3.1.",
-      "caption": "Signed contracts are down 29% from the same day last year, while supply is up 3%.",
-      "source": "Bay East MLS export, Nov. 19, 2025 and Nov. 19, 2026"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/localrent-yoy-112126.png",
+      "alt": "Bar chart of the change in typical asking rent from October 2025 to October 2026, Zillow Observed Rent Index, all home types: Milpitas up 9.4% to $3,628, Union City up 7.1% to $2,819, Fremont up 6.8% to $3,309, Newark up 5.5% to $3,554, Hayward up 3.9% to $2,670, United States up 2.9% to $1,913.",
+      "caption": "Every one of our five cities saw rents rise faster than the nation over the past year.",
+      "source": "Zillow Observed Rent Index, October 2026"
     }
   },
   "stocks": {
-    "sp500": "7,323.63 (-0.23%)",
-    "dow": "50,198.17 (-1.11%)",
-    "nasdaq": "24,429.88 (+0.42%)",
-    "note": "Cards are Wednesday's close against Tuesday's. Thursday's live moves are in the text.",
-    "news": "Wednesday's close: the S&P 500 fell 0.23% and the Dow 1.11%, while the Nasdaq rose 0.42%. At 10:55 AM PT Thursday all three were lower: the S&P down 1.46%, the Dow down 1.70% and the Nasdaq down 1.56%.\n\nSan Francisco's Anthropic, the company behind Claude, priced its IPO Wednesday: 980 million shares at $83, raising $81.34 billion, the largest IPO ever, ahead of SpaceX's $75.0 billion in June (chart). Last week's filing called for 825 million shares at $70 to $78. Underwriters can buy 147 million more, and in a separate $26.0 billion private placement at the same price, Google and NVIDIA are each buying $10 billion. The stock opened Thursday at $111.50 under the ticker ANT, 34% above the offer price, and was at $95.13 (+14.61%) at 10:55 AM PT. A 34% pop at the open, and more than half of it gone by lunch.",
+    "sp500": "6,910.39 (-3.70%)",
+    "dow": "48,147.33 (-1.93%)",
+    "nasdaq": "22,617.73 (-5.28%)",
+    "note": "Cards are Friday's close against Thursday's. Markets are closed for the weekend.",
+    "news": "Friday's close: the S&P 500 fell 3.70%, the Dow 1.93% and the Nasdaq 5.28%, after Thursday's drop of about 2% across the board. For the week the Nasdaq lost 10.0% and the Dow 8.0%, both their worst weeks since March 2020, and the S&P 500 lost 8.6%, its worst since April 2025 (chart). The S&P 500 is now 11.6% below its October 6 record and the Dow 11.4% below its August 5 record, both in correction territory, and the Nasdaq is 18.1% off its high and below where it started the year.\n\nChips led the fall. Santa Clara's Nvidia dropped 14.01% to $125.53 on reports that SEC staff are examining its accounting, which neither the SEC nor Nvidia has confirmed; it lost 22.9% on the week. AMD fell 13.25% and Broadcom 12.19%, and the VIX fear gauge closed at 35.89, its highest since April 2025. Anthropic, which priced at $83, closed its first day Thursday at $97.17 and fell 8.50% Friday to $88.91, still above the offer price. A week to remember for all the wrong reasons.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/anthropic-ipo-priced-111926.png",
-      "alt": "Bar chart of the largest IPOs by base deal size in U.S. dollars: Anthropic, priced Nov. 18, 2026, $81.3 billion (980 million shares at $83, above the $64.4 billion top of the range it filed Nov. 10); SpaceX, June 2026, $75.0 billion; Saudi Aramco, December 2019, $25.6 billion; Alibaba, September 2014, $21.8 billion.",
-      "caption": "Anthropic's $81.34 billion raise is the largest IPO on record.",
-      "source": "SEC filings (Anthropic, SpaceX, Alibaba); Saudi Aramco"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/market-drawdown-112126.png",
+      "alt": "Line chart of how far each index closed below its record, daily from Sept. 1 to Nov. 20, 2026, with lines at 10% (correction) and 20% (bear market). On Nov. 20 the S&P 500 was 11.6% below its Oct. 6 record, the Dow 11.4% below its Aug. 5 record and the Nasdaq 18.1% below its Oct. 6 record.",
+      "caption": "The S&P 500 and Dow are in correction territory, and the Nasdaq is 18% off its high.",
+      "source": "S&P Dow Jones Indices and Nasdaq via Yahoo Finance; closes checked against CNBC"
     }
   },
   "economy": {
-    "us10year": "5.07% (-0.03%)",
-    "gold": "$3,741.90 (-3.16%)",
-    "silver": "$45.06 (-4.85%)",
-    "wti": "$91.95 (-1.28%)",
+    "us10year": "4.92% (-0.12%)",
+    "gold": "$3,515.40 (-4.62%)",
+    "silver": "$41.07 (-7.41%)",
+    "wti": "$92.57 (+0.64%)",
     "oil_label": "Brent Crude",
-    "note": "Cards are Wednesday's settlements: the 10-Year from Treasury, gold and silver December COMEX futures, Brent ICE front month (January). Thursday's moves are in the text.",
-    "commentary": "Minutes of the Fed's October 27 to 28 meeting, released Wednesday, show almost all officials judged that further rate increases would likely be appropriate, and many viewed the AI buildout as a material source of inflation risk. The committee held at 3.75% to 4% by a 10 to 2 vote, with two members preferring a quarter point hike, and a number of officials described housing as weak. The next decision is December 9. Not the holiday note mortgage shoppers were hoping for.\n\nThe 10-Year Treasury closed Wednesday at 5.07%, down 0.03. Gold settled Wednesday at $3,741.90, down 3.16%, and silver at $45.06, down 4.85%. Brent settled at $91.95, down 1.28%. The newsletter's 10-Year (5.05%), gold ($3,704, down 1.01%) and Brent ($91.80, down 0.16%) were evening quotes taken after Wednesday's close, and it left silver out. This morning gold is down 1.61% near $3,681.60, silver down 1.55% near $44.36, and Brent up 0.39% near $92.31."
+    "note": "Cards are Friday's settlements: the 10-Year from Treasury, gold and silver December COMEX futures, Brent ICE front month (January).",
+    "commentary": "Investors ran to bonds. The 10-Year Treasury closed Friday at 4.92%, down 0.12 on the day and down from 5.07% on Wednesday, and that is what pulled mortgage rates lower.\n\nMetals did not offer shelter. Gold settled Friday at $3,515.40, down 4.62%, and silver at $41.07, down 7.41%, as selling spread beyond stocks. Brent settled at $92.57, up 0.64%. When gold falls with stocks, someone needed cash."
   },
   "crypto": {
-    "btc": "$62,864 (-0.40%)",
-    "eth": "$1,778.94 (+0.58%)",
-    "xrp": "$0.97 (-0.59%)",
-    "commentary": "Bitcoin is near $62,864, down 0.40% over the past 24 hours, live from CoinGecko at 10:55 AM PT. Ether is near $1,778.94 (+0.58%) and XRP near $0.97 (-0.59%). Crypto sat still while the IPO took the spotlight."
+    "btc": "$60,156 (+2.30%)",
+    "eth": "$1,682.78 (+3.95%)",
+    "xrp": "$0.93 (+2.51%)",
+    "commentary": "Bitcoin slipped below $60,000 during Friday's selloff and is near $60,156 this afternoon, up 2.30% over the past 24 hours, live from CoinGecko at 3:52 PM PT. Ether is near $1,682.78 (+3.95%) and XRP near $0.93 (+2.51%). A small weekend bounce after a rough week."
   },
   "sources": [
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://www.freddiemac.com/pmms",
-    "https://www.nar.realtor/newsroom/pending-home-sales-decreased-4-7-percent-october-2026",
-    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
-    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
-    "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
-    "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "https://www.realtor.com/research/",
+    "https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv",
+    "https://www.upi.com/Top_News/US/2026/11/20/stocks-dow-jones-nasdaq-correction-territory/1061795214998/",
+    "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-stocks-plunge-as-ai-trade-unwinds/",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-    "https://www.cnbc.com/quotes/ANT",
     "https://www.cnbc.com/quotes/.SPX",
+    "https://www.cnbc.com/quotes/NVDA",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.cnbc.com/quotes/@SI.1",
     "https://www.cnbc.com/quotes/@LCO.1",
     "https://www.coingecko.com/"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/91724ca5-a7ff-41c1-bbd5-78a43c89d8c3",
-  "qr_code_path": "note-qr-91724ca5.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/241d9f38-8479-4781-b98f-52a975e2c074",
+  "qr_code_path": "note-qr-241d9f38.png"
 }
