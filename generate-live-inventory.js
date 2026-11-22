@@ -29,7 +29,9 @@
  *            medianLPByType, the same figures the inventory-history.json
  *            record carries, so the site's "today" overlay is exact
  *   market   the homes on the market (Active, New, Back on Market): count,
- *            medians (price, $/sq ft, days), new this week, waiting 60+,
+ *            medians (price, $/sq ft, days), new this week, new in the last
+ *            day (newLastDay, days on market 0 or 1; added 11/21/26 for the
+ *            HarvRealtor app's city screen), waiting 60+,
  *            under $1M, min/max, types, price bands, days-on-market buckets,
  *            medians by type and by status
  * The homes themselves are on the harvrealtor.com map search (the IDX).
@@ -322,7 +324,7 @@ async function buildLiveInventory({ date = null, outFile = null } = {}) {
     generatedAt: new Date().toISOString(),
     source: 'Paragon MLS daily export via REALTY EXPERTS',
     itemized: false,
-    note: 'Statistics only. No per-listing data is published; the homes themselves are on the harvrealtor.com map search.',
+    note: 'Statistics only. No per-listing data is published; the homes themselves are on the harvrealtor.com map search. In each market block, newThisWeek counts homes on the market 7 days or fewer and newLastDay 1 day or fewer.',
     statuses: LIVE_STATUSES,
     typeLabels: TYPE_LABELS,
     bandBounds: BAND_BOUNDS,
@@ -431,6 +433,7 @@ function marketBlock(rows, truncated) {
   const lpt = { DE: [], CO: [], TH: [], DU: [] };
   const lps = { ACTV: [], NEW: [], BOMK: [] };
   let newThisWeek = 0;
+  let newLastDay = 0; // days on market 0 or 1 (HarvRealtor app, 11/21/26). market only, never counts.
   let waitingSixtyPlus = 0;
   let underMillion = 0;
   let minPrice = null;
@@ -450,6 +453,7 @@ function marketBlock(rows, truncated) {
     if (typeof l.dom === 'number' && Number.isFinite(l.dom)) {
       doms.push(l.dom);
       if (l.dom <= 7) newThisWeek++;
+      if (l.dom <= 1) newLastDay++;
       if (l.dom > 60) waitingSixtyPlus++;
       domBuckets[domBucket(l.dom)]++;
     }
@@ -465,6 +469,7 @@ function marketBlock(rows, truncated) {
     medianPpsf: priced(ppsf.length ? Math.round(median(ppsf)) : null),
     medianDom: median(doms),
     newThisWeek,
+    newLastDay,
     waitingSixtyPlus,
     underMillion: priced(underMillion),
     minPrice: priced(minPrice),
