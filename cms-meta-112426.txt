@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/24/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/24/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing and markets recap for November 24, 2026: chip stocks gave back part of Monday's rally as Nvidia fell 5.86%, the Dow closed back above 50,000, mortgage rates eased to 7.32%, Baby Boomers hold 41% of America's home value, and about half of the owner-occupied homes in our five cities have a householder 55 or older.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Nvidia, chip stocks, S&P 500, Dow, Nasdaq, Anthropic, Federal Reserve, rate hike, Baby Boomers, home ownership by generation, Distributional Financial Accounts, Census, older homeowners, inherited homes, Prop. 19, mortgage rates, Mortgage News Daily, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
