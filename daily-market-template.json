@@ -1,66 +1,58 @@
 {
-  "date": "11/24/26",
-  "time": "2:43 PM PT",
+  "date": "11/25/26",
+  "time": "2:06 PM PT",
   "real_estate": {
-    "rate_30year": "7.32%",
-    "rate_15year": "6.87%",
-    "homebuilder": "Boomers hold 41% of America's home value, and half of our local owner homes have a householder 55 or older.",
-    "commentary": "Mortgage rates eased a little. Mortgage News Daily's 30-year average is 7.32%, down 0.02, with the 15-year at 6.87%. On today's $1,199,999 Fremont median with 20% down, that is about $6,595 a month in principal and interest.\n\nWho owns America's real estate? The Federal Reserve's latest data, for the second quarter of 2026, puts the value of homes owned and lived in by households at $49.8 trillion, and Baby Boomers hold $20.5 trillion of it, 41.3% (chart). Gen X holds 28.7%, Millennials and younger 22.4% (up from 11.5% at the end of 2019), and the Silent generation 7.6%. The version going around uses the fourth quarter of 2025; the Fed has published two quarters since.\n\nLocally the Census Bureau counts homes rather than dollars (chart). Averaging 2020 to 2024, about 31,700 of the 115,000 owner-occupied homes in our five cities had a householder 65 or older, and about 58,000, roughly half, had one 55 or older. Union City runs oldest at 31.6% aged 65 or older, then Hayward 30.3%, Milpitas 26.5%, Fremont 25.9% and Newark 22.8%, all below the national 33.0%.\n\nThat handoff is already showing up. Cotality data, as reported by Sherwood News in March, put inherited homes at about 17.5% of California property transfers in 2025, a record and about double the rate in the rest of the country. Some heirs move in, some rent, and some list.\n\nTuesday's export shows 2,207 board wide, from 2,244 Monday, with 132 coming soon and 79 brand new. The five city ledger is 562, from 560 Monday: Fremont (195), Hayward (162) and Union City (54) each added one, Milpitas (84) lost one, and Newark (67) held.\n\nWhat this means for you: owners 55 and older can carry their property tax base to a replacement home anywhere in California under Prop. 19, up to three times, which can make a downsize pencil. Families inheriting a home should know Prop. 19 also narrowed the parent to child tax break. Run the numbers with a tax professional before deciding to keep or sell.\n\n• Board wide: 2,207 listings across our 15 city table, counting active and in contract together, with 132 coming soon and 79 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 562 listings across Fremont, Hayward, Milpitas, Newark and Union City. 492 are on the market and 70 are coming soon.\n• Fremont: 195 live, 159 active, 26 coming soon and 8 brand new. The median on market list price is $1,199,999 at $782 a square foot, and the typical active listing has been out 41 days.\n• The rest of the ledger: Hayward 162, Milpitas 84, Newark 67, Union City 54.\n• Across all five cities the median is $999,894 at $668 a square foot. 249 homes are priced under a million, and 190 have been sitting 60 days or longer.",
-    "feature_images": [
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/real-estate-by-generation-112426.png",
-        "alt": "Bar chart of owner-occupied real estate held by U.S. households by generation, Q2 2026: Silent $3.8 trillion (7.6%), Boomers $20.5 trillion (41.3%), Gen X $14.3 trillion (28.7%), Millennials and younger $11.2 trillion (22.4%), total $49.8 trillion.",
-        "caption": "Baby Boomers hold 41.3% of the value of America's owner-occupied homes.",
-        "source": "Federal Reserve Board, Distributional Financial Accounts, Q2 2026"
-      },
-      {
-        "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/older-owners-local-112426.png",
-        "alt": "Stacked bar chart of the share of owner-occupied homes by age of householder, 2020 to 2024 average. 65 or older, then 55 or older in total: Union City 31.6% and 56.6%, Hayward 30.3% and 53.1%, Milpitas 26.5% and 48.0%, Fremont 25.9% and 48.3%, Newark 22.8% and 48.8%, Alameda County 30.5% and 51.9%, California 33.8% and 56.1%, United States 33.0% and 54.7%.",
-        "caption": "About half of the owner-occupied homes in our five cities have a householder 55 or older.",
-        "source": "U.S. Census Bureau, American Community Survey 5-year estimates, table B25007"
-      }
-    ]
-  },
-  "stocks": {
-    "sp500": "7,201.09 (-0.50%)",
-    "dow": "50,018.70 (+0.85%)",
-    "nasdaq": "23,733.54 (-1.48%)",
-    "note": "Cards are Tuesday's close against Monday's.",
-    "news": "Monday's tech rally ran out of room. The Nasdaq fell 1.48% and the S&P 500 0.50%, while the Dow rose 0.85% to 50,018.70, back above 50,000 for the first time since Nov. 18. The chips that led Monday led the way back down: Nvidia, up 31.5% Monday after its board reinstated Jensen Huang, fell 5.86% to $155.38, and the Philadelphia semiconductor index lost 7.88%, with Micron down 11.01% and AMD 8.86%. Anthropic fell 6.54% to $81.91, below its $83 offering price.\n\nNvidia's year has been a ride (chart). It closed at a record $239.24 on Oct. 6, fell to $125.53 on Nov. 20 while Huang was out, and Monday's close of $165.05 left it 11.5% below where it started the year. Tuesday's close leaves it 16.7% below.\n\nMarkets are closed Thursday for Thanksgiving, and Friday's session ends early, at 10 a.m. Pacific. Rollercoasters are more fun to watch than to ride.",
+    "rate_30year": "7.26%",
+    "rate_15year": "6.82%",
+    "homebuilder": "Bay Area home prices kept pace with inflation while the nation's slipped for a 16th month.",
+    "commentary": "Mortgage rates fell. Mortgage News Daily's 30-year average is 7.26%, down 0.06 from Tuesday and 0.20 from a week ago, with the 15-year at 6.82%. On today's $1,218,320 Fremont median with 20% down, that is about $6,655 a month in principal and interest.\n\nHome prices are rising, just not faster than everything else. S&P's Case-Shiller national index rose 2.1% in the year to September while consumer prices rose 3.7%, the 16th straight month home prices fell after inflation, S&P said Tuesday. Market Briefs had those numbers right.\n\nThe Bay Area did better (chart). The San Francisco metro index, which covers Alameda, Contra Costa, Marin, San Francisco and San Mateo counties, rose 3.73%, fifth of 19 metros and even with inflation to the rounding. Only Chicago, New York, Miami and Cleveland beat inflation.\n\nWednesday's export shows 2,157 board wide, from 2,207 Tuesday, with 139 coming soon and 66 brand new. The five city ledger is 555, from 562: Fremont (196) added one, Hayward (156) lost six, Milpitas (82) lost two, and Newark (67) and Union City (54) held.\n\nWhat this means for you: if you own here, your home has about held its value after inflation over the past year, which most of the country cannot say. If you are buying, the holiday weeks bring fewer competing buyers, and 191 homes in our five cities have been on the market 60 days or longer.\n\n• Board wide: 2,157 listings across our 15 city table, counting active and in contract together, with 139 coming soon and 66 brand new.\n\n📍 Alameda County (Fremont Focus)\n\n• Live ledger: 555 listings across Fremont, Hayward, Milpitas, Newark and Union City. 482 are on the market and 73 are coming soon.\n• Fremont: 196 live, 157 active, 28 coming soon and 9 brand new. The median on market list price is $1,218,320 at $783 a square foot, and the typical active listing has been out 41 days.\n• The rest of the ledger: Hayward 156, Milpitas 82, Newark 67, Union City 54.\n• Across all five cities the median is $999,894 at $667 a square foot. 244 homes are priced under a million, and 191 have been sitting 60 days or longer.",
     "feature_image": {
-      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/nvidia-rollercoaster-112426-close.png",
-      "alt": "Line chart of Nvidia's daily closing price from Dec. 31, 2025 ($186.50) to Nov. 24, 2026: a record close of $239.24 on Oct. 6, a 2026 low of $125.53 on Nov. 20, and $155.38 on Nov. 24, down 16.7% for the year.",
-      "caption": "Nvidia closed Tuesday down 16.7% for 2026, a day after its 31.5% jump.",
-      "source": "Nasdaq via Yahoo Finance"
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/caseshiller-112526.png",
+      "alt": "Ranked bar chart of S&P Cotality Case-Shiller home price changes in the year to September 2026 for 19 metros, against inflation of 3.74%: Chicago 6.9%, New York 5.8%, Miami 4.6%, Cleveland 4.0%, San Francisco metro 3.73% (highlighted), down to Seattle at minus 1.9%. U.S. national 2.1%.",
+      "caption": "The San Francisco metro's 3.73% gain kept pace with inflation; only four metros beat it.",
+      "source": "S&P Dow Jones Indices and Cotality; BLS"
     }
   },
+  "stocks": {
+    "sp500": "7,182.78 (-0.25%)",
+    "dow": "50,182.95 (+0.33%)",
+    "nasdaq": "23,585.80 (-0.62%)",
+    "note": "Cards are Wednesday's close against Tuesday's.",
+    "news": "Nvidia slid for a second day. It fell 3.91% to $149.30, leaving it 19.9% below where it started the year, and Micron lost 4.53%. The Nasdaq fell 0.62% and the S&P 500 0.25%, while the Dow rose 0.33% to 50,182.95. Anthropic rose 1.08% to $82.79, still below its $83 offering price.\n\nMarkets are closed Thursday for Thanksgiving, and Friday's session ends early, at 10 a.m. Pacific. Chip investors could use the long weekend."
+  },
   "economy": {
-    "us10year": "4.91% (-0.01%)",
-    "gold": "$3,561.90 (-2.45%)",
-    "silver": "$40.78 (-5.54%)",
-    "wti": "$89.37 (-3.46%)",
+    "us10year": "4.85% (-0.06%)",
+    "gold": "$3,535.80 (-0.73%)",
+    "silver": "$40.06 (-1.78%)",
+    "wti": "$91.40 (+2.27%)",
     "oil_label": "Brent Crude",
-    "note": "The 10-Year is Treasury's official Tuesday close. Gold and silver are Tuesday's December COMEX settlements. Brent is Monday's ICE settlement (January), the latest from our locked source.",
-    "commentary": "Rate hike bets are back. Futures pricing cited by Yahoo Finance on Tuesday put the odds of a quarter point Fed hike at the Dec. 8 to 9 meeting at about 95%, with the other 5% on a half point move, as Monday's AI rally stirred inflation worries again. The 10-year Treasury closed at 4.91%, down 0.01 point.\n\nMetals gave back Monday's bounce. Gold settled at $3,561.90, down 2.45%, and silver at $40.78, down 5.54%. Brent settled Monday at $89.37, down 3.46% from Friday.\n\nA holiday week will not stop the rate debate. It only shortens the trading hours for it."
+    "note": "The 10-Year is Treasury's official Wednesday close. Gold and silver are Wednesday's December COMEX settlements. Brent is Tuesday's ICE settlement (January), the latest from our locked source.",
+    "commentary": "Consumers are in a better mood. The Conference Board's consumer confidence index rose 11.4 points to 103.3 in November, back to levels last seen in January 2025, as 30.8% of consumers said jobs are plentiful, up from 26.2% in October. Plans to buy homes improved slightly, though consumers still expect 5.7% inflation over the next year.\n\nChina kept its ban on U.S.-bound gallium, germanium and antimony on hold through Jan. 27, Bloomberg reported Tuesday, extending a pause that was due to end Friday. The U.S. Geological Survey puts China's share of 2025 world production at 99% for low purity gallium, used in chips, 80% for natural graphite, used in batteries, and 36% for mined antimony, where Russia and Tajikistan together mine nearly half (chart).\n\nThe 10-year Treasury closed at 4.85%, down 0.06 point. Gold settled at $3,535.80, down 0.73%, and silver at $40.06, down 1.78%. Brent settled Tuesday at $91.40, up 2.27%.\n\nShoppers are feeling better just in time for Black Friday. Their credit cards get the final say.",
+    "feature_image": {
+      "url": "https://harvinder.dscloud.me/blog/wp-content/uploads/2026/11/china-minerals-112526.png",
+      "alt": "Stacked bar chart of China's share of world production in 2025: low purity gallium 99%, natural graphite 80% (Madagascar 5% and Tanzania 4% next), mined antimony 36% (Russia 29% and Tajikistan 20% next).",
+      "caption": "China produces 99% of the world's low purity gallium and 80% of its natural graphite.",
+      "source": "U.S. Geological Survey, Mineral Commodity Summaries 2026"
+    }
   },
   "crypto": {
-    "btc": "$59,984 (-1.88%)",
-    "eth": "$1,684.73 (-1.47%)",
-    "xrp": "$0.92 (-1.35%)",
-    "commentary": "Bitcoin held just under $60,000. It was near $59,984 at 2:40 PM PT, down 1.88% over 24 hours on CoinGecko, after seven straight weekly losses. Ether was near $1,684.73 (-1.47%) and XRP near $0.92 (-1.35%).\n\nCrypto followed tech lower again. It has not followed it higher in a while."
+    "btc": "$60,093 (+0.32%)",
+    "eth": "$1,682.53 (+0.09%)",
+    "xrp": "$0.94 (+1.78%)",
+    "commentary": "Bitcoin edged back above $60,000. It was near $60,093 at 2:05 PM PT, up 0.32% over 24 hours on CoinGecko. Ether was near $1,682.53 (+0.09%) and XRP near $0.94 (+1.78%).\n\nCrypto did not follow chips down today. After seven losing weeks, a quiet day counts as progress."
   },
   "sources": [
-    "https://www.federalreserve.gov/releases/z1/dataviz/dfa/compare/chart/",
-    "https://data.census.gov/table/ACSDT5Y2024.B25007",
-    "https://www.sherwood.news/personal-finance/inherited-homes-made-up-almost-1-in-5-property-transfers-in-california-last",
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+    "https://press.spglobal.com/2026-11-24-S-P-Cotality-Case-Shiller-Index-Reports-Annual-Gain-in-September-2026",
+    "https://www.bls.gov/cpi/",
+    "https://www.conference-board.org/topics/consumer-confidence",
+    "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/24/china-extends-pause-on-us-minerals-ban-to-maintain-truce",
     "https://www.cnbc.com/quotes/.SPX",
     "https://www.cnbc.com/quotes/@GC.1",
     "https://www.mortgagenewsdaily.com/mortgage-rates/mnd",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
-    "https://www.coingecko.com/en/coins/bitcoin",
-    "https://www.boe.ca.gov/prop19/"
+    "https://www.coingecko.com/en/coins/bitcoin"
   ],
-  "agent_hub_link": "https://teamrealtyexperts.com/share/30a75354-7b43-4ce7-8d33-194243abcc8f",
-  "qr_code_path": "note-qr-30a75354.png"
+  "agent_hub_link": "https://teamrealtyexperts.com/share/53a115cc-7c12-4bb6-a6da-d5ae337d084b",
+  "qr_code_path": "note-qr-53a115cc.png"
 }
