@@ -1,0 +1,23 @@
+════════════════════════════════
+HARVREALTOR.COM CMS METADATA — 11/25/26
+Copy/paste into the InCom "Add Blog Page" form
+═════════════════════════════════
+
+TITLE:
+"At a Glance" Local Housing STATS and News 11/25/26
+
+
+META COPYRIGHT (Optional):
+© 2026 REALTY EXPERTS®
+
+
+META DESCRIPTION (Optional — ~20 words, no HTML, max 1024 chars):
+Daily Bay Area housing and markets recap for November 25, 2026: Bay Area home prices kept pace with inflation while the national Case-Shiller index trailed it for a 16th month, mortgage rates fell to 7.26%, consumer confidence rose to 103.3, China kept its minerals pause through January, and chip stocks slid again.
+
+
+META KEYWORDS (Optional — comma-separated, max 450 chars):
+Case-Shiller, home prices, inflation, San Francisco metro, mortgage rates, Mortgage News Daily, consumer confidence, Conference Board, China, gallium, graphite, antimony, USGS, Nvidia, Micron, Anthropic, S&P 500, Dow, Nasdaq, 10-Year Treasury, gold, silver, Brent crude, Bitcoin, Bay East MLS, Fremont, Hayward, Milpitas, Newark, Union City
+
+
+ROBOTS META TAG:
+Use default setting (ALL=INDEX,FOLLOW)
