@@ -87,7 +87,10 @@ async function verifyConfirmation(sinceIso, timeoutSec = 300, pollSec = 20) {
   try { token = JSON.parse(fs.readFileSync('/tmp/ms365-token.json', 'utf8')).access_token; }
   catch { return { status: 'could-not-verify', reason: 'no MS365 token at /tmp/ms365-token.json' }; }
   const deadline = Date.now() + timeoutSec * 1000;
-  const needle = title.slice(0, 40).toLowerCase();
+  // The hub's mailer drops some characters from titles (11/26/26: '®' vanished from the subject and this check
+  // missed a delivered broadcast), so compare letters, digits and spaces only.
+  const norm = x => String(x || '').toLowerCase().replace(/[^a-z0-9 ]+/g, '').replace(/\s+/g, ' ').trim();
+  const needle = norm(title).slice(0, 40);
   let poll = 0;
   while (Date.now() < deadline) {
     poll++;
@@ -97,9 +100,9 @@ async function verifyConfirmation(sinceIso, timeoutSec = 300, pollSec = 20) {
     } catch (e) { return { status: 'could-not-verify', reason: e.message }; }
     if (data.error) return { status: 'could-not-verify', reason: data.error.message || 'graph error' };
     const hit = (data.value || []).find(m => {
-      const s = (m.subject || '').toLowerCase();
+      const s = norm(m.subject);
       const from = ((m.from || {}).emailAddress || {}).address || '';
-      return s.includes('[agent hub] confirmation') && s.includes(needle)
+      return s.includes('agent hub confirmation') && s.includes(needle)
         && from.toLowerCase() === 'fremontrealtyexperts@gmail.com'
         && m.receivedDateTime >= sinceIso;
     });
